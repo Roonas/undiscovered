@@ -24,9 +24,9 @@ recipes.addShaped("chest", <minecraft:chest>, [
 
 recipes.remove(<minecraft:furnace>);
 recipes.addShaped("furnace", <minecraft:furnace>, [
-    [<minecraft:cobblestone>,<minecraft:stone>,<minecraft:cobblestone>],
+    [<minecraft:stone>,<minecraft:stone>,<minecraft:stone>],
     [<minecraft:stone>,ironPlate,<minecraft:stone>],
-    [<minecraft:cobblestone>,<minecraft:stone>,<minecraft:cobblestone>],
+    [<minecraft:stone>,<minecraft:stone>,<minecraft:stone>],
     ]);
 
 recipes.remove(<minecraft:bucket>);
