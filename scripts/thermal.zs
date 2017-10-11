@@ -18,6 +18,7 @@ var emeraldNug = <thermalfoundation:material:17>;
 recipes.remove(ironGear);
 recipes.remove(goldGear);
 recipes.remove(copperGear);
+recipes.remove(tinGear);
 recipes.remove(electrumGear);
 recipes.remove(invarGear);
 recipes.remove(bronzeGear);
