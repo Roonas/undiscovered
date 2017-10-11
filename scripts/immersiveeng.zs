@@ -45,6 +45,9 @@ addMineral(String name, int mineralWeight, double failChance, String[] ores, dou
 var cokeBrick = <immersiveengineering:stone_decoration:0>;
 var blastBrick = <immersiveengineering:stone_decoration:1>;
 var dCream = <darkutils:material:2>;
+var steelComponent = <immersiveengineering:material:9>;
+
+recipes.remove(steelComponent);
 
 recipes.remove(cokeBrick);
 recipes.addShaped("coke brick", cokeBrick * 9, [

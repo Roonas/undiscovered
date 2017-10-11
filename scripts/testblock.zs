@@ -13,3 +13,6 @@ antiIceBlock.setToolLevel(0);
 antiIceBlock.setBlockSoundType(<soundtype:snow>);
 antiIceBlock.setSlipperiness(0.3);
 antiIceBlock.register();
+
+var testItem = VanillaFactory.createItem("mrItem");
+testItem.register();
