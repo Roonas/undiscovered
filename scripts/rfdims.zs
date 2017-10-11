@@ -6,7 +6,7 @@ var refinedObsdianBlock = <mekanism:basicblock:2>;
 
 
 recipes.remove(<rftoolsdim:dimension_enscriber>);
-recipes.addShaped("draconic core", dCore, [
+recipes.addShaped("dimension enscriber", <rftoolsdim:dimension_enscriber>, [
     [refinedObsdianBlock, refinedObsdianBlock, refinedObsdianBlock],
     [pixieDust, <rftools:machine_frame>, pixieDust],
     [starMetal, starMetal, starMetal]
