@@ -10,10 +10,12 @@ mods.rustic.Condenser.addRecipe(IItemStack output, IItemStack input1, IItemStack
 */
 
 var dCream = <darkutils:material:2>;
+var graphiteDust = <bigreactors:dustmetals:2>;
 
 mods.rustic.CrushingTub.addRecipe(<liquid:crude_oil> * 50, <minecraft:clay_ball>, <minecraft:dirt>);
 mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 5, <minecraft:brick>, <minecraft:clay_ball>);
 mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 5, dCream, <extrautils2:compresseddirt>);
+mods.rustic.CrushingTub.addRecipe(<liquid:coal> * 5, graphiteDust, <ore:ingotGraphite>;
 
 mods.rustic.EvaporatingBasin.addRecipe(<harvestcraft:saltitem>, <liquid:water> * 100);
 
