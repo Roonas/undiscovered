@@ -1,18 +1,4 @@
-/* Samples
-recipes.remove(<minecraft:bucket>);
-recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}), true);
 
-//Ore Dict
-<ore:ingotOsmium>.remove(<sgextraparts:ingot:10>);
-<ore:dustDark>.add(<evilcraft:dark_gem_crushed>);
-
-recipes.addShaped("piston",<minecraft:piston>, [
-[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
-[<quark:sturdy_stone>,<ore:stickIron>,<quark:sturdy_stone>],
-[<quark:sturdy_stone>,<actuallyadditions:item_crystal_empowered>,<quark:sturdy_stone>]
-]);
-
-*/
 var ironPlate = <immersiveengineering:metal:39>;
 
 recipes.remove(<minecraft:chest>);

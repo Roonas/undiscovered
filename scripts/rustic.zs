@@ -1,13 +1,3 @@
-/*
-CrushingTub
-mods.rustic.CrushingTub.addRecipe(output, byproduct, input);
-
-EvaporatingBasin:
-mods.rustic.EvaporatingBasin.addRecipe(output, input);
-
-Condenser:
-mods.rustic.Condenser.addRecipe(IItemStack output, IItemStack input1, IItemStack input2)
-*/
 
 var dCream = <darkutils:material:2>;
 var graphiteDust = <bigreactors:dustmetals:2>;
