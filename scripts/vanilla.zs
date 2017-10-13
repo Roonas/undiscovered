@@ -37,4 +37,6 @@ recipes.addShaped("bucket", <minecraft:bucket>, [
     ]);
 
 recipes.remove(<minecraft:flint_and_steel>);
-recipes.addShapless(<minecraft:flint_and_steel>, <minecraft:flint>, <ore:ingotSteel>)
+recipes.addShapeless(<minecraft:flint_and_steel>, [
+    <minecraft:flint>, <ore:ingotSteel>
+    ]);

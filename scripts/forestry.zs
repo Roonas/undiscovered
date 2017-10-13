@@ -48,4 +48,6 @@ recipes.addShaped("peat engine", <forestry:engine_peat>, [
     [<ore:gearWood>, <minecraft:piston>, <ore:gearWood>]
     ]);
 
-recipes.addShapeless(stickyBall * 4, [<forge:bucketfilled>.withTag({FluidName: "binnie.juice.apple", Amount: 1000}).transformReplace(<minecraft:bucket>)]);
+recipes.addShapeless(stickyBall * 4, [
+    <forge:bucketfilled>.withTag({FluidName: "binnie.juice.apple", Amount: 1000}).transformReplace(<minecraft:bucket>)
+    ]);
