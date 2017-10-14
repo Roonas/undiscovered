@@ -3,11 +3,12 @@ var dCream = <darkutils:material:2>;
 var graphiteDust = <bigreactors:dustmetals:2>;
 var graphitIngot = <bigreactors:ingotmetals:2>;
 
-mods.rustic.CrushingTub.addRecipe(<liquid:ironwine> * 1500, <minecraft:iron_ore>, <rustic:dust_tiny_iron>);
+mods.rustic.CrushingTub.addRecipe(<liquid:ironberryjuice> * 1500, <minecraft:iron_ore>, <rustic:dust_tiny_iron>);
 mods.rustic.CrushingTub.addRecipe(<liquid:crude_oil> * 50, <minecraft:clay_ball>, <minecraft:dirt>);
 mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 5, <minecraft:brick>, <minecraft:clay_ball>);
 mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 5, dCream, <extrautils2:compresseddirt>);
 mods.rustic.CrushingTub.addRecipe(<liquid:coal> * 5, graphiteDust, graphitIngot);
+mods.rustic.CrushingTub.addRecipe(<liquid:resin> * 100, <minecraft:log:3>, <minecraft:planks:3>);
 
 mods.rustic.EvaporatingBasin.addRecipe(<harvestcraft:saltitem>, <liquid:water> * 100);
 
