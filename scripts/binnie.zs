@@ -59,3 +59,15 @@ recipes.addShaped("proven gear", <extratrees:misc:3>, [
     [<forestry:oak_stick>, null, <forestry:oak_stick>], 
     [<immersiveengineering:material>, <forestry:oak_stick>, <immersiveengineering:material>]
     ]);
+
+recipes.remove(<genetics:misc:8>);
+recipes.addShaped("integrated circuit", <genetics:misc:8>, [
+    [<extrautils2:suncrystal>, null, <ore:blockLapis>], 
+    [<immersiveengineering:metal:37>, <immersiveengineering:metal:37>, <immersiveengineering:metal:37>], 
+    [<ore:blockLapis>, null, <extrautils2:suncrystal>]
+    ]);
+
+
+
+//Binnie integration broken
+//mods.extratrees.FruitPress.addRecipe(<xreliquary:mob_ingredient:6>, <liquid:evilcraftblood> * 200);

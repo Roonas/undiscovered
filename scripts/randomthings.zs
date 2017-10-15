@@ -1,4 +1,4 @@
 
 recipes.addShapeless(<randomthings:glowingmushroom>, [
-    <silentgems:glowrosefertilizer>, <ore:listAllmushroom>
+    <silentgems:glowrosefertilizer>, <botania:mushroom:*>
     ]);

@@ -9,4 +9,5 @@ recipes.addShaped("crushing table", <magneticraft:crushing_table>, [
 
 mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:storage>, <magneticraft:heavy_plates:1>, false);
 mods.magneticraft.CrushingTable.addRecipe(<magneticraft:heavy_plates:1>, <thermalfoundation:material:256>, false);
-mods.magneticraft.CrushingTable.addRecipe(<appliedenergistics2:material:45>, <appliedenergistics2:sky_stone_block>, false);
+mods.magneticraft.CrushingTable.addRecipe(<appliedenergistics2:sky_stone_block>, <appliedenergistics2:material:45>, false);
+mods.magneticraft.CrushingTable.addRecipe(<jaopca:block_blockquartzblack>, <jaopca:item_platequartzblack>, false);

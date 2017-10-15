@@ -3,6 +3,8 @@ var ironGear = <thermalfoundation:material:24>;
 var goldGear = <thermalfoundation:material:25>;
 var copperGear = <thermalfoundation:material:256>;
 var tinGear = <thermalfoundation:material:257>;
+var leadGear = <thermalfoundation:material:259>;
+var iridiumGear = <thermalfoundation:material:263>;
 var electrumGear = <thermalfoundation:material:289>;
 var invarGear = <thermalfoundation:material:290>;
 var bronzeGear = <thermalfoundation:material:291>;
@@ -19,6 +21,8 @@ recipes.remove(ironGear);
 recipes.remove(goldGear);
 recipes.remove(copperGear);
 recipes.remove(tinGear);
+recipes.remove(leadGear);
+recipes.remove(iridiumGear);
 recipes.remove(electrumGear);
 recipes.remove(invarGear);
 recipes.remove(bronzeGear);
@@ -37,4 +41,11 @@ recipes.addShaped("te frame", <thermalexpansion:frame>, [
     [<ore:ingotSilver>, <ore:stickAluminum>, <ore:ingotSilver>],
     [<ore:stickAluminum>, tinGear, <ore:stickAluminum>],
     [<ore:ingotSilver>, <ore:stickAluminum>, <ore:ingotSilver>]
+    ]);
+
+recipes.remove(<thermalexpansion:frame>);
+recipes.addShaped("BLANK", <thermalexpansion:frame>, [
+    [<ore:ingotMithril>, null, <ore:ingotMithril>], 
+    [<extendedcrafting:material>, <thermalfoundation:material:263>, <extendedcrafting:material>], 
+    [<ore:ingotMithril>, null, <ore:ingotMithril>]
     ]);

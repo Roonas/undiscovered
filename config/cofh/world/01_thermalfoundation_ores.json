@@ -114,7 +114,7 @@
 					{
 						"name": "thermalfoundation:ore",
 						"metadata": 6,
-						"weight": 60
+						"weight": 50
 					},
 					{
 						"name": "thermalfoundation:ore",
@@ -125,9 +125,9 @@
 				"material": "minecraft:stone",
 				"cluster-size": 7
 			},
-			"cluster-count": 3,
-			"min-height": 3,
-			"max-height": 25,
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 20,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {

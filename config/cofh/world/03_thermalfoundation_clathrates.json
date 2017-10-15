@@ -73,12 +73,12 @@
 					"metadata": 4
 				},
 				"material": "minecraft:end_stone",
-				"cluster-size": 24
+				"cluster-size": 12
 			},
-			"cluster-count": 10,
-			"chunk-chance": 4,
+			"cluster-count": 8,
+			"chunk-chance": 3,
 			"min-height": 10,
-			"max-height": 80,
+			"max-height": 60,
 			"retrogen": "true",
 			"biome": {
 				"restriction": "whitelist",

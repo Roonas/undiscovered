@@ -58,6 +58,8 @@ recipes.addShaped("thermionic fab", <forestry:fabricator>, [
 
 
 
+/* Forestry integration broken atm
+
 mods.forestry.Carpenter.addRecipe(<botany:clay:25>, [
     [<minecraft:clay_ball>, <minecraft:clay_ball>], 
     [<minecraft:clay_ball>, <minecraft:clay_ball>]
@@ -68,7 +70,8 @@ mods.forestry.Carpenter.addRecipe(<forestry:chipsets>.withTag({T: 0 as short}), 
     [null, <randomthings:redstoneactivator>, null], 
     [null, <immersiveengineering:wirecoil:5>, null], 
     [null, <thermalfoundation:material:321>, null]
-    ], 0);
+    ], 30);
 
 
-mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 200, [<xreliquary:mob_ingredient:6>], 0);
+mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 200, [<xreliquary:mob_ingredient:6>], 20);
+*/
