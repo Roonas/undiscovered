@@ -14,3 +14,17 @@ recipes.addShaped("scientific calculator", <calculator:scientificcalculator>, [
     [blackIron, <calculator:calculatorassembly>, blackIron],
     [<calculator:reinforcedironingot>, <calculator:reinforcedironingot>, <calculator:reinforcedironingot>]
     ]);
+
+recipes.remove(<calculator:calculatorassembly>);
+recipes.addShaped("calculator assembly", <calculator:calculatorassembly>, [
+    [<ore:concrete>, <rftools:button_module>, <ore:concrete>], 
+    [<ore:concrete>, <forestry:chipsets>.withTag({T: 0 as short}), <ore:concrete>], 
+    [<ore:concrete>, <ore:concrete>, <ore:concrete>]
+    ]);
+
+recipes.remove(<calculator:calculatorscreen>);
+recipes.addShaped("calc screen", <calculator:calculatorscreen>, [
+    [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>], 
+    [<ore:stickSteel>, <extrautils2:decorativeglass>, <ore:stickSteel>], 
+    [<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]
+    ]);

@@ -7,3 +7,10 @@ recipes.addShaped("blood extractor", <evilcraft:blood_extractor>, [
     [null, rusticHealthPot, null],
     [null, <evilcraft:dark_gem>, null]
     ]);
+
+recipes.remove(<evilcraft:blood_infuser>);
+recipes.addShaped("blood infuser", <evilcraft:blood_infuser>, [
+    [<evilcraft:condensed_blood>, <minecraft:red_nether_brick>, <evilcraft:condensed_blood>], 
+    [<minecraft:red_nether_brick>, <evilcraft:blood_infusion_core>, <minecraft:red_nether_brick>], 
+    [<evilcraft:condensed_blood>, <minecraft:red_nether_brick>, <evilcraft:condensed_blood>]
+    ]);

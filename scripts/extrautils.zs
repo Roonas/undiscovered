@@ -7,3 +7,10 @@ recipes.addShaped("exu machine block", <extrautils2:machine>, [
     [<ore:plateSteel>, leadedConcrete, <ore:plateSteel>],
     [<calculator:reinforcedironingot>, <calculator:reinforcedironingot>, <calculator:reinforcedironingot>]
     ]);
+
+recipes.remove(<extrautils2:glasscutter>);
+recipes.addShaped("glass cutter", <extrautils2:glasscutter>, [
+    [null, null, <calculator:reinforcedironingot>], 
+    [null, <immersiveengineering:material>, <calculator:reinforcedironingot>], 
+    [<calculator:reinforcedironingot>, null, null]
+    ]);

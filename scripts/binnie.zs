@@ -2,6 +2,15 @@
 var fruitPress = <extratrees:machine:4>;
 var brewery = <extratrees:machine:5>;
 var distillery = <extratrees:machine:6>;
+var reinforcedCase = <genetics:misc:0>;
+var woodCase = <actuallyadditions:block_misc:4>;
+
+recipes.remove(reinforcedCase);
+recipes.addShaped("reinforced casing", reinforcedCase, [
+    [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
+    [<ore:ingotTin>, woodCase, <ore:ingotTin>],
+    [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]
+    ]);
 
 recipes.remove(fruitPress);
 recipes.addShaped("fruit press", fruitPress, [
@@ -19,8 +28,34 @@ recipes.addShaped("brewery", brewery, [
 
 recipes.remove(distillery);
 recipes.addShaped("distillery", distillery, [
-    [<chisel:laboratory:1>, <harvestcraft:bubblywateritem>, <chisel:laboratory:1>], 
-    [<chisel:laboratory:1>, <genetics:misc>, <chisel:laboratory:1>], 
-    [<chisel:laboratory:1>, <extratrees:misc:5>, <chisel:laboratory:1>]
+    [<chisel:laboratory:*>, <harvestcraft:bubblywateritem>, <chisel:laboratory:*>], 
+    [<chisel:laboratory:*>, <genetics:misc>, <chisel:laboratory:*>], 
+    [<chisel:laboratory:*>, <extratrees:misc:5>, <chisel:laboratory:*>]
     ]);
 
+recipes.remove(<forestry:fermenter>);
+recipes.addShaped("fermenter", <forestry:fermenter>, [
+    [<magneticraft:copper_tank>, <extratrees:misc:12>, <magneticraft:copper_tank>], 
+    [<thermalfoundation:material:292>, <forestry:impregnated_casing>, <thermalfoundation:material:292>], 
+    [<immersiveengineering:metal_device1:1>, <extratrees:misc:12>, <immersiveengineering:metal_device1:1>]
+    ]);
+
+recipes.remove(<forestry:sturdy_machine>);
+recipes.addShaped("sturdy casing", <forestry:sturdy_machine>, [
+    [<botany:clay:25>, <ore:ingotCopper>, <botany:clay:25>], 
+    [<ore:ingotNickel>, <forestry:gear_copper>, <ore:ingotNickel>], 
+    [<botany:clay:25>, <ore:ingotCopper>, <botany:clay:25>]
+    ]);
+
+recipes.remove(<forestry:carpenter>);
+recipes.addShaped("carpenter", <forestry:carpenter>, [
+    [<ore:ingotCopper>, <bibliocraft:framingsaw>, <ore:ingotCopper>], 
+    [<immersiveengineering:treated_wood>, <genetics:misc>, <immersiveengineering:treated_wood>], 
+    [<mekanism:machineblock2:11>, <ore:ingotCopper>, <mekanism:machineblock2:11>]
+    ]);
+
+recipes.addShaped("proven gear", <extratrees:misc:3>, [
+    [<immersiveengineering:material>, <forestry:oak_stick>, <immersiveengineering:material>], 
+    [<forestry:oak_stick>, null, <forestry:oak_stick>], 
+    [<immersiveengineering:material>, <forestry:oak_stick>, <immersiveengineering:material>]
+    ]);
