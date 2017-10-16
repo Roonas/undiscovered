@@ -1,3 +1,6 @@
+/*=========================
+Recipe Changes - Water Strainer
+=========================*/
 
 recipes.remove(<waterstrainer:strainer_base>);
 recipes.addShaped("strainer base", <waterstrainer:strainer_base>, [

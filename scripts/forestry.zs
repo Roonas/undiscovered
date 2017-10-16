@@ -1,4 +1,3 @@
-
 var reinforcedCase = <genetics:misc:0>;
 var stickyBall = <forestry:propolis:1>;
 var moistener = <forestry:moistener:0>;
@@ -7,8 +6,23 @@ var copperGear = <thermalfoundation:material:256>;
 var ieTurntable = <immersiveengineering:wooden_device0:6>;
 var steelGear = <thermalfoundation:material:288>;
 var ironGear = <thermalfoundation:material:24>;
+var constantanGear = <thermalfoundation:material:292>;
+var mekFluidTank = <mekanism:machineblock2:11>;
+var goldClay = <botany:clay:25>;
+var externalHeater = <immersiveengineering:metal_device1:1>;
+var zombieHeart = <xreliquary:mob_ingredient:6>;
+var bucketAppleJuice = <forge:bucketfilled>.withTag({FluidName: "applejuice", Amount: 1000});
+var basicCircuit = <forestry:chipsets>.withTag({T: 0 as short});
+var hardenedFluiduct = <thermaldynamics:duct_16:2>;
+var thickenedGlass = <extrautils2:decorativeglass>;
+var treatedCrate = <immersiveengineering:wooden_device0>;
+var redstoneWire = <immersiveengineering:wirecoil:5>;
+var tinPlate = <thermalfoundation:material:321>;
+var goldGear = <thermalfoundation:material:25>;
 
-
+/*=========================
+Recipe Changes - Forestry
+=========================*/
 
 recipes.remove(moistener);
 recipes.addShaped("moistener", moistener, [
@@ -25,13 +39,13 @@ recipes.addShaped("peat engine", <forestry:engine_peat>, [
     ]);
 
 recipes.addShapeless(stickyBall * 4, [
-    <forge:bucketfilled>.withTag({FluidName: "binnie.juice.apple", Amount: 1000}).transformReplace(<minecraft:bucket>)
+    bucketAppleJuice.transformReplace(<minecraft:bucket>)
     ]);
 
 recipes.remove(<forestry:squeezer>);
 recipes.addShaped("squeezer", <forestry:squeezer>, [
     [<ore:ingotTin>, <rustic:crushing_tub>, <ore:ingotTin>], 
-    [copperGear, <forestry:sturdy_machine>, copperGear], 
+    [goldGear, <forestry:sturdy_machine>, goldGear], 
     [<ore:ingotTin>, <minecraft:piston>, <ore:ingotTin>]
     ]);
 
@@ -51,27 +65,49 @@ recipes.addShaped("still", <forestry:still>, [
 
 recipes.remove(<forestry:fabricator>);
 recipes.addShaped("thermionic fab", <forestry:fabricator>, [
-    [<extrautils2:decorativeglass>, <minecraft:crafting_table>, <extrautils2:decorativeglass>], 
-    [<forestry:chipsets>.withTag({T: 0 as short}), <forestry:hardened_machine>, <thermaldynamics:duct_16:2>], 
-    [<extrautils2:decorativeglass>, <immersiveengineering:wooden_device0>, <extrautils2:decorativeglass>]
+    [thickenedGlass, <minecraft:crafting_table>, thickenedGlass], 
+    [basicCircuit, <forestry:hardened_machine>, hardenedFluiduct], 
+    [thickenedGlass, treatedCrate, thickenedGlass]
+    ]);
+    
+recipes.remove(<forestry:fermenter>);
+recipes.addShaped("fermenter", <forestry:fermenter>, [
+    [<magneticraft:copper_tank>, reinforcedCase, <magneticraft:copper_tank>], 
+    [constantanGear, <forestry:impregnated_casing>, constantanGear], 
+    [externalHeater, reinforcedCase, externalHeater]
     ]);
 
+recipes.remove(<forestry:sturdy_machine>);
+recipes.addShaped("sturdy casing", <forestry:sturdy_machine>, [
+    [goldClay, <ore:ingotCopper>, goldClay], 
+    [<ore:ingotNickel>, <forestry:gear_copper>, <ore:ingotNickel>], 
+    [goldClay, <ore:ingotCopper>, goldClay]
+    ]);
 
+recipes.remove(<forestry:carpenter>);
+recipes.addShaped("carpenter", <forestry:carpenter>, [
+    [<ore:ingotCopper>, <bibliocraft:framingsaw>, <ore:ingotCopper>], 
+    [<immersiveengineering:treated_wood>, reinforcedCase, <immersiveengineering:treated_wood>], 
+    [mekFluidTank, <ore:ingotCopper>, mekFluidTank]
+    ]);
 
-/* Forestry integration broken atm
-
+/*=========================
+Carpenter
+=========================*/
 mods.forestry.Carpenter.addRecipe(<botany:clay:25>, [
     [<minecraft:clay_ball>, <minecraft:clay_ball>], 
     [<minecraft:clay_ball>, <minecraft:clay_ball>]
     ], 20, <fluid:honey> * 250);
 
-mods.forestry.Carpenter.removeRecipe(<forestry:chipsets>.withTag({T: 0 as short}));
-mods.forestry.Carpenter.addRecipe(<forestry:chipsets>.withTag({T: 0 as short}), [
+mods.forestry.Carpenter.removeRecipe(basicCircuit);
+mods.forestry.Carpenter.addRecipe(basicCircuit, [
     [null, <randomthings:redstoneactivator>, null], 
-    [null, <immersiveengineering:wirecoil:5>, null], 
-    [null, <thermalfoundation:material:321>, null]
+    [null, redstoneWire, null], 
+    [null, tinPlate, null]
     ], 30);
 
+/*=========================
+Squeezer
+=========================*/
+mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 200, [zombieHeart], 20);
 
-mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 200, [<xreliquary:mob_ingredient:6>], 20);
-*/

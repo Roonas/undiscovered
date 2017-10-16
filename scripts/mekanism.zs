@@ -1,5 +1,8 @@
-
 var steelCase = <mekanism:basicblock:8>;
+
+/*=========================
+Recipe Changes - Mekanism
+=========================*/
 
 recipes.remove(steelCase);
 recipes.addShaped("steel casing", steelCase, [

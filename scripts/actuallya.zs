@@ -1,28 +1,41 @@
+var ironCasing = <actuallyadditions:block_misc:9>;
+var basicCoil = <actuallyadditions:item_misc:7>;
+var advancedCoil = <actuallyadditions:item_misc:8>;
+var silverPlate = <immersiveengineering:metal:33>;
+var hvCapacitor = <immersiveengineering:metal_device0:2>;
+var aaLens = <actuallyadditions:item_misc:18>;
+var basicCircuit = <forestry:chipsets>.withTag({T: 0 as short});
+var redstoneServo = <thermalfoundation:material:512>;
+var enoriCrystal = <actuallyadditions:item_crystal:5>;
 
-recipes.remove(<actuallyadditions:block_misc:9>);
-recipes.addShaped("iron casing", <actuallyadditions:block_misc:9>, [
+/*=========================
+Recipe Changes - AA
+=========================*/
+
+recipes.remove(ironCasing);
+recipes.addShaped("iron casing", ironCasing, [
     [<calculator:reinforcedironingot>, <jaopca:item_platequartzblack>, <calculator:reinforcedironingot>], 
-    [<jaopca:item_platequartzblack>, <forestry:chipsets>.withTag({T: 0 as short}), <jaopca:item_platequartzblack>], 
+    [<jaopca:item_platequartzblack>, basicCircuit, <jaopca:item_platequartzblack>], 
     [<calculator:reinforcedironingot>, <jaopca:item_platequartzblack>, <calculator:reinforcedironingot>]
     ]);
 
 recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
 recipes.addShaped("atomic reconstructor", <actuallyadditions:block_atomic_reconstructor>, [
-    [<immersiveengineering:metal:33>, <immersiveengineering:metal:33>, <immersiveengineering:metal:33>], 
-    [<immersiveengineering:metal_device0:2>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_misc:18>], 
-    [<immersiveengineering:metal:33>, <thermalfoundation:material:512>, <immersiveengineering:metal:33>]
+    [silverPlate, silverPlate, silverPlate], 
+    [hvCapacitor, ironCasing, aaLens], 
+    [silverPlate, redstoneServo, silverPlate]
     ]);
 
-recipes.remove(<actuallyadditions:item_misc:8>);
-recipes.addShaped("advanced coil", <actuallyadditions:item_misc:8>, [
+recipes.remove(advancedCoil);
+recipes.addShaped("advanced coil", advancedCoil, [
     [<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>], 
-    [<calculator:enrichedgold>, <actuallyadditions:item_misc:7>, <calculator:enrichedgold>], 
+    [<calculator:enrichedgold>, basicCoil, <calculator:enrichedgold>], 
     [<ore:ingotElectrum>, <ore:ingotElectrum>, <ore:ingotElectrum>]
     ]);
 
-recipes.remove(<actuallyadditions:item_misc:7>);
-recipes.addShaped("basic coil", <actuallyadditions:item_misc:7>, [
+recipes.remove(basicCoil);
+recipes.addShaped("basic coil", basicCoil, [
     [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], 
-    [<actuallyadditions:item_crystal:5>, <jaopca:item_platequartzblack>, <actuallyadditions:item_crystal:5>], 
+    [enoriCrystal, <jaopca:item_platequartzblack>, enoriCrystal], 
     [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>]
     ]);

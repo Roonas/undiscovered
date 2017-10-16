@@ -1,3 +1,10 @@
+var heavyGoldPlate = <magneticraft:heavy_plates:1>;
+var skystoneDust = <appliedenergistics2:material:45>;
+var goldGear = <thermalfoundation:material:25>;
+
+/*=========================
+Recipe Changes - Magneticraft
+=========================*/
 
 recipes.remove(<magneticraft:crushing_table>);
 recipes.addShaped("crushing table", <magneticraft:crushing_table>, [
@@ -7,7 +14,10 @@ recipes.addShaped("crushing table", <magneticraft:crushing_table>, [
     ]);
 
 
-mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:storage>, <magneticraft:heavy_plates:1>, false);
-mods.magneticraft.CrushingTable.addRecipe(<magneticraft:heavy_plates:1>, <thermalfoundation:material:256>, false);
-mods.magneticraft.CrushingTable.addRecipe(<appliedenergistics2:sky_stone_block>, <appliedenergistics2:material:45>, false);
+/*=========================
+Crushing Table
+=========================*/
+mods.magneticraft.CrushingTable.addRecipe(<minecraft:gold_block>, heavyGoldPlate, false);
+mods.magneticraft.CrushingTable.addRecipe(heavyGoldPlate, goldGear, false); 
+mods.magneticraft.CrushingTable.addRecipe(<appliedenergistics2:sky_stone_block>, skystoneDust, false);
 mods.magneticraft.CrushingTable.addRecipe(<jaopca:block_blockquartzblack>, <jaopca:item_platequartzblack>, false);

@@ -1,5 +1,8 @@
-
 var blackLuminousBlock = <randomthings:luminousblock:15>;
+
+/*=========================
+Recipe Changes - Psi
+=========================*/
 
 recipes.remove(<psi:cad_assembler>);
 recipes.addShaped("cad assembler", <psi:cad_assembler>, [

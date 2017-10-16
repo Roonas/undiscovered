@@ -1,3 +1,28 @@
+var ironGear = <thermalfoundation:material:24>;
+var goldGear = <thermalfoundation:material:25>;
+var copperGear = <thermalfoundation:material:256>;
+var tinGear = <thermalfoundation:material:257>;
+var leadGear = <thermalfoundation:material:259>;
+var iridiumGear = <thermalfoundation:material:263>;
+var electrumGear = <thermalfoundation:material:289>;
+var invarGear = <thermalfoundation:material:290>;
+var bronzeGear = <thermalfoundation:material:291>;
+var constantanGear = <thermalfoundation:material:292>;
+var signalumGear = <thermalfoundation:material:293>;
+var lumiumGear = <thermalfoundation:material:294>;
+
+recipes.remove(ironGear);
+recipes.remove(goldGear);
+recipes.remove(copperGear);
+recipes.remove(tinGear);
+recipes.remove(leadGear);
+recipes.remove(iridiumGear);
+recipes.remove(electrumGear);
+recipes.remove(invarGear);
+recipes.remove(bronzeGear);
+recipes.remove(constantanGear);
+recipes.remove(signalumGear);
+recipes.remove(lumiumGear);
 recipes.removeShaped(<teslacorelib:gear_stone>);
 recipes.removeShaped(<jaopca:item_gearzircon>);
 recipes.removeShaped(<jaopca:item_gearyellorium>);
@@ -65,5 +90,5 @@ recipes.removeShaped(<jaopca:item_gearagate>);
 recipes.removeShaped(<forestry:gear_tin>);
 recipes.removeShaped(<forestry:gear_copper>);
 recipes.removeShaped(<forestry:gear_bronze>);
-recipes.removeShaped(<extratrees:misc:3>);
-recipes.removeShaped(<extrabees:misc>);
+//recipes.removeShaped(<extratrees:misc:3>); proven gear
+//recipes.removeShaped(<extrabees:misc>); scented gear

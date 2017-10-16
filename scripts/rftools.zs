@@ -1,6 +1,11 @@
-
 var steelComponent = <immersiveengineering:material:9>;
 var stevesHardener = <stevescarts:modulecomponents:19>;
+var steelRod = <immersiveengineering:material:2>;
+var vacuumTube = <immersiveengineering:material:26>;
+
+/*=========================
+Recipe Changes - RFTools
+=========================*/
 
 recipes.remove(<rftools:machine_frame>);
 recipes.addShaped("machine frame", <rftools:machine_frame>, [
@@ -12,6 +17,6 @@ recipes.addShaped("machine frame", <rftools:machine_frame>, [
 recipes.remove(<rftools:syringe>);
 recipes.addShaped("syringe", <rftools:syringe>, [
     [null, <evilcraft:dark_spike>, null], 
-    [null, <immersiveengineering:material:2>, null], 
-    [null, <immersiveengineering:material:26>, null]
+    [null, steelRod, null], 
+    [null, vacuumTube, null]
     ]);

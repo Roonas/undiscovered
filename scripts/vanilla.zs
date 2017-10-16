@@ -1,5 +1,8 @@
-
 var ironPlate = <immersiveengineering:metal:39>;
+
+/*=========================
+Recipe Changes - Vanilla
+=========================*/
 
 recipes.remove(<minecraft:chest>);
 recipes.addShaped("chest", <minecraft:chest>, [

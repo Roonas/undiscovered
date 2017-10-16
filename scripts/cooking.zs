@@ -1,3 +1,6 @@
+/*=========================
+Recipe Changes - Cooking
+=========================*/
 
 recipes.remove(<cookingforblockheads:recipe_book:2>);
 recipes.addShapeless(<cookingforblockheads:recipe_book:2>, [
