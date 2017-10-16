@@ -13,6 +13,7 @@ mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 5, dCream, <extrautils2:
 mods.rustic.CrushingTub.addRecipe(<liquid:coal> * 5, graphiteDust, graphitIngot);
 mods.rustic.CrushingTub.addRecipe(<liquid:resin> * 100, <minecraft:log:3>, <minecraft:planks:3>);
 mods.rustic.CrushingTub.addRecipe(<liquid:gold> * 250, <minecraft:gold_ore>, <actuallyadditions:item_dust:1>);
+mods.rustic.CrushingTub.addRecipe(<liquid:sewage> * 10, <minecraft:stone>, <extrautils2:compressedcobblestone>);
 
 mods.rustic.EvaporatingBasin.addRecipe(<evilcraft:condensed_blood>, <liquid:evilcraftblood> * 500);
 mods.rustic.EvaporatingBasin.addRecipe(<harvestcraft:saltitem>, <liquid:water> * 100);

@@ -8,3 +8,10 @@ recipes.addShaped("machine frame", <rftools:machine_frame>, [
     [<ore:scaffoldingSteel>, steelComponent, <ore:scaffoldingSteel>],
     [null, <ore:scaffoldingSteel>, stevesHardener]
     ]);
+
+recipes.remove(<rftools:syringe>);
+recipes.addShaped("syringe", <rftools:syringe>, [
+    [null, <evilcraft:dark_spike>, null], 
+    [null, <immersiveengineering:material:2>, null], 
+    [null, <immersiveengineering:material:26>, null]
+    ]);

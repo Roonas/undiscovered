@@ -49,3 +49,24 @@ recipes.addShaped("BLANK", <thermalexpansion:frame>, [
     [<extendedcrafting:material>, <thermalfoundation:material:263>, <extendedcrafting:material>], 
     [<ore:ingotMithril>, null, <ore:ingotMithril>]
     ]);
+
+recipes.remove(<thermalfoundation:material:513>);
+recipes.addShaped("reception coil", null, [
+    [null, null, <forestry:thermionic_tubes:4>], 
+    [null, <thermalexpansion:capacitor>.withTag({Energy: 0}), null], 
+    [<forestry:thermionic_tubes:4>, null, null]
+    ]);
+
+recipes.remove(<thermalfoundation:material:515>);
+recipes.addShaped("conductance coil", <thermalfoundation:material:515>, [
+    [null, null, <ore:plateElectrum>], 
+    [null, <extrautils2:powertransmitter>, null], 
+    [<ore:plateElectrum>, null, null]
+    ]);
+
+recipes.remove(<thermalfoundation:material:514>);
+recipes.addShaped("transmission coil", <thermalfoundation:material:514>, [
+    [null, null, <immersiveengineering:connector:6>], 
+    [null, <immersiveengineering:metal_decoration0:2>, null], 
+    [<immersiveengineering:connector:6>, null, null]
+    ]);

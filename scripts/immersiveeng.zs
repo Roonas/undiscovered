@@ -11,9 +11,11 @@ var lightEng = <immersiveengineering:metal_decoration0:4>;
 recipes.remove(steelComponent);
 recipes.remove(ironComponent);
 val iePlates = <immersiveengineering:metal>.definition;
-for toometa in 30 to 40{
+for toometa in 30 to 41{
     recipes.remove(iePlates.makeStack(toometa));
 } 
+
+recipes.addShapeless("iron plate", <immersiveengineering:metal:39>, [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <immersiveengineering:tool>]);
 
 recipes.remove(cokeBrick);
 recipes.addShaped("coke brick", cokeBrick * 9, [
@@ -58,4 +60,4 @@ mods.immersiveengineering.Blueprint.addRecipe("proven gear", <forestry:oak_stick
 
 mods.immersiveengineering.Refinery.addRecipe(<liquid:mithril> * 32, <liquid:platinum> * 16, <liquid:mutagen> * 16, 0);
 
-mods.immersiveengineering.MetalPress.addRecipe(null, <thermalfoundation:material:136>, <forestry:can:1>.withTag({Fluid: {FluidName: "mithril", Amount: 1000}}), 0);
+mods.immersiveengineering.MetalPress.addRecipe(<thermalfoundation:material:136>, <forestry:can:1>.withTag({Fluid: {FluidName: "mithril", Amount: 1000}}), <immersiveengineering:mold:7>, 0);

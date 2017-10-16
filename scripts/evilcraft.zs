@@ -5,7 +5,7 @@ recipes.remove(<evilcraft:blood_extractor>);
 recipes.addShaped("blood extractor", <evilcraft:blood_extractor>, [
     [null, <evilcraft:spikey_claws>, null],
     [null, rusticHealthPot, null],
-    [null, <evilcraft:dark_gem>, null]
+    [null, <rftools:syringe>, null]
     ]);
 
 recipes.remove(<evilcraft:blood_infuser>);

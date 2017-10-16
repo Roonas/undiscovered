@@ -5,6 +5,9 @@ var distillery = <extratrees:machine:6>;
 var reinforcedCase = <genetics:misc:0>;
 var woodCase = <actuallyadditions:block_misc:4>;
 
+
+recipes.addShaped("gold clay", <botany:clay:25>, [[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>], [<minecraft:clay_ball>, <magneticraft:heavy_plates:1>, <minecraft:clay_ball>], [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]);
+
 recipes.remove(reinforcedCase);
 recipes.addShaped("reinforced casing", reinforcedCase, [
     [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
