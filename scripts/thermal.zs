@@ -12,6 +12,9 @@ var cableConnector = <immersiveengineering:connector:6>;
 var hvCoilBlock = <immersiveengineering:metal_decoration0:2>;
 var iridiumGear = <thermalfoundation:material:263>;
 var blackIron = <extendedcrafting:material>;
+var tinGear = <ore:gearTin>;
+var refinedHardner = <stevescarts:modulecomponents:19>;
+var hardenedGlass = <thermalfoundation:glass:3>;
 
 /*=========================
 Recipe Changes - Thermal
@@ -23,12 +26,14 @@ recipes.addShaped("geode", geode, [
     [emeraldNug, emeraldNug, emeraldNug]
     ]);
 
+/*
 recipes.remove(<thermalexpansion:frame>);
 recipes.addShaped("te frame", <thermalexpansion:frame>, [
     [<ore:ingotSilver>, <ore:stickAluminum>, <ore:ingotSilver>],
     [<ore:stickAluminum>, tinGear, <ore:stickAluminum>],
     [<ore:ingotSilver>, <ore:stickAluminum>, <ore:ingotSilver>]
     ]);
+*/
 
 recipes.remove(<thermalexpansion:frame>);
 recipes.addShaped("te frame", <thermalexpansion:frame>, [
@@ -56,4 +61,10 @@ recipes.addShaped("transmission coil", transmissionCoil, [
     [null, null, cableConnector], 
     [null, hvCoilBlock, null], 
     [cableConnector, null, null]
+    ]);
+
+recipes.addShaped("hardened glass", hardenedGlass, [
+    [refinedHardner, <calculator:reinforcedironingot>, refinedHardner], 
+    [<calculator:reinforcedironingot>, <minecraft:glass>, <calculator:reinforcedironingot>], 
+    [refinedHardner, <calculator:reinforcedironingot>, refinedHardner]
     ]);

@@ -80,7 +80,7 @@ recipes.addShaped("fermenter", <forestry:fermenter>, [
 recipes.remove(<forestry:sturdy_machine>);
 recipes.addShaped("sturdy casing", <forestry:sturdy_machine>, [
     [goldClay, <ore:ingotCopper>, goldClay], 
-    [<ore:ingotNickel>, <forestry:gear_copper>, <ore:ingotNickel>], 
+    [<ore:ingotNickel>, goldGear, <ore:ingotNickel>], 
     [goldClay, <ore:ingotCopper>, goldClay]
     ]);
 

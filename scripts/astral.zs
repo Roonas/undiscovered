@@ -17,6 +17,7 @@ Light Well
 =========================*/
 
 mods.astralsorcery.Lightwell.addLiquefaction(<minecraft:iron_ingot>, <liquid:ironwine>, 1, 0.5, 0);
+mods.astralsorcery.Lightwell.addLiquefaction(<thermalfoundation:material:130>, <liquid:silver>, 0.3, 0.6, 0);
     
 /*=========================
 Starlight Infusion

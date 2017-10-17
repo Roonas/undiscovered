@@ -12,6 +12,7 @@ var bucketResin = <forge:bucketfilled>.withTag({FluidName: "resin", Amount: 1000
 var manaIngot = <thermalfoundation:material:136>;
 var mithrilCan = <forestry:can:1>.withTag({Fluid: {FluidName: "mithril", Amount: 1000}});
 var unpackingMold = <immersiveengineering:mold:7>;
+var silverBlock = <thermalfoundation:storage:2>;
 
 recipes.remove(steelComponent);
 recipes.remove(ironComponent);
@@ -81,6 +82,7 @@ Squeezer
 =========================*/
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:evilcraftblood> * 50, <ore:listAllmeatraw>, 60);
 mods.immersiveengineering.Squeezer.addRecipe(<jaopca:item_platequartzblack>, null, <jaopca:block_blockquartzblack>, 100);
+mods.immersiveengineering.Squeezer.addRecipe(<immersiveengineering:metal:33>, null, silverBlock, 100);
 
 /*=========================
 Blueprint (this might be pointless)
@@ -96,3 +98,4 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:mithril> * 32, <liquid:plat
 Metal Press
 =========================*/
 mods.immersiveengineering.MetalPress.addRecipe(manaIngot, mithrilCan, unpackingMold, 0);
+mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:metal:37>, <ore:ingotElectrum>, <immersiveengineering:mold>, 300);

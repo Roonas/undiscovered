@@ -55,6 +55,7 @@ Evaporating Basin
 =========================*/
 mods.rustic.EvaporatingBasin.addRecipe(<evilcraft:condensed_blood>, <liquid:evilcraftblood> * 500);
 mods.rustic.EvaporatingBasin.addRecipe(<harvestcraft:saltitem>, <liquid:water> * 100);
+mods.rustic.EvaporatingBasin.addRecipe(<immersiveengineering:metal:33>, <liquid:silver> * 1000);
 
 /*=========================
 Condenser
