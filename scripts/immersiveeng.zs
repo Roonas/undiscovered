@@ -13,6 +13,11 @@ var manaIngot = <thermalfoundation:material:136>;
 var mithrilCan = <forestry:can:1>.withTag({Fluid: {FluidName: "mithril", Amount: 1000}});
 var unpackingMold = <immersiveengineering:mold:7>;
 var silverBlock = <thermalfoundation:storage:2>;
+var tungstenIngot = <magneticraft:ingots:5>;
+var tungstenNug = <magneticraft:nuggets:5>;
+var tungstenChunks = <magneticraft:chunks:5>;
+var silverPlate = <immersiveengineering:metal:33>;
+var steelNug = <immersiveengineering:metal:28>;
 
 recipes.remove(steelComponent);
 recipes.remove(ironComponent);
@@ -82,7 +87,8 @@ Squeezer
 =========================*/
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:evilcraftblood> * 50, <ore:listAllmeatraw>, 60);
 mods.immersiveengineering.Squeezer.addRecipe(<jaopca:item_platequartzblack>, null, <jaopca:block_blockquartzblack>, 100);
-mods.immersiveengineering.Squeezer.addRecipe(<immersiveengineering:metal:33>, null, silverBlock, 100);
+mods.immersiveengineering.Squeezer.addRecipe(silverPlate, null, silverBlock, 100);
+mods.immersiveengineering.Squeezer.addRecipe(tungstenIngot, null, tungstenNug * 9, 1500);
 
 /*=========================
 Blueprint (this might be pointless)
@@ -99,3 +105,8 @@ Metal Press
 =========================*/
 mods.immersiveengineering.MetalPress.addRecipe(manaIngot, mithrilCan, unpackingMold, 0);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:metal:37>, <ore:ingotElectrum>, <immersiveengineering:mold>, 300);
+
+/*=========================
+Arc Furnace
+=========================*/
+mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 3000, 2000);

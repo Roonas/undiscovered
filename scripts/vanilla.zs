@@ -1,4 +1,13 @@
 var ironPlate = <immersiveengineering:metal:39>;
+var starmetalIngot = <astralsorcery:itemcraftingcomponent:1>;
+var tungstenNug = <magneticraft:nuggets:5>;
+var rockyTungsten = <magneticraft:rocky_chunks:5>;
+
+furnace.remove(starmetalIngot);
+furnace.remove(<ore:ingotElectrum>);
+furnace.remove(<ore:ingotIridium>);
+furnace.remove(<ore:ingotTungsten>);
+furnace.addRecipe(tungstenNug, rockyTungsten);
 
 /*=========================
 Recipe Changes - Vanilla
@@ -6,16 +15,16 @@ Recipe Changes - Vanilla
 
 recipes.remove(<minecraft:chest>);
 recipes.addShaped("chest", <minecraft:chest>, [
-    [<ore:plankWood>,<rustic:chain>,<ore:plankWood>],
-    [<ore:plankWood>,<rustic:chain>,<ore:plankWood>],
-    [<ore:plankWood>,<ore:logWood>,<ore:plankWood>]
+    [<ore:plankWood>, <rustic:chain>, <ore:plankWood>],
+    [<ore:plankWood>, <rustic:chain>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:logWood>, <ore:plankWood>]
     ]);
 
 recipes.remove(<minecraft:furnace>);
 recipes.addShaped("furnace", <minecraft:furnace>, [
-    [<minecraft:stone>,<minecraft:stone>,<minecraft:stone>],
-    [<minecraft:stone>,ironPlate,<minecraft:stone>],
-    [<minecraft:stone>,<minecraft:stone>,<minecraft:stone>],
+    [<minecraft:stone>, <minecraft:cobblestone>, <minecraft:stone>],
+    [<minecraft:stone>, ironPlate, <minecraft:stone>],
+    [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
     ]);
 
 recipes.remove(<minecraft:bucket>);

@@ -2,6 +2,7 @@ var steelComponent = <immersiveengineering:material:9>;
 var stevesHardener = <stevescarts:modulecomponents:19>;
 var steelRod = <immersiveengineering:material:2>;
 var vacuumTube = <immersiveengineering:material:26>;
+var tungstonIngot = <magneticraft:ingots:5>;
 
 /*=========================
 Recipe Changes - RFTools
@@ -10,7 +11,7 @@ Recipe Changes - RFTools
 recipes.remove(<rftools:machine_frame>);
 recipes.addShaped("machine frame", <rftools:machine_frame>, [
     [stevesHardener, <ore:scaffoldingSteel>, null],
-    [<ore:scaffoldingSteel>, steelComponent, <ore:scaffoldingSteel>],
+    [<ore:scaffoldingSteel>, tungstonIngot, <ore:scaffoldingSteel>],
     [null, <ore:scaffoldingSteel>, stevesHardener]
     ]);
 

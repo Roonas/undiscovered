@@ -1,6 +1,11 @@
 var heavyGoldPlate = <magneticraft:heavy_plates:1>;
 var skystoneDust = <appliedenergistics2:material:45>;
 var goldGear = <thermalfoundation:material:25>;
+var dnaBucket = <forge:bucketfilled>.withTag({FluidName: "liquiddna", Amount: 1000});
+var rockyTungsten = <magneticraft:rocky_chunks:5>;
+var crystalOilBucket = <forge:bucketfilled>.withTag({FluidName: "crystaloil", Amount: 1000});
+
+recipes.remove(<ore:ingotTungsten>);
 
 /*=========================
 Recipe Changes - Magneticraft
@@ -12,6 +17,15 @@ recipes.addShaped("crushing table", <magneticraft:crushing_table>, [
     [null, <ore:plankTreatedWood>, null], 
     [<ore:logWood>, <ore:logWood>, <ore:logWood>]
     ]);
+
+recipes.addShapeless(<magneticraft:rocky_chunks:5> * 4, [
+    <ore:oreTungsten>, dnaBucket
+    ]);
+
+recipes.addShapeless(<magneticraft:chunks:5> * 2, [
+    rockyTungsten, crystalOilBucket
+    ]);
+
 
 
 /*=========================
