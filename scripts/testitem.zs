@@ -3,9 +3,9 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Commands;
 
-var eKill = VanillaFactory.createItem("entityKiller");
+var eKill = VanillaFactory.createItem("entitykiller");
 eKill.maxStackSize = 1;
-//eKill.name("entityKiller");
+//eKill.name("entitykiller");
 eKill.itemUseAction = "BLOCK";
 eKill.glowing = true;
 eKill.itemRightClick = function(stack, world, player, hand) {

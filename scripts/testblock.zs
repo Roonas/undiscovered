@@ -13,3 +13,9 @@ antiIceBlock.setToolLevel(0);
 antiIceBlock.setBlockSoundType(<soundtype:snow>);
 antiIceBlock.setSlipperiness(0.3);
 antiIceBlock.register();
+
+var chargedIridiumOre = VanillaFactory.createBlock("charged_iridium", <blockmaterial:rock>);
+chargedIridiumOre.register();
+
+var irradiatedIridiumOre = VanillaFactory.createBlock("irradiated_iridium", <blockmaterial:rock>);
+irradiatedIridiumOre.register();
