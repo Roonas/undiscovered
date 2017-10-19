@@ -16,6 +16,9 @@ var tinGear = <ore:gearTin>;
 var refinedHardner = <stevescarts:modulecomponents:19>;
 var hardenedGlass = <thermalfoundation:glass:3>;
 
+recipes.remove(<thermalexpansion:machine>); //redstone furnace... hopefully
+recipes.remove(<thermalfoundation:material:71>);
+
 /*=========================
 Recipe Changes - Thermal
 =========================*/
@@ -68,3 +71,14 @@ recipes.addShaped("hardened glass", hardenedGlass, [
     [<calculator:reinforcedironingot>, <minecraft:glass>, <calculator:reinforcedironingot>], 
     [refinedHardner, <calculator:reinforcedironingot>, refinedHardner]
     ]);
+
+
+/*=========================
+Crucible
+=========================*/    
+mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:135>);
+
+/*=========================
+Insolator
+=========================*/
+mods.thermalexpansion.Insolator.removeRecipe(<thermalfoundation:material:71>, null);

@@ -8,6 +8,8 @@ furnace.remove(<ore:ingotElectrum>);
 furnace.remove(<ore:ingotIridium>);
 furnace.remove(<ore:ingotTungsten>);
 furnace.addRecipe(tungstenNug, rockyTungsten);
+furnace.remove(<thermalfoundation:material:135>);
+recipes.remove(<magneticraft:rocky_chunks:5>);
 
 /*=========================
 Recipe Changes - Vanilla

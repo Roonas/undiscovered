@@ -39,3 +39,10 @@ recipes.addShaped("basic coil", basicCoil, [
     [enoriCrystal, <jaopca:item_platequartzblack>, enoriCrystal], 
     [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>]
     ]);
+
+
+/*=========================
+Crusher
+=========================*/
+mods.actuallyadditions.Crusher.removeRecipe(<jaopca:item_dusttungsten>);
+mods.actuallyadditions.Crusher.removeRecipe(<thermalfoundation:material:71>);

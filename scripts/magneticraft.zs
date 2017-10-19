@@ -35,3 +35,10 @@ mods.magneticraft.CrushingTable.addRecipe(<minecraft:gold_block>, heavyGoldPlate
 mods.magneticraft.CrushingTable.addRecipe(heavyGoldPlate, goldGear, false); 
 mods.magneticraft.CrushingTable.addRecipe(<appliedenergistics2:sky_stone_block>, skystoneDust, false);
 mods.magneticraft.CrushingTable.addRecipe(<jaopca:block_blockquartzblack>, <jaopca:item_platequartzblack>, false);
+
+/*=========================
+Sluice Box
+=========================*/
+mods.magneticraft.SluiceBox.removeRecipe(<thermalfoundation:material:71>);
+mods.magneticraft.SluiceBox.removeRecipe(<jaopca:item_rockychunkiridium>);
+mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:5>);

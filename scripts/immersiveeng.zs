@@ -109,4 +109,11 @@ mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:metal:37>, 
 /*=========================
 Arc Furnace
 =========================*/
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
 mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 3000, 2000);
+
+/*=========================
+Crusher
+=========================*/
+mods.immersiveengineering.Crusher.removeRecipe(<jaopca:item_dusttungsten>);
+mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:71>);
