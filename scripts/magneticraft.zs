@@ -39,6 +39,7 @@ mods.magneticraft.CrushingTable.addRecipe(<jaopca:block_blockquartzblack>, <jaop
 /*=========================
 Sluice Box
 =========================*/
-mods.magneticraft.SluiceBox.removeRecipe(<thermalfoundation:material:71>);
-mods.magneticraft.SluiceBox.removeRecipe(<jaopca:item_rockychunkiridium>);
+//mods.magneticraft.SluiceBox.removeRecipe(<thermalfoundation:material:71>);
+//mods.magneticraft.SluiceBox.removeRecipe(<jaopca:item_rockychunkplatinum>);
+//mods.magneticraft.SluiceBox.removeRecipe(<jaopca:item_rockychunkiridium>);
 mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:5>);

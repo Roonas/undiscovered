@@ -20,7 +20,7 @@ recipes.addShapeless("starmetal ingot", <astralsorcery:itemcraftingcomponent:1>,
     starmetalOre, <botania:smeltrod>.giveBack()
     ]);
 
-recipes.addShapeless("starmetal ingot", <astralsorcery:itemcraftingcomponent:1>, [
+recipes.addShapeless("starmetal ingot2", <astralsorcery:itemcraftingcomponent:1>, [
     starmetalOre, pyrotheum
     ]);
 

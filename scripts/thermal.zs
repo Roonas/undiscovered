@@ -18,6 +18,7 @@ var hardenedGlass = <thermalfoundation:glass:3>;
 
 recipes.remove(<thermalexpansion:machine>); //redstone furnace... hopefully
 recipes.remove(<thermalfoundation:material:71>);
+recipes.remove(<thermalfoundation:material:135>);
 
 /*=========================
 Recipe Changes - Thermal
