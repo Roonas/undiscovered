@@ -83,3 +83,16 @@ mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:135>);
 Insolator
 =========================*/
 mods.thermalexpansion.Insolator.removeRecipe(<thermalfoundation:material:71>, null);
+
+/*=========================
+Induction Smelter
+=========================*/   
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:135>, <minecraft:sand:*>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<magneticraft:ores:3>, <minecraft:sand:*>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:71>, <minecraft:sand:*>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium_ore>, <minecraft:sand:*>);
+/*=========================
+Pulverizer 
+=========================*/   
+mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:ore:7>);
+mods.thermalexpansion.Pulverizer.removeRecipe(<draconicevolution:draconium_ore>);

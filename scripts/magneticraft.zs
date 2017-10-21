@@ -31,6 +31,8 @@ recipes.addShapeless(<magneticraft:chunks:5> * 2, [
 /*=========================
 Crushing Table
 =========================*/
+//mods.magneticraft.CrushingTable.removeRecipe(<thermalfoundation:ore:7>);
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:3>);
 mods.magneticraft.CrushingTable.addRecipe(<minecraft:gold_block>, heavyGoldPlate, false);
 mods.magneticraft.CrushingTable.addRecipe(heavyGoldPlate, goldGear, false); 
 mods.magneticraft.CrushingTable.addRecipe(<appliedenergistics2:sky_stone_block>, skystoneDust, false);

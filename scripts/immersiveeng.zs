@@ -71,6 +71,7 @@ recipes.addShaped("light eng block", lightEng, [
 Bottling Machine
 =========================*/
 mods.immersiveengineering.BottlingMachine.addRecipe(vodkaBottle, <minecraft:glass_bottle>, <liquid:binnie.vodka> * 1000);
+mods.immersiveengineering.BottlingMachine.addRecipe(<thermalfoundation:material:135>, <forestry:wax_cast>, <liquid:iridium> * 1000);
 
 /*=========================
 Coke Oven
@@ -110,6 +111,7 @@ mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:metal:37>, 
 Arc Furnace
 =========================*/
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
 mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 3000, 2000);
 
 /*=========================
@@ -117,3 +119,4 @@ Crusher
 =========================*/
 mods.immersiveengineering.Crusher.removeRecipe(<jaopca:item_dusttungsten>);
 mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:71>);
+mods.immersiveengineering.Crusher.removeRecipe(<draconicevolution:draconium_dust>);

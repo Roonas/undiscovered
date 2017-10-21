@@ -9,7 +9,9 @@ furnace.remove(<ore:ingotIridium>);
 furnace.remove(<ore:ingotTungsten>);
 furnace.addRecipe(tungstenNug, rockyTungsten);
 furnace.remove(<ore:ingotIridium>);
+
 recipes.remove(<magneticraft:rocky_chunks:5>);
+recipes.remove(<jaopca:item_dustdirtytungsten>);
 
 /*=========================
 Recipe Changes - Vanilla

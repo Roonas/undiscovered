@@ -5,7 +5,9 @@ import mods.contenttweaker.Commands;
 
 var eKill = VanillaFactory.createItem("entitykiller");
 eKill.maxStackSize = 1;
-//eKill.name("entitykiller");
+eKill.toolClass = "pickaxe";
+eKill.setMaxDamage(10);
+eKill.toolLevel = 5;
 eKill.itemUseAction = "BLOCK";
 eKill.glowing = true;
 eKill.itemRightClick = function(stack, world, player, hand) {
@@ -13,3 +15,4 @@ eKill.itemRightClick = function(stack, world, player, hand) {
     return "Pass";
     };
 eKill.register();
+

@@ -2,6 +2,8 @@ var dCore = <draconicevolution:draconic_core>;
 var silverCrystal = <mekanism:crystal:5>;
 var goldChaos = <silentgems:craftingmaterial:1>;
 
+recipes.remove(<draconicevolution:draconium_dust>);
+
 /*=========================
 Recipe Changes - Draconic
 =========================*/
@@ -9,6 +11,6 @@ Recipe Changes - Draconic
 recipes.remove(dCore);
 recipes.addShaped("draconic core", dCore, [
     [goldChaos, silverCrystal, goldChaos],
-    [silverCrystal, <astralsorcery:itemcelestialcrystal>, silverCrystal],
+    [silverCrystal, <thermalfoundation:coin:71>, silverCrystal],
     [goldChaos, silverCrystal, goldChaos]
     ]);

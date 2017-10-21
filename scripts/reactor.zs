@@ -7,7 +7,7 @@ Recipe Changes - Reactor
 
 recipes.remove(<bigreactors:reactorcontroller>);
 recipes.addShaped("reactor controller", <bigreactors:reactorcontroller>, [
-    [<bigreactors:reactorcasing>, crystalIngot, <bigreactors:reactorcasing>],
+    [<bigreactors:reactorcasing>, <thermalfoundation:material:136>, <bigreactors:reactorcasing>],
     [evilIngot, <rftools:machine_frame>, evilIngot],
-    [<bigreactors:reactorcasing>, crystalIngot, <bigreactors:reactorcasing>]
+    [<bigreactors:reactorcasing>, <thermalfoundation:material:136>, <bigreactors:reactorcasing>]
     ]);

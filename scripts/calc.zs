@@ -4,6 +4,7 @@ var thickenedGlass = <extrautils2:decorativeglass>;
 var empoweredEmeradic = <actuallyadditions:item_crystal_empowered:4>;
 var integratedCircuit = <genetics:misc:8>;
 var empoweredDiamatine = <actuallyadditions:item_crystal_empowered:2>;
+
 /*=========================
 Recipe Changes - Calc
 =========================*/
@@ -56,3 +57,14 @@ recipes.addShaped("flawless assembly", <calculator:flawlessassembly>, [
     [<teslacorelib:gear_diamond>, empoweredDiamatine, <teslacorelib:gear_diamond>], 
     [<ore:concrete>, <calculator:atomicmodule>, <ore:concrete>]
     ]);
+
+
+/*=========================
+Conductor Mast
+=========================*/
+mods.calculator.conductorMast.addRecipe(<thermalfoundation:ore:7>, 500000, <contenttweaker:charged_iridium>);
+
+/*=========================
+Stone Separator
+=========================*/
+mods.calculator.stoneSeparator.addRecipe(<contenttweaker:charged_iridium>, <thermalfoundation:material:71>, <extrautils2:decorativesolid:3>);

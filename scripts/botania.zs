@@ -10,7 +10,7 @@ recipes.addShaped("petal apothecary", <botania:altar>, [
     [null, <botania:petalblock:*>, null], 
     [null, polishedStone, null]
     ]);
-recipes.addShaped("petal apothecary", <botania:altar>, [
+recipes.addShaped("petal apothecary2", <botania:altar>, [
     [polishedStone, <evilcraft:blood_orb:1>, polishedStone], 
     [null, <botania:petalblock:*>, null], 
     [null, polishedStone, null]
