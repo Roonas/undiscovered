@@ -22,11 +22,12 @@ recipes.addShaped("metallurgic infuser", <mekanism:machineblock:8>, [
 /*=========================
 Crusher
 =========================*/
-mods.mekanism.crusher.removeRecipe(<thermalfoundation:ore:7>);
-mods.mekanism.crusher.removeRecipe(<draconicevolution:draconium_ore>);
+//mods.mekanism.crusher.removeRecipe(<thermalfoundation:ore:7>);
+//mods.mekanism.crusher.removeRecipe(<draconicevolution:draconium_ore>);
 
 /*=========================
 Enrichment
 =========================*/
 mods.mekanism.enrichment.removeRecipe(<draconicevolution:draconium_ore>);
 mods.mekanism.enrichment.removeRecipe(<magneticraft:ores:3>);
+mods.mekanism.enrichment.removeRecipe(<thermalfoundation:ore:7>);

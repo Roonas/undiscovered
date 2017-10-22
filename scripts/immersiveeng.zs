@@ -63,7 +63,7 @@ recipes.addShapeless(copperGrit, [
 recipes.removeShaped(lightEng);
 recipes.addShaped("light eng block", lightEng, [
     [<ore:ingotAluminium>, ironComponent, <ore:ingotAluminium>], 
-    [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], 
+    [<immersiveengineering:metal:9>, <immersiveengineering:metal:9>, <immersiveengineering:metal:9>], 
     [<ore:ingotAluminium>, ironComponent, <ore:ingotAluminium>]
     ]);
 
@@ -112,6 +112,7 @@ Arc Furnace
 =========================*/
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
 mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 3000, 2000);
 
 /*=========================

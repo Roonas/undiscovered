@@ -37,6 +37,13 @@ recipes.addShaped("retort", <rustic:retort>, [
     [null, <minecraft:bucket>,null],
     [null,<minecraft:brick>,null]
     ]);
+
+recipes.addShaped("drying basin", <rustic:evaporating_basin>, [
+    [null, null, null], 
+    [<minecraft:brick_block>, null, <minecraft:brick_block>], 
+    [null, <minecraft:brick_block>, null]
+    ]);
+
     
 /*=========================
 Crushing Tub

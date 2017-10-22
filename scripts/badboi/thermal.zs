@@ -30,7 +30,7 @@ recipes.addShaped("geode", geode, [
     [emeraldNug, emeraldNug, emeraldNug]
     ]);
 
-/* 
+/*
 recipes.remove(<thermalexpansion:frame>);
 recipes.addShaped("te frame", <thermalexpansion:frame>, [
     [<ore:ingotSilver>, <ore:stickAluminum>, <ore:ingotSilver>],
@@ -82,14 +82,14 @@ Crucible
 /*=========================
 Insolator
 =========================*/
-//mods.thermalexpansion.Insolator.removeRecipe(<thermalfoundation:material:71>, null);
+mods.thermalexpansion.Insolator.removeRecipe(<thermalfoundation:material:71>, null);
 
 /*=========================
 Induction Smelter
 =========================*/   
-//mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:135>, <minecraft:sand:*>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:135>, <minecraft:sand:*>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<magneticraft:ores:3>, <minecraft:sand:*>);
-//mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:71>, <minecraft:sand:*>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:71>, <minecraft:sand:*>);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium_ore>, <minecraft:sand:*>);
 /*=========================
 Pulverizer 

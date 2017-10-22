@@ -68,3 +68,8 @@ mods.calculator.conductorMast.addRecipe(<thermalfoundation:ore:7>, 500000, <cont
 Stone Separator
 =========================*/
 mods.calculator.stoneSeparator.addRecipe(<contenttweaker:charged_iridium>, <thermalfoundation:material:71>, <extrautils2:decorativesolid:3>);
+
+/*=========================
+Atomic Calc
+=========================*/
+mods.calculator.atomic.addRecipe(<appliedenergistics2:material:8>, <minecraft:heavy_weighted_pressure_plate>, <appliedenergistics2:material:7>, <minecraft:anvil>);

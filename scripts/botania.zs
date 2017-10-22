@@ -11,7 +11,7 @@ recipes.addShaped("petal apothecary", <botania:altar>, [
     [null, polishedStone, null]
     ]);
 recipes.addShaped("petal apothecary2", <botania:altar>, [
-    [polishedStone, <evilcraft:blood_orb:1>, polishedStone], 
+    [polishedStone, <evilcraft:dark_power_gem>, polishedStone], 
     [null, <botania:petalblock:*>, null], 
     [null, polishedStone, null]
     ]);
