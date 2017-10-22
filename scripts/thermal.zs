@@ -15,6 +15,11 @@ var blackIron = <extendedcrafting:material>;
 var tinGear = <ore:gearTin>;
 var refinedHardner = <stevescarts:modulecomponents:19>;
 var hardenedGlass = <thermalfoundation:glass:3>;
+var wolframiteOre = <magneticraft:ores:3>;
+var iridiumOre = <thermalfoundation:ore:7>;
+var platinumOre = <thermalfoundation:ore:6>;
+var richSlag = <thermalfoundation:material:865>;
+var cinnabar = <thermalfoundation:material:866>;
 
 recipes.remove(<thermalexpansion:machine>); //redstone furnace... hopefully
 recipes.remove(<thermalfoundation:material:71>);
@@ -87,12 +92,20 @@ Insolator
 /*=========================
 Induction Smelter
 =========================*/   
-//mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:135>, <minecraft:sand:*>);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<magneticraft:ores:3>, <minecraft:sand:*>);
-//mods.thermalexpansion.InductionSmelter.removeRecipe(<thermalfoundation:material:71>, <minecraft:sand:*>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(iridiumOre, <minecraft:sand:*>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(iridiumOre, richSlag);
+mods.thermalexpansion.InductionSmelter.removeRecipe(iridiumOre, cinnabar);
+mods.thermalexpansion.InductionSmelter.removeRecipe(wolframiteOre, <minecraft:sand:*>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(wolframiteOre, richSlag);
+mods.thermalexpansion.InductionSmelter.removeRecipe(wolframiteOre, cinnabar);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium_ore>, <minecraft:sand:*>);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium_ore>, richSlag);
+mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium_ore>, cinnabar);
+mods.thermalexpansion.InductionSmelter.removeRecipe(platinumOre, cinnabar);
 /*=========================
 Pulverizer 
 =========================*/   
-mods.thermalexpansion.Pulverizer.removeRecipe(<thermalfoundation:ore:7>);
+mods.thermalexpansion.Pulverizer.removeRecipe(iridiumOre);
 mods.thermalexpansion.Pulverizer.removeRecipe(<draconicevolution:draconium_ore>);
+mods.thermalexpansion.Pulverizer.removeRecipe(platinumOre);
+mods.thermalexpansion.Pulverizer.removeRecipe(wolframiteOre);

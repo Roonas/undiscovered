@@ -4,8 +4,10 @@ var goldGear = <thermalfoundation:material:25>;
 var dnaBucket = <forge:bucketfilled>.withTag({FluidName: "liquiddna", Amount: 1000});
 var rockyTungsten = <magneticraft:rocky_chunks:5>;
 var crystalOilBucket = <forge:bucketfilled>.withTag({FluidName: "crystaloil", Amount: 1000});
+var wolframiteOre = <magneticraft:ores:3>;
 
 recipes.remove(<ore:ingotTungsten>);
+recipes.remove(wolframiteOre);
 
 /*=========================
 Recipe Changes - Magneticraft
