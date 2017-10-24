@@ -16,3 +16,8 @@ eKill.itemRightClick = function(stack, world, player, hand) {
     };
 eKill.register();
 
+var advmfr = VanillaFactory.createItem("advancedcase");
+advmfr.register();
+
+var expmfr = VanillaFactory.createItem("expertcase");
+expmfr.register();
