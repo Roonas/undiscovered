@@ -1,3 +1,7 @@
 tile.contenttweaker.anti_ice.name=Anti-Ice
 tile.contenttweaker.irradiated_iridium.name=Irradiated Iridium
 tile.contenttweaker.charged_iridium.name=Charged Iridium
+item.contenttweaker.entitykiller.name=Entity Killer
+item.contenttweaker.advancedcase.name=Advanced Case
+item.contenttweaker.expertcase.name=Expert Case
+item.contenttweaker.enchantedframe.name=Enchanted Frame

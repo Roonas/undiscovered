@@ -2,6 +2,12 @@
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Commands;
+import mods.contenttweaker.IItemUse;
+import mods.contenttweaker.ActionResult;
+import mods.contenttweaker.BlockState;
+import mods.contenttweaker.World;
+import crafttweaker.block.IBlock;
+
 
 var eKill = VanillaFactory.createItem("entitykiller");
 eKill.maxStackSize = 1;
@@ -16,8 +22,24 @@ eKill.itemRightClick = function(stack, world, player, hand) {
     };
 eKill.register();
 
+var whodat = VanillaFactory.createItem("whodat");
+whodat.maxStackSize = 1;
+whodat.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    var poke = pos.getOffset(facing, 1);
+    var blocky = world.getBlockState(poke).getBlock();
+    if (world.getBlockState(poke).isReplaceable(world, poke)) {
+        world.setBlockState(<block:minecraft:dirt>, poke);
+        return ActionResult.success();
+    }
+    return ActionResult.pass();
+    };
+whodat.register();
+
 var advmfr = VanillaFactory.createItem("advancedcase");
 advmfr.register();
 
 var expmfr = VanillaFactory.createItem("expertcase");
 expmfr.register();
+
+var expframe = VanillaFactory.createItem("enchantedframe");
+expframe.register();
