@@ -35,14 +35,11 @@ recipes.addShaped("geode", geode, [
     [emeraldNug, emeraldNug, emeraldNug]
     ]);
 
-/* 
-recipes.remove(<thermalexpansion:frame>);
-recipes.addShaped("te frame", <thermalexpansion:frame>, [
-    [<ore:ingotSilver>, <ore:stickAluminum>, <ore:ingotSilver>],
-    [<ore:stickAluminum>, tinGear, <ore:stickAluminum>],
-    [<ore:ingotSilver>, <ore:stickAluminum>, <ore:ingotSilver>]
+recipes.addShaped("te enchated frame", <contenttweaker:enchantedframe>, [
+    [<minecraft:experience_bottle>, <extrautils2:ingredients:12>, <minecraft:experience_bottle>], 
+    [<extrautils2:ingredients:12>, <thermalexpansion:frame>, <extrautils2:ingredients:12>], 
+    [<minecraft:experience_bottle>, <extrautils2:ingredients:12>, <minecraft:experience_bottle>]
     ]);
-*/
 
 recipes.remove(<thermalexpansion:frame>);
 recipes.addShaped("te frame", <thermalexpansion:frame>, [
@@ -78,6 +75,47 @@ recipes.addShaped("hardened glass", hardenedGlass, [
     [refinedHardner, <calculator:reinforcedironingot>, refinedHardner]
     ]);
 
+recipes.remove(<thermalexpansion:machine:7>);
+recipes.addShaped("fractioning still", <thermalexpansion:machine:7>, [
+    [null, <ore:gearNickel>, null], 
+    [<ore:plateInvar>, <thermalexpansion:frame:64>, <ore:plateInvar>], 
+    [<extrautils2:flattransfernode:1>, <thermalfoundation:material:513>, <extrautils2:flattransfernode:1>]
+    ]);
+
+recipes.remove(<thermalexpansion:machine:10>);
+recipes.addShaped("thermal centrifuge", <thermalexpansion:machine:10>, [
+    [null, <advgenerators:turbine_rotor_steel>, null], 
+    [<ore:ingotConstantan>, <thermalexpansion:frame:64>, <ore:ingotConstantan>], 
+    [<ore:gearBronze>, <thermalfoundation:material:513>, <ore:gearBronze>]
+    ]);
+
+recipes.remove(<thermalexpansion:machine:1>);
+recipes.addShaped("te pulverizer", <thermalexpansion:machine:1>, [
+    [null, <ore:heavyPlateGold>, null], 
+    [<ore:ingotTungsten>, <contenttweaker:enchantedframe>, <ore:ingotTungsten>], 
+    [<ore:gearElectrum>, <thermalfoundation:material:513>, <ore:gearElectrum>]
+    ]);
+
+recipes.remove(<thermalexpansion:machine:6>);
+recipes.addShaped("te magma melter", <thermalexpansion:machine:6>, [
+    [null, <thermalfoundation:material:515>, null], 
+    [<evilcraft:burning_gem_stone>, <contenttweaker:enchantedframe>, <evilcraft:burning_gem_stone>], 
+    [<ore:gearInvar>, <thermalfoundation:material:513>, <ore:gearInvar>]
+    ]);
+
+recipes.remove(<thermalexpansion:machine:5>);
+recipes.addShaped("te compactor", <thermalexpansion:machine:5>, [
+    [null, <forestry:thermionic_tubes:6>, null], 
+    [<minecraft:piston>, <contenttweaker:enchantedframe>, <minecraft:piston>], 
+    [<ore:plateSteel>, <thermalfoundation:material:513>, <ore:plateSteel>]
+    ]);
+
+recipes.remove(<thermalexpansion:machine:3>);
+recipes.addShaped("te induction smelter", <thermalexpansion:machine:3>, [
+    [null, <minecraft:bucket>, null], 
+    [<actuallyadditions:block_heat_collector>, <contenttweaker:enchantedframe>, <actuallyadditions:block_heat_collector>], 
+    [<ore:gearInvar>, <thermalfoundation:material:513>, <ore:gearInvar>]
+    ]);
 
 /*=========================
 Crucible
@@ -102,6 +140,7 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium
 mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium_ore>, richSlag);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium_ore>, cinnabar);
 mods.thermalexpansion.InductionSmelter.removeRecipe(platinumOre, cinnabar);
+
 /*=========================
 Pulverizer 
 =========================*/   
@@ -109,3 +148,8 @@ mods.thermalexpansion.Pulverizer.removeRecipe(iridiumOre);
 mods.thermalexpansion.Pulverizer.removeRecipe(<draconicevolution:draconium_ore>);
 mods.thermalexpansion.Pulverizer.removeRecipe(platinumOre);
 mods.thermalexpansion.Pulverizer.removeRecipe(wolframiteOre);
+
+/*=========================
+Fluid Transposer
+=========================*/ 
+mods.thermalexpansion.Transposer.addFillRecipe(<extrautils2:ingredients:12>, <extendedcrafting:material>, <liquid:xpjuice> * 1000, 500);

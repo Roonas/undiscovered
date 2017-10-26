@@ -12,6 +12,8 @@ furnace.remove(<ore:ingotIridium>);
 
 recipes.remove(<magneticraft:rocky_chunks:5>);
 recipes.remove(<jaopca:item_dustdirtytungsten>);
+recipes.remove(<appliedfluidics:quartz_bucket_certus>);
+recipes.remove(<appliedfluidics:quartz_bucket_nether>);
 
 /*=========================
 Recipe Changes - Vanilla
@@ -41,4 +43,10 @@ recipes.addShaped("bucket", <minecraft:bucket>, [
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless(<minecraft:flint_and_steel>, [
     <minecraft:flint>, <ore:ingotSteel>
+    ]);
+
+recipes.addShaped("bucket steel", <minecraft:bucket>, [
+    [<ore:ingotSteel>, null, <ore:ingotSteel>], 
+    [null, <ore:ingotSteel>, null], 
+    [null, null, null]
     ]);

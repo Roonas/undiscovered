@@ -6,8 +6,14 @@ recipes.remove(<industrialforegoing:ore_processor>); //only process redstone/dia
 Recipe Changes - MFR
 =========================*/
 
-//recipes.remove(<teslacorelib:machine_case>);
+recipes.remove(<teslacorelib:machine_case>);
+recipes.addShaped("mfr basic case", <teslacorelib:machine_case>, [
+    [<ore:ingotSilver>, <ore:ingotAluminium>, <ore:ingotSilver>], 
+    [<ore:ingotAluminium>, <immersiveengineering:material:9>, <ore:ingotAluminium>], 
+    [<ore:ingotSilver>, <ore:ingotAluminium>, <ore:ingotSilver>]
+    ]);
 
+recipes.remove(<thermalexpansion:machine:7>);
 recipes.addShaped("machine case", <contenttweaker:expertcase>, [
     [<thermalfoundation:material:135>, <ore:wireElectrum>, <thermalfoundation:material:135>], 
     [<ore:wireElectrum>, <actuallyadditions:block_crystal_empowered>, <ore:wireElectrum>], 

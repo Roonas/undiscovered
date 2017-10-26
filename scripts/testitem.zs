@@ -22,6 +22,7 @@ eKill.itemRightClick = function(stack, world, player, hand) {
     };
 eKill.register();
 
+/*
 var whodat = VanillaFactory.createItem("whodat");
 whodat.maxStackSize = 1;
 whodat.onItemUse = function(player, world, pos, hand, facing, blockHit) {
@@ -34,6 +35,7 @@ whodat.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     return ActionResult.pass();
     };
 whodat.register();
+*/
 
 var advmfr = VanillaFactory.createItem("advancedcase");
 advmfr.register();
