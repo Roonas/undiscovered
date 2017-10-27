@@ -30,9 +30,9 @@ Recipe Changes - Thermal
 =========================*/
 
 recipes.addShaped("geode", geode, [
-    [emeraldNug, emeraldNug, emeraldNug],
-    [redstonClathrate, emeraldNug, resonateClathrate],
-    [emeraldNug, emeraldNug, emeraldNug]
+    [<botania:manaresource:18>, <botania:manaresource:18>, <botania:manaresource:18>],
+    [redstonClathrate, <botania:manaresource:18>, resonateClathrate],
+    [<botania:manaresource:18>, <botania:manaresource:18>, <botania:manaresource:18>]
     ]);
 
 recipes.addShaped("te enchated frame", <contenttweaker:enchantedframe>, [
