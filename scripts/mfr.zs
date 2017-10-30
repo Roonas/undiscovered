@@ -134,3 +134,9 @@ recipes.addShaped("mrf wireless energy", <industrialforegoing:energy_field_provi
     [<calculator:energymodule>, <thermalfoundation:material:293>, <calculator:energymodule>], 
     [<thermalfoundation:material:135>, <thermalfoundation:material:293>, <thermalfoundation:material:135>]
     ]);
+
+
+/*=========================
+Laser Drill
+=========================*/
+mods.industrialforegoing.LaserDrill.remove(<magneticraft:ores:2>);

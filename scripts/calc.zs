@@ -5,6 +5,8 @@ var empoweredEmeradic = <actuallyadditions:item_crystal_empowered:4>;
 var integratedCircuit = <genetics:misc:8>;
 var empoweredDiamatine = <actuallyadditions:item_crystal_empowered:2>;
 
+recipes.remove(<sonarcore:reinforceddirtblock>);
+
 /*=========================
 Recipe Changes - Calc
 =========================*/
@@ -72,4 +74,4 @@ mods.calculator.stoneSeparator.addRecipe(<contenttweaker:charged_iridium>, <ther
 /*=========================
 Atomic Calc
 =========================*/
-mods.calculator.atomic.addRecipe(<appliedenergistics2:material:8>, <minecraft:heavy_weighted_pressure_plate>, <appliedenergistics2:material:7>, <minecraft:anvil>);
+mods.calculator.atomic.addRecipe(<minecraft:anvil>, <appliedenergistics2:material:7>, <minecraft:heavy_weighted_pressure_plate>, <appliedenergistics2:material:8>);

@@ -1,7 +1,28 @@
 var graphiteDust = <bigreactors:dustmetals:2>;
 var skystoneDust = <appliedenergistics2:material:45>;
 var blackIron = <extendedcrafting:material>;
-
+var liquidGlowstoneCan = <forestry:can:1>.withTag({Fluid: {FluidName: "glowstone", Amount: 1000}});
+var flightRune = <silentgems:chaosrune>.withTag({chaos_buff: "silentgems:flight"});
+var ironDrumBlood = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "evilcraftblood", Amount: 256000}});
+var vazkiiHead = <minecraft:skull:3>.withTag({SkullOwner: {Id: "8c826f34-113b-4238-a173-44639c53b6e6", Name:"Vazkii"}});
+var ultimateGasPipe = <mekanism:transmitter:2>.withTag({tier: 3});
+var lithiumTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount: 128000, gasName: "lithium"}}});
+var dtTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount: 128000, gasName: "fusionfuel"}}});
+var sulfurdioxideTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount: 128000, gasName: "sulfurdioxide"}}});
+var sulfurtrioxideTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount: 128000, gasName: "sulfurtrioxide"}}});
+var etheneTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount: 128000, gasName: "ethene"}}});
+var hydrogenTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount: 128000, gasName: "hydrogen"}}});
+var sodiumTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount: 128000, gasName: "sodium"}}});
+var oxygenTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount: 128000, gasName: "oxygen"}}});
+var creativeTank = <mekanism:gastank>.withTag({tier: 1});
+var lavaDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "lava", Amount: 256000}});
+var pinkSlimeDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "if.pink_slime", Amount: 256000}});
+var concreteDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "concrete", Amount: 256000}});
+var vodkaDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 256000}});
+var appleJuiceDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "binnie.juice.apple", Amount: 256000}});
+var lubricantDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "lubricant", Amount: 256000}});
+var starlightDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "astralsorcery.liquidstarlight", Amount: 256000}});
+var mutagenDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "mutagen", Amount: 256000}});
 /*=========================
 Recipe Changes - Extended Crafting
 =========================*/
@@ -13,3 +34,139 @@ recipes.addShaped(blackIron * 4, [
     [<minecraft:iron_ingot>, graphiteDust, <minecraft:iron_ingot>]
     ]);
 
+/*=========================
+5x5
+mods.extendedcrafting.TableCrafting.addShaped(<output>, [
+    [<>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>]
+    ]);
+=========================*/
+mods.extendedcrafting.TableCrafting.addShaped(<bibliocraft:bookcasecreative>, [
+    [<bibliocraft:bigbook>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <bibliocraft:slottedbook>], 
+    [<minecraft:bookshelf>, <bibliocraft:bookcase:*>, <minecraft:enchanted_book>, <bibliocraft:bookcase:*>, <minecraft:bookshelf>], 
+    [<minecraft:bookshelf>, <bibliocraft:typesettingtable>, <minecraft:enchanted_book>, <bibliocraft:printingpress>, <minecraft:bookshelf>], 
+    [<minecraft:bookshelf>, <bibliocraft:bookcase:*>, <minecraft:enchanted_book>, <bibliocraft:bookcase:*>, <minecraft:bookshelf>], 
+    [<bibliocraft:biblioredbook>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <bibliocraft:stockroomcatalog>]
+    ]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<waterstrainer:super_worm>, [
+    [<waterstrainer:worm>, <waterstrainer:worm>, <minecraft:dirt:2>, <actuallyadditions:item_worm>, <actuallyadditions:item_worm>], 
+    [<waterstrainer:worm>, <minecraft:diamond_hoe>, <minecraft:dirt:2>, <calculator:flawlessdiamondhoe>, <actuallyadditions:item_worm>], 
+    [<minecraft:mycelium>, <minecraft:mycelium>, <botany:trowel_diamond>, <sonarcore:reinforceddirtblock>, <sonarcore:reinforceddirtblock>], 
+    [<actuallyadditions:item_worm>, <silentgems:hoe>, <randomthings:fertilizeddirt>, <actuallyadditions:item_hoe_crystal_light_blue>, <waterstrainer:worm>], 
+    [<actuallyadditions:item_worm>, <actuallyadditions:item_worm>, <randomthings:fertilizeddirt>, <waterstrainer:worm>, <waterstrainer:worm>]
+    ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<thermalcultivation:watering_can:32000>, [
+    [<thermalfoundation:fertilizer:2>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <xreliquary:mob_ingredient:9>], 
+    [<actuallyadditions:item_misc:23>, <magneticraft:water_generator>, <forestry:crated.forestry.fertilizer_compound.0>, <magneticraft:water_generator>, <calculator:broccoliseeds>], 
+    [<actuallyadditions:item_misc:23>, <forestry:crated.forestry.fertilizer_compound.0>, <xreliquary:emperor_chalice>, <forestry:crated.forestry.fertilizer_compound.0>, <calculator:broccoliseeds>], 
+    [<actuallyadditions:item_misc:23>, <magneticraft:water_generator>, <forestry:crated.forestry.fertilizer_compound.0>, <magneticraft:water_generator>, <calculator:broccoliseeds>], 
+    [<xreliquary:mob_ingredient:9>, <rustic:apple_seeds>, <rustic:apple_seeds>, <rustic:apple_seeds>, <thermalfoundation:fertilizer:2>]
+    ]);
+
+/*=========================
+7x7
+mods.extendedcrafting.TableCrafting.addShaped(<output>, [
+    [<>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>]
+    ]);  
+=========================*/
+mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:passivegenerator:6>, [
+    [<extrautils2:simpledecorative>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative:1>, <extrautils2:ineffableglass:3>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative>], 
+    [<extrautils2:simpledecorative>, <extrautils2:simpledecorative:1>, <extrautils2:passivegenerator>, <extrautils2:passivegenerator>, <extrautils2:passivegenerator>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative>], 
+    [<extrautils2:simpledecorative>, <extrautils2:ineffableglass:3>, <extrautils2:passivegenerator:5>, <extrautils2:passivegenerator:7>, <extrautils2:passivegenerator:4>, <extrautils2:ineffableglass:3>, <extrautils2:simpledecorative>], 
+    [<extrautils2:simpledecorative>, <extrautils2:ineffableglass:3>, <extrautils2:suncrystal>, <minecraft:dragon_egg>, <extrautils2:suncrystal>, <extrautils2:ineffableglass:3>, <extrautils2:simpledecorative>], 
+    [<extrautils2:simpledecorative>, <extrautils2:ineffableglass:3>, <extrautils2:passivegenerator:3>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:2>, <extrautils2:ineffableglass:3>, <extrautils2:simpledecorative>], 
+    [<extrautils2:simpledecorative>, <extrautils2:simpledecorative:1>, <extrautils2:passivegenerator:1>, <extrautils2:passivegenerator:1>, <extrautils2:passivegenerator:1>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative>], 
+    [<extrautils2:simpledecorative>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative:1>, <extrautils2:ineffableglass:3>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative>]
+    ]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<storagedrawers:upgrade_creative>, [
+    [<storagedrawers:upgrade_template>, <storagedrawers:upgrade_template>, <storagedrawers:basicdrawers>, <storagedrawers:basicdrawers>, <storagedrawers:basicdrawers>, <storagedrawers:upgrade_template>, <storagedrawers:upgrade_template>], 
+    [<storagedrawers:upgrade_template>, <storagedrawers:tape>, <actuallyadditions:block_giant_chest_large>, <actuallyadditions:block_giant_chest_large>, <actuallyadditions:block_giant_chest_large>, <storagedrawers:tape>, <storagedrawers:upgrade_template>], 
+    [<storagedrawers:basicdrawers>, <industrialforegoing:black_hole_unit>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:compdrawers>, <storagedrawers:basicdrawers>], 
+    [<storagedrawers:basicdrawers>, <industrialforegoing:black_hole_unit>, <storagedrawers:upgrade_storage:4>, <ironchest:iron_chest:5>, <storagedrawers:upgrade_storage:4>, <storagedrawers:compdrawers>, <storagedrawers:basicdrawers>], 
+    [<storagedrawers:basicdrawers>, <industrialforegoing:black_hole_unit>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:compdrawers>, <storagedrawers:basicdrawers>], 
+    [<storagedrawers:upgrade_template>, <storagedrawers:tape>, <binniecore:storage:5>, <binniecore:storage:5>, <binniecore:storage:5>, <storagedrawers:tape>, <storagedrawers:upgrade_template>], 
+    [<storagedrawers:upgrade_template>, <storagedrawers:upgrade_template>, <storagedrawers:basicdrawers>, <storagedrawers:basicdrawers>, <storagedrawers:basicdrawers>, <storagedrawers:upgrade_template>, <storagedrawers:upgrade_template>]
+    ]); 
+
+mods.extendedcrafting.TableCrafting.addShaped(<flyringbaublemod:angelring>, [
+    [<xreliquary:ender_staff>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <xreliquary:angelic_feather>], 
+    [<silentgems:craftingmaterial:18>, <actuallyadditions:item_wings_of_the_bats>, <actuallyadditions:block_misc:6>, <minecraft:elytra>.giveBack(), <actuallyadditions:block_misc:6>, <rftools:flight_module>, <silentgems:craftingmaterial:18>], 
+    [<silentgems:craftingmaterial:18>, <actuallyadditions:block_misc:6>, liquidGlowstoneCan, liquidGlowstoneCan, liquidGlowstoneCan, <actuallyadditions:block_misc:6>, <silentgems:craftingmaterial:18>], 
+    [<silentgems:craftingmaterial:18>, <openglider:hang_glider_basic>, liquidGlowstoneCan, <botania:flighttiara>, liquidGlowstoneCan, <grapplemod:hookshot>, <silentgems:craftingmaterial:18>], 
+    [<silentgems:craftingmaterial:18>, <actuallyadditions:block_misc:6>, liquidGlowstoneCan, liquidGlowstoneCan, liquidGlowstoneCan, <actuallyadditions:block_misc:6>, <silentgems:craftingmaterial:18>], 
+    [<silentgems:craftingmaterial:18>, flightRune, <actuallyadditions:block_misc:6>, <mekanism:jetpack>, <actuallyadditions:block_misc:6>, <evilcraft:broom>, <silentgems:craftingmaterial:18>], 
+    [<grapplemod:repeller>, <randomthings:plate_bouncy>, <randomthings:plate_bouncy>, <randomthings:plate_bouncy>, <randomthings:plate_bouncy>, <randomthings:plate_bouncy>, <grapplemod:launcheritem>]
+    ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<evilcraft:creative_blood_drop>, [
+    [<evilcraft:blood_orb:1>, <evilcraft:garmonbozia>, <evilcraft:garmonbozia>, ironDrumBlood, <evilcraft:garmonbozia>, <evilcraft:garmonbozia>, <evilcraft:blood_orb:1>], 
+    [<evilcraft:blood_infusion_core>, <evilcraft:vengeance_essence>, <evilcraft:vengeance_essence>, <evilcraft:inverted_potentia:1>, <evilcraft:vengeance_essence>, <evilcraft:vengeance_essence>, <evilcraft:blood_infusion_core>], 
+    [<evilcraft:bowl_of_promises:5>, <evilcraft:vengeance_essence>, <evilcraft:corrupted_tear>, <evilcraft:corrupted_tear>, <evilcraft:corrupted_tear>, <evilcraft:vengeance_essence>, <evilcraft:bowl_of_promises:5>], 
+    [<evilcraft:bowl_of_promises:5>, <evilcraft:promise_acceptor:2>, <evilcraft:promise:3>, <evilcraft:piercing_vengeance_focus>, <evilcraft:promise:4>, <evilcraft:promise_acceptor:2>, <evilcraft:bowl_of_promises:5>], 
+    [<evilcraft:bowl_of_promises:5>, <evilcraft:vengeance_essence>, <evilcraft:corrupted_tear>, <evilcraft:corrupted_tear>, <evilcraft:corrupted_tear>, <evilcraft:vengeance_essence>, <evilcraft:bowl_of_promises:5>], 
+    [<evilcraft:blood_infusion_core>, <evilcraft:vengeance_essence>, <evilcraft:vengeance_essence>, <evilcraft:inverted_potentia:1>, <evilcraft:vengeance_essence>, <evilcraft:vengeance_essence>, <evilcraft:blood_infusion_core>], 
+    [<evilcraft:blood_orb:1>, <evilcraft:garmonbozia>, <evilcraft:garmonbozia>, ironDrumBlood, <evilcraft:garmonbozia>, <evilcraft:garmonbozia>, <evilcraft:blood_orb:1>]
+    ]);
+
+/*=========================
+9x9
+mods.extendedcrafting.TableCrafting.addShaped(<output>, [
+    [<>, <>, <>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>, <>, <>], 
+    [<>, <>, <>, <>, <>, <>, <>, <>, <>]
+    ]);  
+=========================*/    
+mods.extendedcrafting.TableCrafting.addShaped(<botania:pool:1>, [
+    [<ore:runeWaterB>, <botania:storage:3>, <botania:storage:3>, <botania:storage:3>, <ore:runeSpringB>, <botania:storage:3>, <botania:storage:3>, <botania:storage:3>, <ore:runeFireB>], 
+    [<botania:storage:4>, <botania:storage:1>, <botania:storage>, <botania:storage>, <ore:runeLustB>, <botania:storage>, <botania:storage>, <botania:storage:1>, <botania:storage:4>], 
+    [<botania:storage:4>, <botania:storage>, <botania:storage:1>, <botania:storage:2>, <ore:runeWrathB>, <botania:storage:2>, <botania:storage:1>, <botania:storage>, <botania:storage:4>], 
+    [<botania:storage:4>, <botania:storage>, <botania:storage:2>, <botania:manaresource:14>, vazkiiHead, <botania:manaresource:14>, <botania:storage:2>, <botania:storage>, <botania:storage:4>], 
+    [<ore:runeManaB>, <ore:runeSlothB>, <ore:runeSummerB>, <botania:spreader:3>, <botania:pool:3>, <botania:spreader:3>, <ore:runeEnvyB>, <ore:runeGluttonyB>, <ore:runeAutumnB>], 
+    [<botania:storage:4>, <botania:storage>, <botania:storage:2>, <botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>, <botania:storage:2>, <botania:storage>, <botania:storage:4>], 
+    [<botania:storage:4>, <botania:storage>, <botania:storage:1>, <botania:storage:2>, <ore:runePrideB>, <botania:storage:2>, <botania:storage:1>, <botania:storage>, <botania:storage:4>], 
+    [<botania:storage:4>, <botania:storage:1>, <botania:storage>, <botania:storage>, <ore:runeGreedB>, <botania:storage>, <botania:storage>, <botania:storage:1>, <botania:storage:4>], 
+    [<ore:runeEarthB>, <botania:storage:3>, <botania:storage:3>, <botania:storage:3>, <ore:runeWinterB>, <botania:storage:3>, <botania:storage:3>, <botania:storage:3>, <ore:runeAirB>]
+    ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(creativeTank, [
+    [<jaopca:block_blockdimensionalshard>, <mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:controlcircuit:3>, ultimateGasPipe, <mekanism:controlcircuit:3>, <mekanism:polyethene:2>, <mekanism:polyethene:2>, <jaopca:block_blockdimensionalshard>], 
+    [<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:controlcircuit:3>, <mekanism:controlcircuit:3>, ultimateGasPipe, <mekanism:controlcircuit:3>, <mekanism:controlcircuit:3>, <mekanism:polyethene:2>, <mekanism:polyethene:2>], 
+    [<mekanism:polyethene:2>, <mekanism:atomicalloy>, lithiumTank, <ore:ingotUltimate>, ultimateGasPipe, <ore:ingotUltimate>, dtTank, <mekanism:atomicalloy>, <mekanism:polyethene:2>], 
+    [<mekanism:atomicalloy>, <mekanism:atomicalloy>, <ore:ingotUltimate>, sulfurdioxideTank, ultimateGasPipe, sulfurtrioxideTank, <ore:ingotUltimate>, <mekanism:atomicalloy>, <mekanism:atomicalloy>], 
+    [ultimateGasPipe, ultimateGasPipe, ultimateGasPipe, ultimateGasPipe, <extrautils2:drum:3>, ultimateGasPipe, ultimateGasPipe, ultimateGasPipe, ultimateGasPipe], 
+    [<mekanism:atomicalloy>, <mekanism:atomicalloy>, <ore:ingotUltimate>, etheneTank, ultimateGasPipe, hydrogenTank, <ore:ingotUltimate>, <mekanism:atomicalloy>, <mekanism:atomicalloy>], 
+    [<mekanism:polyethene:2>, <mekanism:atomicalloy>, sodiumTank, <ore:ingotUltimate>, ultimateGasPipe, <ore:ingotUltimate>, oxygenTank, <mekanism:atomicalloy>, <mekanism:polyethene:2>], 
+    [<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:controlcircuit:3>, <mekanism:controlcircuit:3>, ultimateGasPipe, <mekanism:controlcircuit:3>, <mekanism:controlcircuit:3>, <mekanism:polyethene:2>, <mekanism:polyethene:2>], 
+    [<jaopca:block_blockdimensionalshard>, <mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:controlcircuit:3>, ultimateGasPipe, <mekanism:controlcircuit:3>, <mekanism:polyethene:2>, <mekanism:polyethene:2>, <jaopca:block_blockdimensionalshard>]
+    ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<mekanism:machineblock2:11>.withTag({tier: 4}), [
+    [<thermalfoundation:storage:8>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, <thermaldynamics:duct_16:6>, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <thermalfoundation:storage:8>], 
+    [<appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, <appliedfluidics:item_part:7>, <thermaldynamics:duct_16:6>, <appliedfluidics:item_part:7>, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>], 
+    [<appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, mutagenDrum, <ore:ingotUltimate>, <thermaldynamics:duct_16:6>, <ore:ingotUltimate>, starlightDrum, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>], 
+    [<extrautils2:flattransfernode:1>, <appliedfluidics:fluid_storage_cell:3>, <ore:ingotUltimate>, lavaDrum, <thermaldynamics:duct_16:6>, pinkSlimeDrum, <ore:ingotUltimate>, <appliedfluidics:fluid_storage_cell:3>, <extrautils2:flattransfernode:1>], 
+    [<thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>, <extrautils2:drum:3>, <thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>], 
+    [<extrautils2:flattransfernode:1>, <appliedfluidics:fluid_storage_cell:3>, <ore:ingotUltimate>, vodkaDrum, <thermaldynamics:duct_16:6>, concreteDrum, <ore:ingotUltimate>, <appliedfluidics:fluid_storage_cell:3>, <extrautils2:flattransfernode:1>], 
+    [<appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, appleJuiceDrum, <ore:ingotUltimate>, <thermaldynamics:duct_16:6>, <ore:ingotUltimate>, lubricantDrum, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>], 
+    [<appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, <appliedfluidics:item_part:7>, <thermaldynamics:duct_16:6>, <appliedfluidics:item_part:7>, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>], 
+    [<thermalfoundation:storage:8>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, <thermaldynamics:duct_16:6>, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <thermalfoundation:storage:8>]
+    ]);      

@@ -30,7 +30,7 @@ recipes.remove(fruitPress);
 recipes.addShaped("fruit press", fruitPress, [
     [<ore:ingotTin>, bucketAppleJuice, <ore:ingotTin>], 
     [<jaopca:item_sticksilver>, <forestry:sturdy_machine>, <jaopca:item_sticksilver>], 
-    [<ore:ingotTin>, fluidPress, <ore:ingotTin>]
+    [<ore:ingotTin>, <minecraft:apple>, <ore:ingotTin>]
     ]);
 
 recipes.remove(brewery);

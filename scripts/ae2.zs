@@ -15,3 +15,38 @@ recipes.addShaped("crafting unit", <appliedenergistics2:crafting_unit>, [
     [<appliedenergistics2:part:16>, <appliedenergistics2:material:23>, <appliedenergistics2:part:16>], 
     [<bigreactors:ingotmetals:3>, <appliedenergistics2:material:24>, <bigreactors:ingotmetals:3>]
     ]);
+
+recipes.remove(<appliedenergistics2:chest>);
+recipes.addShaped("me chest", <appliedenergistics2:chest>, [
+    [<minecraft:glass>, <appliedenergistics2:part:180>, <minecraft:glass>], 
+    [<appliedenergistics2:part:16>, <immersiveengineering:wooden_device0>, <appliedenergistics2:part:16>], 
+    [<silentgems:craftingmaterial:30>, <ore:crystalFluix>, <silentgems:craftingmaterial:30>]
+    ]);
+
+recipes.addShapeless("silicon", <appliedenergistics2:material:5>, [
+    <extrautils2:compressedsand>, <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}})
+    ]);
+
+recipes.addShaped("1k component", <appliedenergistics2:material:35>, [[<ore:rodTin>, <appliedenergistics2:material:1>, <ore:rodTin>], [<appliedenergistics2:material:1>, <advgenerators:controller>, <appliedenergistics2:material:1>], [<ore:rodTin>, <appliedenergistics2:material:1>, <ore:rodTin>]]);
+
+recipes.remove(<appliedenergistics2:molecular_assembler>);
+recipes.addShaped("mole assembler", <appliedenergistics2:molecular_assembler>, [
+    [<thermalfoundation:material:136>, <appliedenergistics2:quartz_glass>, <thermalfoundation:material:136>], 
+    [<appliedenergistics2:material:43>, <extendedcrafting:material:16>, <appliedenergistics2:material:44>], 
+    [<thermalfoundation:material:136>, <appliedenergistics2:quartz_glass>, <thermalfoundation:material:136>]
+    ]);
+
+recipes.remove(<appliedenergistics2:matter_cannon>);
+recipes.addShaped("ae gun", <appliedenergistics2:matter_cannon>, [
+    [<ore:ingotSteel>, <ore:ingotSteel>, <xreliquary:gun_part:1>], 
+    [<appliedenergistics2:material:35>, <immersiveengineering:material:1>, null], 
+    [<ore:ingotSteel>, null, null]
+    ]);
+
+recipes.remove(<appliedfluidics:item_part:4>);
+recipes.addShaped("fluid terminal", <appliedfluidics:item_part:4>, [
+    [<minecraft:water_bucket>, <appliedenergistics2:part:180>, <minecraft:lava_bucket>],
+    [null, null, null], 
+    [null, null, null]
+    ]);
+
