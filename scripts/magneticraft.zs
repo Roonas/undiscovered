@@ -5,6 +5,7 @@ var dnaBucket = <forge:bucketfilled>.withTag({FluidName: "liquiddna", Amount: 10
 var rockyTungsten = <magneticraft:rocky_chunks:5>;
 var crystalOilBucket = <forge:bucketfilled>.withTag({FluidName: "crystaloil", Amount: 1000});
 var wolframiteOre = <magneticraft:ores:3>;
+var heavyLeadPlate = <magneticraft:heavy_plates:3>;
 
 recipes.remove(<ore:ingotTungsten>);
 recipes.remove(wolframiteOre);
@@ -39,6 +40,7 @@ mods.magneticraft.CrushingTable.addRecipe(<minecraft:gold_block>, heavyGoldPlate
 mods.magneticraft.CrushingTable.addRecipe(heavyGoldPlate, goldGear, false); 
 mods.magneticraft.CrushingTable.addRecipe(<appliedenergistics2:sky_stone_block>, skystoneDust, false);
 mods.magneticraft.CrushingTable.addRecipe(<jaopca:block_blockquartzblack>, <jaopca:item_platequartzblack>, false);
+mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:storage:3>, heavyLeadPlate, true);
 
 /*=========================
 Sluice Box

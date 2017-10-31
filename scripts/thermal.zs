@@ -117,6 +117,13 @@ recipes.addShaped("te induction smelter", <thermalexpansion:machine:3>, [
     [<ore:gearInvar>, <thermalfoundation:material:513>, <ore:gearInvar>]
     ]);
 
+recipes.addShaped("destablized redstone ore", <thermalfoundation:ore_fluid:2>, [
+    [<minecraft:stone>, <thermalfoundation:material:893>, <minecraft:stone>], 
+    [<thermalfoundation:material:893>, <thermalfoundation:material:1026>, <thermalfoundation:material:893>], 
+    [<minecraft:stone>, <thermalfoundation:material:893>, <minecraft:stone>]
+    ]);
+
+
 /*=========================
 Crucible
 =========================*/    
@@ -153,3 +160,9 @@ mods.thermalexpansion.Pulverizer.removeRecipe(wolframiteOre);
 Fluid Transposer
 =========================*/ 
 mods.thermalexpansion.Transposer.addFillRecipe(<extrautils2:ingredients:12>, <extendedcrafting:material>, <liquid:xpjuice> * 1000, 500);
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:sand>, <liquid:redstone>);
+
+/*=========================
+Refinery
+=========================*/    
+mods.thermalexpansion.Refinery.addRecipe(<liquid:aerotheum> * 500, <thermalfoundation:material:1026>, <liquid:binnie.spirit.neutral> * 300, 50);

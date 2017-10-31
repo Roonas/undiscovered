@@ -72,6 +72,20 @@ Stone Separator
 mods.calculator.stoneSeparator.addRecipe(<contenttweaker:charged_iridium>, <thermalfoundation:material:71>, <extrautils2:decorativesolid:3>);
 
 /*=========================
+Algorithmic Separator
+=========================*/
+mods.calculator.algorithmSeparator.removeRecipe(<calculator:redstoneingot>, <calculator:smallstone>);
+mods.calculator.algorithmSeparator.addRecipe(<thermalfoundation:ore_fluid:2>, <calculator:redstoneingot>, <sonarcore:reinforcedstoneblock>);
+
+
+/*=========================
 Atomic Calc
 =========================*/
 mods.calculator.atomic.addRecipe(<minecraft:anvil>, <appliedenergistics2:material:7>, <minecraft:heavy_weighted_pressure_plate>, <appliedenergistics2:material:8>);
+
+/*=========================
+Scientific Calc
+=========================*/
+mods.calculator.scientific.removeRecipe(<calculator:redstoneingot>);
+
+

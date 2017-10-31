@@ -14,7 +14,7 @@ var etheneTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount:
 var hydrogenTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount: 128000, gasName: "hydrogen"}}});
 var sodiumTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount: 128000, gasName: "sodium"}}});
 var oxygenTank = <mekanism:gastank>.withTag({tier: 1, mekData: {stored: {amount: 128000, gasName: "oxygen"}}});
-var creativeTank = <mekanism:gastank>.withTag({tier: 1});
+var creativeTank = <mekanism:gastank>.withTag({tier: 4});
 var lavaDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "lava", Amount: 256000}});
 var pinkSlimeDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "if.pink_slime", Amount: 256000}});
 var concreteDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "concrete", Amount: 256000}});
@@ -23,6 +23,7 @@ var appleJuiceDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "binnie.ju
 var lubricantDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "lubricant", Amount: 256000}});
 var starlightDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "astralsorcery.liquidstarlight", Amount: 256000}});
 var mutagenDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "mutagen", Amount: 256000}});
+var ultimateInduction = <mekanism:basicblock2:3>.withTag({tier: 3});
 /*=========================
 Recipe Changes - Extended Crafting
 =========================*/
@@ -103,7 +104,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<storagedrawers:upgrade_creative>,
 
 mods.extendedcrafting.TableCrafting.addShaped(<flyringbaublemod:angelring>, [
     [<xreliquary:ender_staff>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <xreliquary:angelic_feather>], 
-    [<silentgems:craftingmaterial:18>, <actuallyadditions:item_wings_of_the_bats>, <actuallyadditions:block_misc:6>, <minecraft:elytra>.giveBack(), <actuallyadditions:block_misc:6>, <rftools:flight_module>, <silentgems:craftingmaterial:18>], 
+    [<silentgems:craftingmaterial:18>, <actuallyadditions:item_wings_of_the_bats>, <actuallyadditions:block_misc:6>, <minecraft:elytra>, <actuallyadditions:block_misc:6>, <rftools:flight_module>, <silentgems:craftingmaterial:18>], 
     [<silentgems:craftingmaterial:18>, <actuallyadditions:block_misc:6>, liquidGlowstoneCan, liquidGlowstoneCan, liquidGlowstoneCan, <actuallyadditions:block_misc:6>, <silentgems:craftingmaterial:18>], 
     [<silentgems:craftingmaterial:18>, <openglider:hang_glider_basic>, liquidGlowstoneCan, <botania:flighttiara>, liquidGlowstoneCan, <grapplemod:hookshot>, <silentgems:craftingmaterial:18>], 
     [<silentgems:craftingmaterial:18>, <actuallyadditions:block_misc:6>, liquidGlowstoneCan, liquidGlowstoneCan, liquidGlowstoneCan, <actuallyadditions:block_misc:6>, <silentgems:craftingmaterial:18>], 
@@ -150,11 +151,11 @@ mods.extendedcrafting.TableCrafting.addShaped(<botania:pool:1>, [
 mods.extendedcrafting.TableCrafting.addShaped(creativeTank, [
     [<jaopca:block_blockdimensionalshard>, <mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:controlcircuit:3>, ultimateGasPipe, <mekanism:controlcircuit:3>, <mekanism:polyethene:2>, <mekanism:polyethene:2>, <jaopca:block_blockdimensionalshard>], 
     [<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:controlcircuit:3>, <mekanism:controlcircuit:3>, ultimateGasPipe, <mekanism:controlcircuit:3>, <mekanism:controlcircuit:3>, <mekanism:polyethene:2>, <mekanism:polyethene:2>], 
-    [<mekanism:polyethene:2>, <mekanism:atomicalloy>, lithiumTank, <ore:ingotUltimate>, ultimateGasPipe, <ore:ingotUltimate>, dtTank, <mekanism:atomicalloy>, <mekanism:polyethene:2>], 
-    [<mekanism:atomicalloy>, <mekanism:atomicalloy>, <ore:ingotUltimate>, sulfurdioxideTank, ultimateGasPipe, sulfurtrioxideTank, <ore:ingotUltimate>, <mekanism:atomicalloy>, <mekanism:atomicalloy>], 
+    [<mekanism:polyethene:2>, <mekanism:atomicalloy>, lithiumTank, <extendedcrafting:material:32>, ultimateGasPipe, <extendedcrafting:material:32>, dtTank, <mekanism:atomicalloy>, <mekanism:polyethene:2>], 
+    [<mekanism:atomicalloy>, <mekanism:atomicalloy>, <extendedcrafting:material:32>, sulfurdioxideTank, ultimateGasPipe, sulfurtrioxideTank, <extendedcrafting:material:32>, <mekanism:atomicalloy>, <mekanism:atomicalloy>], 
     [ultimateGasPipe, ultimateGasPipe, ultimateGasPipe, ultimateGasPipe, <extrautils2:drum:3>, ultimateGasPipe, ultimateGasPipe, ultimateGasPipe, ultimateGasPipe], 
-    [<mekanism:atomicalloy>, <mekanism:atomicalloy>, <ore:ingotUltimate>, etheneTank, ultimateGasPipe, hydrogenTank, <ore:ingotUltimate>, <mekanism:atomicalloy>, <mekanism:atomicalloy>], 
-    [<mekanism:polyethene:2>, <mekanism:atomicalloy>, sodiumTank, <ore:ingotUltimate>, ultimateGasPipe, <ore:ingotUltimate>, oxygenTank, <mekanism:atomicalloy>, <mekanism:polyethene:2>], 
+    [<mekanism:atomicalloy>, <mekanism:atomicalloy>, <extendedcrafting:material:32>, etheneTank, ultimateGasPipe, hydrogenTank, <extendedcrafting:material:32>, <mekanism:atomicalloy>, <mekanism:atomicalloy>], 
+    [<mekanism:polyethene:2>, <mekanism:atomicalloy>, sodiumTank, <extendedcrafting:material:32>, ultimateGasPipe, <extendedcrafting:material:32>, oxygenTank, <mekanism:atomicalloy>, <mekanism:polyethene:2>], 
     [<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:controlcircuit:3>, <mekanism:controlcircuit:3>, ultimateGasPipe, <mekanism:controlcircuit:3>, <mekanism:controlcircuit:3>, <mekanism:polyethene:2>, <mekanism:polyethene:2>], 
     [<jaopca:block_blockdimensionalshard>, <mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:controlcircuit:3>, ultimateGasPipe, <mekanism:controlcircuit:3>, <mekanism:polyethene:2>, <mekanism:polyethene:2>, <jaopca:block_blockdimensionalshard>]
     ]);
@@ -162,11 +163,23 @@ mods.extendedcrafting.TableCrafting.addShaped(creativeTank, [
 mods.extendedcrafting.TableCrafting.addShaped(<mekanism:machineblock2:11>.withTag({tier: 4}), [
     [<thermalfoundation:storage:8>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, <thermaldynamics:duct_16:6>, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <thermalfoundation:storage:8>], 
     [<appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, <appliedfluidics:item_part:7>, <thermaldynamics:duct_16:6>, <appliedfluidics:item_part:7>, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>], 
-    [<appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, mutagenDrum, <ore:ingotUltimate>, <thermaldynamics:duct_16:6>, <ore:ingotUltimate>, starlightDrum, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>], 
-    [<extrautils2:flattransfernode:1>, <appliedfluidics:fluid_storage_cell:3>, <ore:ingotUltimate>, lavaDrum, <thermaldynamics:duct_16:6>, pinkSlimeDrum, <ore:ingotUltimate>, <appliedfluidics:fluid_storage_cell:3>, <extrautils2:flattransfernode:1>], 
+    [<appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, mutagenDrum, <extendedcrafting:material:32>, <thermaldynamics:duct_16:6>, <extendedcrafting:material:32>, starlightDrum, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>], 
+    [<extrautils2:flattransfernode:1>, <appliedfluidics:fluid_storage_cell:3>, <extendedcrafting:material:32>, lavaDrum, <thermaldynamics:duct_16:6>, pinkSlimeDrum, <extendedcrafting:material:32>, <appliedfluidics:fluid_storage_cell:3>, <extrautils2:flattransfernode:1>], 
     [<thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>, <extrautils2:drum:3>, <thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>, <thermaldynamics:duct_16:6>], 
-    [<extrautils2:flattransfernode:1>, <appliedfluidics:fluid_storage_cell:3>, <ore:ingotUltimate>, vodkaDrum, <thermaldynamics:duct_16:6>, concreteDrum, <ore:ingotUltimate>, <appliedfluidics:fluid_storage_cell:3>, <extrautils2:flattransfernode:1>], 
-    [<appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, appleJuiceDrum, <ore:ingotUltimate>, <thermaldynamics:duct_16:6>, <ore:ingotUltimate>, lubricantDrum, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>], 
+    [<extrautils2:flattransfernode:1>, <appliedfluidics:fluid_storage_cell:3>, <extendedcrafting:material:32>, vodkaDrum, <thermaldynamics:duct_16:6>, concreteDrum, <extendedcrafting:material:32>, <appliedfluidics:fluid_storage_cell:3>, <extrautils2:flattransfernode:1>], 
+    [<appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, appleJuiceDrum, <extendedcrafting:material:32>, <thermaldynamics:duct_16:6>, <extendedcrafting:material:32>, lubricantDrum, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>], 
     [<appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, <appliedfluidics:item_part:7>, <thermaldynamics:duct_16:6>, <appliedfluidics:item_part:7>, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>], 
     [<thermalfoundation:storage:8>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <extrautils2:flattransfernode:1>, <thermaldynamics:duct_16:6>, <extrautils2:flattransfernode:1>, <appliedfluidics:certus_tank>, <appliedfluidics:certus_tank>, <thermalfoundation:storage:8>]
-    ]);      
+    ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:creative_rf_source>, [
+    [<bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>], 
+    [<bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>, <thermaldynamics:duct_0:5>, <draconicevolution:awakened_core>, <draconicevolution:chaotic_core>, <draconicevolution:awakened_core>, <thermaldynamics:duct_0:5>, <bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>], 
+    [<draconicevolution:draconic_energy_core>, <draconicevolution:draconic_energy_core>, <draconicevolution:awakened_core>, <draconicevolution:ender_energy_manipulator>, <extendedcrafting:singularity_ultimate>, <draconicevolution:ender_energy_manipulator>, <draconicevolution:awakened_core>, <draconicevolution:draconic_energy_core>, <draconicevolution:draconic_energy_core>], 
+    [<draconicevolution:draconic_energy_core>, ultimateInduction, <draconicevolution:flow_gate>, <draconicevolution:energy_crystal:8>, null, <draconicevolution:energy_crystal:8>, <draconicevolution:flow_gate>, ultimateInduction, <draconicevolution:draconic_energy_core>], 
+    [<draconicevolution:draconic_energy_core>, ultimateInduction, <draconicevolution:reactor_component>, null, <draconicevolution:reactor_core>, null, <draconicevolution:reactor_component>, ultimateInduction, <draconicevolution:draconic_energy_core>], 
+    [<draconicevolution:draconic_energy_core>, ultimateInduction, <draconicevolution:flow_gate>, <draconicevolution:energy_crystal:8>, null, <draconicevolution:energy_crystal:8>, <draconicevolution:flow_gate>, ultimateInduction, <draconicevolution:draconic_energy_core>], 
+    [<draconicevolution:draconic_energy_core>, <draconicevolution:draconic_energy_core>, <draconicevolution:awakened_core>, <draconicevolution:ender_energy_manipulator>, <extendedcrafting:singularity_ultimate>, <draconicevolution:ender_energy_manipulator>, <draconicevolution:awakened_core>, <draconicevolution:draconic_energy_core>, <draconicevolution:draconic_energy_core>], 
+    [<bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>, <thermaldynamics:duct_0:5>, <draconicevolution:awakened_core>, <draconicevolution:chaotic_core>, <draconicevolution:awakened_core>, <thermaldynamics:duct_0:5>, <bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>], 
+    [<bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>]
+    ]);  

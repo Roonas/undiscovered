@@ -121,3 +121,8 @@ Crusher
 mods.immersiveengineering.Crusher.removeRecipe(<jaopca:item_dusttungsten>);
 mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:71>);
 mods.immersiveengineering.Crusher.removeRecipe(<draconicevolution:draconium_dust>);
+
+/*=========================
+Mixer
+=========================*/
+mods.immersiveengineering.Mixer.addRecipe(<liquid:aerotheum> * 500, <liquid:binnie.spirit.neutral> *500, [<contenttweaker:crystalsludge>, <magneticraft:crafting>, <extratrees:misc:5>], 50);

@@ -50,3 +50,16 @@ recipes.addShaped("fluid terminal", <appliedfluidics:item_part:4>, [
     [null, null, null]
     ]);
 
+recipes.addShaped("1k fluid drive", <appliedfluidics:fluid_storage_cell>, [
+    [<minecraft:bucket>, <minecraft:bucket>, <minecraft:bucket>], 
+    [<minecraft:bucket>, <appliedenergistics2:material:35>, <minecraft:bucket>], 
+    [<minecraft:bucket>, <appliedenergistics2:material:39>, <minecraft:bucket>]
+    ]);
+
+recipes.addShaped("me drive", <appliedenergistics2:drive>, [
+    [<magneticraft:heavy_plates:3>, <appliedenergistics2:drive>, <magneticraft:heavy_plates:3>], 
+    [<appliedenergistics2:part:16>, null, <appliedenergistics2:part:16>], 
+    [<magneticraft:heavy_plates:3>, <appliedenergistics2:drive>, <magneticraft:heavy_plates:3>]
+    ]);
+
+

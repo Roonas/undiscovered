@@ -140,3 +140,8 @@ recipes.addShaped("mrf wireless energy", <industrialforegoing:energy_field_provi
 Laser Drill
 =========================*/
 mods.industrialforegoing.LaserDrill.remove(<magneticraft:ores:2>);
+
+/*=========================
+Sludge Refiner
+=========================*/
+mods.industrialforegoing.SludgeRefiner.add(<contenttweaker:crystalsludge>, 4);
