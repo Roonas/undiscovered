@@ -24,7 +24,7 @@ recipes.remove(ironComponent);
 
 val iePlates = <immersiveengineering:metal>.definition;
 for toometa in 30 to 41{
-    recipes.remove(iePlates.makeStack(toometa));
+    recipes.removeShapeless(iePlates.makeStack(toometa), [<*>, <immersiveengineering:tool>]);
 } 
 
 /*=========================

@@ -3,6 +3,36 @@ var starmetalIngot = <astralsorcery:itemcraftingcomponent:1>;
 var tungstenNug = <magneticraft:nuggets:5>;
 var rockyTungsten = <magneticraft:rocky_chunks:5>;
 
+<minecraft:wooden_pickaxe>.maxDamage = 15;
+<minecraft:wooden_axe>.maxDamage = 15;
+<minecraft:wooden_shovel>.maxDamage = 15;
+<minecraft:wooden_sword>.maxDamage = 15;
+<minecraft:wooden_hoe>.maxDamage = 15;
+
+<minecraft:stone_pickaxe>.maxDamage = 50;
+<minecraft:stone_axe>.maxDamage = 50;
+<minecraft:stone_shovel>.maxDamage = 50;
+<minecraft:stone_sword>.maxDamage = 50;
+<minecraft:stone_hoe>.maxDamage = 50;
+
+<minecraft:iron_pickaxe>.maxDamage = 100;
+<minecraft:iron_axe>.maxDamage = 100;
+<minecraft:iron_shovel>.maxDamage = 100;
+<minecraft:iron_sword>.maxDamage = 100;
+<minecraft:iron_hoe>.maxDamage = 100;
+
+<minecraft:golden_pickaxe>.maxDamage = 64;
+<minecraft:golden_axe>.maxDamage = 64;
+<minecraft:golden_shovel>.maxDamage = 64;
+<minecraft:golden_sword>.maxDamage = 64;
+<minecraft:golden_hoe>.maxDamage = 64;
+
+<minecraft:diamond_pickaxe>.maxDamage = 300;
+<minecraft:diamond_axe>.maxDamage = 300;
+<minecraft:diamond_shovel>.maxDamage = 300;
+<minecraft:diamond_sword>.maxDamage = 300;
+<minecraft:diamond_hoe>.maxDamage = 300;
+
 furnace.remove(starmetalIngot);
 furnace.remove(<ore:ingotElectrum>);
 furnace.remove(<ore:ingotIridium>);
