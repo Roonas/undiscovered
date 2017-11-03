@@ -19,3 +19,6 @@ chargedIridiumOre.register();
 
 var irradiatedIridiumOre = VanillaFactory.createBlock("irradiated_iridium", <blockmaterial:rock>);
 irradiatedIridiumOre.register();
+
+var rottenPotBlock = VanillaFactory.createBlock("rotten_pot_block", <blockmaterial:cactus>);
+rottenPotBlock.register();

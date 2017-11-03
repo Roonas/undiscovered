@@ -165,4 +165,4 @@ mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:sand>, <liquid:reds
 /*=========================
 Refinery
 =========================*/    
-mods.thermalexpansion.Refinery.addRecipe(<liquid:aerotheum> * 500, <thermalfoundation:material:1026>, <liquid:binnie.spirit.neutral> * 300, 50);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:aerotheum> * 500, <thermalfoundation:material:1026>, <liquid:binnie.spirit.neutral> * 300, 2000);

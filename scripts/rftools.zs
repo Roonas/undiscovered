@@ -21,3 +21,17 @@ recipes.addShaped("syringe", <rftools:syringe>, [
     [null, steelRod, null], 
     [null, vacuumTube, null]
     ]);
+
+recipes.remove(<rftools:machine_base>);
+recipes.addShaped("machine frame slab", <rftools:machine_base>, [
+    [null, null, null], 
+    [<ore:nuggetQuartzBlack>, <ore:nuggetQuartzBlack>, <ore:nuggetQuartzBlack>], 
+    [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
+    ]);
+
+recipes.remove(<rftools:shape_card:2>);
+recipes.addShaped("rf quarry card", <rftools:shape_card:2>, [
+    [<ore:plateIridium>, <actuallyadditions:block_phantom_booster>, <ore:plateIridium>], 
+    [<forestry:thermionic_tubes:12>, <rftools:shape_card>, <forestry:thermionic_tubes:12>], 
+    [<ore:plateIridium>, <actuallyadditions:block_phantom_booster>, <ore:plateIridium>]
+    ]);

@@ -135,6 +135,13 @@ recipes.addShaped("mrf wireless energy", <industrialforegoing:energy_field_provi
     [<thermalfoundation:material:135>, <thermalfoundation:material:293>, <thermalfoundation:material:135>]
     ]);
 
+recipes.remove(<teslacorelib:base_addon>);
+recipes.addShaped("mfr upgrade base", <teslacorelib:base_addon>, [
+    [<ore:rodCopper>, <ore:wireElectrum>, <ore:rodCopper>], 
+    [<ore:wireElectrum>, <jaopca:item_plateapatite>, <ore:wireElectrum>], 
+    [<ore:rodCopper>, <ore:wireElectrum>, <ore:rodCopper>]
+    ]);
+
 
 /*=========================
 Laser Drill

@@ -35,3 +35,18 @@ recipes.addShaped("mech crafter", <extrautils2:crafter>, [
     [<actuallyadditions:item_crafter_on_a_stick>, null, null], 
     [null, null, null]
     ]);
+
+recipes.remove(<extrautils2:teleporter:1>);
+recipes.addShaped("deep dark", <extrautils2:teleporter:1>, [
+    [<astralsorcery:itemcraftingcomponent:1>, <botania:biomestonea:11>, <astralsorcery:itemcraftingcomponent:1>], 
+    [<botania:biomestonea:11>, <psi:psi_decorative:7>, <botania:biomestonea:11>], 
+    [<astralsorcery:itemcraftingcomponent:1>, <botania:biomestonea:11>, <astralsorcery:itemcraftingcomponent:1>]
+    ]);
+
+recipes.remove(<extrautils2:quarry>);
+recipes.addShaped("exu2 quarry", <extrautils2:quarry>, [
+    [<thermalfoundation:storage:8>, <psi:psi_decorative:7>, <thermalfoundation:storage:8>], 
+    [<psi:psi_decorative:7>, <draconicevolution:awakened_core>, <psi:psi_decorative:7>], 
+    [<thermalfoundation:storage:8>, <psi:psi_decorative:7>, <thermalfoundation:storage:8>]
+    ]);
+

@@ -183,3 +183,15 @@ mods.extendedcrafting.TableCrafting.addShaped(<draconicevolution:creative_rf_sou
     [<bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>, <thermaldynamics:duct_0:5>, <draconicevolution:awakened_core>, <draconicevolution:chaotic_core>, <draconicevolution:awakened_core>, <thermaldynamics:duct_0:5>, <bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>], 
     [<bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <thermaldynamics:duct_0:5>, <bigreactors:blockmetals:4>, <bigreactors:blockmetals:4>]
     ]);  
+
+/*=========================
+Pedestal Crafting
+mods.extendedcrafting.CombinationCrafting.addRecipe(<output>, rfCost, rfRate(optional), <input>, [
+    <pedestalItem>, <pedestalItem>
+    ]);
+
+=========================*/    
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material:32>, 50000000, <extrautils2:ingredients:12>, [
+    <stevescarts:modulecomponents:49>, <evilcraft:corrupted_tear>, <psi:material:4>, <astralsorcery:itemcraftingcomponent:4>, <magneticraft:ingots:4>, <rftools:infused_diamond>, <appliedenergistics2:material:47>, <draconicevolution:draconic_ingot>
+    ]);

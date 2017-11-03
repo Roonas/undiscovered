@@ -50,3 +50,9 @@ recipes.addShaped("bucket steel", <minecraft:bucket>, [
     [null, <ore:ingotSteel>, null], 
     [null, null, null]
     ]);
+
+recipes.addShaped("rotten pot block", <contenttweaker:rotten_pot_block>, [
+    [<minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>], 
+    [<minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>], 
+    [<minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>]
+    ]);

@@ -40,6 +40,14 @@ recipes.addShaped("basic coil", basicCoil, [
     [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>]
     ]);
 
+recipes.remove(<actuallyadditions:item_drill:3>);
+recipes.addShaped("aa drill", <actuallyadditions:item_drill:3>, [
+    [<actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:2>, <actuallyadditions:item_crystal_empowered:2>], 
+    [<actuallyadditions:item_misc:8>, <actuallyadditions:item_misc:16>, <actuallyadditions:item_misc:8>], 
+    [<immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>]
+    ]);
+
+
 
 /*=========================
 Crusher
