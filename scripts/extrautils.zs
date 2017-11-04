@@ -4,6 +4,8 @@ var breakerSwitch = <immersiveengineering:connector:9>;
 var ieCircuit = <immersiveengineering:material:27>;
 var redstoneGear = <extrautils2:ingredients:1>;
 
+recipes.remove(<extrautils2:suncrystal:250>);
+
 /*=========================
 Recipe Changes - Extra Utils
 =========================*/

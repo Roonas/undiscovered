@@ -26,6 +26,11 @@ recipes.addShaped("filled bowl of promises", <evilcraft:bowl_of_promises>, [
     [<evilcraft:dark_gem_crushed>, <botania:manaresource:1>]
     ]);
 
+recipes.addShaped("dark gem gear", <jaopca:item_geardark>, [
+    [<immersiveengineering:material:2>, <evilcraft:dark_gem>, <immersiveengineering:material:2>], 
+    [<evilcraft:dark_gem>, null, <evilcraft:dark_gem>], 
+    [<immersiveengineering:material:2>, <evilcraft:dark_gem>, <immersiveengineering:material:2>]
+    ]);
 
 /*=========================
 Blood Infuser

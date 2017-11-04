@@ -46,5 +46,8 @@ expmfr.register();
 var expframe = VanillaFactory.createItem("enchantedframe");
 expframe.register();
 
+var cheapframe = VanillaFactory.createItem("cheapframe");
+cheapframe.register();
+
 var crystalsludge = VanillaFactory.createItem("crystalsludge");
 crystalsludge.register();

@@ -78,14 +78,14 @@ recipes.addShaped("hardened glass", hardenedGlass, [
 recipes.remove(<thermalexpansion:machine:7>);
 recipes.addShaped("fractioning still", <thermalexpansion:machine:7>, [
     [null, <ore:gearNickel>, null], 
-    [<ore:plateInvar>, <thermalexpansion:frame:64>, <ore:plateInvar>], 
+    [<ore:plateInvar>, <contenttweaker:cheapframe>, <ore:plateInvar>], 
     [<extrautils2:flattransfernode:1>, <thermalfoundation:material:513>, <extrautils2:flattransfernode:1>]
     ]);
 
 recipes.remove(<thermalexpansion:machine:10>);
 recipes.addShaped("thermal centrifuge", <thermalexpansion:machine:10>, [
     [null, <advgenerators:turbine_rotor_steel>, null], 
-    [<ore:ingotConstantan>, <thermalexpansion:frame:64>, <ore:ingotConstantan>], 
+    [<ore:ingotConstantan>, <contenttweaker:cheapframe>, <ore:ingotConstantan>], 
     [<ore:gearBronze>, <thermalfoundation:material:513>, <ore:gearBronze>]
     ]);
 
@@ -121,6 +121,19 @@ recipes.addShaped("destablized redstone ore", <thermalfoundation:ore_fluid:2>, [
     [<minecraft:stone>, <thermalfoundation:material:893>, <minecraft:stone>], 
     [<thermalfoundation:material:893>, <thermalfoundation:material:1026>, <thermalfoundation:material:893>], 
     [<minecraft:stone>, <thermalfoundation:material:893>, <minecraft:stone>]
+    ]);
+
+recipes.addShaped("te cheap frame", <contenttweaker:cheapframe>, [
+    [<ore:ingotSteel>, <chisel:factory:*>, <ore:ingotSteel>], 
+    [<chisel:factory:*>, <jaopca:item_geardark>, <chisel:factory:*>], 
+    [<ore:ingotSteel>, <chisel:factory:*>, <ore:ingotSteel>]
+    ]);
+
+recipes.remove(<thermalexpansion:machine:2>);
+recipes.addShaped("te sawmill", <thermalexpansion:machine:2>, [
+    [null, <stevescarts:modulecomponents:84>, null], 
+    [<actuallyadditions:block_misc:4>, <contenttweaker:cheapframe>, <actuallyadditions:block_misc:4>], 
+    [<ore:gearTin>, <thermalfoundation:material:513>, <ore:gearTin>]
     ]);
 
 
@@ -161,8 +174,25 @@ Fluid Transposer
 =========================*/ 
 mods.thermalexpansion.Transposer.addFillRecipe(<extrautils2:ingredients:12>, <extendedcrafting:material>, <liquid:xpjuice> * 1000, 500);
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:sand>, <liquid:redstone>);
+mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:snowball>, <liquid:redstone>);
+mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:2049>, <minecraft:packed_ice>, <liquid:gasoline> * 250, 0);
 
 /*=========================
 Refinery
 =========================*/    
 mods.thermalexpansion.Refinery.addRecipe(<liquid:aerotheum> * 500, <thermalfoundation:material:1026>, <liquid:binnie.spirit.neutral> * 300, 2000);
+
+/*=========================
+Sawmill
+=========================*/    
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal>, <thermalfoundation:storage>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:1>, <immersiveengineering:storage:1>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:9>, <minecraft:iron_block>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:8>, <immersiveengineering:storage:8>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:4>, <thermalfoundation:storage:5>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:3>, <thermalfoundation:storage:2>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:10>, <minecraft:gold_block>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:2>, <thermalfoundation:storage:3>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:5>, <immersiveengineering:storage:5>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:6>, <immersiveengineering:storage:6>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:7>, <immersiveengineering:storage:7>, 1200);

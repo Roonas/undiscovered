@@ -58,10 +58,12 @@ mods.actuallyadditions.Crusher.removeRecipe(<draconicevolution:draconium_dust>);
 
 /*=========================
 Empowerer
+OutputStack, InputStack, Modifier1, Modifier2, Modifier3, Modifier4, EnergyPerStand, TimeInTicks
 =========================*/
 mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:irradiated_iridium>, <thermalfoundation:ore:7>, <immersiveengineering:storage:5>, <minecraft:emerald_block>, <randomthings:ingredient:7>, <extrautils2:magicapple>, 125000, 10, [0,0,1]);
 //mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal>, <evilcraft:blood_orb:1>, <calculator:firediamond>, <minecraft:apple>, <minecraft:red_nether_brick>, 125000, 10,[1,0,0]);
 mods.actuallyadditions.Empowerer.addRecipe(<minecraft:gold_ingot>, <minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, 500, 100, [0.5, 0.3, 0.2]);
+mods.actuallyadditions.Empowerer.addRecipe(<extrautils2:suncrystal:250>, <minecraft:diamond>, <minecraft:glowstone>, <botania:quartztypesunny>, <minecraft:glowstone>, <botania:quartztypesunny>, 2000, 100);
 
 /*=========================
 Atomice Reconstructor

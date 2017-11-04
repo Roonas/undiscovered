@@ -51,7 +51,7 @@ Recipe Changes - Vanilla
 
 recipes.remove(<minecraft:chest>);
 recipes.addShaped("chest", <minecraft:chest>, [
-    [<ore:plankWood>, <rustic:chain>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:logWood>, <ore:plankWood>],
     [<ore:plankWood>, <rustic:chain>, <ore:plankWood>],
     [<ore:plankWood>, <ore:logWood>, <ore:plankWood>]
     ]);
