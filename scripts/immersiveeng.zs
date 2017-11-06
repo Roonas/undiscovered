@@ -121,6 +121,7 @@ Crusher
 mods.immersiveengineering.Crusher.removeRecipe(<jaopca:item_dusttungsten>);
 mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:71>);
 mods.immersiveengineering.Crusher.removeRecipe(<draconicevolution:draconium_dust>);
+mods.immersiveengineering.Crusher.addRecipe(<extrautils2:endershard>*8 * 8, <minecraft:ender_pearl>, 0);
 
 /*=========================
 Mixer

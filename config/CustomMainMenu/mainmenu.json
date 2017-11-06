@@ -3,19 +3,19 @@
     {
         "title":
         {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
+            "image" : "custommainmenu:textures/gui/beegood.png",
+            "posX" : 10,
+            "posY" : 10,
+            "width" : 20,
+            "height" : 20,
+            "alignment" : "top_left"
         },
         
         "edition":
         {
             "image" : "custommainmenu:textures/gui/edition.png",
             "posX" : -49,
-            "posY" : 67,
+            "posY" : 27,
             "width" : 128,
             "height" : 16,
             "alignment" : "top_center"
@@ -28,7 +28,7 @@
         {
             "text" : "menu.singleplayer",
             "posX" : -100,
-            "posY" : 48,
+            "posY" : 3,
             "width" : 200,
             "height" : 20,
             "action" : 
@@ -42,7 +42,7 @@
         {
             "text" : "menu.multiplayer",
             "posX" : -100,
-            "posY" : 72,
+            "posY" : 27,
             "width" : 200,
             "height" : 20,
             "action" : 
@@ -56,7 +56,7 @@
         {
             "text" : "fml.menu.mods",
             "posX" : -100,
-            "posY" : 96,
+            "posY" : 51,
             "width" : 200,
             "height" : 20,
             "action" : 
@@ -70,7 +70,7 @@
         {
             "text" : "menu.options",
             "posX" : -100,
-            "posY" : 132,
+            "posY" : 75,
             "width" : 98,
             "height" : 20,
             "action" : 
@@ -84,7 +84,7 @@
         {
             "text" : "menu.quit",
             "posX" : 2,
-            "posY" : 132,
+            "posY" : 75,
             "width" : 98,
             "height" : 20,
             "action" : 
@@ -97,7 +97,7 @@
         {
             "text" : "",
             "posX" : -124,
-            "posY" : 132,
+            "posY" : 75,
             "width" : 20,
             "height" : 20,
             "action" : 
@@ -110,8 +110,8 @@
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 132,
+            "posX" : 104,
+            "posY" : 75,
             "width" : 20,
             "height" : 20,
             "texture" : "custommainmenu:textures/gui/buttons.png",
@@ -154,19 +154,16 @@
         "splash-text":
         {
             "posX" : 90,
-            "posY" : 70,
+            "posY" : 33,
             "color" : -256,
             "alignment" : "top_center",
             "texts" : "file:minecraft:texts/splashes.txt"
         },
         
-        "panorama":
+        "background":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "image" : "custommainmenu:textures/gui/default_title.png",
+            "mode" : "fill"
         }
     }
 }

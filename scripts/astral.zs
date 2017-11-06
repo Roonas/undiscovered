@@ -34,13 +34,23 @@ mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:irradiated_iridium>
 mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:rotten_pot_block>, <liquid:binnie.vodka>, 0.4, 0.5, 599919);
     
 /*=========================
-Starlight Infusion
+Starlight Infusion 
 =========================*/
 mods.astralsorcery.StarlightInfusion.addInfusion(<thermalfoundation:geode>, <environmentaltech:litherite_crystal>, false, 0.1, 200);
 mods.astralsorcery.StarlightInfusion.addInfusion(<minecraft:apple>, <minecraft:golden_apple:1>, false, 0.1, 100);
 
 /*=========================
-Attunment Altar
+Discovery Altar (Luminous Altar)
+=========================*/
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<extrautils2:endershard>*8, 100, 60, [
+    <evilcraft:dark_spike>, <evilcraft:dark_spike>, <evilcraft:dark_spike>, 
+    <evilcraft:dark_spike>, <minecraft:ender_pearl>, <evilcraft:dark_spike>,  
+    <evilcraft:dark_spike>, <evilcraft:dark_spike>, <evilcraft:dark_spike>
+    ]);
+
+
+/*=========================
+Attunment Altar (Starlight Altar)
 =========================*/
 mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blocklens>, 1);
 mods.astralsorcery.Altar.addAttunmentAltarRecipe(<astralsorcery:blocklens>, 500, 100, [

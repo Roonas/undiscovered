@@ -63,7 +63,7 @@ recipes.addShaped("gold drawer", <storagedrawers:upgrade_storage:2>, [
     [<ore:rodGold>, <ore:rodGold>, <ore:rodGold>], 
     [<ore:plateGold>, <storagedrawers:upgrade_template>, <ore:plateGold>], 
     [<ore:rodGold>, <ore:rodGold>, <ore:rodGold>]
-    );
+    ]);
 
 recipes.remove(<storagedrawers:upgrade_storage:3>);
 recipes.addShaped("diamond drawer", <storagedrawers:upgrade_storage:3>, [

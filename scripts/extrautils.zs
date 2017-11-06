@@ -5,6 +5,7 @@ var ieCircuit = <immersiveengineering:material:27>;
 var redstoneGear = <extrautils2:ingredients:1>;
 
 recipes.remove(<extrautils2:suncrystal:250>);
+recipes.remove(<extrautils2:endershard>);
 
 /*=========================
 Recipe Changes - Extra Utils
@@ -51,4 +52,19 @@ recipes.addShaped("exu2 quarry", <extrautils2:quarry>, [
     [<psi:psi_decorative:7>, <draconicevolution:awakened_core>, <psi:psi_decorative:7>], 
     [<thermalfoundation:storage:8>, <psi:psi_decorative:7>, <thermalfoundation:storage:8>]
     ]);
+
+recipes.remove(<extrautils2:resonator>);
+recipes.addShaped("resonator", <extrautils2:resonator>, [
+    [<immersiveengineering:wirecoil:5>, <evilcraft:blood_waxed_coal_block>, <immersiveengineering:wirecoil:5>], 
+    [<calculator:reinforcedironingot>, <extrautils2:ingredients>, <calculator:reinforcedironingot>], 
+    [<calculator:reinforcedironingot>, <calculator:reinforcedironingot>, <calculator:reinforcedironingot>]
+    ]);
+
+recipes.remove(<extrautils2:pipe>);
+recipes.addShaped("exu2 pipe", <extrautils2:pipe>*16, [
+    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
+    [<extrautils2:decorativeglass>, <minecraft:redstone_block>, <extrautils2:decorativeglass>], 
+    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
+    ]);
+
 

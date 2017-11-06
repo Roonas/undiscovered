@@ -185,14 +185,14 @@ mods.thermalexpansion.Refinery.addRecipe(<liquid:aerotheum> * 500, <thermalfound
 /*=========================
 Sawmill
 =========================*/    
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal>, <thermalfoundation:storage>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:1>, <immersiveengineering:storage:1>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:9>, <minecraft:iron_block>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:8>, <immersiveengineering:storage:8>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:4>, <thermalfoundation:storage:5>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:3>, <thermalfoundation:storage:2>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:10>, <minecraft:gold_block>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:2>, <thermalfoundation:storage:3>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:5>, <immersiveengineering:storage:5>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:6>, <immersiveengineering:storage:6>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:7>, <immersiveengineering:storage:7>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal>*8, <thermalfoundation:storage>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:1>*8, <immersiveengineering:storage:1>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:9>*8, <minecraft:iron_block>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:8>*8, <immersiveengineering:storage:8>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:4>*8, <thermalfoundation:storage:5>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:3>*8, <thermalfoundation:storage:2>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:10>*8, <minecraft:gold_block>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:2>*8, <thermalfoundation:storage:3>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:5>*8, <immersiveengineering:storage:5>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:6>*8, <immersiveengineering:storage:6>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:7>*8, <immersiveengineering:storage:7>, 1200);

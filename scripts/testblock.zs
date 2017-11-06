@@ -22,3 +22,6 @@ irradiatedIridiumOre.register();
 
 var rottenPotBlock = VanillaFactory.createBlock("rotten_pot_block", <blockmaterial:cactus>);
 rottenPotBlock.register();
+
+var obsidianMekCase = VanillaFactory.createBlock("obsidiancase", <blockmaterial:rock>);
+obsidianMekCase.register();
