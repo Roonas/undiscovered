@@ -51,3 +51,15 @@ cheapframe.register();
 
 var crystalsludge = VanillaFactory.createItem("crystalsludge");
 crystalsludge.register();
+
+var ironslag = VanillaFactory.createItem("ironslag");
+ironslag.register();
+
+var goldslag = VanillaFactory.createItem("goldslag");
+goldslag.register();
+
+var copperslag = VanillaFactory.createItem("copperslag");
+copperslag.register();
+
+var alumslag = VanillaFactory.createItem("alumslag");
+alumslag.register();

@@ -37,8 +37,13 @@ furnace.remove(starmetalIngot);
 furnace.remove(<ore:ingotElectrum>);
 furnace.remove(<ore:ingotIridium>);
 furnace.remove(<ore:ingotTungsten>);
-furnace.addRecipe(tungstenNug, rockyTungsten);
 furnace.remove(<ore:ingotIridium>);
+furnace.remove(<minecraft:iron_ingot>, <minecraft:iron_ore>);
+furnace.remove(<minecraft:gold_ingot>, <minecraft:gold_ore>);
+furnace.remove(<thermalfoundation:material:128>, <thermalfoundation:ore>);
+furnace.remove(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>);
+
+furnace.addRecipe(tungstenNug, rockyTungsten);
 
 recipes.remove(<magneticraft:rocky_chunks:5>);
 recipes.remove(<jaopca:item_dustdirtytungsten>);
@@ -85,4 +90,20 @@ recipes.addShaped("rotten pot block", <contenttweaker:rotten_pot_block>, [
     [<minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>], 
     [<minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>], 
     [<minecraft:poisonous_potato>, <minecraft:poisonous_potato>, <minecraft:poisonous_potato>]
+    ]);
+    
+recipes.addShapeless(<minecraft:iron_ingot>, [
+    <contenttweaker:ironslag>, <contenttweaker:ironslag>
+    ]);
+    
+recipes.addShapeless(<minecraft:gold_ingot>, [
+    <contenttweaker:goldslag>, <contenttweaker:goldslag>
+    ]);
+    
+recipes.addShapeless(<thermalfoundation:material:128>, [
+    <contenttweaker:copperslag>, <contenttweaker:copperslag>
+    ]);
+    
+recipes.addShapeless(<immersiveengineering:metal:1>, [
+    <contenttweaker:alumslag>, <contenttweaker:alumslag>
     ]);

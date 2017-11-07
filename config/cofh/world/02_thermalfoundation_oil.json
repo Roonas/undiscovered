@@ -5,7 +5,7 @@
 			"distribution": "surface",
             "generator": {
                 "type": "lake",
-                "block": "industrialforegoing:sewage",
+                "block": "minecraft:water",
                 "material": [
                     "minecraft:dirt"
                 ],

@@ -18,6 +18,7 @@ var tungstenNug = <magneticraft:nuggets:5>;
 var tungstenChunks = <magneticraft:chunks:5>;
 var silverPlate = <immersiveengineering:metal:33>;
 var steelNug = <immersiveengineering:metal:28>;
+var coalDust = <thermalfoundation:material:768>;
 
 recipes.remove(steelComponent);
 recipes.remove(ironComponent);
@@ -66,7 +67,7 @@ recipes.addShaped("light eng block", lightEng, [
     [<immersiveengineering:metal:9>, <immersiveengineering:metal:9>, <immersiveengineering:metal:9>], 
     [<ore:ingotAluminium>, ironComponent, <ore:ingotAluminium>]
     ]);
-
+    
 recipes.removeShaped(<immersiveengineering:tool>);
 recipes.addShaped("eng hammer", <immersiveengineering:tool>, [
     [null, <ore:nuggetIron>, <ore:string>],
@@ -90,6 +91,10 @@ mods.immersiveengineering.CokeOven.addRecipe(<minecraft:iron_nugget>, 10, <rusti
 Alloy Smelter
 =========================*/
 mods.immersiveengineering.AlloySmelter.addRecipe(<minecraft:iron_nugget>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, 60);
+mods.immersiveengineering.AlloySmelter.addRecipe(<minecraft:iron_ingot>, <minecraft:iron_ore>, coalDust, 60);
+mods.immersiveengineering.AlloySmelter.addRecipe(<minecraft:gold_ingot>, <minecraft:gold_ore>, coalDust, 60);
+mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:128>, <thermalfoundation:ore>, coalDust, 60);
+mods.immersiveengineering.AlloySmelter.addRecipe(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>, coalDust, 60);
 
 /*=========================
 Squeezer
