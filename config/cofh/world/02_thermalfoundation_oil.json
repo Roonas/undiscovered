@@ -1,6 +1,47 @@
 {
 	"dependencies": "thermalfoundation",
 	"populate": {
+		"bog_earth": {
+			"distribution": "surface",
+            "generator": {
+                "type": "lake",
+                "block": "industrialforegoing:sewage",
+                "material": [
+                    "minecraft:dirt"
+                ],
+                "outline-block": "forestry:bog_earth",
+            },
+            "cluster-count": 2,
+            "chunk-chance": 30,
+            "min-height": 10,
+            "max-height": 90,
+            "biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "DESERT"
+					},
+					{
+						"type": "dictionary",
+						"entry": "OCEAN"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SNOWY"
+					}
+				]
+			},
+            "in-village": false,
+            "retrogen": true,
+            "dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
 		"oil_sand_clathrate": {
 			"distribution": "uniform",
 			"generator": {

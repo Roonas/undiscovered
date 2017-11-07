@@ -48,7 +48,7 @@ recipes.addShaped("drying basin", <rustic:evaporating_basin>, [
 /*=========================
 Crushing Tub
 =========================*/
-mods.rustic.CrushingTub.addRecipe(<liquid:ironberryjuice> * 1500, <minecraft:iron_ore>, <rustic:dust_tiny_iron>);
+mods.rustic.CrushingTub.addRecipe(<liquid:ironberryjuice> * 1500, <rustic:dust_tiny_iron>, <minecraft:iron_ore>);
 mods.rustic.CrushingTub.addRecipe(<liquid:crude_oil> * 50, <minecraft:clay_ball>, <minecraft:dirt>);
 mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 5, <minecraft:brick>, <minecraft:clay_ball>);
 mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 5, dCream, <extrautils2:compresseddirt>);

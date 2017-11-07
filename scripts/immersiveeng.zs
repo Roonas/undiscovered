@@ -67,6 +67,14 @@ recipes.addShaped("light eng block", lightEng, [
     [<ore:ingotAluminium>, ironComponent, <ore:ingotAluminium>]
     ]);
 
+recipes.removeShaped(<immersiveengineering:tool>);
+recipes.addShaped("eng hammer", <immersiveengineering:tool>, [
+    [null, <ore:nuggetIron>, <ore:string>],
+    [null, <ore:stickWood>, <ore:nuggetIron>],
+    [<ore:stickWood>, null, null]
+    ]);
+
+
 /*=========================
 Bottling Machine
 =========================*/
