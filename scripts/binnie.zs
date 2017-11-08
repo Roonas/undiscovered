@@ -47,10 +47,10 @@ recipes.addShaped("distillery", distillery, [
     [<chisel:laboratory:*>, yeast, <chisel:laboratory:*>]
     ]);
 
-recipes.addShaped("proven gear", <extratrees:misc:3>, [
-    [treatedStick, impregnatedStick, treatedStick], 
-    [impregnatedStick, null, impregnatedStick], 
-    [treatedStick, impregnatedStick, treatedStick]
+recipes.addShaped("provengear", <extratrees:misc:3>, [
+    [null, <immersiveengineering:material>, null],
+    [<immersiveengineering:material>, null, <immersiveengineering:material>],
+    [null, <immersiveengineering:material>, null]
     ]);
 
 recipes.remove(<genetics:misc:8>);

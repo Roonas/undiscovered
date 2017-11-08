@@ -96,12 +96,6 @@ recipes.addShaped("carpenter", <forestry:carpenter>, [
     [mekFluidTank, <ore:ingotCopper>, mekFluidTank]
     ]);
 
-recipes.addShaped("provengear", <extratrees:misc:3>, [
-    [null, <immersiveengineering:material>, null],
-    [<immersiveengineering:material>, null, <immersiveengineering:material>],
-    [null, <immersiveengineering:material>, null]
-    ]);
-
 recipes.remove(<forestry:engine_clockwork>);
 recipes.addShaped("clockwork engine", <forestry:engine_clockwork>, [
     [<ore:logWood>, <ore:logWood>, <ore:logWood>], 

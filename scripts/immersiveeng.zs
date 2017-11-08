@@ -19,13 +19,21 @@ var tungstenChunks = <magneticraft:chunks:5>;
 var silverPlate = <immersiveengineering:metal:33>;
 var steelNug = <immersiveengineering:metal:28>;
 var coalDust = <thermalfoundation:material:768>;
+var ieHammer = <immersiveengineering:tool>;
 
 recipes.remove(steelComponent);
 recipes.remove(ironComponent);
 
+//Removes ingot + hammer = plate recipes
 val iePlates = <immersiveengineering:metal>.definition;
 for toometa in 30 to 41{
-    recipes.removeShapeless(iePlates.makeStack(toometa), [<*>, <immersiveengineering:tool>]);
+    recipes.removeShapeless(iePlates.makeStack(toometa), [<*>, ieHammer]);
+} 
+
+//Removes ore + hammer = grit recipes
+val ieGrits = <immersiveengineering:metal>.definition;
+for toometa in 9 to 20{
+    recipes.removeShapeless(ieGrits.makeStack(toometa), [<*>, ieHammer]);
 } 
 
 /*=========================
@@ -33,7 +41,7 @@ Recipe Changes - IE
 =========================*/
 
 recipes.addShapeless("iron plate", ironPlate, [
-    <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, <immersiveengineering:tool>
+    <minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>, ieHammer
     ]);
 
 recipes.remove(cokeBrick);
@@ -68,8 +76,8 @@ recipes.addShaped("light eng block", lightEng, [
     [<ore:ingotAluminium>, ironComponent, <ore:ingotAluminium>]
     ]);
     
-recipes.removeShaped(<immersiveengineering:tool>);
-recipes.addShaped("eng hammer", <immersiveengineering:tool>, [
+recipes.removeShaped(ieHammer);
+recipes.addShaped("eng hammer", ieHammer, [
     [null, <ore:nuggetIron>, <ore:string>],
     [null, <ore:stickWood>, <ore:nuggetIron>],
     [<ore:stickWood>, null, null]
@@ -105,11 +113,6 @@ mods.immersiveengineering.Squeezer.addRecipe(silverPlate, null, silverBlock, 100
 mods.immersiveengineering.Squeezer.addRecipe(tungstenIngot, null, tungstenNug * 9, 1500);
 
 /*=========================
-Blueprint (this might be pointless)
-=========================*/
-//mods.immersiveengineering.Blueprint.addRecipe("proven gear", <forestry:oak_stick>, [<forestry:oak_stick>, <forestry:oak_stick>, <forestry:oak_stick>, <forestry:oak_stick>]);
-
-/*=========================
 Refinery
 =========================*/
 mods.immersiveengineering.Refinery.addRecipe(<liquid:mithril> * 32, <liquid:platinum> * 16, <liquid:mutagen> * 16, 0);
@@ -122,11 +125,16 @@ mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:metal:37>, 
 
 /*=========================
 Arc Furnace
+(output, input, slag, time, energy per tick)
 =========================*/
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
 mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 3000, 2000);
+mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:iron_ore>, null, 120, 100);
+mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_ingot> * 2, <minecraft:gold_ore>, null, 120, 100);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:128> * 2, <thermalfoundation:ore>, null, 120, 100);
+mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:1> * 2, <immersiveengineering:ore:1>, null, 120, 100);
 
 /*=========================
 Crusher
