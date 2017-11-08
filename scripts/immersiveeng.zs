@@ -52,7 +52,7 @@ recipes.addShaped("blast brick", blastBrick * 9, [
 
 recipes.remove(kilnBrick);
 recipes.addShaped("kiln brick", kilnBrick, [
-    [<silentgems:gembrickcoated:*>, bucketResin], 
+    [<silentgems:gembrickcoated:*>, <immersiveengineering:material:6>], 
     [<minecraft:brick>, <silentgems:gembrickcoated:*>]
     ]);
 
@@ -90,7 +90,7 @@ mods.immersiveengineering.CokeOven.addRecipe(<minecraft:iron_nugget>, 10, <rusti
 /*=========================
 Alloy Smelter
 =========================*/
-mods.immersiveengineering.AlloySmelter.addRecipe(<minecraft:iron_nugget>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, 60);
+mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:ironslag>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, 60);
 mods.immersiveengineering.AlloySmelter.addRecipe(<minecraft:iron_ingot>, <minecraft:iron_ore>, coalDust, 60);
 mods.immersiveengineering.AlloySmelter.addRecipe(<minecraft:gold_ingot>, <minecraft:gold_ore>, coalDust, 60);
 mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:128>, <thermalfoundation:ore>, coalDust, 60);
@@ -107,7 +107,7 @@ mods.immersiveengineering.Squeezer.addRecipe(tungstenIngot, null, tungstenNug * 
 /*=========================
 Blueprint (this might be pointless)
 =========================*/
-mods.immersiveengineering.Blueprint.addRecipe("proven gear", <forestry:oak_stick>, [<forestry:oak_stick>, <forestry:oak_stick>, <forestry:oak_stick>, <forestry:oak_stick>]);
+//mods.immersiveengineering.Blueprint.addRecipe("proven gear", <forestry:oak_stick>, [<forestry:oak_stick>, <forestry:oak_stick>, <forestry:oak_stick>, <forestry:oak_stick>]);
 
 /*=========================
 Refinery

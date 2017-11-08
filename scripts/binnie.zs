@@ -60,7 +60,12 @@ recipes.addShaped("integrated circuit", <genetics:misc:8>, [
     [<ore:blockLapis>, null, <extrautils2:suncrystal>]
     ]);
 
-
+recipes.remove(<extratrees:misc:5>);
+recipes.addShaped("yeast", <extratrees:misc:5>, [
+    [null, null, null], 
+    [null, <ore:listAllmushroom>, null], 
+    [<ore:listAllmushroom>, <ore:bread>, <ore:listAllmushroom>]
+    ]);
 
 //Binnie integration broken
 //mods.extratrees.FruitPress.addRecipe(zombieHeart, <liquid:evilcraftblood> * 200);

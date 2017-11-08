@@ -107,3 +107,7 @@ recipes.addShapeless(<thermalfoundation:material:128>, [
 recipes.addShapeless(<immersiveengineering:metal:1>, [
     <contenttweaker:alumslag>, <contenttweaker:alumslag>
     ]);
+
+recipes.addShapeless(<minecraft:wheat_seeds>, [
+    <minecraft:wheat>
+    ]);

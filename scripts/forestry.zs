@@ -12,6 +12,7 @@ var goldClay = <botany:clay:25>;
 var externalHeater = <immersiveengineering:metal_device1:1>;
 var zombieHeart = <xreliquary:mob_ingredient:6>;
 var bucketAppleJuice = <forge:bucketfilled>.withTag({FluidName: "applejuice", Amount: 1000});
+var bucketOliveOil = <forge:bucketfilled>.withTag({FluidName: "oliveoil", Amount: 1000});
 var basicCircuit = <forestry:chipsets>.withTag({T: 0 as short});
 var hardenedFluiduct = <thermaldynamics:duct_16:2>;
 var thickenedGlass = <extrautils2:decorativeglass>;
@@ -40,6 +41,10 @@ recipes.addShaped("peat engine", <forestry:engine_peat>, [
 
 recipes.addShapeless(stickyBall * 4, [
     bucketAppleJuice.transformReplace(<minecraft:bucket>)
+    ]);
+
+recipes.addShapeless(<forestry:propolis> * 1, [
+    bucketOliveOil.transformReplace(<minecraft:bucket>)
     ]);
 
 recipes.remove(<forestry:squeezer>);
@@ -89,6 +94,19 @@ recipes.addShaped("carpenter", <forestry:carpenter>, [
     [<ore:ingotCopper>, <bibliocraft:framingsaw>, <ore:ingotCopper>], 
     [<immersiveengineering:treated_wood>, reinforcedCase, <immersiveengineering:treated_wood>], 
     [mekFluidTank, <ore:ingotCopper>, mekFluidTank]
+    ]);
+
+recipes.addShaped("provengear", <extratrees:misc:3>, [
+    [null, <immersiveengineering:material>, null],
+    [<immersiveengineering:material>, null, <immersiveengineering:material>],
+    [null, <immersiveengineering:material>, null]
+    ]);
+
+recipes.remove(<forestry:engine_clockwork>);
+recipes.addShaped("clockwork engine", <forestry:engine_clockwork>, [
+    [<ore:logWood>, <ore:logWood>, <ore:logWood>], 
+    [null, <ore:blockGlass>, null], 
+    [<calculator:crankhandle>, <minecraft:piston>, <minecraft:clock>]
     ]);
 
 /*=========================
