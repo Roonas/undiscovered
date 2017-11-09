@@ -44,6 +44,10 @@ furnace.remove(<thermalfoundation:material:128>, <thermalfoundation:ore>);
 furnace.remove(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>);
 
 furnace.addRecipe(tungstenNug, rockyTungsten);
+furnace.addRecipe(<contenttweaker:ironslag>, <minecraft:iron_ore>);
+furnace.addRecipe(<contenttweaker:goldslag>, <minecraft:gold_ore>);
+furnace.addRecipe(<contenttweaker:copperslag>, <thermalfoundation:ore>);
+furnace.addRecipe(<contenttweaker:alumslag>, <immersiveengineering:ore:1>);
 
 recipes.remove(<magneticraft:rocky_chunks:5>);
 recipes.remove(<jaopca:item_dustdirtytungsten>);
