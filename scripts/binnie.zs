@@ -12,6 +12,9 @@ var electrumPlate = <immersiveengineering:metal:37>;
 var treatedStick = <immersiveengineering:material>;
 var impregnatedStick = <forestry:oak_stick>;
 var zombieHeart = <xreliquary:mob_ingredient:6>;
+var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}});
+var vodkaBucket = <forge:bucketfilled>.withTag({FluidName: "binnie.vodka", Amount: 1000});
+var liquidTube = <stevescarts:modulecomponents:65>;
 
 /*=========================
 Recipe Changes - Binnie
@@ -61,10 +64,16 @@ recipes.addShaped("integrated circuit", <genetics:misc:8>, [
     ]);
 
 recipes.remove(<extratrees:misc:5>);
-recipes.addShaped("yeast", <extratrees:misc:5>, [
+recipes.addShaped("yeast", <extratrees:misc:5> * 4, [
     [null, null, null], 
     [null, <ore:listAllmushroom>, null], 
     [<ore:listAllmushroom>, <ore:bread>, <ore:listAllmushroom>]
+    ]);
+
+recipes.addShaped("vodka bottle", vodkaBottle, [
+    [null, vodkaBucket, null],
+    [null, liquidTube, null],
+    [null, <minecraft:glass_bottle>, null]
     ]);
 
 //Binnie integration broken

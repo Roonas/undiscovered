@@ -1,3 +1,5 @@
+<ore:listAllmushroom>.add(<randomthings:glowingmushroom>);
+
 /*=========================
 Recipe Changes - Random Things
 =========================*/

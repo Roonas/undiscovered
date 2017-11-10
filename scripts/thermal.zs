@@ -24,6 +24,7 @@ var cinnabar = <thermalfoundation:material:866>;
 recipes.remove(<thermalexpansion:machine>); //redstone furnace... hopefully
 recipes.remove(<thermalfoundation:material:71>);
 recipes.remove(<thermalfoundation:material:135>);
+recipes.remove(<thermalfoundation:material:1024>);
 
 /*=========================
 Recipe Changes - Thermal

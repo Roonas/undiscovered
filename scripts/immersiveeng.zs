@@ -20,6 +20,9 @@ var silverPlate = <immersiveengineering:metal:33>;
 var steelNug = <immersiveengineering:metal:28>;
 var coalDust = <thermalfoundation:material:768>;
 var ieHammer = <immersiveengineering:tool>;
+var ironGrit = <immersiveengineering:metal:18>;
+var alumGrit = <immersiveengineering:metal:10>;
+var goldGrit = <immersiveengineering:metal:19>;
 
 recipes.remove(steelComponent);
 recipes.remove(ironComponent);
@@ -31,10 +34,11 @@ for toometa in 30 to 41{
 } 
 
 //Removes ore + hammer = grit recipes
+/*
 val ieGrits = <immersiveengineering:metal>.definition;
 for toometa in 9 to 20{
     recipes.removeShapeless(ieGrits.makeStack(toometa), [<*>, ieHammer]);
-} 
+} */
 
 /*=========================
 Recipe Changes - IE
@@ -64,9 +68,19 @@ recipes.addShaped("kiln brick", kilnBrick, [
     [<minecraft:brick>, <silentgems:gembrickcoated:*>]
     ]);
 
-recipes.removeShapeless(copperGrit);
-recipes.addShapeless(copperGrit, [
+//recipes.removeShapeless(copperGrit);
+recipes.addShapeless(copperGrit * 2, [
     <ore:oreCopper>, vodkaBottle
+    ]);
+
+recipes.addShapeless(ironGrit * 2, [
+    <minecraft:iron_ore>, vodkaBottle
+    ]);
+recipes.addShapeless(alumGrit * 2, [
+    <immersiveengineering:ore:1>, vodkaBottle
+    ]);
+recipes.addShapeless(goldGrit * 2, [
+    <minecraft:gold_ore>, vodkaBottle
     ]);
 
 recipes.removeShaped(lightEng);
