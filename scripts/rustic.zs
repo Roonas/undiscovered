@@ -6,6 +6,8 @@ var vodkaBucket = <forge:bucketfilled>.withTag({FluidName: "binnie.vodka", Amoun
 var liquidTube = <stevescarts:modulecomponents:65>;
 var crushedGold = <actuallyadditions:item_dust:1>;
 
+<ore:listAllmushroom>.add(<rustic:deathstalk_mushroom>);
+
 /*=========================
 Recipe Changes - Rustic
 =========================*/
@@ -44,6 +46,13 @@ recipes.addShaped("drying basin", <rustic:evaporating_basin>, [
     [null, <minecraft:brick_block>, null]
     ]);
 
+//recipes.addShapeless("rustic bee", <rustic:bee>, [
+//    <harvestcraft:queenbeeitem>
+//    ]);
+
+recipes.addShapeless("rustic bee 2", <rustic:bee>, [
+    <forestry:bee_princess_ge>
+    ]);
     
 /*=========================
 Crushing Tub

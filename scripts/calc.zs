@@ -47,7 +47,7 @@ recipes.addShaped("atomic assembly", <calculator:atomicassembly>, [
     ]);
 
 recipes.remove(<calculator:advancedassembly>);
-recipes.addShaped("advanced assembly", <calculator:advancedassembly>, [
+recipes.addShaped("advanced assembly", <calculator:advancedassembly> * 4, [
     [<ore:concrete>, <ore:gemDiamond>, <ore:concrete>], 
     [integratedCircuit, <calculator:largetanzanite>, integratedCircuit], 
     [<ore:concrete>, <ore:gemDiamond>, <ore:concrete>]
@@ -60,7 +60,12 @@ recipes.addShaped("flawless assembly", <calculator:flawlessassembly>, [
     [<ore:concrete>, <calculator:atomicmodule>, <ore:concrete>]
     ]);
 
-
+recipes.remove(<calculator:atomicmodule>);
+recipes.addShaped("atomic mod", <calculator:atomicmodule> * 4, [
+    [<ore:gemTanzanite>, <forestry:thermionic_tubes:10>, <ore:gemTanzanite>],
+    [ <forestry:thermionic_tubes:10>, <calculator:calculatorassembly>, <forestry:thermionic_tubes:10>],
+    [<ore:gemTanzanite>, <ore:gearPlatinum>, <ore:gemTanzanite>]
+    ]);
 /*=========================
 Conductor Mast
 =========================*/

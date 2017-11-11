@@ -822,7 +822,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [

@@ -113,10 +113,10 @@ mods.forestry.Carpenter.addRecipe(<botany:clay:25>, [
 
 mods.forestry.Carpenter.removeRecipe(basicCircuit);
 mods.forestry.Carpenter.addRecipe(basicCircuit, [
-    [null, <randomthings:redstoneactivator>, null], 
-    [null, redstoneWire, null], 
-    [null, tinPlate, null]
-    ], 30);
+    [<minecraft:dye:4>, tinPlate, <minecraft:dye:4>], 
+    [<minecraft:dye:4>, redstoneWire, <minecraft:dye:4>], 
+    [<minecraft:dye:4>, tinPlate, <minecraft:dye:4>]
+    ], 30, <liquid:water> * 250);
 
 /*=========================
 Squeezer

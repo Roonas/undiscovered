@@ -68,7 +68,7 @@ recipes.addShaped("chest", <minecraft:chest>, [
 recipes.remove(<minecraft:furnace>);
 recipes.addShaped("furnace", <minecraft:furnace>, [
     [<minecraft:stone>, <minecraft:cobblestone>, <minecraft:stone>],
-    [<minecraft:stone>, ironPlate, <minecraft:stone>],
+    [<minecraft:stone>, <minecraft:iron_ingot>, <minecraft:stone>],
     [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
     ]);
 
@@ -115,3 +115,10 @@ recipes.addShapeless(<immersiveengineering:metal:1>, [
 recipes.addShapeless(<minecraft:wheat_seeds>, [
     <minecraft:wheat>
     ]);
+
+recipes.addShaped("tin hopper", <minecraft:hopper>, [
+    [<ore:ingotTin>, null, <ore:ingotTin>], 
+    [<ore:ingotTin>, <minecraft:chest>, <ore:ingotTin>], 
+    [null, <ore:ingotTin>, null]
+    ]);
+

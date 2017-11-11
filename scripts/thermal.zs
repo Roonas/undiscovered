@@ -20,11 +20,12 @@ var iridiumOre = <thermalfoundation:ore:7>;
 var platinumOre = <thermalfoundation:ore:6>;
 var richSlag = <thermalfoundation:material:865>;
 var cinnabar = <thermalfoundation:material:866>;
+var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}});
 
 recipes.remove(<thermalexpansion:machine>); //redstone furnace... hopefully
 recipes.remove(<thermalfoundation:material:71>);
 recipes.remove(<thermalfoundation:material:135>);
-recipes.remove(<thermalfoundation:material:1024>);
+//recipes.remove(<thermalfoundation:material:1024>);
 
 /*=========================
 Recipe Changes - Thermal
@@ -52,7 +53,7 @@ recipes.addShaped("te frame", <thermalexpansion:frame>, [
 recipes.remove(receptionCoil);
 recipes.addShaped("reception coil", receptionCoil, [
     [null, null, goldElectronTube], 
-    [null, basicFluxCapacitor, null], 
+    [null, <thermaldynamics:duct_0:1>, null], 
     [goldElectronTube, null, null]
     ]);
 
@@ -137,11 +138,15 @@ recipes.addShaped("te sawmill", <thermalexpansion:machine:2>, [
     [<ore:gearTin>, <thermalfoundation:material:513>, <ore:gearTin>]
     ]);
 
+recipes.addShapeless(<contenttweaker:platslurry>, [
+    <thermalfoundation:ore:6>, vodkaBottle
+    ]);
 
 /*=========================
 Crucible
 =========================*/    
 //mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:135>);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:platinum> * 4000, <thermalfoundation:ore:6>, 500);
 
 /*=========================
 Insolator
@@ -197,3 +202,8 @@ mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:2>*8, <
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:5>*8, <immersiveengineering:storage:5>, 1200);
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:6>*8, <immersiveengineering:storage:6>, 1200);
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:7>*8, <immersiveengineering:storage:7>, 1200);
+
+/*=========================
+Centrifuge
+=========================*/  
+mods.thermalexpansion.Centrifuge.addRecipe([<minecraft:gravel> % 50, (<thermalfoundation:material:198> * 2) % 70, <jaopca:item_rockychunkplatinum> % 20], <contenttweaker:platslurry>, <liquid:platinum> * 1000, 1000);

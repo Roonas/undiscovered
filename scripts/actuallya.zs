@@ -1,7 +1,7 @@
 var ironCasing = <actuallyadditions:block_misc:9>;
 var basicCoil = <actuallyadditions:item_misc:7>;
 var advancedCoil = <actuallyadditions:item_misc:8>;
-var silverPlate = <immersiveengineering:metal:33>;
+var silverPlate = <ore:plateSilver>;
 var hvCapacitor = <immersiveengineering:metal_device0:2>;
 var aaLens = <actuallyadditions:item_misc:18>;
 var basicCircuit = <forestry:chipsets>.withTag({T: 0 as short});
@@ -36,7 +36,7 @@ recipes.addShaped("advanced coil", advancedCoil, [
 recipes.remove(basicCoil);
 recipes.addShaped("basic coil", basicCoil, [
     [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>], 
-    [enoriCrystal, <jaopca:item_platequartzblack>, enoriCrystal], 
+    [enoriCrystal, <actuallyadditions:item_misc:5>, enoriCrystal], 
     [<ore:ingotInvar>, <ore:ingotInvar>, <ore:ingotInvar>]
     ]);
 
@@ -47,6 +47,9 @@ recipes.addShaped("aa drill", <actuallyadditions:item_drill:3>, [
     [<immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>]
     ]);
 
+recipes.addShapeless("b quartz from block", <actuallyadditions:item_misc:5> * 4, [
+    <actuallyadditions:block_misc:2>
+    ]);
 
 
 /*=========================

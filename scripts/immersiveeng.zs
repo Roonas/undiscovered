@@ -84,9 +84,9 @@ recipes.addShapeless(goldGrit * 2, [
     ]);
 
 recipes.removeShaped(lightEng);
-recipes.addShaped("light eng block", lightEng, [
+recipes.addShaped("light eng block", lightEng * 3, [
     [<ore:ingotAluminium>, ironComponent, <ore:ingotAluminium>], 
-    [<immersiveengineering:metal:9>, <immersiveengineering:metal:9>, <immersiveengineering:metal:9>], 
+    [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], 
     [<ore:ingotAluminium>, ironComponent, <ore:ingotAluminium>]
     ]);
     
@@ -96,6 +96,17 @@ recipes.addShaped("eng hammer", ieHammer, [
     [null, <ore:stickWood>, <ore:nuggetIron>],
     [<ore:stickWood>, null, null]
     ]);
+
+recipes.addShaped("light eng block alt", <immersiveengineering:metal_decoration0:4>, [
+    [<ore:ingotSilver>, <immersiveengineering:material:8>, <ore:ingotSilver>], 
+    [<immersiveengineering:metal:9>, <immersiveengineering:metal:9>, <immersiveengineering:metal:9>], 
+    [<ore:ingotSilver>, <immersiveengineering:material:8>, <ore:ingotSilver>]
+    ]);
+
+recipes.addShapeless("steel grit", <immersiveengineering:metal:17>, [
+    <immersiveengineering:metal:18>, <immersiveengineering:metal:18>, <immersiveengineering:metal:18>, <thermalfoundation:material:768>
+    ]);
+
 
 
 /*=========================
@@ -122,7 +133,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<immersiveengineering:metal:1>,
 Squeezer
 =========================*/
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:evilcraftblood> * 50, <ore:listAllmeatraw>, 60);
-mods.immersiveengineering.Squeezer.addRecipe(<jaopca:item_platequartzblack>, null, <jaopca:block_blockquartzblack>, 100);
+mods.immersiveengineering.Squeezer.addRecipe(<jaopca:item_platequartzblack> * 4, null, <jaopca:block_blockquartzblack>, 100);
 mods.immersiveengineering.Squeezer.addRecipe(silverPlate, null, silverBlock, 100);
 mods.immersiveengineering.Squeezer.addRecipe(tungstenIngot, null, tungstenNug * 9, 1500);
 
@@ -144,11 +155,11 @@ Arc Furnace
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
-mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 3000, 2000);
-mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:iron_ore>, null, 120, 100);
-mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_ingot> * 2, <minecraft:gold_ore>, null, 120, 100);
-mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:128> * 2, <thermalfoundation:ore>, null, 120, 100);
-mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:1> * 2, <immersiveengineering:ore:1>, null, 120, 100);
+mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 300, 1000);
+//mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:iron_ore>, null, 120, 100);
+//mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_ingot> * 2, <minecraft:gold_ore>, null, 120, 100);
+//mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:128> * 2, <thermalfoundation:ore>, null, 120, 100);
+//mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:1> * 2, <immersiveengineering:ore:1>, null, 120, 100);
 
 /*=========================
 Crusher

@@ -5,6 +5,7 @@ var pyrotheum = <thermalfoundation:material:1024>;
 var silverIngot = <thermalfoundation:material:130>;
 var glassLens = <astralsorcery:itemcraftingcomponent:3>;
 var psimetalIngot = <psi:material:1>;
+var platinumIngot = <thermalfoundation:material:134>;
 
 /*=========================
 Recipe Changes - Astral
@@ -30,6 +31,7 @@ Light Well
 =========================*/
 //mods.astralsorcery.Lightwell.addLiquefaction(<minecraft:iron_ingot>, <liquid:ironwine>, 1, 0.5, 0);
 mods.astralsorcery.Lightwell.addLiquefaction(silverIngot, <liquid:silver>, 0.3, 0.6, 0);
+mods.astralsorcery.Lightwell.addLiquefaction(platinumIngot, <liquid:platinum>, 0.3, 0.6, 0);
 mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:irradiated_iridium>, <liquid:iridium>, 0.5, 0.6, 0);
 mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:rotten_pot_block>, <liquid:binnie.vodka>, 0.4, 0.5, 599919);
     
