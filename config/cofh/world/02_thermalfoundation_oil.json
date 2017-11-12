@@ -22,9 +22,21 @@
 						"type": "dictionary",
 						"entry": "DESERT"
 					},
+                    			{
+						"type": "dictionary",
+						"entry": "SANDY"
+					},
+                    			{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					},
 					{
 						"type": "dictionary",
 						"entry": "OCEAN"
+					},
+                  			{
+						"type": "dictionary",
+						"entry": "FROZEN"
 					},
 					{
 						"type": "dictionary",
