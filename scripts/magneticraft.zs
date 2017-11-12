@@ -29,6 +29,10 @@ recipes.addShapeless(<magneticraft:chunks:5> * 2, [
     rockyTungsten, crystalOilBucket
     ]);
 
+recipes.addShapeless("tungsten block to ingot", <magneticraft:ingots:5> * 9, [
+    <ore:blockTungsten>
+    ]);
+
 
 
 /*=========================

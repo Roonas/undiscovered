@@ -49,7 +49,7 @@ recipes.addShaped("atomic assembly", <calculator:atomicassembly>, [
 recipes.remove(<calculator:advancedassembly>);
 recipes.addShaped("advanced assembly", <calculator:advancedassembly> * 4, [
     [<ore:concrete>, <ore:gemDiamond>, <ore:concrete>], 
-    [integratedCircuit, <calculator:largetanzanite>, integratedCircuit], 
+    [<calculator:largetanzanite>, integratedCircuit, <calculator:largetanzanite>], 
     [<ore:concrete>, <ore:gemDiamond>, <ore:concrete>]
     ]);
 
@@ -69,7 +69,7 @@ recipes.addShaped("atomic mod", <calculator:atomicmodule> * 4, [
 /*=========================
 Conductor Mast
 =========================*/
-mods.calculator.conductorMast.addRecipe(<thermalfoundation:ore:7>, 500000, <contenttweaker:charged_iridium>);
+mods.calculator.conductorMast.addRecipe(<thermalfoundation:ore:7>, 60000, <contenttweaker:charged_iridium>);
 
 /*=========================
 Stone Separator
@@ -86,11 +86,18 @@ mods.calculator.algorithmSeparator.addRecipe(<thermalfoundation:ore_fluid:2>, <c
 /*=========================
 Atomic Calc
 =========================*/
-mods.calculator.atomic.addRecipe(<minecraft:anvil>, <appliedenergistics2:material:7>, <minecraft:heavy_weighted_pressure_plate>, <appliedenergistics2:material:8>);
+mods.calculator.atomic.addRecipe(<minecraft:anvil>, <appliedenergistics2:material:7>, <minecraft:heavy_weighted_pressure_plate>, <appliedenergistics2:material:8> * 2);
 
 /*=========================
 Scientific Calc
 =========================*/
 mods.calculator.scientific.removeRecipe(<calculator:redstoneingot>);
 
-
+/*=========================
+Extraction Chamber
+=========================*/
+mods.calculator.extractionChamber.addRecipe(<calculator:circuitboard>, <evilcraft:dull_dust>, <appliedenergistics2:material:15>);
+mods.calculator.extractionChamber.addRecipe(<calculator:circuitboard:13>, <evilcraft:dull_dust>, <appliedenergistics2:material:14>);
+mods.calculator.extractionChamber.addRecipe(<calculator:circuitboard:1>, <evilcraft:dull_dust>, <appliedenergistics2:material:19>);
+mods.calculator.extractionChamber.addRecipe(<calculator:circuitboard:8>, <evilcraft:dull_dust>, <appliedenergistics2:material:13>);
+mods.calculator.extractionChamber.addRecipe(<calculator:circuitboard:5>, <evilcraft:dull_dust>, <appliedfluidics:material:1>);

@@ -7,9 +7,9 @@ Recipe Changes - Mekanism
 
 recipes.remove(steelCase);
 recipes.addShaped("steel casing", steelCase, [
-    [<ore:ingotEnderium>, <calculator:redstoneingot>, <ore:ingotEnderium>],
-    [<calculator:redstoneingot>, enoriBlock, <calculator:redstoneingot>],
-    [<ore:ingotEnderium>, <calculator:redstoneingot>, <ore:ingotEnderium>]
+    [<ore:ingotEnderium>, <ore:ingotSteel>, <calculator:redstoneingot>],
+    [<ore:ingotSteel>, enoriBlock, <ore:ingotSteel>],
+    [<calculator:redstoneingot>, <ore:ingotSteel>,<ore:ingotEnderium>]
     ]);
 
 recipes.remove(<mekanism:machineblock:8>);

@@ -67,4 +67,23 @@ recipes.addShaped("exu2 pipe", <extrautils2:pipe>*16, [
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
     ]);
 
+recipes.addShapeless("angel wings", <flyringbaublemod:angelring:1>, [
+    <flyringbaublemod:angelring>, <silentgems:craftingmaterial:16>
+    ]);
+
+recipes.addShapeless("angel fairy wings", <flyringbaublemod:angelring:2>, [
+    <flyringbaublemod:angelring>, <botania:cosmetic:8>
+    ]);
+
+recipes.addShapeless("angel devil wings", <flyringbaublemod:angelring:3>, [
+    <flyringbaublemod:angelring>, <ore:ingotDemonicMetal>
+    ]);
+
+recipes.addShapeless("angel dark wings", <flyringbaublemod:angelring:5>, [
+    <flyringbaublemod:angelring>, <xreliquary:mob_ingredient:5>
+    ]);
+
+recipes.addShapeless("angel gold wings", <flyringbaublemod:angelring:4>, [
+    <flyringbaublemod:angelring>, <silentgems:craftingmaterial:17>
+    ]);
 

@@ -8,7 +8,7 @@ var fluidPress = <appliedfluidics:material:1>;
 var yeast = <extratrees:misc:5>;
 var glassFitting = <extratrees:misc:12>;
 var goldClay = <botany:clay:25>;
-var electrumPlate = <immersiveengineering:metal:37>;
+var electrumPlate = <ore:plateElectrum>;
 var treatedStick = <immersiveengineering:material>;
 var impregnatedStick = <forestry:oak_stick>;
 var zombieHeart = <xreliquary:mob_ingredient:6>;
@@ -77,4 +77,6 @@ recipes.addShaped("vodka bottle", vodkaBottle, [
     ]);
 
 //Binnie integration broken
-//mods.extratrees.FruitPress.addRecipe(zombieHeart, <liquid:evilcraftblood> * 200);
+mods.extratrees.FruitPress.addRecipe(zombieHeart, <liquid:evilcraftblood> * 200);
+
+mods.extratrees.Distillery.addRecipe(<liquid:sewage> * 1000, <liquid:sludge> * 250, 1);

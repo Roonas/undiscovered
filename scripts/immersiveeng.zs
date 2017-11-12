@@ -128,6 +128,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<minecraft:iron_ingot>, <minecr
 mods.immersiveengineering.AlloySmelter.addRecipe(<minecraft:gold_ingot>, <minecraft:gold_ore>, coalDust, 60);
 mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:128>, <thermalfoundation:ore>, coalDust, 60);
 mods.immersiveengineering.AlloySmelter.addRecipe(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>, coalDust, 60);
+mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:135> * 2, <thermalfoundation:material:71>, <thermalfoundation:material:70>, 60);
 
 /*=========================
 Squeezer
@@ -140,7 +141,7 @@ mods.immersiveengineering.Squeezer.addRecipe(tungstenIngot, null, tungstenNug * 
 /*=========================
 Refinery
 =========================*/
-mods.immersiveengineering.Refinery.addRecipe(<liquid:mithril> * 32, <liquid:platinum> * 16, <liquid:mutagen> * 16, 0);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:mithril> * 500, <liquid:platinum> * 250, <liquid:mutagen> * 250, 200);
 
 /*=========================
 Metal Press
@@ -155,7 +156,8 @@ Arc Furnace
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
-mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 300, 1000);
+mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 300, 200);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:135> * 2, <thermalfoundation:material:71>, <thermalfoundation:material:199>, 600, 1000);
 //mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:iron_ore>, null, 120, 100);
 //mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_ingot> * 2, <minecraft:gold_ore>, null, 120, 100);
 //mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:128> * 2, <thermalfoundation:ore>, null, 120, 100);
@@ -167,7 +169,9 @@ Crusher
 mods.immersiveengineering.Crusher.removeRecipe(<jaopca:item_dusttungsten>);
 mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:71>);
 mods.immersiveengineering.Crusher.removeRecipe(<draconicevolution:draconium_dust>);
-mods.immersiveengineering.Crusher.addRecipe(<extrautils2:endershard>*8 * 8, <minecraft:ender_pearl>, 0);
+mods.immersiveengineering.Crusher.addRecipe(<extrautils2:endershard> * 8, <minecraft:ender_pearl>, 2000);
+mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:45> * 2, <appliedenergistics2:sky_stone_block>, 4000);
+mods.immersiveengineering.Crusher.addRecipe(<magneticraft:crafting> * 2, <magneticraft:ores:4>, 2000);
 
 /*=========================
 Mixer

@@ -1,5 +1,4 @@
 renderClouds:fast
-pauseOnLostFocus:false
 mipmapLevels:0
 autoJump:false
 soundCategory_weather:0.6

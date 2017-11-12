@@ -25,3 +25,6 @@ rottenPotBlock.register();
 
 var obsidianMekCase = VanillaFactory.createBlock("obsidiancase", <blockmaterial:rock>);
 obsidianMekCase.register();
+
+var platslurry = VanillaFactory.createBlock("platslurry", <blockmaterial:ground>);
+platslurry.register();

@@ -21,30 +21,6 @@
 				]
 			}
 		},
-		"tin": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "thermalfoundation:ore",
-					"metadata": 1
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 0
-			},
-			"cluster-count": 7,
-			"min-height": 20,
-			"max-height": 55,
-			"retrogen": "true",
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					0,
-					1
-				]
-			}
-		},
 		"silver": {
 			"distribution": "uniform",
 			"generator": {
@@ -114,20 +90,20 @@
 					{
 						"name": "thermalfoundation:ore",
 						"metadata": 6,
-						"weight": 50
+						"weight": 60
 					},
 					{
 						"name": "thermalfoundation:ore",
 						"metadata": 7,
-						"weight": 20
+						"weight": 40
 					}
 				],
 				"material": "minecraft:stone",
 				"cluster-size": 7
 			},
-			"cluster-count": 1,
-			"min-height": 5,
-			"max-height": 20,
+			"cluster-count": 3,
+			"min-height": 2,
+			"max-height": 25,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
@@ -178,11 +154,11 @@
 					"metadata": 5
 				},
 				"material": "minecraft:stone",
-				"cluster-size": 6
+				"cluster-size": 7
 			},
-			"cluster-count": 3,
+			"cluster-count": 4,
 			"min-height": 5,
-			"max-height": 35,
+			"max-height": 38,
 			"retrogen": "true",
 			"biome": "all",
 			"dimension": {
@@ -226,9 +202,9 @@
 			"generator": {
 				"block": "thermalfoundation:ore",
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 6
 			},
-			"cluster-count": 8,
+			"cluster-count": 6,
 			"min-height": 48,
 			"max-height": 96,
 			"retrogen": "true",

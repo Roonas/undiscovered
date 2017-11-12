@@ -45,9 +45,9 @@ recipes.addShaped("te enchated frame", <contenttweaker:enchantedframe>, [
 
 recipes.remove(<thermalexpansion:frame>);
 recipes.addShaped("te frame", <thermalexpansion:frame>, [
-    [<ore:ingotMithril>, null, <ore:ingotMithril>], 
-    [blackIron, iridiumGear, blackIron], 
-    [<ore:ingotMithril>, null, <ore:ingotMithril>]
+    [blackIron, null, blackIron], 
+    [<ore:ingotMithril>, iridiumGear, <ore:ingotMithril>], 
+    [blackIron, null, blackIron]
     ]);
 
 recipes.remove(receptionCoil);
@@ -114,15 +114,15 @@ recipes.addShaped("te compactor", <thermalexpansion:machine:5>, [
 
 recipes.remove(<thermalexpansion:machine:3>);
 recipes.addShaped("te induction smelter", <thermalexpansion:machine:3>, [
-    [null, <minecraft:bucket>, null], 
-    [<actuallyadditions:block_heat_collector>, <contenttweaker:enchantedframe>, <actuallyadditions:block_heat_collector>], 
-    [<ore:gearInvar>, <thermalfoundation:material:513>, <ore:gearInvar>]
+    [null, <actuallyadditions:block_heat_collector>, null], 
+    [<magneticraft:copper_tank>, <contenttweaker:enchantedframe>, <magneticraft:copper_tank>], 
+    [<ore:gearSteel>, <thermalfoundation:material:513>, <ore:gearSteel>]
     ]);
 
 recipes.addShaped("destablized redstone ore", <thermalfoundation:ore_fluid:2>, [
-    [<minecraft:stone>, <thermalfoundation:material:893>, <minecraft:stone>], 
+    [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>], 
     [<thermalfoundation:material:893>, <thermalfoundation:material:1026>, <thermalfoundation:material:893>], 
-    [<minecraft:stone>, <thermalfoundation:material:893>, <minecraft:stone>]
+    [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]
     ]);
 
 recipes.addShaped("te cheap frame", <contenttweaker:cheapframe>, [
@@ -140,6 +140,10 @@ recipes.addShaped("te sawmill", <thermalexpansion:machine:2>, [
 
 recipes.addShapeless(<contenttweaker:platslurry>, [
     <thermalfoundation:ore:6>, vodkaBottle
+    ]);
+
+recipes.addShapeless("iridium block to ingot", <thermalfoundation:material:135> * 9, [
+    <ore:blockIridium>
     ]);
 
 /*=========================
@@ -186,7 +190,8 @@ mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:2049>
 /*=========================
 Refinery
 =========================*/    
-mods.thermalexpansion.Refinery.addRecipe(<liquid:aerotheum> * 500, <thermalfoundation:material:1026>, <liquid:binnie.spirit.neutral> * 300, 2000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:binnie.spirit.neutral> * 250, <thermalfoundation:material:1026>, <liquid:aerotheum> * 500, 2000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:sludge> * 250, null, <liquid:sewage> * 1000, 1000);
 
 /*=========================
 Sawmill
@@ -202,6 +207,8 @@ mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:2>*8, <
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:5>*8, <immersiveengineering:storage:5>, 1200);
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:6>*8, <immersiveengineering:storage:6>, 1200);
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:7>*8, <immersiveengineering:storage:7>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:material:8>*8, <minecraft:iron_block>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:material:9>*8, <mekanism:basicblock:5>, 1200);
 
 /*=========================
 Centrifuge

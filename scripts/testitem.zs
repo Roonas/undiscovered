@@ -64,5 +64,3 @@ copperslag.register();
 var alumslag = VanillaFactory.createItem("alumslag");
 alumslag.register();
 
-var platslurry = VanillaFactory.createItem("platslurry");
-platslurry.register();
