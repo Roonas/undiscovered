@@ -12,7 +12,7 @@ recipes.remove(<extrautils2:angelring>);
 Recipe Changes - Extra Utils
 =========================*/
 
-recipes.remove(<extrautils2:machine>);
+recipes.remove(<extrautils2:machine>, true);
 recipes.addShaped("exu machine block", <extrautils2:machine>, [
     [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
     [<ore:plateSteel>, leadedConcrete, <ore:plateSteel>],
