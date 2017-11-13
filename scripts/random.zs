@@ -96,3 +96,10 @@ recipes.addShaped("drawer oredict2", <storagedrawers:upgrade_conversion>, [
     [<calculator:circuitboard:5>, <storagedrawers:upgrade_template>, <calculator:circuitboard:5>], 
     [<forestry:thermionic_tubes:11>, <calculator:circuitboard:5>, <forestry:thermionic_tubes:11>]
     ]);
+
+recipes.remove(<grapplemod:repeller>);
+recipes.addShaped("magnetic flight", <grapplemod:repeller>, [
+    [null, <actuallyadditions:item_crystal:2>, null], 
+    [<actuallyadditions:item_crystal:5>, <ore:ingotTungsten>, <actuallyadditions:item_crystal:5>], 
+    [null, <actuallyadditions:item_crystal:2>, null]
+    ]);

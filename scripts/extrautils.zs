@@ -6,6 +6,7 @@ var redstoneGear = <extrautils2:ingredients:1>;
 
 recipes.remove(<extrautils2:suncrystal:250>);
 recipes.remove(<extrautils2:endershard>);
+recipes.remove(<extrautils2:angelring>);
 
 /*=========================
 Recipe Changes - Extra Utils

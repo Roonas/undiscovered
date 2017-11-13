@@ -51,6 +51,14 @@ recipes.addShapeless("b quartz from block", <actuallyadditions:item_misc:5> * 4,
     <actuallyadditions:block_misc:2>
     ]);
 
+recipes.remove(<actuallyadditions:item_wings_of_the_bats>);
+recipes.addShaped("wing of bat", <actuallyadditions:item_wings_of_the_bats>, [
+    [<thermalfoundation:material:895>, <actuallyadditions:item_misc:15>, <thermalfoundation:material:895>], 
+    [<actuallyadditions:item_misc:15>, <calculator:largetanzanite>, <actuallyadditions:item_misc:15>], 
+    [<thermalfoundation:material:895>, <actuallyadditions:item_misc:15>, <thermalfoundation:material:895>]
+    ]);
+
+
 
 /*=========================
 Crusher
