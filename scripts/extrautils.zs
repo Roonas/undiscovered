@@ -7,7 +7,11 @@ var redstoneGear = <extrautils2:ingredients:1>;
 recipes.remove(<extrautils2:suncrystal:250>);
 recipes.remove(<extrautils2:endershard>);
 recipes.remove(<extrautils2:angelring>);
-
+recipes.remove(<flyringbaublemod:angelring>);
+//recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}), true);
+//recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}), true);
+mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}), true);
+mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}), true);
 /*=========================
 Recipe Changes - Extra Utils
 =========================*/

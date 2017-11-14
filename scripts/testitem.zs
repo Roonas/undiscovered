@@ -64,3 +64,11 @@ copperslag.register();
 var alumslag = VanillaFactory.createItem("alumslag");
 alumslag.register();
 
+var solidheart = VanillaFactory.createItem("solidheart");
+solidheart.register();
+
+var heartcast = VanillaFactory.createItem("heartcast");
+heartcast.register();
+
+var resinplate = VanillaFactory.createItem("resinplate");
+resinplate.register();

@@ -9,6 +9,7 @@ var heavyLeadPlate = <magneticraft:heavy_plates:3>;
 
 recipes.remove(<ore:ingotTungsten>);
 recipes.remove(wolframiteOre);
+recipes.remove(<magneticraft:thermopile>);
 
 /*=========================
 Recipe Changes - Magneticraft

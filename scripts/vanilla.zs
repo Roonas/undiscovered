@@ -50,6 +50,7 @@ furnace.addRecipe(<contenttweaker:copperslag>, <thermalfoundation:ore>);
 furnace.addRecipe(<contenttweaker:alumslag>, <immersiveengineering:ore:1>);
 furnace.addRecipe(<thermalfoundation:material:135>, <thermalfoundation:material:71>);
 furnace.addRecipe(<magneticraft:crafting>, <thermalfoundation:material:771>);
+furnace.addRecipe(<contenttweaker:resinplate>, <forestry:can:1>.withTag({Fluid: {FluidName: "sap", Amount: 1000}}));
 
 recipes.remove(<magneticraft:rocky_chunks:5>);
 recipes.remove(<jaopca:item_dustdirtytungsten>);

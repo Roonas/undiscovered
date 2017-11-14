@@ -1,4 +1,4 @@
-
+mods.jei.JEI.addDescription(<contenttweaker:entitykiller>, "It kills stuff");
 /*=========================
 Recipe Changes - Other
 =========================*/
@@ -102,4 +102,12 @@ recipes.addShaped("magnetic flight", <grapplemod:repeller>, [
     [null, <actuallyadditions:item_crystal:2>, null], 
     [<actuallyadditions:item_crystal:5>, <ore:ingotTungsten>, <actuallyadditions:item_crystal:5>], 
     [null, <actuallyadditions:item_crystal:2>, null]
+    ]);
+
+recipes.addShapeless(<contenttweaker:heartcast>, [
+    <contenttweaker:resinplate>, <contenttweaker:solidheart>.transformReplace(<contenttweaker:solidheart>)
+    ]);
+
+recipes.addShapeless(<contenttweaker:heartcast>, [
+    <forestry:wax_cast>, <contenttweaker:solidheart>.transformReplace(<contenttweaker:solidheart>)
     ]);

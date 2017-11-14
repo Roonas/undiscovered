@@ -1,6 +1,8 @@
 var steelCase = <mekanism:basicblock:8>;
 var enoriBlock = <actuallyadditions:block_crystal:5>;
 
+recipes.remove(<mekanismgenerators:generator>);
+
 /*=========================
 Recipe Changes - Mekanism
 =========================*/

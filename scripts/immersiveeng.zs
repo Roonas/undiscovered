@@ -176,4 +176,5 @@ mods.immersiveengineering.Crusher.addRecipe(<magneticraft:crafting> * 2, <magnet
 /*=========================
 Mixer
 =========================*/
-mods.immersiveengineering.Mixer.addRecipe(<liquid:aerotheum> * 500, <liquid:binnie.spirit.neutral> *500, [<contenttweaker:crystalsludge>, <magneticraft:crafting>, <extratrees:misc:5>], 50);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:aerotheum> * 500, <liquid:binnie.spirit.neutral> * 500, [<contenttweaker:crystalsludge>, <magneticraft:crafting>, <extratrees:misc:5>], 50);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:dblood> * 250, <liquid:evilcraftblood> * 1000, [<astralsorcery:itemcraftingcomponent:2>, <botania:manaresource:8>, <industrialforegoing:pink_slime>, <evilcraft:vengeance_essence>], 120);

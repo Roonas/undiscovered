@@ -122,6 +122,15 @@ mods.extendedcrafting.TableCrafting.addShaped(<evilcraft:creative_blood_drop>, [
     [<evilcraft:blood_orb:1>, <evilcraft:garmonbozia>, <evilcraft:garmonbozia>, ironDrumBlood, <evilcraft:garmonbozia>, <evilcraft:garmonbozia>, <evilcraft:blood_orb:1>]
     ]);
 
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:solidheart>, [
+    [null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null], 
+    [<immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>], 
+    [<immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>], 
+    [<immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <draconicevolution:dragon_heart>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>], 
+    [null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null], 
+    [null, null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null, null], 
+    [null, null, null, <immersiveengineering:stone_decoration:5>, null, null, null]
+    ]); 
 /*=========================
 9x9
 mods.extendedcrafting.TableCrafting.addShaped(<output>, [
