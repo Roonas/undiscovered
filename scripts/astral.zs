@@ -39,7 +39,7 @@ mods.astralsorcery.Lightwell.addLiquefaction(<thermalfoundation:material:892>, <
 /*=========================
 Starlight Infusion 
 =========================*/
-mods.astralsorcery.StarlightInfusion.addInfusion(<thermalfoundation:geode>, <environmentaltech:litherite_crystal>, false, 0.1, 200);
+//mods.astralsorcery.StarlightInfusion.addInfusion(<thermalfoundation:geode>, <environmentaltech:litherite_crystal>, false, 0.1, 200);
 mods.astralsorcery.StarlightInfusion.addInfusion(<minecraft:apple>, <minecraft:golden_apple:1>, false, 0.1, 100);
 
 /*=========================
