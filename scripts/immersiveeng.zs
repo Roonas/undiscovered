@@ -114,6 +114,7 @@ Bottling Machine
 =========================*/
 mods.immersiveengineering.BottlingMachine.addRecipe(vodkaBottle, <minecraft:glass_bottle>, <liquid:binnie.vodka> * 1000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<thermalfoundation:material:135>, <forestry:wax_cast>, <liquid:iridium> * 1000);
+mods.immersiveengineering.BottlingMachine.addRecipe(<draconicevolution:dragon_heart>, <contenttweaker:heartcast>, <liquid:dblood> * 1000);
 
 /*=========================
 Coke Oven
@@ -177,4 +178,4 @@ mods.immersiveengineering.Crusher.addRecipe(<magneticraft:crafting> * 2, <magnet
 Mixer
 =========================*/
 mods.immersiveengineering.Mixer.addRecipe(<liquid:aerotheum> * 500, <liquid:binnie.spirit.neutral> * 500, [<contenttweaker:crystalsludge>, <magneticraft:crafting>, <extratrees:misc:5>], 50);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:dblood> * 250, <liquid:evilcraftblood> * 1000, [<astralsorcery:itemcraftingcomponent:2>, <botania:manaresource:8>, <industrialforegoing:pink_slime>, <evilcraft:vengeance_essence>], 120);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:dblood> * 100, <liquid:evilcraftblood> * 1000, [<astralsorcery:itemcraftingcomponent:2>, <botania:manaresource:8>, <industrialforegoing:pink_slime>, <evilcraft:vengeance_essence>], 120);

@@ -27,6 +27,10 @@ recipes.remove(<thermalfoundation:material:71>);
 recipes.remove(<thermalfoundation:material:135>);
 //recipes.remove(<thermalfoundation:material:1024>);
 
+//mods.jei.JEI.addDescription(<thermalfoundation:sap>, "Produced by the arboreal extractor.");
+
+mods.jei.JEI.addDescription(<immersiveengineering:fluidcreosote>, "Coke juice");
+mods.jei.JEI.addDescription(<fluid:lava>, "Tree juice");
 /*=========================
 Recipe Changes - Thermal
 =========================*/
@@ -184,9 +188,9 @@ Fluid Transposer
 =========================*/ 
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:sand>, <liquid:redstone>);
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:snowball>, <liquid:redstone>);
-mods.thermalexpansion.Transposer.addFillRecipe(<extrautils2:ingredients:12>, <extendedcrafting:material>, <liquid:xpjuice> * 1000, 500);
-mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:dragon_heart>, <contenttweaker:heartcast>, <liquid:dblood> * 3000, 500);
-mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:2049>, <minecraft:packed_ice>, <liquid:gasoline> * 250, 0);
+mods.thermalexpansion.Transposer.addFillRecipe(<extrautils2:ingredients:12>, <extendedcrafting:material>, <liquid:xpjuice> * 1000, 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:dragon_heart>, <contenttweaker:heartcast>, <liquid:dblood> * 1000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:2049>, <minecraft:packed_ice>, <liquid:gasoline> * 250, 500);
 
 /*=========================
 Refinery
