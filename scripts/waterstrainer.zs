@@ -8,3 +8,9 @@ recipes.addShaped("strainer base", <waterstrainer:strainer_base>, [
     [<ore:plankWood>, <rustic:barrel>, <ore:plankWood>],
     [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
     ]);
+
+recipes.remove(<waterstrainer:garden_trowel>);
+recipes.addShaped("strainer trowel", <waterstrainer:garden_trowel>, [
+    [null, <minecraft:iron_ingot>],
+    [null, <minecraft:stick>],
+    ]);

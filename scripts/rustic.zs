@@ -5,8 +5,11 @@ var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka
 var vodkaBucket = <forge:bucketfilled>.withTag({FluidName: "binnie.vodka", Amount: 1000});
 var liquidTube = <stevescarts:modulecomponents:65>;
 var crushedGold = <actuallyadditions:item_dust:1>;
+var oreBerry = <rustic:ironberries>;
 
 <ore:listAllmushroom>.add(<rustic:deathstalk_mushroom>);
+<ore:listAllfruit>.remove(oreBerry);
+<ore:listAllberry>.remove(oreBerry);
 
 /*=========================
 Recipe Changes - Rustic

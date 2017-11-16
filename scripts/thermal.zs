@@ -27,10 +27,6 @@ recipes.remove(<thermalfoundation:material:71>);
 recipes.remove(<thermalfoundation:material:135>);
 //recipes.remove(<thermalfoundation:material:1024>);
 
-//mods.jei.JEI.addDescription(<thermalfoundation:sap>, "Produced by the arboreal extractor.");
-
-mods.jei.JEI.addDescription(<immersiveengineering:fluidcreosote>, "Coke juice");
-mods.jei.JEI.addDescription(<fluid:lava>, "Tree juice");
 /*=========================
 Recipe Changes - Thermal
 =========================*/
