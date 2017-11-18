@@ -72,3 +72,12 @@ heartcast.register();
 
 var resinplate = VanillaFactory.createItem("resinplate");
 resinplate.register();
+
+var brokenrod = VanillaFactory.createItem("brokenrod");
+brokenrod.register();
+
+var screws = VanillaFactory.createItem("screws");
+screws.register();
+
+var bagofjunk = VanillaFactory.createItem("bagofjunk");
+bagofjunk.register();

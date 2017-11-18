@@ -16,9 +16,9 @@
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 14
+				"cluster-size": 12
 			},
-			"cluster-count": 2,
+			"cluster-count": 3,
 			"chunk-chance": 7,
 			"min-height": 0,
 			"max-height": 25,

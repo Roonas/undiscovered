@@ -11,8 +11,8 @@
                 ],
                 "outline-block": "forestry:bog_earth",
             },
-            "cluster-count": 2,
-            "chunk-chance": 45,
+            "cluster-count": 1,
+            "chunk-chance": 65,
             "min-height": 50,
             "max-height": 80,
             "biome": {

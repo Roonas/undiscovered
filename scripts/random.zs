@@ -1,4 +1,10 @@
+var scrapBag = <scrap:scrap>.withTag({TABLE: "scrap:scrap", PLATE: "d1a77f", GEAR: "d0c2ba", NAME: "scrap"});
+
 mods.jei.JEI.addDescription(<contenttweaker:entitykiller>, "It kills stuff");
+
+
+<ore:brokenPlate>.add(<scrap:broken.plate:*>);
+mods.jei.JEI.addDescription(<ore:brokenPlate>, "Found in piles of scrap");
 /*=========================
 Recipe Changes - Other
 =========================*/
@@ -110,4 +116,42 @@ recipes.addShapeless(<contenttweaker:heartcast>, [
 
 recipes.addShapeless(<contenttweaker:heartcast>, [
     <forestry:wax_cast>, <contenttweaker:solidheart>.transformReplace(<contenttweaker:solidheart>)
+    ]);
+
+recipes.addShapeless(<redstonepaste:redstonepaste>, [
+    <evilcraft:dull_dust>, <ore:dyeRed>, <ore:slimeball>
+    ]);
+
+recipes.addShaped("repaired iron plate", <thermalfoundation:material:32>, [
+    [<contenttweaker:screws>, <ore:brokenPlateIRON>, <contenttweaker:screws>], 
+    [<ore:brokenPlateIRON>, null, <ore:brokenPlateIRON>], 
+    [<contenttweaker:screws>, <ore:brokenPlateIRON>, <contenttweaker:screws>]
+    ]);
+
+recipes.addShaped("repaired invar plate", <thermalfoundation:material:354>, [
+    [<contenttweaker:screws>, <ore:brokenPlateINVAR>, <contenttweaker:screws>], 
+    [<ore:brokenPlateINVAR>, null, <ore:brokenPlateINVAR>], 
+    [<contenttweaker:screws>, <ore:brokenPlateINVAR>, <contenttweaker:screws>]
+    ]);
+
+recipes.addShaped("repaired iron gear", <thermalfoundation:material:24>, [
+    [<contenttweaker:screws>, <ore:brokenGearIRON>, <contenttweaker:screws>], 
+    [<ore:brokenGearIRON>, null, <ore:brokenGearIRON>], 
+    [<contenttweaker:screws>, <ore:brokenGearIRON>, <contenttweaker:screws>]
+    ]);
+
+recipes.addShaped("repaired copper gear", <thermalfoundation:material:256>, [
+    [<contenttweaker:screws>, <ore:brokenGearCOPPER>, <contenttweaker:screws>], 
+    [<ore:brokenGearCOPPER>, null, <ore:brokenGearCOPPER>], 
+    [<contenttweaker:screws>, <ore:brokenGearCOPPER>, <contenttweaker:screws>]
+    ]);
+
+recipes.addShaped("repaired iron rod", <silentgems:craftingmaterial:7>, [
+    [null, null, <contenttweaker:brokenrod>], 
+    [null, <contenttweaker:brokenrod>, null], 
+    [<contenttweaker:brokenrod>, null, null]
+    ]);
+
+recipes.addShapeless(scrapBag, [
+    <contenttweaker:bagofjunk>
     ]);

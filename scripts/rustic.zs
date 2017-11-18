@@ -17,30 +17,37 @@ Recipe Changes - Rustic
 
 recipes.remove(<rustic:barrel>);
 recipes.addShaped("barrel", <rustic:barrel>, [
-    [<ore:plankWood>,<ore:slabWood>,<ore:plankWood>],
+    [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>],
     [<ore:plankWood>, null,<ore:plankWood>],
-    [<ore:plankWood>,<ore:slabWood>,<ore:plankWood>]
+    [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]
     ]);
 
 recipes.remove(<rustic:crushing_tub>);
 recipes.addShaped("crushing tub", <rustic:crushing_tub>, [
     [null, null, null],
-    [<ore:plankWood>, <magneticraft:feeding_trough>,<ore:plankWood>],
-    [<ore:plankWood>,<ore:slabWood>,<ore:plankWood>]
+    [<ore:plankWood>, <magneticraft:feeding_trough>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]
     ]);
 
 recipes.remove(<rustic:condenser>);
 recipes.addShaped("condenser", <rustic:condenser>, [
     [null, <minecraft:brick>, null],
-    [<minecraft:brick>, <minecraft:bucket>,<minecraft:brick>],
-    [<minecraft:brick>,<minecraft:brick_block>,<minecraft:brick>]
+    [<minecraft:brick>, <minecraft:bucket>, <minecraft:brick>],
+    [<minecraft:brick>, <minecraft:brick_block>, <minecraft:brick>]
     ]);
 
 recipes.remove(<rustic:retort>);
 recipes.addShaped("retort", <rustic:retort>, [
     [null, <minecraft:brick>, null],
-    [null, <minecraft:bucket>,null],
-    [null,<minecraft:brick>,null]
+    [null, <rustic:liquid_barrel>, null],
+    [null,<minecraft:brick>, null]
+    ]);
+
+recipes.remove(<rustic:liquid_barrel>);
+recipes.addShaped("liquid barrel", <rustic:liquid_barrel>, [
+    [<ore:logWood>, null, <ore:logWood>],
+    [<ore:logWood>, null, <ore:logWood>],
+    [<ore:logWood>, <ore:slabWood>, <ore:logWood>]
     ]);
 
 recipes.addShaped("drying basin", <rustic:evaporating_basin>, [

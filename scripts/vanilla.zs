@@ -42,6 +42,11 @@ furnace.remove(<minecraft:iron_ingot>, <minecraft:iron_ore>);
 furnace.remove(<minecraft:gold_ingot>, <minecraft:gold_ore>);
 furnace.remove(<thermalfoundation:material:128>, <thermalfoundation:ore>);
 furnace.remove(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>);
+furnace.remove(<minecraft:iron_nugget>, <scrap:broken.plate>);
+furnace.remove(<minecraft:iron_nugget>, <scrap:broken.gear>);
+furnace.remove(<minecraft:iron_nugget>, <contenttweaker:brokenrod>);
+furnace.remove(<thermalfoundation:material:192>, <scrap:broken.gear:2>);
+furnace.remove(<thermalfoundation:material:226>, <scrap:broken.plate:13>);
 
 furnace.addRecipe(tungstenNug, rockyTungsten);
 furnace.addRecipe(<contenttweaker:ironslag>, <minecraft:iron_ore>);
@@ -52,6 +57,7 @@ furnace.addRecipe(<thermalfoundation:material:135>, <thermalfoundation:material:
 furnace.addRecipe(<magneticraft:crafting>, <thermalfoundation:material:771>);
 furnace.addRecipe(<contenttweaker:resinplate>, <forestry:can:1>.withTag({Fluid: {FluidName: "sap", Amount: 1000}}));
 furnace.addRecipe(<contenttweaker:resinplate>, <forestry:can:1>.withTag({Fluid: {FluidName: "resin", Amount: 1000}}));
+furnace.addRecipe(<minecraft:redstone> * 2, <redstonepaste:redstonepaste>);
 
 recipes.remove(<magneticraft:rocky_chunks:5>);
 recipes.remove(<jaopca:item_dustdirtytungsten>);
@@ -88,9 +94,9 @@ recipes.addShapeless(<minecraft:flint_and_steel>, [
     <minecraft:flint>, <ore:ingotSteel>
     ]);
 
-recipes.addShaped("bucket steel", <minecraft:bucket>, [
-    [<ore:ingotSteel>, null, <ore:ingotSteel>], 
-    [null, <ore:ingotSteel>, null], 
+recipes.addShaped("bucket broken plates", <minecraft:bucket>, [
+    [<ore:brokenPlate>, null, <ore:brokenPlate>], 
+    [null, <ore:brokenPlate>, null], 
     [null, null, null]
     ]);
 

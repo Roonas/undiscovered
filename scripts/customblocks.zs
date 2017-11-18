@@ -28,3 +28,6 @@ obsidianMekCase.register();
 
 var platslurry = VanillaFactory.createBlock("platslurry", <blockmaterial:ground>);
 platslurry.register();
+
+var scrapelec = VanillaFactory.createBlock("scrapelec", <blockmaterial:rock>);
+scrapelec.register();

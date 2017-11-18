@@ -23,6 +23,7 @@ var ieHammer = <immersiveengineering:tool>;
 var ironGrit = <immersiveengineering:metal:18>;
 var alumGrit = <immersiveengineering:metal:10>;
 var goldGrit = <immersiveengineering:metal:19>;
+var scrapBag = <scrap:scrap>.withTag({TABLE: "scrap:scrap", PLATE: "d1a77f", GEAR: "d0c2ba", NAME: "scrap"});
 
 recipes.remove(steelComponent);
 recipes.remove(ironComponent);
@@ -173,6 +174,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<draconicevolution:draconium_dust
 mods.immersiveengineering.Crusher.addRecipe(<extrautils2:endershard> * 8, <minecraft:ender_pearl>, 2000);
 mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:45> * 2, <appliedenergistics2:sky_stone_block>, 4000);
 mods.immersiveengineering.Crusher.addRecipe(<magneticraft:crafting> * 2, <magneticraft:ores:4>, 2000);
+mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dull_dust> * 2, <contenttweaker:scrapelec>, 2000, <minecraft:redstone> * 6, 0.6);
 
 /*=========================
 Mixer

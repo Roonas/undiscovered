@@ -20,6 +20,7 @@ var treatedCrate = <immersiveengineering:wooden_device0>;
 var redstoneWire = <immersiveengineering:wirecoil:5>;
 var tinPlate = <thermalfoundation:material:321>;
 var goldGear = <thermalfoundation:material:25>;
+var scrapBag = <scrap:scrap>.withTag({TABLE: "scrap:scrap", PLATE: "d1a77f", GEAR: "d0c2ba", NAME: "scrap"});
 
 /*=========================
 Recipe Changes - Forestry
@@ -122,4 +123,11 @@ mods.forestry.Carpenter.addRecipe(basicCircuit, [
 Squeezer
 =========================*/
 mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 200, [zombieHeart], 20);
+
+/*=========================
+Centrifuge
+(Array of Output + %, InputStack, Time in Ticks)
+=========================*/
+mods.forestry.Centrifuge.addRecipe([scrapBag % 100, <minecraft:redstone> * 3 % 80, <extrabees:misc:22> % 20], <contenttweaker:scrapelec>, 20);
+
 
