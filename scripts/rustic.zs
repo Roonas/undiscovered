@@ -76,6 +76,7 @@ mods.rustic.CrushingTub.addRecipe(<liquid:coal> * 5, graphiteDust, graphitIngot)
 mods.rustic.CrushingTub.addRecipe(<liquid:gold> * 250, <minecraft:gold_ore>, crushedGold);
 mods.rustic.CrushingTub.addRecipe(<liquid:sewage> * 10, <minecraft:stone>, <extrautils2:compressedcobblestone>);
 mods.rustic.CrushingTub.addRecipe(<liquid:coal> * 10, <thermalfoundation:material:768>, <minecraft:coal>);
+mods.rustic.CrushingTub.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>, <thermalfoundation:material:893>);
 
 /*=========================
 Evaporating Basin
@@ -86,6 +87,7 @@ mods.rustic.EvaporatingBasin.addRecipe(<immersiveengineering:metal:33>, <liquid:
 mods.rustic.EvaporatingBasin.addRecipe(<thermalfoundation:material:199>, <liquid:iridium> * 200);
 mods.rustic.EvaporatingBasin.addRecipe(<thermalfoundation:material:1026>, <liquid:aerotheum> * 1000);
 mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:resinplate>, <liquid:sap> * 500);
+mods.rustic.EvaporatingBasin.addRecipe(<minecraft:redstone>, <liquid:redstone> * 500);
 
 
 /*=========================

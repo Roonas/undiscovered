@@ -146,6 +146,35 @@ recipes.addShapeless("iridium block to ingot", <thermalfoundation:material:135> 
     <ore:blockIridium>
     ]);
 
+recipes.remove(<thermalexpansion:dynamo>);
+recipes.addShaped("steam dynamo", <thermalexpansion:dynamo>, [
+    [null, <thermalfoundation:material:514>, null], 
+    [<ore:gearCopper>, <ore:ingotBlackIron>, <ore:gearCopper>], 
+    [<ore:ingotBlackIron>, <thermalexpansion:frame>, <ore:ingotBlackIron>]
+    ]);
+
+recipes.remove(<thermalexpansion:dynamo:1>);
+recipes.addShaped("lava dynamo", <thermalexpansion:dynamo:1>, [
+    [null, <thermalfoundation:material:514>, null], 
+    [<ore:gearInvar>, <ore:ingotDemonicMetal>, <ore:gearInvar>], 
+    [<ore:ingotDemonicMetal>, <thermalexpansion:frame>, <ore:ingotDemonicMetal>]
+    ]);
+
+recipes.remove(<thermalexpansion:dynamo:2>);
+recipes.addShaped("compression dynamo", <thermalexpansion:dynamo:2>, [
+    [null, <thermalfoundation:material:514>, null], 
+    [<ore:gearTin>, <ore:ingotLead>, <ore:gearTin>], 
+    [<ore:ingotLead>, <contenttweaker:cheapframe>, <ore:ingotLead>]
+    ]);
+
+recipes.remove(<thermalexpansion:dynamo:4>);
+recipes.addShaped("redstone dynamo", <thermalexpansion:dynamo:4>, [
+    [null, <thermalfoundation:material:514>, null], 
+    [<ore:gearElectrum>, <ore:ingotGold>, <ore:gearElectrum>], 
+    [<ore:ingotGold>, <contenttweaker:cheapframe>, <ore:ingotGold>]
+    ]);
+
+
 /*=========================
 Crucible
 =========================*/    
@@ -208,8 +237,8 @@ mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:2>*8, <
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:5>*8, <immersiveengineering:storage:5>, 1200);
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:6>*8, <immersiveengineering:storage:6>, 1200);
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:7>*8, <immersiveengineering:storage:7>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:material:8>*8, <minecraft:iron_block>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:material:9>*8, <mekanism:basicblock:5>, 1200);
+//mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:material:8>*8, <minecraft:iron_block>, 1200);
+//mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:material:9>*8, <mekanism:basicblock:5>, 1200);
 
 /*=========================
 Centrifuge

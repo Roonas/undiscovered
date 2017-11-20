@@ -108,6 +108,28 @@ recipes.addShapeless("steel grit", <immersiveengineering:metal:17>, [
     <immersiveengineering:metal:18>, <immersiveengineering:metal:18>, <immersiveengineering:metal:18>, <thermalfoundation:material:768>
     ]);
 
+recipes.remove(<immersiveengineering:metal_device1:2>);
+recipes.addShaped("kinetic dynamo", <immersiveengineering:metal_device1:2>, [
+    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], 
+    [<minecraft:redstone>, <immersiveengineering:metal_decoration0>, <minecraft:redstone>], 
+    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
+    ]);
+
+recipes.remove(<immersiveengineering:material:10>);
+recipes.addShaped("water wheel part", <immersiveengineering:material:10>, [
+    [null, <forestry:oak_stick>, null], 
+    [<forestry:oak_stick>, <immersiveengineering:treated_wood>, <forestry:oak_stick>], 
+    [<immersiveengineering:treated_wood>, <forestry:oak_stick>, <immersiveengineering:treated_wood>]
+    ]);
+
+recipes.remove(<immersivepetroleum:schematic>);
+recipes.addShaped("projector", <immersivepetroleum:schematic>, [
+    [<minecraft:glass>, null, null], 
+    [<minecraft:iron_ingot>, <minecraft:glowstone>, null], 
+    [null, <minecraft:iron_ingot>, <immersiveengineering:treated_wood>]
+    ]);
+
+
 
 
 /*=========================
@@ -175,6 +197,7 @@ mods.immersiveengineering.Crusher.addRecipe(<extrautils2:endershard> * 8, <minec
 mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:45> * 2, <appliedenergistics2:sky_stone_block>, 4000);
 mods.immersiveengineering.Crusher.addRecipe(<magneticraft:crafting> * 2, <magneticraft:ores:4>, 2000);
 mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dull_dust> * 2, <contenttweaker:scrapelec>, 2000, <minecraft:redstone> * 6, 0.6);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>, <thermalfoundation:material:893>, 800);
 
 /*=========================
 Mixer

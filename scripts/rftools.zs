@@ -4,6 +4,8 @@ var steelRod = <immersiveengineering:material:2>;
 var vacuumTube = <immersiveengineering:material:26>;
 var tungstonIngot = <magneticraft:ingots:5>;
 
+recipes.remove(<rftools:coalgenerator>);
+
 /*=========================
 Recipe Changes - RFTools
 =========================*/

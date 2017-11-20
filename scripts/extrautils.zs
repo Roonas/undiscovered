@@ -92,3 +92,53 @@ recipes.addShapeless("angel gold wings", <flyringbaublemod:angelring:4>, [
     <flyringbaublemod:angelring>, <silentgems:craftingmaterial:17>
     ]);
 
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}), true);
+recipes.addShaped("survival gen", <extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}), [
+    [<sonarcore:reinforcedstoneblock>, <sonarcore:reinforcedstoneblock>, <sonarcore:reinforcedstoneblock>], 
+    [<sonarcore:reinforcedstoneblock>, <immersiveengineering:material:8>, <sonarcore:reinforcedstoneblock>], 
+    [<minecraft:redstone>, <minecraft:furnace>, <minecraft:redstone>]
+    ]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator"}), true);
+recipes.addShaped("exu furnace gen", <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), [
+    [<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>], 
+    [<minecraft:iron_block>, <extrautils2:machine>, <minecraft:iron_block>], 
+    [<minecraft:redstone_block>, <magneticraft:electric_furnace>, <minecraft:redstone_block>]
+    ]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}), true);
+recipes.addShaped("overclocked gen", <extrautils2:machine>.withTag({Type: "extrautils2:generator_overclock"}), [
+    [<jaopca:item_platelapis>, <jaopca:item_platelapis>, <jaopca:item_platelapis>], 
+    [<jaopca:item_platelapis>, <minecraft:gold_block>, <jaopca:item_platelapis>], 
+    [<calculator:material:9>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <calculator:material:9>]
+    ]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}), true);
+recipes.addShaped("netherstar gen", <extrautils2:machine>.withTag({Type: "extrautils2:generator_netherstar"}), [
+    [<minecraft:skull:1>, <minecraft:skull:1>, <minecraft:skull:1>], 
+    [<extrautils2:simpledecorative:2>, <actuallyadditions:item_misc:19>, <extrautils2:simpledecorative:2>], 
+    [<calculator:material:9>, <extrautils2:machine>.withTag({Type: "extrautils2:generator"}), <calculator:material:9>]
+    ]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}), true);
+recipes.addShaped("exu slime gen", <extrautils2:machine>.withTag({Type: "extrautils2:generator_slime"}), [
+    [<randomthings:compressedslimeblock>, <randomthings:compressedslimeblock>, <randomthings:compressedslimeblock>], 
+    [<harvestcraft:gummybearsitem>, <cookingforblockheads:milk_jar>, <harvestcraft:gummybearsitem>], 
+    [<minecraft:redstone>, <extrautils2:machine>, <minecraft:redstone>]
+    ]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}), true);
+recipes.addShaped("exu pink gen", <extrautils2:machine>.withTag({Type: "extrautils2:generator_pink"}), [
+    [<minecraft:concrete:6>, <minecraft:concrete:6>, <minecraft:concrete:6>], 
+    [<ore:dyePink>, <ore:blockWoolPink>, <ore:dyePink>], 
+    [<minecraft:redstone>, <extrautils2:machine>, <minecraft:redstone>]
+    ]);
+
+recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_tnt"}), true);
+recipes.addShaped("exu explosive gen", <extrautils2:machine>.withTag({Type: "extrautils2:generator_tnt"}), [
+    [<minecraft:gunpowder>, <minecraft:gunpowder>, <minecraft:gunpowder>], 
+    [<minecraft:fire_charge>, <minecraft:tnt>, <minecraft:fire_charge>], 
+    [<ore:dustSulfur>, <extrautils2:machine>, <ore:dustSulfur>]
+    ]);
+
+

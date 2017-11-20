@@ -66,6 +66,22 @@ recipes.addShaped("atomic mod", <calculator:atomicmodule> * 4, [
     [ <forestry:thermionic_tubes:10>, <calculator:calculatorassembly>, <forestry:thermionic_tubes:10>],
     [<ore:gemTanzanite>, <ore:gearPlatinum>, <ore:gemTanzanite>]
     ]);
+
+recipes.addShaped("calc transmitter", <calculator:transmitter>, [
+    [<jaopca:item_stickiridium>, <calculator:redstoneingot>, <jaopca:item_stickiridium>], 
+    [null, <calculator:electricdiamond>, null], 
+    [null, <actuallyadditions:block_crystal_empowered:5>, null]
+    ]);
+
+recipes.remove(<calculator:atomicmultiplier>);
+recipes.addShaped("atomic multiplier", <calculator:atomicmultiplier>, [
+    [<calculator:calculatorplug>, <calculator:fabricationchamber>, <calculator:calculatorplug>], 
+    [<calculator:atomicmodule>, <calculator:atomicassembly>, <calculator:atomicmodule>], 
+    [<astralsorcery:blockcelestialcollectorcrystal>, <draconicevolution:chaotic_core>, <evilcraft:garmonbozia>]
+    ]);
+
+
+
 /*=========================
 Conductor Mast
 =========================*/
@@ -86,6 +102,7 @@ mods.calculator.algorithmSeparator.addRecipe(<thermalfoundation:ore_fluid:2>, <c
 /*=========================
 Atomic Calc
 =========================*/
+mods.calculator.atomic.removeRecipe(<calculator:transmitter>);
 mods.calculator.atomic.addRecipe(<minecraft:anvil>, <appliedenergistics2:material:7>, <minecraft:heavy_weighted_pressure_plate>, <appliedenergistics2:material:8> * 2);
 
 /*=========================

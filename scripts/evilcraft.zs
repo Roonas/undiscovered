@@ -36,5 +36,7 @@ recipes.addShaped("dark gem gear", <jaopca:item_geardark>, [
 Blood Infuser
 (inputIngredient, inputFluid, tier, outputStack, duration, xp) 
 =========================*/
+mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<minecraft:redstone>);
 mods.evilcraft.BloodInfuser.addRecipe(starmetalOre, <liquid:evilcraftblood> * 1000, 1, starmetalIngot, 50, 10);
 mods.evilcraft.BloodInfuser.addRecipe(<minecraft:redstone_ore>, <liquid:evilcraftblood> * 10000, 2, <thermalfoundation:ore_fluid:2>, 100, 30);
+mods.evilcraft.BloodInfuser.addRecipe(<evilcraft:dull_dust>, <liquid:evilcraftblood> * 100, 1, <minecraft:redstone>, 40, 2);

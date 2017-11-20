@@ -142,6 +142,14 @@ recipes.addShaped("mfr upgrade base", <teslacorelib:base_addon>, [
     [<ore:rodCopper>, <ore:wireElectrum>, <ore:rodCopper>]
     ]);
 
+recipes.remove(<industrialforegoing:petrified_fuel_generator>);
+recipes.addShaped("mfr furnace gen", <industrialforegoing:petrified_fuel_generator>, [
+    [<industrialforegoing:plastic>, <calculator:firediamond>, <industrialforegoing:plastic>], 
+    [<thermalfoundation:material:292>, <contenttweaker:advancedcase>, <thermalfoundation:material:292>], 
+    [<industrialforegoing:plastic>, <magneticraft:electric_furnace>, <industrialforegoing:plastic>]
+    ]);
+
+
 
 /*=========================
 Laser Drill

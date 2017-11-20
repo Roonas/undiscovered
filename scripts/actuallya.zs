@@ -58,6 +58,28 @@ recipes.addShaped("wing of bat", <actuallyadditions:item_wings_of_the_bats>, [
     [<thermalfoundation:material:895>, <actuallyadditions:item_misc:15>, <thermalfoundation:material:895>]
     ]);
 
+recipes.remove(<actuallyadditions:block_heat_collector>);
+recipes.addShaped("aa lava gen", <actuallyadditions:block_heat_collector>, [
+    [<ore:plateConstantan>, <actuallyadditions:block_misc:7>, <ore:plateConstantan>], 
+    [<actuallyadditions:item_misc:8>, <actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:item_misc:8>], 
+    [<ore:plateConstantan>, <actuallyadditions:block_misc:9>, <ore:plateConstantan>]
+    ]);
+
+recipes.remove(<actuallyadditions:block_leaf_generator>);
+recipes.addShaped("leaf gen", <actuallyadditions:block_leaf_generator>, [
+    [<actuallyadditions:item_crystal:3>, <actuallyadditions:item_leaf_blower>, <actuallyadditions:item_crystal:3>], 
+    [<actuallyadditions:item_crystal>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_crystal>], 
+    [<actuallyadditions:item_crystal:3>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_crystal:3>]
+    ]);
+
+recipes.remove(<actuallyadditions:item_leaf_blower>);
+recipes.addShaped("leaf blower", <actuallyadditions:item_leaf_blower>, [
+    [null, <minecraft:flint>, null], 
+    [<ore:plateIron>, <magneticraft:crafting:2>, null], 
+    [<ore:plateIron>, <actuallyadditions:item_misc:7>, null]
+    ]);
+
+
 
 
 /*=========================
@@ -67,6 +89,7 @@ mods.actuallyadditions.Crusher.removeRecipe(<jaopca:item_dusttungsten>);
 mods.actuallyadditions.Crusher.removeRecipe(<thermalfoundation:material:71>);
 mods.actuallyadditions.Crusher.removeRecipe(<draconicevolution:draconium_dust>);
 mods.actuallyadditions.Crusher.addRecipe(<extrautils2:endershard>*8 * 8, <minecraft:ender_pearl>);
+mods.actuallyadditions.Crusher.addRecipe(<minecraft:redstone>, <thermalfoundation:material:893>);
 
 /*=========================
 Empowerer

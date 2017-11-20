@@ -11,3 +11,10 @@ recipes.addShaped("reactor controller", <bigreactors:reactorcontroller>, [
     [evilIngot, <rftools:machine_frame>, evilIngot],
     [<bigreactors:reactorcasing>, <thermalfoundation:material:136>, <bigreactors:reactorcasing>]
     ]);
+
+recipes.remove(<bigreactors:reactorcasing>);
+recipes.addShaped("reactor casing", <bigreactors:reactorcasing>, [
+    [<calculator:reinforcedironingot>, <jaopca:item_platecoal>, <calculator:reinforcedironingot>], 
+    [<jaopca:item_platecoal>, <bigreactors:reactorcasingcores>, <jaopca:item_platecoal>], 
+    [<calculator:reinforcedironingot>, <jaopca:item_platecoal>, <calculator:reinforcedironingot>]
+    ]);

@@ -197,9 +197,30 @@
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+
+		"redstone_otherdim": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "redstone_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 0,
+			"max-height": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
 				"restriction": "blacklist",
 				"value": [
 					-1,
+					0,
 					1
 				]
 			}
