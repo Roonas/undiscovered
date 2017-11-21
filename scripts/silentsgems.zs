@@ -295,3 +295,10 @@ recipes.addShaped("nether star", <minecraft:nether_star>, [
     [null, <silentgems:soulgem>.withTag({sg_soul_gem: "WitherBoss"}), null], 
     [<silentgems:soulgem>.withTag({sg_soul_gem: "WitherBoss"}), null, null]
     ]);
+    
+recipes.addShaped("upgrade base", <silentgems:craftingmaterial:12>, [
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], 
+    [<minecraft:stick>, <silentgems:gem:*>, <minecraft:stick>], 
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
+    ]);
+

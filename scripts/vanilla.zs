@@ -132,3 +132,7 @@ recipes.addShaped("tin hopper", <minecraft:hopper>, [
     [null, <ore:ingotTin>, null]
     ]);
 
+recipes.remove(<minecraft:fire_charge>);
+recipes.addShapeless(<minecraft:fire_charge> * 3, [
+    <forestry:can:1>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}), <ore:coal>, <ore:gunpowder>
+    ]);

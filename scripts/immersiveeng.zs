@@ -59,7 +59,7 @@ recipes.addShaped("coke brick", cokeBrick * 9, [
 recipes.remove(blastBrick);
 recipes.addShaped("blast brick", blastBrick * 9, [
     [<forestry:peat>,<rustic:tallow>,<forestry:peat>],
-    [<rustic:tallow>,<minecraft:fire_charge>,<rustic:tallow>],
+    [<rustic:tallow>,<botania:quartztypeblaze>,<rustic:tallow>],
     [<forestry:peat>,<rustic:tallow>,<forestry:peat>]
     ]);
 
