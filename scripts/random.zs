@@ -4,7 +4,7 @@ mods.jei.JEI.addDescription(<contenttweaker:entitykiller>, "It kills stuff");
 
 
 <ore:brokenPlate>.add(<scrap:broken.plate:*>);
-mods.jei.JEI.addDescription(<ore:brokenPlate>, "Found in piles of scrap");
+//mods.jei.JEI.addDescription(<ore:brokenPlate>, "Found in piles of scrap");
 /*=========================
 Recipe Changes - Other
 =========================*/
