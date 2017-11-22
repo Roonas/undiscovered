@@ -1,10 +1,11 @@
 var scrapBag = <scrap:scrap>.withTag({TABLE: "scrap:scrap", PLATE: "d1a77f", GEAR: "d0c2ba", NAME: "scrap"});
 
 mods.jei.JEI.addDescription(<contenttweaker:entitykiller>, "It kills stuff");
-
+mods.jei.JEI.addDescription(scrapBag, "Contains random junk and broken parts. Right click to open.");
+//mods.jei.JEI.addDescription(<ore:brokenPlate>, "Found in piles of scrap");
 
 <ore:brokenPlate>.add(<scrap:broken.plate:*>);
-//mods.jei.JEI.addDescription(<ore:brokenPlate>, "Found in piles of scrap");
+
 /*=========================
 Recipe Changes - Other
 =========================*/

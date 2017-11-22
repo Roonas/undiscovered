@@ -6,12 +6,14 @@ var kilnBrick = <immersiveengineering:stone_decoration:10>;
 var ironComponent = <immersiveengineering:material:8>;
 var copperGrit = <immersiveengineering:metal:9>;
 var lightEng = <immersiveengineering:metal_decoration0:4>;
+var heavyEng = <immersiveengineering:metal_decoration0:5>;
 var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}});
 var ironPlate = <immersiveengineering:metal:39>;
 var bucketResin = <forge:bucketfilled>.withTag({FluidName: "resin", Amount: 1000});
 var manaIngot = <thermalfoundation:material:136>;
 var mithrilCan = <forestry:can:1>.withTag({Fluid: {FluidName: "mithril", Amount: 1000}});
 var unpackingMold = <immersiveengineering:mold:7>;
+var gearMold = <immersiveengineering:mold:1>;
 var silverBlock = <thermalfoundation:storage:2>;
 var tungstenIngot = <magneticraft:ingots:5>;
 var tungstenNug = <magneticraft:nuggets:5>;
@@ -90,6 +92,13 @@ recipes.addShaped("light eng block", lightEng * 3, [
     [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>], 
     [<ore:ingotAluminium>, ironComponent, <ore:ingotAluminium>]
     ]);
+
+recipes.removeShaped(heavyEng);
+recipes.addShaped("heavy eng block", heavyEng * 2, [
+    [<ore:dustAluminium>, steelComponentl, <ore:dustAluminium>], 
+    [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], 
+    [<ore:dustAluminium>, steelComponent, <ore:dustAluminium>]
+    ]);
     
 recipes.removeShaped(ieHammer);
 recipes.addShaped("eng hammer", ieHammer, [
@@ -98,11 +107,13 @@ recipes.addShaped("eng hammer", ieHammer, [
     [<ore:stickWood>, null, null]
     ]);
 
+/*
 recipes.addShaped("light eng block alt", <immersiveengineering:metal_decoration0:4>, [
     [<ore:ingotSilver>, <immersiveengineering:material:8>, <ore:ingotSilver>], 
     [<immersiveengineering:metal:9>, <immersiveengineering:metal:9>, <immersiveengineering:metal:9>], 
     [<ore:ingotSilver>, <immersiveengineering:material:8>, <ore:ingotSilver>]
     ]);
+*/
 
 recipes.addShapeless("steel grit", <immersiveengineering:metal:17>, [
     <immersiveengineering:metal:18>, <immersiveengineering:metal:18>, <immersiveengineering:metal:18>, <thermalfoundation:material:768>
@@ -170,8 +181,9 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:mithril> * 500, <liquid:pla
 /*=========================
 Metal Press
 =========================*/
-mods.immersiveengineering.MetalPress.addRecipe(manaIngot, mithrilCan, unpackingMold, 0);
+mods.immersiveengineering.MetalPress.addRecipe(manaIngot, mithrilCan, unpackingMold, 300);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:metal:37>, <ore:ingotElectrum>, <immersiveengineering:mold>, 300);
+mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_geardark>, <evilcraft:dark_gem> * 4  , gearMold, 300);
 
 /*=========================
 Arc Furnace

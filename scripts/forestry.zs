@@ -22,6 +22,8 @@ var tinPlate = <thermalfoundation:material:321>;
 var goldGear = <thermalfoundation:material:25>;
 var scrapBag = <scrap:scrap>.withTag({TABLE: "scrap:scrap", PLATE: "d1a77f", GEAR: "d0c2ba", NAME: "scrap"});
 
+<ore:stickyBalls>.add(<forestry:propolis:*>);
+
 /*=========================
 Recipe Changes - Forestry
 =========================*/
@@ -41,11 +43,11 @@ recipes.addShaped("peat engine", <forestry:engine_peat>, [
     ]);
 
 recipes.addShapeless(stickyBall * 4, [
-    bucketAppleJuice.transformReplace(<minecraft:bucket>)
+    bucketAppleJuice
     ]);
 
 recipes.addShapeless(<forestry:propolis> * 1, [
-    bucketOliveOil.transformReplace(<minecraft:bucket>)
+    bucketOliveOil
     ]);
 
 recipes.remove(<forestry:squeezer>);
@@ -94,7 +96,7 @@ recipes.remove(<forestry:carpenter>);
 recipes.addShaped("carpenter", <forestry:carpenter>, [
     [<ore:ingotCopper>, <bibliocraft:framingsaw>, <ore:ingotCopper>], 
     [<immersiveengineering:treated_wood>, reinforcedCase, <immersiveengineering:treated_wood>], 
-    [mekFluidTank, <ore:ingotCopper>, mekFluidTank]
+    [<magneticraft:copper_tank>, <ore:ingotCopper>, <magneticraft:copper_tank>]
     ]);
 
 recipes.remove(<forestry:engine_clockwork>);
@@ -104,6 +106,13 @@ recipes.addShaped("clockwork engine", <forestry:engine_clockwork>, [
     [<calculator:crankhandle>, <minecraft:piston>, <minecraft:clock>]
     ]);
 
+recipes.remove(<forestry:bituminous_peat>);
+recipes.addShaped("bituminous peat", <forestry:bituminous_peat>, [
+    [null, <forestry:ash>, null], 
+    [<forestry:peat>, <ore:stickyBalls>, <forestry:peat>], 
+    [null, <forestry:ash>, null]
+    ]);
+
 /*=========================
 Carpenter
 =========================*/
@@ -111,6 +120,11 @@ mods.forestry.Carpenter.addRecipe(<botany:clay:25>, [
     [<minecraft:clay_ball>, <minecraft:clay_ball>], 
     [<minecraft:clay_ball>, <minecraft:clay_ball>]
     ], 20, <fluid:honey> * 250);
+
+mods.forestry.Carpenter.addRecipe(<botany:clay:25>, [
+    [<minecraft:clay_ball>, <minecraft:clay_ball>], 
+    [<minecraft:clay_ball>, <minecraft:clay_ball>]
+    ], 20, <fluid:for.honey> * 250);
 
 mods.forestry.Carpenter.removeRecipe(basicCircuit);
 mods.forestry.Carpenter.addRecipe(basicCircuit, [
@@ -128,6 +142,6 @@ mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 200, [zombieHeart], 2
 Centrifuge
 (Array of Output + %, InputStack, Time in Ticks)
 =========================*/
-mods.forestry.Centrifuge.addRecipe([scrapBag % 100, <minecraft:redstone> * 3 % 80, <extrabees:misc:22> % 20], <contenttweaker:scrapelec>, 20);
+mods.forestry.Centrifuge.addRecipe([scrapBag * 4 % 100, <minecraft:redstone> * 3 % 80, <extrabees:misc:22> % 20], <contenttweaker:scrapelec>, 20);
 
 

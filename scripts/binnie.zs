@@ -39,7 +39,7 @@ recipes.addShaped("fruit press", fruitPress, [
 recipes.remove(brewery);
 recipes.addShaped("brewery", brewery, [
     [<silentgems:gem:*>, <magneticraft:box>, <silentgems:gem:*>], 
-    [<minecraft:bucket>, <rustic:brewing_barrel>, <minecraft:bucket>], 
+    [<ore:ingotCopper>, <rustic:brewing_barrel>, <ore:ingotCopper>], 
     [<silentgems:gem:*>, <magneticraft:box>, <silentgems:gem:*>]
     ]);
 

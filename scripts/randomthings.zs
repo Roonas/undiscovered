@@ -22,7 +22,7 @@ recipes.addShaped("vector plate", <darkutils:trap_move>, [
 
 recipes.remove(<randomthings:ingredient:6>);
 recipes.addShapeless("lubricant bottle", <randomthings:ingredient:6>, [
-    <forge:bucketfilled>.withTag({FluidName: "lubricant", Amount: 1000}).transformReplace(<minecraft:bucket>)
+    <forge:bucketfilled>.withTag({FluidName: "lubricant", Amount: 1000})
     ]);
 
 recipes.remove(<randomthings:igniter>);

@@ -8,9 +8,9 @@ Recipe Changes - MFR
 
 recipes.remove(<teslacorelib:machine_case>);
 recipes.addShaped("mfr basic case", <teslacorelib:machine_case>, [
-    [<ore:ingotSilver>, <ore:ingotAluminium>, <ore:ingotSilver>], 
+    [<ore:ingotInvar>, <ore:ingotAluminium>, <ore:ingotInvar>], 
     [<ore:ingotAluminium>, <immersiveengineering:material:9>, <ore:ingotAluminium>], 
-    [<ore:ingotSilver>, <ore:ingotAluminium>, <ore:ingotSilver>]
+    [<ore:ingotInvar>, <ore:ingotAluminium>, <ore:ingotInvar>]
     ]);
 
 recipes.remove(<thermalexpansion:machine:7>);
