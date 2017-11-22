@@ -81,3 +81,6 @@ screws.register();
 
 var bagofjunk = VanillaFactory.createItem("bagofjunk");
 bagofjunk.register();
+
+var moldybread = VanillaFactory.createItem("moldybread");
+moldybread.register();

@@ -112,6 +112,7 @@ recipes.addShaped("bituminous peat", <forestry:bituminous_peat>, [
     [<forestry:peat>, <ore:stickyBalls>, <forestry:peat>], 
     [null, <forestry:ash>, null]
     ]);
+    
 
 /*=========================
 Carpenter
@@ -143,5 +144,10 @@ Centrifuge
 (Array of Output + %, InputStack, Time in Ticks)
 =========================*/
 mods.forestry.Centrifuge.addRecipe([scrapBag * 4 % 100, <minecraft:redstone> * 3 % 80, <extrabees:misc:22> % 20], <contenttweaker:scrapelec>, 20);
+
+/*=========================
+Moistener
+=========================*/
+mods.forestry.Moistener.addRecipe(<contenttweaker:moldybread>, <minecraft:bread>, 60);
 
 

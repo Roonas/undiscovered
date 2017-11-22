@@ -90,6 +90,7 @@ mods.actuallyadditions.Crusher.removeRecipe(<thermalfoundation:material:71>);
 mods.actuallyadditions.Crusher.removeRecipe(<draconicevolution:draconium_dust>);
 mods.actuallyadditions.Crusher.addRecipe(<extrautils2:endershard>*8 * 8, <minecraft:ender_pearl>);
 mods.actuallyadditions.Crusher.addRecipe(<minecraft:redstone>, <thermalfoundation:material:893>);
+mods.actuallyadditions.Crusher.addRecipe(<extratrees:misc:5> * 2, <contenttweaker:moldybread>);
 
 /*=========================
 Empowerer

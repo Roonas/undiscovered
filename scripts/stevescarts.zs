@@ -1,4 +1,4 @@
-
+var cleaningTube = <stevescarts:modulecomponents:65>;
 /*=========================
 Recipe Changes - Steves Cart
 =========================*/
@@ -33,4 +33,11 @@ recipes.addShaped("internal chest", <stevescarts:cartmodule:2>, [
     [null, <minecraft:hopper>, null], 
     [null, <minecraft:chest>, null], 
     [null, null, null]
+    ]);
+
+recipes.remove(cleaningTube);
+recipes.addShaped("fluid cleaning tube", cleaningTube * 3, [
+    [<ore:dyeGreen>, <minecraft:iron_ingot>, <ore:dyeGreen>], 
+    [<ore:dyeGreen>, null, <ore:dyeGreen>], 
+    [<ore:dyeGreen>, <minecraft:iron_ingot>, <ore:dyeGreen>]
     ]);

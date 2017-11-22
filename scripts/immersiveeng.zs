@@ -4,7 +4,7 @@ var dCream = <darkutils:material:2>;
 var steelComponent = <immersiveengineering:material:9>;
 var kilnBrick = <immersiveengineering:stone_decoration:10>;
 var ironComponent = <immersiveengineering:material:8>;
-var copperGrit = <immersiveengineering:metal:9>;
+var copperGrit = <ore:dustCopper>;
 var lightEng = <immersiveengineering:metal_decoration0:4>;
 var heavyEng = <immersiveengineering:metal_decoration0:5>;
 var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}});
@@ -210,7 +210,7 @@ mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:45> * 
 mods.immersiveengineering.Crusher.addRecipe(<magneticraft:crafting> * 2, <magneticraft:ores:4>, 2000);
 mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dull_dust> * 2, <contenttweaker:scrapelec>, 2000, <minecraft:redstone> * 6, 0.6);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>, <thermalfoundation:material:893>, 800);
-
+mods.immersiveengineering.Crusher.addRecipe(<extratrees:misc:5> * 2, <contenttweaker:moldybread>, 300);
 /*=========================
 Mixer
 =========================*/

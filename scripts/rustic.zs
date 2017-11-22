@@ -6,6 +6,7 @@ var vodkaBucket = <forge:bucketfilled>.withTag({FluidName: "binnie.vodka", Amoun
 var liquidTube = <stevescarts:modulecomponents:65>;
 var crushedGold = <actuallyadditions:item_dust:1>;
 var oreBerry = <rustic:ironberries>;
+var yeast = <extratrees:misc:5>;
 
 <ore:listAllmushroom>.add(<rustic:deathstalk_mushroom>);
 <ore:listAllfruit>.remove(oreBerry);
@@ -77,6 +78,7 @@ mods.rustic.CrushingTub.addRecipe(<liquid:gold> * 250, <minecraft:gold_ore>, cru
 //mods.rustic.CrushingTub.addRecipe(<liquid:sewage> * 10, <minecraft:stone>, <extrautils2:compressedcobblestone>);
 mods.rustic.CrushingTub.addRecipe(<liquid:coal> * 10, <thermalfoundation:material:768>, <minecraft:coal>);
 mods.rustic.CrushingTub.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>, <thermalfoundation:material:893>);
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.mash.wheat> * 50, yeast, <contenttweaker:moldybread>);
 
 /*=========================
 Evaporating Basin
