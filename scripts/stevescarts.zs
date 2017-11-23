@@ -29,7 +29,7 @@ recipes.addShaped("top chest", <stevescarts:cartmodule:3>, [
     [null, null, null]
     ]);
 
-recipes.addShaped("internal chest", <stevescarts:cartmodule:2>, [
+recipes.addShaped("internal chest", <stevescarts:cartmodule:5>, [
     [null, <minecraft:hopper>, null], 
     [null, <minecraft:chest>, null], 
     [null, null, null]

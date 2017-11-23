@@ -80,6 +80,13 @@ recipes.addShaped("atomic multiplier", <calculator:atomicmultiplier>, [
     [<astralsorcery:blockcelestialcollectorcrystal>, <draconicevolution:chaotic_core>, <evilcraft:garmonbozia>]
     ]);
 
+recipes.remove(<calculator:atomiccalculator>);
+recipes.addShaped("atomic calc", <calculator:atomiccalculator>, [
+    [<immersiveengineering:stone_decoration:7>, <calculator:atomicbinder>, <immersiveengineering:stone_decoration:7>], 
+    [<calculator:weakeneddiamond>, <calculator:atomicassembly>, <calculator:weakeneddiamond>], 
+    [<immersiveengineering:stone_decoration:7>, <calculator:weakeneddiamond>, <immersiveengineering:stone_decoration:7>]
+    ]);
+
 
 
 /*=========================

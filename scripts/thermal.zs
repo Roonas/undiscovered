@@ -46,7 +46,7 @@ recipes.addShaped("te enchated frame", <contenttweaker:enchantedframe>, [
 recipes.remove(<thermalexpansion:frame>);
 recipes.addShaped("te frame", <thermalexpansion:frame>, [
     [blackIron, null, blackIron], 
-    [<ore:ingotMithril>, iridiumGear, <ore:ingotMithril>], 
+    [<thermalfoundation:material:136>, iridiumGear, <thermalfoundation:material:136>], 
     [blackIron, null, blackIron]
     ]);
 

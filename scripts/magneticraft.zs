@@ -6,6 +6,8 @@ var rockyTungsten = <magneticraft:rocky_chunks:5>;
 var crystalOilBucket = <forge:bucketfilled>.withTag({FluidName: "crystaloil", Amount: 1000});
 var wolframiteOre = <magneticraft:ores:3>;
 var heavyLeadPlate = <magneticraft:heavy_plates:3>;
+var hempFabric = <immersiveengineering:material:5>;
+var meshFabric = <magneticraft:crafting:6>;
 
 recipes.remove(<ore:ingotTungsten>);
 recipes.remove(wolframiteOre);
@@ -32,6 +34,13 @@ recipes.addShapeless(<magneticraft:chunks:5> * 2, [
 
 recipes.addShapeless("tungsten block to ingot", <magneticraft:ingots:5> * 9, [
     <ore:blockTungsten>
+    ]);
+
+recipes.remove(meshFabric);
+recipes.addShaped("mesh fabric", meshFabric, [
+    [<minecraft:string>, hempFabric, <minecraft:string>], 
+    [hempFabric, <minecraft:string>, hempFabric], 
+    [<minecraft:string>, hempFabric, <minecraft:string>]
     ]);
 
 

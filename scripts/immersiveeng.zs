@@ -4,7 +4,7 @@ var dCream = <darkutils:material:2>;
 var steelComponent = <immersiveengineering:material:9>;
 var kilnBrick = <immersiveengineering:stone_decoration:10>;
 var ironComponent = <immersiveengineering:material:8>;
-var copperGrit = <ore:dustCopper>;
+var copperGrit = <immersiveengineering:metal:9>;
 var lightEng = <immersiveengineering:metal_decoration0:4>;
 var heavyEng = <immersiveengineering:metal_decoration0:5>;
 var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}});
@@ -95,7 +95,7 @@ recipes.addShaped("light eng block", lightEng * 3, [
 
 recipes.removeShaped(heavyEng);
 recipes.addShaped("heavy eng block", heavyEng * 2, [
-    [<ore:dustAluminium>, steelComponentl, <ore:dustAluminium>], 
+    [<ore:dustAluminium>, steelComponent, <ore:dustAluminium>], 
     [<minecraft:piston>, <ore:ingotElectrum>, <minecraft:piston>], 
     [<ore:dustAluminium>, steelComponent, <ore:dustAluminium>]
     ]);
@@ -149,6 +149,7 @@ Bottling Machine
 mods.immersiveengineering.BottlingMachine.addRecipe(vodkaBottle, <minecraft:glass_bottle>, <liquid:binnie.vodka> * 1000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<thermalfoundation:material:135>, <forestry:wax_cast>, <liquid:iridium> * 1000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<draconicevolution:dragon_heart>, <contenttweaker:heartcast>, <liquid:dblood> * 1000);
+mods.immersiveengineering.BottlingMachine.addRecipe(mithrilCan, <forestry:can>, <liquid:mithril> * 1000);
 
 /*=========================
 Coke Oven
