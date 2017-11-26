@@ -13,14 +13,12 @@ Fixed/added furnace recipes to recycle scrap
 New method of yeast production from moldy bread
 Fixed nether progression
 Removed RF production from BR, only used for turbine steam
-
+Added foamfix (thought it was here this whole time)
 
 1.1.1
 ----------
 
 /scripts folder forgot to come along to the 1.1.0 party, fixed
-
- 
 
 1.1.0
 ----------
@@ -32,3 +30,99 @@ Added custom garbage and compost heaps to Lost Cites
 Additional content tweaker custom items and blocks
 Major balancing of rf generators
 Minor recipe fixes and tweaks
+
+1.0.0
+----------
+Mod updates
+Added new recipes for late game items
+Additional custom items
+Fixed exu2 script removal
+Lowered ruins spawn
+Minor tweaks to lost cities setting
+Removed env tech and useful nullifiers
+Created server files
+Changed to beta
+
+0.9.0
+----------
+Lots of mod updates
+Increased spawn rate of some ores
+Fixed some backwards CT recipes and changed more recipes to accept oredict
+Adjusted recipe difficulty
+Added new methods of crafting some needed resources like liquid sludge and rustic bees
+Fixed lightwell recipes breaking instantly
+Added new custom items for progression (metal slag, platinum slurry)
+
+0.8.0
+----------
+New custom blocks and recipes
+Nerf quarrys and other dims
+Adjusted recipes for some end game items
+Some RF adjusting
+Pruned ruins structures from unused biomes
+
+0.7.1
+----------
+Mod updates
+
+0.7.0
+----------
+Added creative recipes
+More custom items for progression
+Lots of adjustments to thermal expansion and industrial foregoing
+
+0.6.0
+----------
+Lots of changes to TE and Industrial Forgoing recipes
+Minor config tweak, adjusting oregen
+
+0.5.0
+----------
+Finishing up midgame scripts
+Rough draft of quests added
+
+0.4.1
+----------
+Mod updates
+Some additional script work
+
+0.4.0
+----------
+Improved Oregen
+Finish Rough Draft of Progression Outline
+Removed some mods
+
+0.3.1
+----------
+Deleted IE core file that curse hates
+
+0.3.0
+----------
+Tweaked oregen
+More early game crafting tweaks
+Lost city adjustments
+
+0.2.4
+----------
+Beginning of minetweaker changes
+Added industrial foregoing and calculator
+
+0.2.3
+----------
+Updated mods
+
+0.2.2
+----------
+Fixed dependency errors 
+
+0.2.1
+----------
+Fixed manifest error
+
+0.2.0
+----------
+Added additional mods
+
+0.1.0
+----------
+First batch of mods
