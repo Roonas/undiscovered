@@ -1,3 +1,28 @@
+1.2.1
+----------
+Mod updates:
+    Astral sorcery
+    Binnies Mods
+    Bookshelf
+    Cooking for Blockheads - fixes CT integration
+    Corail Tombstone
+    Extra Utils - Should fix ender lily fps drop
+    Forestry
+    FTBLib
+    FTBUtils
+    IE - Lots of bugfixes including JEI tooltips and crashing multiblocks
+    Industrial Foregoing
+    JAOPCA
+    JEI
+    McJty Lib
+    Mekanism Generators
+    Reborn Core
+    Reliquary
+    RF Tools
+    Silent Lib
+    Silent's Gems - Sould fix upgrade recipe missing. Also tool souls?
+    Xtones
+
 1.2.0
 ----------
 Lots of new quests
@@ -8,12 +33,13 @@ New main menu
 Tweaks to various storage options to match progression
 Fixed broken oredict
 Lowered number of buckets needed early on
-Adjusted both scrab bag drop rates and loot outcome
+Adjusted both scrap bag drop rates and loot outcome
 Fixed/added furnace recipes to recycle scrap
 New method of yeast production from moldy bread
 Fixed nether progression
 Removed RF production from BR, only used for turbine steam
 Added foamfix (thought it was here this whole time)
+
 
 1.1.1
 ----------
@@ -102,10 +128,12 @@ Tweaked oregen
 More early game crafting tweaks
 Lost city adjustments
 
+
 0.2.4
 ----------
 Beginning of minetweaker changes
 Added industrial foregoing and calculator
+(shoulda been 0.3.0)
 
 0.2.3
 ----------
@@ -119,9 +147,11 @@ Fixed dependency errors
 ----------
 Fixed manifest error
 
+
 0.2.0
 ----------
 Added additional mods
+
 
 0.1.0
 ----------
