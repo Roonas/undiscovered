@@ -79,6 +79,14 @@ recipes.addShaped("leaf blower", <actuallyadditions:item_leaf_blower>, [
     [<ore:plateIron>, <actuallyadditions:item_misc:7>, null]
     ]);
 
+recipes.remove(<actuallyadditions:block_giant_chest>);
+recipes.addShaped(<actuallyadditions:block_giant_chest>, [
+    [<minecraft:chest>, <forestry:wood_pile>, <minecraft:chest>],
+    [<forestry:wood_pile>, <actuallyadditions:block_misc:4>, <forestry:wood_pile>], 
+    [<minecraft:chest>, <ore:plateIron>, <minecraft:chest>]
+    ]);
+
+
 
 
 

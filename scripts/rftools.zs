@@ -37,3 +37,24 @@ recipes.addShaped("rf quarry card", <rftools:shape_card:2>, [
     [<forestry:thermionic_tubes:12>, <rftools:shape_card>, <forestry:thermionic_tubes:12>], 
     [<ore:plateIridium>, <actuallyadditions:block_phantom_booster>, <ore:plateIridium>]
     ]);
+
+recipes.remove(<rftools:modular_storage>);
+recipes.addShaped(<rftools:modular_storage>, [
+    [<minecraft:redstone>, <forestry:chipsets:1>, <minecraft:redstone>],
+    [<minecraft:quartz>, <rftools:machine_base>, <minecraft:quartz>], 
+    [<minecraft:redstone>, <minecraft:quartz>, <minecraft:redstone>]
+    ]);
+
+recipes.remove(<rftools:storage_scanner>);
+recipes.addShaped(<rftools:storage_scanner>, [
+    [<darkutils:material:1>, <calculator:flawlessdiamond>, <extrautils2:ingredients:1>],
+    [<xnet:connector>, <rftools:machine_base>, <xnet:connector>], 
+    [<extrautils2:ingredients:1>, <calculator:flawlessdiamond>, <darkutils:material:1>]
+    ]);
+
+recipes.remove(<rftools:storage_control_module>);
+recipes.addShaped(<rftools:storage_control_module>, [
+    [<extendedcrafting:material:3>, <actuallyadditions:item_crafter_on_a_stick>, <extendedcrafting:material:3>],
+    [<thermalfoundation:material:322>, <jaopca:item_geartungsten>, <thermalfoundation:material:322>], 
+    [<extendedcrafting:material:3>, <thermalfoundation:material:322>, <extendedcrafting:material:3>]
+    ]);

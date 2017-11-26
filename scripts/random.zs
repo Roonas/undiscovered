@@ -5,6 +5,8 @@ mods.jei.JEI.addDescription(scrapBag, "Contains random junk and broken parts. Ri
 //mods.jei.JEI.addDescription(<ore:brokenPlate>, "Found in piles of scrap");
 
 <ore:brokenPlate>.add(<scrap:broken.plate:*>);
+//<ore:framechests>.add(<bibliocraft:framedchest:*>);
+<cookingforblockheads:sink>.addTooltip("Needs water pumped in");
 
 /*=========================
 Recipe Changes - Other
@@ -135,6 +137,12 @@ recipes.addShaped("repaired invar plate", <thermalfoundation:material:354>, [
     [<contenttweaker:screws>, <ore:brokenPlateINVAR>, <contenttweaker:screws>]
     ]);
 
+recipes.addShaped("repaired silver plate", <thermalfoundation:material:322>, [
+    [<contenttweaker:screws>, <ore:brokenPlateSILVER>, <contenttweaker:screws>], 
+    [<ore:brokenPlateSILVER>, null, <ore:brokenPlateSILVER>], 
+    [<contenttweaker:screws>, <ore:brokenPlateSILVER>, <contenttweaker:screws>]
+    ]);
+
 recipes.addShaped("repaired iron gear", <thermalfoundation:material:24>, [
     [<contenttweaker:screws>, <ore:brokenGearIRON>, <contenttweaker:screws>], 
     [<ore:brokenGearIRON>, null, <ore:brokenGearIRON>], 
@@ -147,12 +155,16 @@ recipes.addShaped("repaired copper gear", <thermalfoundation:material:256>, [
     [<contenttweaker:screws>, <ore:brokenGearCOPPER>, <contenttweaker:screws>]
     ]);
 
-recipes.addShaped("repaired iron rod", <silentgems:craftingmaterial:7>, [
+recipes.addShaped("repaired iron rod", <silentgems:craftingmaterial:7> * 2, [
     [null, null, <contenttweaker:brokenrod>], 
     [null, <contenttweaker:brokenrod>, null], 
     [<contenttweaker:brokenrod>, null, null]
     ]);
 
-recipes.addShapeless(scrapBag, [
+recipes.addShapeless(<harvestcraft:grapejellyitem>, [
+    <harvestcraft:saucepanitem>, <harvestcraft:jellyfishrawitem>, <ore:listAllsugar>
+    ]);
+
+recipes.addShapeless(scrapBag * 2, [
     <contenttweaker:bagofjunk>
     ]);

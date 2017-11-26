@@ -22,6 +22,7 @@ var richSlag = <thermalfoundation:material:865>;
 var cinnabar = <thermalfoundation:material:866>;
 var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}});
 
+
 recipes.remove(<thermalexpansion:machine>); //redstone furnace... hopefully
 recipes.remove(<thermalfoundation:material:71>);
 recipes.remove(<thermalfoundation:material:135>);
@@ -38,9 +39,9 @@ recipes.addShaped("geode", geode, [
     ]);
 
 recipes.addShaped("te enchated frame", <contenttweaker:enchantedframe>, [
-    [<minecraft:experience_bottle>, <extrautils2:ingredients:12>, <minecraft:experience_bottle>], 
+    [<ore:lightPlateTungsten>, <extrautils2:ingredients:12>, <ore:lightPlateTungsten>], 
     [<extrautils2:ingredients:12>, <thermalexpansion:frame>, <extrautils2:ingredients:12>], 
-    [<minecraft:experience_bottle>, <extrautils2:ingredients:12>, <minecraft:experience_bottle>]
+    [<ore:lightPlateTungsten>, <extrautils2:ingredients:12>, <ore:lightPlateTungsten>]
     ]);
 
 recipes.remove(<thermalexpansion:frame>);
@@ -179,7 +180,8 @@ recipes.addShaped("redstone dynamo", <thermalexpansion:dynamo:4>, [
 Crucible
 =========================*/    
 //mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:135>);
-mods.thermalexpansion.Crucible.addRecipe(<liquid:platinum> * 4000, <thermalfoundation:ore:6>, 500);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:platinum> * 2000, <thermalfoundation:ore:6>, 500);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:cyanite> * 500, <bigreactors:dustmetals:1>, 1000);
 
 /*=========================
 Insolator
@@ -216,6 +218,8 @@ mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:snowball>, <liquid:
 mods.thermalexpansion.Transposer.addFillRecipe(<extrautils2:ingredients:12>, <extendedcrafting:material>, <liquid:xpjuice> * 1000, 1000);
 mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:dragon_heart>, <contenttweaker:heartcast>, <liquid:dblood> * 1000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:2049>, <minecraft:packed_ice>, <liquid:gasoline> * 250, 500);
+mods.thermalexpansion.Transposer.addFillRecipe(<bigreactors:ingotmetals:3>, <bigreactors:ingotmetals>, <liquid:cyanite> * 500, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<bigreactors:ingotmetals:3>, <bigreactors:ingotmetals>, <liquid:cryotheum> * 1000, 5000);
 
 /*=========================
 Refinery

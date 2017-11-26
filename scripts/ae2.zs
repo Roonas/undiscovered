@@ -57,9 +57,39 @@ recipes.addShaped("1k fluid drive", <appliedfluidics:fluid_storage_cell>, [
     ]);
 
 recipes.addShaped("me drive", <appliedenergistics2:drive>, [
-    [<magneticraft:heavy_plates:3>, <appliedenergistics2:drive>, <magneticraft:heavy_plates:3>], 
+    [<magneticraft:heavy_plates:3>, <immersiveengineering:material:27>, <magneticraft:heavy_plates:3>], 
     [<appliedenergistics2:part:16>, null, <appliedenergistics2:part:16>], 
-    [<magneticraft:heavy_plates:3>, <appliedenergistics2:drive>, <magneticraft:heavy_plates:3>]
+    [<magneticraft:heavy_plates:3>, <immersiveengineering:material:27>, <magneticraft:heavy_plates:3>]
     ]);
 
+recipes.remove(<appliedenergistics2:material:41>);
+recipes.addShaped(<appliedenergistics2:material:41>, [
+    [null, <appliedenergistics2:material:9>, null],
+    [<magneticraft:ingots:5>, <appliedenergistics2:part:140>, <magneticraft:ingots:5>], 
+    [null, <magneticraft:ingots:5>, null]
+    ]);
+
+recipes.addShaped(<appliedfluidics:item_part:1>, [
+    [null, <pressure:input>, null],
+    [null, <immersiveengineering:material:27>, null], 
+    [null, <thermaldynamics:servo:2>, null]
+    ]);
+
+recipes.addShaped(<appliedfluidics:item_part:2>, [
+    [null, <thermaldynamics:servo:2>, null],
+    [null, <immersiveengineering:material:27>, null], 
+    [null, <pressure:output>, null]
+    ]);
+
+recipes.addShaped(<appliedfluidics:item_part:5>, [
+    [<silentgems:craftingmaterial:7>, <appliedenergistics2:material>, <silentgems:craftingmaterial:7>],
+    [<industrialforegoing:block_destroyer>, <appliedenergistics2:part:180>, <appliedenergistics2:material>], 
+    [<silentgems:craftingmaterial:7>, <appliedenergistics2:material>, <silentgems:craftingmaterial:7>]
+    ]);
+
+recipes.addShaped(<appliedfluidics:item_part:3>, [
+    [<silentgems:craftingmaterial:7>, <appliedenergistics2:material>, <silentgems:craftingmaterial:7>],
+    [<appliedenergistics2:material>, <appliedenergistics2:part:180>, <industrialforegoing:block_placer>], 
+    [<silentgems:craftingmaterial:7>, <appliedenergistics2:material>, <silentgems:craftingmaterial:7>]
+    ]);
 

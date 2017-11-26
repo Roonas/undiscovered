@@ -141,4 +141,16 @@ recipes.addShaped("exu explosive gen", <extrautils2:machine>.withTag({Type: "ext
     [<ore:dustSulfur>, <extrautils2:machine>, <ore:dustSulfur>]
     ]);
 
+recipes.remove(<extrautils2:indexer>);
+recipes.addShaped(<extrautils2:indexer>, [
+    [<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>],
+    [<calculator:flawlessdiamond>, <extrautils2:screen>, <calculator:flawlessdiamond>], 
+    [<extrautils2:decorativesolid:3>, <extrautils2:ingredients>, <extrautils2:decorativesolid:3>]
+    ]);
 
+recipes.remove(<extrautils2:indexerremote>);
+recipes.addShaped(<extrautils2:indexerremote>, [
+    [<thermalfoundation:material:354>, <extrautils2:ingredients:2>, <thermalfoundation:material:354>],
+    [<thermalfoundation:material:354>, <extrautils2:screen>, <thermalfoundation:material:354>], 
+    [<thermalfoundation:material:354>, <jaopca:item_geartungsten>, <thermalfoundation:material:354>]
+    ]);

@@ -1,0 +1,1 @@
+{"name":"Test","quests":[{"uuid":"e97fa6c5-4cc3-4ebf-b881-292ff5f74d01","name":"NBT","x":68,"y":75,"icon":{"id":"bibliocraft:framedchest","damage":1},"tasks":[{"type":"DETECT","items":[{"item":{"id":"bibliocraft:framedchest","damage":1},"precision":"FUZZY"}]}],"commandrewards":[]}],"reputationBar":[]}

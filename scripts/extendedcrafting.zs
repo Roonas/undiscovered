@@ -130,7 +130,19 @@ mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:solidheart>, [
     [null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null], 
     [null, null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null, null], 
     [null, null, null, <immersiveengineering:stone_decoration:5>, null, null, null]
-    ]); 
+    ]);
+
+mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>); 
+mods.extendedcrafting.TableCrafting.addShaped(<extendedcrafting:material:24>, [
+    [<jaopca:item_platediamond>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <jaopca:item_platediamond>], 
+    [<jaopca:item_platediamond>, <extendedcrafting:material:140>, <silentgems:craftingmaterial:30>, <astralsorcery:itemcraftingcomponent:1>, <silentgems:craftingmaterial:30>, <extendedcrafting:material:140>, <jaopca:item_platediamond>], 
+    [<jaopca:item_platediamond>, <extendedcrafting:material:140>, <randomthings:ingredient:3>, <astralsorcery:itemcraftingcomponent:1>, <randomthings:ingredient:3>, <extendedcrafting:material:140>, <jaopca:item_platediamond>], 
+    [<jaopca:item_platediamond>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <jaopca:item_platediamond>], 
+    [null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null], 
+    [null, null, null, null, null, null, null]
+    ]);  
+    
 /*=========================
 9x9
 mods.extendedcrafting.TableCrafting.addShaped(<output>, [

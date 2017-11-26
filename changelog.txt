@@ -1,0 +1,34 @@
+1.2.0
+----------
+Lots of new quests
+Added better questing mod book
+Added new loot to waterstrainers
+Finally fixed the stupid bqm logo
+New main menu
+Tweaks to various storage options to match progression
+Fixed broken oredict
+Lowered number of buckets needed early on
+Adjusted both scrab bag drop rates and loot outcome
+Fixed/added furnace recipes to recycle scrap
+New method of yeast production from moldy bread
+Fixed nether progression
+Removed RF production from BR, only used for turbine steam
+
+
+1.1.1
+----------
+
+/scripts folder forgot to come along to the 1.1.0 party, fixed
+
+ 
+
+1.1.0
+----------
+Added scrap mod
+New scrap system implemented to water strainer
+Reduced vanilla redstone oregen / increased redstone clathrate 
+Improved early game progression
+Added custom garbage and compost heaps to Lost Cites
+Additional content tweaker custom items and blocks
+Major balancing of rf generators
+Minor recipe fixes and tweaks

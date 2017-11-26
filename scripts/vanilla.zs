@@ -38,15 +38,11 @@ furnace.remove(<ore:ingotElectrum>);
 furnace.remove(<ore:ingotIridium>);
 furnace.remove(<ore:ingotTungsten>);
 furnace.remove(<ore:ingotIridium>);
+furnace.remove(<bigreactors:brore>);
 furnace.remove(<minecraft:iron_ingot>, <minecraft:iron_ore>);
 furnace.remove(<minecraft:gold_ingot>, <minecraft:gold_ore>);
 furnace.remove(<thermalfoundation:material:128>, <thermalfoundation:ore>);
 furnace.remove(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>);
-furnace.remove(<minecraft:iron_nugget>, <scrap:broken.plate>);
-furnace.remove(<minecraft:iron_nugget>, <scrap:broken.gear>);
-furnace.remove(<minecraft:iron_nugget>, <contenttweaker:brokenrod>);
-furnace.remove(<thermalfoundation:material:192>, <scrap:broken.gear:2>);
-furnace.remove(<thermalfoundation:material:226>, <scrap:broken.plate:13>);
 
 furnace.addRecipe(tungstenNug, rockyTungsten);
 furnace.addRecipe(<contenttweaker:ironslag>, <minecraft:iron_ore>);
@@ -58,6 +54,12 @@ furnace.addRecipe(<magneticraft:crafting>, <thermalfoundation:material:771>);
 furnace.addRecipe(<contenttweaker:resinplate>, <forestry:can:1>.withTag({Fluid: {FluidName: "sap", Amount: 1000}}));
 furnace.addRecipe(<contenttweaker:resinplate>, <forestry:can:1>.withTag({Fluid: {FluidName: "resin", Amount: 1000}}));
 furnace.addRecipe(<minecraft:redstone> * 2, <redstonepaste:redstonepaste>);
+furnace.addRecipe(<minecraft:iron_nugget>, <scrap:broken.plate>);
+furnace.addRecipe(<minecraft:iron_nugget>, <scrap:broken.gear>);
+furnace.addRecipe(<minecraft:iron_nugget>, <contenttweaker:brokenrod>);
+furnace.addRecipe(<thermalfoundation:material:192>, <scrap:broken.gear:2>);
+furnace.addRecipe(<thermalfoundation:material:226>, <scrap:broken.plate:13>);
+furnace.addRecipe(<thermalfoundation:material:194>, <scrap:broken.plate:4>);
 
 recipes.remove(<magneticraft:rocky_chunks:5>);
 recipes.remove(<jaopca:item_dustdirtytungsten>);
@@ -77,7 +79,7 @@ recipes.addShaped("chest", <minecraft:chest>, [
 
 recipes.remove(<minecraft:furnace>);
 recipes.addShaped("furnace", <minecraft:furnace>, [
-    [<minecraft:stone>, <minecraft:cobblestone>, <minecraft:stone>],
+    [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>],
     [<minecraft:stone>, <minecraft:iron_ingot>, <minecraft:stone>],
     [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
     ]);

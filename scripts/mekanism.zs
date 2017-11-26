@@ -63,6 +63,14 @@ recipes.addShaped("solar neutron", <mekanism:machineblock3:1>, [
     [<forestry:thermionic_tubes:2>, <forestry:thermionic_tubes:2>, <forestry:thermionic_tubes:2>]
     ]);
 
+recipes.remove(<mekanism:machineblock:13>);
+recipes.addShaped(<mekanism:machineblock:13>, [
+    [<ore:ingotSteel>, <extrautils2:decorativeglass>, <ore:ingotSteel>],
+    [<minecraft:chest>, <immersiveengineering:material:27>, <minecraft:chest>], 
+    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
+    ]);
+
+
 
 /*=========================
 Crusher

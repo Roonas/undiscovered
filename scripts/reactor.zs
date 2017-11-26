@@ -1,6 +1,8 @@
 var crystalIngot = <extendedcrafting:material:24>;
 var evilIngot = <extrautils2:ingredients:17>;
 
+mods.jei.JEI.addDescription(<bigreactors:reactorpowertaprf>, "Direct power output disabled. Reactors may still produce steam to power turbines.");
+
 /*=========================
 Recipe Changes - Reactor
 =========================*/
@@ -18,3 +20,10 @@ recipes.addShaped("reactor casing", <bigreactors:reactorcasing>, [
     [<jaopca:item_platecoal>, <bigreactors:reactorcasingcores>, <jaopca:item_platecoal>], 
     [<calculator:reinforcedironingot>, <jaopca:item_platecoal>, <calculator:reinforcedironingot>]
     ]);
+
+recipes.removeShaped(<bigreactors:ingotmetals:3>, [
+    [<bigreactors:ingotmetals:1>, <bigreactors:ingotmetals:1>, <bigreactors:ingotmetals:1>],
+    [<bigreactors:ingotmetals:1>, null, <bigreactors:ingotmetals:1>], 
+    [<bigreactors:ingotmetals:1>, <bigreactors:ingotmetals:1>, <bigreactors:ingotmetals:1>]
+    ]);
+
