@@ -6,7 +6,7 @@ var starmetalIngot = <astralsorcery:itemcraftingcomponent:1>;
 Recipe Changes - Evilcraft
 =========================*/
 
-recipes.remove(<evilcraft:blood_extractor>);
+recipes.removeByRecipeName("evilcraft:blood_extractor");
 recipes.addShaped("blood extractor", <evilcraft:blood_extractor>, [
     [null, <evilcraft:spikey_claws>, null],
     [null, rusticHealthPot, null],
