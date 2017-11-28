@@ -35,6 +35,17 @@ whodat.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     return ActionResult.pass();
     };
 whodat.register();
+
+var spray = VanillaFactory.createItem("spray");
+spray.maxStackSize = 1;
+spray.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    var blocky = world.getBlockState(pos);
+    if(blocky == (blocky)){
+        world.setBlockState(<block:minecraft:dirt>, pos);
+        return ActionResult.success();
+    }   
+};
+spray.register();
 */
 
 var advmfr = VanillaFactory.createItem("advancedcase");

@@ -9,6 +9,7 @@ var oreBerry = <rustic:ironberries>;
 var yeast = <extratrees:misc:5>;
 
 <ore:listAllmushroom>.add(<rustic:deathstalk_mushroom>);
+<ore:listAllmushroom>.add(<rustic:mooncap_mushroom>);
 <ore:listAllfruit>.remove(oreBerry);
 <ore:listAllberry>.remove(oreBerry);
 
