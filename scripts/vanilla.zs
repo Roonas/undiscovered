@@ -1,4 +1,4 @@
-var ironPlate = <immersiveengineering:metal:39>;
+var ironPlate = <ore:plateIron>;
 var starmetalIngot = <astralsorcery:itemcraftingcomponent:1>;
 var tungstenNug = <magneticraft:nuggets:5>;
 var rockyTungsten = <magneticraft:rocky_chunks:5>;

@@ -22,7 +22,7 @@ eKill.itemRightClick = function(stack, world, player, hand) {
     };
 eKill.register();
 
-/*
+/*worldIn.spawnEntityInWorld( new EntityItem( worldIn, pos.getX(), pos.getY(), pos.getZ(), ish.getStackInSlot( i ) ) );
 var whodat = VanillaFactory.createItem("whodat");
 whodat.maxStackSize = 1;
 whodat.onItemUse = function(player, world, pos, hand, facing, blockHit) {
@@ -36,17 +36,28 @@ whodat.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     };
 whodat.register();
 
+
 var spray = VanillaFactory.createItem("spray");
 spray.maxStackSize = 1;
+spray.setMaxDamage(10);
 spray.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     var blocky = world.getBlockState(pos);
-    if(blocky == (blocky)){
-        world.setBlockState(<block:minecraft:dirt>, pos);
+    if(blocky != <block:minecraft:wool:6>){
+        Commands.call("summon minecraft:tnt", player, world);
         return ActionResult.success();
-    }   
+    }
+    else {
+        world.setBlockState(<block:minecraft:gold_block>, pos);
+        player.give(<minecraft:wool>);
+        //var heldItem = player.getHeldItem(hand);
+        //heldItem.damage(1, player);
+        return ActionResult.success();
+    }
+    return ActionResult.pass();   
 };
 spray.register();
 */
+
 
 var advmfr = VanillaFactory.createItem("advancedcase");
 advmfr.register();
