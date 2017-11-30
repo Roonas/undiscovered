@@ -3,6 +3,7 @@
 Fixed blood extractor tank increase recipe
 Removed unused ores from oredicts
 Added loottweaker
+More quests
 
 1.2.1
 ----------

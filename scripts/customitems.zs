@@ -106,3 +106,12 @@ bagofjunk.register();
 
 var moldybread = VanillaFactory.createItem("moldybread");
 moldybread.register();
+
+var squeezer = VanillaFactory.createItem("squeezer");
+squeezer.register();
+
+var refiner = VanillaFactory.createItem("refiner");
+refiner.register();
+
+var fermenter = VanillaFactory.createItem("fermenter");
+fermenter.register();

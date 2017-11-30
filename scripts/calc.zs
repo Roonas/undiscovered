@@ -6,6 +6,7 @@ var integratedCircuit = <genetics:misc:8>;
 var empoweredDiamatine = <actuallyadditions:item_crystal_empowered:2>;
 
 recipes.remove(<sonarcore:reinforceddirtblock>);
+recipes.remove(<sonarcore:reinforcedstoneblock>);
 
 /*=========================
 Recipe Changes - Calc

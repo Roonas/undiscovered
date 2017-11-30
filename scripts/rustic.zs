@@ -20,15 +20,15 @@ Recipe Changes - Rustic
 recipes.remove(<rustic:barrel>);
 recipes.addShaped("barrel", <rustic:barrel>, [
     [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>],
-    [<ore:plankWood>, null,<ore:plankWood>],
+    [<ore:plankWood>, null, <ore:plankWood>],
     [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]
     ]);
 
 recipes.remove(<rustic:crushing_tub>);
 recipes.addShaped("crushing tub", <rustic:crushing_tub>, [
     [null, null, null],
-    [<ore:plankWood>, <magneticraft:feeding_trough>, <ore:plankWood>],
-    [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]
+    [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>],
+    [<ore:plankWood>, <actuallyadditions:block_misc:4>, <ore:plankWood>]
     ]);
 
 recipes.remove(<rustic:condenser>);
@@ -58,9 +58,12 @@ recipes.addShaped("drying basin", <rustic:evaporating_basin>, [
     [null, <minecraft:brick_block>, null]
     ]);
 
-//recipes.addShapeless("rustic bee", <rustic:bee>, [
-//    <harvestcraft:queenbeeitem>
-//    ]);
+recipes.remove(<magneticraft:feeding_trough>);
+recipes.addShaped(<magneticraft:feeding_trough>, [
+    [<immersiveengineering:treated_wood_slab>, null, <immersiveengineering:treated_wood_slab>],
+    [<immersiveengineering:treated_wood>, null, <immersiveengineering:treated_wood>], 
+    [<immersiveengineering:material:2>, <immersiveengineering:treated_wood>, <immersiveengineering:material:2>]
+    ]);
 
 recipes.addShapeless("rustic bee 2", <rustic:bee>, [
     <forestry:bee_princess_ge>
@@ -97,4 +100,4 @@ mods.rustic.EvaporatingBasin.addRecipe(<minecraft:redstone>, <liquid:redstone> *
 Condenser
 =========================*/
 mods.rustic.Condenser.addRecipe(<contenttweaker:ironslag>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>);
-mods.rustic.Condenser.addRecipe(vodkaBottle, vodkaBucket, liquidTube);
+//mods.rustic.Condenser.addRecipe(vodkaBottle, vodkaBucket, liquidTube);
