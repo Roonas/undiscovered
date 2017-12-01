@@ -1,9 +1,32 @@
 1.3.0
 ----------
 Fixed blood extractor tank increase recipe
-Removed unused ores from oredicts
+Removed unused ores from oredicts (less garbage in ore gens)
 Added loottweaker
 More quests
+Forge update
+Mod Updates
+* Apple Core
+* Binnie's Mod - should fix some problems with brewer/distiller
+* COFH Core
+* COFH World
+* Cooking for block heads - fixes CT integration even better
+* Corail Tombstone
+* Extra Utils 2
+* Forestry
+* Immersive Petroleum
+* Industrial Foregoing
+* JAOPCA - Doesnt crash with new mek anymore
+* JEI - fix crash on | in search
+* Mekanism
+* Reborn Core
+* Silent's Gems - more tool soul stuff
+* Thermal Cultivation
+* Thermal Dynamics -flux duct config options
+* Thermal Expansion - new machines and config options
+* Thermal Foundation
+* TOP Addons
+* World Stripper
 
 1.2.1
 ----------
