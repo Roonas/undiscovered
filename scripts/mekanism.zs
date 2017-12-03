@@ -70,6 +70,12 @@ recipes.addShaped(<mekanism:machineblock:13>, [
     [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
     ]);
 
+recipes.remove(<mekanism:machineblock2:11>);
+recipes.addShaped(<mekanism:machineblock2:11>, [
+    [<jaopca:item_sticklead>, <immersiveengineering:metal:1>, <jaopca:item_sticklead>],
+    [<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>], 
+    [<jaopca:item_sticklead>, <immersiveengineering:metal:1>, <jaopca:item_sticklead>]
+    ]);
 
 
 /*=========================

@@ -1,6 +1,7 @@
 var scrapBag = <scrap:scrap>.withTag({TABLE: "scrap:scrap", PLATE: "d1a77f", GEAR: "d0c2ba", NAME: "scrap"});
 
 mods.jei.JEI.addDescription(<contenttweaker:entitykiller>, "It kills stuff");
+mods.jei.JEI.addDescription(<contenttweaker:bqmupdate>, "Run once to sync new quests after updating pack versions");
 mods.jei.JEI.addDescription(scrapBag, "Contains random junk and broken parts. Right click to open.");
 //mods.jei.JEI.addDescription(<ore:brokenPlate>, "Found in piles of scrap");
 
@@ -167,4 +168,10 @@ recipes.addShapeless(<harvestcraft:grapejellyitem>, [
 
 recipes.addShapeless(scrapBag * 2, [
     <contenttweaker:bagofjunk>
+    ]);
+
+recipes.addShaped("quest updater", <contenttweaker:bqmupdate>, [
+    [null, <minecraft:stick>, null], 
+    [<minecraft:stick>, <minecraft:dirt>, <minecraft:stick>], 
+    [null, null, null]
     ]);

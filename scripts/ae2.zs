@@ -93,3 +93,9 @@ recipes.addShaped(<appliedfluidics:item_part:3>, [
     [<silentgems:craftingmaterial:7>, <appliedenergistics2:material>, <silentgems:craftingmaterial:7>]
     ]);
 
+recipes.remove(<appliedfluidics:certus_tank>);
+recipes.addShaped(<appliedfluidics:certus_tank>, [
+    [<jaopca:item_sticksilver>, <appliedenergistics2:quartz_glass>, <jaopca:item_sticksilver>],
+    [<appliedenergistics2:quartz_glass>, null, <appliedenergistics2:quartz_glass>], 
+    [<jaopca:item_sticksilver>, <appliedenergistics2:quartz_glass>, <jaopca:item_sticksilver>]
+    ]);

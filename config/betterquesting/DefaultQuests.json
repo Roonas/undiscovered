@@ -5176,7 +5176,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -5187,7 +5187,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "SG_UUIDLeast:4": -8594316803119989660,
+                "SG_UUIDLeast:4": -5430909524858498041,
                 "SGProperties:10": {
                   "ToolTier:3": 0,
                   "MagicDamage:5": 0.0,
@@ -5201,7 +5201,7 @@
                   "Protection:5": 3.0
                 },
                 "SGStatistics:10": {
-                  "OriginalOwner:8": "a cheater!"
+                  "OriginalOwner:8": "Super_Fluke"
                 },
                 "display:10": {
                   "Name:8": "Flint Sickle"
@@ -5212,7 +5212,7 @@
                   "Part2:8": "silentgems:flint#NONE",
                   "Part1:8": "silentgems:flint#NONE"
                 },
-                "SG_UUIDMost:4": 2710999667017534464
+                "SG_UUIDMost:4": -5323472180537045088
               }
             },
             {
@@ -5868,7 +5868,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -5985,7 +5985,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -6038,7 +6038,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -7064,10 +7064,14 @@
               }
             },
             {
-              "id": "thermalexpansion:upgrade",
+              "id": "betterquesting:placeholder",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0
+              "Damage": 0,
+              "tag": {
+                "orig_meta:3": 0,
+                "orig_id:8": "thermalexpansion:upgrade"
+              }
             }
           ],
           "taskID": "bq_standard:retrieval",

@@ -8,7 +8,7 @@ var steelGear = <thermalfoundation:material:288>;
 var ironGear = <thermalfoundation:material:24>;
 var constantanGear = <thermalfoundation:material:292>;
 var mekFluidTank = <mekanism:machineblock2:11>;
-var goldClay = <botany:clay:25>;
+var goldClay = <contenttweaker:goldclay>;
 var externalHeater = <immersiveengineering:metal_device1:1>;
 var zombieHeart = <xreliquary:mob_ingredient:6>;
 var bucketAppleJuice = <forge:bucketfilled>.withTag({FluidName: "applejuice", Amount: 1000});
@@ -112,17 +112,24 @@ recipes.addShaped("bituminous peat", <forestry:bituminous_peat>, [
     [<forestry:peat>, <ore:stickyBalls>, <forestry:peat>], 
     [null, <forestry:ash>, null]
     ]);
+
+recipes.addShaped(<minecraft:mycelium>, [
+    [<ore:dustAsh>, <ore:dustAsh>, <ore:dustAsh>],
+    [<calculator:soil>, <calculator:soil>, <calculator:soil>], 
+    [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]
+    ]);
+
     
 
 /*=========================
 Carpenter
 =========================*/
-mods.forestry.Carpenter.addRecipe(<botany:clay:25>, [
+mods.forestry.Carpenter.addRecipe(goldClay, [
     [<minecraft:clay_ball>, <minecraft:clay_ball>], 
     [<minecraft:clay_ball>, <minecraft:clay_ball>]
     ], 20, <fluid:honey> * 250);
 
-mods.forestry.Carpenter.addRecipe(<botany:clay:25>, [
+mods.forestry.Carpenter.addRecipe(goldClay, [
     [<minecraft:clay_ball>, <minecraft:clay_ball>], 
     [<minecraft:clay_ball>, <minecraft:clay_ball>]
     ], 20, <fluid:for.honey> * 250);

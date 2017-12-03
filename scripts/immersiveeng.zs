@@ -140,6 +140,12 @@ recipes.addShaped("projector", <immersivepetroleum:schematic>, [
     [null, <minecraft:iron_ingot>, <immersiveengineering:treated_wood>]
     ]);
 
+recipes.remove(<immersiveengineering:metal_device1:1>);
+recipes.addShaped(<immersiveengineering:metal_device1:1>, [
+    [<ore:ingotBronze>, <minecraft:iron_ingot>, <ore:ingotBronze>],
+    [<minecraft:iron_ingot>, <immersiveengineering:metal_decoration0>, <minecraft:iron_ingot>], 
+    [<ore:ingotBronze>, <minecraft:redstone>, <ore:ingotBronze>]
+    ]);
 
 
 
@@ -173,6 +179,7 @@ mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:evilcraftblood> * 50,
 mods.immersiveengineering.Squeezer.addRecipe(<jaopca:item_platequartzblack> * 4, null, <jaopca:block_blockquartzblack>, 100);
 mods.immersiveengineering.Squeezer.addRecipe(silverPlate, null, silverBlock, 100);
 mods.immersiveengineering.Squeezer.addRecipe(tungstenIngot, null, tungstenNug * 9, 1500);
+mods.immersiveengineering.Squeezer.addRecipe(<advgenerators:iron_frame> * 4, null, <ore:plateIron>, 1500);
 
 /*=========================
 Refinery

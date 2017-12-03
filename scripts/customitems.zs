@@ -22,6 +22,15 @@ eKill.itemRightClick = function(stack, world, player, hand) {
     };
 eKill.register();
 
+var bqmupdate = VanillaFactory.createItem("bqmupdate");
+bqmupdate.maxStackSize = 1;
+bqmupdate.glowing = true;
+bqmupdate.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("bq_admin default load", player, world);
+    return "Pass";
+    };
+bqmupdate.register();
+
 /*worldIn.spawnEntityInWorld( new EntityItem( worldIn, pos.getX(), pos.getY(), pos.getZ(), ish.getStackInSlot( i ) ) );
 var whodat = VanillaFactory.createItem("whodat");
 whodat.maxStackSize = 1;
@@ -115,3 +124,6 @@ refiner.register();
 
 var fermenter = VanillaFactory.createItem("fermenter");
 fermenter.register();
+
+var goldclay = VanillaFactory.createItem("goldclay");
+goldclay.register();
