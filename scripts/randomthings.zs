@@ -1,4 +1,5 @@
 <ore:listAllmushroom>.add(<randomthings:glowingmushroom>);
+<ore:grassSeed>.add(<randomthings:grassseeds:*>);
 
 /*=========================
 Recipe Changes - Random Things
@@ -30,4 +31,10 @@ recipes.addShaped("igniter", <randomthings:igniter>, [
     [<chisel:lavastone1:*>, <ore:cobblestone>, <ore:cobblestone>], 
     [<silentgems:craftingmaterial:7>, <minecraft:flint>, <ore:cobblestone>], 
     [<chisel:lavastone1:*>, <ore:cobblestone>, <ore:cobblestone>]
+    ]);
+
+recipes.addShaped(<randomthings:fertilizeddirt> * 2, [
+    [<calculator:soil>, <calculator:soil>, <calculator:soil>],
+    [<actuallyadditions:item_fertilizer>, <actuallyadditions:item_fertilizer>, <actuallyadditions:item_fertilizer>], 
+    [<minecraft:dirt:1>, <minecraft:dirt:1>, <minecraft:dirt:1>]
     ]);

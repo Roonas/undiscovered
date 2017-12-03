@@ -308,4 +308,3 @@ recipes.addShaped(<silentgems:craftingmaterial:1>, [
     [<genetics:misc:2>, <calculator:enrichedgold>, <genetics:misc:2>]
     ]);
 
-

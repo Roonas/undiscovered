@@ -12,7 +12,7 @@ recipes.addShaped("circuit", <advgenerators:controller>, [
     [<industrialforegoing:plastic>, <appliedenergistics2:material:5>, <industrialforegoing:plastic>]
     ]);
 
-recipes.remove(<advgenerators:iron_wiring>);
+recipes.remove(<advgenerators:iron_wiring> * 2);
 recipes.addShaped(<advgenerators:iron_wiring>, [
     [null, null, <ore:stickTreatedWood>],
     [null, <immersiveengineering:wirecoil:5>, null], 
@@ -29,7 +29,7 @@ recipes.addShaped(<advgenerators:item_input>, [
 recipes.remove(<advgenerators:fuel_tank>);
 recipes.addShaped(<advgenerators:fuel_tank>, [
     [<advgenerators:iron_frame>, <minecraft:glass_pane>, <advgenerators:iron_frame>],
-    [<minecraft:glass_pane>, <appliedenergistics2:quartz_glass>, <minecraft:glass_pane>], 
+    [<minecraft:glass_pane>, <appliedfluidics:certus_tank>, <minecraft:glass_pane>], 
     [<advgenerators:iron_frame>, <advgenerators:iron_tubing>, <advgenerators:iron_frame>]
     ]);
 
@@ -49,9 +49,9 @@ recipes.addShaped(<advgenerators:fluid_input>, [
 
 recipes.remove(<advgenerators:power_io>);
 recipes.addShaped(<advgenerators:power_io>, [
-    [<thermalfoundation:material:130>, <thermalfoundation:material:354>, <thermalfoundation:material:130>],
+    [<ore:ingotSilver>, <ore:plateInvar>, <ore:ingotSilver>],
     [<advgenerators:iron_wiring>, <thermalexpansion:capacitor>, <advgenerators:iron_wiring>], 
-    [<thermalfoundation:material:130>, <thermalfoundation:material:354>, <thermalfoundation:material:130>]
+    [<ore:ingotSilver>, <ore:plateInvar>, <ore:ingotSilver>]
     ]);
 
 recipes.remove(<advgenerators:efficiency_upgrade_tier1>);

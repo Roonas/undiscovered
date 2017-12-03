@@ -9,7 +9,9 @@ Made xnet recipes easier
 Made bag of holding recipe harder
 Made storage table recipe easier
 Added stuff to IE squeezer
+Gave calc soil a use
 Oredict for fools gold messed up and added a new recipe for enriched gold
+Changes to flux/item duct recipes
 Updated Mods:
 * Industrial forgoing - fixes mod randomly stealing TE's frames for its recipes
 * Add natures compass?

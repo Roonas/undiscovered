@@ -175,6 +175,39 @@ recipes.addShaped("redstone dynamo", <thermalexpansion:dynamo:4>, [
     [<ore:ingotGold>, <contenttweaker:cheapframe>, <ore:ingotGold>]
     ]);
 
+recipes.remove(<thermaldynamics:duct_32:1>);
+recipes.addShaped(<thermaldynamics:duct_32:1> * 6, [
+    [<thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>],
+    [<thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>], 
+    [<thermalfoundation:material:131>, null, null]
+    ]);
+
+recipes.addShaped(<thermaldynamics:duct_32:1> * 6, [
+    [<jaopca:item_sticktin>, <thermalfoundation:material:131>, <jaopca:item_sticktin>],
+    [<jaopca:item_sticktin>, <thermalfoundation:material:131>, <jaopca:item_sticktin>], 
+    [<jaopca:item_sticktin>, <thermalfoundation:material:131>, <jaopca:item_sticktin>]
+    ]);
+
+recipes.remove(<thermaldynamics:duct_32>);
+recipes.addShaped(<thermaldynamics:duct_32> * 6, [
+    [<thermaldynamics:duct_32:1>, <thermaldynamics:duct_32:1>, <thermaldynamics:duct_32:1>],
+    [<thermaldynamics:duct_32:1>, <thermaldynamics:duct_32:1>, <thermaldynamics:duct_32:1>], 
+    [<extrautils2:decorativeglass>, <extrautils2:decorativeglass>, <extrautils2:decorativeglass>]
+    ]);
+
+recipes.addShaped(<thermaldynamics:duct_32> * 4, [
+    [<jaopca:item_sticktin>, <extrautils2:decorativeglass>, <jaopca:item_sticktin>],
+    [<jaopca:item_sticktin>, <extrautils2:decorativeglass>, <jaopca:item_sticktin>], 
+    [<jaopca:item_sticktin>, <extrautils2:decorativeglass>, <jaopca:item_sticktin>]
+    ]);
+
+recipes.remove(<thermaldynamics:duct_0>);
+recipes.addShaped(<thermaldynamics:duct_0> * 4, [
+    [<jaopca:item_sticklead>, <minecraft:redstone>, <jaopca:item_sticklead>],
+    [<extrautils2:decorativeglass>, <minecraft:redstone>, <extrautils2:decorativeglass>], 
+    [<jaopca:item_sticklead>, <minecraft:redstone>, <jaopca:item_sticklead>]
+    ]);
+
 
 /*=========================
 Crucible

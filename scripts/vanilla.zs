@@ -138,3 +138,9 @@ recipes.remove(<minecraft:fire_charge>);
 recipes.addShapeless(<minecraft:fire_charge> * 3, [
     <forestry:can:1>.withTag({Fluid: {FluidName: "lava", Amount: 1000}}), <ore:coal>, <ore:gunpowder>
     ]);
+
+recipes.addShaped(<minecraft:dirt:1>, [
+    [<calculator:soil>, <calculator:soil>, <calculator:soil>],
+    [<calculator:soil>, <minecraft:gravel>, <calculator:soil>], 
+    [<calculator:soil>, <calculator:soil>, <calculator:soil>]
+    ]);
