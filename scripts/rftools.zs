@@ -58,3 +58,38 @@ recipes.addShaped(<rftools:storage_control_module>, [
     [<thermalfoundation:material:322>, <jaopca:item_geartungsten>, <thermalfoundation:material:322>], 
     [<extendedcrafting:material:3>, <thermalfoundation:material:322>, <extendedcrafting:material:3>]
     ]);
+
+recipes.remove(<xnet:advanced_connector>);
+recipes.addShaped(<xnet:advanced_connector>, [
+    [<jaopca:item_sticklead>, <extrautils2:endershard>, <jaopca:item_sticklead>],
+    [<extrautils2:endershard>, <forestry:thermionic_tubes:5>, <extrautils2:endershard>], 
+    [<jaopca:item_sticklead>, <extrautils2:endershard>, <jaopca:item_sticklead>]
+    ]);
+
+recipes.remove(<xnet:router>);
+recipes.addShaped(<xnet:router>, [
+    [<minecraft:hopper>, <immersiveengineering:wooden_device0:5>, <minecraft:hopper>],
+    [<ore:plateLead>, <forestry:chipsets>, <ore:plateLead>], 
+    [<ore:plateLead>, <rftools:machine_base>, <ore:plateLead>]
+    ]);
+
+recipes.remove(<xnet:controller>);
+recipes.addShaped(<xnet:controller>, [
+    [<minecraft:comparator>, <minecraft:observer>, <minecraft:comparator>],
+    [<ore:plateLead>, <forestry:chipsets>, <ore:plateLead>], 
+    [<ore:plateLead>, <rftools:machine_base>, <ore:plateLead>]
+    ]);
+
+recipes.remove(<xnet:connector>);
+recipes.addShaped(<xnet:connector>, [
+    [<immersiveengineering:material:3>, <extrautils2:decorativeglass>, <immersiveengineering:material:3>],
+    [<extrautils2:decorativeglass>, <forestry:thermionic_tubes:11>, <extrautils2:decorativeglass>], 
+    [<immersiveengineering:material:3>, <extrautils2:decorativeglass>, <immersiveengineering:material:3>]
+    ]);
+
+recipes.remove(<rftools:storage_module_tablet>);
+recipes.addShaped(<rftools:storage_module_tablet>, [
+    [<ore:nuggetCopper>, <minecraft:emerald>, <ore:nuggetCopper>],
+    [<minecraft:redstone>, <minecraft:quartz_block>, <minecraft:redstone>], 
+    [<ore:nuggetCopper>, <minecraft:redstone>, <ore:nuggetCopper>]
+    ]);

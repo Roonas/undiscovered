@@ -154,3 +154,10 @@ recipes.addShaped(<extrautils2:indexerremote>, [
     [<thermalfoundation:material:354>, <extrautils2:screen>, <thermalfoundation:material:354>], 
     [<thermalfoundation:material:354>, <jaopca:item_geartungsten>, <thermalfoundation:material:354>]
     ]);
+
+recipes.remove(<extrautils2:bagofholding>);
+recipes.addShaped(<extrautils2:bagofholding>, [
+    [<harvestcraft:hardenedleatheritem>, <ore:plateGold>, <harvestcraft:hardenedleatheritem>],
+    [<extrautils2:decorativesolidwood:1>, <actuallyadditions:block_giant_chest>, <extrautils2:decorativesolidwood:1>], 
+    [<harvestcraft:hardenedleatheritem>, <ore:plateGold>, <harvestcraft:hardenedleatheritem>]
+    ]);

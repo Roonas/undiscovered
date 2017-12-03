@@ -3,6 +3,16 @@
 Made advanced gen recipes more difficult
 Removed some fuels from advanced gens and buffed others (see list in jei)
 Fixed some quests that were too picky on nbt data
+Added quest updating item for use on worlds with cheat mode off
+Modified AS perk and treasure shrine oregen
+Made xnet recipes easier
+Made bag of holding recipe harder
+Made storage table recipe easier
+Added stuff to IE squeezer
+Oredict for fools gold messed up and added a new recipe for enriched gold
+Updated Mods:
+* Industrial forgoing - fixes mod randomly stealing TE's frames for its recipes
+* Add natures compass?
 
 
 1.3.0
