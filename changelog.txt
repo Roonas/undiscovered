@@ -1,3 +1,12 @@
+1.4.1
+----------
+Fixed advanced mek tanks being uncraftable
+Unified metal dusts to smelt to same ingot type
+Super tier gems now require ores from the end
+Updated mods:
+* Silent Lib
+* Silent's Gems - fixes crash using lumber axe
+
 1.4.0
 ----------
 Made advanced gen recipes more difficult
