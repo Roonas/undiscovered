@@ -31,3 +31,11 @@ recipes.addShaped("runic altar", <botania:runealtar>, [
     [<botania:livingrock>, <botania:livingrock>, <botania:livingrock>], 
     [<botania:livingrock>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <botania:livingrock>]
     ]);
+
+recipes.remove(<botania:quartz:4>);
+recipes.addShaped(<botania:quartz:4> * 8, [
+    [<minecraft:quartz>, <minecraft:quartz>, <minecraft:quartz>],
+    [<minecraft:quartz>, <minecraft:redstone_block>, <minecraft:quartz>], 
+    [<minecraft:quartz>, <minecraft:quartz>, <minecraft:quartz>]
+    ]);
+

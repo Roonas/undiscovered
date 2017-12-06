@@ -1,3 +1,8 @@
+1.5.0
+----------
+Removed remaining angel ring recipes
+Modified power storage recipes (capacitors, power cubes, energy cell, energy cube, powercells)
+
 1.4.1
 ----------
 Fixed advanced mek tanks being uncraftable

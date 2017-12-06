@@ -88,6 +88,12 @@ recipes.addShaped("atomic calc", <calculator:atomiccalculator>, [
     [<immersiveengineering:stone_decoration:7>, <calculator:weakeneddiamond>, <immersiveengineering:stone_decoration:7>]
     ]);
 
+recipes.remove(<calculator:advancedpowercube>);
+recipes.addShaped(<calculator:advancedpowercube>, [
+    [<calculator:reinforcedironingot>, <calculator:reinforcedironingot>, <calculator:reinforcedironingot>],
+    [<actuallyadditions:item_crystal:3>, <calculator:powercube>, <actuallyadditions:item_crystal:3>], 
+    [<calculator:reinforcedironingot>, <calculator:reinforcedironingot>, <calculator:reinforcedironingot>]
+    ]);
 
 
 /*=========================

@@ -38,3 +38,8 @@ recipes.addShaped(<randomthings:fertilizeddirt> * 2, [
     [<actuallyadditions:item_fertilizer>, <actuallyadditions:item_fertilizer>, <actuallyadditions:item_fertilizer>], 
     [<minecraft:dirt:1>, <minecraft:dirt:1>, <minecraft:dirt:1>]
     ]);
+
+recipes.removeShapeless(<minecraft:ghast_tear>);
+recipes.addShapeless(<minecraft:ghast_tear>, [
+    <xreliquary:mob_ingredient:3>, <randomthings:ingredient:2>, <xreliquary:mob_ingredient:3>, <randomthings:ingredient:2>
+    ]);

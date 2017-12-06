@@ -147,6 +147,21 @@ recipes.addShaped(<immersiveengineering:metal_device1:1>, [
     [<ore:ingotBronze>, <minecraft:redstone>, <ore:ingotBronze>]
     ]);
 
+recipes.remove(<immersiveengineering:metal_device0:2>);
+recipes.addShaped(<immersiveengineering:metal_device0:2>, [
+    [<ore:ingotSteel>, <immersiveengineering:material:9>, <ore:ingotSteel>],
+    [<immersiveengineering:metal_decoration0:2>, <ore:blockLead>, <immersiveengineering:metal_decoration0:2>], 
+    [<immersiveengineering:treated_wood>, <ore:blockRedstone>, <immersiveengineering:treated_wood>]
+    ]);
+
+recipes.remove(<immersiveengineering:metal_device0:1>);
+recipes.addShaped(<immersiveengineering:metal_device0:1>, [
+    [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+    [<immersiveengineering:metal_decoration0:1>, <ore:ingotLead>, <immersiveengineering:metal_decoration0:1>], 
+    [<immersiveengineering:treated_wood>, <ore:blockRedstone>, <immersiveengineering:treated_wood>]
+    ]);
+
+
 
 
 /*=========================

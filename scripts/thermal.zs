@@ -208,6 +208,14 @@ recipes.addShaped(<thermaldynamics:duct_0> * 4, [
     [<jaopca:item_sticklead>, <minecraft:redstone>, <jaopca:item_sticklead>]
     ]);
 
+recipes.remove(<thermalexpansion:frame:128>);
+recipes.addShaped(<thermalexpansion:frame:128>, [
+    [<thermalfoundation:material:135>, <ore:blockGlassHardened>, <thermalfoundation:material:135>],
+    [<ore:blockGlassHardened>, <thermalfoundation:material:264>, <ore:blockGlassHardened>], 
+    [<thermalfoundation:material:135>, <thermalfoundation:material:515>, <thermalfoundation:material:135>]
+    ]);
+
+
 
 /*=========================
 Crucible

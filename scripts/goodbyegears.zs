@@ -11,6 +11,7 @@ var bronzeGear = <thermalfoundation:material:291>;
 var constantanGear = <thermalfoundation:material:292>;
 var signalumGear = <thermalfoundation:material:293>;
 var lumiumGear = <thermalfoundation:material:294>;
+var manaGear = <thermalfoundation:material:264>;
 
 recipes.remove(ironGear);
 recipes.remove(goldGear);
@@ -25,6 +26,7 @@ recipes.remove(constantanGear);
 recipes.remove(signalumGear);
 recipes.remove(lumiumGear);
 recipes.remove(platinumGear);
+recipes.remove(manaGear);
 recipes.removeShaped(<teslacorelib:gear_stone>);
 recipes.removeShaped(<jaopca:item_gearzircon>);
 recipes.removeShaped(<jaopca:item_gearyellorium>);

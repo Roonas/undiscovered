@@ -93,3 +93,24 @@ recipes.addShaped(<rftools:storage_module_tablet>, [
     [<minecraft:redstone>, <minecraft:quartz_block>, <minecraft:redstone>], 
     [<ore:nuggetCopper>, <minecraft:redstone>, <ore:nuggetCopper>]
     ]);
+
+recipes.remove(<rftools:screen_controller>);
+recipes.addShaped(<rftools:screen_controller>, [
+    [<calculator:reinforcedironingot>, <forestry:chipsets:1>, <calculator:reinforcedironingot>],
+    [<minecraft:redstone>, <rftools:machine_base>, <minecraft:redstone>], 
+    [<calculator:reinforcedironingot>, <minecraft:redstone>, <calculator:reinforcedironingot>]
+    ]);
+
+recipes.remove(<rftools:powercell_card>);
+recipes.addShaped(<rftools:powercell_card>, [
+    [<calculator:redstoneingot>, <calculator:redstoneingot>, <calculator:redstoneingot>],
+    [<randomthings:ingredient:3>, <thermalfoundation:material:264>, <randomthings:ingredient:3>], 
+    [<calculator:redstoneingot>, <calculator:redstoneingot>, <calculator:redstoneingot>]
+    ]);
+
+recipes.remove(<rftools:powercell_simple>);
+recipes.addShaped(<rftools:powercell_simple>, [
+    [<botania:quartztypered>, <calculator:weakeneddiamond>, <botania:quartztypered>],
+    [<calculator:weakeneddiamond>, <rftools:machine_base>, <calculator:weakeneddiamond>], 
+    [<botania:quartztypered>, <calculator:weakeneddiamond>, <botania:quartztypered>]
+    ]);
