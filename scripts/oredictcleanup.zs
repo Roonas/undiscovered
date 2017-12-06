@@ -15,9 +15,9 @@
 
 //All metal dusts should smelt into the thermal ingot, reducing redundant ingot types
 furnace.remove(<*>, <ore:dustAluminium>);
-furnace.remove(<*>, <ore:dustAluminum>);<magneticraft:dusts:7>
+furnace.remove(<*>, <magneticraft:dusts:7>);
 furnace.addRecipe(<thermalfoundation:material:132>, <ore:dustAluminium>, 2);
-furnace.addRecipe(<thermalfoundation:material:132>, <ore:dustAluminum>, 2);
+furnace.addRecipe(<thermalfoundation:material:132>, <magneticraft:dusts:7>, 2);
 
 furnace.remove(<*>, <ore:dustBronze>);
 furnace.addRecipe(<thermalfoundation:material:163>, <ore:dustBronze>, 2);
@@ -53,8 +53,8 @@ furnace.addRecipe(<thermalfoundation:material:130>, <magneticraft:dusts:12>, 2);
 
 furnace.remove(<*>, <ore:dustSteel>);
 furnace.remove(<*>, <magneticraft:dusts:6>);
-furnace.addRecipe(<thermalfoundation:material:160>, <ore:dustSteel>, 2);
-furnace.addRecipe(<thermalfoundation:material:160>, <magneticraft:dusts:6>, 2);
+furnace.addRecipe(<immersiveengineering:metal:8>, <ore:dustSteel>, 2);
+furnace.addRecipe(<immersiveengineering:metal:8>, <magneticraft:dusts:6>, 2);
 
 furnace.remove(<*>, <ore:dustTin>);
 furnace.remove(<*>, <magneticraft:dusts:13>);

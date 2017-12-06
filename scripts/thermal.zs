@@ -213,6 +213,7 @@ recipes.addShaped(<thermaldynamics:duct_0> * 4, [
 Crucible
 =========================*/    
 //mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:135>);
+mods.thermalexpansion.Crucible.removeRecipe(<minecraft:ender_pearl>);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:platinum> * 2000, <thermalfoundation:ore:6>, 500);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:cyanite> * 500, <bigreactors:dustmetals:1>, 1000);
 
