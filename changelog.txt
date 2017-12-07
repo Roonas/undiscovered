@@ -2,6 +2,7 @@
 ----------
 Removed remaining angel ring recipes
 Modified power storage recipes (capacitors, power cubes, energy cell, energy cube, powercells)
+Changed AA empowerer recipes
 
 1.4.1
 ----------

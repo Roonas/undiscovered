@@ -41,7 +41,10 @@ for toometa in 30 to 41{
 val ieGrits = <immersiveengineering:metal>.definition;
 for toometa in 9 to 20{
     recipes.removeShapeless(ieGrits.makeStack(toometa), [<*>, ieHammer]);
-} */
+} 
+*/
+
+mods.jei.JEI.addDescription(<immersivepetroleum:material>, "Waste product of the Immersive Petroleum distillation tower.");
 
 /*=========================
 Recipe Changes - IE
@@ -236,6 +239,7 @@ mods.immersiveengineering.Crusher.addRecipe(<magneticraft:crafting> * 2, <magnet
 mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dull_dust> * 2, <contenttweaker:scrapelec>, 2000, <minecraft:redstone> * 6, 0.6);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>, <thermalfoundation:material:893>, 800);
 mods.immersiveengineering.Crusher.addRecipe(<extratrees:misc:5> * 2, <contenttweaker:moldybread>, 300);
+mods.immersiveengineering.Crusher.addRecipe(<immersivepetroleum:material>, <thermalfoundation:material:892>, 800);
 /*=========================
 Mixer
 =========================*/
