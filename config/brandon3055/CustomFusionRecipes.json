@@ -1,0 +1,66 @@
+[
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:draconic_block,4",
+        "catalyst": "draconicevolution:draconium_block,4,1",
+        "energy": 100000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "draconicevolution:dragon_heart",
+            "harvestcraft:dragonfruititem",
+            "botania:manaresource,1,9",
+            "botania:manaresource,1,9"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "draconicevolution:wyvern_core",
+        "energy": 150000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_ingot",
+            "draconicevolution:draconic_core",
+            "draconicevolution:draconic_core",
+            "rftools:infused_enderpearl",
+            "extendedcrafting:material,1,24"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard",
+        "energy": 175000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "stevescarts:modulecomponents,1,49",
+            "botania:manaresource,1,5",
+            "appliedenergistics2:material,1,11",
+            "appliedenergistics2:material,1,11",
+            "extrautils2:ingredients,1,11",
+            "extrautils2:ingredients,1,11"
+        ]
+    },
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_block",
+        "catalyst": "draconicevolution:draconium_block"
+    },  
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+    },  
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard"
+    }        
+]

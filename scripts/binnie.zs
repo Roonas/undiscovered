@@ -16,6 +16,8 @@ var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka
 var vodkaBucket = <forge:bucketfilled>.withTag({FluidName: "binnie.vodka", Amount: 1000});
 var liquidTube = <stevescarts:modulecomponents:65>;
 
+recipes.remove(<genetics:misc:2>);
+
 /*=========================
 Recipe Changes - Binnie
 =========================*/

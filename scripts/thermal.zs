@@ -21,6 +21,7 @@ var platinumOre = <thermalfoundation:ore:6>;
 var richSlag = <thermalfoundation:material:865>;
 var cinnabar = <thermalfoundation:material:866>;
 var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}});
+var enderEgg = <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:enderman"}});
 
 
 recipes.remove(<thermalexpansion:machine>); //redstone furnace... hopefully
@@ -290,3 +291,9 @@ mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:7>*8, <
 Centrifuge
 =========================*/  
 mods.thermalexpansion.Centrifuge.addRecipe([<minecraft:gravel> % 50, (<thermalfoundation:material:198> * 2) % 70, <jaopca:item_rockychunkplatinum> % 20], <contenttweaker:platslurry>, <liquid:platinum> * 1000, 1000);
+mods.thermalexpansion.Centrifuge.addRecipe([enderEgg % 100], <minecraft:dragon_egg>, <liquid:dblood> * 1000, 20000);
+
+/*=========================
+Energetic Infuser
+=========================*/ 
+mods.thermalexpansion.Infuser.addRecipe(<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block>, 2000000);
