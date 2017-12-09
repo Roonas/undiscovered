@@ -13,6 +13,8 @@ var yeast = <extratrees:misc:5>;
 <ore:listAllfruit>.remove(oreBerry);
 <ore:listAllberry>.remove(oreBerry);
 
+<rustic:book>.maxStackSize = 1;
+
 /*=========================
 Recipe Changes - Rustic
 =========================*/
@@ -93,6 +95,7 @@ mods.rustic.EvaporatingBasin.addRecipe(<immersiveengineering:metal:33>, <liquid:
 mods.rustic.EvaporatingBasin.addRecipe(<thermalfoundation:material:199>, <liquid:iridium> * 200);
 mods.rustic.EvaporatingBasin.addRecipe(<thermalfoundation:material:1026>, <liquid:aerotheum> * 1000);
 mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:resinplate>, <liquid:sap> * 500);
+mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:resinplate>, <liquid:resin> * 500);
 mods.rustic.EvaporatingBasin.addRecipe(<minecraft:redstone>, <liquid:redstone> * 500);
 
 

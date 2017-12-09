@@ -4,6 +4,10 @@ Removed remaining angel ring recipes
 Modified power storage recipes (capacitors, power cubes, energy cell, energy cube, powercells)
 Changed AA empowerer recipes
 Modified DE core recipes
+Ores should now smelt to unified ingot if you manage to get a non-world gen ore
+Quests for creative items
+Quests for final tier of tech
+
 
 
 1.4.1

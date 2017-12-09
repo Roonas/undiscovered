@@ -1,6 +1,8 @@
 var crystalIngot = <extendedcrafting:material:24>;
 var evilIngot = <extrautils2:ingredients:17>;
 
+recipes.removeByRecipeName("bigreactors:ingotmetals");
+
 mods.jei.JEI.addDescription(<bigreactors:reactorpowertaprf>, "Direct power output disabled. Reactors may still produce steam to power turbines.");
 
 /*=========================

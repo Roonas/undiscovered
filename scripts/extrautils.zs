@@ -17,6 +17,7 @@ recipes.remove(<extrautils2:angelring:1>);
 //recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}), true);
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}), true);
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}), true);
+mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:enchanter"}), true);
 /*=========================
 Recipe Changes - Extra Utils
 =========================*/

@@ -5678,7 +5678,7 @@
             "Damage": 0
           },
           "globalshare": false,
-          "questlogic": "AND",
+          "questlogic": "OR",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
@@ -5696,19 +5696,37 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "thermalfoundation:material",
+              "id": "contenttweaker:charged_iridium",
               "Count": 1,
               "OreDict": "",
-              "Damage": 135
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "contenttweaker:irradiated_iridium",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
       "preRequisites": [
-        102
+        102,
+        115
       ],
       "questID": 101
     },
@@ -6107,8 +6125,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        101,
-        103
+        103,
+        205
       ],
       "questID": 108
     },
@@ -6365,7 +6383,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        101
+        205
       ],
       "questID": 113
     },
@@ -11225,6 +11243,1683 @@
         192
       ],
       "questID": 193
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "thermalcultivation:watering_can",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 32000,
+            "tag": {
+              "Water:3": 60000,
+              "Mode:3": 4
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Serious Farmer",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalcultivation:watering_can",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 32000,
+              "tag": {
+                "Water:3": 60000,
+                "Mode:3": 4
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        184,
+        218
+      ],
+      "questID": 194
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "waterstrainer:super_worm",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Super Worm",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "waterstrainer:super_worm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        184,
+        218
+      ],
+      "questID": 195
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "bibliocraft:bookcasecreative",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Well Read",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "bibliocraft:bookcasecreative",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        184,
+        218
+      ],
+      "questID": 196
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "extrautils2:passivegenerator",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 6
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Unlimted Grid",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extrautils2:passivegenerator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        204,
+        219
+      ],
+      "questID": 197
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "storagedrawers:upgrade_creative",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Black Hole Box",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "storagedrawers:upgrade_creative",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        204,
+        219
+      ],
+      "questID": 198
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:creative_blood_drop",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {}
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Blood Bank",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:creative_blood_drop",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        204,
+        219
+      ],
+      "questID": 199
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "draconicevolution:creative_rf_source",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "High Power",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "draconicevolution:creative_rf_source",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        220
+      ],
+      "questID": 200
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mekanism:machineblock2",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 11,
+            "tag": {
+              "tier:3": 4,
+              "mekData:10": {}
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Full Tank",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "mekanism:machineblock2",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11,
+              "tag": {
+                "tier:3": 4,
+                "mekData:10": {}
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        220
+      ],
+      "questID": 201
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mekanism:gastank",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "tier:3": 4,
+              "mekData:10": {}
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Full of Hot Air",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "mekanism:gastank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "tier:3": 4,
+                "mekData:10": {}
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        220
+      ],
+      "questID": 202
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:pool",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Vazkii\u0027s Tears",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:pool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        220
+      ],
+      "questID": 203
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": true,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "visibility": "HIDDEN",
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": true,
+          "ismain": false,
+          "name": "T3 Hidden",
+          "desc": "Only used for locking other quests behind T3"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        113,
+        126,
+        108
+      ],
+      "questID": 204
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "thermalfoundation:material",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 135
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "New Quest",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        101
+      ],
+      "questID": 205
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "draconicevolution:draconic_core",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Dragons Core",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "draconicevolution:draconic_core",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        223,
+        212
+      ],
+      "questID": 206
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "draconicevolution:wyvern_core",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Wyvern Upgrade",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "draconicevolution:wyvern_core",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        215
+      ],
+      "questID": 207
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "draconicevolution:awakened_core",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Woke Core",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "draconicevolution:awakened_core",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        224,
+        210,
+        207,
+        225
+      ],
+      "questID": 208
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "draconicevolution:chaotic_core",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Chaos",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "draconicevolution:chaotic_core",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        208
+      ],
+      "questID": 209
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "contenttweaker:solidheart",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Heart of Stone",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "contenttweaker:solidheart",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 210
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mekanism:basicblock",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 8
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mek Box",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "mekanism:basicblock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        216
+      ],
+      "questID": 211
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "contenttweaker:obsidiancase",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Expensive Mek Box",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "contenttweaker:obsidiancase",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        211
+      ],
+      "questID": 212
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "contenttweaker:enchantedframe",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Frame of Experience",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "contenttweaker:enchantedframe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        108
+      ],
+      "questID": 213
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "rftoolsdim:dimension_enscriber",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Creator of Worlds",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "rftoolsdim:dimension_enscriber",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        212
+      ],
+      "questID": 214
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "magneticraft:ingots",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Foreign Metals",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "magneticraft:ingots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        214
+      ],
+      "questID": 215
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "thermalfoundation:material",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 167
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Ender Infused",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalfoundation:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 167
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        217
+      ],
+      "questID": 216
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "thermalexpansion:machine",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3,
+            "tag": {
+              "RSControl:1": 0,
+              "Facing:1": 3,
+              "Energy:3": 0,
+              "SideCache:7": [
+                3,
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Level:1": 0
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Super Hot",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalexpansion:machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "RSControl:1": 0,
+                "Facing:1": 3,
+                "Energy:3": 0,
+                "SideCache:7": [
+                  3,
+                  1,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "Level:1": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        213
+      ],
+      "questID": 217
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "extendedcrafting:table_advanced",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "A Bigger Table",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extendedcrafting:table_advanced",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        184
+      ],
+      "questID": 218
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "extendedcrafting:table_elite",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Excessive Crafting",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extendedcrafting:table_elite",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        204
+      ],
+      "questID": 219
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "extendedcrafting:table_ultimate",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "It Takes Effort",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extendedcrafting:table_ultimate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        218,
+        219
+      ],
+      "questID": 220
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "bigreactors:ingotmetals",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Blue Gold",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "bigreactors:ingotmetals",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        204
+      ],
+      "questID": 221
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "appliedenergistics2:crafting_unit",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Craft on Demand",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "appliedenergistics2:crafting_unit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        221
+      ],
+      "questID": 222
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "thermalexpansion:machine",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 5,
+            "tag": {
+              "RSControl:1": 0,
+              "Facing:1": 3,
+              "Energy:3": 0,
+              "SideCache:7": [
+                1,
+                1,
+                2,
+                2,
+                2,
+                2
+              ],
+              "Level:1": 0
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mini Mint",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalexpansion:machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5,
+              "tag": {
+                "RSControl:1": 0,
+                "Facing:1": 3,
+                "Energy:3": 0,
+                "SideCache:7": [
+                  1,
+                  1,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "Level:1": 0
+              }
+            },
+            {
+              "id": "thermalexpansion:augment",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 336
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        213
+      ],
+      "questID": 223
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "forge:bucketfilled",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "FluidName:8": "dblood",
+              "Amount:3": 1000
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Dragon Essence",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {},
+                "FluidName:8": "dblood",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 224
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "draconicevolution:fusion_crafting_core",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Dragon Empowered",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "draconicevolution:fusion_crafting_core",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "draconicevolution:crafting_injector",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        206
+      ],
+      "questID": 225
     }
   ],
   "questLines": [
@@ -11752,49 +13447,49 @@
       "quests": [
         {
           "size": 24,
-          "x": 90,
-          "y": 138,
+          "x": 78,
+          "y": 108,
           "id": 101
         },
         {
           "size": 24,
-          "x": 102,
-          "y": 102,
+          "x": 78,
+          "y": 72,
           "id": 102
         },
         {
           "size": 24,
-          "x": 48,
+          "x": 30,
           "y": 138,
           "id": 103
         },
         {
           "size": 24,
-          "x": 60,
+          "x": 42,
           "y": 102,
           "id": 104
         },
         {
           "size": 24,
-          "x": 30,
+          "x": 12,
           "y": 102,
           "id": 105
         },
         {
           "size": 24,
           "x": 66,
-          "y": 36,
+          "y": 12,
           "id": 106
         },
         {
           "size": 24,
-          "x": 78,
-          "y": 66,
+          "x": 72,
+          "y": 42,
           "id": 107
         },
         {
           "size": 24,
-          "x": 66,
+          "x": 60,
           "y": 174,
           "id": 108
         },
@@ -11803,6 +13498,12 @@
           "x": 120,
           "y": 6,
           "id": 109
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 138,
+          "id": 205
         },
         {
           "size": 24,
@@ -11819,37 +13520,37 @@
         {
           "size": 24,
           "x": 18,
-          "y": 6,
+          "y": -18,
           "id": 112
         },
         {
           "size": 24,
-          "x": 0,
+          "x": -24,
           "y": 174,
           "id": 176
         },
         {
           "size": 24,
-          "x": 114,
+          "x": 96,
           "y": 174,
           "id": 113
         },
         {
           "size": 24,
           "x": 54,
-          "y": 6,
+          "y": -18,
           "id": 114
         },
         {
           "size": 24,
           "x": 42,
-          "y": 66,
+          "y": 42,
           "id": 115
         },
         {
           "size": 24,
           "x": 30,
-          "y": 36,
+          "y": 12,
           "id": 116
         },
         {
@@ -11860,31 +13561,153 @@
         },
         {
           "size": 24,
-          "x": 0,
+          "x": -18,
           "y": 102,
           "id": 124
         },
         {
           "size": 24,
-          "x": 12,
+          "x": -6,
           "y": 138,
           "id": 125
         },
         {
           "size": 24,
-          "x": 36,
+          "x": 18,
           "y": 174,
           "id": 126
         },
         {
           "size": 24,
-          "x": 114,
+          "x": 108,
           "y": 72,
           "id": 127
         }
       ],
       "lineID": 4,
       "order": 4
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Mastery of Mech",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "No Description"
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": 36,
+          "y": 174,
+          "id": 224
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 174,
+          "id": 225
+        },
+        {
+          "size": 24,
+          "x": -114,
+          "y": 84,
+          "id": 204
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 120,
+          "id": 206
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 192,
+          "id": 207
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 222,
+          "id": 208
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 252,
+          "id": 209
+        },
+        {
+          "size": 24,
+          "x": 12,
+          "y": 198,
+          "id": 210
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 84,
+          "id": 211
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 96,
+          "id": 212
+        },
+        {
+          "size": 24,
+          "x": 54,
+          "y": -12,
+          "id": 213
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 126,
+          "id": 214
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 156,
+          "id": 215
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 54,
+          "id": 216
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 24,
+          "id": 217
+        },
+        {
+          "size": 24,
+          "x": -18,
+          "y": 18,
+          "id": 221
+        },
+        {
+          "size": 24,
+          "x": -18,
+          "y": 54,
+          "id": 222
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 24,
+          "id": 223
+        }
+      ],
+      "lineID": 5,
+      "order": 6
     },
     {
       "properties": {
@@ -11977,6 +13800,98 @@
       ],
       "lineID": 6,
       "order": 5
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "God Like",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "No Description"
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": -90,
+          "y": 36,
+          "id": 194
+        },
+        {
+          "size": 24,
+          "x": -66,
+          "y": 12,
+          "id": 195
+        },
+        {
+          "size": 24,
+          "x": -42,
+          "y": -12,
+          "id": 196
+        },
+        {
+          "size": 24,
+          "x": 90,
+          "y": 36,
+          "id": 197
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 12,
+          "id": 198
+        },
+        {
+          "size": 24,
+          "x": 42,
+          "y": -12,
+          "id": 199
+        },
+        {
+          "size": 24,
+          "x": -18,
+          "y": 162,
+          "id": 200
+        },
+        {
+          "size": 24,
+          "x": 18,
+          "y": 162,
+          "id": 201
+        },
+        {
+          "size": 24,
+          "x": 42,
+          "y": 138,
+          "id": 202
+        },
+        {
+          "size": 24,
+          "x": -42,
+          "y": 138,
+          "id": 203
+        },
+        {
+          "size": 24,
+          "x": -24,
+          "y": 54,
+          "id": 218
+        },
+        {
+          "size": 24,
+          "x": 24,
+          "y": 54,
+          "id": 219
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 102,
+          "id": 220
+        }
+      ],
+      "lineID": 7,
+      "order": 7
     }
   ],
   "format": "1.0.0"

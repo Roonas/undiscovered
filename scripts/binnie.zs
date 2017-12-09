@@ -78,7 +78,16 @@ recipes.addShaped("vodka bottle", vodkaBottle, [
     [null, <minecraft:glass_bottle>, null]
     ]);
 
-//Binnie integration broken
+
+
+/*=========================
+Fruit Press
+=========================*/ 
 mods.extratrees.FruitPress.addRecipe(zombieHeart, <liquid:evilcraftblood> * 200);
 
+/*=========================
+Distillery
+=========================*/ 
 mods.extratrees.Distillery.addRecipe(<liquid:sewage> * 1000, <liquid:sludge> * 250, 1);
+mods.extratrees.Distillery.addRecipe(<liquid:xpjuice> * 1000, <liquid:experience> * 250, 1);
+mods.extratrees.Distillery.addRecipe(<liquid:essence> * 1000, <liquid:experience> * 250, 1);

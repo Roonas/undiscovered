@@ -27,6 +27,7 @@ var enderEgg = <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:enderma
 recipes.remove(<thermalexpansion:machine>); //redstone furnace... hopefully
 recipes.remove(<thermalfoundation:material:71>);
 recipes.remove(<thermalfoundation:material:135>);
+recipes.remove(<thermalexpansion:device:8>); //xp collector
 //recipes.remove(<thermalfoundation:material:1024>);
 
 /*=========================
@@ -258,7 +259,7 @@ Fluid Transposer
 =========================*/ 
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:sand>, <liquid:redstone>);
 mods.thermalexpansion.Transposer.removeFillRecipe(<minecraft:snowball>, <liquid:redstone>);
-mods.thermalexpansion.Transposer.addFillRecipe(<extrautils2:ingredients:12>, <extendedcrafting:material>, <liquid:xpjuice> * 1000, 1000);
+mods.thermalexpansion.Transposer.addFillRecipe(<extrautils2:ingredients:12>, <extendedcrafting:material>, <liquid:experience> * 1000, 1000);
 mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:dragon_heart>, <contenttweaker:heartcast>, <liquid:dblood> * 1000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:2049>, <minecraft:packed_ice>, <liquid:gasoline> * 250, 500);
 mods.thermalexpansion.Transposer.addFillRecipe(<bigreactors:ingotmetals:3>, <bigreactors:ingotmetals>, <liquid:cyanite> * 500, 5000);
@@ -268,7 +269,9 @@ mods.thermalexpansion.Transposer.addFillRecipe(<bigreactors:ingotmetals:3>, <big
 Refinery
 =========================*/    
 mods.thermalexpansion.Refinery.addRecipe(<liquid:binnie.spirit.neutral> * 250, <thermalfoundation:material:1026>, <liquid:aerotheum> * 500, 2000);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:sludge> * 250, null, <liquid:sewage> * 1000, 1000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:sludge> * 250, null, <liquid:sewage> * 1000, 3000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 250, null, <liquid:xpjuice> * 1000, 10000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 250, null, <liquid:essence> * 1000, 10000);
 
 /*=========================
 Sawmill
