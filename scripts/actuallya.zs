@@ -137,6 +137,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:irradiated_iridium>, 
 mods.actuallyadditions.Empowerer.addRecipe(<minecraft:gold_ingot>, <minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, 500, 100, [0.5, 0.3, 0.2]);
 mods.actuallyadditions.Empowerer.addRecipe(<extrautils2:suncrystal:250>, <calculator:weakeneddiamond>, <minecraft:glowstone>, <botania:quartztypesunny>, <minecraft:glowstone>, <botania:quartztypesunny>, 2000, 200);
 mods.actuallyadditions.Empowerer.addRecipe(<genetics:misc:2>*2, <minecraft:blaze_powder>, <botania:quartz:6>, <thermalfoundation:material:894>, <astralsorcery:itemusabledust>, <contenttweaker:goldclay>, 6000, 200);
+mods.actuallyadditions.Empowerer.addRecipe(<extrautils2:ingredients:17> * 9, <extendedcrafting:storage>, <minecraft:nether_star>, <minecraft:experience_bottle>, <astralsorcery:itemcraftingcomponent:2>, <darkutils:material>, 220000, 666);
 
 /*=========================
 Atomice Reconstructor

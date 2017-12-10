@@ -24,6 +24,9 @@ var lubricantDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "lubricant"
 var starlightDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "astralsorcery.liquidstarlight", Amount: 256000}});
 var mutagenDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "mutagen", Amount: 256000}});
 var ultimateInduction = <mekanism:basicblock2:3>.withTag({tier: 3});
+
+<contenttweaker:solidheart>.addTooltip("Not consumed in crafting");
+
 /*=========================
 Recipe Changes - Extended Crafting
 =========================*/

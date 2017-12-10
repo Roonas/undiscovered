@@ -7,8 +7,12 @@ Modified DE core recipes
 Ores should now smelt to unified ingot if you manage to get a non-world gen ore
 Quests for creative items
 Quests for final tier of tech
+Changed icon for progression quests to differentiate them from optional quests
+Made processing for enchanted ingots a bit more difficult and more flexable to various solid/fluid xp
+Fixed evilcraft over populating loot table drowning out rare drops
+Changed broken AA xp solidifier recipe
 
-
+~Sleeping bags? https://minecraft.curseforge.com/projects/comforts
 
 1.4.1
 ----------
