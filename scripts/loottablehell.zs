@@ -43,6 +43,7 @@ val jungleRTBiome = jungleChest.getPool("randomthings:biomeCrystal");
 val jungleDisChest = LootTables.getTable("minecraft:chests/jungle_temple_dispenser");
 
 val netherChest = LootTables.getTable("minecraft:chests/nether_bridge");
+val netherMain = netherChest.getPool("main");
 val netherReliquary = netherChest.getPool("xreliquary_inject_pool");
 val netherRTLava = netherChest.getPool("randomthings:lavaCharm");
 val netherRTBiome = netherChest.getPool("randomthings:biomeCrystal");
@@ -153,6 +154,7 @@ jungleRTBiome.removeItemEntry(<evilcraft:origins_of_darkness>);
 
 jungleDisChest.removePool("randomthings:biomeCrystal");
 
+netherMain.removeItemEntry(<minecraft:flint_and_steel>);
 netherReliquary.removeItemEntry(<evilcraft:condensed_blood>);
 netherReliquary.removeItemEntry(<evilcraft:box_of_eternal_closure>);
 netherReliquary.removeItemEntry(<evilcraft:origins_of_darkness>);

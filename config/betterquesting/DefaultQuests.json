@@ -2715,7 +2715,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        54
+        239
       ],
       "questID": 52
     },
@@ -2771,7 +2771,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        54
+        233
       ],
       "questID": 53
     },
@@ -2820,7 +2820,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        237
+      ],
       "questID": 54
     },
     {
@@ -3970,7 +3972,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 76
     },
     {
@@ -4071,7 +4075,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 78
     },
     {
@@ -4309,7 +4315,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        184
+      ],
       "questID": 82
     },
     {
@@ -4877,7 +4885,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 89
     },
     {
@@ -4961,7 +4971,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 90
     },
     {
@@ -5051,7 +5063,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 91
     },
     {
@@ -5229,7 +5243,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 93
     },
     {
@@ -5661,7 +5677,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 100
     },
     {
@@ -6961,7 +6979,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        54
+        236
       ],
       "questID": 121
     },
@@ -7123,7 +7141,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        121
+        238
       ],
       "questID": 122
     },
@@ -8518,7 +8536,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 148
     },
     {
@@ -8566,7 +8586,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 149
     },
     {
@@ -8664,7 +8686,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 151
     },
     {
@@ -10547,7 +10571,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        52
+        240
       ],
       "questID": 183
     },
@@ -13327,6 +13351,336 @@
         106
       ],
       "questID": 231
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Trashman #1",
+          "desc": "     Trash and bones, trash and bones, how long until I am trash and bones as well?  We have all come to this horrid place and that is all we leave behind, to be found by the next fools stranded here with no hope of escape.  Well, I am the Trashpicker and I leave you this as my bones: this motley collection of journals and tips, attempts and failures I have collected in my wanderings through this world.  May it do you more good than it did me."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        234,
+        54
+      ],
+      "questID": 232
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Trashman #2",
+          "desc": "     So many civilizations have built and collapsed in this cursed world that the very water is full of their trash.  Build yourself a strainer and you too can become a trashpicker, building on the failures of the past! Be sure you drink the water upriver of these stinking cities, now that you have seen what is these rivers."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        232
+      ],
+      "questID": 233
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "...",
+          "desc": "     You\u0027ve awaken from slumber once more, but the world seems different.  Empty.  You do not know where you came from or how you got here, to this land of ancient ruins and deserted cities.  You see no clear goal but survival and the echoing ruins imply that this might not be an easy task.  Your only clue as to how this place came to be is a faded, cobbled together journal left in a sturdy chest near the clearing where you awoke, marked with a tattered flag that was once red and is now as faded as the rest of this land."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 234
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Trashman #3",
+          "desc": "     Besides the river flotsam that clogs your nets, you\u0027ll find bits of scrap to open and sort, hoping for something that will put you past scraping in the muck.  Better trash can be found in the city dumps... if you can stomach the smell as you dig. "
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        53
+      ],
+      "questID": 235
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Craftsmand #2",
+          "desc": "     I think these people built too quickly and not well.  All their work has come to ruin and I avoid it as I walk the wilderness in search of food and forage.  I shall not fall into their ways but make each item with care.  I have been experimenting with improvements on even the simple chest, sketching out variations to try."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        54
+      ],
+      "questID": 236
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "The Craftsman #1",
+          "desc": "     I know not how I came to be here, but little purpose is served by idle thoughts and so I shall set to work.  The cities seem unwholesome places, reeking of trash and decay.  I shall start afresh, with the clean scent of wind and sawdust, and build a home for myself. "
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 237
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Craftsman #3",
+          "desc": "     There is peace to be found in working with your hands.  I try to fall into this peace each day, try to resist the desire to go searching, to look for life, for any other living soul... but that way leads to madness.  I shall stay here and improve my designs, finding comfort in my work."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        121
+      ],
+      "questID": 238
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "The Craftsman #4",
+          "desc": "     No more will I scavenge at the edge of cities, for even the bits of metal I need for hinges and locks, nature has provided! The berries i collect from the peculiar trees, or dredge out of the river waters, can be crushed and refined.  I must take this as a sign to wander no more to those accursed places."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        54
+      ],
+      "questID": 239
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Craftsman #5",
+          "desc": "     I am so lonely… I stroke my fine wood but it brings me no comfort, and my tools do not speak back.  The wind calls to me but I dare not reply for I will not then know if the world has gone mad or only me.  I huddle here amongst the fine things I have made, but now I am interested in only in making more ale for it is the only comfort left to me."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        52
+      ],
+      "questID": 240
     }
   ],
   "questLines": [
@@ -13342,115 +13696,163 @@
       "quests": [
         {
           "size": 24,
-          "x": 132,
-          "y": 90,
+          "x": 150,
+          "y": 168,
           "id": 226
         },
         {
           "size": 24,
-          "x": 120,
-          "y": 126,
-          "id": 48
-        },
-        {
-          "size": 24,
-          "x": 78,
-          "y": 126,
-          "id": 49
-        },
-        {
-          "size": 24,
-          "x": 30,
-          "y": 108,
-          "id": 50
-        },
-        {
-          "size": 24,
-          "x": 96,
-          "y": 84,
-          "id": 178
-        },
-        {
-          "size": 24,
-          "x": 30,
-          "y": 72,
-          "id": 51
-        },
-        {
-          "size": 24,
-          "x": 60,
-          "y": 84,
-          "id": 179
-        },
-        {
-          "size": 24,
-          "x": 30,
+          "x": 114,
           "y": 36,
-          "id": 52
+          "id": 232
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 120,
-          "id": 180
+          "x": 144,
+          "y": 60,
+          "id": 233
+        },
+        {
+          "size": 24,
+          "x": 132,
+          "y": 126,
+          "id": 235
         },
         {
           "size": 24,
           "x": 78,
           "y": 54,
+          "id": 236
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": -6,
+          "id": 237
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 114,
+          "id": 238
+        },
+        {
+          "size": 24,
+          "x": 42,
+          "y": 36,
+          "id": 239
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 180,
+          "id": 48
+        },
+        {
+          "size": 24,
+          "x": -18,
+          "y": 78,
+          "id": 240
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 180,
+          "id": 49
+        },
+        {
+          "size": 24,
+          "x": 18,
+          "y": 138,
+          "id": 50
+        },
+        {
+          "size": 24,
+          "x": 192,
+          "y": 126,
+          "id": 178
+        },
+        {
+          "size": 24,
+          "x": 18,
+          "y": 102,
+          "id": 51
+        },
+        {
+          "size": 24,
+          "x": 162,
+          "y": 126,
+          "id": 179
+        },
+        {
+          "size": 24,
+          "x": 18,
+          "y": 66,
+          "id": 52
+        },
+        {
+          "size": 24,
+          "x": -18,
+          "y": 156,
+          "id": 180
+        },
+        {
+          "size": 24,
+          "x": 162,
+          "y": 90,
           "id": 53
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 150,
+          "x": -18,
+          "y": 186,
           "id": 181
         },
         {
           "size": 24,
           "x": 78,
-          "y": 12,
+          "y": 24,
           "id": 54
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 180,
+          "x": -18,
+          "y": 216,
           "id": 182
         },
         {
           "size": 24,
           "x": 78,
-          "y": 168,
+          "y": 216,
           "id": 55
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 72,
+          "x": -18,
+          "y": 108,
           "id": 183
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 36,
+          "x": 78,
+          "y": 84,
           "id": 121
         },
         {
           "size": 24,
           "x": 150,
-          "y": 156,
+          "y": 204,
           "id": 185
         },
         {
           "size": 24,
-          "x": 156,
-          "y": 66,
+          "x": 78,
+          "y": 144,
           "id": 122
         }
       ],
       "lineID": 0,
-      "order": 0
+      "order": 1
     },
     {
       "properties": {
@@ -13638,7 +14040,7 @@
         }
       ],
       "lineID": 1,
-      "order": 1
+      "order": 2
     },
     {
       "properties": {
@@ -13748,7 +14150,7 @@
         }
       ],
       "lineID": 2,
-      "order": 2
+      "order": 3
     },
     {
       "properties": {
@@ -13846,7 +14248,7 @@
         }
       ],
       "lineID": 3,
-      "order": 3
+      "order": 4
     },
     {
       "properties": {
@@ -14028,7 +14430,7 @@
         }
       ],
       "lineID": 4,
-      "order": 4
+      "order": 5
     },
     {
       "properties": {
@@ -14150,7 +14552,7 @@
         }
       ],
       "lineID": 5,
-      "order": 6
+      "order": 7
     },
     {
       "properties": {
@@ -14242,7 +14644,7 @@
         }
       ],
       "lineID": 6,
-      "order": 5
+      "order": 6
     },
     {
       "properties": {
@@ -14334,7 +14736,27 @@
         }
       ],
       "lineID": 7,
-      "order": 7
+      "order": 8
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Undiscovered",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "No Description"
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": -6,
+          "y": 84,
+          "id": 234
+        }
+      ],
+      "lineID": 8,
+      "order": 0
     }
   ],
   "format": "1.0.0"
