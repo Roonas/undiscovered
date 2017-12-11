@@ -123,6 +123,7 @@ mods.calculator.atomic.addRecipe(<minecraft:anvil>, <appliedenergistics2:materia
 Scientific Calc
 =========================*/
 mods.calculator.scientific.removeRecipe(<calculator:redstoneingot>);
+mods.calculator.scientific.addRecipe(<forestry:chipsets:3>, <darkutils:material:1>, <calculator:warpmodule>);
 
 /*=========================
 Extraction Chamber

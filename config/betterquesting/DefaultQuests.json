@@ -2477,11 +2477,11 @@
             "Damage": 0
           },
           "globalshare": false,
-          "questlogic": "AND",
+          "questlogic": "OR",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Finally Furnace",
           "desc": "Unnamed"
         }
@@ -2507,7 +2507,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        49
+        49,
+        226
       ],
       "questID": 48
     },
@@ -2527,11 +2528,11 @@
             "Damage": 0
           },
           "globalshare": false,
-          "questlogic": "AND",
+          "questlogic": "OR",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Starting with Slag",
           "desc": "No Description"
         }
@@ -2557,7 +2558,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        50
+        50,
+        226
       ],
       "questID": 49
     },
@@ -2581,7 +2583,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Primitive Furnace",
           "desc": "No Description"
         }
@@ -2637,7 +2639,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Dry It",
           "desc": "No Description"
         }
@@ -2687,7 +2689,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Crush It",
           "desc": "No Description"
         }
@@ -2737,7 +2739,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Water Junk",
           "desc": "No Description"
         }
@@ -2793,7 +2795,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Getting Wood",
           "desc": "No Description"
         }
@@ -2841,7 +2843,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Hammer Time",
           "desc": "No Description"
         }
@@ -2891,7 +2893,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Light Machinery",
           "desc": "No Description"
         }
@@ -2942,7 +2944,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Adult Ore Processing",
           "desc": "No Description"
         }
@@ -2992,7 +2994,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Tinker Table",
           "desc": "No Description"
         }
@@ -3042,7 +3044,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Calculated",
           "desc": "No Description"
         }
@@ -3092,7 +3094,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Carpentry",
           "desc": "No Description"
         }
@@ -3192,7 +3194,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Actually Casing",
           "desc": "No Description"
         }
@@ -3243,7 +3245,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Hard Hat Required",
           "desc": "No Description"
         }
@@ -3293,7 +3295,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Smashing Table",
           "desc": "No Description"
         }
@@ -3349,7 +3351,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Multiblock Furnace",
           "desc": "No Description"
         }
@@ -3400,7 +3402,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Quest for Coke",
           "desc": "No Description"
         }
@@ -3450,7 +3452,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Nether Already?",
           "desc": "No Description"
         }
@@ -3495,7 +3497,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Gettin Tipsy",
           "desc": "No Description"
         }
@@ -3551,7 +3553,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Cheap Frame",
           "desc": "No Description"
         }
@@ -3601,7 +3603,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Better Processing",
           "desc": "No Description"
         }
@@ -3651,7 +3653,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "All Gold Case",
           "desc": "No Description"
         }
@@ -3701,7 +3703,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "MFR.... sorta",
           "desc": "No Description"
         }
@@ -5682,7 +5684,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Charged Metal",
           "desc": "No Description"
         }
@@ -5750,7 +5752,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Pure Energy",
           "desc": "No Description"
         }
@@ -5800,7 +5802,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Magic Metal",
           "desc": "Unnamed"
         }
@@ -5878,7 +5880,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Spin Cycle",
           "desc": "No Description"
         }
@@ -5942,7 +5944,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "DNA Manipulator",
           "desc": "No Description"
         }
@@ -5995,7 +5997,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Number Science",
           "desc": "No Description"
         }
@@ -6048,7 +6050,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Atomic Numbers",
           "desc": "No Description"
         }
@@ -6099,7 +6101,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Thermal Refined",
           "desc": "No Description"
         }
@@ -6150,7 +6152,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "In Need of Latex",
           "desc": "No Description"
         }
@@ -6206,7 +6208,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Industrial Upgrade",
           "desc": "No Description"
         }
@@ -6257,7 +6259,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Circuitry",
           "desc": "No Description"
         }
@@ -6307,7 +6309,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Laser Changer",
           "desc": "No Description"
         }
@@ -6357,7 +6359,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Expert MFR",
           "desc": "No Description"
         }
@@ -6407,7 +6409,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Rock Extractor",
           "desc": "No Description"
         }
@@ -6457,7 +6459,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Empowering",
           "desc": "No Description"
         }
@@ -6513,7 +6515,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "RF Infuser",
           "desc": "No Description"
         }
@@ -6569,7 +6571,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Lighting the Portal",
           "desc": "Only 1 of the 2 items needed to complete quest"
         }
@@ -6636,7 +6638,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Extra Machines 2",
           "desc": "No Description"
         }
@@ -7233,7 +7235,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Bee Juice",
           "desc": "No Description"
         }
@@ -7283,7 +7285,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Hard to Process",
           "desc": "No Description"
         }
@@ -7333,7 +7335,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "RF Base",
           "desc": "No Description"
         }
@@ -10560,7 +10562,7 @@
           "visibility": "HIDDEN",
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "rftoolsdim:dimlet_control_circuit",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -11787,7 +11789,7 @@
           "visibility": "HIDDEN",
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
+            "id": "rftoolsdim:dimlet_control_circuit",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -11831,7 +11833,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "New Quest",
           "desc": "No Description"
         }
@@ -11863,7 +11865,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Dragons Core",
           "desc": "No Description"
         }
@@ -11914,7 +11916,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Wyvern Upgrade",
           "desc": "No Description"
         }
@@ -11964,7 +11966,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Woke Core",
           "desc": "No Description"
         }
@@ -12017,7 +12019,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Chaos",
           "desc": "No Description"
         }
@@ -12092,7 +12094,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        204
+      ],
       "questID": 210
     },
     {
@@ -12115,7 +12119,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Mek Box",
           "desc": "No Description"
         }
@@ -12165,7 +12169,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Expensive Mek Box",
           "desc": "No Description"
         }
@@ -12215,7 +12219,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Frame of Experience",
           "desc": "No Description"
         }
@@ -12265,7 +12269,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Creator of Worlds",
           "desc": "No Description"
         }
@@ -12315,7 +12319,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Foreign Metals",
           "desc": "No Description"
         }
@@ -12365,7 +12369,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Ender Infused",
           "desc": "No Description"
         }
@@ -12429,7 +12433,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Super Hot",
           "desc": "No Description"
         }
@@ -12758,7 +12762,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Mini Mint",
           "desc": "No Description"
         }
@@ -12862,7 +12866,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        204
+      ],
       "questID": 224
     },
     {
@@ -12885,7 +12891,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Dragon Empowered",
           "desc": "No Description"
         }
@@ -12920,6 +12926,407 @@
         206
       ],
       "questID": 225
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": true,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "visibility": "HIDDEN",
+          "simultaneous": false,
+          "icon": {
+            "id": "rftoolsdim:dimlet_control_circuit",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": true,
+          "ismain": false,
+          "name": "Furnace Hidden",
+          "desc": "Used in case players skip progression by finding a furnace"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 226
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_engineer_goggles_advanced",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "XRAY Glasses",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_engineer_goggles_advanced",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        112
+      ],
+      "questID": 227
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:item_tele_staff",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "SGProperties:10": {},
+              "Energy:3": 250000
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Teleportation Wand",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_tele_staff",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {},
+                "Energy:3": 250000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        115
+      ],
+      "questID": 228
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_colored_lamp_on",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 14
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "A Fancier Torch",
+          "desc": "Only 1 task needs to be completed for quest"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "silentgems:gemlamp",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_lamp_powerer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:block_colored_lamp",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "xtones:lamp_flat",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        112
+      ],
+      "questID": 229
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_player_interface",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Staying Stocked",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_player_interface",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        127
+      ],
+      "questID": 230
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "calculator:warpmodule",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "TeleY:3": 110,
+              "TeleX:3": 14,
+              "SGProperties:10": {},
+              "Dimension:3": 0,
+              "Tele:1": 1,
+              "TeleZ:3": 204
+            }
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "A Second /home",
+          "desc": "Only 1 task needed to complete quest"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "calculator:warpmodule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "TeleY:3": 110,
+                "TeleX:3": 14,
+                "SGProperties:10": {},
+                "Dimension:3": 0,
+                "Tele:1": 1,
+                "TeleZ:3": 204
+              }
+            },
+            {
+              "id": "sonarcore:stablestone_normal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "silentgems:returnhomecharm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "posX:3": 16,
+                "posY:3": 110,
+                "SGProperties:10": {},
+                "posZ:3": 205,
+                "dim:3": 0,
+                "ChaosCharge:3": 100000,
+                "IsReady:1": 0
+              }
+            },
+            {
+              "id": "silentgems:teleporteranchor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        106
+      ],
+      "questID": 231
     }
   ],
   "questLines": [
@@ -12933,6 +13340,12 @@
         }
       },
       "quests": [
+        {
+          "size": 24,
+          "x": 132,
+          "y": 90,
+          "id": 226
+        },
         {
           "size": 24,
           "x": 120,
@@ -13448,8 +13861,32 @@
         {
           "size": 24,
           "x": 78,
+          "y": 138,
+          "id": 205
+        },
+        {
+          "size": 24,
+          "x": -6,
+          "y": 24,
+          "id": 227
+        },
+        {
+          "size": 24,
+          "x": 12,
+          "y": 66,
+          "id": 228
+        },
+        {
+          "size": 24,
+          "x": 78,
           "y": 108,
           "id": 101
+        },
+        {
+          "size": 24,
+          "x": -30,
+          "y": 0,
+          "id": 229
         },
         {
           "size": 24,
@@ -13459,9 +13896,21 @@
         },
         {
           "size": 24,
+          "x": 132,
+          "y": 102,
+          "id": 230
+        },
+        {
+          "size": 24,
           "x": 30,
           "y": 138,
           "id": 103
+        },
+        {
+          "size": 24,
+          "x": 102,
+          "y": 24,
+          "id": 231
         },
         {
           "size": 24,
@@ -13495,25 +13944,19 @@
         },
         {
           "size": 24,
-          "x": 120,
+          "x": 138,
           "y": 6,
           "id": 109
         },
         {
           "size": 24,
-          "x": 78,
-          "y": 138,
-          "id": 205
-        },
-        {
-          "size": 24,
-          "x": 138,
+          "x": 156,
           "y": 42,
           "id": 110
         },
         {
           "size": 24,
-          "x": 156,
+          "x": 174,
           "y": 6,
           "id": 111
         },

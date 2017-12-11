@@ -95,6 +95,27 @@ recipes.addShaped(<actuallyadditions:block_battery_box>, [
     [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]
     ]);
 
+recipes.remove(<actuallyadditions:block_xp_solidifier>);
+recipes.addShaped(<actuallyadditions:block_xp_solidifier>, [
+    [<jaopca:item_stickemerald>, <forestry:thermionic_tubes:7>, <jaopca:item_stickemerald>],
+    [<actuallyadditions:item_misc:20>, <actuallyadditions:item_misc:8>, <actuallyadditions:item_misc:20>], 
+    [<actuallyadditions:block_crystal:5>, <actuallyadditions:block_crystal:5>, <actuallyadditions:block_crystal:5>]
+    ]);
+
+recipes.remove(<actuallyadditions:item_tele_staff>);
+recipes.addShaped(<actuallyadditions:item_tele_staff>, [
+    [null, null, <actuallyadditions:block_crystal_empowered:1>],
+    [null, <grapplemod:launcheritem>, null], 
+    [<randomthings:stableenderpearl>, <actuallyadditions:item_battery>, null]
+    ]);
+
+recipes.remove(<actuallyadditions:item_engineer_goggles_advanced>);
+recipes.addShaped(<actuallyadditions:item_engineer_goggles_advanced>, [
+    [null, null, null],
+    [<jaopca:item_sticksilver>, null, <jaopca:item_sticksilver>], 
+    [<actuallyadditions:item_crystal:1>, <minecraft:iron_bars>, <actuallyadditions:item_crystal:1>]
+    ]);
+
 
 
 /*=========================

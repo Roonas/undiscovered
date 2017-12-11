@@ -15,3 +15,10 @@ recipes.addShaped("draconic core", dCore, [
     [dracCrystal, <thermalfoundation:coin:71>, dracCrystal],
     [netherChaos, dracCrystal, netherChaos]
     ]);
+
+recipes.remove(<draconicevolution:wyvern_core>);
+recipes.addShaped(<draconicevolution:wyvern_core>, [
+    [<magneticraft:ingots:4>, <evilcraft:vengeance_essence>, <magneticraft:ingots:4>],
+    [<draconicevolution:draconic_core>, <silentgems:craftingmaterial:20>, <draconicevolution:draconic_core>], 
+    [<magneticraft:ingots:4>, <evilcraft:vengeance_essence>, <magneticraft:ingots:4>]
+    ]);

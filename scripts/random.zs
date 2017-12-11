@@ -3,7 +3,7 @@ var scrapBag = <scrap:scrap>.withTag({TABLE: "scrap:scrap", PLATE: "d1a77f", GEA
 mods.jei.JEI.addDescription(<contenttweaker:entitykiller>, "It kills stuff");
 mods.jei.JEI.addDescription(<contenttweaker:bqmupdate>, "Run once to sync new quests after updating pack versions");
 mods.jei.JEI.addDescription(scrapBag, "Contains random junk and broken parts. Right click to open.");
-//mods.jei.JEI.addDescription(<ore:brokenPlate>, "Found in piles of scrap");
+mods.jei.JEI.addDescription(<scrap:broken.plate:*>, "Found in piles of scrap");
 
 <ore:brokenPlate>.add(<scrap:broken.plate:*>);
 //<ore:framechests>.add(<bibliocraft:framedchest:*>);
@@ -174,4 +174,11 @@ recipes.addShaped("quest updater", <contenttweaker:bqmupdate>, [
     [null, <minecraft:stick>, null], 
     [<minecraft:stick>, <minecraft:dirt>, <minecraft:stick>], 
     [null, null, null]
+    ]);
+
+recipes.remove(<xtones:lamp_flat>);
+recipes.addShaped(<xtones:lamp_flat> * 2, [
+    [null, null, null],
+    [<advgenerators:iron_frame>, <minecraft:glowstone>, <advgenerators:iron_frame>], 
+    [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
     ]);

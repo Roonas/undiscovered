@@ -11,7 +11,9 @@ Changed icon for progression quests to differentiate them from optional quests
 Made processing for enchanted ingots a bit more difficult and more flexable to various solid/fluid xp
 Fixed evilcraft over populating loot table drowning out rare drops
 Changed broken AA xp solidifier recipe
+Silents flight requires super gems
 
+~remove rf lux (redundent)
 ~Sleeping bags? https://minecraft.curseforge.com/projects/comforts
 
 1.4.1

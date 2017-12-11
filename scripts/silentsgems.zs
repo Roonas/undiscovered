@@ -308,3 +308,10 @@ recipes.addShaped(<silentgems:craftingmaterial:1>, [
     [<genetics:misc:2>, <calculator:enrichedgold>, <genetics:misc:2>]
     ]);
 
+recipes.remove(<silentgems:chaosrune>);
+recipes.addShaped(<silentgems:chaosrune>, [
+    [<silentgems:craftingmaterial:1>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:1>],
+    [<silentgems:gemsuper:*>, <silentgems:craftingmaterial:17>, <silentgems:gemsuper:*>], 
+    [<silentgems:craftingmaterial:1>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:1>]
+    ]);
+

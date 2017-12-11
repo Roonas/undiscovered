@@ -10,7 +10,7 @@ piss.register();
 
 var dblood = VanillaFactory.createFluid("dblood", 3951111219);
 dblood.density = 500;
-dblood.viscosity = 500;
+dblood.viscosity = 1500;
 dblood.material = <blockmaterial:lava>;
 dblood.register();
 
