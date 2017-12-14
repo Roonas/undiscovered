@@ -32,6 +32,11 @@ recipes.addShaped("igniter", <randomthings:igniter>, [
     [<silentgems:craftingmaterial:7>, <minecraft:flint>, <ore:cobblestone>], 
     [<chisel:lavastone1:*>, <ore:cobblestone>, <ore:cobblestone>]
     ]);
+recipes.addShaped("igniter2", <randomthings:igniter>, [
+    [<chisel:lavastone:*>, <ore:cobblestone>, <ore:cobblestone>], 
+    [<silentgems:craftingmaterial:7>, <minecraft:flint>, <ore:cobblestone>], 
+    [<chisel:lavastone:*>, <ore:cobblestone>, <ore:cobblestone>]
+    ]);
 
 recipes.addShaped(<randomthings:fertilizeddirt> * 2, [
     [<calculator:soil>, <calculator:soil>, <calculator:soil>],

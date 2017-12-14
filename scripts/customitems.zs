@@ -127,3 +127,6 @@ fermenter.register();
 
 var goldclay = VanillaFactory.createItem("goldclay");
 goldclay.register();
+
+var crown = VanillaFactory.createItem("crown");
+crown.register();

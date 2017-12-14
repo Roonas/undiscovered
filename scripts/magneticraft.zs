@@ -24,7 +24,7 @@ recipes.addShaped("crushing table", <magneticraft:crushing_table>, [
     [<ore:logWood>, <ore:logWood>, <ore:logWood>]
     ]);
 
-recipes.addShapeless(<magneticraft:rocky_chunks:5> * 4, [
+recipes.addShapeless(<magneticraft:rocky_chunks:5> * 2, [
     <ore:oreTungsten>, dnaBucket
     ]);
 

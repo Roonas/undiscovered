@@ -2483,7 +2483,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Finally Furnace",
-          "desc": "Unnamed"
+          "desc": "Nothing glamourous, but this sturdy stone box will allow for simple processing of most ores. "
         }
       },
       "tasks": [
@@ -2534,7 +2534,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Starting with Slag",
-          "desc": "No Description"
+          "desc": "A waste of good iron ore, but it\u0027s a start."
         }
       },
       "tasks": [
@@ -2585,7 +2585,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Primitive Furnace",
-          "desc": "No Description"
+          "desc": "The alchemic furnace provides access to some rather powerful early potions, as well as being an inefficent way to smelt iron dust. Needs water, fuel, and bottles."
         }
       },
       "tasks": [
@@ -2641,7 +2641,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Dry It",
-          "desc": "No Description"
+          "desc": "Fluids left in the drying basin will evaporate over time, transforming into a solid item. This can be used to turn iron berry juice iinto iron dust."
         }
       },
       "tasks": [
@@ -2691,7 +2691,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Crush It",
-          "desc": "No Description"
+          "desc": "Items placed in the crushing tub my be processed by jumping on them. This will produce a liquid and often an item byproduct. Sneak + Right Click will clear any fluid in the tub. "
         }
       },
       "tasks": [
@@ -2741,7 +2741,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Water Junk",
-          "desc": "No Description"
+          "desc": "Many useful items can be strained out of these rivers, including valuable metal scraps."
         }
       },
       "tasks": [
@@ -2797,7 +2797,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Getting Wood",
-          "desc": "No Description"
+          "desc": "You know how things start. Punch trees."
         }
       },
       "tasks": [
@@ -2847,7 +2847,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Hammer Time",
-          "desc": "No Description"
+          "desc": "The right tools seperate us from the nomads. With this we can begin to improve the ineffecient processes relied upon by scavangers."
         }
       },
       "tasks": [
@@ -2897,7 +2897,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Light Machinery",
-          "desc": "No Description"
+          "desc": "These blocks allow for the creation of machinery. "
         }
       },
       "tasks": [
@@ -2948,7 +2948,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Adult Ore Processing",
-          "desc": "No Description"
+          "desc": "Vodka seems to break down the metals within stone ores supprisingly well."
         }
       },
       "tasks": [
@@ -2998,7 +2998,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Tinker Table",
-          "desc": "No Description"
+          "desc": "A more refined crafting table needed for some engineering components."
         }
       },
       "tasks": [
@@ -3048,7 +3048,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Calculated",
-          "desc": "No Description"
+          "desc": "The kind of math they don\u0027t teach in school. Allows for adding together solid items. Needs to be charged before use."
         }
       },
       "tasks": [
@@ -3148,7 +3148,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Multiblock Planning",
-          "desc": "No Description"
+          "desc": "A picture of planned multiblocks can be found in the engineers manual. With this projector, those blueprints can be projected into the world. "
         }
       },
       "tasks": [
@@ -3198,7 +3198,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Actually Casing",
-          "desc": "No Description"
+          "desc": "This expensive casing can be used to craft more complex technolgy. "
         }
       },
       "tasks": [
@@ -3249,7 +3249,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Hard Hat Required",
-          "desc": "No Description"
+          "desc": "A heavier engineering block is needed for larger, more useful machines. "
         }
       },
       "tasks": [
@@ -3299,7 +3299,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Smashing Table",
-          "desc": "No Description"
+          "desc": "A sturdy steel table can be used to manually break down ores, increasing the overall yeild when smelted."
         }
       },
       "tasks": [
@@ -3355,7 +3355,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Multiblock Furnace",
-          "desc": "No Description"
+          "desc": "Turns iron and coke into steel."
         }
       },
       "tasks": [
@@ -3406,7 +3406,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Quest for Coke",
-          "desc": "No Description"
+          "desc": "A more efficent form of coke and necessary step for early steel production."
         }
       },
       "tasks": [
@@ -3456,7 +3456,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Nether Already?",
-          "desc": "No Description"
+          "desc": "The nether provides both dangerous monsters and useful crafting materials."
         }
       },
       "tasks": [
@@ -3501,7 +3501,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Gettin Tipsy",
-          "desc": "No Description"
+          "desc": "The brewary can combine yeast and various plants into a rough grain alcohol. The distillery can refine this impure drink into a more useful solvant."
         }
       },
       "tasks": [
@@ -3557,7 +3557,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Cheap Frame",
-          "desc": "No Description"
+          "desc": "Roughly thrown together. It\u0027s not pretty, but it works. "
         }
       },
       "tasks": [
@@ -3607,7 +3607,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Better Processing",
-          "desc": "No Description"
+          "desc": "A larger furnace that can be used to smelt two components together. Allows for early creation of various alloys and more efficent processing of some ores."
         }
       },
       "tasks": [
@@ -3657,7 +3657,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "All Gold Case",
-          "desc": "No Description"
+          "desc": "A very shiny case used to show other what nice things you have. Might also be used to craft more advanced machinery."
         }
       },
       "tasks": [
@@ -3707,7 +3707,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "MFR.... sorta",
-          "desc": "No Description"
+          "desc": "The basic building block of industrial forgoing. This allows for building more compact machinery."
         }
       },
       "tasks": [
@@ -5704,7 +5704,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Charged Metal",
-          "desc": "No Description"
+          "desc": "(Only one task needed to complete quest) This rather strange metal seems to difficult to process without a great deal of power used to first excite the metal."
         }
       },
       "tasks": [
@@ -5772,7 +5772,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Pure Energy",
-          "desc": "No Description"
+          "desc": "Harness lightning from the sky as a renewable source of power. Can also be used to directly charge some materials. "
         }
       },
       "tasks": [
@@ -5900,7 +5900,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Spin Cycle",
-          "desc": "No Description"
+          "desc": "A high tech centrifuge that can collect both the solid and liquid from processed items. "
         }
       },
       "tasks": [
@@ -5964,7 +5964,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "DNA Manipulator",
-          "desc": "No Description"
+          "desc": "Mutagen, which proves useful for maniupulating the DNA of bees, also seems to react in useful ways with other fluids."
         }
       },
       "tasks": [
@@ -6017,7 +6017,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Number Science",
-          "desc": "No Description"
+          "desc": "Allows for dividing solid objects by other items, producing iteresting and useful ingredents. Do not divide by diamond."
         }
       },
       "tasks": [
@@ -6070,7 +6070,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Atomic Numbers",
-          "desc": "No Description"
+          "desc": "Harnessing the power of laser charged emeralds has allowed opened the way for adding 3 items together, providing expensive and powerful items. "
         }
       },
       "tasks": [
@@ -6329,7 +6329,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Laser Changer",
-          "desc": "No Description"
+          "desc": "A high powered laser that proves effective at exciting some materials, converting them into a more crystalized form. "
         }
       },
       "tasks": [
@@ -6429,7 +6429,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Rock Extractor",
-          "desc": "No Description"
+          "desc": "An automated system for extrating valuable materials from ore. Provides a better quality material compaired to traditional smelting."
         }
       },
       "tasks": [
@@ -6479,7 +6479,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Empowering",
-          "desc": "No Description"
+          "desc": "They glow. That\u0027s how you know they\u0027re expensive."
         }
       },
       "tasks": [
@@ -6535,7 +6535,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "RF Infuser",
-          "desc": "No Description"
+          "desc": "Well if one laser worked so well for creating new goods, naturally the next step is to shoot 4 high power lasers for extended durations to make even better things. "
         }
       },
       "tasks": [
@@ -6591,7 +6591,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Lighting the Portal",
-          "desc": "Only 1 of the 2 items needed to complete quest"
+          "desc": "(Only 1 of the 2 items needed to complete quest) With flint and steel out of reach, other methods of lighting the portal must be explored."
         }
       },
       "tasks": [
@@ -6658,7 +6658,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Extra Machines 2",
-          "desc": "No Description"
+          "desc": "An combanation of various metals provides a solid base for more... interesting machinery and power generation. "
         }
       },
       "tasks": [
@@ -6887,7 +6887,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Who Nerfs Chests?",
-          "desc": "Only 1 item needed to complete quest."
+          "desc": "(Only 1 item needed to complete quest.) Many different storage options exist as your collection of items grows."
         }
       },
       "tasks": [
@@ -7005,7 +7005,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "A Bigger Storage Box",
-          "desc": "Only 1 task needed to complete quest"
+          "desc": "(Only 1 task needed to complete quest.) You could throw out some of those items you never use... or you could make a bigger box to store them in."
         }
       },
       "tasks": [
@@ -7102,14 +7102,10 @@
               }
             },
             {
-              "id": "betterquesting:placeholder",
+              "id": "thermalfoundation:upgrade",
               "Count": 1,
               "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "orig_meta:3": 0,
-                "orig_id:8": "thermalexpansion:upgrade"
-              }
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -7167,7 +7163,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Electronic Storage",
-          "desc": "Only one task needs to be completed for the quest"
+          "desc": "(Only one task needs to be completed for the quest) An electronic storage system allows for a great deal of items to be contained in a single location, though these systems require power to be accessed."
         }
       },
       "tasks": [
@@ -7255,7 +7251,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Bee Juice",
-          "desc": "No Description"
+          "desc": "It seems that bee dna contains a fantastic enzyme for breaking down difficult to process metals. "
         }
       },
       "tasks": [
@@ -7305,7 +7301,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Hard to Process",
-          "desc": "No Description"
+          "desc": "To hard to process by traditional methods, tungston must first be broken down by more extreme solvants. "
         }
       },
       "tasks": [
@@ -7405,7 +7401,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Multi System Storage",
-          "desc": "Only 1 task needed to complete quest"
+          "desc": "(Only 1 task needed to complete quest) With great strides in technology comes the ability to connect multiple storage systems into one easy to use location."
         }
       },
       "tasks": [
@@ -9960,7 +9956,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Storage Anywhere",
-          "desc": "Only one task needed to complete quest"
+          "desc": "(Only one task needed to complete quest) A high tech storage solution can be even more useful when accessable from a distance."
         }
       },
       "tasks": [
@@ -10051,7 +10047,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "A Fancy Fluid System",
-          "desc": "No Description"
+          "desc": "A high tech system for storing and moving fluids seems within reach. Though storing solid items is still beyond your current technology. "
         }
       },
       "tasks": [
@@ -10141,7 +10137,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Farming the River",
-          "desc": "Only 1 task needed to complete the quest"
+          "desc": "(Only 1 task needed to complete the quest.) An improved net could pull even more useful junk from these rivers."
         }
       },
       "tasks": [
@@ -10214,7 +10210,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Finding the best spot",
-          "desc": "No Description"
+          "desc": "Collecting junk is more efficent in flowing water, oceans, and rivers. This tool lets you check the efficeny of your setup."
         }
       },
       "tasks": [
@@ -10273,7 +10269,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Better than Potions",
-          "desc": "Only 1 task needed to complete quest"
+          "desc": "(Only 1 task needed to complete quest.) Unlike potions, elixers can be placed into stacks of 16, allowing for multiple to be carried without wasting valuable inventory space."
         }
       },
       "tasks": [
@@ -10358,7 +10354,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Super Brewer",
-          "desc": "No Description"
+          "desc": "Stronger elixers require an alchemic furnace built from stronger bricks found in the nether."
         }
       },
       "tasks": [
@@ -10424,7 +10420,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Liquid Armor",
-          "desc": "Only 1 task needed to complete quest"
+          "desc": "(Only 1 task needed to complete quest.) Advanced exlixers can provide significan boosts. Regeneration, fire protection, and bonus natrual armor can be brewed with the right natural ingredents. "
         }
       },
       "tasks": [
@@ -10510,7 +10506,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Wine Fortified",
-          "desc": "No Description"
+          "desc": "Iron berry juice, while quite poisinous when drunk, can be fermented into iron wine. This brew allows the drinker to last longer in battle."
         }
       },
       "tasks": [
@@ -10634,7 +10630,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "RF Furnace",
-          "desc": "Only 1 task needed to complete quest"
+          "desc": "(Only 1 task needed to complete quest.) With sufficent power, burning coal seems primitive."
         }
       },
       "tasks": [
@@ -10725,7 +10721,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Base Defender",
-          "desc": "No Description"
+          "desc": "Sure you can live in a bunker like some sort of hobbit. But the idea of mowing down zombies with a high power turret holds a certain appeal."
         }
       },
       "tasks": [
@@ -10810,7 +10806,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Handheld Rock Smasher",
-          "desc": "No Description"
+          "desc": "While biodiesel can be useful for large scale power prodcution, it also allows for a portable gas power drill which remove much more stone than your standard pickaxe. Upgrade to the drill can be applied in the engineers workbench. "
         }
       },
       "tasks": [
@@ -10877,7 +10873,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Oil from Plants",
-          "desc": "No Description"
+          "desc": "The squeezer uses great pressure to extract the oil from seed. This high pressure may be useful for other processes. "
         }
       },
       "tasks": [
@@ -10963,7 +10959,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Refinement",
-          "desc": "No Description"
+          "desc": "Refining plant oil and ethonol produces biodiesel, an extreemly energy dense fuel."
         }
       },
       "tasks": [
@@ -11044,7 +11040,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Fermenter",
-          "desc": "No Description"
+          "desc": "The fermenter can be used to convert plant matter into ethonol, a necessary ingredent for biodiesel. "
         }
       },
       "tasks": [
@@ -11124,7 +11120,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Measured Flow",
-          "desc": "No Description"
+          "desc": "And early system for juding the flow of power can be useful to determin the overall useage or production of various power systems. "
         }
       },
       "tasks": [
@@ -11174,7 +11170,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Power to Go",
-          "desc": "No Description"
+          "desc": "Sometimes you just need to strap a battery to your back."
         }
       },
       "tasks": [
@@ -11230,7 +11226,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Sniper Steve",
-          "desc": "No Description"
+          "desc": "The railgun uses power to launch iron or steel rods great distances, dealing significant damage. This process does require a bit of charge up before shooting. "
         }
       },
       "tasks": [
@@ -11858,11 +11854,29 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": true,
-          "name": "New Quest",
-          "desc": "No Description"
+          "name": "Powered Ingot",
+          "desc": "This highly charged metal provides a base for crafting highly advanced technology. "
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalfoundation:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 135
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         101
@@ -13022,7 +13036,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "XRAY Glasses",
-          "desc": "No Description"
+          "desc": "Using laser irradiated lapis has the strange benift of detecting entities through solid walls. Totally safe to put directly next to your eyes... probably."
         }
       },
       "tasks": [
@@ -13076,7 +13090,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Teleportation Wand",
-          "desc": "No Description"
+          "desc": "When walking seems mundane, harness the power of endermen to teleport in the blink of an eye. With some refinement, this power could be focused to exact location rather than random hopping. "
         }
       },
       "tasks": [
@@ -13130,7 +13144,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "A Fancier Torch",
-          "desc": "Only 1 task needs to be completed for quest"
+          "desc": "(Only 1 task needs to be completed for quest) A high tech tinkerer deserves better than burning sticks to light their workspace."
         }
       },
       "tasks": [
@@ -13220,7 +13234,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Staying Stocked",
-          "desc": "No Description"
+          "desc": "Not limited to just accessing boxes of items, the player interface allows for automated extration or insertion of items directly into your hands, even when far from home. "
         }
       },
       "tasks": [
@@ -13278,7 +13292,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "A Second /home",
-          "desc": "Only 1 task needed to complete quest"
+          "desc": "(Only 1 task needed to complete quest) Allows for quick travel between distant locations."
         }
       },
       "tasks": [
@@ -13484,7 +13498,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Trashman #3",
-          "desc": "     Besides the river flotsam that clogs your nets, you\u0027ll find bits of scrap to open and sort, hoping for something that will put you past scraping in the muck.  Better trash can be found in the city dumps... if you can stomach the smell as you dig. "
+          "desc": "     Besides the river\n floXXXXXts\u0027am that clogs your nets, you\u0027ll find bits of scrap to open and sort, hoping for something that will put you past scraping in the muck.  Better trash can be found in the city dumps... if you can stomach the smell as you dig. "
         }
       },
       "tasks": [
@@ -13681,6 +13695,80 @@
         52
       ],
       "questID": 240
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "contenttweaker:crown",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "The Main Line",
+          "desc": "Welcome to the world of Undiscovered. This book aims to be your guide into this new world. Main quests are noted by a decoritive shape and directly contribute to the advancement of technology or magic."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        234
+      ],
+      "questID": 241
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:cosmetic",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 31
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "A Side Track",
+          "desc": "Side quests are marked by a plain square outline. These quest may highlight items that can provide useful, but not stricly nessecary, to your journey."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        234
+      ],
+      "questID": 242
     }
   ],
   "questLines": [
@@ -14748,6 +14836,18 @@
         }
       },
       "quests": [
+        {
+          "size": 24,
+          "x": -36,
+          "y": 132,
+          "id": 241
+        },
+        {
+          "size": 24,
+          "x": 24,
+          "y": 132,
+          "id": 242
+        },
         {
           "size": 24,
           "x": -6,
