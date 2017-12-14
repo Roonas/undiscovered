@@ -1729,7 +1729,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Basiclly Magic",
+          "name": "Basically Magic",
           "desc": "No Description"
         }
       },
@@ -2483,7 +2483,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Finally Furnace",
-          "desc": "Nothing glamourous, but this sturdy stone box will allow for simple processing of most ores. "
+          "desc": "Nothing glamorous, but this sturdy stone box will allow for simple processing of most ores. "
         }
       },
       "tasks": [
@@ -2585,7 +2585,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Primitive Furnace",
-          "desc": "The alchemic furnace provides access to some rather powerful early potions, as well as being an inefficent way to smelt iron dust. Needs water, fuel, and bottles."
+          "desc": "The alchemic furnace provides access to some rather powerful early potions, as well as being an inefficient way to smelt iron dust. Needs water, fuel, and bottles."
         }
       },
       "tasks": [
@@ -2641,7 +2641,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Dry It",
-          "desc": "Fluids left in the drying basin will evaporate over time, transforming into a solid item. This can be used to turn iron berry juice iinto iron dust."
+          "desc": "Fluids left in the drying basin will evaporate over time, transforming into a solid item. This can be used to turn iron berry juice into iron dust."
         }
       },
       "tasks": [
@@ -2847,7 +2847,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Hammer Time",
-          "desc": "The right tools seperate us from the nomads. With this we can begin to improve the ineffecient processes relied upon by scavangers."
+          "desc": "The right tools separate us from the nomads. With this we can begin to improve the inefficient processes relied upon by scavengers."
         }
       },
       "tasks": [
@@ -2948,7 +2948,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Adult Ore Processing",
-          "desc": "Vodka seems to break down the metals within stone ores supprisingly well."
+          "desc": "Vodka seems to break down the metals within stone ores surprisingly well."
         }
       },
       "tasks": [
@@ -3198,7 +3198,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Actually Casing",
-          "desc": "This expensive casing can be used to craft more complex technolgy. "
+          "desc": "This expensive casing can be used to craft more complex technology. "
         }
       },
       "tasks": [
@@ -3299,7 +3299,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Smashing Table",
-          "desc": "A sturdy steel table can be used to manually break down ores, increasing the overall yeild when smelted."
+          "desc": "A sturdy steel table can be used to manually break down ores, increasing the overall yield when smelted."
         }
       },
       "tasks": [
@@ -3406,7 +3406,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Quest for Coke",
-          "desc": "A more efficent form of coke and necessary step for early steel production."
+          "desc": "A more efficient form of coke and necessary step for early steel production."
         }
       },
       "tasks": [
@@ -3501,7 +3501,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Gettin Tipsy",
-          "desc": "The brewary can combine yeast and various plants into a rough grain alcohol. The distillery can refine this impure drink into a more useful solvant."
+          "desc": "The brewery can combine yeast and various plants into a rough grain alcohol. The distillery can refine this impure drink into a more useful solvent."
         }
       },
       "tasks": [
@@ -3607,7 +3607,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Better Processing",
-          "desc": "A larger furnace that can be used to smelt two components together. Allows for early creation of various alloys and more efficent processing of some ores."
+          "desc": "A larger furnace that can be used to smelt two components together. Allows for early creation of various alloys and more efficient processing of some ores."
         }
       },
       "tasks": [
@@ -5964,7 +5964,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "DNA Manipulator",
-          "desc": "Mutagen, which proves useful for maniupulating the DNA of bees, also seems to react in useful ways with other fluids."
+          "desc": "Mutagen, which proves useful for manipulating the DNA of bees, also seems to react in useful ways with other fluids."
         }
       },
       "tasks": [
@@ -6017,7 +6017,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Number Science",
-          "desc": "Allows for dividing solid objects by other items, producing iteresting and useful ingredents. Do not divide by diamond."
+          "desc": "Allows for dividing solid objects by other items, producing interesting and useful ingredients. Do not divide by diamond."
         }
       },
       "tasks": [
@@ -6329,7 +6329,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Laser Changer",
-          "desc": "A high powered laser that proves effective at exciting some materials, converting them into a more crystalized form. "
+          "desc": "A high powered laser that proves effective at exciting some materials, converting them into a more crystallized form. "
         }
       },
       "tasks": [
@@ -6429,7 +6429,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Rock Extractor",
-          "desc": "An automated system for extrating valuable materials from ore. Provides a better quality material compaired to traditional smelting."
+          "desc": "An automated system for extracting valuable materials from ore. Provides a better quality material compared to traditional smelting."
         }
       },
       "tasks": [
@@ -6658,7 +6658,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Extra Machines 2",
-          "desc": "An combanation of various metals provides a solid base for more... interesting machinery and power generation. "
+          "desc": "An combination of various metals provides a solid base for more... interesting machinery and power generation. "
         }
       },
       "tasks": [
@@ -7251,7 +7251,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Bee Juice",
-          "desc": "It seems that bee dna contains a fantastic enzyme for breaking down difficult to process metals. "
+          "desc": "It seems that bee DNA contains a fantastic enzyme for breaking down difficult to process metals. "
         }
       },
       "tasks": [
@@ -7301,7 +7301,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Hard to Process",
-          "desc": "To hard to process by traditional methods, tungston must first be broken down by more extreme solvants. "
+          "desc": "To hard to process by traditional methods, tungsten must first be broken down by more extreme solvents. "
         }
       },
       "tasks": [
@@ -9199,7 +9199,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Basiclly Magic",
+          "name": "Basically Magic",
           "desc": "No Description"
         }
       },
@@ -9956,7 +9956,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Storage Anywhere",
-          "desc": "(Only one task needed to complete quest) A high tech storage solution can be even more useful when accessable from a distance."
+          "desc": "(Only one task needed to complete quest) A high tech storage solution can be even more useful when accessible from a distance."
         }
       },
       "tasks": [
@@ -10210,7 +10210,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Finding the best spot",
-          "desc": "Collecting junk is more efficent in flowing water, oceans, and rivers. This tool lets you check the efficeny of your setup."
+          "desc": "Collecting junk is more efficient in flowing water, oceans, and rivers. This tool lets you check the efficiency of your setup."
         }
       },
       "tasks": [
@@ -10269,7 +10269,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Better than Potions",
-          "desc": "(Only 1 task needed to complete quest.) Unlike potions, elixers can be placed into stacks of 16, allowing for multiple to be carried without wasting valuable inventory space."
+          "desc": "(Only 1 task needed to complete quest.) Unlike potions, elixirs can be placed into stacks of 16, allowing for multiple to be carried without wasting valuable inventory space."
         }
       },
       "tasks": [
@@ -10354,7 +10354,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Super Brewer",
-          "desc": "Stronger elixers require an alchemic furnace built from stronger bricks found in the nether."
+          "desc": "Stronger elixirs require an alchemic furnace built from stronger bricks found in the nether."
         }
       },
       "tasks": [
@@ -10420,7 +10420,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Liquid Armor",
-          "desc": "(Only 1 task needed to complete quest.) Advanced exlixers can provide significan boosts. Regeneration, fire protection, and bonus natrual armor can be brewed with the right natural ingredents. "
+          "desc": "(Only 1 task needed to complete quest.) Advanced elixirs can provide significant boosts. Regeneration, fire protection, and bonus natural armor can be brewed with the right natural ingredients. "
         }
       },
       "tasks": [
@@ -10506,7 +10506,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Wine Fortified",
-          "desc": "Iron berry juice, while quite poisinous when drunk, can be fermented into iron wine. This brew allows the drinker to last longer in battle."
+          "desc": "Iron berry juice, while quite poisonous when drunk, can be fermented into iron wine. This brew allows the drinker to last longer in battle."
         }
       },
       "tasks": [
@@ -10630,7 +10630,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "RF Furnace",
-          "desc": "(Only 1 task needed to complete quest.) With sufficent power, burning coal seems primitive."
+          "desc": "(Only 1 task needed to complete quest.) With sufficient power, burning coal seems primitive."
         }
       },
       "tasks": [
@@ -10806,7 +10806,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Handheld Rock Smasher",
-          "desc": "While biodiesel can be useful for large scale power prodcution, it also allows for a portable gas power drill which remove much more stone than your standard pickaxe. Upgrade to the drill can be applied in the engineers workbench. "
+          "desc": "While biodiesel can be useful for large scale power production, it also allows for a portable gas power drill which remove much more stone than your standard pick axe. Upgrade to the drill can be applied in the engineers workbench. "
         }
       },
       "tasks": [
@@ -10959,7 +10959,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Refinement",
-          "desc": "Refining plant oil and ethonol produces biodiesel, an extreemly energy dense fuel."
+          "desc": "Refining plant oil and ethanol produces biodiesel, an extremely energy dense fuel."
         }
       },
       "tasks": [
@@ -11040,7 +11040,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Fermenter",
-          "desc": "The fermenter can be used to convert plant matter into ethonol, a necessary ingredent for biodiesel. "
+          "desc": "The fermenter can be used to convert plant matter into ethanol, a necessary ingredient for biodiesel. "
         }
       },
       "tasks": [
@@ -11120,7 +11120,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Measured Flow",
-          "desc": "And early system for juding the flow of power can be useful to determin the overall useage or production of various power systems. "
+          "desc": "And early system for judging the flow of power can be useful to determine the overall usage or production of various power systems. "
         }
       },
       "tasks": [
@@ -11448,7 +11448,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Unlimted Grid",
+          "name": "Unlimited Grid",
           "desc": "No Description"
         }
       },
@@ -13036,7 +13036,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "XRAY Glasses",
-          "desc": "Using laser irradiated lapis has the strange benift of detecting entities through solid walls. Totally safe to put directly next to your eyes... probably."
+          "desc": "Using laser irradiated lapis has the strange benefit of detecting entities through solid walls. Totally safe to put directly next to your eyes... probably."
         }
       },
       "tasks": [
@@ -13234,7 +13234,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Staying Stocked",
-          "desc": "Not limited to just accessing boxes of items, the player interface allows for automated extration or insertion of items directly into your hands, even when far from home. "
+          "desc": "Not limited to just accessing boxes of items, the player interface allows for automated extraction or insertion of items directly into your hands, even when far from home. "
         }
       },
       "tasks": [
@@ -13534,7 +13534,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The Craftsmand #2",
+          "name": "The Craftsman #2",
           "desc": "     I think these people built too quickly and not well.  All their work has come to ruin and I avoid it as I walk the wilderness in search of food and forage.  I shall not fall into their ways but make each item with care.  I have been experimenting with improvements on even the simple chest, sketching out variations to try."
         }
       },
@@ -13718,7 +13718,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "The Main Line",
-          "desc": "Welcome to the world of Undiscovered. This book aims to be your guide into this new world. Main quests are noted by a decoritive shape and directly contribute to the advancement of technology or magic."
+          "desc": "Welcome to the world of Undiscovered. This book aims to be your guide into this new world. Main quests are noted by a decorative shape and directly contribute to the advancement of technology or magic."
         }
       },
       "tasks": [
@@ -13755,7 +13755,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "A Side Track",
-          "desc": "Side quests are marked by a plain square outline. These quest may highlight items that can provide useful, but not stricly nessecary, to your journey."
+          "desc": "Side quests are marked by a plain square outline. These quest may highlight items that can provide useful, but not strictly necessary, to your journey."
         }
       },
       "tasks": [

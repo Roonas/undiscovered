@@ -150,7 +150,7 @@ mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 200, [zombieHeart], 2
 Centrifuge
 (Array of Output + %, InputStack, Time in Ticks)
 =========================*/
-mods.forestry.Centrifuge.addRecipe([scrapBag * 4 % 100, <minecraft:redstone> * 3 % 80, <extrabees:misc:22> % 20], <contenttweaker:scrapelec>, 20);
+mods.forestry.Centrifuge.addRecipe([scrapBag * 4 % 100, <minecraft:redstone> * 3 % 85, <extrabees:misc:22> % 20], <contenttweaker:scrapelec>, 20);
 
 /*=========================
 Moistener
