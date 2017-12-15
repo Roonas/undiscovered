@@ -10373,7 +10373,7 @@
             },
             {
               "id": "rustic:retort_advanced",
-              "Count": 2,
+              "Count": 3,
               "OreDict": "",
               "Damage": 0
             }
@@ -11905,7 +11905,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Dragons Core",
-          "desc": "No Description"
+          "desc": "The basic compontent for draconic tools and machines. "
         }
       },
       "tasks": [
@@ -11956,7 +11956,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Wyvern Upgrade",
-          "desc": "No Description"
+          "desc": "The basic draconic core upgraded with spirit essence and otherworldly metals. "
         }
       },
       "tasks": [
@@ -12006,7 +12006,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Woke Core",
-          "desc": "No Description"
+          "desc": "With high ammounts of power and some additional catalys, the daconium can become awakened."
         }
       },
       "tasks": [
@@ -12109,7 +12109,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Heart of Stone",
-          "desc": "No Description"
+          "desc": "A dragon heart encased in solid stone. Perfect for pressing into molds to mass produce more hearts."
         }
       },
       "tasks": [
@@ -12159,7 +12159,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Mek Box",
-          "desc": "No Description"
+          "desc": "A simple frame crafted from difficult to aquire parts. The base of mekanism machines."
         }
       },
       "tasks": [
@@ -12209,7 +12209,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Expensive Mek Box",
-          "desc": "No Description"
+          "desc": "Infused with liquid obsidian, theses cases are even more sturdy than the original design. "
         }
       },
       "tasks": [
@@ -12309,7 +12309,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Creator of Worlds",
-          "desc": "No Description"
+          "desc": "Used to enscribe new worlds onto metal tablets. Useful for creating large worlds with difficult to find materials or ores not found in the overworld.  "
         }
       },
       "tasks": [
@@ -12359,7 +12359,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Foreign Metals",
-          "desc": "No Description"
+          "desc": "Spoiler: Not found in the overworld."
         }
       },
       "tasks": [
@@ -12409,7 +12409,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Ender Infused",
-          "desc": "No Description"
+          "desc": "An ingot made from a mixture of part magic and part technology, perfect for crafting machines so complex they border on the verge of sorcery."
         }
       },
       "tasks": [
@@ -12473,7 +12473,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Super Hot",
-          "desc": "No Description"
+          "desc": "The pinicle of furnace technology, capable of smelting multiple ingots from a single ore. Also needed to produce the exceptionally high tempatures required to smelt advanced alloys. "
         }
       },
       "tasks": [
@@ -12688,7 +12688,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Blue Gold",
-          "desc": "No Description"
+          "desc": "Yellorium may be stablized by being injected with a very cool liquid. This stabilized fuel makes for the perfect building material for sensitive electronics capable of autocrafting nearly any object."
         }
       },
       "tasks": [
@@ -12738,7 +12738,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Craft on Demand",
-          "desc": "No Description"
+          "desc": "The base unit for the CPU multiblock needed for AE autocrafting.  "
         }
       },
       "tasks": [
@@ -12802,7 +12802,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Mini Mint",
-          "desc": "No Description"
+          "desc": "Presses ingots into small disks imprinted with a signiture design. Makes the metal seem more expensive. "
         }
       },
       "tasks": [
@@ -12876,7 +12876,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Dragon Essence",
-          "desc": "No Description"
+          "desc": "A synthetic substitute for dragons blood, which can be molded into a heart."
         }
       },
       "tasks": [
@@ -12931,7 +12931,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Dragon Empowered",
-          "desc": "No Description"
+          "desc": "Unable to be simply crafted together, draconic gear requires materials be infused at high power. "
         }
       },
       "tasks": [

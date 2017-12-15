@@ -70,6 +70,22 @@ recipes.addShaped(<magneticraft:feeding_trough>, [
 recipes.addShapeless("rustic bee 2", <rustic:bee>, [
     <forestry:bee_princess_ge>
     ]);
+
+recipes.remove(<rustic:condenser_advanced>);
+recipes.addShaped(<rustic:condenser_advanced>, [
+    [null, <minecraft:netherbrick>, null],
+    [<minecraft:netherbrick>, <rustic:condenser>, <minecraft:netherbrick>], 
+    [<minecraft:nether_brick>, <minecraft:iron_block>, <minecraft:nether_brick>]
+    ]);
+
+recipes.remove(<rustic:retort_advanced>);
+recipes.addShaped(<rustic:retort_advanced>, [
+    [null, <minecraft:nether_brick>, null],
+    [null, <rustic:retort>, null], 
+    [null, <minecraft:nether_brick>, null]
+    ]);
+
+
     
 /*=========================
 Crushing Tub
@@ -104,3 +120,10 @@ Condenser
 =========================*/
 mods.rustic.Condenser.addRecipe(<contenttweaker:ironslag>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>);
 //mods.rustic.Condenser.addRecipe(vodkaBottle, vodkaBucket, liquidTube);
+
+/*=========================
+Advanced Condenser
+=========================*/
+mods.rustic.Condenser.addRecipe(<randomthings:imbue:1>, null, [<minecraft:poisonous_potato>, <minecraft:rotten_flesh>, <rustic:deathstalk_mushroom>]);
+mods.rustic.Condenser.addRecipe(<randomthings:imbue:2>, null, [<randomthings:beans:1>, <extrautils2:magicapple>, <minecraft:experience_bottle>]);
+mods.rustic.Condenser.addRecipe(<randomthings:bottleofair>, <rustic:horsetail>, [<binniecore:cylinder>, <xreliquary:mob_ingredient:12>]);
