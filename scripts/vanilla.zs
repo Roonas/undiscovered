@@ -27,11 +27,11 @@ var rockyTungsten = <magneticraft:rocky_chunks:5>;
 <minecraft:golden_sword>.maxDamage = 64;
 <minecraft:golden_hoe>.maxDamage = 64;
 
-<minecraft:diamond_pickaxe>.maxDamage = 300;
-<minecraft:diamond_axe>.maxDamage = 300;
-<minecraft:diamond_shovel>.maxDamage = 300;
-<minecraft:diamond_sword>.maxDamage = 300;
-<minecraft:diamond_hoe>.maxDamage = 300;
+<minecraft:diamond_pickaxe>.maxDamage = 220;
+<minecraft:diamond_axe>.maxDamage = 220;
+<minecraft:diamond_shovel>.maxDamage = 220;
+<minecraft:diamond_sword>.maxDamage = 220;
+<minecraft:diamond_hoe>.maxDamage = 220;
 
 furnace.remove(starmetalIngot);
 furnace.remove(<ore:ingotElectrum>);
@@ -120,7 +120,7 @@ recipes.addShapeless(<thermalfoundation:material:128>, [
     <contenttweaker:copperslag>, <contenttweaker:copperslag>
     ]);
     
-recipes.addShapeless(<immersiveengineering:metal:1>, [
+recipes.addShapeless(<thermalfoundation:material:132>, [
     <contenttweaker:alumslag>, <contenttweaker:alumslag>
     ]);
 

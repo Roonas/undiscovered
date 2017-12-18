@@ -1,4 +1,6 @@
+var healthElixer = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]});
 
+<ore:chaosGem>.add(<silentgems:chaosgem:*>);
 /*=========================
 Recipe Changes - Silents
 =========================*/
@@ -296,6 +298,7 @@ recipes.addShaped("nether star", <minecraft:nether_star>, [
     [<silentgems:soulgem>.withTag({sg_soul_gem: "WitherBoss"}), null, null]
     ]);
     
+recipes.remove(<silentgems:craftingmaterial:12>);
 recipes.addShaped("upgrade base", <silentgems:craftingmaterial:12>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], 
     [<minecraft:stick>, <silentgems:gem:*>, <minecraft:stick>], 
@@ -308,10 +311,65 @@ recipes.addShaped(<silentgems:craftingmaterial:1>, [
     [<genetics:misc:2>, <calculator:enrichedgold>, <genetics:misc:2>]
     ]);
 
+recipes.remove(<silentgems:enchantmenttoken:256>);
+recipes.addShaped(<silentgems:enchantmenttoken:256>, [
+    [<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>],
+    [<silentgems:craftingmaterial:30>, <contenttweaker:goldclay>, <silentgems:craftingmaterial:30>], 
+    [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]
+    ]);
+
+recipes.remove(<silentgems:tipupgrade:2>);
+recipes.addShaped(<silentgems:tipupgrade:2>, [
+    [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>],
+    [null, <silentgems:craftingmaterial:12>, null], 
+    [null, null, null]
+    ]);
+
 recipes.remove(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:flight"}), true);
 recipes.addShaped(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:flight"}), [
     [<silentgems:craftingmaterial:1>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:1>],
-    [<silentgems:gemsuper:*>, <silentgems:craftingmaterial:17>, <silentgems:gemsuper:*>], 
+    [<silentgems:gemsuper:*>, <botania:rune:3>, <silentgems:gemsuper:*>], 
     [<silentgems:craftingmaterial:1>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:1>]
     ]);
 
+recipes.remove(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:haste"}), true);
+recipes.addShaped(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:haste"}), [
+    [<silentgems:craftingmaterial:1>, <astralsorcery:itemusabledust>, <silentgems:craftingmaterial:1>],
+    [<thermalfoundation:material:893>, <botania:rune:6>, <thermalfoundation:material:893>], 
+    [<silentgems:craftingmaterial:1>, <astralsorcery:itemusabledust>, <silentgems:craftingmaterial:1>]
+    ]);
+
+recipes.remove(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:regeneration"}), true);
+recipes.addShaped(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:regeneration"}), [
+    [<silentgems:craftingmaterial:1>, <minecraft:ghast_tear>, <silentgems:craftingmaterial:1>],
+    [healthElixer, <botania:rune:9>, healthElixer], 
+    [<silentgems:craftingmaterial:1>, <minecraft:ghast_tear>, <silentgems:craftingmaterial:1>]
+    ]);
+
+recipes.remove(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:strength"}), true);
+recipes.addShaped(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:strength"}), [
+    [<silentgems:craftingmaterial:1>, <silentgems:craftingmaterial:27>, <silentgems:craftingmaterial:1>],
+    [<evilcraft:dark_power_gem>, <botania:rune:1>, <evilcraft:dark_power_gem>], 
+    [<silentgems:craftingmaterial:1>, <silentgems:craftingmaterial:27>, <silentgems:craftingmaterial:1>]
+    ]);
+
+recipes.remove(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:resistance"}), true);
+recipes.addShaped(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:resistance"}), [
+    [<silentgems:craftingmaterial:1>, <ore:blockSteel>, <silentgems:craftingmaterial:1>],
+    [<harvestcraft:hardenedleatheritem>, <botania:rune:4>, <harvestcraft:hardenedleatheritem>], 
+    [<silentgems:craftingmaterial:1>, <ore:blockSteel>, <silentgems:craftingmaterial:1>]
+    ]);
+
+recipes.remove(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:invisibility"}), true);
+recipes.addShaped(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:invisibility"}), [
+    [<silentgems:craftingmaterial:1>, <minecraft:fermented_spider_eye>, <silentgems:craftingmaterial:1>],
+    [<minecraft:dragon_breath>, <botania:rune:2>, <minecraft:dragon_breath>], 
+    [<silentgems:craftingmaterial:1>, <minecraft:fermented_spider_eye>, <silentgems:craftingmaterial:1>]
+    ]);
+
+recipes.remove(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:night_vision"}), true);
+recipes.addShaped(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:night_vision"}), [
+    [<silentgems:craftingmaterial:1>, <minecraft:golden_carrot>, <silentgems:craftingmaterial:1>],
+    [<rustic:mooncap_mushroom>, <botania:rune:6>, <rustic:mooncap_mushroom>], 
+    [<silentgems:craftingmaterial:1>, <minecraft:golden_carrot>, <silentgems:craftingmaterial:1>]
+    ]);

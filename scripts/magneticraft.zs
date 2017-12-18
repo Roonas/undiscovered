@@ -2,6 +2,7 @@ var heavyGoldPlate = <magneticraft:heavy_plates:1>;
 var skystoneDust = <appliedenergistics2:material:45>;
 var goldGear = <thermalfoundation:material:25>;
 var dnaBucket = <forge:bucketfilled>.withTag({FluidName: "liquiddna", Amount: 1000});
+var dnaCan = <forestry:can:1>.withTag({Fluid: {FluidName: "liquiddna", Amount: 1000}});
 var rockyTungsten = <magneticraft:rocky_chunks:5>;
 var crystalOilBucket = <forge:bucketfilled>.withTag({FluidName: "crystaloil", Amount: 1000});
 var wolframiteOre = <magneticraft:ores:3>;
@@ -25,7 +26,7 @@ recipes.addShaped("crushing table", <magneticraft:crushing_table>, [
     ]);
 
 recipes.addShapeless(<magneticraft:rocky_chunks:5> * 2, [
-    <ore:oreTungsten>, dnaBucket
+    <ore:oreTungsten>, dnaCan
     ]);
 
 recipes.addShapeless(<magneticraft:chunks:5> * 2, [

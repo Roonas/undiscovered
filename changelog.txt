@@ -1,6 +1,12 @@
 1.6.0
 ----------
 Added descriptions to quests
+Changed advanced alchemic furnace recipe and added a few brews
+Removed starmetal from JAOPCA additions
+Unified magnicraft crushed ores to same ingots as other ores
+Fixed some recipes being uncraftable or ignoring oredict
+Added a few more optional quests
+Adjusted some chaos runes to fit into the magic tree
 
 1.5.0
 ----------

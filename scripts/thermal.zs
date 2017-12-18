@@ -181,13 +181,13 @@ recipes.remove(<thermaldynamics:duct_32:1>);
 recipes.addShaped(<thermaldynamics:duct_32:1> * 6, [
     [<thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>],
     [<thermaldynamics:duct_32>, <thermaldynamics:duct_32>, <thermaldynamics:duct_32>], 
-    [<thermalfoundation:material:131>, null, null]
+    [<ore:ingotLead>, null, null]
     ]);
 
 recipes.addShaped(<thermaldynamics:duct_32:1> * 6, [
-    [<jaopca:item_sticktin>, <thermalfoundation:material:131>, <jaopca:item_sticktin>],
-    [<jaopca:item_sticktin>, <thermalfoundation:material:131>, <jaopca:item_sticktin>], 
-    [<jaopca:item_sticktin>, <thermalfoundation:material:131>, <jaopca:item_sticktin>]
+    [<jaopca:item_sticktin>, <ore:ingotLead>, <jaopca:item_sticktin>],
+    [<jaopca:item_sticktin>, <ore:ingotLead>, <jaopca:item_sticktin>], 
+    [<jaopca:item_sticktin>, <ore:ingotLead>, <jaopca:item_sticktin>]
     ]);
 
 recipes.remove(<thermaldynamics:duct_32>);

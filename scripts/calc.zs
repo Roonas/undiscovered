@@ -95,6 +95,13 @@ recipes.addShaped(<calculator:advancedpowercube>, [
     [<calculator:reinforcedironingot>, <calculator:reinforcedironingot>, <calculator:reinforcedironingot>]
     ]);
 
+recipes.addShaped(<minecraft:stone:5>, [
+    [<calculator:smallstone>, <calculator:smallstone>, <calculator:smallstone>],
+    [<calculator:smallstone>, <calculator:smallstone>, <calculator:smallstone>], 
+    [<calculator:smallstone>, <calculator:smallstone>, <calculator:smallstone>]
+    ]);
+
+
 
 /*=========================
 Conductor Mast
@@ -124,6 +131,11 @@ Scientific Calc
 =========================*/
 mods.calculator.scientific.removeRecipe(<calculator:redstoneingot>);
 mods.calculator.scientific.addRecipe(<forestry:chipsets:3>, <darkutils:material:1>, <calculator:warpmodule>);
+
+/*=========================
+Basic Calc
+=========================*/
+mods.calculator.basic.addRecipe(<minecraft:anvil>, <minecraft:slime>, <randomthings:compressedslimeblock>);
 
 /*=========================
 Extraction Chamber

@@ -24,13 +24,11 @@ eKill.register();
 
 var bqmupdate = VanillaFactory.createItem("bqmupdate");
 bqmupdate.maxStackSize = 1;
-bqmupdate.maxDamage = 1;
-bqmupdate.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+bqmupdate.glowing = true;
+bqmupdate.itemRightClick = function(stack, world, player, hand) {
     Commands.call("bq_admin default load", player, world);
-    var heldItem = player.getHeldItem(hand);
-    heldItem.damage(2, player);
-    return ActionResult.pass();
-};
+    return "Pass";
+    };
 bqmupdate.register();
 
 /*worldIn.spawnEntityInWorld( new EntityItem( worldIn, pos.getX(), pos.getY(), pos.getZ(), ish.getStackInSlot( i ) ) );

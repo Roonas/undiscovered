@@ -203,6 +203,8 @@ mods.immersiveengineering.Squeezer.addRecipe(<advgenerators:iron_frame> * 4, nul
 mods.immersiveengineering.Squeezer.addRecipe(<harvestcraft:beeswaxitem>, <fluid:honey> * 1000, <rustic:honeycomb> * 8, 1500);
 mods.immersiveengineering.Squeezer.addRecipe(<forestry:wax_cast>, null, <harvestcraft:pressedwax>, 1500);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, <ore:grassSeed>, 200);
+mods.immersiveengineering.Squeezer.addRecipe(<randomthings:compressedslimeblock>, null, <minecraft:slime>, 2000);
+
 /*=========================
 Refinery
 =========================*/

@@ -11292,7 +11292,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Serious Farmer",
-          "desc": "No Description"
+          "desc": "A watering can with built in WiFi-Water technology. Allows for users to indiscrimintaly spray everything with water."
         }
       },
       "tasks": [
@@ -11347,7 +11347,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Super Worm",
-          "desc": "No Description"
+          "desc": "Lasts for an unlimited duration in the fishing water strainer. Plus it glows."
         }
       },
       "tasks": [
@@ -11398,7 +11398,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Well Read",
-          "desc": "No Description"
+          "desc": "Automaticlly fills with random books when place. Perfect for the horder who loves to collect books they\u0027ll never read. "
         }
       },
       "tasks": [
@@ -11449,7 +11449,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Unlimited Grid",
-          "desc": "No Description"
+          "desc": "Warning: Cannot be moved once placed. Allows for users to completely forget the GP system exists."
         }
       },
       "tasks": [
@@ -11500,7 +11500,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Black Hole Box",
-          "desc": "No Description"
+          "desc": "Allows for drawers to hold a near infinite number of items. "
         }
       },
       "tasks": [
@@ -11552,7 +11552,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Blood Bank",
-          "desc": "No Description"
+          "desc": "An infinite source of blood. No specific blood really, we just mix them all together."
         }
       },
       "tasks": [
@@ -11604,7 +11604,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "High Power",
-          "desc": "No Description"
+          "desc": "Based on the technology of draconic reactors, this tiny box outputs an impressive ammount of energy."
         }
       },
       "tasks": [
@@ -11658,7 +11658,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Full Tank",
-          "desc": "No Description"
+          "desc": "Thanks to break throughs in the science of quantum homeopathy and water memory, this tank will provide an unlimted ammount of any fluid provided to it. Although, this does make it more difficult to empty. "
         }
       },
       "tasks": [
@@ -11716,7 +11716,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Full of Hot Air",
-          "desc": "No Description"
+          "desc": "Not actually unlimed gas, it just mixes the given gas with air and outputs a more diluted product. Noone seems to notice though. Prefers to be filled within a machine or tank gui but happliy outputs to gas tubes."
         }
       },
       "tasks": [
@@ -11770,7 +11770,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Vazkii\u0027s Tears",
-          "desc": "No Description"
+          "desc": "Based on ancient dayblood technology, provides a bottom less source of mana."
         }
       },
       "tasks": [
@@ -12059,7 +12059,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Chaos",
-          "desc": "No Description"
+          "desc": "Crafted from cores gaurded by near immortal dragons. A highly prized item containing great power."
         }
       },
       "tasks": [
@@ -12537,7 +12537,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "A Bigger Table",
-          "desc": "No Description"
+          "desc": "A bigger table to make better items."
         }
       },
       "tasks": [
@@ -12587,7 +12587,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Excessive Crafting",
-          "desc": "No Description"
+          "desc": "A massive table for creating items that break the traditional rules of the universe."
         }
       },
       "tasks": [
@@ -12637,7 +12637,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "It Takes Effort",
-          "desc": "No Description"
+          "desc": "The highest tier of crafting table... that is until we perfect the 9x9x9 3D crafting table. "
         }
       },
       "tasks": [
@@ -13718,7 +13718,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "The Main Line",
-          "desc": "Welcome to the world of Undiscovered. This book aims to be your guide into this new world. Main quests are noted by a decorative shape and directly contribute to the advancement of technology or magic."
+          "desc": "     Welcome to the world of Undiscovered. This book aims to be your guide into this new world. Main quests are noted by a decorative shape and directly contribute to the advancement of technology or magic."
         }
       },
       "tasks": [
@@ -13755,7 +13755,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "A Side Track",
-          "desc": "Side quests are marked by a plain square outline. These quest may highlight items that can provide useful, but not strictly necessary, to your journey."
+          "desc": "     Side quests are marked by a plain square outline. These quest may highlight items that can provide useful, but not strictly necessary, to your journey.\n     Lore quests are marked with the book and quill icon, like the quest above this one. These quest merely provide a background to this world, but their words fill you with determination."
         }
       },
       "tasks": [
@@ -13769,6 +13769,200 @@
         234
       ],
       "questID": 242
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "silentgems:tipupgrade",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "A More Sturdy Pick",
+          "desc": "The commonly used diamond pick seems rather flimsy, perhaps the diamonds can be used to reinforce a picks made with a quality gem core."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "silentgems:tipupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        117
+      ],
+      "questID": 243
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "silentgems:chaosgem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "ChaosCharge:3": 2000000
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Chaos Battery",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "silentgems:chaosgem",
+              "Count": 1,
+              "OreDict": "chaosGem",
+              "Damage": 0,
+              "tag": {
+                "SGProperties:10": {},
+                "ChaosCharge:3": 0,
+                "enabled:1": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        157
+      ],
+      "questID": 244
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "silentgems:chaosrune",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "SGProperties:10": {},
+              "chaos_buff:8": "silentgems:capacity"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "New Quest",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        244
+      ],
+      "questID": 245
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "silentgems:chaospylon",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Node at Home",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "silentgems:chaospylon",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        244
+      ],
+      "questID": 246
     }
   ],
   "questLines": [
@@ -14023,6 +14217,12 @@
           "x": 42,
           "y": 132,
           "id": 177
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": -6,
+          "id": 243
         },
         {
           "size": 24,
@@ -14666,15 +14866,33 @@
         },
         {
           "size": 24,
+          "x": 72,
+          "y": 180,
+          "id": 244
+        },
+        {
+          "size": 24,
           "x": 30,
           "y": 30,
           "id": 149
         },
         {
           "size": 24,
+          "x": 48,
+          "y": 204,
+          "id": 245
+        },
+        {
+          "size": 24,
           "x": 30,
           "y": 78,
           "id": 150
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 204,
+          "id": 246
         },
         {
           "size": 24,
