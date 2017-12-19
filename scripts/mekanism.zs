@@ -24,7 +24,7 @@ recipes.addShaped("metallurgic infuser", <mekanism:machineblock:8>, [
 recipes.remove(<mekanism:machineblock:9>);
 recipes.addShaped("purificiation chamber", <mekanism:machineblock:9>, [
     [<mekanism:enrichedalloy>, <mekanism:controlcircuit:1>, <mekanism:enrichedalloy>], 
-    [<ore:plateOsmium>, <mekanism:machineblock:9>, <ore:plateOsmium>], 
+    [<ore:plateOsmium>, <contenttweaker:obsidiancase>, <ore:plateOsmium>], 
     [<mekanism:enrichedalloy>, <mekanism:controlcircuit:1>, <mekanism:enrichedalloy>]
     ]);
 

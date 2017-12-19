@@ -101,6 +101,12 @@ recipes.addShaped(<minecraft:stone:5>, [
     [<calculator:smallstone>, <calculator:smallstone>, <calculator:smallstone>]
     ]);
 
+recipes.remove(<calculator:infocalculator>);
+recipes.addShaped(<calculator:infocalculator>, [
+    [<minecraft:cobblestone>, <minecraft:glass>, <minecraft:cobblestone>],
+    [<minecraft:stone_button>, <minecraft:redstone>, <minecraft:stone_button>], 
+    [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]
+    ]);
 
 
 /*=========================

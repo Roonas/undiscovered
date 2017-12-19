@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": true,
+      "editmode": false,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -5839,7 +5839,7 @@
               "OreDict": "",
               "Damage": 1,
               "tag": {
-                "SGProperties:10": {},
+                "SGProperties": {},
                 "Fluid:10": {
                   "FluidName:8": "mithril",
                   "Amount:3": 1000
@@ -10053,7 +10053,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -13128,7 +13128,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -13138,11 +13138,11 @@
             "Damage": 14
           },
           "globalshare": false,
-          "questlogic": "OR",
+          "questlogic": "AND",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "A Fancier Torch",
           "desc": "(Only 1 task needs to be completed for quest) A high tech tinkerer deserves better than burning sticks to light their workspace."
         }
@@ -13268,7 +13268,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -13289,7 +13289,7 @@
           "questlogic": "OR",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
+          "autoclaim": true,
           "ismain": false,
           "name": "A Second /home",
           "desc": "(Only 1 task needed to complete quest) Allows for quick travel between distant locations."

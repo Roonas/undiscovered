@@ -71,23 +71,23 @@
                 },
                 {
                     "type": "item",
-                    "name": "thermalfoundation:material",
+                    "name": "immersiveengineering:metal",
                     "weight": 5,
                     "functions": [
                         {
                             "function": "set_data",
-                            "data": 225
+                            "data": 27
                         }
                     ]
                 },
                 {
                     "type": "item",
-                    "name": "magneticraft:nuggets",
+                    "name": "thermalfoundation:material",
                     "weight": 5,
                     "functions": [
                         {
                             "function": "set_data",
-                            "data": 3
+                            "data": 195
                         }
                     ]
                 },
@@ -121,7 +121,7 @@
                 {
                     "type": "item",
                     "name": "contenttweaker:screws",
-                    "weight": 16
+                    "weight": 18
                 },
                 {
                     "type": "item",

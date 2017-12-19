@@ -65,7 +65,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<waterstrainer:super_worm>, [
     [<actuallyadditions:item_worm>, <actuallyadditions:item_worm>, <randomthings:fertilizeddirt>, <waterstrainer:worm>, <waterstrainer:worm>]
     ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(<thermalcultivation:watering_can:32000>, [
+mods.extendedcrafting.TableCrafting.addShaped(<thermalcultivation:watering_can:32000>.withTag({Water: 60000, Mode: 4}), [
     [<thermalfoundation:fertilizer:2>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <xreliquary:mob_ingredient:9>], 
     [<actuallyadditions:item_misc:23>, <magneticraft:water_generator>, <forestry:crated.forestry.fertilizer_compound.0>, <magneticraft:water_generator>, <calculator:broccoliseeds>], 
     [<actuallyadditions:item_misc:23>, <forestry:crated.forestry.fertilizer_compound.0>, <xreliquary:emperor_chalice>, <forestry:crated.forestry.fertilizer_compound.0>, <calculator:broccoliseeds>], 
@@ -105,7 +105,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<storagedrawers:upgrade_creative>,
     [<storagedrawers:upgrade_template>, <storagedrawers:upgrade_template>, <storagedrawers:basicdrawers>, <storagedrawers:basicdrawers>, <storagedrawers:basicdrawers>, <storagedrawers:upgrade_template>, <storagedrawers:upgrade_template>]
     ]); 
 
-mods.extendedcrafting.TableCrafting.addShaped(<flyringbaublemod:angelring>, [
+mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:angelring>, [
     [<xreliquary:ender_staff>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <xreliquary:angelic_feather>], 
     [<silentgems:craftingmaterial:18>, <actuallyadditions:item_wings_of_the_bats>, <actuallyadditions:block_misc:6>, <minecraft:elytra>, <actuallyadditions:block_misc:6>, <rftools:flight_module>, <silentgems:craftingmaterial:18>], 
     [<silentgems:craftingmaterial:18>, <actuallyadditions:block_misc:6>, liquidGlowstoneCan, liquidGlowstoneCan, liquidGlowstoneCan, <actuallyadditions:block_misc:6>, <silentgems:craftingmaterial:18>], 

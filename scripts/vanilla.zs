@@ -44,7 +44,7 @@ furnace.remove(<minecraft:gold_ingot>, <minecraft:gold_ore>);
 furnace.remove(<thermalfoundation:material:128>, <thermalfoundation:ore>);
 furnace.remove(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>);
 
-furnace.addRecipe(tungstenNug, rockyTungsten);
+furnace.addRecipe(tungstenNug * 2, rockyTungsten);
 furnace.addRecipe(<contenttweaker:ironslag>, <minecraft:iron_ore>);
 furnace.addRecipe(<contenttweaker:goldslag>, <minecraft:gold_ore>);
 //furnace.addRecipe(<contenttweaker:copperslag>, <thermalfoundation:ore>);
@@ -88,9 +88,14 @@ recipes.remove(<minecraft:bucket>);
 recipes.addShaped("bucket", <minecraft:bucket>, [
     [ironPlate, null, ironPlate],
     [null, ironPlate, null],
-    [null, null, null],
+    [null, null, null]
     ]);
-
+recipes.addShaped("bucket2", <minecraft:bucket>, [
+    [null, null, null],
+    [ironPlate, null, ironPlate],
+    [null, ironPlate, null]
+    ]);
+    
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless(<minecraft:flint_and_steel>, [
     <minecraft:flint>, <ore:ingotSteel>
@@ -100,6 +105,11 @@ recipes.addShaped("bucket broken plates", <minecraft:bucket>, [
     [<ore:brokenPlate>, null, <ore:brokenPlate>], 
     [null, <ore:brokenPlate>, null], 
     [null, null, null]
+    ]);
+recipes.addShaped("bucket broken plates2", <minecraft:bucket>, [
+    [null, null, null],
+    [<ore:brokenPlate>, null, <ore:brokenPlate>], 
+    [null, <ore:brokenPlate>, null]
     ]);
 
 recipes.addShaped("rotten pot block", <contenttweaker:rotten_pot_block>, [

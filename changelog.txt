@@ -1,12 +1,52 @@
+1.6.1
+----------
+Fixed creative watering can not having water when crafted
+Fixed mek purification chamber being uncraftable
+Fixed a couple quests logic not working as intended
+Unified mek tin ore to TE ingot to match other tin sources (fixes empowerer needing unusual ingot)
+Made info calc less annoying to craft
+Changed scrap nuggets to same ingot type normally smelted
+Made bucket recipe less picky about where it is in the table
+
 1.6.0
 ----------
 Added descriptions to quests
 Changed advanced alchemic furnace recipe and added a few brews
 Removed starmetal from JAOPCA additions
-Unified magnicraft crushed ores to same ingots as other ores
+Unified magneticraft crushed ores to same ingots as other ores
 Fixed some recipes being uncraftable or ignoring oredict
 Added a few more optional quests
 Adjusted some chaos runes to fit into the magic tree
+Updated Mods:
+* Angel Ring to Bauble - Disabled
+* Apple Core
+* Astral Sorcery
+* Better Advancements
+* Bookshelf
+* Chisel
+* Chisel & Bits
+* Code Chicken Lib
+* COFH Core
+* Controlling
+* Cyclops Core
+* Evil Craft
+* Extra Utilities
+* Forestry
+* Forge
+* JEI
+* Mekanism
+* Mekanism Generators
+* Reborn Core
+* Reliquary
+* RF Tools
+* Shadowfacts' Forgelin
+* Silent Lib
+* Silents Gems
+* Tesla Core Lib
+* Thermal Expansion
+* Toast Control
+* World Stripper
+* Xnet
 
 1.5.0
 ----------

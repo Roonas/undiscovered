@@ -7,7 +7,7 @@ var redstoneGear = <extrautils2:ingredients:1>;
 recipes.remove(<extrautils2:suncrystal:250>);
 recipes.remove(<extrautils2:endershard>);
 recipes.remove(<extrautils2:angelring>);
-recipes.remove(<flyringbaublemod:angelring>);
+//recipes.remove(<flyringbaublemod:angelring>);
 recipes.remove(<extrautils2:angelring:4>);
 recipes.remove(<extrautils2:angelring:5>);
 recipes.remove(<extrautils2:angelring:3>);
@@ -77,7 +77,7 @@ recipes.addShaped("exu2 pipe", <extrautils2:pipe>*16, [
     [<extrautils2:decorativeglass>, <minecraft:redstone_block>, <extrautils2:decorativeglass>], 
     [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
     ]);
-
+/*
 recipes.addShapeless("angel wings", <flyringbaublemod:angelring:1>, [
     <flyringbaublemod:angelring>, <silentgems:craftingmaterial:16>
     ]);
@@ -97,7 +97,7 @@ recipes.addShapeless("angel dark wings", <flyringbaublemod:angelring:5>, [
 recipes.addShapeless("angel gold wings", <flyringbaublemod:angelring:4>, [
     <flyringbaublemod:angelring>, <silentgems:craftingmaterial:17>
     ]);
-
+*/
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}), true);
 recipes.addShaped("survival gen", <extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}), [
     [<sonarcore:reinforcedstoneblock>, <sonarcore:reinforcedstoneblock>, <sonarcore:reinforcedstoneblock>], 
