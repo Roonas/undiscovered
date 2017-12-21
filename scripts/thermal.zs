@@ -1,3 +1,5 @@
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
 var redstonClathrate = <thermalfoundation:material:893>;
 var resonateClathrate = <thermalfoundation:material:895>;
 var geode = <thermalfoundation:geode>;
@@ -22,6 +24,15 @@ var richSlag = <thermalfoundation:material:865>;
 var cinnabar = <thermalfoundation:material:866>;
 var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}});
 var enderEgg = <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:enderman"}});
+
+var copperBlocks = [<mekanism:basicblock:12>, <forestry:resource_storage:1>, <thermalfoundation:storage>, <immersiveengineering:storage>] as IItemStack[];
+var alumBlocks = [<thermalfoundation:storage:4>, <immersiveengineering:storage:1>] as IItemStack[];
+var leadBlocks = [<immersiveengineering:storage:2>, <thermalfoundation:storage:3>] as IItemStack[];
+var silverBlocks = [<thermalfoundation:storage:2>, <immersiveengineering:storage:3>] as IItemStack[];
+var nickBlocks = [<thermalfoundation:storage:5>, <immersiveengineering:storage:4>] as IItemStack[];
+var conBlocks = [<immersiveengineering:storage:6>, <thermalfoundation:storage_alloy:4>] as IItemStack[];
+var eleBlocks = [<immersiveengineering:storage:7>, <thermalfoundation:storage_alloy:1>] as IItemStack[];
+var steelBlocks = [<thermalfoundation:storage_alloy>, <mekanism:basicblock:5>, <immersiveengineering:storage:8>, <bigreactors:blockmetals:5>] as IItemStack[];
 
 
 recipes.remove(<thermalexpansion:machine>); //redstone furnace... hopefully
@@ -275,18 +286,36 @@ mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 250, null, <liqui
 
 /*=========================
 Sawmill
-=========================*/    
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal>*8, <thermalfoundation:storage>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:1>*8, <immersiveengineering:storage:1>, 1200);
+=========================*/
+for items in copperBlocks{
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal>*8, items, 1200);
+}
+for items in alumBlocks{
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:1>*8, items, 1200);
+}
+for items in leadBlocks{
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:2>*8, items, 1200);
+}
+for items in silverBlocks{
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:3>*8, items, 1200);
+}
+for items in nickBlocks{
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:4>*8, items, 1200);
+}
+//mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:5>*8, <immersiveengineering:storage:5>, 1200);
+for items in conBlocks{
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:6>*8, items, 1200);
+}
+for items in eleBlocks{
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:7>*8, items, 1200);
+}
+for items in steelBlocks{
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:8>*8, items, 1200);
+}
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:9>*8, <minecraft:iron_block>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:8>*8, <immersiveengineering:storage:8>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:4>*8, <thermalfoundation:storage:5>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:3>*8, <thermalfoundation:storage:2>, 1200);
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:10>*8, <minecraft:gold_block>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:2>*8, <thermalfoundation:storage:3>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:5>*8, <immersiveengineering:storage:5>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:6>*8, <immersiveengineering:storage:6>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:7>*8, <immersiveengineering:storage:7>, 1200);
+
+
 //mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:material:8>*8, <minecraft:iron_block>, 1200);
 //mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:material:9>*8, <mekanism:basicblock:5>, 1200);
 

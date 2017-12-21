@@ -1,3 +1,9 @@
+1.7.0
+----------
+Fixed enchament token recipes being all removed
+Added recipes for starmetal dust to be smelted like the ore
+Continued my journey of trying to make various types of modded metals play nice
+
 1.6.1
 ----------
 Fixed creative watering can not having water when crafted

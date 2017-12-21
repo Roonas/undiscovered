@@ -189,7 +189,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:ironslag>, <rus
 mods.immersiveengineering.AlloySmelter.addRecipe(<minecraft:iron_ingot>, <minecraft:iron_ore>, coalDust, 60);
 mods.immersiveengineering.AlloySmelter.addRecipe(<minecraft:gold_ingot>, <minecraft:gold_ore>, coalDust, 60);
 mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:128>, <thermalfoundation:ore>, coalDust, 60);
-mods.immersiveengineering.AlloySmelter.addRecipe(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>, coalDust, 60);
+mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:132>, <immersiveengineering:ore:1>, coalDust, 60);
 //mods.immersiveengineering.AlloySmelter.addRecipe(<thermalfoundation:material:135> * 2, <thermalfoundation:material:71>, <thermalfoundation:material:70>, 60);
 
 /*=========================

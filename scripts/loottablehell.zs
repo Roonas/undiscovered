@@ -76,6 +76,12 @@ val blacksmithRTBiome = blacksmithChest.getPool("randomthings:biomeCrystal");
 
 val mansionChest = LootTables.getTable("minecraft:chests/woodland_mansion");
 
+val ieEngiChest = LootTables.getTable("immersiveengineering:chests/engineers_house");
+val ieEngiPool = ieEngiChest.getPool("immersiveengineering:engineers_village_house");
+
+val ieBlackChest = LootTables.getTable("immersiveengineering:chests/village_blacksmith");
+val ieBlackPool = ieBlackChest.getPool("immersiveengineering_loot_inject");
+
 dungeonMain.removeItemEntry(<evilcraft:condensed_blood>);
 dungeonMain.removeItemEntry(<evilcraft:box_of_eternal_closure>);
 dungeonMain.removeItemEntry(<evilcraft:origins_of_darkness>);
@@ -217,3 +223,17 @@ blacksmithRTHood.removeItemEntry(<evilcraft:origins_of_darkness>);
 blacksmithRTBiome.removeItemEntry(<evilcraft:condensed_blood>);
 blacksmithRTBiome.removeItemEntry(<evilcraft:box_of_eternal_closure>);
 blacksmithRTBiome.removeItemEntry(<evilcraft:origins_of_darkness>);
+
+ieEngiPool.removeEntry("copper_ingot");
+ieEngiPool.addItemEntryJSON(<thermalfoundation:material:128>, 10, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Copper Ingot");
+ieEngiPool.removeEntry("lead_nugget");
+ieEngiPool.addItemEntryJSON(<thermalfoundation:material:195>, 9, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Lead Nugget");
+ieEngiPool.removeEntry("aluminium_ingot");
+ieEngiPool.addItemEntryJSON(<thermalfoundation:material:132>, 10, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Aluminium Ingot");
+ieEngiPool.removeEntry("silver_nugget");
+ieEngiPool.addItemEntryJSON(<thermalfoundation:material:194>, 7, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Silver Nugget");
+ieEngiPool.removeEntry("nugget_nickel");
+ieEngiPool.addItemEntryJSON(<thermalfoundation:material:197>, 7, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Nickel Nugget");
+
+//ieBlackPool.addItemEntryJSON(<immersiveengineering:blueprint>, 1, 0, ["tag: {blueprint:\'electrode\'}, function: 'minecraft:set_nbt'"], [], "Blueprint 2");
+ieBlackPool.addItemEntryJSON(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), 1, 0, [], [], "Blueprint 3");

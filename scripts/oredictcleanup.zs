@@ -1,5 +1,31 @@
 #priority 10
 
+/*Can't we all just get along?
+Aluminum blocks:
+[<thermalfoundation:storage:4>, <immersiveengineering:storage:1>]
+Bronze block:
+[<forestry:resource_storage:3>, <thermalfoundation:storage_alloy:3>, <mekanism:basicblock:1>]
+Constantan block:
+[<immersiveengineering:storage:6>, <thermalfoundation:storage_alloy:4>]
+Copper blocks:
+[<mekanism:basicblock:12>, <forestry:resource_storage:1>, <thermalfoundation:storage>, <immersiveengineering:storage>]
+Electrum block:
+[<immersiveengineering:storage:7>, <thermalfoundation:storage_alloy:1>]
+Invar block:
+[<thermalfoundation:storage_alloy:2>]
+Lead block:
+[<immersiveengineering:storage:2>, <thermalfoundation:storage:3>]
+Nickel block:
+[<thermalfoundation:storage:5>, <immersiveengineering:storage:4>]
+Silver block:
+[<thermalfoundation:storage:2>, <immersiveengineering:storage:3>]
+Steel block:
+[<thermalfoundation:storage_alloy>, <mekanism:basicblock:5>, <immersiveengineering:storage:8>, <bigreactors:blockmetals:5>]
+Tin block:
+[<thermalfoundation:storage:1>, <forestry:resource_storage:2>, <mekanism:basicblock:13>]
+Osmium block:
+[<mekanism:basicblock>]
+*/
 //All metal dusts/ore types should smelt into the thermal ingot, reducing redundant ingot types
 furnace.remove(<*>, <ore:dustAluminium>);
 furnace.remove(<*>, <thermalfoundation:ore:4>);

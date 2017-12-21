@@ -24,6 +24,7 @@ var lubricantDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "lubricant"
 var starlightDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "astralsorcery.liquidstarlight", Amount: 256000}});
 var mutagenDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "mutagen", Amount: 256000}});
 var ultimateInduction = <mekanism:basicblock2:3>.withTag({tier: 3});
+var crateSub = <forestry:resource_storage>;
 
 <contenttweaker:solidheart>.addTooltip("Not consumed in crafting");
 
@@ -67,9 +68,9 @@ mods.extendedcrafting.TableCrafting.addShaped(<waterstrainer:super_worm>, [
 
 mods.extendedcrafting.TableCrafting.addShaped(<thermalcultivation:watering_can:32000>.withTag({Water: 60000, Mode: 4}), [
     [<thermalfoundation:fertilizer:2>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <xreliquary:mob_ingredient:9>], 
-    [<actuallyadditions:item_misc:23>, <magneticraft:water_generator>, <forestry:crated.forestry.fertilizer_compound.0>, <magneticraft:water_generator>, <calculator:broccoliseeds>], 
-    [<actuallyadditions:item_misc:23>, <forestry:crated.forestry.fertilizer_compound.0>, <xreliquary:emperor_chalice>, <forestry:crated.forestry.fertilizer_compound.0>, <calculator:broccoliseeds>], 
-    [<actuallyadditions:item_misc:23>, <magneticraft:water_generator>, <forestry:crated.forestry.fertilizer_compound.0>, <magneticraft:water_generator>, <calculator:broccoliseeds>], 
+    [<actuallyadditions:item_misc:23>, <magneticraft:water_generator>, crateSub, <magneticraft:water_generator>, <calculator:broccoliseeds>], 
+    [<actuallyadditions:item_misc:23>, crateSub, <xreliquary:emperor_chalice>, crateSub, <calculator:broccoliseeds>], 
+    [<actuallyadditions:item_misc:23>, <magneticraft:water_generator>, crateSub, <magneticraft:water_generator>, <calculator:broccoliseeds>], 
     [<xreliquary:mob_ingredient:9>, <rustic:apple_seeds>, <rustic:apple_seeds>, <rustic:apple_seeds>, <thermalfoundation:fertilizer:2>]
     ]);
 

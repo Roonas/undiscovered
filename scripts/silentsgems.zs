@@ -311,7 +311,7 @@ recipes.addShaped(<silentgems:craftingmaterial:1>, [
     [<genetics:misc:2>, <calculator:enrichedgold>, <genetics:misc:2>]
     ]);
 
-recipes.remove(<silentgems:enchantmenttoken:256>);
+recipes.remove(<silentgems:enchantmenttoken:256>, true);
 recipes.addShaped(<silentgems:enchantmenttoken:256>, [
     [<minecraft:dye:4>, <minecraft:dye:4>, <minecraft:dye:4>],
     [<silentgems:craftingmaterial:30>, <contenttweaker:goldclay>, <silentgems:craftingmaterial:30>], 
