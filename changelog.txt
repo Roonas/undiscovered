@@ -3,6 +3,9 @@
 Fixed enchament token recipes being all removed
 Added recipes for starmetal dust to be smelted like the ore
 Continued my journey of trying to make various types of modded metals play nice
+Removed alkahestry tomb (should have been removed a few versions ago)
+Lots of new additions to the loot tables 
+Jungle arrow traps are much more deadly
 
 1.6.1
 ----------

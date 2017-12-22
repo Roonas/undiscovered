@@ -182,3 +182,9 @@ recipes.addShaped(<xtones:lamp_flat> * 2, [
     [<advgenerators:iron_frame>, <minecraft:glowstone>, <advgenerators:iron_frame>], 
     [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
     ]);
+
+recipes.addShaped(<chisel:factory> * 16, [
+    [<minecraft:stone>, <bigreactors:ingotmetals:2>, <minecraft:stone>],
+    [<bigreactors:ingotmetals:2>, null, <bigreactors:ingotmetals:2>], 
+    [<minecraft:stone>, <bigreactors:ingotmetals:2>, <minecraft:stone>]
+    ]);

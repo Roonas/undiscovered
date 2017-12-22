@@ -7,6 +7,7 @@ import loottweaker.vanilla.loot.Functions;
 val dungeonChest = LootTables.getTable("minecraft:chests/simple_dungeon");
 val dungeonMain = dungeonChest.getPool("main");
 val dungeonPool1 = dungeonChest.getPool("pool1");
+val dungeonPool2 = dungeonChest.getPool("pool2");
 val dungeonReliquary = dungeonChest.getPool("xreliquary_inject_pool");
 val dungeonRTLava = dungeonChest.getPool("randomthings:lavaCharm");
 val dungeonRTPend = dungeonChest.getPool("randomthings:summoningPendulum");
@@ -41,6 +42,7 @@ val jungleRTSlime = jungleChest.getPool("randomthings:slimeCube");
 val jungleRTBiome = jungleChest.getPool("randomthings:biomeCrystal");
 
 val jungleDisChest = LootTables.getTable("minecraft:chests/jungle_temple_dispenser");
+val jungleDisMain = jungleDisChest.getPool("main");
 
 val netherChest = LootTables.getTable("minecraft:chests/nether_bridge");
 val netherMain = netherChest.getPool("main");
@@ -81,6 +83,9 @@ val ieEngiPool = ieEngiChest.getPool("immersiveengineering:engineers_village_hou
 
 val ieBlackChest = LootTables.getTable("immersiveengineering:chests/village_blacksmith");
 val ieBlackPool = ieBlackChest.getPool("immersiveengineering_loot_inject");
+
+val forestryVillage = LootTables.getTable("forestry:chests/village_naturalist");
+val forVillagerPool = forestryVillage.getPool("forestry_apiculture_items");
 
 dungeonMain.removeItemEntry(<evilcraft:condensed_blood>);
 dungeonMain.removeItemEntry(<evilcraft:box_of_eternal_closure>);
@@ -234,6 +239,53 @@ ieEngiPool.removeEntry("silver_nugget");
 ieEngiPool.addItemEntryJSON(<thermalfoundation:material:194>, 7, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Silver Nugget");
 ieEngiPool.removeEntry("nugget_nickel");
 ieEngiPool.addItemEntryJSON(<thermalfoundation:material:197>, 7, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Nickel Nugget");
+ieEngiPool.addItemEntryJSON(<immersivepetroleum:schematic>, 1, 0, [], [], "Projector");
 
-//ieBlackPool.addItemEntryJSON(<immersiveengineering:blueprint>, 1, 0, ["tag: {blueprint:\'electrode\'}, function: 'minecraft:set_nbt'"], [], "Blueprint 2");
-ieBlackPool.addItemEntryJSON(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}), 1, 0, [], [], "Blueprint 3");
+ieBlackPool.addItemEntryJSON(<immersiveengineering:blueprint>.withTag({blueprint: "components"}), 1, 0, [], [], "Blueprint 2");
+ieBlackPool.addItemEntryJSON(<immersiveengineering:bullet:2>.withTag({bullet: "flare"}), 1, 0, ["count: {min: 4.0, max: 9.0}, function: 'minecraft:set_count'"], [], "Fire Bullet");
+
+jungleDisMain.removeEntry("minecraft:arrow");
+jungleDisMain.addItemEntryJSON(<minecraft:tipped_arrow>.withTag({Potion: "randomthings:long_collapse"}), 20, 0, ["count: {min: 2.0, max: 6.0}, function: 'minecraft:set_count'"], [], "Confuse Arrow");
+jungleDisMain.addItemEntryJSON(<minecraft:tipped_arrow>.withTag({Potion: "cofhcore:wither+"}), 20, 0, ["count: {min: 2.0, max: 6.0}, function: 'minecraft:set_count'"], [], "Wither Arrow");
+jungleDisMain.addItemEntryJSON(<minecraft:fire_charge>, 20, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Fire Charge");
+jungleDisMain.addItemEntryJSON(<forge:bucketfilled>.withTag({FluidName: "sewage", Amount: 1000}), 20, 0, [], [], "Poo Bucket");
+jungleDisMain.addItemEntryJSON(<minecraft:lingering_potion>.withTag({Potion: "minecraft:harming"}), 20, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Linger Damage");
+
+blacksmithMain.addItemEntryJSON(<scrap:scrap>.withTag({TABLE: "scrap:scrap", XP: "0d0", PLATE: "d1a77f", GEAR: "d0c2ba", NAME: "scrap"}), 5, 0, ["count: {min: 2.0, max: 5.0}, function: 'minecraft:set_count'"], [], "Scrap");
+blacksmithMain.addItemEntryJSON(<thermalfoundation:wrench>, 4, 0, [], [], "Wrench");
+blacksmithMain.addItemEntryJSON(<silentgems:tipupgrade:3>, 2, 0, [], [], "Upgrade Emerald");
+blacksmithMain.addItemEntryJSON(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "draconicevolution:enchant_reaper"}]}), 1, 0, [], [], "DE Beheading");
+blacksmithMain.addItemEntryJSON(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "cofhcore:vorpal"}]}), 1, 0, [], [], "TE Beheading");
+blacksmithMain.addItemEntryJSON(<immersiveengineering:faraday_suit_feet>, 1, 0, [], [], "Boots");
+blacksmithMain.addItemEntryJSON(<actuallyadditions:item_helm_quartz>, 1, 0, [], [], "Helm");
+blacksmithMain.addItemEntryJSON(<minecraft:chainmail_leggings>, 1, 0, [], [], "Legs");
+blacksmithMain.addItemEntryJSON(<harvestcraft:hardenedleatherchestitem>, 1, 0, [], [], "Chest");
+blacksmithMain.addItemEntryJSON(<forestry:kit_pickaxe>, 1, 0, [], [], "Pick Kit");
+blacksmithMain.addItemEntryJSON(<waterstrainer:garden_trowel>, 1, 0, [], [], "Trowel");
+
+forVillagerPool.addItemEntryJSON(<extrabees:hive_frame.cocoa>, 5, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "C Frame");
+forVillagerPool.addItemEntryJSON(<forestry:apiarist_bag>, 2, 0, [], [], "Bee Bag");
+forVillagerPool.addItemEntryJSON(<forestry:honeyed_slice>, 3, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Fancy Bread");
+forVillagerPool.addItemEntryJSON(<gendustry:gene_sample_blank>, 3, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Bee Gene");
+
+dungeonMain.removeEntry("minecraft:record_13");
+dungeonMain.addItemEntryJSON(<randomthings:ingredient:6>, 5, 0, [], [], "Lube");
+dungeonMain.addItemEntryJSON(<xreliquary:interdiction_torch>, 3, 0, [], [], "Mob Torch");
+dungeonMain.addItemEntryJSON(<grapplemod:hookshot>, 2, 0, [], [], "Spiderman");
+dungeonMain.addItemEntryJSON(<comforts:hammock:10>, 3, 0, [], [], "Day Bed");
+dungeonMain.addItemEntryJSON(<actuallyadditions:item_food:12>, 6, 0, [], [], "Big Cookie");
+dungeonMain.addItemEntryJSON(<thermalexpansion:satchel:2>.withTag({Accessible: 1 as byte}), 2, 0, [], [], "Nice Backpack");
+dungeonMain.addItemEntryJSON(<industrialforegoing:tinydryrubber>, 2, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Rubber");
+dungeonMain.addItemEntryJSON(<forestry:digger_bag>.withTag({UID: -66682004}), 5, 0, [], [], "Meh Backpack");
+dungeonPool1.addItemEntryJSON(<scrap:scrap>.withTag({TABLE: "scrap:scrap", XP: "0d0", PLATE: "d1a77f", GEAR: "d0c2ba", NAME: "scrap"}), 6, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Scrap");
+dungeonPool1.addItemEntryJSON(<extendedcrafting:material:1>, 6, 0, ["count: {min: 3.0, max: 8.0}, function: 'minecraft:set_count'"], [], "Black Iron");
+dungeonPool1.addItemEntryJSON(<calculator:coaldust>, 6, 0, ["count: {min: 3.0, max: 8.0}, function: 'minecraft:set_count'"], [], "Mini Coal");
+dungeonPool1.addItemEntryJSON(<actuallyadditions:block_tiny_torch>, 3, 0, ["count: {min: 6.0, max: 11.0}, function: 'minecraft:set_count'"], [], "Mini Torch");
+dungeonPool1.addItemEntryJSON(<actuallyadditions:item_solidified_experience>, 3, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Exp");
+dungeonPool1.addItemEntryJSON(<cookingforblockheads:recipe_book:1>, 2, 0, [], [], "Cook Book");
+dungeonPool2.addItemEntryJSON(<astralsorcery:itemusabledust>, 4, 0, ["count: {min: 3.0, max: 6.0}, function: 'minecraft:set_count'"], [], "Light Dust");
+dungeonPool2.addItemEntryJSON(<randomthings:beans:1>, 3, 0, [], [], "Magic Bean");
+dungeonPool2.addItemEntryJSON(<contenttweaker:moldybread>, 7, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Gross Bread");
+dungeonPool2.addItemEntryJSON(<contenttweaker:screws>, 9, 0, ["count: {min: 3.0, max: 7.0}, function: 'minecraft:set_count'"], [], "Screws");
+dungeonPool2.addItemEntryJSON(<calculator:babygrenade>, 3, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Baby Boom");
+dungeonPool2.addItemEntryJSON(<forestry:decaying_wheat>, 3, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Rotting Wheat");
