@@ -2,10 +2,14 @@
 ----------
 Fixed enchament token recipes being all removed
 Added recipes for starmetal dust to be smelted like the ore
+Added recipes for factory blocks while chisel is being weird
 Continued my journey of trying to make various types of modded metals play nice
-Removed alkahestry tomb (should have been removed a few versions ago)
+Removed alkahestry tome (should have been removed a few versions ago)
 Lots of new additions to the loot tables 
 Jungle arrow traps are much more deadly
+Added another recipe for piercing vengence focus
+
+~~~Add dank null~~~
 
 1.6.1
 ----------

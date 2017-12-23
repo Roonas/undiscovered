@@ -188,3 +188,38 @@ recipes.addShaped(<chisel:factory> * 16, [
     [<bigreactors:ingotmetals:2>, null, <bigreactors:ingotmetals:2>], 
     [<minecraft:stone>, <bigreactors:ingotmetals:2>, <minecraft:stone>]
     ]);
+
+recipes.remove(<danknull:dank_null_panel:5>);
+recipes.addShaped(<danknull:dank_null_panel:5>, [
+    [<actuallyadditions:block_crystal:4>, <minecraft:coal_block>, <actuallyadditions:block_crystal:4>],
+    [<minecraft:coal_block>, <minecraft:stained_glass_pane:5>, <minecraft:coal_block>], 
+    [<actuallyadditions:block_crystal:4>, <minecraft:coal_block>, <actuallyadditions:block_crystal:4>]
+    ]);
+
+recipes.remove(<danknull:dank_null_panel:4>);
+recipes.addShaped(<danknull:dank_null_panel:4>, [
+    [<minecraft:stained_glass_pane:9>, <minecraft:coal_block>, <minecraft:stained_glass_pane:9>],
+    [<minecraft:coal_block>, <botania:storage:3>, <minecraft:coal_block>], 
+    [<minecraft:stained_glass_pane:9>, <minecraft:coal_block>, <minecraft:stained_glass_pane:9>]
+    ]);
+
+recipes.remove(<danknull:dank_null_panel:3>);
+recipes.addShaped(<danknull:dank_null_panel:3>, [
+    [<minecraft:stained_glass_pane:4>, <minecraft:coal_block>, <minecraft:stained_glass_pane:4>],
+    [<minecraft:coal_block>, <calculator:material:2>, <minecraft:coal_block>], 
+    [<minecraft:stained_glass_pane:4>, <minecraft:coal_block>, <minecraft:stained_glass_pane:4>]
+    ]);
+
+recipes.remove(<danknull:dank_null_panel:2>);
+recipes.addShaped(<danknull:dank_null_panel:2>, [
+    [<minecraft:stained_glass_pane>, <minecraft:coal_block>, <minecraft:stained_glass_pane>],
+    [<minecraft:coal_block>, <calculator:material:3>, <minecraft:coal_block>], 
+    [<minecraft:stained_glass_pane>, <minecraft:coal_block>, <minecraft:stained_glass_pane>]
+    ]);
+
+recipes.remove(<danknull:dank_null_panel:1>);
+recipes.addShaped(<danknull:dank_null_panel:1>, [
+    [<minecraft:stained_glass_pane:3>, <minecraft:coal_block>, <minecraft:stained_glass_pane:3>],
+    [<minecraft:coal_block>, <minecraft:lapis_block>, <minecraft:coal_block>], 
+    [<minecraft:stained_glass_pane:3>, <minecraft:coal_block>, <minecraft:stained_glass_pane:3>]
+    ]);

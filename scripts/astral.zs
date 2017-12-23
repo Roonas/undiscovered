@@ -45,7 +45,8 @@ Starlight Infusion
 =========================*/
 //mods.astralsorcery.StarlightInfusion.addInfusion(<thermalfoundation:geode>, <environmentaltech:litherite_crystal>, false, 0.1, 200);
 mods.astralsorcery.StarlightInfusion.addInfusion(<minecraft:apple>, <minecraft:golden_apple:1>, false, 0.1, 100);
-mods.astralsorcery.StarlightInfusion.addInfusion(<thermalfoundation:material:893>, <minecraft:redstone> * 4, false, 0.1, 100);
+mods.astralsorcery.StarlightInfusion.addInfusion(<thermalfoundation:material:893>, <minecraft:redstone> * 6, false, 0.1, 100);
+mods.astralsorcery.StarlightInfusion.addInfusion(<evilcraft:vengeance_focus>, <evilcraft:piercing_vengeance_focus>, false, 0.2, 200);
 
 /*=========================
 Discovery Altar (Luminous Altar)
