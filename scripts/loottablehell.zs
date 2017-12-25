@@ -24,6 +24,7 @@ val mineshaftRTBiome = mineshaftChest.getPool("randomthings:biomeCrystal");
 
 val desertChest = LootTables.getTable("minecraft:chests/desert_pyramid");
 val desertMain = desertChest.getPool("main");
+val desertPool1 = desertChest.getPool("pool1");
 val desertReliquary = desertChest.getPool("xreliquary_inject_pool");
 val desertRTBiome = desertChest.getPool("randomthings:biomeCrystal");
 
@@ -38,6 +39,7 @@ val iglooReliquary = iglooChest.getPool("xreliquary_inject_pool");
 val iglooRTBiome = iglooChest.getPool("randomthings:biomeCrystal");
 
 val jungleChest = LootTables.getTable("minecraft:chests/jungle_temple");
+val jungleMain = jungleChest.getPool("main");
 val jungleReliquary = jungleChest.getPool("xreliquary_inject_pool");
 val jungleRTSlime = jungleChest.getPool("randomthings:slimeCube");
 val jungleRTBiome = jungleChest.getPool("randomthings:biomeCrystal");
@@ -87,6 +89,12 @@ val ieBlackPool = ieBlackChest.getPool("immersiveengineering_loot_inject");
 
 val forestryVillage = LootTables.getTable("forestry:chests/village_naturalist");
 val forVillagerPool = forestryVillage.getPool("forestry_apiculture_items");
+
+val vindicatorMob = LootTables.getTable("minecraft:entities/vindication_illager");
+val vindAddLoot = vindicatorMob.addPool("spirit drop", 1, 1, 0, 0);
+
+val villagerMob = LootTables.getTable("minecraft:entities/villager");
+val villagerAddLoot = villagerMob.addPool("emerald", 1, 1, 0, 0);
 
 dungeonMain.removeItemEntry(<evilcraft:condensed_blood>);
 dungeonMain.removeItemEntry(<evilcraft:box_of_eternal_closure>);
@@ -275,6 +283,7 @@ forVillagerPool.addItemEntryJSON(<extrabees:hive_frame.cocoa>, 5, 0, ["count: {m
 forVillagerPool.addItemEntryJSON(<forestry:apiarist_bag>, 2, 0, [], [], "Bee Bag");
 forVillagerPool.addItemEntryJSON(<forestry:honeyed_slice>, 3, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Fancy Bread");
 forVillagerPool.addItemEntryJSON(<gendustry:gene_sample_blank>, 3, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Bee Gene");
+forVillagerPool.addItemEntryJSON(<gendustry:labware>, 3, 0, ["count: {min: 4.0, max: 9.0}, function: 'minecraft:set_count'"], [], "Lab Ware");
 
 dungeonMain.removeEntry("minecraft:record_13");
 dungeonMain.addItemEntryJSON(<randomthings:ingredient:6>, 5, 0, [], [], "Lube");
@@ -315,3 +324,33 @@ netherMain.addItemEntryJSON(<calculator:firecoal>, 5, 0, ["count: {min: 1.0, max
 netherMain.addItemEntryJSON(<silentgems:craftingmaterial:29>, 5, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Chaos Ingot");
 netherMain.addItemEntryJSON(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "cofhcore:insight"}]}), 2, 0, [], [], "Exp Token");
 netherMain.addItemEntryJSON(<silentgems:craftingmaterial:8>, 4, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "The Shaft");
+
+desertMain.removeEntry("minecraft:iron_horse_armor");
+desertMain.addItemEntryJSON(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "evilcraft:poison_tip"}]}), 5, 0, [], [], "Posion Tip");
+desertMain.addItemEntryJSON(<danknull:dank_null_panel:1>, 7, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Dank Null");
+desertMain.addItemEntryJSON(<harvestcraft:extremechiliitem>, 9, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Chili");
+desertMain.addItemEntryJSON(<psi:cad_colorizer_:16>, 7, 0, [], [], "CAD Color");
+desertMain.addItemEntryJSON(<actuallyadditions:item_damage_lens>, 7, 0, [], [], "Damage Lens");
+desertMain.addItemEntryJSON(<botania:cosmetic:18>, 5, 0, [], [], "Uni Horn");
+desertPool1.addItemEntryJSON(<minecraft:skull:4>, 9, 0, [], [], "Skull");
+desertPool1.addItemEntryJSON(<astralsorcery:itemusabledust:1>, 6, 0, [], [], "Mob Cloud");
+desertPool1.addItemEntryJSON(<botania:grassseeds:3>, 5, 0, [], [], "Dry Grass");
+desertPool1.addItemEntryJSON(<harvestcraft:soybeanseeditem>, 3, 0, [], [], "Peanuts");
+desertPool1.addItemEntryJSON(<harvestcraft:peanutseeditem>, 3, 0, [], [], "Soybeans");
+
+jungleMain.removeEntry("minecraft:iron_horse_armor");
+jungleMain.addItemEntryJSON(<psi:cad_colorizer_:16>, 7, 0, [], [], "CAD Color");
+jungleMain.addItemEntryJSON(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "astralsorcery:enchantment.as.nightvision"}]}), 5, 0, [], [], "Night Vision");
+jungleMain.addItemEntryJSON(<botania:flowerbag>, 7, 0, [], [], "Flower Bag");
+jungleMain.addItemEntryJSON(<danknull:dank_null_panel:1>, 7, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Dank Null");
+jungleMain.addItemEntryJSON(<extrautils2:redorchid>, 5, 0, [], [], "Red Orchid");
+jungleMain.addItemEntryJSON(<evilcraft:dark_spike>, 7, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Spikes");
+jungleMain.addItemEntryJSON(<harvestcraft:nutellaitem>, 7, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Nutella");
+jungleMain.addItemEntryJSON(<extrautils2:boomerang>, 5, 0, [], [], "Rang");
+
+vindAddLoot.addItemEntryJSON(<evilcraft:vengeance_essence>, 1, 0, ["count: {min: 0.0, max: 1.0}, function: 'minecraft:set_count'"], [], "Spirit Essence");
+
+villagerAddLoot.addItemEntryJSON(<minecraft:emerald>, 10, 0, ["count: {min: -1.0, max: 1.0}, function: 'minecraft:set_count'"], [], "Emerald");
+villagerAddLoot.addItemEntryJSON(<evilcraft:werewolf_flesh:1>, 2, 0, [], [], "Long Pig");
+villagerAddLoot.addItemEntryJSON(<evilcraft:condensed_blood>, 2, 0, [], [], "Blood");
+

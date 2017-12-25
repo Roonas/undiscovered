@@ -128,6 +128,7 @@ mods.actuallyadditions.Crusher.addRecipe(<extrautils2:endershard>*8 * 8, <minecr
 mods.actuallyadditions.Crusher.addRecipe(<minecraft:redstone>, <thermalfoundation:material:893>);
 mods.actuallyadditions.Crusher.addRecipe(<extratrees:misc:5> * 2, <contenttweaker:moldybread>);
 mods.actuallyadditions.Crusher.addRecipe(<immersivepetroleum:material>, <thermalfoundation:material:892>);
+mods.actuallyadditions.Crusher.addRecipe(<minecraft:glowstone_dust>, <thermalfoundation:material:894>, <minecraft:glowstone_dust>, 10);
 
 /*=========================
 Empowerer
@@ -157,7 +158,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:irradiated_iridium>, 
 //mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal>, <evilcraft:blood_orb:1>, <calculator:firediamond>, <minecraft:apple>, <minecraft:red_nether_brick>, 125000, 10,[1,0,0]);
 mods.actuallyadditions.Empowerer.addRecipe(<minecraft:gold_ingot>, <minecraft:iron_ingot>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, 500, 100, [0.5, 0.3, 0.2]);
 mods.actuallyadditions.Empowerer.addRecipe(<extrautils2:suncrystal:250>, <calculator:weakeneddiamond>, <minecraft:glowstone>, <botania:quartztypesunny>, <minecraft:glowstone>, <botania:quartztypesunny>, 2000, 200);
-mods.actuallyadditions.Empowerer.addRecipe(<genetics:misc:2>*2, <minecraft:blaze_powder>, <botania:quartz:6>, <thermalfoundation:material:894>, <astralsorcery:itemusabledust>, <contenttweaker:goldclay>, 6000, 200);
+mods.actuallyadditions.Empowerer.addRecipe(<genetics:misc:2>*8, <minecraft:blaze_powder>, <botania:quartz:6>, <thermalfoundation:material:894>, <astralsorcery:itemusabledust>, <contenttweaker:goldclay>, 6000, 200);
 mods.actuallyadditions.Empowerer.addRecipe(<extrautils2:ingredients:17> * 9, <extendedcrafting:storage>, <minecraft:nether_star>, <minecraft:experience_bottle>, <astralsorcery:itemcraftingcomponent:2>, <darkutils:material>, 220000, 666);
 
 /*=========================

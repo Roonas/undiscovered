@@ -305,7 +305,7 @@ recipes.addShaped("upgrade base", <silentgems:craftingmaterial:12>, [
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
     ]);
 
-recipes.addShaped(<silentgems:craftingmaterial:1>, [
+recipes.addShaped(<silentgems:craftingmaterial:1> * 2, [
     [<genetics:misc:2>, <calculator:enrichedgold>, <genetics:misc:2>],
     [<calculator:enrichedgold>, <silentgems:craftingmaterial>, <calculator:enrichedgold>], 
     [<genetics:misc:2>, <calculator:enrichedgold>, <genetics:misc:2>]

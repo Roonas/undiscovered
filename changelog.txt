@@ -3,13 +3,22 @@
 Fixed enchament token recipes being all removed
 Added recipes for starmetal dust to be smelted like the ore
 Added recipes for factory blocks while chisel is being weird
+Fixed some quests not detecting items properly (mithril can, celestial altar, creative gas/fluid tank)
 Continued my journey of trying to make various types of modded metals play nice
 Removed alkahestry tome (should have been removed a few versions ago)
 Lots of new additions to the loot tables 
 Jungle arrow traps are much more deadly
 Added another recipe for piercing vengence focus
+Added vengence essence to vindicator mob and crafting recipe for the mob's egg
+Added blood/flesh/emerald to vanilla villager drops
+Added JER but properly configured this time
+Buffed alt recipe for enriched chaos which is more automatable 
+Removed redorchid from grass drops
+Added recipes for crafting redorchid
+Added custom stargazing and lava fountain rooms to the top of some skyscrappers
 
 ~~~Add dank null~~~
+~~~Add JER~~~
 
 1.6.1
 ----------

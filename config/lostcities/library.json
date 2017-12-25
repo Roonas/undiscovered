@@ -120,6 +120,50 @@
         ]
       },
       {
+        "char": "2",
+        "block": "astralsorcery:blockmarble@1"
+      },
+      {
+        "char": "3",
+        "block": "astralsorcery:blockmarbleslab"
+      },
+      {
+        "char": "5",
+        "block": "astralsorcery:blockmarble@2"
+      },
+      {
+        "char": "6",
+        "block": "silentgems:gemlamplitinvertedlight@15"
+      },
+      {
+        "char": "7",
+        "block": "minecraft:iron_bars"
+      },
+      {
+        "char": "8",
+        "block": "astralsorcery:blockmachine"
+      },
+      {
+        "char": "N",
+        "block": "evilcraft:dark_brick"
+      },
+      {
+        "char": "J",
+        "block": "extratrees:planks.fireproof.1@12"
+      },
+      {
+        "char": "M",
+        "block": "minecraft:lava"
+      },
+      {
+        "char": "9",
+        "block": "evilcraft:dark_block"
+      },
+      {
+        "char": "V",
+        "block": "evilcraft:bloody_cobblestone"
+      },
+      {
         "char": "1",
         "block": "minecraft:mob_spawner",
         "mob": "easymobs"
@@ -3084,6 +3128,10 @@
       {
         "top": true,
         "part": "top1x1_5"
+      },
+      {
+        "top": true,
+        "part": "flukeevil"
       }
     ]
   },
@@ -3166,6 +3214,10 @@
       {
         "top": true,
         "part": "top1x1_5"
+      },
+      {
+        "top": true,
+        "part": "flukealtar"
       }
     ]
   },

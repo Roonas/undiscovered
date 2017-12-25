@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": false,
+      "editmode": true,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -5839,10 +5839,10 @@
               "OreDict": "",
               "Damage": 1,
               "tag": {
-                "SGProperties": {},
+                "SGProperties:10": {},
                 "Fluid:10": {
                   "FluidName:8": "mithril",
-                  "Amount:3": 1000
+                  "Amount:4": 1000
                 }
               }
             },
@@ -8608,7 +8608,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Magic Metal",
+          "name": "Psionic Metal",
           "desc": "No Description"
         }
       },
@@ -8823,7 +8823,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -11647,8 +11647,7 @@
             "OreDict": "",
             "Damage": 11,
             "tag": {
-              "tier:3": 4,
-              "mekData:10": {}
+              "tier:4": 4
             }
           },
           "globalshare": false,
@@ -11664,7 +11663,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -11705,8 +11704,7 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "tier:3": 4,
-              "mekData:10": {}
+              "tier:4": 4
             }
           },
           "globalshare": false,
@@ -11722,7 +11720,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -12209,7 +12207,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Expensive Mek Box",
-          "desc": "Infused with liquid obsidian, theses cases are even more sturdy than the original design. "
+          "desc": "Infused with liquid obsidian, theses cases are even more sturdy than the original design. Requires 10 refined obsidian ingots to complete the strengthening process. "
         }
       },
       "tasks": [

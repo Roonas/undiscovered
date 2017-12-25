@@ -47,6 +47,7 @@ Starlight Infusion
 mods.astralsorcery.StarlightInfusion.addInfusion(<minecraft:apple>, <minecraft:golden_apple:1>, false, 0.1, 100);
 mods.astralsorcery.StarlightInfusion.addInfusion(<thermalfoundation:material:893>, <minecraft:redstone> * 6, false, 0.1, 100);
 mods.astralsorcery.StarlightInfusion.addInfusion(<evilcraft:vengeance_focus>, <evilcraft:piercing_vengeance_focus>, false, 0.2, 200);
+mods.astralsorcery.StarlightInfusion.addInfusion(<minecraft:glowstone_dust>, <thermalfoundation:material:894>, false, 0.2, 200);
 
 /*=========================
 Discovery Altar (Luminous Altar)
@@ -68,4 +69,20 @@ mods.astralsorcery.Altar.addAttunmentAltarRecipe(<astralsorcery:blocklens>, 500,
     psimetalIngot, psimetalIngot, psimetalIngot, 
     null, null, 
     <ore:blockMarble>, <ore:blockMarble>
+    ]);
+
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:vindication_illager"}}), 500, 100, [
+    <minecraft:fermented_spider_eye>, <xreliquary:witch_hat>, <minecraft:fermented_spider_eye>, 
+    <minecraft:fermented_spider_eye>, <minecraft:egg>, <minecraft:fermented_spider_eye>, 
+    <minecraft:fermented_spider_eye>, <evilcraft:vengeance_essence:1>, <minecraft:fermented_spider_eye>, 
+    <randomthings:imbue:2>, <randomthings:imbue:2>, 
+    null, null
+    ]);
+
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<extrautils2:redorchid>, 500, 100, [
+    null, <botania:shinyflower:14>, null, 
+    null, <minecraft:redstone_block>, null, 
+    null, <ore:redstoneRoot>, null, 
+    <ore:crystalRedstone>, <ore:crystalRedstone>, 
+    null, null
     ]);

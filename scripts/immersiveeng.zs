@@ -245,6 +245,8 @@ mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dull_dust> * 2, <contentt
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>, <thermalfoundation:material:893>, 800);
 mods.immersiveengineering.Crusher.addRecipe(<extratrees:misc:5> * 2, <contenttweaker:moldybread>, 300);
 mods.immersiveengineering.Crusher.addRecipe(<immersivepetroleum:material>, <thermalfoundation:material:892>, 800);
+mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust>, <thermalfoundation:material:894>, 1000, <minecraft:glowstone_dust>, 0.1);
+
 /*=========================
 Mixer
 =========================*/

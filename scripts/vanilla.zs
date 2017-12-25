@@ -66,6 +66,8 @@ recipes.remove(<jaopca:item_dustdirtytungsten>);
 recipes.remove(<appliedfluidics:quartz_bucket_certus>);
 recipes.remove(<appliedfluidics:quartz_bucket_nether>);
 
+vanilla.seeds.removeSeed(<extrautils2:redorchid>);
+
 /*=========================
 Recipe Changes - Vanilla
 =========================*/
