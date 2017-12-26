@@ -3,6 +3,7 @@
 Fixed enchament token recipes being all removed
 Added recipes for starmetal dust to be smelted like the ore
 Added recipes for factory blocks while chisel is being weird
+Changed recipe for creative watering can since crated items are broken on servers
 Fixed some quests not detecting items properly (mithril can, celestial altar, creative gas/fluid tank)
 Continued my journey of trying to make various types of modded metals play nice
 Removed alkahestry tome (should have been removed a few versions ago)
@@ -19,6 +20,7 @@ Added custom stargazing and lava fountain rooms to the top of some skyscrappers
 
 ~~~Add dank null~~~
 ~~~Add JER~~~
+~~~Add enderstorage~~~
 
 1.6.1
 ----------

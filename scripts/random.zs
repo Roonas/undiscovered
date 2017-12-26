@@ -223,3 +223,25 @@ recipes.addShaped(<danknull:dank_null_panel:1>, [
     [<minecraft:coal_block>, <minecraft:lapis_block>, <minecraft:coal_block>], 
     [<minecraft:stained_glass_pane:3>, <minecraft:coal_block>, <minecraft:stained_glass_pane:3>]
     ]);
+
+recipes.remove(<enderstorage:ender_storage:1>);
+recipes.addShaped(<enderstorage:ender_storage:1>, [
+    [<minecraft:blaze_rod>, <minecraft:wool>, <minecraft:blaze_rod>],
+    [<thermalfoundation:glass:3>, <appliedenergistics2:material:11>, <thermalfoundation:glass:3>], 
+    [<minecraft:blaze_rod>, <darkutils:material:1>, <minecraft:blaze_rod>]
+    ]);
+
+recipes.remove(<enderstorage:ender_storage>);
+recipes.addShaped(<enderstorage:ender_storage>, [
+    [<minecraft:blaze_rod>, <minecraft:wool>, <minecraft:blaze_rod>],
+    [<actuallyadditions:block_crystal:3>, <minecraft:ender_chest>, <actuallyadditions:block_crystal:3>], 
+    [<minecraft:blaze_rod>, <darkutils:material:1>, <minecraft:blaze_rod>]
+    ]);
+
+recipes.remove(<enderstorage:ender_pouch>);
+recipes.addShaped(<enderstorage:ender_pouch>, [
+    [<botania:manaresource:16>, <harvestcraft:hardenedleatheritem>, <botania:manaresource:16>],
+    [<harvestcraft:hardenedleatheritem>, <darkutils:material:1>, <harvestcraft:hardenedleatheritem>], 
+    [<botania:manaresource:16>, <thermalfoundation:rockwool:14>, <botania:manaresource:16>]
+    ]);
+
