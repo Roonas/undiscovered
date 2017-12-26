@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": true,
+      "editmode": false,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -13424,7 +13424,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Trashman #2",
-          "desc": "     So many civilizations have built and collapsed in this cursed world that the very water is full of their trash.  Build yourself a strainer and you too can become a trashpicker, building on the failures of the past! Be sure you drink the water upriver of these stinking cities, now that you have seen what is these rivers."
+          "desc": "     So many civilizations have built and collapsed in this cursed world that the very water is full of their trash.  Build yourself a strainer and you too can become a trashpicker, building on the failures of the past! Be sure you drink the water upriver of these stinking cities, now that you have seen what is in these rivers."
         }
       },
       "tasks": [
