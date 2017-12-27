@@ -67,6 +67,7 @@ recipes.remove(<appliedfluidics:quartz_bucket_certus>);
 recipes.remove(<appliedfluidics:quartz_bucket_nether>);
 
 vanilla.seeds.removeSeed(<extrautils2:redorchid>);
+vanilla.seeds.addSeed(<extrautils2:redorchid> % 1);
 
 /*=========================
 Recipe Changes - Vanilla

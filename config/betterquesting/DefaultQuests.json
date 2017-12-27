@@ -5839,10 +5839,9 @@
               "OreDict": "",
               "Damage": 1,
               "tag": {
-                "SGProperties:10": {},
-                "Fluid:10": {
-                  "FluidName:8": "mithril",
-                  "Amount:4": 1000
+                "Fluid": {
+                  "FluidName": "mithril",
+                  "Amount": 1000
                 }
               }
             },
@@ -11674,8 +11673,8 @@
               "OreDict": "",
               "Damage": 11,
               "tag": {
-                "tier:3": 4,
-                "mekData:10": {}
+                "tier": 4,
+                "mekData": {}
               }
             }
           ],
@@ -11731,8 +11730,8 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "tier:3": 4,
-                "mekData:10": {}
+                "tier": 4,
+                "mekData": {}
               }
             }
           ],
@@ -13642,7 +13641,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "The Craftsman #4",
-          "desc": "     No more will I scavenge at the edge of cities, for even the bits of metal I need for hinges and locks, nature has provided! The berries i collect from the peculiar trees, or dredge out of the river waters, can be crushed and refined.  I must take this as a sign to wander no more to those accursed places."
+          "desc": "     No more will I scavenge at the edge of cities, for even the bits of metal I need for hinges and locks, nature has provided! The berries I collect from the peculiar trees, or dredge out of the river waters, can be crushed and refined.  I must take this as a sign to wander no more to those accursed places."
         }
       },
       "tasks": [
@@ -13679,7 +13678,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Craftsman #5",
-          "desc": "     I am so lonely… I stroke my fine wood but it brings me no comfort, and my tools do not speak back.  The wind calls to me but I dare not reply for I will not then know if the world has gone mad or only me.  I huddle here amongst the fine things I have made, but now I am interested in only in making more ale for it is the only comfort left to me."
+          "desc": "     I am so lonely… I stroke my fine wood but it brings me no comfort, and my tools do not speak back.  The wind calls to me but I dare not reply for I will not then know if the world has gone mad or only me.  I huddle here amongst the fine things I have made, but now I am interested only in making more ale for it is the only comfort left to me."
         }
       },
       "tasks": [

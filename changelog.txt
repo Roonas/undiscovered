@@ -1,6 +1,10 @@
+1.7.1
+----------
+Downgraded Forge to previous version - caused more problem than it solved
+
 1.7.0
 ----------
-Fixed enchament token recipes being all removed
+Fixed enchantment token recipes being all removed
 Added recipes for starmetal dust to be smelted like the ore
 Added recipes for factory blocks while chisel is being weird
 Changed recipe for creative watering can since crated items are broken on servers
@@ -9,18 +13,21 @@ Continued my journey of trying to make various types of modded metals play nice
 Removed alkahestry tome (should have been removed a few versions ago)
 Lots of new additions to the loot tables 
 Jungle arrow traps are much more deadly
-Added another recipe for piercing vengence focus
-Added vengence essence to vindicator mob and crafting recipe for the mob's egg
+Added another recipe for piercing vengeance focus
+Added vengeance essence to vindicator mob and crafting recipe for the mob's egg
 Added blood/flesh/emerald to vanilla villager drops
 Added JER but properly configured this time
 Buffed alt recipe for enriched chaos which is more automatable 
 Removed redorchid from grass drops
 Added recipes for crafting redorchid
-Added custom stargazing and lava fountain rooms to the top of some skyscrappers
-
-~~~Add dank null~~~
-~~~Add JER~~~
-~~~Add enderstorage~~~
+Added custom stargazing and lava fountain rooms to the top of some lostcity skyscrapers
+Mod Updates:
+* Updated Foamfix
+* Updated Forge - hopefully fixes some users not able to open vanilla chests
+* Updated Crafttweaker
+* Added Dank Null - works better than null charm in some situations
+* Added JER - but this time configured correctly so modded ores and changed loot tables show
+* Added enderstorage
 
 1.6.1
 ----------
