@@ -179,7 +179,7 @@ recipes.addShaped("quest updater", <contenttweaker:bqmupdate>, [
 recipes.remove(<xtones:lamp_flat>);
 recipes.addShaped(<xtones:lamp_flat> * 2, [
     [null, null, null],
-    [<advgenerators:iron_frame>, <minecraft:glowstone>, <advgenerators:iron_frame>], 
+    [<advgenerators:iron_frame>, <ore:glowstone>, <advgenerators:iron_frame>], 
     [<minecraft:stone_slab>, <minecraft:stone_slab>, <minecraft:stone_slab>]
     ]);
 

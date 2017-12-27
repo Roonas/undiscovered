@@ -139,7 +139,7 @@ recipes.addShaped("water wheel part", <immersiveengineering:material:10>, [
 recipes.remove(<immersivepetroleum:schematic>);
 recipes.addShaped("projector", <immersivepetroleum:schematic>, [
     [<minecraft:glass>, null, null], 
-    [<minecraft:iron_ingot>, <minecraft:glowstone>, null], 
+    [<minecraft:iron_ingot>, <ore:glowstone>, null], 
     [null, <minecraft:iron_ingot>, <immersiveengineering:treated_wood>]
     ]);
 

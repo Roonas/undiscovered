@@ -7,9 +7,9 @@ Recipe Changes - Silents
 
 recipes.remove(<silentgems:craftingmaterial:1>);
 recipes.addShaped("enriched chaos", <silentgems:craftingmaterial:1>, [
-    [<minecraft:glowstone>, <silentgems:craftingmaterial>, <minecraft:glowstone>], 
+    [<ore:glowstone>, <silentgems:craftingmaterial>, <ore:glowstone>], 
     [<silentgems:craftingmaterial>, <minecraft:gold_block>, <silentgems:craftingmaterial>], 
-    [<minecraft:glowstone>, <silentgems:craftingmaterial>, <minecraft:glowstone>]
+    [<ore:glowstone>, <silentgems:craftingmaterial>, <ore:glowstone>]
     ]);
 
 recipes.addShapeless("cave to spider gem", <silentgems:soulgem>.withTag({sg_soul_gem: "Spider"}), [
