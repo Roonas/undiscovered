@@ -130,3 +130,6 @@ goldclay.register();
 
 var crown = VanillaFactory.createItem("crown");
 crown.register();
+
+var lostcityportal = VanillaFactory.createItem("lostcityportal");
+lostcityportal.register();
