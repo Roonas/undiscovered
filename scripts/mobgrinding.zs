@@ -12,8 +12,8 @@ recipes.addShaped("absorption hopper", <mob_grinding_utils:absorption_hopper>, [
 recipes.remove(<mob_grinding_utils:spikes>);
 recipes.addShaped("mob spikes", <mob_grinding_utils:spikes>, [
     [null, null, null], 
-    [null, <silentgems:katana>, null], 
-    [<silentgems:katana>, <ore:blockSteel>, <silentgems:katana>]
+    [null, <silentgems:dagger>, null], 
+    [<silentgems:dagger>, <ore:blockSteel>, <silentgems:dagger>]
     ]);
 
 recipes.remove(<mob_grinding_utils:saw>);

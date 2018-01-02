@@ -1,4 +1,7 @@
 
+<appliedenergistics2:drive>.addTooltip("Removed next update. Extract all items before updating.");
+<appliedenergistics2:controller>.addTooltip("Removed next update. Extract all items before updating.");
+
 /*=========================
 Recipe Changes - AE2
 =========================*/
@@ -42,7 +45,7 @@ recipes.addShaped("ae gun", <appliedenergistics2:matter_cannon>, [
     [<appliedenergistics2:material:35>, <immersiveengineering:material:1>, null], 
     [<ore:ingotSteel>, null, null]
     ]);
-
+/*
 recipes.remove(<appliedfluidics:item_part:4>);
 recipes.addShaped("fluid terminal", <appliedfluidics:item_part:4>, [
     [<minecraft:water_bucket>, <appliedenergistics2:part:180>, <minecraft:lava_bucket>],
@@ -55,7 +58,7 @@ recipes.addShaped("1k fluid drive", <appliedfluidics:fluid_storage_cell>, [
     [<minecraft:bucket>, <appliedenergistics2:material:35>, <minecraft:bucket>], 
     [<minecraft:bucket>, <appliedenergistics2:material:39>, <minecraft:bucket>]
     ]);
-
+*/
 recipes.addShaped("me drive", <appliedenergistics2:drive>, [
     [<magneticraft:heavy_plates:3>, <immersiveengineering:material:27>, <magneticraft:heavy_plates:3>], 
     [<appliedenergistics2:part:16>, null, <appliedenergistics2:part:16>], 
@@ -68,7 +71,7 @@ recipes.addShaped(<appliedenergistics2:material:41>, [
     [<magneticraft:ingots:5>, <appliedenergistics2:part:140>, <magneticraft:ingots:5>], 
     [null, <magneticraft:ingots:5>, null]
     ]);
-
+/*
 recipes.addShaped(<appliedfluidics:item_part:1>, [
     [null, <pressure:input>, null],
     [null, <immersiveengineering:material:27>, null], 
@@ -99,3 +102,4 @@ recipes.addShaped(<appliedfluidics:certus_tank>, [
     [<appliedenergistics2:quartz_glass>, null, <appliedenergistics2:quartz_glass>], 
     [<jaopca:item_sticksilver>, <appliedenergistics2:quartz_glass>, <jaopca:item_sticksilver>]
     ]);
+*/

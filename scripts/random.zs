@@ -5,6 +5,7 @@ mods.jei.JEI.addDescription(<contenttweaker:bqmupdate>, "Run once to sync new qu
 mods.jei.JEI.addDescription(scrapBag, "Contains random junk and broken parts. Right click to open.");
 mods.jei.JEI.addDescription(<scrap:broken.plate:*>, "Found in piles of scrap");
 mods.jei.JEI.addDescription(<contenttweaker:lostcityportal>, "The portal to the lost city dimension can be opened by placing a bed on top of two blocks of empowered restonia crystals. The bed must also be surround by 6 skulls. When properly made, right clicking the pillow will teleport you to the lost city dimension.");
+mods.jei.JEI.addDescription(<appliedenergistics2:material:45>, "Needs a steel hammer to be crafted on the crushing table.");
 
 <ore:brokenPlate>.add(<scrap:broken.plate:*>);
 //<ore:framechests>.add(<bibliocraft:framedchest:*>);
@@ -15,8 +16,8 @@ Recipe Changes - Other
 =========================*/
 
 recipes.remove(<ironchest:iron_chest:4>);
-recipes.remove(<ironchest:iron_chest:1>);
-recipes.remove(<ironchest:iron_chest:2>);
+//recipes.remove(<ironchest:iron_chest:1>);
+//recipes.remove(<ironchest:iron_chest:2>); Dimond chest, temp returned for AL->AE switchover
 recipes.remove(<ironchest:iron_chest:5>);
 recipes.remove(<ironchest:iron_chest:6>);
 

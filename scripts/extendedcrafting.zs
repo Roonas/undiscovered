@@ -25,6 +25,8 @@ var starlightDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "astralsorc
 var mutagenDrum = <extrautils2:drum:1>.withTag({Fluid: {FluidName: "mutagen", Amount: 256000}});
 var ultimateInduction = <mekanism:basicblock2:3>.withTag({tier: 3});
 var crateSub = <forestry:resource_storage>;
+//var elytra = <minecraft:elytra>.giveBack();
+var elytra = <minecraft:elytra>;
 
 <contenttweaker:solidheart>.addTooltip("Not consumed in crafting");
 
@@ -108,7 +110,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<storagedrawers:upgrade_creative>,
 
 mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:angelring>, [
     [<xreliquary:ender_staff>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <xreliquary:angelic_feather>], 
-    [<silentgems:craftingmaterial:18>, <actuallyadditions:item_wings_of_the_bats>, <actuallyadditions:block_misc:6>, <minecraft:elytra>, <actuallyadditions:block_misc:6>, <rftools:flight_module>, <silentgems:craftingmaterial:18>], 
+    [<silentgems:craftingmaterial:18>, <actuallyadditions:item_wings_of_the_bats>, <actuallyadditions:block_misc:6>, elytra, <actuallyadditions:block_misc:6>, <rftools:flight_module>, <silentgems:craftingmaterial:18>], 
     [<silentgems:craftingmaterial:18>, <actuallyadditions:block_misc:6>, liquidGlowstoneCan, liquidGlowstoneCan, liquidGlowstoneCan, <actuallyadditions:block_misc:6>, <silentgems:craftingmaterial:18>], 
     [<silentgems:craftingmaterial:18>, <openglider:hang_glider_basic>, liquidGlowstoneCan, <botania:flighttiara>, liquidGlowstoneCan, <grapplemod:hookshot>, <silentgems:craftingmaterial:18>], 
     [<silentgems:craftingmaterial:18>, <actuallyadditions:block_misc:6>, liquidGlowstoneCan, liquidGlowstoneCan, liquidGlowstoneCan, <actuallyadditions:block_misc:6>, <silentgems:craftingmaterial:18>], 

@@ -12862,8 +12862,8 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "FluidName:8": "dblood",
-              "Amount:3": 1000
+              "FluidName": "dblood",
+              "Amount": 1000
             }
           },
           "globalshare": false,
@@ -12890,9 +12890,8 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "SGProperties:10": {},
-                "FluidName:8": "dblood",
-                "Amount:3": 1000
+                "FluidName": "dblood",
+                "Amount": 1000
               }
             }
           ],

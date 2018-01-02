@@ -7,6 +7,8 @@ var empoweredDiamatine = <actuallyadditions:item_crystal_empowered:2>;
 
 recipes.remove(<sonarcore:reinforceddirtblock>);
 recipes.remove(<sonarcore:reinforcedstoneblock>);
+mods.jei.JEI.removeAndHide(<calculator:reinforcedchest>);
+mods.jei.JEI.removeAndHide(<calculator:storagechamber>);
 
 /*=========================
 Recipe Changes - Calc
@@ -113,6 +115,7 @@ recipes.addShaped(<calculator:infocalculator>, [
 Conductor Mast
 =========================*/
 mods.calculator.conductorMast.addRecipe(<thermalfoundation:ore:7>, 60000, <contenttweaker:charged_iridium>);
+mods.calculator.conductorMast.addRecipe(<draconicevolution:draconium_block>, 1500000, <draconicevolution:draconium_block:1>);
 
 /*=========================
 Stone Separator
@@ -130,6 +133,7 @@ mods.calculator.algorithmSeparator.addRecipe(<thermalfoundation:ore_fluid:2>, <c
 Atomic Calc
 =========================*/
 mods.calculator.atomic.removeRecipe(<calculator:transmitter>);
+mods.calculator.atomic.removeRecipe(<calculator:storagechamber>);
 mods.calculator.atomic.addRecipe(<minecraft:anvil>, <appliedenergistics2:material:7>, <minecraft:heavy_weighted_pressure_plate>, <appliedenergistics2:material:8> * 2);
 
 /*=========================

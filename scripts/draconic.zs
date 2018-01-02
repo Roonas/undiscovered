@@ -5,6 +5,8 @@ var netherChaos = <silentgems:craftingmaterial:2>;
 recipes.remove(<draconicevolution:draconium_dust>);
 recipes.remove(<draconicevolution:draconium_ingot>);
 
+<draconicevolution:draconium_block:1>.addTooltip("Requires 1.5 million RF");
+
 /*=========================
 Recipe Changes - Draconic
 =========================*/

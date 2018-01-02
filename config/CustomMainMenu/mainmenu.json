@@ -29,6 +29,21 @@
             {
                 "type" : "refresh"
             }
+        },
+        "warning":
+        {
+            "text" : "",
+            "posX" : -180,
+            "posY" : -110,
+            "width" : 151,
+            "height" : 94,
+            "texture" : "custommainmenu:textures/gui/warning.png",
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.curseforge.com/minecraft/modpacks/undiscovered/changes"
+            }
         }
     },
     

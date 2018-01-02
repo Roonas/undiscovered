@@ -280,9 +280,9 @@ mods.thermalexpansion.Transposer.addFillRecipe(<bigreactors:ingotmetals:3>, <big
 Refinery
 =========================*/    
 mods.thermalexpansion.Refinery.addRecipe(<liquid:binnie.spirit.neutral> * 250, <thermalfoundation:material:1026>, <liquid:aerotheum> * 500, 2000);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:sludge> * 250, null, <liquid:sewage> * 1000, 3000);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 250, null, <liquid:xpjuice> * 1000, 10000);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 250, null, <liquid:essence> * 1000, 10000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:sludge> * 250, <contenttweaker:crystalsludge>%3, <liquid:sewage> * 1000, 3000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 250, <actuallyadditions:item_solidified_experience>%3, <liquid:xpjuice> * 1000, 10000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 250, <actuallyadditions:item_solidified_experience>%3, <liquid:essence> * 1000, 10000);
 
 /*=========================
 Sawmill
@@ -328,4 +328,9 @@ mods.thermalexpansion.Centrifuge.addRecipe([enderEgg % 100], <minecraft:dragon_e
 /*=========================
 Energetic Infuser
 =========================*/ 
-mods.thermalexpansion.Infuser.addRecipe(<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block>, 2000000);
+mods.thermalexpansion.Infuser.addRecipe(<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block>, 1500000);
+
+/*=========================
+Compactor - Press 
+=========================*/ 
+mods.thermalexpansion.Compactor.addPressRecipe(<thermalfoundation:material:136>, <forestry:can:1>.withTag({Fluid: {FluidName: "mithril", Amount: 1000}}), 500);

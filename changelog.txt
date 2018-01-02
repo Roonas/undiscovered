@@ -1,3 +1,15 @@
+1.8.0? / 2.0.0?
+----------
+Added lost city portal item with details on getting to the LC dim
+Adjusted LC dim city spawn rate and changed to no explosion profile
+Added jei info on skystone dust needing steel hammer
+Vector plates now give 4 per craft
+Redcued RF cost of charged drac, added calc lightning tower as additional carging method
+Fixed otherworldly blood quest not detecting
+Made iron spikes recipe easier
+Added warning for applied llamagistics -> applied energistics switch over
+
+
 1.7.1
 ----------
 Downgraded Forge to previous version - caused more problem than it solved
