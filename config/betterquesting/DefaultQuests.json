@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": false,
+      "editmode": true,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -5839,9 +5839,9 @@
               "OreDict": "",
               "Damage": 1,
               "tag": {
-                "Fluid": {
-                  "FluidName": "mithril",
-                  "Amount": 1000
+                "Fluid:10": {
+                  "FluidName:8": "mithril",
+                  "Amount:4": 1000
                 }
               }
             },
@@ -10034,10 +10034,10 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "appliedfluidics:item_part",
+            "id": "minecraft:water_bucket",
             "Count": 1,
             "OreDict": "",
-            "Damage": 4
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -10049,64 +10049,7 @@
           "desc": "A high tech system for storing and moving fluids seems within reach. Though storing solid items is still beyond your current technology. "
         }
       },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "appliedenergistics2:drive",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "appliedenergistics2:energy_acceptor",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "appliedfluidics:fluid_storage_cell",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "SGProperties:10": {}
-              }
-            },
-            {
-              "id": "appliedfluidics:item_part",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 4
-            },
-            {
-              "id": "appliedenergistics2:part",
-              "Count": 4,
-              "OreDict": "",
-              "Damage": 16
-            },
-            {
-              "id": "appliedfluidics:item_part",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 5
-            },
-            {
-              "id": "appliedfluidics:item_part",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 3
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        }
-      ],
+      "tasks": [],
       "rewards": [],
       "preRequisites": [
         64,
@@ -11673,8 +11616,8 @@
               "OreDict": "",
               "Damage": 11,
               "tag": {
-                "tier": 4,
-                "mekData": {}
+                "tier:4": 4,
+                "mekData:10": {}
               }
             }
           ],
@@ -11730,8 +11673,8 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "tier": 4,
-                "mekData": {}
+                "tier:4": 4,
+                "mekData:10": {}
               }
             }
           ],
@@ -12862,8 +12805,8 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "FluidName": "dblood",
-              "Amount": 1000
+              "FluidName:8": "dblood",
+              "Amount:4": 1000
             }
           },
           "globalshare": false,
@@ -12890,8 +12833,8 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "FluidName": "dblood",
-                "Amount": 1000
+                "FluidName:8": "dblood",
+                "Amount:4": 1000
               }
             }
           ],

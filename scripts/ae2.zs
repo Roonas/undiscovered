@@ -1,7 +1,3 @@
-
-<appliedenergistics2:drive>.addTooltip("Removed next update. Extract all items before updating.");
-<appliedenergistics2:controller>.addTooltip("Removed next update. Extract all items before updating.");
-
 /*=========================
 Recipe Changes - AE2
 =========================*/
@@ -45,20 +41,20 @@ recipes.addShaped("ae gun", <appliedenergistics2:matter_cannon>, [
     [<appliedenergistics2:material:35>, <immersiveengineering:material:1>, null], 
     [<ore:ingotSteel>, null, null]
     ]);
-/*
-recipes.remove(<appliedfluidics:item_part:4>);
-recipes.addShaped("fluid terminal", <appliedfluidics:item_part:4>, [
+
+recipes.remove(<extracells:part.base:3>);
+recipes.addShaped("fluid terminal", <extracells:part.base:3>, [
     [<minecraft:water_bucket>, <appliedenergistics2:part:180>, <minecraft:lava_bucket>],
     [null, null, null], 
     [null, null, null]
     ]);
 
-recipes.addShaped("1k fluid drive", <appliedfluidics:fluid_storage_cell>, [
+recipes.addShaped("1k fluid drive", <extracells:storage.fluid>, [
     [<minecraft:bucket>, <minecraft:bucket>, <minecraft:bucket>], 
     [<minecraft:bucket>, <appliedenergistics2:material:35>, <minecraft:bucket>], 
     [<minecraft:bucket>, <appliedenergistics2:material:39>, <minecraft:bucket>]
     ]);
-*/
+
 recipes.addShaped("me drive", <appliedenergistics2:drive>, [
     [<magneticraft:heavy_plates:3>, <immersiveengineering:material:27>, <magneticraft:heavy_plates:3>], 
     [<appliedenergistics2:part:16>, null, <appliedenergistics2:part:16>], 
@@ -71,35 +67,34 @@ recipes.addShaped(<appliedenergistics2:material:41>, [
     [<magneticraft:ingots:5>, <appliedenergistics2:part:140>, <magneticraft:ingots:5>], 
     [null, <magneticraft:ingots:5>, null]
     ]);
-/*
-recipes.addShaped(<appliedfluidics:item_part:1>, [
+
+recipes.addShaped(<extracells:part.base:1>, [
     [null, <pressure:input>, null],
     [null, <immersiveengineering:material:27>, null], 
     [null, <thermaldynamics:servo:2>, null]
     ]);
 
-recipes.addShaped(<appliedfluidics:item_part:2>, [
+recipes.addShaped(<extracells:part.base>, [
     [null, <thermaldynamics:servo:2>, null],
     [null, <immersiveengineering:material:27>, null], 
     [null, <pressure:output>, null]
     ]);
 
-recipes.addShaped(<appliedfluidics:item_part:5>, [
+recipes.addShaped(<extracells:part.base:5>, [
     [<silentgems:craftingmaterial:7>, <appliedenergistics2:material>, <silentgems:craftingmaterial:7>],
     [<industrialforegoing:block_destroyer>, <appliedenergistics2:part:180>, <appliedenergistics2:material>], 
     [<silentgems:craftingmaterial:7>, <appliedenergistics2:material>, <silentgems:craftingmaterial:7>]
     ]);
 
-recipes.addShaped(<appliedfluidics:item_part:3>, [
+recipes.addShaped(<extracells:part.base:6>, [
     [<silentgems:craftingmaterial:7>, <appliedenergistics2:material>, <silentgems:craftingmaterial:7>],
     [<appliedenergistics2:material>, <appliedenergistics2:part:180>, <industrialforegoing:block_placer>], 
     [<silentgems:craftingmaterial:7>, <appliedenergistics2:material>, <silentgems:craftingmaterial:7>]
     ]);
 
-recipes.remove(<appliedfluidics:certus_tank>);
-recipes.addShaped(<appliedfluidics:certus_tank>, [
+recipes.remove(<extracells:certustank>);
+recipes.addShaped(<extracells:certustank>, [
     [<jaopca:item_sticksilver>, <appliedenergistics2:quartz_glass>, <jaopca:item_sticksilver>],
     [<appliedenergistics2:quartz_glass>, null, <appliedenergistics2:quartz_glass>], 
     [<jaopca:item_sticksilver>, <appliedenergistics2:quartz_glass>, <jaopca:item_sticksilver>]
     ]);
-*/

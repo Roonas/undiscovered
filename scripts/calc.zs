@@ -154,4 +154,4 @@ mods.calculator.extractionChamber.addRecipe(<calculator:circuitboard>, <evilcraf
 mods.calculator.extractionChamber.addRecipe(<calculator:circuitboard:13>, <evilcraft:dull_dust>, <appliedenergistics2:material:14>);
 mods.calculator.extractionChamber.addRecipe(<calculator:circuitboard:1>, <evilcraft:dull_dust>, <appliedenergistics2:material:19>);
 mods.calculator.extractionChamber.addRecipe(<calculator:circuitboard:8>, <evilcraft:dull_dust>, <appliedenergistics2:material:13>);
-mods.calculator.extractionChamber.addRecipe(<calculator:circuitboard:5>, <evilcraft:dull_dust>, <appliedfluidics:material:1>);
+//mods.calculator.extractionChamber.addRecipe(<calculator:circuitboard:5>, <evilcraft:dull_dust>, <appliedfluidics:material:1>);

@@ -16,8 +16,8 @@ Recipe Changes - Other
 =========================*/
 
 recipes.remove(<ironchest:iron_chest:4>);
-//recipes.remove(<ironchest:iron_chest:1>);
-//recipes.remove(<ironchest:iron_chest:2>); Dimond chest, temp returned for AL->AE switchover
+recipes.remove(<ironchest:iron_chest:1>);
+recipes.remove(<ironchest:iron_chest:2>);
 recipes.remove(<ironchest:iron_chest:5>);
 recipes.remove(<ironchest:iron_chest:6>);
 

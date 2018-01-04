@@ -29,7 +29,7 @@ recipes.addShaped(<advgenerators:item_input>, [
 recipes.remove(<advgenerators:fuel_tank>);
 recipes.addShaped(<advgenerators:fuel_tank>, [
     [<advgenerators:iron_frame>, <minecraft:glass_pane>, <advgenerators:iron_frame>],
-    [<minecraft:glass_pane>, <appliedfluidics:certus_tank>, <minecraft:glass_pane>], 
+    [<minecraft:glass_pane>, <extracells:certustank>, <minecraft:glass_pane>], 
     [<advgenerators:iron_frame>, <advgenerators:iron_tubing>, <advgenerators:iron_frame>]
     ]);
 
