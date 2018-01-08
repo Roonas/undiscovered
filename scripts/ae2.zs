@@ -1,3 +1,9 @@
+mods.jei.JEI.removeAndHide(<appliedenergistics2:certus_quartz_axe>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:certus_quartz_hoe>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:certus_quartz_spade>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:certus_quartz_pickaxe>);
+mods.jei.JEI.removeAndHide(<appliedenergistics2:certus_quartz_sword>);
+
 /*=========================
 Recipe Changes - AE2
 =========================*/

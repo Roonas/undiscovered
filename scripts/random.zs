@@ -128,6 +128,10 @@ recipes.addShapeless(<redstonepaste:redstonepaste>, [
     <evilcraft:dull_dust>, <ore:dyeRed>, <ore:slimeball>
     ]);
 
+recipes.addShapeless(<contenttweaker:holyplank> * 4, [
+    <contenttweaker:holylog>
+    ]);
+
 recipes.addShaped("repaired iron plate", <thermalfoundation:material:32>, [
     [<contenttweaker:screws>, <ore:brokenPlateIRON>, <contenttweaker:screws>], 
     [<ore:brokenPlateIRON>, null, <ore:brokenPlateIRON>], 

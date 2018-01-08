@@ -2,6 +2,8 @@ var rusticHealthPot = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecra
 var starmetalOre = <astralsorcery:blockcustomore:1>;
 var starmetalIngot = <astralsorcery:itemcraftingcomponent:1>;
 
+<ore:logWood>.remove(<evilcraft:undead_log>);
+
 /*=========================
 Recipe Changes - Evilcraft
 =========================*/
@@ -26,6 +28,46 @@ recipes.addShaped("filled bowl of promises", <evilcraft:bowl_of_promises>, [
     [<evilcraft:dark_gem_crushed>, <botania:manaresource:1>]
     ]);
 
+recipes.remove(<evilcraft:promise>);
+recipes.addShaped("promise t1", <evilcraft:promise>, [
+    [<ore:materialBowlOfPromises0>, <evilcraft:promise_acceptor>], 
+    [<astralsorcery:itemrockcrystalsimple>, null]
+    ]);
+
+recipes.remove(<evilcraft:promise:1>);
+recipes.addShaped("promise t2", <evilcraft:promise:1>, [
+    [<ore:materialBowlOfPromises1>, <evilcraft:promise_acceptor:1>], 
+    [<astralsorcery:itemcelestialcrystal>, null]
+    ]);
+
+recipes.remove(<evilcraft:promise:2>);
+recipes.addShaped("promise t3", <evilcraft:promise:2>, [
+    [<ore:materialBowlOfPromises2>, <evilcraft:promise_acceptor:2>], 
+    [<psi:material:2>, null]
+    ]);
+
+recipes.remove(<evilcraft:inverted_potentia>);
+recipes.addShaped("inv potentia", <evilcraft:inverted_potentia>, [
+    [null, <evilcraft:dark_power_gem>, null],
+    [<ore:ingotPsi>, <evilcraft:potentia_sphere>, <ore:ingotPsi>],
+    [null, <evilcraft:dark_power_gem>, null]
+    ]);
+
+recipes.remove(<evilcraft:biome_extract>);
+recipes.addShaped("biome bottle", <evilcraft:biome_extract>, [
+    [null, <evilcraft:undead_plank>, null],
+    [<botania:managlass>, <evilcraft:weather_container>, <botania:managlass>],
+    [<botania:managlass>, <botania:managlass>, <botania:managlass>]
+    ]);
+
+recipes.remove(<evilcraft:sanguinary_environmental_accumulator>);
+recipes.addShaped("environmental accumulator", <evilcraft:sanguinary_environmental_accumulator>, [
+    [<evilcraft:dark_blood_brick>, <industrialforegoing:laser_lens_inverted:14>, <evilcraft:dark_blood_brick>],
+    [<psi:psi_decorative:1>, <evilcraft:environmental_accumulation_core>, <psi:psi_decorative:1>],
+    [<evilcraft:dark_blood_brick>, <evilcraft:blood_infusion_core>, <evilcraft:dark_blood_brick>]
+    ]);
+
+
 /*
 recipes.addShaped("dark gem gear", <jaopca:item_geardark>, [
     [<immersiveengineering:material:2>, <evilcraft:dark_gem>, <immersiveengineering:material:2>], 
@@ -34,12 +76,15 @@ recipes.addShaped("dark gem gear", <jaopca:item_geardark>, [
     ]);
 */
 
+
 /*=========================
 Blood Infuser
 (inputIngredient, inputFluid, tier, outputStack, duration, xp) 
 =========================*/
 mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<minecraft:redstone>);
-mods.evilcraft.BloodInfuser.addRecipe(starmetalOre, <liquid:evilcraftblood> * 1250, 1, starmetalIngot, 50, 10);
-mods.evilcraft.BloodInfuser.addRecipe(<ore:dustAstralStarmetal>, <liquid:evilcraftblood> * 1500, 1, starmetalIngot, 50, 10);
-mods.evilcraft.BloodInfuser.addRecipe(<minecraft:redstone_ore>, <liquid:evilcraftblood> * 10000, 2, <thermalfoundation:ore_fluid:2>, 100, 30);
+mods.evilcraft.BloodInfuser.removeRecipesWithOutput(<evilcraft:undead_sapling>);
+mods.evilcraft.BloodInfuser.addRecipe(starmetalOre, <liquid:evilcraftblood> * 1250, 1, starmetalIngot, 80, 6);
+mods.evilcraft.BloodInfuser.addRecipe(<ore:dustAstralStarmetal>, <liquid:evilcraftblood> * 1500, 1, starmetalIngot, 80, 6);
+mods.evilcraft.BloodInfuser.addRecipe(<minecraft:redstone_ore>, <liquid:evilcraftblood> * 10000, 2, <thermalfoundation:ore_fluid:2>, 100, 6);
 mods.evilcraft.BloodInfuser.addRecipe(<evilcraft:dull_dust>, <liquid:evilcraftblood> * 100, 1, <minecraft:redstone>, 40, 2);
+mods.evilcraft.BloodInfuser.addRecipe(<botania:manaresource:3>, <liquid:evilcraftblood> * 2000, 0, <evilcraft:undead_sapling>, 90, 5);

@@ -31,3 +31,13 @@ platslurry.register();
 
 var scrapelec = VanillaFactory.createBlock("scrapelec", <blockmaterial:rock>);
 scrapelec.register();
+
+var holylog = VanillaFactory.createBlock("holylog", <blockmaterial:wood>);
+holylog.setLightValue(3);
+holylog.setToolClass("axe");
+holylog.register();
+
+var holyplank = VanillaFactory.createBlock("holyplank", <blockmaterial:wood>);
+holyplank.setLightValue(3);
+holyplank.setToolClass("axe");
+holyplank.register();

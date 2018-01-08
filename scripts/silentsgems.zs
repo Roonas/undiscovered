@@ -1,6 +1,9 @@
 var healthElixer = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]});
 
 <ore:chaosGem>.add(<silentgems:chaosgem:*>);
+
+recipes.remove(<silentgems:craftingmaterial:21>);
+
 /*=========================
 Recipe Changes - Silents
 =========================*/

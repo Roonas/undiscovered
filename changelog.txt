@@ -1,6 +1,9 @@
 2.0.0
 --------
-Removed applied fluidicts from questbook
+Removed applied fluidicts quest from questbook
+Lots of changes to recipes for magic mods, like a lot, pretty much everything
+Added jei descriptions for psi materials & some other random items
+Nerfed endoflame
 
 Updated Mods:
 Calculator

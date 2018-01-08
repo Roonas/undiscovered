@@ -7,15 +7,11 @@ var glassLens = <astralsorcery:itemcraftingcomponent:3>;
 var psimetalIngot = <psi:material:1>;
 var platinumIngot = <thermalfoundation:material:134>;
 
+mods.jei.JEI.addDescription(<astralsorcery:itemcelestialcrystal>, "Crafted by dropping a rock crystal and stardust into liquid starlight, then allowing the resulting celestial crystal cluster to fully grow.");
+
 /*=========================
 Recipe Changes - Astral
 =========================*/
-
-recipes.addShaped("light well", <astralsorcery:blockwell>, [
-    [<ore:blockMarble>, aquamarine, <ore:blockMarble>], 
-    [<ore:blockMarble>, psiDust, <ore:blockMarble>], 
-    [<ore:blockMarble>, <ore:blockMarble>, <ore:blockMarble>]
-    ]);
 
 recipes.addShapeless("starmetal ingot", <astralsorcery:itemcraftingcomponent:1>, [
     starmetalOre, <botania:smeltrod>.giveBack()
@@ -50,8 +46,15 @@ mods.astralsorcery.StarlightInfusion.addInfusion(<evilcraft:vengeance_focus>, <e
 mods.astralsorcery.StarlightInfusion.addInfusion(<minecraft:glowstone_dust>, <thermalfoundation:material:894>, false, 0.2, 200);
 
 /*=========================
-Discovery Altar (Luminous Altar)
+Discovery Altar (Luminous Altar) 3x3
 =========================*/
+mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blockwell>, 0);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<astralsorcery:blockwell>, 100, 60, [
+    <ore:blockMarble>, null, <ore:blockMarble>, 
+    aquamarine, psiDust, aquamarine, 
+    <ore:blockMarble>, <ore:blockMarble>, <ore:blockMarble>
+    ]);
+
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<extrautils2:endershard>*8, 100, 60, [
     <evilcraft:dark_spike>, <evilcraft:dark_spike>, <evilcraft:dark_spike>, 
     <evilcraft:dark_spike>, <minecraft:ender_pearl>, <evilcraft:dark_spike>,  
@@ -60,7 +63,7 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<extrautils2:endershard>*8, 100
 
 
 /*=========================
-Attunment Altar (Starlight Altar)
+Attunment Altar (Starlight Altar) 3x3 + 4
 =========================*/
 mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blocklens>, 1);
 mods.astralsorcery.Altar.addAttunmentAltarRecipe(<astralsorcery:blocklens>, 500, 100, [
@@ -85,4 +88,36 @@ mods.astralsorcery.Altar.addAttunmentAltarRecipe(<extrautils2:redorchid>, 500, 1
     null, <ore:redstoneRoot>, null, 
     <ore:crystalRedstone>, <ore:crystalRedstone>, 
     null, null
+    ]);
+
+mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blockaltar:2>, 1);
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<astralsorcery:blockaltar:2>, 500, 100, [
+    <astralsorcery:itemrockcrystalsimple>, null, <astralsorcery:itemrockcrystalsimple>, 
+    <contenttweaker:holylog>, <contenttweaker:holylog>, <contenttweaker:holylog>, 
+    <ore:blockMarble>, <ore:gemPsi>, <ore:blockMarble>, 
+    <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, 
+    <ore:blockMarble>, <ore:blockMarble>
+    ]);
+
+mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blockattunementaltar>, 1);
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<astralsorcery:blockattunementaltar>, 500, 100, [
+    null, <evilcraft:dark_power_gem_block>, null, 
+    <ore:ingotAstralStarmetal>, <astralsorcery:blockattunementrelay>, <ore:ingotAstralStarmetal>, 
+    <contenttweaker:holylog>, <contenttweaker:holylog>, <contenttweaker:holylog>, 
+    <astralsorcery:itemrockcrystalsimple>, <astralsorcery:itemrockcrystalsimple>, 
+    <ore:blockMarble>, <ore:blockMarble>
+    ]);
+
+/*=========================
+Constellation Altar (Celestial Altar) 3x3 + 12
+=========================*/
+mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blockaltar:3>, 2);
+mods.astralsorcery.Altar.addConstellationAltarRecipe(<astralsorcery:blockaltar:3>, 2000, 100, [
+    <contenttweaker:holylog>, <astralsorcery:itemcraftingcomponent:3>, <contenttweaker:holylog>,
+    <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemtunedcelestialcrystal>, <astralsorcery:itemcraftingcomponent:4>,
+    <psi:psi_decorative:7>, <evilcraft:environmental_accumulation_core>, <psi:psi_decorative:7>,
+    <ore:blockMarble>, <ore:blockMarble>,
+    <ore:blockMarble>, <ore:blockMarble>,
+    <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <ore:eternalLifeEssence>, <ore:eternalLifeEssence>,
+    <ore:eternalLifeEssence>, <ore:eternalLifeEssence>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>
     ]);
