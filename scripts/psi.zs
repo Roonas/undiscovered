@@ -35,5 +35,5 @@ recipes.remove(<psi:cad_assembly:2>);
 recipes.addShaped("psimetal cad", <psi:cad_assembly:2>, [
     [null, null, null],
     [<ore:ingotPsi>, <ore:ingotPsi>, <ore:ingotPsi>],
-    [<ore:ingotPsi>, <botania:rune:8>, null]
+    [<ore:ingotPsi>, <ore:runeWrathB>, null]
     ]);

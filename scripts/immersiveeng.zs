@@ -164,6 +164,14 @@ recipes.addShaped(<immersiveengineering:metal_device0:1>, [
     [<immersiveengineering:treated_wood>, <ore:blockRedstone>, <immersiveengineering:treated_wood>]
     ]);
 
+recipes.remove(<immersiveengineering:metal_device1:13>);
+recipes.addShaped("cloche", <immersiveengineering:metal_device1:13>, [
+    [<thermalfoundation:glass:3>, <immersiveengineering:material:26>, <thermalfoundation:glass:3>],
+    [<thermalfoundation:glass:3>, <randomthings:fertilizeddirt>, <thermalfoundation:glass:3>], 
+    [<immersiveengineering:treated_wood>, <immersiveengineering:material:9>, <immersiveengineering:treated_wood>]
+    ]);
+
+
 
 
 

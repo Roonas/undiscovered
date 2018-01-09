@@ -1,10 +1,15 @@
 var polishedStone = <extrautils2:decorativesolid:2>;
 var endoflame = <botania:specialflower>.withTag({type: "endoflame"});
+var rockyTungsten = <magneticraft:rocky_chunks:5>;
+var manaSteel = <botania:manaresource>;
+var manaPearl = <botania:manaresource:1>;
 
 //<ore:elfForest>.add(<evilcraft:biome_extract:1>.withTag({biomeKey: "minecraft:birch_forest"}));
 //<ore:elfForest>.add(<evilcraft:biome_extract:1>.withTag({biomeKey: "minecraft:roofed_forest"}));
 //<ore:elfForest>.add(<evilcraft:biome_extract:1>.withTag({biomeKey: "minecraft:mutated_forest"}));
 <ore:listAllmushroom>.add(<botania:mushroom:*>);
+
+recipes.remove(<botania:felpumpkin>);
 
 /*=========================
 Recipe Changes - Botania
@@ -78,6 +83,15 @@ recipes.addShaped("gaia pylon", <botania:pylon:2>, [
     [<botania:manaresource:7>, <psi:psi_decorative:8>, <botania:manaresource:7>]
     ]);
 
+recipes.remove(<botania:conjurationcatalyst>);
+recipes.addShaped("mana conjuration", <botania:conjurationcatalyst>, [
+    [<psi:psi_decorative:8>, <astralsorcery:itemshiftingstar>, <psi:psi_decorative:8>], 
+    [<botania:manaresource:7>, <botania:alchemycatalyst>, <botania:manaresource:7>], 
+    [<psi:psi_decorative:8>, <ore:runeEnvyB>, <psi:psi_decorative:8>]
+    ]);
+
+
+
 /*=========================
 Pure Daisy
 =========================*/
@@ -97,4 +111,28 @@ mods.botania.Apothecary.addRecipe(endoflame, [<botania:petal:14>, <botania:petal
 /*=========================
 Mana Pool
 =========================*/
-mods.botania.ManaInfusion.addInfusion(<silentgems:craftingmaterial:21>, <evilcraft:golden_string>, 500);
+mods.botania.ManaInfusion.removeRecipe(manaSteel);
+mods.botania.ManaInfusion.removeRecipe(manaPearl);
+mods.botania.ManaInfusion.addInfusion(<silentgems:craftingmaterial:21>, <evilcraft:golden_string>, 700);
+mods.botania.ManaInfusion.addInfusion(manaSteel, <immersiveengineering:metal:8>, 4000);
+mods.botania.ManaInfusion.addInfusion(manaSteel * 2, <thermalfoundation:material:134>, 2000);
+mods.botania.ManaInfusion.addInfusion(manaPearl, <randomthings:stableenderpearl>, 2000);
+
+/*=========================
+Mana Pool - Conjuration
+=========================*/
+mods.botania.ManaInfusion.addConjuration(<magneticraft:chunks:5> * 2, rockyTungsten, 7000);
+mods.botania.ManaInfusion.addConjuration(<psi:material:2>, <botania:manaresource:2>, 1000);
+mods.botania.ManaInfusion.addConjuration(<psi:material:1>, <botania:manaresource>, 1000);
+
+/*=========================
+Elven Trade
+=========================*/
+mods.botania.ElvenTrade.removeRecipe(<botania:dreamwood>);
+mods.botania.ElvenTrade.removeRecipe(<minecraft:iron_ingot>);
+mods.botania.ElvenTrade.removeRecipe(<minecraft:ender_pearl>);
+mods.botania.ElvenTrade.removeRecipe(<minecraft:diamond>);
+mods.botania.ElvenTrade.addRecipe([<botania:dreamwood>], [<contenttweaker:holylog>]);
+mods.botania.ElvenTrade.addRecipe([<immersiveengineering:metal:8>], [<minecraft:iron_ingot>]);
+mods.botania.ElvenTrade.addRecipe([<randomthings:stableenderpearl>], [<minecraft:ender_pearl>]);
+mods.botania.ElvenTrade.addRecipe([<calculator:enddiamond>], [<minecraft:diamond>]);

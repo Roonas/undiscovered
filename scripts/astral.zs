@@ -9,6 +9,8 @@ var platinumIngot = <thermalfoundation:material:134>;
 
 mods.jei.JEI.addDescription(<astralsorcery:itemcelestialcrystal>, "Crafted by dropping a rock crystal and stardust into liquid starlight, then allowing the resulting celestial crystal cluster to fully grow.");
 
+mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blockmachine:1>, 0);
+
 /*=========================
 Recipe Changes - Astral
 =========================*/
@@ -118,6 +120,12 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe(<astralsorcery:blockaltar:3
     <psi:psi_decorative:7>, <evilcraft:environmental_accumulation_core>, <psi:psi_decorative:7>,
     <ore:blockMarble>, <ore:blockMarble>,
     <ore:blockMarble>, <ore:blockMarble>,
-    <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <ore:eternalLifeEssence>, <ore:eternalLifeEssence>,
+    <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <ore:runeAirB>, <ore:runePrideB>,
     <ore:eternalLifeEssence>, <ore:eternalLifeEssence>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>
     ]);
+
+/*=========================
+Grindstone
+=========================*/
+//mods.astralsorcery.Grindstone.removeReipce(<calculator:enrichedgold>);
+//mods.astralsorcery.Grindstone.removeReipce(<thermalfoundation:material:64>);

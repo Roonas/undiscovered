@@ -41,3 +41,10 @@ recipes.removeShapeless(<minecraft:ghast_tear>);
 recipes.addShapeless(<minecraft:ghast_tear>, [
     <xreliquary:mob_ingredient:3>, <randomthings:ingredient:2>, <xreliquary:mob_ingredient:3>, <randomthings:ingredient:2>
     ]);
+
+recipes.remove(<randomthings:stableenderpearl>);
+recipes.addShaped("stable pearl", <randomthings:stableenderpearl>, [
+    [null, <ore:gemDark>, null], 
+    [<ore:gemLapis>, <minecraft:ender_pearl>, <ore:gemLapis>], 
+    [null, <ore:gemDark>, null]
+    ]);

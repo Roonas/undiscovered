@@ -88,3 +88,4 @@ mods.evilcraft.BloodInfuser.addRecipe(<ore:dustAstralStarmetal>, <liquid:evilcra
 mods.evilcraft.BloodInfuser.addRecipe(<minecraft:redstone_ore>, <liquid:evilcraftblood> * 10000, 2, <thermalfoundation:ore_fluid:2>, 100, 6);
 mods.evilcraft.BloodInfuser.addRecipe(<evilcraft:dull_dust>, <liquid:evilcraftblood> * 100, 1, <minecraft:redstone>, 40, 2);
 mods.evilcraft.BloodInfuser.addRecipe(<botania:manaresource:3>, <liquid:evilcraftblood> * 2000, 0, <evilcraft:undead_sapling>, 90, 5);
+mods.evilcraft.BloodInfuser.addRecipe(<minecraft:lit_pumpkin>, <liquid:evilcraftblood> * 5000, 1, <botania:felpumpkin>, 90, 5);

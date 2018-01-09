@@ -8,6 +8,7 @@ mods.jei.JEI.addDescription(<contenttweaker:lostcityportal>, "The portal to the 
 mods.jei.JEI.addDescription(<appliedenergistics2:material:45>, "Needs a steel hammer to be crafted on the crushing table.");
 
 <ore:brokenPlate>.add(<scrap:broken.plate:*>);
+<ore:plankWood>.add(<contenttweaker:holyplank>);
 //<ore:framechests>.add(<bibliocraft:framedchest:*>);
 <cookingforblockheads:sink>.addTooltip("Needs water pumped in");
 

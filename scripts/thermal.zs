@@ -228,6 +228,13 @@ recipes.addShaped(<thermalexpansion:frame:128>, [
     [<thermalfoundation:material:135>, <thermalfoundation:material:515>, <thermalfoundation:material:135>]
     ]);
 
+recipes.addShaped("rich slag", <thermalfoundation:material:865>, [
+    [<thermalfoundation:material:771>, <immersiveengineering:material:7>, <thermalfoundation:material:771>],
+    [<thermalfoundation:material:771>, <immersiveengineering:material:7>, <thermalfoundation:material:771>],
+    [<calculator:soil>, <calculator:soil>, <calculator:soil>]
+    ]);
+
+
 
 
 /*=========================

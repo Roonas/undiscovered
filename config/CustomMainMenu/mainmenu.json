@@ -37,7 +37,7 @@
             "posY" : -110,
             "width" : 151,
             "height" : 94,
-            "texture" : "custommainmenu:textures/gui/warning.png",
+            "texture" : "custommainmenu:textures/gui/warning2.png",
             "alignment" : "bottom_right",
             "action" : 
             {
