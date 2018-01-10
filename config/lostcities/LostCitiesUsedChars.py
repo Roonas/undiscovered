@@ -15,23 +15,33 @@ with open('library.json') as json_data:
 for entry in dataPal:
     if(entry.get('palette')):
         for things in entry['palette']:
-            #print(things['char'])
+            #print(things)
+            if(things.get('frompalette')):
+                continue
             if not(things['char'] in charlist):
+                if(things.get('block')):
+                    print('{} - {}'.format(things['char'], things['block']))
+                else:
+                    print('{} - RNG({}% {})'.format(things['char'], things['blocks'][0]['random'], things['blocks'][0]['block']))
                 charlist.append(str(things['char']))
             
 
 for entry in dataLib:
     if(entry.get('palette')):
         for things in entry['palette']:
-            #print(things['char'])
+            #print(things)
             if not(things['char'] in charlist):
+                if(things.get('block')):
+                    print('{} - {}'.format(things['char'], things['block']))
+                else:
+                    print('{} - RNG({}% {})'.format(things['char'], things['blocks'][0]['random'], things['blocks'][0]['block']))
                 charlist.append(str(things['char']))
 
 charlist = sorted(charlist)
 
 with open('used_chars.txt', 'w') as fileused:
     for element in charlist:
-        print(element)
+        #print(element)
         fileused.write(element)
         fileused.write('\n')
     fileused.close()
