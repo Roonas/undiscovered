@@ -8,14 +8,13 @@ Nerfed cloche
 Added new custom block (glowing wood made by purifying undead logs)
 Removed AS grindstone (caused quite a few unintended progression skips)
 Changed AE2 warning text
-
 Updated Mods:
-Calculator
-Sonar Core
-Removed Applied Llamagistics
-Removed Applied fluidics
-Added Applied Energistics
-Added Extra Cells
+* Calculator
+* Sonar Core
+* Removed Applied Llamagistics
+* Removed Applied fluidics
+* Added Applied Energistics
+* Added Extra Cells
 
 1.8.0
 ----------
@@ -30,6 +29,23 @@ Made iron spikes recipe easier
 Added warning for applied llamagistics -> applied energistics switch over
 Removed basic flint tools from silent's gems
 Removed calc circuit storage chamber for being a buggy mess
+Updated Mods:
+* /dank/null - blocks make sounds when placed
+* B.A.S.E - fixes missing particle textures on custom blocks
+* Brandons Core
+* Chisel - fixes dupe bug
+* Content Tweaker
+* Draconic Evolution - reduce log spam
+* Extended Crafting
+* Extra Utils - makes gp loss from multiple gens more clear
+* Forestry
+* Immersive Engineering - many bug fixes
+* JEI
+* Mod Tweaker - botania support!
+* Natures Compass - removes cheaty teleportation
+* Silent Lib
+* Silents Gems - increased xp cost, fixed empty nbt spam
+* Rustic
 
 1.7.1
 ----------
