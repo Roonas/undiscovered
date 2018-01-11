@@ -61,6 +61,14 @@
         "block": "rustic:slate"
       },
       {
+        "char": "<",
+        "block": "mekanism:obsidiantnt"
+      },
+      {
+        "char": ">",
+        "block": "minecraft:stone_pressure_plate"
+      },
+      {
         "char": "H",
         "blocks": [
           {
@@ -237,16 +245,40 @@
             "block": "minecraft:sapling"
           },
           {
-            "random": 32,
+            "random": 20,
             "block": "minecraft:sapling@1"
           },
           {
-            "random": 32,
+            "random": 20,
             "block": "minecraft:sapling@2"
           },
           {
-            "random": 1000,
+            "random": 16,
             "block": "minecraft:sapling@4"
+          },
+          {
+            "random": 10,
+            "block": "traverse:orange_autumnal_sapling"
+          },
+          {
+            "random": 10,
+            "block": "rustic:sapling@1"
+          },
+          {
+            "random": 5,
+            "block": "harvestcraft:banana_sapling"
+          },
+          {
+            "random": 5,
+            "block": "harvestcraft:paperbark_sapling"
+          },
+          {
+            "random": 5,
+            "block": "harvestcraft:lemon_sapling"
+          },
+          {
+            "random": 5,
+            "block": "harvestcraft:avocado_sapling"
           }
         ]
       },
@@ -285,6 +317,38 @@
           {
             "random": 64,
             "block": "minecraft:red_flower"
+          },
+          {
+            "random": 10,
+            "block": "minecraft:red_flower@6"
+          },
+          {
+            "random": 10,
+            "block": "botany:plant@3"
+          },
+          {
+            "random": 8,
+            "block": "botania:flower@5"
+          },
+          {
+            "random": 8,
+            "block": "botania:flower@15"
+          },
+          {
+            "random": 8,
+            "block": "botania:flower@9"
+          },
+          {
+            "random": 8,
+            "block": "botania:flower@2"
+          },
+          {
+            "random": 6,
+            "block": "botania:shinyflower@6"
+          },
+          {
+            "random": 6,
+            "block": "botania:shinyflower@10"
           },
           {
             "random": 1000,
@@ -2023,7 +2087,7 @@
         "        W       ",
         "                ",
         "                ",
-        "  w           w ",
+        " w            w ",
         "                ",
         "                ",
         " w  w      w  w ",

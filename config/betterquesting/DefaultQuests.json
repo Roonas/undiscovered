@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": false,
+      "editmode": true,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -1335,9 +1335,9 @@
             "OreDict": "",
             "Damage": 2,
             "tag": {
-              "astralsorcery": {
-                "lvl": 2,
-                "exp": 0
+              "astralsorcery:10": {
+                "lvl:4": 2,
+                "exp:4": 0
               }
             }
           },
@@ -1365,9 +1365,9 @@
               "OreDict": "",
               "Damage": 2,
               "tag": {
-                "astralsorcery": {
-                  "lvl": 2,
-                  "exp": 0
+                "astralsorcery:10": {
+                  "lvl:4": 2,
+                  "exp:4": 0
                 }
               }
             }
@@ -4383,7 +4383,7 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "Type": "extrautils2:generator_slime"
+              "Type:8": "extrautils2:generator_slime"
             }
           },
           "globalshare": false,
@@ -4410,7 +4410,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type": "extrautils2:generator_pink"
+                "Type:8": "extrautils2:generator_pink"
               }
             }
           ],
@@ -4430,7 +4430,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type": "extrautils2:generator_slime"
+                "Type:8": "extrautils2:generator_slime"
               }
             }
           ],
@@ -4450,7 +4450,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type": "extrautils2:generator_tnt"
+                "Type:8": "extrautils2:generator_tnt"
               }
             }
           ],
@@ -4470,7 +4470,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type": "extrautils2:generator_potion"
+                "Type:8": "extrautils2:generator_potion"
               }
             }
           ],
@@ -4499,7 +4499,7 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "Type": "extrautils2:generator_ender"
+              "Type:8": "extrautils2:generator_ender"
             }
           },
           "globalshare": false,
@@ -4526,7 +4526,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type": "extrautils2:generator_ender"
+                "Type:8": "extrautils2:generator_ender"
               }
             }
           ],
@@ -4546,7 +4546,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type": "extrautils2:generator_death"
+                "Type:8": "extrautils2:generator_death"
               }
             }
           ],
@@ -4566,7 +4566,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type": "extrautils2:generator_ice"
+                "Type:8": "extrautils2:generator_ice"
               }
             }
           ],
@@ -4586,7 +4586,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type": "extrautils2:generator_culinary"
+                "Type:8": "extrautils2:generator_culinary"
               }
             }
           ],
@@ -4615,7 +4615,7 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "Type": "extrautils2:generator_netherstar"
+              "Type:8": "extrautils2:generator_netherstar"
             }
           },
           "globalshare": false,
@@ -4642,7 +4642,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type": "extrautils2:generator_netherstar"
+                "Type:8": "extrautils2:generator_netherstar"
               }
             }
           ],
@@ -4662,7 +4662,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type": "extrautils2:generator_dragonsbreath"
+                "Type:8": "extrautils2:generator_dragonsbreath"
               }
             }
           ],
@@ -4682,7 +4682,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type": "extrautils2:generator_overclock"
+                "Type:8": "extrautils2:generator_overclock"
               }
             }
           ],
@@ -4901,7 +4901,7 @@
             "OreDict": "",
             "Damage": 14,
             "tag": {
-              "Data": 100
+              "Data:4": 100
             }
           },
           "globalshare": false,
@@ -4940,7 +4940,7 @@
               "OreDict": "",
               "Damage": 14,
               "tag": {
-                "Data": 100
+                "Data:4": 100
               }
             },
             {
@@ -5835,9 +5835,9 @@
               "OreDict": "",
               "Damage": 1,
               "tag": {
-                "Fluid": {
-                  "FluidName": "mithril",
-                  "Amount": 1000
+                "Fluid:10": {
+                  "FluidName:8": "mithril",
+                  "Amount:4": 1000
                 }
               }
             },
@@ -7091,8 +7091,8 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Facing": 3,
-                "Level": 0
+                "Facing:4": 3,
+                "Level:4": 0
               }
             },
             {
@@ -9940,7 +9940,7 @@
             "OreDict": "",
             "Damage": 2,
             "tag": {
-              "childDamage": 666
+              "childDamage:4": 666
             }
           },
           "globalshare": false,
@@ -10190,11 +10190,11 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "ElixirEffects": {
-                "10": {
-                  "Duration": 1,
-                  "Effect": "minecraft:instant_health",
-                  "Amplifier": 0
+              "ElixirEffects:10": {
+                "10:10": {
+                  "Effect:8": "minecraft:instant_health",
+                  "Duration:4": 1,
+                  "Amplifier:4": 0
                 }
               }
             }
@@ -10223,11 +10223,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ElixirEffects": {
+                "ElixirEffects:9": {
                   "10": {
-                    "Duration": 1,
-                    "Effect": "minecraft:instant_health",
-                    "Amplifier": 0
+                    "Duration:3": 1,
+                    "Effect:8": "minecraft:instant_health",
+                    "Amplifier:3": 0
                   }
                 }
               }
@@ -10249,11 +10249,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ElixirEffects": {
-                  "10": {
-                    "Duration": 3600,
-                    "Effect": "minecraft:night_vision",
-                    "Amplifier": 0
+                "ElixirEffects:10": {
+                  "10:10": {
+                    "Effect:8": "minecraft:night_vision",
+                    "Duration:4": 3600,
+                    "Amplifier:4": 0
                   }
                 }
               }
@@ -10340,11 +10340,11 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "ElixirEffects": {
-                "10": {
-                  "Duration": 3600,
-                  "Effect": "minecraft:fire_resistance",
-                  "Amplifier": 0
+              "ElixirEffects:10": {
+                "10:10": {
+                  "Effect:8": "minecraft:fire_resistance",
+                  "Duration:4": 3600,
+                  "Amplifier:4": 0
                 }
               }
             }
@@ -10373,11 +10373,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ElixirEffects": {
-                  "10": {
-                    "Duration": 3600,
-                    "Effect": "rustic:ironskin",
-                    "Amplifier": 0
+                "ElixirEffects:10": {
+                  "10:10": {
+                    "Effect:8": "rustic:ironskin",
+                    "Duration:4": 3600,
+                    "Amplifier:4": 0
                   }
                 }
               }
@@ -10399,11 +10399,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ElixirEffects": {
-                  "10": {
-                    "Duration": 3600,
-                    "Effect": "minecraft:fire_resistance",
-                    "Amplifier": 0
+                "ElixirEffects:10": {
+                  "10:10": {
+                    "Effect:8": "minecraft:fire_resistance",
+                    "Duration:4": 3600,
+                    "Amplifier:4": 0
                   }
                 }
               }
@@ -10464,8 +10464,8 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "FluidName": "ironberryjuice",
-                "Amount": 1000
+                "FluidName:8": "ironberryjuice",
+                "Amount:4": 1000
               }
             }
           ],
@@ -10685,7 +10685,7 @@
               "OreDict": "",
               "Damage": 2,
               "tag": {
-                "bullet": "casull"
+                "bullet:8": "casull"
               }
             },
             {
@@ -10720,10 +10720,10 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "head": {
-                "id": "immersiveengineering:drillhead",
-                "Count": 1,
-                "Damage": 0
+              "head:10": {
+                "Count:4": 1,
+                "id:8": "immersiveengineering:drillhead",
+                "Damage:4": 0
               },
               "SGProperties:10": {},
               "Fluid:10": {
@@ -10769,8 +10769,8 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "FluidName": "biodiesel",
-                "Amount": 1000
+                "FluidName:8": "biodiesel",
+                "Amount:4": 1000
               }
             }
           ],
@@ -11214,8 +11214,8 @@
             "OreDict": "",
             "Damage": 32000,
             "tag": {
-              "Water": 60000,
-              "Mode": 4
+              "Water:4": 60000,
+              "Mode:4": 4
             }
           },
           "globalshare": false,
@@ -11580,7 +11580,7 @@
             "OreDict": "",
             "Damage": 11,
             "tag": {
-              "tier": 4
+              "tier:4": 4
             }
           },
           "globalshare": false,
@@ -11607,7 +11607,7 @@
               "OreDict": "",
               "Damage": 11,
               "tag": {
-                "tier": 4
+                "tier:4": 4
               }
             }
           ],
@@ -11636,7 +11636,7 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "tier": 4
+              "tier:4": 4
             }
           },
           "globalshare": false,
@@ -11663,7 +11663,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "tier": 4
+                "tier:4": 4
               }
             }
           ],
@@ -12794,8 +12794,8 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "FluidName": "dblood",
-              "Amount": 1000
+              "FluidName:8": "dblood",
+              "Amount:4": 1000
             }
           },
           "globalshare": false,
@@ -12822,8 +12822,8 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "FluidName": "dblood",
-                "Amount": 1000
+                "FluidName:8": "dblood",
+                "Amount:4": 1000
               }
             }
           ],
@@ -13821,8 +13821,8 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "SGProperties": {},
-              "chaos_buff": "silentgems:capacity"
+              "SGProperties:10": {},
+              "chaos_buff:8": "silentgems:capacity"
             }
           },
           "globalshare": false,

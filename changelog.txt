@@ -1,5 +1,10 @@
+2.1.0
+----------
+Turned off forestry butterflies
+
+
 2.0.0
---------
+----------
 Lots of changes to recipes for magic mods, like a lot, pretty much everything
 Removed applied fluidicts quest from questbook
 Added jei descriptions for psi materials & some other random items

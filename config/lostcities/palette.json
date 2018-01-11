@@ -559,6 +559,27 @@
         "damaged": "minecraft:iron_bars"
       },
       {
+        "char": ";",
+        "blocks": [
+          {
+            "random": 75,
+            "block": "minecraft:stone_slab"
+          },
+          {
+            "random": 18,
+            "block": "immersiveengineering:stone_decoration_slab@6"
+          },
+          {
+            "random": 15,
+            "block": "appliedenergistics2:smooth_sky_stone_slab"
+          },
+          {
+            "random": 12,
+            "block": "rustic:slate_brick_slab_item"
+          }
+        ]
+      },
+      {
         "char": "_",
         "block": "minecraft:stone_slab"
       },
