@@ -1,8 +1,11 @@
 var polishedStone = <extrautils2:decorativesolid:2>;
-var endoflame = <botania:specialflower>.withTag({type: "endoflame"});
 var rockyTungsten = <magneticraft:rocky_chunks:5>;
 var manaSteel = <botania:manaresource>;
 var manaPearl = <botania:manaresource:1>;
+var endoflame = <botania:specialflower>.withTag({type: "endoflame"});
+var rafflowsia = <botania:specialflower>.withTag({type: "rafflowsia"});	
+var thermalily = <botania:specialflower>.withTag({type: "thermalily"});
+var spectrolus = <botania:specialflower>.withTag({type: "spectrolus"});
 
 //<ore:elfForest>.add(<evilcraft:biome_extract:1>.withTag({biomeKey: "minecraft:birch_forest"}));
 //<ore:elfForest>.add(<evilcraft:biome_extract:1>.withTag({biomeKey: "minecraft:roofed_forest"}));
@@ -106,7 +109,13 @@ mods.botania.PureDaisy.addRecipe(<evilcraft:undead_log>, <contenttweaker:holylog
 Apothecary
 =========================*/
 mods.botania.Apothecary.removeRecipe(endoflame);
-mods.botania.Apothecary.addRecipe(endoflame, [<botania:petal:14>, <botania:petal:4>, <botania:petal:12>, <botania:petal:12>, <botania:rune:1>, <botania:manaresource:8>]);
+//mods.botania.Apothecary.addRecipe(endoflame, [<ore:petalRed>, <ore:petalYellow>, <ore:petalBrown>, <ore:petalBrown>, <botania:rune:1>]);
+mods.botania.Apothecary.addRecipe(endoflame, [<botania:petal:14>, <botania:petal:4>, <botania:petal:12>, <botania:petal:12>, <botania:rune:1>]);
+mods.botania.Apothecary.removeRecipe(rafflowsia);
+mods.botania.Apothecary.addRecipe(rafflowsia, [<ore:petalPurple>, <ore:petalPurple>, <ore:petalBlack>, <ore:petalBlack>, <ore:petalGreen>, <ore:petalGreen>]);
+mods.botania.Apothecary.removeRecipe(thermalily);
+mods.botania.Apothecary.addRecipe(thermalily, [<ore:petalRed>, <ore:petalRed>, <ore:petalRed>, <ore:petalOrange>, <ore:petalOrange>]);
+mods.botania.Apothecary.removeRecipe(spectrolus);
 
 /*=========================
 Mana Pool
