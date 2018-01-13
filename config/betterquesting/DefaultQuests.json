@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": true,
+      "editmode": false,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -10190,11 +10190,11 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "ElixirEffects:10": {
-                "10:10": {
+              "ElixirEffects:9": {
+                "10": {
+                  "Duration:3": 1,
                   "Effect:8": "minecraft:instant_health",
-                  "Duration:4": 1,
-                  "Amplifier:4": 0
+                  "Amplifier:3": 0
                 }
               }
             }
@@ -10249,11 +10249,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ElixirEffects:10": {
-                  "10:10": {
+                "ElixirEffects:9": {
+                  "10": {
+                    "Duration:3": 3600,
                     "Effect:8": "minecraft:night_vision",
-                    "Duration:4": 3600,
-                    "Amplifier:4": 0
+                    "Amplifier:3": 0
                   }
                 }
               }
@@ -10340,11 +10340,11 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "ElixirEffects:10": {
-                "10:10": {
+              "ElixirEffects:9": {
+                "10": {
+                  "Duration:3": 3600,
                   "Effect:8": "minecraft:fire_resistance",
-                  "Duration:4": 3600,
-                  "Amplifier:4": 0
+                  "Amplifier:3": 0
                 }
               }
             }
@@ -10373,11 +10373,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ElixirEffects:10": {
-                  "10:10": {
-                    "Effect:8": "rustic:ironskin",
-                    "Duration:4": 3600,
-                    "Amplifier:4": 0
+                "ElixirEffects:9": {
+                  "10": {
+                    "Duration:3": 3600,
+                    "Effect:8": "minecraft:fire_resistance",
+                    "Amplifier:3": 0
                   }
                 }
               }
@@ -10399,11 +10399,11 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "ElixirEffects:10": {
-                  "10:10": {
-                    "Effect:8": "minecraft:fire_resistance",
-                    "Duration:4": 3600,
-                    "Amplifier:4": 0
+                "ElixirEffects:9": {
+                  "10": {
+                    "Duration:3": 3600,
+                    "Effect:8": "rustic:ironskin",
+                    "Amplifier:3": 0
                   }
                 }
               }
@@ -11607,7 +11607,8 @@
               "OreDict": "",
               "Damage": 11,
               "tag": {
-                "tier:4": 4
+                "tier:4": 4,
+                "mekData:10": {}
               }
             }
           ],
@@ -11663,7 +11664,8 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "tier:4": 4
+                "tier:4": 4,
+                "mekData:10": {}
               }
             }
           ],

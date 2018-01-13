@@ -109,13 +109,14 @@ mods.botania.PureDaisy.addRecipe(<evilcraft:undead_log>, <contenttweaker:holylog
 Apothecary
 =========================*/
 mods.botania.Apothecary.removeRecipe(endoflame);
-//mods.botania.Apothecary.addRecipe(endoflame, [<ore:petalRed>, <ore:petalYellow>, <ore:petalBrown>, <ore:petalBrown>, <botania:rune:1>]);
-mods.botania.Apothecary.addRecipe(endoflame, [<botania:petal:14>, <botania:petal:4>, <botania:petal:12>, <botania:petal:12>, <botania:rune:1>]);
+mods.botania.Apothecary.addRecipe(endoflame, [<ore:petalRed>, <ore:petalYellow>, <ore:petalBrown>, <ore:petalBrown>, <botania:rune:1>]);
+//mods.botania.Apothecary.addRecipe(endoflame, [<botania:petal:14>, <botania:petal:4>, <botania:petal:12>, <botania:petal:12>, <botania:rune:1>]);
 mods.botania.Apothecary.removeRecipe(rafflowsia);
 mods.botania.Apothecary.addRecipe(rafflowsia, [<ore:petalPurple>, <ore:petalPurple>, <ore:petalBlack>, <ore:petalBlack>, <ore:petalGreen>, <ore:petalGreen>]);
 mods.botania.Apothecary.removeRecipe(thermalily);
 mods.botania.Apothecary.addRecipe(thermalily, [<ore:petalRed>, <ore:petalRed>, <ore:petalRed>, <ore:petalOrange>, <ore:petalOrange>]);
 mods.botania.Apothecary.removeRecipe(spectrolus);
+mods.botania.Apothecary.addRecipe(spectrolus, [<ore:petalOrange>, <ore:petalMagenta>, <ore:petalYellow>, <ore:petalLime>, <ore:petalPink>, <ore:petalGrey>, <ore:petalCyan>, <ore:petalPurple>, <ore:petalBlue>, <ore:petalBrown>, <ore:petalGreen>, <ore:petalRed>]);
 
 /*=========================
 Mana Pool

@@ -147,3 +147,8 @@ furnace.addRecipe(<mekanism:ingot:1>, <magneticraft:dusts:11>, 2);
 <ore:oreAluminum>.remove(<thermalfoundation:ore:4>);
 <ore:oreNickel>.remove(<immersiveengineering:ore:4>);
 <ore:oreFoolsGold>.add(<magneticraft:ores:4>);
+
+
+<ore:gemBrick>.add(<silentgems:gembrickcoated:*>);
+<ore:gemBrick>.add(<silentgems:gembrickcoateddark:*>);
+<ore:gemBrick>.add(<silentgems:gembrickcoatedlight:*>);

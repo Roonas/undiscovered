@@ -1,6 +1,12 @@
-2.1.0
+2.0.1
 ----------
-Turned off forestry butterflies
+Downgraded journey maps for being extra crashy on servers
+Fixed kiln bricks being too picky about gems used for crafting
+Fixed rustic potion quests not detecting
+Turned max butterflies down to 3 (yes 3 total, screw you butterflies)
+Added some more flowers to the cities
+Made endoflame slightly easier to craft
+Made rafflowsia, thermalily, and spectrolus much easier to craft (not forced to start with hydroangeas)
 
 
 2.0.0

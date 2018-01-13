@@ -70,8 +70,8 @@ recipes.addShaped("blast brick", blastBrick * 9, [
 
 recipes.remove(kilnBrick);
 recipes.addShaped("kiln brick", kilnBrick, [
-    [<silentgems:gembrickcoated:*>, <immersiveengineering:material:6>], 
-    [<minecraft:brick>, <silentgems:gembrickcoated:*>]
+    [<ore:gemBrick>, <immersiveengineering:material:6>], 
+    [<minecraft:brick>, <ore:gemBrick>]
     ]);
 
 //recipes.removeShapeless(copperGrit);

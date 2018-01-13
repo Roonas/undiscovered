@@ -238,7 +238,32 @@
         "block": "minecraft:glass"
       },
       {
+        "char": "?",
+        "block": "botania:altgrass@2"
+      },
+      {
         "char": "P",
+        "blocks": [
+          {
+            "random": 32,
+            "block": "minecraft:sapling"
+          },
+          {
+            "random": 32,
+            "block": "minecraft:sapling@1"
+          },
+          {
+            "random": 32,
+            "block": "minecraft:sapling@2"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:sapling@4"
+          }
+        ]
+      },
+      {
+        "char": "^",
         "blocks": [
           {
             "random": 32,
