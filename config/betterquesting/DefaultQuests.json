@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": false,
+      "editmode": true,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -5684,7 +5684,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -5697,7 +5697,7 @@
           "questlogic": "OR",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
+          "autoclaim": true,
           "ismain": true,
           "name": "Charged Metal",
           "desc": "(Only one task needed to complete quest) This rather strange metal seems to difficult to process without a great deal of power used to first excite the metal."

@@ -77,6 +77,12 @@ recipes.addShaped(<mekanism:machineblock2:11>, [
     [<jaopca:item_sticklead>, <ore:ingotAluminium>, <jaopca:item_sticklead>]
     ]);
 
+recipes.addShaped("cheap plastic block", <mekanism:plasticblock:7>, [
+    [<industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>],
+    [<industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>], 
+    [<industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>]
+    ]);
+
 
 /*=========================
 Crusher

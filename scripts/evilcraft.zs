@@ -4,6 +4,8 @@ var starmetalIngot = <astralsorcery:itemcraftingcomponent:1>;
 
 <ore:logWood>.remove(<evilcraft:undead_log>);
 
+mods.jei.JEI.addDescription(<evilcraft:inverted_potentia:1>, "Created by when inverted potentia is struck by lightning or thrown on an environmental accumulator during a thunder storm. (Check Psi smite trick or Evilcraft Sceptre of Thunder)");
+
 /*=========================
 Recipe Changes - Evilcraft
 =========================*/

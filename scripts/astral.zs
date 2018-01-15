@@ -127,5 +127,15 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe(<astralsorcery:blockaltar:3
 /*=========================
 Grindstone
 =========================*/
-//mods.astralsorcery.Grindstone.removeReipce(<calculator:enrichedgold>);
-//mods.astralsorcery.Grindstone.removeReipce(<thermalfoundation:material:64>);
+mods.astralsorcery.Grindstone.removeReipce(<calculator:enrichedgold>);
+mods.astralsorcery.Grindstone.removeReipce(<thermalfoundation:material:64>);
+mods.astralsorcery.Grindstone.removeReipce(<thermalfoundation:material>);
+mods.astralsorcery.Grindstone.removeReipce(<thermalfoundation:material:1>);
+mods.astralsorcery.Grindstone.removeReipce(<thermalfoundation:material:68>);
+mods.astralsorcery.Grindstone.removeReipce(<draconicevolution:draconium_dust>);
+mods.astralsorcery.Grindstone.removeReipce(<thermalfoundation:material:72>);
+mods.astralsorcery.Grindstone.removeReipce(<thermalfoundation:material:71>);
+mods.astralsorcery.Grindstone.removeReipce(<appliedenergistics2:material:2>);
+mods.astralsorcery.Grindstone.removeReipce(<magneticraft:dusts:5>);
+mods.astralsorcery.Grindstone.removeReipce(<astralsorcery:itemcraftingcomponent:2>);
+mods.astralsorcery.Grindstone.removeReipce(<astralsorcery:itemcraftingcomponent:2>);

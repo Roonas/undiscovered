@@ -1,3 +1,10 @@
+2.1.0
+----------
+Fixed quest logic for charged metal quest
+Added jei info for creating charged potentia
+Added AS grindstone back minus some metal recipes
+Added cheaper version of mek plastic blocks (sorta flat colored blocks replacement)
+
 2.0.1
 ----------
 Downgraded journey maps for being extra crashy on servers
