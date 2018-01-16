@@ -242,6 +242,10 @@
         "block": "botania:altgrass@2"
       },
       {
+        "char": ",",
+        "block": "randomthings:contactbutton"
+      },
+      {
         "char": "P",
         "blocks": [
           {

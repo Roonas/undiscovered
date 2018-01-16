@@ -522,10 +522,6 @@
         ]
       },
       {
-        "char": "O",
-        "block": "minecraft:stained_hardened_clay@2"
-      },
-      {
         "char": "R",
         "block": "minecraft:stained_hardened_clay@9",
         "damaged": "minecraft:iron_bars"
