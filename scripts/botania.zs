@@ -12,6 +12,8 @@ var spectrolus = <botania:specialflower>.withTag({type: "spectrolus"});
 //<ore:elfForest>.add(<evilcraft:biome_extract:1>.withTag({biomeKey: "minecraft:mutated_forest"}));
 <ore:listAllmushroom>.add(<botania:mushroom:*>);
 
+<botania:terrapick>.addTooltip("Cobalt Level");
+
 recipes.remove(<botania:felpumpkin>);
 
 /*=========================

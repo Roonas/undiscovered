@@ -49,8 +49,73 @@
         ]
       },
       {
-        "char": "Y",
-        "block": "minecraft:wool@5"
+        "char": "{",
+        "block": "silentgems:gembrickspeckledlight@3"
+      },
+      {
+        "char": "}",
+        "block": "silentgems:chaosnode"
+      },
+      {
+        "char": "[",
+        "block": "minecraft:farmland"
+      },
+      {
+        "char": "]",
+        "blocks": [
+          {
+            "random": 18,
+            "block": "harvestcraft:pamsweetpotatocrop@1"
+          },
+          {
+            "random": 18,
+            "block": "harvestcraft:pamturnipcrop"
+          },
+          {
+            "random": 14,
+            "block": "harvestcraft:pampineapplecrop@3"
+          },
+          {
+            "random": 16,
+            "block": "harvestcraft:pamryecrop@2"
+          },
+          {
+            "random": 18,
+            "block": "harvestcraft:pampeanutcrop"
+          },
+          {
+            "random": 15,
+            "block": "harvestcraft:pamstrawberrycrop@2"
+          },
+          {
+            "random": 18,
+            "block": "harvestcraft:pamtomatocrop@3"
+          }      
+        ]
+      },
+      {
+        "char": "δ",
+        "block": "minecraft:water@1"
+      },
+      {
+        "char": "ε",
+        "block": "minecraft:water@2"
+      },
+      {
+        "char": "ε",
+        "block": "minecraft:water@2"
+      },
+      {
+        "char": "ζ",
+        "block": "minecraft:water@8"
+      },
+      {
+        "char": "γ",
+        "block": "minecraft:lava@1"
+      },
+      {
+        "char": "β",
+        "block": "minecraft:lava@8"
       },
       {
         "char": "U",
@@ -263,51 +328,6 @@
           {
             "random": 1000,
             "block": "minecraft:sapling@4"
-          }
-        ]
-      },
-      {
-        "char": "^",
-        "blocks": [
-          {
-            "random": 32,
-            "block": "minecraft:sapling"
-          },
-          {
-            "random": 20,
-            "block": "minecraft:sapling@1"
-          },
-          {
-            "random": 20,
-            "block": "minecraft:sapling@2"
-          },
-          {
-            "random": 16,
-            "block": "minecraft:sapling@4"
-          },
-          {
-            "random": 10,
-            "block": "traverse:orange_autumnal_sapling"
-          },
-          {
-            "random": 10,
-            "block": "rustic:sapling@1"
-          },
-          {
-            "random": 5,
-            "block": "harvestcraft:banana_sapling"
-          },
-          {
-            "random": 5,
-            "block": "harvestcraft:paperbark_sapling"
-          },
-          {
-            "random": 5,
-            "block": "harvestcraft:lemon_sapling"
-          },
-          {
-            "random": 5,
-            "block": "harvestcraft:avocado_sapling"
           }
         ]
       },

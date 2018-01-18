@@ -6,6 +6,8 @@ mods.jei.JEI.addDescription(<psi:material:2>, "Created by shooting diamonds with
 mods.jei.JEI.addDescription(<psi:material:5>, "Created by shooting coal with the ebony & ivory trick while in the end");
 mods.jei.JEI.addDescription(<psi:material:6>, "Created by shooting nether quartz with the ebony & ivory trick while in the end");
 
+<psi:psimetal_pickaxe>.addTooltip("Cobalt Level");
+
 /*=========================
 Recipe Changes - Psi
 =========================*/

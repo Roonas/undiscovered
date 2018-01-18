@@ -13904,7 +13904,7 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "contenttweaker:crown",
+            "id": "minecraft:nether_star",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -13915,21 +13915,32 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The sadly outdated",
-          "desc": "This whole section needs to be rewritten with the updated magic progression. Version 2.1 hype?"
+          "name": "Questy",
+          "desc": "No Description"
         }
       },
       "tasks": [
         {
-          "taskID": "bq_standard:checkbox",
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        234
-      ],
-      "questID": 247
+      "preRequisites": [],
+      "questID": 248
     }
   ],
   "questLines": [
@@ -14869,15 +14880,15 @@
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 54,
-          "id": 247
-        },
-        {
-          "size": 24,
           "x": 126,
           "y": 120,
           "id": 152
+        },
+        {
+          "size": 24,
+          "x": 174,
+          "y": 84,
+          "id": 248
         },
         {
           "size": 24,

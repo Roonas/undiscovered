@@ -10,6 +10,9 @@ recipes.remove(<sonarcore:reinforcedstoneblock>);
 mods.jei.JEI.removeAndHide(<calculator:reinforcedchest>);
 mods.jei.JEI.removeAndHide(<calculator:storagechamber>);
 
+<calculator:endforgedpickaxe>.addTooltip("Cobalt Level");
+<calculator:electricpickaxe>.addTooltip("Cobalt Level");
+
 /*=========================
 Recipe Changes - Calc
 =========================*/

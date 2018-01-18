@@ -4,7 +4,17 @@ Fixed quest logic for charged metal quest
 Added jei info for creating charged potentia
 Added AS grindstone back minus some metal recipes
 Added cheaper version of mek plastic blocks (sorta flat colored blocks replacement)
-Lowered absurdly tall mountains a bit (~20% lower)
+Lowered absurdly tall mountains a bit (~25% lower)
+Added tooltips for cobalt level picks
+Increase psi block break mining level
+Added diamond plate recipe to IE press
+Added small chaos orb altar to lost cities
+Add pam farm platform to lost cities
+Fixed lava flowing in lost cities evil room
+Added more bricks to lost cities pallets
+Removed main menu ae2 warning
+
+~update rustic - invis armor bar w/ botania~
 
 2.0.1
 ----------

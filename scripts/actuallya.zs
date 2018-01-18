@@ -10,6 +10,8 @@ var enoriCrystal = <actuallyadditions:item_crystal:5>;
 var empoweredItem = <actuallyadditions:item_crystal_empowered>.definition;
 var empoweredBlock = <actuallyadditions:block_crystal_empowered>.definition;
 
+<actuallyadditions:item_pickaxe_crystal_green>.addTooltip("Cobalt Level");
+
 /*=========================
 Recipe Changes - AA
 =========================*/
