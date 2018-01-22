@@ -828,12 +828,6 @@
     "name": "flukegarden",
     "xsize": 16,
     "zsize": 16,
-    "palette": [
-      {
-        "char": "o",
-        "block": "minecraft:planks"
-      }
-    ],
     "meta": [
       {
         "key": "dontconnect",
@@ -848,7 +842,7 @@
         "  XXXXXXXXXXXX  ",
         "  XXXXXXXXXXXX  ",
         "  XXXXXXXXXXXX  ",
-        "  XXXX    XXXX  ",
+        "  XXXX  C XXXX  ",
         "  XXXX    XXXX  ",
         "  XXXX    XXXX  ",
         "  XXXX    XXXX  ",
@@ -867,7 +861,7 @@
         "  XXXXXuuXXXXX  ",
         "  XXXXXXXXXXXX  ",
         "  XXXX    XXXX  ",
-        "  XXXX    XXXX  ",
+        "  XXXXT   XXXX  ",
         "  XXXX    XXXX  ",
         "  XXXX    XXXX  ",
         "  XXXXXXXXXXXX  ",
@@ -900,8 +894,8 @@
         "                ",
         "                ",
         "                ",
-        "    ]]    ]]   ",
-        "    ]]    ]]   ",
+        "    ]]    ]]    ",
+        "    ]]    ]]    ",
         "    ] XXXX ]    ",
         "    ]ζXXXXζ]    ",
         "    ]ζXXXXζ]    ",
@@ -1179,7 +1173,7 @@
         "park": "flukealtar"
       },
       {
-        "factor": 0.1,
+        "factor": 0.12,
         "park": "flukegarden"
       }
     ],

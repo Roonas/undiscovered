@@ -139,3 +139,4 @@ mods.astralsorcery.Grindstone.removeReipce(<appliedenergistics2:material:2>);
 mods.astralsorcery.Grindstone.removeReipce(<magneticraft:dusts:5>);
 mods.astralsorcery.Grindstone.removeReipce(<astralsorcery:itemcraftingcomponent:2>);
 mods.astralsorcery.Grindstone.removeReipce(<astralsorcery:itemcraftingcomponent:2>);
+mods.astralsorcery.Grindstone.addRecipe(<astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:2>);

@@ -120,6 +120,19 @@ Conductor Mast
 mods.calculator.conductorMast.addRecipe(<thermalfoundation:ore:7>, 60000, <contenttweaker:charged_iridium>);
 mods.calculator.conductorMast.addRecipe(<draconicevolution:draconium_block>, 1500000, <draconicevolution:draconium_block:1>);
 
+/* TEMP BROKEN CONDUCTOR MAST RECIPES */
+<calculator:conductormast>.addTooltip("Not consumed in crafting");
+var craftingMast = <calculator:conductormast>.transformReplace(<calculator:conductormast>);
+recipes.addShapeless("charged irid", <contenttweaker:charged_iridium>, [
+    craftingMast, <thermalfoundation:ore:7>
+    ]);
+recipes.addShapeless("charged drac", <draconicevolution:draconium_block:1>, [
+    craftingMast, <draconicevolution:draconium_block>
+    ]);
+recipes.addShapeless("elec diamond", <calculator:electricdiamond>, [
+    craftingMast, <calculator:firediamond>
+    ]);
+
 /*=========================
 Stone Separator
 =========================*/

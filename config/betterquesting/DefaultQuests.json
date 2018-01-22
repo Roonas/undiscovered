@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": true,
+      "editmode": false,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -8527,7 +8527,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        234
+        234,
+        287
       ],
       "questID": 148
     },
@@ -8553,7 +8554,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Programming Magic",
-          "desc": "No Description"
+          "desc": "The CAD assembler can combine the various CAD parts into a fully functioning magic gun. "
         }
       },
       "tasks": [
@@ -8603,7 +8604,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Psionic Metal",
-          "desc": "No Description"
+          "desc": "A creation of directly infusing psi energy into gold ingots through the infusion trick."
         }
       },
       "tasks": [
@@ -8627,7 +8628,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        149
+        262
       ],
       "questID": 150
     },
@@ -8653,7 +8654,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Space Wand",
-          "desc": "No Description"
+          "desc": "A wand specially attuned to specific crystals found deep undergound. When held at night, the wand will mark the location of rock crystal."
         }
       },
       "tasks": [
@@ -8697,13 +8698,13 @@
             "Damage": 0
           },
           "globalshare": false,
-          "questlogic": "AND",
+          "questlogic": "OR",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
           "name": "A Place for Petals",
-          "desc": "No Description"
+          "desc": "Can form magical flowers by combining mystical petals found in the wild. "
         }
       },
       "tasks": [
@@ -8727,7 +8728,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        158
+        251,
+        252
       ],
       "questID": 152
     },
@@ -8753,7 +8755,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Space Metal",
-          "desc": "No Description"
+          "desc": "Not receptive to the low heat of traditional furnaces, the rock containing starmetal seems to easly melt away by the evil within the blood infusion process."
         }
       },
       "tasks": [
@@ -8777,8 +8779,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        150,
-        159
+        158
       ],
       "questID": 153
     },
@@ -8811,7 +8812,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Bigger Drum Set",
-          "desc": "No Description"
+          "desc": "A high density starlight table with more room for crafting. Unlock acesses to many useful tools such as craftable floating crystals."
         }
       },
       "tasks": [
@@ -8841,7 +8842,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        153
+        261,
+        265
       ],
       "questID": 154
     },
@@ -8853,24 +8855,12 @@
           "lockedprogress": false,
           "tasklogic": "AND",
           "repeattime": -1,
-          "visibility": "NORMAL",
           "simultaneous": false,
           "icon": {
-            "id": "astralsorcery:blockcollectorcrystal",
+            "id": "evilcraft:dark_stick",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0,
-            "tag": {
-              "astralsorcery:10": {
-                "constellationName:8": "astralsorcery.constellation.discidia",
-                "crystalProperties:10": {
-                  "collectiveCapability:3": 100,
-                  "size:3": 400,
-                  "purity:3": 100
-                },
-                "collectorType:3": 0
-              }
-            }
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -8878,8 +8868,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Placeable Starlight",
-          "desc": "No Description"
+          "name": "Evil Sticks",
+          "desc": "Not only a useful ingredent in broom making, these sticks are attuned to evil shrines and will point to the nearest one when dropped on the ground. However, cities have been known to tear down these evil structures and pave over them."
         }
       },
       "tasks": [
@@ -8891,69 +8881,7 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "astralsorcery:blockcollectorcrystal",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "astralsorcery:10": {
-                  "constellationName:8": "astralsorcery.constellation.discidia",
-                  "crystalProperties:10": {
-                    "collectiveCapability:3": 100,
-                    "size:3": 400,
-                    "purity:3": 100
-                  },
-                  "collectorType:3": 0
-                }
-              }
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        154
-      ],
-      "questID": 155
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "issilent": false,
-          "snd_complete": "minecraft:entity.player.levelup",
-          "lockedprogress": false,
-          "tasklogic": "AND",
-          "repeattime": -1,
-          "visibility": "NORMAL",
-          "simultaneous": false,
-          "icon": {
-            "id": "minecraft:end_rod",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "globalshare": false,
-          "questlogic": "AND",
-          "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
-          "ismain": false,
-          "name": "Portal Opener",
-          "desc": "No Description"
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:end_rod",
+              "id": "evilcraft:dark_stick",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -8965,7 +8893,57 @@
       ],
       "rewards": [],
       "preRequisites": [
-        155
+        256
+      ],
+      "questID": 155
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:piercing_vengeance_focus",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Soul Shredder",
+          "desc": "Not content with just trapping spirits, this ring shread the everlasting soul of lingering spirits. The essence dropped by these spirits my be useful in some advanced items."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:piercing_vengeance_focus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        275
       ],
       "questID": 156
     },
@@ -8991,7 +8969,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Runecraft",
-          "desc": "No Description"
+          "desc": "By traslating mana energy into runes crafted onto living wood, these items can then be used to craft greater magical items."
         }
       },
       "tasks": [
@@ -9015,8 +8993,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        159,
-        152
+        263
       ],
       "questID": 157
     },
@@ -9043,7 +9020,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Blood Furnace",
-          "desc": "No Description"
+          "desc": "A modified furnace capable of maniuplating blood without the risk of it hardening."
         }
       },
       "tasks": [
@@ -9068,7 +9045,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        148
+        252
       ],
       "questID": 158
     },
@@ -9094,7 +9071,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Star Juice",
-          "desc": "No Description"
+          "desc": "This crucible can collect the fluid of items melted by starlight. "
         }
       },
       "tasks": [
@@ -9118,7 +9095,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        151
+        251
       ],
       "questID": 159
     },
@@ -9132,10 +9109,13 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "botania:manaresource",
+            "id": "evilcraft:vengeance_ring",
             "Count": 1,
             "OreDict": "",
-            "Damage": 4
+            "Damage": 0,
+            "tag": {
+              "enabled:1": 0
+            }
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -9143,23 +9123,26 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Elf Iron",
-          "desc": "No Description"
+          "name": "Seeing Ghosts",
+          "desc": "Combining the celestial crystal with a bit of evil provides a way to see into a dimension thats been hiding in plain sight. Shift right clicking with the ring will provide buffs and allow the player to see spirits. However, the spirits will take notice of this power."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "botania:manaresource",
+              "id": "evilcraft:vengeance_ring",
               "Count": 1,
               "OreDict": "",
-              "Damage": 4
+              "Damage": 0,
+              "tag": {
+                "enabled:1": 0
+              }
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -9168,7 +9151,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        157
+        259
       ],
       "questID": 160
     },
@@ -13760,12 +13743,21 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "silentgems:chaosgem",
+            "id": "evilcraft:box_of_eternal_closure",
             "Count": 1,
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "ChaosCharge:3": 2000000
+              "spiritTag:10": {
+                "playerName:8": "",
+                "remainingLife:3": 0,
+                "innerEntity:8": "",
+                "isSwarm:1": 1,
+                "buildupDuration:3": 0,
+                "swarmTier:3": 1,
+                "playerId:8": "",
+                "frozenDuration:3": 0
+              }
             }
           },
           "globalshare": false,
@@ -13774,8 +13766,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Chaos Battery",
-          "desc": "No Description"
+          "name": "Getting Closure",
+          "desc": "With a modified version of the ring, you are able to push spirits with a strong beam. Perhaps pushing them into a box designed to contain spirits could have future uses."
         }
       },
       "tasks": [
@@ -13787,14 +13779,27 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "silentgems:chaosgem",
+              "id": "evilcraft:vengeance_focus",
               "Count": 1,
-              "OreDict": "chaosGem",
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "evilcraft:box_of_eternal_closure",
+              "Count": 1,
+              "OreDict": "",
               "Damage": 0,
               "tag": {
-                "SGProperties:10": {},
-                "ChaosCharge:3": 0,
-                "enabled:1": 0
+                "spiritTag:10": {
+                  "playerName:8": "",
+                  "remainingLife:3": 0,
+                  "innerEntity:8": "",
+                  "isSwarm:1": 1,
+                  "buildupDuration:3": 0,
+                  "swarmTier:3": 1,
+                  "playerId:8": "",
+                  "frozenDuration:3": 0
+                }
               }
             }
           ],
@@ -13804,7 +13809,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        157
+        160
       ],
       "questID": 244
     },
@@ -13834,13 +13839,49 @@
           "autoclaim": false,
           "ismain": false,
           "name": "New Quest",
-          "desc": "No Description"
+          "desc": "The basic rune types. These are not consumed if used in other runic altar recipes."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:rune",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:rune",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "botania:rune",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "botania:rune",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [
-        244
+        157
       ],
       "questID": 245
     },
@@ -13854,10 +13895,11 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "silentgems:chaospylon",
+            "id": "evilcraft:spirit_furnace",
             "Count": 1,
             "OreDict": "",
-            "Damage": 0
+            "Damage": 0,
+            "tag": {}
           },
           "globalshare": false,
           "questlogic": "AND",
@@ -13865,21 +13907,28 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Node at Home",
-          "desc": "No Description"
+          "name": "Soul Food",
+          "desc": "The spirit furnace is able to recreate living beings from the traped souls using some blood. This allows for farming of items dropped by these creatures."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "silentgems:chaospylon",
+              "id": "evilcraft:spirit_furnace",
               "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            },
+            {
+              "id": "evilcraft:dark_blood_brick",
+              "Count": 33,
               "OreDict": "",
               "Damage": 0
             }
@@ -13890,9 +13939,60 @@
       ],
       "rewards": [],
       "preRequisites": [
-        244
+        278,
+        156
       ],
       "questID": 246
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:blockcustomore",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Space Ores",
+          "desc": "Iron ore seems to react strangely to focused starlight. The metal itself changes when light from an astral crystal is linked to the ore. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:blockcustomore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        159
+      ],
+      "questID": 247
     },
     {
       "properties": {
@@ -13915,8 +14015,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Questy",
-          "desc": "No Description"
+          "name": "Template",
+          "desc": "Hi, I\u0027m a place holder. I\u0027ll disappear eventually"
         }
       },
       "tasks": [
@@ -13941,6 +14041,2336 @@
       "rewards": [],
       "preRequisites": [],
       "questID": 248
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "psi:cad_assembly",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Magic Pistol",
+          "desc": "The most basic CAD requires only the iron assembly, which contains enough power to create psi dust."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "psi:cad_assembly",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        149
+      ],
+      "questID": 249
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:specialflower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "type:8": "puredaisy"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Purifier",
+          "desc": "Changes the properties of blocks placed near the flower."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "puredaisy"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        152
+      ],
+      "questID": 250
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "psi:material",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Angel Dust",
+          "desc": "Created by shooting redstone with the basic iron CAD."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "psi:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        249
+      ],
+      "questID": 251
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:dark_power_gem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Blood Diamond",
+          "desc": "Needed for more advanced blood manipulation, the dark gem is created by throwing a dark gem into a pool of at least 5 blocks of fluid blood. But be quick as the blood will harden if left to sit. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:dark_power_gem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        148
+      ],
+      "questID": 252
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:livingwood",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Living Wood",
+          "desc": "Magically attuned wood, more receptive to the mana flowing within the mystic flowers."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:livingwood",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        250
+      ],
+      "questID": 253
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:livingrock",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Pure Rocks",
+          "desc": "By purifying the helish nature of netherack, a more refined rock is created."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:livingrock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        250
+      ],
+      "questID": 254
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:twigwand",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "color1:3": 11,
+              "color2:3": 11,
+              "boundTileZ:3": 0,
+              "boundTileX:3": 0,
+              "boundTileY:3": -1
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Flower Conductor",
+          "desc": "Strapping a few pretty leaves to some magical wood seems to be enough to interact with these mystial flowers."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:twigwand",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "color1:3": 11,
+                "color2:3": 11,
+                "boundTileZ:3": 0,
+                "boundTileX:3": 0,
+                "boundTileY:3": -1
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        253
+      ],
+      "questID": 255
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:undead_sapling",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Unholy Wood",
+          "desc": "Tainted by the blood collected from the living, this sapling has unholy properties not found in natural wood."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:undead_sapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        158,
+        253
+      ],
+      "questID": 256
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:promise",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Pinky Promise",
+          "desc": "Condensed gold and astral magic allow for unnatural amounts of blood to be stored within the infuser."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:promise",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        259
+      ],
+      "questID": 257
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:promise",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Promises, Promises ",
+          "desc": "An augment used to increase the capacity and power of the blood infuser."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:promise",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        158,
+        269
+      ],
+      "questID": 258
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:itemcelestialcrystal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "astralsorcery:10": {
+                "crystalProperties:10": {
+                  "collectiveCapability:3": 100,
+                  "size:3": 900,
+                  "purity:3": 100
+                }
+              }
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Sky Infused Crystal",
+          "desc": "An improvement over raw rock crystals, the celestial crystal is grown from celestial crystal clusters, which are formed when a rock crystal and starmetal dust soak in liquid starlight."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:itemcelestialcrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "astralsorcery:10": {
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 900,
+                    "purity:3": 100
+                  }
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        247
+      ],
+      "questID": 259
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:pool",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mana Bowl",
+          "desc": "A container that hold the natural mana essence of flowers."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:pool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        254
+      ],
+      "questID": 260
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "contenttweaker:holylog",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Holy Wood",
+          "desc": "The once tainted logs of the undead can be purified again, which seem to glow from the life essence now purified."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "contenttweaker:holylog",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        256
+      ],
+      "questID": 261
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "psi:cad_assembly",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Golden Gun",
+          "desc": "A more advanced assembly capable of casting spells of greater complexity."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "psi:cad_assembly",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        260
+      ],
+      "questID": 262
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:inverted_potentia",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Potential Realized",
+          "desc": "Created by charging the inverted potentia with lightning. Can be created by direct lighning strikes or by using the enviormental accumultor during a thunder storm. The secptre of thunder or the psi smite trick could be useful here."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:inverted_potentia",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        150
+      ],
+      "questID": 263
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:biome_extract",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1,
+            "tag": {
+              "biomeKey:8": "minecraft:jungle"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Biome in a Bottle",
+          "desc": "These biome bottle can modify the current biome of an area. They may also be useful in crafting portal to unknown worlds."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:biome_extract",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "biomeKey:8": "minecraft:forest"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        257
+      ],
+      "questID": 264
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "psi:material",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Psi Diamonds",
+          "desc": "Diamons infused directly with the greater infusion trick."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "psi:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        271
+      ],
+      "questID": 265
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:blockattunementaltar",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "What\u0027s Your Sign?",
+          "desc": "Unlocks the ability to attune both crystals and yourself to specific constalations. This attunment unlocks some of the more powerful aspects of astral magic."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:blockattunementaltar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        261
+      ],
+      "questID": 266
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:promise",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Diamond Vows",
+          "desc": "The highest level of promise. Til undeath do you part."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:promise",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        265
+      ],
+      "questID": 267
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:sanguinary_environmental_accumulator",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Portable Accumulation",
+          "desc": "When you can\u0027t find an enviormental accumulator in just the right spot, a portable version of this infuser is needed. Requires 8 dark tanks filled with a significant amount of blood placed in specific locations around the accumulator to work."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:sanguinary_environmental_accumulator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        257
+      ],
+      "questID": 268
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:itemrockcrystalsimple",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "astralsorcery:10": {
+                "crystalProperties:10": {
+                  "collectiveCapability:3": 100,
+                  "size:3": 400,
+                  "purity:3": 100
+                }
+              }
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Deep Earth Crystals",
+          "desc": "Found very rarly near bedrock. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:itemrockcrystalsimple",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "astralsorcery:10": {
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 400,
+                    "purity:3": 100
+                  }
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        151
+      ],
+      "questID": 269
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "OR",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:specialflower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "type:8": "thermalily"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Flower Power",
+          "desc": "(Only one task needed to complete quest) \nWith simple coal eating flower more difficult to create, botanists must consider some of the more unsual mystial flowers. \n\nRafflowsia - Consumes other mana generating flowers for power \nThermalily - Consumes lava sources for power with a long cool down \nSpectrolus - Consumes colored wool in a specific order for mana \nHydroangeas - Consumes water source blocks for mana (has a limited life span)"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "rafflowsia"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "thermalily"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "spectrolus"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "hydroangeas"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        260
+      ],
+      "questID": 270
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "psi:cad_assembly",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mages Glock",
+          "desc": "A very powerful CAD capable of accecpting even more complex spells."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "psi:cad_assembly",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        245
+      ],
+      "questID": 271
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "forge:bucketfilled",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "FluidName:8": "astralsorcery.liquidstarlight",
+              "Amount:3": 1000
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Star Fluid",
+          "desc": "Starlight in liquid form. Not only useful in the crafting of more advance astral gadgets, this liquid illuminates its surroundings and provides night vision to those who touch it."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "astralsorcery.liquidstarlight",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        159
+      ],
+      "questID": 272
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:blockaltar",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Crafting by Starlight",
+          "desc": "A more refined crafting table, capable of absorbing greater quanities of starlight."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:blockaltar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        272
+      ],
+      "questID": 273
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:nether_star",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Tempy",
+          "desc": "just a template"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:stone",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        154
+      ],
+      "questID": 274
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:blockstarlightinfuser",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Star Soaked",
+          "desc": "Creating an altar designed to radiate starlight on a single point allows for the refinement, enhansement, and even improvement of items placed in the center. Requires 12 buckets of liquid starlight to function, which have a chance to be consumed in crafting."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:blockstarlightinfuser",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        154
+      ],
+      "questID": 275
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:itemcraftingcomponent",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "EDM Gem",
+          "desc": "While somewhat unfocused energy, these resonating crystals seem to be key ingredients it more sophisticated magic."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:itemcraftingcomponent",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        275
+      ],
+      "questID": 276
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:livingwood",
+            "Count": 3,
+            "OreDict": "",
+            "Damage": 5
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Elf Dimension",
+          "desc": "The material required to construct a portal between our world and alfheim. Also needs a significan source of mana to initally open the gate."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:alfheimportal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:livingwood",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "botania:livingwood",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        282,
+        264
+      ],
+      "questID": 277
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:itemtunedcelestialcrystal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "astralsorcery:10": {
+                "constellationName:8": "astralsorcery.constellation.discidia",
+                "crystalProperties:10": {
+                  "collectiveCapability:3": 100,
+                  "size:3": 900,
+                  "purity:3": 100
+                }
+              }
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Space Assimilation",
+          "desc": "Crystals can be attuned in a similar maner to living beings. This passes the strength of the attuned constalation onto the crystal."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:itemtunedcelestialcrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "astralsorcery:10": {
+                  "constellationName:8": "astralsorcery.constellation.discidia",
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 900,
+                    "purity:3": 100
+                  }
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        266
+      ],
+      "questID": 278
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:blockcollectorcrystal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "astralsorcery:10": {
+                "constellationName:8": "astralsorcery.constellation.discidia",
+                "crystalProperties:10": {
+                  "collectiveCapability:3": 100,
+                  "size:3": 400,
+                  "purity:3": 100
+                },
+                "collectorType:3": 0
+              }
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Night Light",
+          "desc": "A hand crafted version of the naturally occuring crystals. Provides starlight to any block or crafting table it is linked to."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:blockcollectorcrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "astralsorcery:10": {
+                  "constellationName:8": "astralsorcery.constellation.discidia",
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 400,
+                    "purity:3": 100
+                  },
+                  "collectorType:3": 0
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        275
+      ],
+      "questID": 279
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:blockaltar",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Extreme Star Craft",
+          "desc": "The final tier of starlight crafting, only for the most dedicated of Astral mages. Unlocks access to powerful equipment, including robes rumored to defend against draconic threats."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:blockaltar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        283
+      ],
+      "questID": 280
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:pylon",
+            "Count": 4,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Additional Construction",
+          "desc": "Modified pylons that seem to be in tunes with the Guardian of the Gaia. A beacon surrounded by 4 gaia pylons are required to summon the guardian. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:pylon",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        277,
+        278
+      ],
+      "questID": 281
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:manaresource",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Elvish Steel",
+          "desc": "An advanced magical alloy capable of connecting to the elves who invented it. May also call down a stronger opponent, given a proper arena."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:manaresource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        284
+      ],
+      "questID": 282
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:manaresource",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 5
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Soul Shards",
+          "desc": "A trophy from killing the Guardian of the Gaia. Has a powerful concentration of magic pulsing within. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:manaresource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        281
+      ],
+      "questID": 283
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:terraplate",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Agglomerated",
+          "desc": "With a large concentration of mana, the agglomeration plate can combine the mana pearl, mana diamond, and mana steel into a stronger, greener ingot."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:terraplate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        276
+      ],
+      "questID": 284
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:conjurationcatalyst",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mana Switcheroo",
+          "desc": "Allows for the duplication of item though the use of mana. Also allows for a more easily automatble form of psi materials."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:conjurationcatalyst",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        277
+      ],
+      "questID": 285
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "psi:programmer",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mage Programming",
+          "desc": "Allows for the creation of more complex spells that can be stored in bullets."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "psi:programmer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "psi:spell_bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        251
+      ],
+      "questID": 286
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:origins_of_darkness",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Book of Darkness",
+          "desc": "The guide to all things evil can be created by feeeding the dark apple to a pig and throwing a book at the resulting dark orb."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:darkened_apple",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        234
+      ],
+      "questID": 287
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "OR",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:dark_tank",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "x:3": 165,
+              "y:3": 72,
+              "z:3": 342,
+              "capacity:3": 16000
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Expanding Supply",
+          "desc": "The capacity of the blood extractor can be increased by combining the blood extractor with a dark tank or another blood extractor."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:dark_tank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "x:3": 165,
+                "y:3": 72,
+                "z:3": 342,
+                "capacity:3": 16000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        148
+      ],
+      "questID": 288
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:itemskyresonator",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "astralsorcery:10": {}
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Superior Stargazing ",
+          "desc": "While starlight is more potent higher in the sky, some locations in the world are naturally more receptive to starlight. While holding this device, strong sources of starlight will appear as dark starry clouds on the ground."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:itemskyresonator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "astralsorcery:10": {}
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        272
+      ],
+      "questID": 289
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "psi:material",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Ebony \u0026 Ivory",
+          "desc": "The final tier of psi materials. Created by using the greater infusion trick on either coal or nether quartz while in the End."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "psi:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "psi:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        271
+      ],
+      "questID": 290
     }
   ],
   "questLines": [
@@ -13956,26 +16386,26 @@
       "quests": [
         {
           "size": 24,
-          "x": 150,
-          "y": 168,
+          "x": 108,
+          "y": 114,
           "id": 226
         },
         {
           "size": 24,
-          "x": 114,
-          "y": 36,
+          "x": 108,
+          "y": 24,
           "id": 232
         },
         {
           "size": 24,
-          "x": 144,
-          "y": 60,
+          "x": 138,
+          "y": 54,
           "id": 233
         },
         {
           "size": 24,
-          "x": 132,
-          "y": 126,
+          "x": 138,
+          "y": 114,
           "id": 235
         },
         {
@@ -13993,79 +16423,79 @@
         {
           "size": 24,
           "x": 78,
-          "y": 114,
+          "y": 84,
           "id": 238
         },
         {
           "size": 24,
-          "x": 42,
-          "y": 36,
+          "x": 48,
+          "y": 24,
           "id": 239
         },
         {
           "size": 24,
-          "x": 120,
-          "y": 180,
+          "x": 108,
+          "y": 144,
           "id": 48
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 78,
+          "x": -12,
+          "y": 84,
           "id": 240
         },
         {
           "size": 24,
           "x": 78,
-          "y": 180,
+          "y": 144,
           "id": 49
         },
         {
           "size": 24,
-          "x": 18,
-          "y": 138,
+          "x": 48,
+          "y": 114,
           "id": 50
         },
         {
           "size": 24,
-          "x": 192,
-          "y": 126,
+          "x": 198,
+          "y": 114,
           "id": 178
         },
         {
           "size": 24,
           "x": 18,
-          "y": 102,
+          "y": 84,
           "id": 51
         },
         {
           "size": 24,
-          "x": 162,
-          "y": 126,
+          "x": 168,
+          "y": 114,
           "id": 179
         },
         {
           "size": 24,
           "x": 18,
-          "y": 66,
+          "y": 54,
           "id": 52
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 156,
+          "x": 18,
+          "y": 114,
           "id": 180
         },
         {
           "size": 24,
-          "x": 162,
-          "y": 90,
+          "x": 168,
+          "y": 84,
           "id": 53
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 186,
+          "x": 18,
+          "y": 144,
           "id": 181
         },
         {
@@ -14076,38 +16506,38 @@
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 216,
+          "x": 18,
+          "y": 174,
           "id": 182
         },
         {
           "size": 24,
           "x": 78,
-          "y": 216,
+          "y": 174,
           "id": 55
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 108,
+          "x": -12,
+          "y": 114,
           "id": 183
         },
         {
           "size": 24,
-          "x": 78,
+          "x": 108,
           "y": 84,
           "id": 121
         },
         {
           "size": 24,
-          "x": 150,
-          "y": 204,
+          "x": 138,
+          "y": 144,
           "id": 185
         },
         {
           "size": 24,
           "x": 78,
-          "y": 144,
+          "y": 114,
           "id": 122
         }
       ],
@@ -14126,14 +16556,14 @@
       "quests": [
         {
           "size": 24,
-          "x": 0,
-          "y": 114,
+          "x": 12,
+          "y": 96,
           "id": 64
         },
         {
           "size": 24,
-          "x": 198,
-          "y": 156,
+          "x": 162,
+          "y": 96,
           "id": 192
         },
         {
@@ -14144,164 +16574,164 @@
         },
         {
           "size": 24,
-          "x": 228,
-          "y": 168,
+          "x": 162,
+          "y": 126,
           "id": 193
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 42,
+          "x": 42,
+          "y": 36,
           "id": 66
         },
         {
           "size": 24,
-          "x": 36,
-          "y": 18,
+          "x": 12,
+          "y": 36,
           "id": 67
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 30,
+          "x": 42,
+          "y": 6,
           "id": 68
         },
         {
           "size": 24,
-          "x": 120,
-          "y": 216,
+          "x": 102,
+          "y": 192,
           "id": 69
         },
         {
           "size": 24,
-          "x": 54,
-          "y": 72,
+          "x": 42,
+          "y": 66,
           "id": 70
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 216,
+          "x": 12,
+          "y": 162,
           "id": 71
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 108,
+          "x": 42,
+          "y": 96,
           "id": 72
         },
         {
           "size": 24,
           "x": 42,
-          "y": 132,
+          "y": 126,
           "id": 177
         },
         {
           "size": 24,
-          "x": 66,
-          "y": -6,
+          "x": -18,
+          "y": 6,
           "id": 243
         },
         {
           "size": 24,
-          "x": 36,
-          "y": -12,
+          "x": 12,
+          "y": 6,
           "id": 117
         },
         {
           "size": 24,
           "x": 42,
-          "y": 216,
+          "y": 192,
           "id": 118
         },
         {
           "size": 24,
-          "x": 144,
-          "y": 108,
+          "x": 102,
+          "y": 96,
           "id": 56
         },
         {
           "size": 24,
-          "x": 150,
-          "y": 72,
+          "x": 102,
+          "y": 42,
           "id": 57
         },
         {
           "size": 24,
-          "x": 90,
-          "y": 72,
+          "x": 72,
+          "y": 66,
           "id": 58
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 108,
+          "x": 72,
+          "y": 96,
           "id": 186
         },
         {
           "size": 24,
           "x": 42,
-          "y": 162,
+          "y": 156,
           "id": 59
         },
         {
           "size": 24,
-          "x": -30,
-          "y": 186,
+          "x": -18,
+          "y": 156,
           "id": 123
         },
         {
           "size": 24,
-          "x": 186,
-          "y": 204,
+          "x": 138,
+          "y": 180,
           "id": 187
         },
         {
           "size": 24,
-          "x": 0,
-          "y": 156,
+          "x": 12,
+          "y": 126,
           "id": 60
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 186,
+          "x": 108,
+          "y": 150,
           "id": 188
         },
         {
           "size": 24,
-          "x": 192,
-          "y": 114,
+          "x": 132,
+          "y": 66,
           "id": 61
         },
         {
           "size": 24,
-          "x": 156,
-          "y": 186,
+          "x": 138,
+          "y": 150,
           "id": 189
         },
         {
           "size": 24,
-          "x": 84,
-          "y": 216,
+          "x": 72,
+          "y": 192,
           "id": 62
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 162,
+          "x": 108,
+          "y": 126,
           "id": 190
         },
         {
           "size": 24,
-          "x": 84,
-          "y": 162,
+          "x": 72,
+          "y": 138,
           "id": 63
         },
         {
           "size": 24,
-          "x": 168,
-          "y": 144,
+          "x": 132,
+          "y": 96,
           "id": 191
         }
       ],
@@ -14818,12 +17248,12 @@
         }
       ],
       "lineID": 5,
-      "order": 7
+      "order": 8
     },
     {
       "properties": {
         "betterquesting": {
-          "name": "Magical Things",
+          "name": "Magician\u0027s Apprentice",
           "bg_image": "",
           "bg_size": 256,
           "desc": "No Description"
@@ -14832,105 +17262,279 @@
       "quests": [
         {
           "size": 24,
-          "x": 150,
-          "y": 156,
-          "id": 160
+          "x": 186,
+          "y": 102,
+          "id": 256
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 30,
-          "id": 148
+          "x": 36,
+          "y": 162,
+          "id": 257
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 180,
-          "id": 244
+          "x": 186,
+          "y": 72,
+          "id": 258
         },
         {
           "size": 24,
-          "x": 30,
-          "y": 30,
-          "id": 149
-        },
-        {
-          "size": 24,
-          "x": 48,
-          "y": 204,
-          "id": 245
-        },
-        {
-          "size": 24,
-          "x": 30,
-          "y": 78,
-          "id": 150
+          "x": 36,
+          "y": 132,
+          "id": 259
         },
         {
           "size": 24,
           "x": 96,
-          "y": 204,
-          "id": 246
+          "y": 162,
+          "id": 260
         },
         {
           "size": 24,
-          "x": 78,
-          "y": 30,
+          "x": 216,
+          "y": 132,
+          "id": 261
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 162,
+          "id": 262
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 192,
+          "id": 263
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 192,
+          "id": 264
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 162,
+          "id": 265
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 102,
+          "id": 266
+        },
+        {
+          "size": 24,
+          "x": 246,
+          "y": 192,
+          "id": 267
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 192,
+          "id": 268
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 42,
+          "id": 269
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 162,
+          "id": 270
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 162,
+          "id": 271
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 102,
+          "id": 272
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 102,
+          "id": 273
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 42,
+          "id": 148
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 12,
+          "id": 149
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 192,
+          "id": 150
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 12,
           "id": 151
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 120,
+          "x": 96,
+          "y": 72,
           "id": 152
         },
         {
           "size": 24,
-          "x": 174,
-          "y": 84,
-          "id": 248
-        },
-        {
-          "size": 24,
-          "x": 54,
-          "y": 114,
+          "x": 126,
+          "y": 72,
           "id": 153
         },
         {
           "size": 24,
-          "x": 24,
-          "y": 150,
+          "x": 246,
+          "y": 132,
           "id": 154
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 150,
+          "x": 186,
+          "y": 132,
           "id": 155
         },
         {
           "size": 24,
-          "x": -60,
-          "y": 150,
-          "id": 156
-        },
-        {
-          "size": 24,
-          "x": 102,
-          "y": 156,
+          "x": 156,
+          "y": 162,
           "id": 157
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 78,
+          "x": 156,
+          "y": 72,
           "id": 158
         },
         {
           "size": 24,
-          "x": 78,
-          "y": 78,
+          "x": 36,
+          "y": 72,
+          "id": 286
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 72,
           "id": 159
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 12,
+          "id": 287
+        },
+        {
+          "size": 24,
+          "x": 186,
+          "y": 42,
+          "id": 288
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 162,
+          "id": 160
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 132,
+          "id": 289
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 192,
+          "id": 290
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 192,
+          "id": 244
+        },
+        {
+          "size": 24,
+          "x": 186,
+          "y": 162,
+          "id": 245
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 102,
+          "id": 247
+        },
+        {
+          "size": 24,
+          "x": 252,
+          "y": -12,
+          "id": 248
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 42,
+          "id": 249
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 102,
+          "id": 250
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 42,
+          "id": 251
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 42,
+          "id": 252
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 102,
+          "id": 253
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 132,
+          "id": 254
+        },
+        {
+          "size": 24,
+          "x": 156,
+          "y": 132,
+          "id": 255
         }
       ],
       "lineID": 6,
@@ -15026,7 +17630,7 @@
         }
       ],
       "lineID": 7,
-      "order": 8
+      "order": 9
     },
     {
       "properties": {
@@ -15059,6 +17663,104 @@
       ],
       "lineID": 8,
       "order": 0
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "The Mentalist",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "No Description"
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": -12,
+          "y": 0,
+          "id": 274
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 54,
+          "id": 275
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 84,
+          "id": 276
+        },
+        {
+          "size": 24,
+          "x": 90,
+          "y": 114,
+          "id": 277
+        },
+        {
+          "size": 24,
+          "x": 90,
+          "y": 54,
+          "id": 278
+        },
+        {
+          "size": 24,
+          "x": 60,
+          "y": 84,
+          "id": 246
+        },
+        {
+          "size": 24,
+          "x": -30,
+          "y": 84,
+          "id": 279
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 144,
+          "id": 280
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 84,
+          "id": 281
+        },
+        {
+          "size": 24,
+          "x": 60,
+          "y": 114,
+          "id": 282
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 114,
+          "id": 283
+        },
+        {
+          "size": 24,
+          "x": 30,
+          "y": 114,
+          "id": 284
+        },
+        {
+          "size": 24,
+          "x": 30,
+          "y": 54,
+          "id": 156
+        },
+        {
+          "size": 24,
+          "x": 60,
+          "y": 144,
+          "id": 285
+        }
+      ],
+      "lineID": 9,
+      "order": 7
     }
   ],
   "format": "1.0.0"

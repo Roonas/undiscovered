@@ -14,14 +14,14 @@ recipes.removeByRecipeName("evilcraft:blood_extractor");
 recipes.addShaped("blood extractor", <evilcraft:blood_extractor>, [
     [null, <evilcraft:spikey_claws>, null],
     [null, rusticHealthPot, null],
-    [null, <rftools:syringe>, null]
+    [null, <silentgems:craftingmaterial:7>, null]
     ]);
 
 recipes.remove(<evilcraft:blood_infuser>);
 recipes.addShaped("blood infuser", <evilcraft:blood_infuser>, [
     [<evilcraft:condensed_blood>, <minecraft:red_nether_brick>, <evilcraft:condensed_blood>], 
-    [<minecraft:red_nether_brick>, <evilcraft:blood_infusion_core>, <minecraft:red_nether_brick>], 
-    [<evilcraft:condensed_blood>, <minecraft:red_nether_brick>, <evilcraft:condensed_blood>]
+    [<minecraft:red_nether_brick>, <minecraft:furnace>, <minecraft:red_nether_brick>], 
+    [<evilcraft:condensed_blood>, <evilcraft:blood_infusion_core>, <evilcraft:condensed_blood>]
     ]);
 
 recipes.remove(<evilcraft:bowl_of_promises>);
@@ -67,6 +67,13 @@ recipes.addShaped("environmental accumulator", <evilcraft:sanguinary_environment
     [<evilcraft:dark_blood_brick>, <industrialforegoing:laser_lens_inverted:14>, <evilcraft:dark_blood_brick>],
     [<psi:psi_decorative:1>, <evilcraft:environmental_accumulation_core>, <psi:psi_decorative:1>],
     [<evilcraft:dark_blood_brick>, <evilcraft:blood_infusion_core>, <evilcraft:dark_blood_brick>]
+    ]);
+
+recipes.remove(<evilcraft:spirit_furnace>);
+recipes.addShaped("spirit furnace", <evilcraft:spirit_furnace>, [
+    [<evilcraft:dark_blood_brick>, <astralsorcery:itemtunedcelestialcrystal>, <evilcraft:dark_blood_brick>],
+    [<evilcraft:dark_blood_brick>, <evilcraft:blood_infusion_core>, <evilcraft:dark_blood_brick>],
+    [<evilcraft:dark_blood_brick>, <botania:firerod>, <evilcraft:dark_blood_brick>]
     ]);
 
 

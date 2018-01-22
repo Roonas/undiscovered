@@ -90,6 +90,9 @@ val ieBlackPool = ieBlackChest.getPool("immersiveengineering_loot_inject");
 val forestryVillage = LootTables.getTable("forestry:chests/village_naturalist");
 val forVillagerPool = forestryVillage.getPool("forestry_apiculture_items");
 
+val shrineChest = LootTables.getTable("astralsorcery:chest_shrine");
+val shrinePool = shrineChest.getPool("astralsorcery:chest_shrine");
+
 val vindicatorMob = LootTables.getTable("minecraft:entities/vindication_illager");
 val vindAddLoot = vindicatorMob.addPool("spirit drop", 1, 1, 0, 0);
 

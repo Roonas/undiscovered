@@ -49,6 +49,10 @@
         ]
       },
       {
+        "char": "o",
+        "block": "minecraft:planks"
+      },
+      {
         "char": "{",
         "block": "silentgems:gembrickspeckledlight@3"
       },

@@ -13,6 +13,8 @@ Add pam farm platform to lost cities
 Fixed lava flowing in lost cities evil room
 Added more bricks to lost cities pallets
 Removed main menu ae2 warning
+Removed tech requirements to start evilcraft
+Added temporary recipes for conductor mast items while bugs get worked out
 
 ~update rustic - invis armor bar w/ botania~
 

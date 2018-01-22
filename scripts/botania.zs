@@ -116,7 +116,7 @@ mods.botania.Apothecary.addRecipe(endoflame, [<ore:petalRed>, <ore:petalYellow>,
 mods.botania.Apothecary.removeRecipe(rafflowsia);
 mods.botania.Apothecary.addRecipe(rafflowsia, [<ore:petalPurple>, <ore:petalPurple>, <ore:petalBlack>, <ore:petalBlack>, <ore:petalGreen>, <ore:petalGreen>]);
 mods.botania.Apothecary.removeRecipe(thermalily);
-mods.botania.Apothecary.addRecipe(thermalily, [<ore:petalRed>, <ore:petalRed>, <ore:petalRed>, <ore:petalOrange>, <ore:petalOrange>]);
+mods.botania.Apothecary.addRecipe(thermalily, [<ore:petalRed>, <ore:petalRed>, <ore:petalRed>, <ore:petalOrange>, <ore:petalOrange>, <ore:petalOrange>]);
 mods.botania.Apothecary.removeRecipe(spectrolus);
 mods.botania.Apothecary.addRecipe(spectrolus, [<ore:petalOrange>, <ore:petalMagenta>, <ore:petalYellow>, <ore:petalLime>, <ore:petalPink>, <ore:petalGrey>, <ore:petalCyan>, <ore:petalPurple>, <ore:petalBlue>, <ore:petalBrown>, <ore:petalGreen>, <ore:petalRed>]);
 
@@ -136,6 +136,7 @@ Mana Pool - Conjuration
 mods.botania.ManaInfusion.addConjuration(<magneticraft:chunks:5> * 2, rockyTungsten, 7000);
 mods.botania.ManaInfusion.addConjuration(<psi:material:2>, <botania:manaresource:2>, 1000);
 mods.botania.ManaInfusion.addConjuration(<psi:material:1>, <botania:manaresource>, 1000);
+mods.botania.ManaInfusion.addConjuration(<psi:material>, <botania:manaresource:23>, 1000);
 
 /*=========================
 Elven Trade

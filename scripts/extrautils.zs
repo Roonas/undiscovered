@@ -53,7 +53,7 @@ recipes.addShaped("mech crafter", <extrautils2:crafter>, [
 recipes.remove(<extrautils2:teleporter:1>);
 recipes.addShaped("deep dark", <extrautils2:teleporter:1>, [
     [<astralsorcery:itemcraftingcomponent:1>, <botania:biomestonea:11>, <astralsorcery:itemcraftingcomponent:1>], 
-    [<botania:biomestonea:11>, <psi:psi_decorative:7>, <botania:biomestonea:11>], 
+    [<botania:biomestonea:11>, <ore:blockPsiDust>, <botania:biomestonea:11>], 
     [<astralsorcery:itemcraftingcomponent:1>, <botania:biomestonea:11>, <astralsorcery:itemcraftingcomponent:1>]
     ]);
 
