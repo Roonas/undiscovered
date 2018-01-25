@@ -1,3 +1,9 @@
+2.2.0
+----------
+Actaully add grindstone back
+Changed AS ideal distance back on to avoid shrines clumping up together
+Added rolling hills option to LC profiles
+
 2.1.0
 ----------
 Fixed quest logic for charged metal quest

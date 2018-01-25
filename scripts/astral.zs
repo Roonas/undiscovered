@@ -9,8 +9,6 @@ var platinumIngot = <thermalfoundation:material:134>;
 
 mods.jei.JEI.addDescription(<astralsorcery:itemcelestialcrystal>, "Crafted by dropping a rock crystal and stardust into liquid starlight, then allowing the resulting celestial crystal cluster to fully grow.");
 
-mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blockmachine:1>, 0);
-
 /*=========================
 Recipe Changes - Astral
 =========================*/
