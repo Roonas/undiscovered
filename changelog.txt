@@ -6,6 +6,7 @@ Added rolling hills option to LC profiles
 
 2.1.0
 ----------
+Redid magic quest chapter to match new progression
 Fixed quest logic for charged metal quest
 Added jei info for creating charged potentia
 Added AS grindstone back minus some metal recipes
@@ -21,8 +22,8 @@ Added more bricks to lost cities pallets
 Removed main menu ae2 warning
 Removed tech requirements to start evilcraft
 Added temporary recipes for conductor mast items while bugs get worked out
-
-~update rustic - invis armor bar w/ botania~
+Mods updated:
+Rustic - should fix armor overlay turning invisible
 
 2.0.1
 ----------
