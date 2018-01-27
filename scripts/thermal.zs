@@ -1,5 +1,6 @@
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+
 var redstonClathrate = <thermalfoundation:material:893>;
 var resonateClathrate = <thermalfoundation:material:895>;
 var geode = <thermalfoundation:geode>;
@@ -34,12 +35,14 @@ var conBlocks = [<immersiveengineering:storage:6>, <thermalfoundation:storage_al
 var eleBlocks = [<immersiveengineering:storage:7>, <thermalfoundation:storage_alloy:1>] as IItemStack[];
 var steelBlocks = [<thermalfoundation:storage_alloy>, <mekanism:basicblock:5>, <immersiveengineering:storage:8>, <bigreactors:blockmetals:5>] as IItemStack[];
 
-
-recipes.remove(<thermalexpansion:machine>); //redstone furnace... hopefully
+recipes.remove(<thermalexpansion:machine>); //redstone furnace
 recipes.remove(<thermalfoundation:material:71>);
 recipes.remove(<thermalfoundation:material:135>);
 recipes.remove(<thermalexpansion:device:8>); //xp collector
-//recipes.remove(<thermalfoundation:material:1024>);
+mods.jei.JEI.removeAndHide(<thermalexpansion:augment:256>); //Redstone furnace augments
+mods.jei.JEI.removeAndHide(<thermalexpansion:augment:257>); 
+mods.jei.JEI.removeAndHide(<thermalexpansion:augment:258>); 
+
 
 /*=========================
 Recipe Changes - Thermal
@@ -331,6 +334,7 @@ Centrifuge
 =========================*/  
 mods.thermalexpansion.Centrifuge.addRecipe([<minecraft:gravel> % 50, (<thermalfoundation:material:198> * 2) % 70, <jaopca:item_rockychunkplatinum> % 20], <contenttweaker:platslurry>, <liquid:platinum> * 1000, 1000);
 mods.thermalexpansion.Centrifuge.addRecipe([enderEgg % 100], <minecraft:dragon_egg>, <liquid:dblood> * 1000, 20000);
+mods.thermalexpansion.Centrifuge.addRecipe([<appliedenergistics2:material:5> % 50, <evilcraft:dull_dust> % 41, <appliedenergistics2:crystal_seed> % 6], <appliedenergistics2:material:2>, null, 1000);
 
 /*=========================
 Energetic Infuser

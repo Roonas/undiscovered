@@ -83,6 +83,13 @@ recipes.addShaped("cheap plastic block", <mekanism:plasticblock:7>, [
     [<industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>, <industrialforegoing:dryrubber>]
     ]);
 
+recipes.remove(<mekanism:configurator>);
+recipes.addShaped("mek wrench", <mekanism:configurator>, [
+    [null, <jaopca:item_sticklapis>, <ore:nuggetIron>],
+    [<jaopca:item_sticklapis>, <immersiveengineering:material:20>, <jaopca:item_sticklapis>], 
+    [<ore:ingotSteel>, <jaopca:item_sticklapis>, null]
+    ]);
+
 
 /*=========================
 Crusher

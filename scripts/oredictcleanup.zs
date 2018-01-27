@@ -25,6 +25,27 @@ Tin block:
 [<thermalfoundation:storage:1>, <forestry:resource_storage:2>, <mekanism:basicblock:13>]
 Osmium block:
 [<mekanism:basicblock>]
+
+Metal ores oredict array
+val metalOres = [
+        <ore:oreAluminum>,
+        <ore:oreCopper>,
+        <ore:oreLead>,
+        <ore:oreNickel>,
+        <ore:oreSilver>,
+        <ore:oreTin>,
+        <ore:oreOsmium>,
+        <ore:oreIron>,
+        <ore:oreGold>,
+        <ore:oreDraconium>,
+        <ore:oreDark>,
+        <ore:oreYellorite>,
+        <ore:oreApatite>,
+        <ore:oreQuartzBlack>,
+        <ore:oreAstralStarmetal>,
+        <ore:oreFoolsGold>
+    ] as IOreDictEntry[];
+
 */
 //All metal dusts/ore types should smelt into the thermal ingot, reducing redundant ingot types
 furnace.remove(<*>, <ore:dustAluminium>);

@@ -71,11 +71,15 @@ recipes.addShaped("environmental accumulator", <evilcraft:sanguinary_environment
 
 recipes.remove(<evilcraft:spirit_furnace>);
 recipes.addShaped("spirit furnace", <evilcraft:spirit_furnace>, [
-    [<evilcraft:dark_blood_brick>, <astralsorcery:itemtunedcelestialcrystal>, <evilcraft:dark_blood_brick>],
+    [<evilcraft:dark_blood_brick>, <ore:attunedCrystal>, <evilcraft:dark_blood_brick>],
     [<evilcraft:dark_blood_brick>, <evilcraft:blood_infusion_core>, <evilcraft:dark_blood_brick>],
     [<evilcraft:dark_blood_brick>, <botania:firerod>, <evilcraft:dark_blood_brick>]
     ]);
-
+recipes.addShaped("spirit furnace 2", <evilcraft:spirit_furnace>, [
+    [<evilcraft:dark_blood_brick>, <botania:firerod>, <evilcraft:dark_blood_brick>],
+    [<evilcraft:dark_blood_brick>, <evilcraft:blood_infusion_core>, <evilcraft:dark_blood_brick>],
+    [<evilcraft:dark_blood_brick>, <ore:attunedCrystal>, <evilcraft:dark_blood_brick>]
+    ]);
 
 /*
 recipes.addShaped("dark gem gear", <jaopca:item_geardark>, [

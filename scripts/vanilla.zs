@@ -39,6 +39,7 @@ furnace.remove(<ore:ingotIridium>);
 furnace.remove(<ore:ingotTungsten>);
 furnace.remove(<ore:ingotIridium>);
 furnace.remove(<bigreactors:brore>);
+furnace.remove(<appliedenergistics2:material:5>);
 furnace.remove(<minecraft:iron_ingot>, <minecraft:iron_ore>);
 furnace.remove(<minecraft:gold_ingot>, <minecraft:gold_ore>);
 furnace.remove(<thermalfoundation:material:128>, <thermalfoundation:ore>);
@@ -60,6 +61,7 @@ furnace.addRecipe(<minecraft:iron_nugget>, <contenttweaker:brokenrod>);
 furnace.addRecipe(<thermalfoundation:material:192>, <scrap:broken.gear:2>);
 furnace.addRecipe(<thermalfoundation:material:226>, <scrap:broken.plate:13>);
 furnace.addRecipe(<thermalfoundation:material:194>, <scrap:broken.plate:4>);
+furnace.addRecipe(<jaopca:item_nuggetquartzblack>, <appliedenergistics2:material:2>);
 
 recipes.remove(<magneticraft:rocky_chunks:5>);
 recipes.remove(<jaopca:item_dustdirtytungsten>);

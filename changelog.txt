@@ -3,10 +3,16 @@
 Actaully add grindstone back
 Changed AS ideal distance back on to avoid shrines clumping up together
 Added rolling hills option to LC profiles
+Changed recipe for fabrication chamber to be actually craftable
+Probably fixed a weird crafting bug with spirit furnace
+Removed lots of items from redstone furnace & exu crusher so they show up in jei less often
+Removed certus dust -> silicon furnace recipe, added alternate centrifuge recipe
+Fixed dynamos not being upgradeable
+Removed unusable redstone furnace augments
+Made Mek configurator easier to craft
 
 2.1.0
 ----------
-Redid magic quest chapter to match new progression
 Fixed quest logic for charged metal quest
 Added jei info for creating charged potentia
 Added AS grindstone back minus some metal recipes
@@ -22,8 +28,8 @@ Added more bricks to lost cities pallets
 Removed main menu ae2 warning
 Removed tech requirements to start evilcraft
 Added temporary recipes for conductor mast items while bugs get worked out
-Mods updated:
-Rustic - should fix armor overlay turning invisible
+
+~update rustic - invis armor bar w/ botania~
 
 2.0.1
 ----------

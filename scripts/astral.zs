@@ -7,6 +7,7 @@ var glassLens = <astralsorcery:itemcraftingcomponent:3>;
 var psimetalIngot = <psi:material:1>;
 var platinumIngot = <thermalfoundation:material:134>;
 
+<ore:attunedCrystal>.add(<astralsorcery:itemtunedcelestialcrystal>);
 mods.jei.JEI.addDescription(<astralsorcery:itemcelestialcrystal>, "Crafted by dropping a rock crystal and stardust into liquid starlight, then allowing the resulting celestial crystal cluster to fully grow.");
 
 /*=========================

@@ -10,7 +10,10 @@ mods.jei.JEI.addDescription(<appliedenergistics2:material:45>, "Needs a steel ha
 <ore:brokenPlate>.add(<scrap:broken.plate:*>);
 <ore:plankWood>.add(<contenttweaker:holyplank>);
 //<ore:framechests>.add(<bibliocraft:framedchest:*>);
-<cookingforblockheads:sink>.addTooltip("Needs water pumped in");
+<cookingforblockheads:sink>.addTooltip(format.red("Needs water pumped in"));
+<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}).addTooltip(format.red("Disabled"));
+<thermalexpansion:machine>.addTooltip(format.red("Disabled"));
+<thermalexpansion:device:8>.addTooltip(format.red("Disabled"));
 
 /*=========================
 Recipe Changes - Other

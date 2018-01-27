@@ -113,6 +113,13 @@ recipes.addShaped(<calculator:infocalculator>, [
     [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]
     ]);
 
+recipes.remove(<calculator:fabricationchamber>);
+recipes.addShaped(<calculator:fabricationchamber>, [
+    [null, null, null],
+    [<stevescarts:modulecomponents:20>, null, <stevescarts:modulecomponents:20>], 
+    [<calculator:material:3>, <storagedrawers:controller>, <calculator:material:3>]
+    ]);
+
 
 /*=========================
 Conductor Mast
