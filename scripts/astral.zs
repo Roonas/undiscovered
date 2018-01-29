@@ -66,8 +66,9 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<extrautils2:endershard>*8, 100
 /*=========================
 Attunment Altar (Starlight Altar) 3x3 + 4
 =========================*/
+val lensNbt = <astralsorcery:blocklens>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 100, size: 400, purity: 100}}});
 mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blocklens>, 1);
-mods.astralsorcery.Altar.addAttunmentAltarRecipe(<astralsorcery:blocklens>, 500, 100, [
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(lensNbt, 500, 100, [
     <ore:gemAquamarine>, glassLens, <ore:gemAquamarine>, 
     glassLens, <astralsorcery:itemrockcrystalsimple>, glassLens, 
     psimetalIngot, psimetalIngot, psimetalIngot, 

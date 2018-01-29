@@ -10,6 +10,7 @@ Removed certus dust -> silicon furnace recipe, added alternate centrifuge recipe
 Fixed dynamos not being upgradeable
 Removed unusable redstone furnace augments
 Made Mek configurator easier to craft
+Fixed AS lens crashing with missing nbt
 
 2.1.0
 ----------
