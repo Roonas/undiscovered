@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": false,
+      "editmode": true,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -3906,7 +3906,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        45
+        211
       ],
       "questID": 75
     },
@@ -16371,6 +16371,480 @@
         271
       ],
       "questID": 290
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Story template",
+          "desc": "Hi bby ;)"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 291
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Only Child #2",
+          "desc": "This is the magic of my father: a magic of blood and earth and viscera, born of rage and fear.  A magic of chaos."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        287
+      ],
+      "questID": 292
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Only Child #1",
+          "desc": "This is the magic of my mother: a magic of reaching out while staying safe, a magic of straight lines and clean math.  A magic of control."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        149
+      ],
+      "questID": 293
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Only Child #3",
+          "desc": "My mother says it is no surprise that my father’s magic starts with crystal and syringes, shaking her head.  Yet another bit of their past that I don’t understand.  As a child, I begged for stories and she rarely let anything slip.  When she got older… well, by then I knew that this world was my world and had little interest in theirs."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        252
+      ],
+      "questID": 294
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Only Child #5",
+          "desc": "After putting me to bed, my mother would often climb her tower and stare up at the stars.  At first I’m sure she was searching for something familiar, a way home.  But she soon found they had a power and beauty all their own… and learned how to harness it."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        272
+      ],
+      "questID": 295
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Only Child #6",
+          "desc": "Apparently even my father can tire of blood eventually, because on one of his rare visits, Tinker helped him rig up a few things.  The Sanguinary Pedestal saves you a lot of time on laundry by automating blood collection and the blood infuser gives you more time to work with that fresh blood and a lot less waste.  The two men have never been friends, but Tinker can never resist working a problem."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        298
+      ],
+      "questID": 296
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Only Child #7",
+          "desc": "My mother was very frustrated when she first tried to get her newest discovery, starmetal, to successfully smelt.  Tinker tried to help her but they couldn’t get the heat to sustain at a high enough level; he was muttering about arc power and signalum upgrades as he wandered off.  It was my father who finally solved it, much to her chagrin. Say what you will about him, he would always come when she needed him, even if he couldn’t figure out how to stay.  She called him horrid names at times… but also called him her “last man on earth” and always welcomed him back."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        153
+      ],
+      "questID": 297
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:sanguinary_pedestal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Pedestal of Blood",
+          "desc": "Used to automate the collection of blood. Particularly useful when spikes are affixed to the top to drain the blood of creatures walking over the pedestal."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:sanguinary_pedestal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "evilcraft:spiked_plate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        288
+      ],
+      "questID": 298
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Only Child #4",
+          "desc": "Not everything my father touches was death and blood.  All that cleanup led him to develop some very clever plumbing that rivals anything the fools in the lost cities had… I mean, did those people never have to use a toilet?  My father’s inventions made cleanup a breeze and are useful for any number of things!"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        300
+      ],
+      "questID": 299
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "evilcraft:bucket_eternal_water",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Evil H2O",
+          "desc": "A bucket with an endless supply of water, yet always has room to accept more. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "evilcraft:bucket_eternal_water",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        251
+      ],
+      "questID": 300
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Only Child #8",
+          "desc": "I was 15, just back from a visit with my father that had ended badly and fighting with my mother.  She finally sent me out of the house to “get some air or pick some flowers or whatever it is you do when you aren’t being useful”, so I was sulking through the woods.  And out of spite, I did pick some flowers, collecting those that seemed to have a faint shimmer to them.  Some seemed useless for anything but dye, but the others seemed to behave in peculiar ways, especially when combined in water.  After 2 months of experimentation (and avoidance of parents) I had the start of the magic I would spend the rest of my life developing."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        250
+      ],
+      "questID": 301
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Only Child #9",
+          "desc": "I do not think I have ever been angrier than when my father took one of my own very first magical innovations -- the wood suffused with the botanical magic of this world -- and put it into his blood infuser to make something abominable.  I immediately cut down those cursed trees and tried to purify them again before they could infect the rest of the forest.  The logs transformed into something with properties all its own, which seemed attuned to the star magic my mother had started investigating in her later years."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        261
+      ],
+      "questID": 302
     }
   ],
   "questLines": [
@@ -17262,7 +17736,7 @@
       "quests": [
         {
           "size": 24,
-          "x": 186,
+          "x": 156,
           "y": 102,
           "id": 256
         },
@@ -17292,7 +17766,7 @@
         },
         {
           "size": 24,
-          "x": 216,
+          "x": 186,
           "y": 132,
           "id": 261
         },
@@ -17322,7 +17796,7 @@
         },
         {
           "size": 24,
-          "x": 246,
+          "x": 216,
           "y": 102,
           "id": 266
         },
@@ -17388,7 +17862,7 @@
         },
         {
           "size": 24,
-          "x": 216,
+          "x": 246,
           "y": 12,
           "id": 151
         },
@@ -17400,19 +17874,19 @@
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 72,
+          "x": 186,
+          "y": 102,
           "id": 153
         },
         {
           "size": 24,
-          "x": 246,
+          "x": 216,
           "y": 132,
           "id": 154
         },
         {
           "size": 24,
-          "x": 186,
+          "x": 156,
           "y": 132,
           "id": 155
         },
@@ -17449,7 +17923,7 @@
         {
           "size": 24,
           "x": 186,
-          "y": 42,
+          "y": 12,
           "id": 288
         },
         {
@@ -17472,6 +17946,78 @@
         },
         {
           "size": 24,
+          "x": 318,
+          "y": 18,
+          "id": 291
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 12,
+          "id": 292
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 12,
+          "id": 293
+        },
+        {
+          "size": 24,
+          "x": 126,
+          "y": 72,
+          "id": 294
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 72,
+          "id": 295
+        },
+        {
+          "size": 24,
+          "x": 186,
+          "y": 42,
+          "id": 296
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 72,
+          "id": 297
+        },
+        {
+          "size": 24,
+          "x": 216,
+          "y": 12,
+          "id": 298
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 42,
+          "id": 299
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 12,
+          "id": 300
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 132,
+          "id": 301
+        },
+        {
+          "size": 24,
+          "x": 186,
+          "y": 162,
+          "id": 302
+        },
+        {
+          "size": 24,
           "x": 6,
           "y": 192,
           "id": 244
@@ -17479,7 +18025,7 @@
         {
           "size": 24,
           "x": 186,
-          "y": 162,
+          "y": 192,
           "id": 245
         },
         {
@@ -17490,8 +18036,8 @@
         },
         {
           "size": 24,
-          "x": 252,
-          "y": -12,
+          "x": 318,
+          "y": 42,
           "id": 248
         },
         {
@@ -17502,7 +18048,7 @@
         },
         {
           "size": 24,
-          "x": 126,
+          "x": 96,
           "y": 102,
           "id": 250
         },
@@ -17520,7 +18066,7 @@
         },
         {
           "size": 24,
-          "x": 156,
+          "x": 126,
           "y": 102,
           "id": 253
         },
@@ -17532,7 +18078,7 @@
         },
         {
           "size": 24,
-          "x": 156,
+          "x": 126,
           "y": 132,
           "id": 255
         }

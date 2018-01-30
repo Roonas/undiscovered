@@ -11,6 +11,8 @@ Fixed dynamos not being upgradeable
 Removed unusable redstone furnace augments
 Made Mek configurator easier to craft
 Fixed AS lens crashing with missing nbt
+Added story quests and a few evil craft items to early magic quests
+Fixed Gas Powered quest not unlocking
 
 2.1.0
 ----------

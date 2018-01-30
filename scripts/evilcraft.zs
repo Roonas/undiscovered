@@ -81,6 +81,13 @@ recipes.addShaped("spirit furnace 2", <evilcraft:spirit_furnace>, [
     [<evilcraft:dark_blood_brick>, <ore:attunedCrystal>, <evilcraft:dark_blood_brick>]
     ]);
 
+recipes.remove(<evilcraft:sanguinary_pedestal>);
+recipes.addShaped(<evilcraft:sanguinary_pedestal>, [
+    [<evilcraft:dark_gem>, <evilcraft:dark_gem>, <evilcraft:dark_gem>],
+    [<evilcraft:hardened_blood_shard>, <evilcraft:dark_tank>, <evilcraft:hardened_blood_shard>], 
+    [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]
+    ]);
+
 /*
 recipes.addShaped("dark gem gear", <jaopca:item_geardark>, [
     [<immersiveengineering:material:2>, <evilcraft:dark_gem>, <immersiveengineering:material:2>], 
