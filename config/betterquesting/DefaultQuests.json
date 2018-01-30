@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": true,
+      "editmode": false,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -10012,7 +10012,7 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:water_bucket",
+            "id": "minecraft:writable_book",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -10023,15 +10023,19 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "A Fancy Fluid System",
-          "desc": "A high tech system for storing and moving fluids seems within reach. Though storing solid items is still beyond your current technology. "
+          "name": "Tinker’s Notebook #7",
+          "desc": "Eureka!  Not only are materials science and electricity different in this world… math itself seems to have strange, material altering properties!  I do not know if I am starting to understand the physics of this universe or have finally gone mad.  I mock my friends for dabbling with blood and starlight but when 2+2\u003dgold… am I any different? I should tell her, next time I visit.  As soon as I trim my beard… and bathe… and perhaps I should bring her something… hmmmm."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [
-        64,
-        72
+        59
       ],
       "questID": 177
     },
@@ -16794,7 +16798,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "The Only Child #8",
-          "desc": "I was 15, just back from a visit with my father that had ended badly and fighting with my mother.  She finally sent me out of the house to “get some air or pick some flowers or whatever it is you do when you aren’t being useful”, so I was sulking through the woods.  And out of spite, I did pick some flowers, collecting those that seemed to have a faint shimmer to them.  Some seemed useless for anything but dye, but the others seemed to behave in peculiar ways, especially when combined in water.  After 2 months of experimentation (and avoidance of parents) I had the start of the magic I would spend the rest of my life developing."
+          "desc": "I was 15 when I made my own first magic.  After yet another fight with my mother, I fled to the woods, picking the flowers there that shimmered slightly in the coming twilight.  In this world, nearly everything seems to have more uses than meet the eye but it took me two months of experimentation before I had my first functional apothecary and created a Pure Daisy, so called because of the daze my life had been before discovering the powerful flowers."
         }
       },
       "tasks": [
@@ -16845,6 +16849,300 @@
         261
       ],
       "questID": 302
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Story Template",
+          "desc": "You strong, you loyal, dont play yourself"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 303
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Tinker’s Notebook #1",
+          "desc": "This world is strange in more ways than just the obvious.  The very rules of science seem to be different; currents and metals work in different ways.  It is clear that they were once very sophisticated; their skyscrapers are built of mysterious and wondrous materials and you find remains of their gears and circuits everywhere.  I refuse to give up and live like a caveman or follow the path of magic and madness like my friends.  I will pick away at this problem until I understand!"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        243
+      ],
+      "questID": 304
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Tinker’s Notebook #2",
+          "desc": "I seem to be missing some very basic materials.  I see them in the buildings and in the detritus but they are completely absent from my core samples.  Finally I found a tower with an odd doorway.  After months of trying, it was finally my friend who gave me the materials to light an eerie fire and open the door to… I do not know how to describe it.  It scares me and fills me with hope, for here are the missing pieces!"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        67
+      ],
+      "questID": 305
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Tinker’s Notebook #3",
+          "desc": "I found a crazy assortment of brewing apparatus and stills (and a lot of broken bottles) in an abandoned cottage up the hills.  I think the hermit is long dead, but I’ve been tinkering with his equipment and I think I might be able to improve on his designs and put it to a more industrial use. If this doesn’t work to improve my ore processing, I may take up drinking myself."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        57
+      ],
+      "questID": 306
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Tinker’s Notebook #4",
+          "desc": "Now that I seem to have the basic materials, I need to go about this a little more methodically. Enough custom gears and individual design.  I think I can make some basic components that I can assemble and customize to different needs."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        56
+      ],
+      "questID": 307
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Tinker’s Notebook #5",
+          "desc": "For my smaller machines, I think if I build them into a standard casing it will allow me to rearrange my systems easily.  And one style of case should work for everything, right? Right!?  Right…."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        72
+      ],
+      "questID": 308
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Tinker’s Notebook #6",
+          "desc": "The bees seem to be bothered by the chemical smells of my workshop… perhaps if I make a more natural appearing (and smelling) piece of machinery to process their output and supplies, they won’t sting me so much.  Please.  Effing bees…"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        60
+      ],
+      "questID": 309
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Tinker’s Notebook #8",
+          "desc": "I have created some more prototypes of machine casings.  After extensive testing, it is my plan to consolidate them all into one consistent, easy-to-manufacture style.  I am totally putting that on my to-do list… as soon as i find it."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        69
+      ],
+      "questID": 310
     }
   ],
   "questLines": [
@@ -17036,8 +17334,8 @@
         },
         {
           "size": 24,
-          "x": 162,
-          "y": 96,
+          "x": 168,
+          "y": 90,
           "id": 192
         },
         {
@@ -17048,8 +17346,8 @@
         },
         {
           "size": 24,
-          "x": 162,
-          "y": 126,
+          "x": 168,
+          "y": 120,
           "id": 193
         },
         {
@@ -17085,7 +17383,7 @@
         {
           "size": 24,
           "x": 12,
-          "y": 162,
+          "y": 156,
           "id": 71
         },
         {
@@ -17096,9 +17394,33 @@
         },
         {
           "size": 24,
+          "x": 162,
+          "y": 6,
+          "id": 303
+        },
+        {
+          "size": 24,
+          "x": -18,
+          "y": 36,
+          "id": 304
+        },
+        {
+          "size": 24,
+          "x": -18,
+          "y": 66,
+          "id": 305
+        },
+        {
+          "size": 24,
           "x": 42,
           "y": 126,
           "id": 177
+        },
+        {
+          "size": 24,
+          "x": 108,
+          "y": 0,
+          "id": 306
         },
         {
           "size": 24,
@@ -17108,9 +17430,27 @@
         },
         {
           "size": 24,
+          "x": 138,
+          "y": 120,
+          "id": 307
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": 96,
+          "id": 308
+        },
+        {
+          "size": 24,
           "x": 12,
           "y": 6,
           "id": 117
+        },
+        {
+          "size": 24,
+          "x": -18,
+          "y": 126,
+          "id": 309
         },
         {
           "size": 24,
@@ -17120,14 +17460,20 @@
         },
         {
           "size": 24,
-          "x": 102,
-          "y": 96,
+          "x": 132,
+          "y": 192,
+          "id": 310
+        },
+        {
+          "size": 24,
+          "x": 108,
+          "y": 90,
           "id": 56
         },
         {
           "size": 24,
-          "x": 102,
-          "y": 42,
+          "x": 108,
+          "y": 30,
           "id": 57
         },
         {
@@ -17139,7 +17485,7 @@
         {
           "size": 24,
           "x": 72,
-          "y": 96,
+          "y": 36,
           "id": 186
         },
         {
@@ -17156,8 +17502,8 @@
         },
         {
           "size": 24,
-          "x": 138,
-          "y": 180,
+          "x": 168,
+          "y": 150,
           "id": 187
         },
         {
@@ -17169,13 +17515,13 @@
         {
           "size": 24,
           "x": 108,
-          "y": 150,
+          "y": 156,
           "id": 188
         },
         {
           "size": 24,
-          "x": 132,
-          "y": 66,
+          "x": 138,
+          "y": 60,
           "id": 61
         },
         {
@@ -17193,19 +17539,19 @@
         {
           "size": 24,
           "x": 108,
-          "y": 126,
+          "y": 132,
           "id": 190
         },
         {
           "size": 24,
           "x": 72,
-          "y": 138,
+          "y": 156,
           "id": 63
         },
         {
           "size": 24,
-          "x": 132,
-          "y": 96,
+          "x": 138,
+          "y": 90,
           "id": 191
         }
       ],
@@ -17736,7 +18082,7 @@
       "quests": [
         {
           "size": 24,
-          "x": 156,
+          "x": 186,
           "y": 102,
           "id": 256
         },
@@ -17748,7 +18094,7 @@
         },
         {
           "size": 24,
-          "x": 186,
+          "x": 216,
           "y": 72,
           "id": 258
         },
@@ -17766,7 +18112,7 @@
         },
         {
           "size": 24,
-          "x": 186,
+          "x": 216,
           "y": 132,
           "id": 261
         },
@@ -17796,7 +18142,7 @@
         },
         {
           "size": 24,
-          "x": 216,
+          "x": 246,
           "y": 102,
           "id": 266
         },
@@ -17814,7 +18160,7 @@
         },
         {
           "size": 24,
-          "x": 216,
+          "x": 246,
           "y": 42,
           "id": 269
         },
@@ -17832,19 +18178,19 @@
         },
         {
           "size": 24,
-          "x": 36,
-          "y": 102,
+          "x": 66,
+          "y": 72,
           "id": 272
         },
         {
           "size": 24,
-          "x": 6,
-          "y": 102,
+          "x": 36,
+          "y": 72,
           "id": 273
         },
         {
           "size": 24,
-          "x": 156,
+          "x": 186,
           "y": 42,
           "id": 148
         },
@@ -17862,25 +18208,25 @@
         },
         {
           "size": 24,
-          "x": 246,
+          "x": 276,
           "y": 12,
           "id": 151
         },
         {
           "size": 24,
-          "x": 96,
+          "x": 126,
           "y": 72,
           "id": 152
         },
         {
           "size": 24,
-          "x": 186,
+          "x": 216,
           "y": 102,
           "id": 153
         },
         {
           "size": 24,
-          "x": 216,
+          "x": 246,
           "y": 132,
           "id": 154
         },
@@ -17898,19 +18244,19 @@
         },
         {
           "size": 24,
-          "x": 156,
+          "x": 186,
           "y": 72,
           "id": 158
         },
         {
           "size": 24,
-          "x": 36,
-          "y": 72,
+          "x": 66,
+          "y": 42,
           "id": 286
         },
         {
           "size": 24,
-          "x": 66,
+          "x": 96,
           "y": 72,
           "id": 159
         },
@@ -17934,8 +18280,8 @@
         },
         {
           "size": 24,
-          "x": 6,
-          "y": 132,
+          "x": 36,
+          "y": 102,
           "id": 289
         },
         {
@@ -17958,43 +18304,43 @@
         },
         {
           "size": 24,
-          "x": 66,
-          "y": 12,
+          "x": 6,
+          "y": 42,
           "id": 293
         },
         {
           "size": 24,
-          "x": 126,
+          "x": 156,
           "y": 72,
           "id": 294
         },
         {
           "size": 24,
-          "x": 6,
-          "y": 72,
+          "x": 36,
+          "y": 42,
           "id": 295
         },
         {
           "size": 24,
-          "x": 186,
-          "y": 42,
+          "x": 246,
+          "y": 12,
           "id": 296
         },
         {
           "size": 24,
-          "x": 216,
+          "x": 246,
           "y": 72,
           "id": 297
         },
         {
           "size": 24,
           "x": 216,
-          "y": 12,
+          "y": 42,
           "id": 298
         },
         {
           "size": 24,
-          "x": 96,
+          "x": 126,
           "y": 42,
           "id": 299
         },
@@ -18006,8 +18352,8 @@
         },
         {
           "size": 24,
-          "x": 66,
-          "y": 132,
+          "x": 96,
+          "y": 102,
           "id": 301
         },
         {
@@ -18042,31 +18388,31 @@
         },
         {
           "size": 24,
-          "x": 36,
-          "y": 42,
+          "x": 66,
+          "y": 12,
           "id": 249
         },
         {
           "size": 24,
-          "x": 96,
+          "x": 126,
           "y": 102,
           "id": 250
         },
         {
           "size": 24,
-          "x": 66,
+          "x": 96,
           "y": 42,
           "id": 251
         },
         {
           "size": 24,
-          "x": 126,
+          "x": 156,
           "y": 42,
           "id": 252
         },
         {
           "size": 24,
-          "x": 126,
+          "x": 156,
           "y": 102,
           "id": 253
         },
