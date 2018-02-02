@@ -1,3 +1,18 @@
+2.3.0
+----------
+~Add clay block to brick crushing recipe
+~remove nmrc
+~disable unstable ingots (possible crash with binnie box)
+
+2.2.1
+----------
+Updated Mods:
+* Calculator - Fixes conductor mast and plug not generating power
+* Comforts - Hammocks now placeable on mod trees
+* Dark Utilities
+* Immersive Petroleum
+* Sonar Core
+
 2.2.0
 ----------
 Actaully add grindstone back
