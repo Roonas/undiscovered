@@ -5,7 +5,11 @@ Add alternate recipe for moon stone
 Disable unstable ingots (possible crash with binnie box)
 Remove molten core from loottable
 Add couple new things to various loot tables
+Added chest to AS roof w/ shrine loot
+Added loot table used in evilcraft hut to the evil LC roof
+Fixed LC chaos altars stealing AS's sweet roof location
 Adjusted steves carts recipes to be easier
+Rearranged magic quest line so lore comes before relevent quest
 
 ~remove nmrc
 

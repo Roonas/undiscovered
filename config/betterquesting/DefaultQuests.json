@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": false,
+      "editmode": true,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -3072,7 +3072,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        60
+        177
       ],
       "questID": 59
     },
@@ -3122,7 +3122,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        64
+        309
       ],
       "questID": 60
     },
@@ -3223,7 +3223,7 @@
       "rewards": [],
       "preRequisites": [
         59,
-        63
+        310
       ],
       "questID": 62
     },
@@ -3531,7 +3531,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        67
+        306
       ],
       "questID": 68
     },
@@ -3581,7 +3581,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        63
+        310
       ],
       "questID": 69
     },
@@ -3731,7 +3731,6 @@
       ],
       "rewards": [],
       "preRequisites": [
-        70,
         58
       ],
       "questID": 72
@@ -6678,7 +6677,7 @@
       "rewards": [],
       "preRequisites": [
         59,
-        63
+        310
       ],
       "questID": 118
     },
@@ -8528,7 +8527,7 @@
       "rewards": [],
       "preRequisites": [
         234,
-        287
+        292
       ],
       "questID": 148
     },
@@ -8728,8 +8727,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        251,
-        252
+        301
       ],
       "questID": 152
     },
@@ -8779,7 +8777,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        158
+        297
       ],
       "questID": 153
     },
@@ -8993,7 +8991,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        263
+        311
       ],
       "questID": 157
     },
@@ -9045,59 +9043,9 @@
       ],
       "rewards": [],
       "preRequisites": [
-        252
+        296
       ],
       "questID": 158
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "issilent": false,
-          "snd_complete": "minecraft:entity.player.levelup",
-          "lockedprogress": false,
-          "tasklogic": "AND",
-          "repeattime": -1,
-          "simultaneous": false,
-          "icon": {
-            "id": "astralsorcery:blockwell",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "globalshare": false,
-          "questlogic": "AND",
-          "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
-          "ismain": false,
-          "name": "Star Juice",
-          "desc": "This crucible can collect the fluid of items melted by starlight. "
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "astralsorcery:blockwell",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        251
-      ],
-      "questID": 159
     },
     {
       "properties": {
@@ -10035,7 +9983,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        59
+        60
       ],
       "questID": 177
     },
@@ -10688,7 +10636,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        58
+        243
       ],
       "questID": 186
     },
@@ -13499,7 +13447,9 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [],
+      "preRequisites": [
+        234
+      ],
       "questID": 237
     },
     {
@@ -13842,7 +13792,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "New Quest",
+          "name": "Runic Power",
           "desc": "The basic rune types. These are not consumed if used in other runic altar recipes."
         }
       },
@@ -13994,7 +13944,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        159
+        272
       ],
       "questID": 247
     },
@@ -14092,7 +14042,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        149
+        293
       ],
       "questID": 249
     },
@@ -14198,7 +14148,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        249
+        314
       ],
       "questID": 251
     },
@@ -14248,7 +14198,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        148
+        294
       ],
       "questID": 252
     },
@@ -14463,7 +14413,7 @@
       "rewards": [],
       "preRequisites": [
         158,
-        253
+        302
       ],
       "questID": 256
     },
@@ -14563,8 +14513,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        158,
-        269
+        158
       ],
       "questID": 258
     },
@@ -15352,14 +15301,28 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Star Fluid",
-          "desc": "Starlight in liquid form. Not only useful in the crafting of more advance astral gadgets, this liquid illuminates its surroundings and provides night vision to those who touch it."
+          "desc": "This crucible can collect starlight in its melted form. Not only useful in the crafting of more advance astral gadgets, this liquid illuminates its surroundings and provides night vision to those who touch it."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:blockwell",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:crafting",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": true,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
@@ -15375,12 +15338,12 @@
             }
           ],
           "taskID": "bq_standard:retrieval",
-          "index": 0
+          "index": 1
         }
       ],
       "rewards": [],
       "preRequisites": [
-        159
+        295
       ],
       "questID": 272
     },
@@ -16260,7 +16223,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        148
+        294
       ],
       "questID": 288
     },
@@ -16518,7 +16481,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        252
+        148
       ],
       "questID": 294
     },
@@ -16555,7 +16518,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        272
+        251,
+        151
       ],
       "questID": 295
     },
@@ -16592,7 +16556,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        298
+        252
       ],
       "questID": 296
     },
@@ -16617,7 +16581,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The Only Child #7",
+          "name": "The Only Child #11",
           "desc": "My mother was very frustrated when she first tried to get her newest discovery, starmetal, to successfully smelt.  Tinker tried to help her but they couldn’t get the heat to sustain at a high enough level; he was muttering about arc power and signalum upgrades as he wandered off.  It was my father who finally solved it, much to her chagrin. Say what you will about him, he would always come when she needed him, even if he couldn’t figure out how to stay.  She called him horrid names at times… but also called him her “last man on earth” and always welcomed him back."
         }
       },
@@ -16629,7 +16593,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        153
+        247
       ],
       "questID": 297
     },
@@ -16685,7 +16649,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        288
+        296
       ],
       "questID": 298
     },
@@ -16710,7 +16674,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The Only Child #4",
+          "name": "The Only Child #7",
           "desc": "Not everything my father touches was death and blood.  All that cleanup led him to develop some very clever plumbing that rivals anything the fools in the lost cities had… I mean, did those people never have to use a toilet?  My father’s inventions made cleanup a breeze and are useful for any number of things!"
         }
       },
@@ -16722,7 +16686,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        300
+        258
       ],
       "questID": 299
     },
@@ -16772,7 +16736,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        251
+        299
       ],
       "questID": 300
     },
@@ -16809,7 +16773,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        250
+        251,
+        252
       ],
       "questID": 301
     },
@@ -16846,7 +16811,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        261
+        253
       ],
       "questID": 302
     },
@@ -16955,7 +16920,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        67
+        117
       ],
       "questID": 305
     },
@@ -16992,7 +16957,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        57
+        67
       ],
       "questID": 306
     },
@@ -17103,7 +17068,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        60
+        64
       ],
       "questID": 309
     },
@@ -17140,9 +17105,74 @@
       ],
       "rewards": [],
       "preRequisites": [
-        69
+        63
       ],
       "questID": 310
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "visibility": "NORMAL",
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Only Child #11",
+          "desc": "Having brought the magic of my mother and the magic of my father into some sort of uneasy cooperation, I was able to bring my own magic to the next level.  The way my mother\u0027s magic let you pre-program an event, when combined with the visceral worldliness that my father preferred let me capture those natural forces into a token that I could reuse and repurpose at need.  I called it the Runic Altar in honor of this combination of Symbol and Sanguine."
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        263
+      ],
+      "questID": 311
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Only Child #4",
+          "desc": "Once my mother had planned out an action for her magic to do, she had to put it into a form that was more portable to interact with the world.  Although she was not a violent woman, it amused her that her tool was in the shape of a gun, since it was used to \"execute\" a command.  One of the first things she created was a more malleable form of the redstone dust that Tinker used to control his mechanicals."
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        249
+      ],
+      "questID": 314
     }
   ],
   "questLines": [
@@ -17328,230 +17358,230 @@
       "quests": [
         {
           "size": 24,
-          "x": 12,
-          "y": 96,
+          "x": 60,
+          "y": 108,
           "id": 64
         },
         {
           "size": 24,
-          "x": 168,
-          "y": 90,
+          "x": 258,
+          "y": 72,
           "id": 192
         },
         {
           "size": 24,
-          "x": 12,
-          "y": 66,
+          "x": 96,
+          "y": 72,
           "id": 65
         },
         {
           "size": 24,
-          "x": 168,
-          "y": 120,
+          "x": 258,
+          "y": 108,
           "id": 193
         },
         {
           "size": 24,
-          "x": 42,
-          "y": 36,
+          "x": 96,
+          "y": 108,
           "id": 66
         },
         {
           "size": 24,
-          "x": 12,
+          "x": 96,
           "y": 36,
           "id": 67
         },
         {
           "size": 24,
-          "x": 42,
-          "y": 6,
+          "x": 132,
+          "y": 36,
           "id": 68
         },
         {
           "size": 24,
-          "x": 102,
-          "y": 192,
+          "x": 168,
+          "y": 216,
           "id": 69
         },
         {
           "size": 24,
-          "x": 42,
-          "y": 66,
+          "x": 60,
+          "y": 72,
           "id": 70
         },
         {
           "size": 24,
-          "x": 12,
-          "y": 156,
+          "x": 60,
+          "y": 144,
           "id": 71
         },
         {
           "size": 24,
-          "x": 42,
-          "y": 96,
+          "x": 132,
+          "y": 108,
           "id": 72
         },
         {
           "size": 24,
-          "x": 162,
-          "y": 6,
+          "x": 258,
+          "y": 0,
           "id": 303
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 36,
+          "x": 24,
+          "y": 0,
           "id": 304
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 66,
+          "x": 60,
+          "y": 0,
           "id": 305
         },
         {
           "size": 24,
-          "x": 42,
-          "y": 126,
+          "x": 60,
+          "y": 180,
           "id": 177
         },
         {
           "size": 24,
-          "x": 108,
+          "x": 132,
           "y": 0,
           "id": 306
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 6,
+          "x": 24,
+          "y": 36,
           "id": 243
         },
         {
           "size": 24,
-          "x": 138,
-          "y": 120,
+          "x": 222,
+          "y": 108,
           "id": 307
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 96,
+          "x": 132,
+          "y": 144,
           "id": 308
         },
         {
           "size": 24,
-          "x": 12,
-          "y": 6,
+          "x": 60,
+          "y": 36,
           "id": 117
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 126,
+          "x": 24,
+          "y": 108,
           "id": 309
         },
         {
           "size": 24,
-          "x": 42,
-          "y": 192,
+          "x": 96,
+          "y": 180,
           "id": 118
         },
         {
           "size": 24,
           "x": 132,
-          "y": 192,
+          "y": 180,
           "id": 310
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 90,
+          "x": 186,
+          "y": 72,
           "id": 56
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 30,
+          "x": 168,
+          "y": 36,
           "id": 57
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 66,
+          "x": 132,
+          "y": 72,
           "id": 58
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 36,
+          "x": 24,
+          "y": 72,
           "id": 186
         },
         {
           "size": 24,
-          "x": 42,
-          "y": 156,
+          "x": 60,
+          "y": 216,
           "id": 59
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 156,
+          "x": 24,
+          "y": 180,
           "id": 123
         },
         {
           "size": 24,
-          "x": 168,
-          "y": 150,
+          "x": 258,
+          "y": 216,
           "id": 187
         },
         {
           "size": 24,
-          "x": 12,
-          "y": 126,
+          "x": 24,
+          "y": 144,
           "id": 60
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 156,
+          "x": 222,
+          "y": 180,
           "id": 188
         },
         {
           "size": 24,
-          "x": 138,
-          "y": 60,
+          "x": 204,
+          "y": 36,
           "id": 61
         },
         {
           "size": 24,
-          "x": 138,
-          "y": 150,
+          "x": 258,
+          "y": 180,
           "id": 189
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 192,
+          "x": 132,
+          "y": 216,
           "id": 62
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 132,
+          "x": 258,
+          "y": 144,
           "id": 190
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 156,
+          "x": 186,
+          "y": 144,
           "id": 63
         },
         {
           "size": 24,
-          "x": 138,
-          "y": 90,
+          "x": 222,
+          "y": 72,
           "id": 191
         }
       ],
@@ -18073,7 +18103,7 @@
     {
       "properties": {
         "betterquesting": {
-          "name": "Magician\u0027s Apprentice",
+          "name": "Discovering Magic",
           "bg_image": "",
           "bg_size": 256,
           "desc": "No Description"
@@ -18082,350 +18112,356 @@
       "quests": [
         {
           "size": 24,
-          "x": 186,
+          "x": 234,
           "y": 102,
           "id": 256
         },
         {
           "size": 24,
-          "x": 36,
+          "x": 30,
           "y": 162,
           "id": 257
         },
         {
           "size": 24,
-          "x": 216,
+          "x": 264,
           "y": 72,
           "id": 258
         },
         {
           "size": 24,
-          "x": 36,
+          "x": 0,
           "y": 132,
           "id": 259
         },
         {
           "size": 24,
-          "x": 96,
+          "x": 126,
           "y": 162,
           "id": 260
         },
         {
           "size": 24,
-          "x": 216,
+          "x": 234,
           "y": 132,
           "id": 261
         },
         {
           "size": 24,
           "x": 126,
-          "y": 162,
+          "y": 192,
           "id": 262
         },
         {
           "size": 24,
-          "x": 156,
-          "y": 192,
+          "x": 126,
+          "y": 222,
           "id": 263
         },
         {
           "size": 24,
-          "x": 66,
+          "x": 60,
           "y": 192,
           "id": 264
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 162,
+          "x": 264,
+          "y": 192,
           "id": 265
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 102,
+          "x": 264,
+          "y": 132,
           "id": 266
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 192,
+          "x": 264,
+          "y": 162,
           "id": 267
         },
         {
           "size": 24,
-          "x": 36,
+          "x": 30,
           "y": 192,
           "id": 268
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 42,
+          "x": 90,
+          "y": 102,
           "id": 269
         },
         {
           "size": 24,
-          "x": 66,
-          "y": 162,
+          "x": 162,
+          "y": 192,
           "id": 270
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 162,
+          "x": 234,
+          "y": 192,
           "id": 271
         },
         {
           "size": 24,
-          "x": 66,
+          "x": 30,
           "y": 72,
           "id": 272
         },
         {
           "size": 24,
-          "x": 36,
-          "y": 72,
+          "x": 0,
+          "y": 102,
           "id": 273
         },
         {
           "size": 24,
-          "x": 186,
+          "x": 264,
           "y": 42,
           "id": 148
         },
         {
           "size": 24,
-          "x": 36,
+          "x": 0,
           "y": 12,
           "id": 149
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 192,
+          "x": 96,
+          "y": 222,
           "id": 150
         },
         {
           "size": 24,
-          "x": 276,
-          "y": 12,
+          "x": 60,
+          "y": 102,
           "id": 151
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 72,
+          "x": 144,
+          "y": 54,
           "id": 152
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 102,
+          "x": 60,
+          "y": 132,
           "id": 153
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 132,
+          "x": 234,
+          "y": 162,
           "id": 154
         },
         {
           "size": 24,
-          "x": 156,
-          "y": 132,
+          "x": 264,
+          "y": 102,
           "id": 155
         },
         {
           "size": 24,
-          "x": 156,
-          "y": 162,
+          "x": 162,
+          "y": 222,
           "id": 157
         },
         {
           "size": 24,
-          "x": 186,
+          "x": 234,
           "y": 72,
           "id": 158
         },
         {
           "size": 24,
-          "x": 66,
-          "y": 42,
+          "x": 90,
+          "y": 72,
           "id": 286
         },
         {
           "size": 24,
-          "x": 96,
-          "y": 72,
-          "id": 159
-        },
-        {
-          "size": 24,
-          "x": 156,
+          "x": 294,
           "y": 12,
           "id": 287
         },
         {
           "size": 24,
-          "x": 186,
-          "y": 12,
+          "x": 234,
+          "y": 42,
           "id": 288
         },
         {
           "size": 24,
-          "x": 6,
+          "x": 0,
           "y": 162,
           "id": 160
         },
         {
           "size": 24,
-          "x": 36,
-          "y": 102,
+          "x": 0,
+          "y": 72,
           "id": 289
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 192,
+          "x": 234,
+          "y": 222,
           "id": 290
         },
         {
           "size": 24,
-          "x": 318,
-          "y": 18,
+          "x": 384,
+          "y": 12,
           "id": 291
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 12,
+          "x": 294,
+          "y": 42,
           "id": 292
         },
         {
           "size": 24,
-          "x": 6,
+          "x": 0,
           "y": 42,
           "id": 293
         },
         {
           "size": 24,
-          "x": 156,
-          "y": 72,
+          "x": 234,
+          "y": 12,
           "id": 294
         },
         {
           "size": 24,
-          "x": 36,
-          "y": 42,
+          "x": 60,
+          "y": 72,
           "id": 295
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 12,
+          "x": 204,
+          "y": 72,
           "id": 296
         },
         {
           "size": 24,
-          "x": 246,
-          "y": 72,
+          "x": 30,
+          "y": 132,
           "id": 297
         },
         {
           "size": 24,
-          "x": 216,
-          "y": 42,
+          "x": 204,
+          "y": 102,
           "id": 298
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 42,
+          "x": 294,
+          "y": 72,
           "id": 299
         },
         {
           "size": 24,
-          "x": 96,
-          "y": 12,
+          "x": 294,
+          "y": 102,
           "id": 300
         },
         {
           "size": 24,
-          "x": 96,
-          "y": 102,
+          "x": 144,
+          "y": 12,
           "id": 301
         },
         {
           "size": 24,
-          "x": 186,
-          "y": 162,
+          "x": 204,
+          "y": 132,
           "id": 302
         },
         {
           "size": 24,
-          "x": 6,
+          "x": 144,
+          "y": 252,
+          "id": 311
+        },
+        {
+          "size": 24,
+          "x": 60,
+          "y": 12,
+          "id": 314
+        },
+        {
+          "size": 24,
+          "x": 0,
           "y": 192,
           "id": 244
         },
         {
           "size": 24,
-          "x": 186,
-          "y": 192,
+          "x": 192,
+          "y": 222,
           "id": 245
         },
         {
           "size": 24,
-          "x": 66,
+          "x": 30,
           "y": 102,
           "id": 247
         },
         {
           "size": 24,
-          "x": 318,
+          "x": 384,
           "y": 42,
           "id": 248
         },
         {
           "size": 24,
-          "x": 66,
-          "y": 12,
+          "x": 30,
+          "y": 42,
           "id": 249
         },
         {
           "size": 24,
-          "x": 126,
+          "x": 144,
           "y": 102,
           "id": 250
         },
         {
           "size": 24,
-          "x": 96,
+          "x": 90,
           "y": 42,
           "id": 251
         },
         {
           "size": 24,
-          "x": 156,
+          "x": 204,
           "y": 42,
           "id": 252
         },
         {
           "size": 24,
-          "x": 156,
-          "y": 102,
-          "id": 253
-        },
-        {
-          "size": 24,
-          "x": 96,
+          "x": 162,
           "y": 132,
-          "id": 254
+          "id": 253
         },
         {
           "size": 24,
           "x": 126,
           "y": 132,
+          "id": 254
+        },
+        {
+          "size": 24,
+          "x": 162,
+          "y": 162,
           "id": 255
         }
       ],
@@ -18537,19 +18573,19 @@
         {
           "size": 24,
           "x": -36,
-          "y": 132,
+          "y": 60,
           "id": 241
         },
         {
           "size": 24,
-          "x": 24,
-          "y": 132,
+          "x": 36,
+          "y": 60,
           "id": 242
         },
         {
           "size": 24,
-          "x": -6,
-          "y": 84,
+          "x": 0,
+          "y": 24,
           "id": 234
         }
       ],

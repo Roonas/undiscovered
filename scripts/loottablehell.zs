@@ -92,6 +92,7 @@ val forVillagerPool = forestryVillage.getPool("forestry_apiculture_items");
 
 val shrineChest = LootTables.getTable("astralsorcery:chest_shrine");
 val shrinePool = shrineChest.getPool("astralsorcery:chest_shrine");
+val flukeShrinePool = shrineChest.addPool("fun stuff", 1, 1, 0, 0);
 
 val reliquaryNetherBridge = LootTables.getTable("xreliquary:inject/chests/nether_bridge");
 val reliquaryNetherPool = reliquaryNetherBridge.getPool("main");
@@ -368,3 +369,12 @@ villagerAddLoot.addItemEntryJSON(<minecraft:emerald>, 10, 0, ["count: {min: -1.0
 villagerAddLoot.addItemEntryJSON(<evilcraft:werewolf_flesh:1>, 2, 0, [], [], "Long Pig");
 villagerAddLoot.addItemEntryJSON(<evilcraft:condensed_blood>, 2, 0, [], [], "Blood");
 
+flukeShrinePool.addItemEntryJSON(<xreliquary:potion>.withTag({effects: [{duration: 500, potency: 4, name: "xreliquary:cure_potion"}], hasPotion: 1 as byte, splash: 1 as byte}), 6, 0, [], [], "Cure Potion");
+flukeShrinePool.addItemEntryJSON(<xreliquary:twilight_cloak>, 4, 0, [], [], "Invis Cloak");
+flukeShrinePool.addItemEntryJSON(<xreliquary:glowing_bread>, 6, 0, [], [], "Glowing Bread");
+flukeShrinePool.addItemEntryJSON(<xreliquary:fertile_lilypad>, 6, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Fertile Lillypad");
+flukeShrinePool.addItemEntryJSON(<xreliquary:mob_ingredient:5>, 6, 0, [], [], "Bat Wing");
+flukeShrinePool.addItemEntryJSON(<xreliquary:mob_ingredient:11>, 5, 0, [], [], "Ender Heart");
+flukeShrinePool.addItemEntryJSON(<evilcraft:dark_gem>, 5, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Dark Gem");
+flukeShrinePool.addItemEntryJSON(<silentgems:petsummoner:1>, 4, 0, [], [], "Dog Bone");
+flukeShrinePool.addItemEntryJSON(<randomthings:beans:2>, 5, 0, [], [], "Dog Bone");
