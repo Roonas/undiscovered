@@ -1,8 +1,13 @@
 2.3.0
 ----------
-~Add clay block to brick crushing recipe
+Add clay block to brick crushing recipe
+Add alternate recipe for moon stone
+Disable unstable ingots (possible crash with binnie box)
+Remove molten core from loottable
+Add couple new things to various loot tables
+Adjusted steves carts recipes to be easier
+
 ~remove nmrc
-~disable unstable ingots (possible crash with binnie box)
 
 2.2.1
 ----------

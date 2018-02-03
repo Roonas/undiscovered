@@ -93,6 +93,9 @@ val forVillagerPool = forestryVillage.getPool("forestry_apiculture_items");
 val shrineChest = LootTables.getTable("astralsorcery:chest_shrine");
 val shrinePool = shrineChest.getPool("astralsorcery:chest_shrine");
 
+val reliquaryNetherBridge = LootTables.getTable("xreliquary:inject/chests/nether_bridge");
+val reliquaryNetherPool = reliquaryNetherBridge.getPool("main");
+
 val vindicatorMob = LootTables.getTable("minecraft:entities/vindication_illager");
 val vindAddLoot = vindicatorMob.addPool("spirit drop", 1, 1, 0, 0);
 
@@ -241,6 +244,8 @@ blacksmithRTBiome.removeItemEntry(<evilcraft:condensed_blood>);
 blacksmithRTBiome.removeItemEntry(<evilcraft:box_of_eternal_closure>);
 blacksmithRTBiome.removeItemEntry(<evilcraft:origins_of_darkness>);
 
+reliquaryNetherPool.removeEntry("xreliquary:molten_core");
+
 ieEngiPool.removeEntry("copper_ingot");
 ieEngiPool.addItemEntryJSON(<thermalfoundation:material:128>, 10, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Copper Ingot");
 ieEngiPool.removeEntry("lead_nugget");
@@ -281,6 +286,7 @@ blacksmithMain.addItemEntryJSON(<harvestcraft:meatloafitem>, 5, 0, ["count: {min
 blacksmithMain.addItemEntryJSON(<stevescarts:modulecomponents:80>, 3, 0, ["count: {min: 2.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Cart Blade");
 blacksmithMain.addItemEntryJSON(<rustic:fluid_bottle>.withTag({Fluid: {FluidName: "ale", Amount: 1000, Tag: {Quality: 0.75 as float}}}), 7, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Ale");
 blacksmithMain.addItemEntryJSON(<contenttweaker:brokenrod>, 6, 0, ["count: {min: 2.0, max: 5.0}, function: 'minecraft:set_count'"], [], "Broke Rod");
+blacksmithMain.addItemEntryJSON(<calculator:redstonesword>, 3, 0, [], [], "Red Sword");
 
 forVillagerPool.addItemEntryJSON(<extrabees:hive_frame.cocoa>, 5, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "C Frame");
 forVillagerPool.addItemEntryJSON(<forestry:apiarist_bag>, 2, 0, [], [], "Bee Bag");
@@ -310,6 +316,7 @@ dungeonPool2.addItemEntryJSON(<contenttweaker:moldybread>, 7, 0, ["count: {min: 
 dungeonPool2.addItemEntryJSON(<contenttweaker:screws>, 9, 0, ["count: {min: 3.0, max: 7.0}, function: 'minecraft:set_count'"], [], "Screws");
 dungeonPool2.addItemEntryJSON(<calculator:babygrenade>, 3, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Baby Boom");
 dungeonPool2.addItemEntryJSON(<forestry:decaying_wheat>, 3, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Rotting Wheat");
+dungeonMain.addItemEntryJSON(<botania:slingshot>, 4, 0, [], [], "Vine Slingshot");
 
 mineshaftMain.addItemEntryJSON(<stevescarts:modulecomponents:23>, 5, 0, ["count: {min: 2.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Wheels");
 mineshaftMain.addItemEntryJSON(<waterstrainer:strainer_survivalist_reinforced>, 4, 0, [], [], "Strainer");
@@ -328,6 +335,8 @@ netherMain.addItemEntryJSON(<calculator:firecoal>, 5, 0, ["count: {min: 1.0, max
 netherMain.addItemEntryJSON(<silentgems:craftingmaterial:29>, 5, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Chaos Ingot");
 netherMain.addItemEntryJSON(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "cofhcore:insight"}]}), 2, 0, [], [], "Exp Token");
 netherMain.addItemEntryJSON(<silentgems:craftingmaterial:8>, 4, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "The Shaft");
+netherMain.addItemEntryJSON(<immersiveengineering:metal:7>, 5, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Electrum Ingot");
+netherMain.addItemEntryJSON(<thermalfoundation:material:162>, 5, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Invar Ingot");
 
 desertMain.removeEntry("minecraft:iron_horse_armor");
 desertMain.addItemEntryJSON(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "evilcraft:poison_tip"}]}), 5, 0, [], [], "Posion Tip");
@@ -341,6 +350,7 @@ desertPool1.addItemEntryJSON(<astralsorcery:itemusabledust:1>, 6, 0, [], [], "Mo
 desertPool1.addItemEntryJSON(<botania:grassseeds:3>, 5, 0, [], [], "Dry Grass");
 desertPool1.addItemEntryJSON(<harvestcraft:soybeanseeditem>, 3, 0, [], [], "Peanuts");
 desertPool1.addItemEntryJSON(<harvestcraft:peanutseeditem>, 3, 0, [], [], "Soybeans");
+desertMain.addItemEntryJSON(<minecraft:tipped_arrow>.withTag({Potion: "extrautils2:xu2.fizzy.lifting"}), 6, 0, ["count: {min: 8.0, max: 16.0}, function: 'minecraft:set_count'"], [], "Floaty Arrows");
 
 jungleMain.removeEntry("minecraft:iron_horse_armor");
 jungleMain.addItemEntryJSON(<psi:cad_colorizer_:16>, 7, 0, [], [], "CAD Color");

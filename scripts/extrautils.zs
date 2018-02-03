@@ -167,3 +167,9 @@ recipes.addShaped(<extrautils2:bagofholding>, [
     [<extrautils2:decorativesolidwood:1>, <actuallyadditions:block_giant_chest>, <extrautils2:decorativesolidwood:1>], 
     [<harvestcraft:hardenedleatheritem>, <ore:plateGold>, <harvestcraft:hardenedleatheritem>]
     ]);
+
+recipes.addShaped("moon stone", <extrautils2:ingredients:5>, [
+    [<astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:2>],
+    [<astralsorcery:itemcraftingcomponent:2>, <minecraft:diamond>, <astralsorcery:itemcraftingcomponent:2>], 
+    [<astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:2>]
+    ]);

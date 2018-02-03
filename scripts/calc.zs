@@ -151,6 +151,7 @@ Scientific Calc
 =========================*/
 mods.calculator.scientific.removeRecipe(<calculator:redstoneingot>);
 mods.calculator.scientific.addRecipe(<forestry:chipsets:3>, <darkutils:material:1>, <calculator:warpmodule>);
+mods.calculator.scientific.addRecipe(<calculator:reinforcedironingot>, <ore:dustObsidian>, <stevescarts:modulecomponents:19>);
 
 /*=========================
 Basic Calc

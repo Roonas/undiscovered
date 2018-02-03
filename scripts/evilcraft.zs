@@ -88,13 +88,12 @@ recipes.addShaped(<evilcraft:sanguinary_pedestal>, [
     [<astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>, <astralsorcery:blockblackmarble>]
     ]);
 
-/*
-recipes.addShaped("dark gem gear", <jaopca:item_geardark>, [
-    [<immersiveengineering:material:2>, <evilcraft:dark_gem>, <immersiveengineering:material:2>], 
-    [<evilcraft:dark_gem>, null, <evilcraft:dark_gem>], 
-    [<immersiveengineering:material:2>, <evilcraft:dark_gem>, <immersiveengineering:material:2>]
+recipes.remove(<evilcraft:weather_container>);
+recipes.addShaped("weather bottle", <evilcraft:weather_container>, [
+    [null, <evilcraft:dark_gem>, null],
+    [null, <minecraft:glass_bottle>, null], 
+    [null, <psi:material>, null]
     ]);
-*/
 
 
 /*=========================

@@ -93,11 +93,11 @@ Crushing Tub
 mods.rustic.CrushingTub.addRecipe(<liquid:ironberryjuice> * 1500, <rustic:dust_tiny_iron>, <minecraft:iron_ore>);
 mods.rustic.CrushingTub.addRecipe(<liquid:crude_oil> * 50, <minecraft:clay_ball>, <minecraft:dirt>);
 mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 5, <minecraft:brick>, <minecraft:clay_ball>);
+mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 10, <minecraft:brick> * 3, <minecraft:clay>);
 mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 5, dCream, <extrautils2:compresseddirt>);
 mods.rustic.CrushingTub.addRecipe(<liquid:coal> * 5, graphiteDust, graphitIngot);
 //mods.rustic.CrushingTub.addRecipe(<liquid:resin> * 100, <minecraft:log:3>, <minecraft:planks:3>);
 mods.rustic.CrushingTub.addRecipe(<liquid:gold> * 250, <minecraft:gold_ore>, crushedGold);
-//mods.rustic.CrushingTub.addRecipe(<liquid:sewage> * 10, <minecraft:stone>, <extrautils2:compressedcobblestone>);
 mods.rustic.CrushingTub.addRecipe(<liquid:coal> * 10, <thermalfoundation:material:768>, <minecraft:coal>);
 mods.rustic.CrushingTub.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>, <thermalfoundation:material:893>);
 mods.rustic.CrushingTub.addRecipe(<liquid:binnie.mash.wheat> * 50, yeast, <contenttweaker:moldybread>);
