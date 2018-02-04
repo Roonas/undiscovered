@@ -97,7 +97,7 @@ mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 10, <minecraft:brick> * 
 mods.rustic.CrushingTub.addRecipe(<liquid:heavywater> * 5, dCream, <extrautils2:compresseddirt>);
 mods.rustic.CrushingTub.addRecipe(<liquid:coal> * 5, graphiteDust, graphitIngot);
 //mods.rustic.CrushingTub.addRecipe(<liquid:resin> * 100, <minecraft:log:3>, <minecraft:planks:3>);
-mods.rustic.CrushingTub.addRecipe(<liquid:gold> * 250, <minecraft:gold_ore>, crushedGold);
+//mods.rustic.CrushingTub.addRecipe(<liquid:gold> * 250, <minecraft:gold_ore>, crushedGold);
 mods.rustic.CrushingTub.addRecipe(<liquid:coal> * 10, <thermalfoundation:material:768>, <minecraft:coal>);
 mods.rustic.CrushingTub.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>, <thermalfoundation:material:893>);
 mods.rustic.CrushingTub.addRecipe(<liquid:binnie.mash.wheat> * 50, yeast, <contenttweaker:moldybread>);

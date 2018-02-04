@@ -10,6 +10,9 @@ Added loot table used in evilcraft hut to the evil LC roof
 Fixed LC chaos altars stealing AS's sweet roof location
 Adjusted steves carts recipes to be easier
 Rearranged magic quest line so lore comes before relevent quest
+Added some more helpful jei tooltips/info boxes
+Significantly boost power output of BR turbine
+Removed old unused crushing tub recipe
 
 ~remove nmrc
 

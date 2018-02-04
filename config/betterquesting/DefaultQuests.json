@@ -3854,9 +3854,7 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        75
-      ],
+      "preRequisites": [],
       "questID": 74
     },
     {
@@ -3919,7 +3917,7 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "forestry:engine_clockwork",
+            "id": "calculator:handcrankedgenerator",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -3928,16 +3926,16 @@
           "questlogic": "AND",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
+          "autoclaim": true,
           "ismain": false,
-          "name": "Power by Hand",
-          "desc": "Only 1 of the 2 items needed to complete quest"
+          "name": "Crank It",
+          "desc": "."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -3953,20 +3951,14 @@
           "index": 0
         },
         {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "forestry:engine_clockwork",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
+          "scoreName": "T0Power",
+          "scoreDisp": "T0Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
           "index": 1
         }
       ],
@@ -4022,9 +4014,7 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        75
-      ],
+      "preRequisites": [],
       "questID": 77
     },
     {
@@ -4033,11 +4023,11 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "forestry:peat",
+            "id": "calculator:starchextractor",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -4048,20 +4038,20 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Swamp Power",
-          "desc": "No Description"
+          "name": "Starch Extraction",
+          "desc": "."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "forestry:peat",
+              "id": "calculator:starchextractor",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -4069,11 +4059,22 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
+        },
+        {
+          "scoreName": "T1Power",
+          "scoreDisp": "T1 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 1
         }
       ],
       "rewards": [],
       "preRequisites": [
-        234
+        313
       ],
       "questID": 78
     },
@@ -4083,7 +4084,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -4096,7 +4097,7 @@
           "questlogic": "AND",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
+          "autoclaim": true,
           "ismain": false,
           "name": "Plant Oil",
           "desc": "No Description"
@@ -4125,11 +4126,22 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
+        },
+        {
+          "scoreName": "T2Power",
+          "scoreDisp": "T2 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 1
         }
       ],
       "rewards": [],
       "preRequisites": [
-        62
+        315
       ],
       "questID": 79
     },
@@ -4175,11 +4187,22 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
+        },
+        {
+          "scoreName": "T1Power",
+          "scoreDisp": "T1 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 1
         }
       ],
       "rewards": [],
       "preRequisites": [
-        81
+        313
       ],
       "questID": 80
     },
@@ -4189,7 +4212,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -4199,12 +4222,12 @@
             "Damage": 0
           },
           "globalshare": false,
-          "questlogic": "AND",
+          "questlogic": "OR",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
+          "autoclaim": true,
           "ismain": false,
-          "name": "Unnamed",
+          "name": "Swamp Power",
           "desc": "No Description"
         }
       },
@@ -4225,11 +4248,22 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
+        },
+        {
+          "scoreName": "T1Power",
+          "scoreDisp": "T1 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 1
         }
       ],
       "rewards": [],
       "preRequisites": [
-        78
+        313
       ],
       "questID": 81
     },
@@ -4243,7 +4277,7 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "calculator:starchextractor",
+            "id": "industrialforegoing:bioreactor",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -4254,14 +4288,14 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Plant Fuel",
-          "desc": "Only 1 of the 3 items needed to complete quest"
+          "name": "Bio Juice",
+          "desc": ""
         }
       },
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -4271,49 +4305,32 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "industrialforegoing:biofuel_generator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
         },
         {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "actuallyadditions:block_bio_reactor",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
+          "scoreName": "T2Power",
+          "scoreDisp": "T2 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
           "index": 1
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "calculator:starchextractor",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 2
         }
       ],
       "rewards": [],
       "preRequisites": [
-        184
+        315
       ],
       "questID": 82
     },
@@ -4323,7 +4340,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -4336,7 +4353,7 @@
           "questlogic": "AND",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
+          "autoclaim": true,
           "ismain": false,
           "name": "Tree Powered",
           "desc": "No Description"
@@ -4359,11 +4376,22 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
+        },
+        {
+          "scoreName": "T1Power",
+          "scoreDisp": "T1 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 1
         }
       ],
       "rewards": [],
       "preRequisites": [
-        62
+        313
       ],
       "questID": 83
     },
@@ -4382,17 +4410,17 @@
             "OreDict": "",
             "Damage": 0,
             "tag": {
-              "Type:8": "extrautils2:generator_slime"
+              "Type:8": "extrautils2:generator_death"
             }
           },
           "globalshare": false,
           "questlogic": "AND",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
+          "autoclaim": true,
           "ismain": false,
           "name": "The Weird Ones",
-          "desc": "Only 1 of the 4 items needed to complete quest"
+          "desc": "Only 1 task needed to complete quest"
         }
       },
       "tasks": [
@@ -4429,7 +4457,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type:8": "extrautils2:generator_slime"
+                "Type:8": "extrautils2:generator_culinary"
               }
             }
           ],
@@ -4449,7 +4477,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type:8": "extrautils2:generator_tnt"
+                "Type:8": "extrautils2:generator_death"
               }
             }
           ],
@@ -4475,11 +4503,62 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 3
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extrautils2:machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Type:8": "extrautils2:generator_ice"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 4
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extrautils2:machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Type:8": "extrautils2:generator_ender"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 5
+        },
+        {
+          "scoreName": "T1Power",
+          "scoreDisp": "T1 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 6
         }
       ],
       "rewards": [],
       "preRequisites": [
-        118
+        313
       ],
       "questID": 84
     },
@@ -4505,10 +4584,10 @@
           "questlogic": "AND",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
+          "autoclaim": true,
           "ismain": false,
           "name": "The Weirder Ones",
-          "desc": "Only 1 of the 4 items needed to complete quest"
+          "desc": "."
         }
       },
       "tasks": [
@@ -4525,7 +4604,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type:8": "extrautils2:generator_ender"
+                "Type:8": "extrautils2:generator_tnt"
               }
             }
           ],
@@ -4545,7 +4624,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type:8": "extrautils2:generator_death"
+                "Type:8": "extrautils2:generator_redstone"
               }
             }
           ],
@@ -4565,7 +4644,7 @@
               "OreDict": "",
               "Damage": 0,
               "tag": {
-                "Type:8": "extrautils2:generator_ice"
+                "Type:8": "extrautils2:generator_slime"
               }
             }
           ],
@@ -4573,29 +4652,20 @@
           "index": 2
         },
         {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "extrautils2:machine",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0,
-              "tag": {
-                "Type:8": "extrautils2:generator_culinary"
-              }
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
+          "scoreName": "T2Power",
+          "scoreDisp": "T2 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
           "index": 3
         }
       ],
       "rewards": [],
       "preRequisites": [
-        84
+        315
       ],
       "questID": 85
     },
@@ -4690,9 +4760,7 @@
         }
       ],
       "rewards": [],
-      "preRequisites": [
-        85
-      ],
+      "preRequisites": [],
       "questID": 86
     },
     {
@@ -9046,6 +9114,67 @@
         296
       ],
       "questID": 158
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "OR",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "forestry:engine_clockwork",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Punch Powered",
+          "desc": "."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "forestry:engine_clockwork",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "scoreName": "T0Power",
+          "scoreDisp": "T0 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        234
+      ],
+      "questID": 159
     },
     {
       "properties": {
@@ -17148,6 +17277,121 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
+          "tasklogic": "OR",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "extrautils2:machine",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "Type:8": "extrautils2:generator_survival"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Just Surviving",
+          "desc": "."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extrautils2:machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Type:8": "extrautils2:generator_survival"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "scoreName": "T0Power",
+          "scoreDisp": "T0 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        234
+      ],
+      "questID": 312
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "thermalexpansion:frame",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 128
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "T0 Power",
+          "desc": "."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "score": "T0Power",
+          "type": "dummy",
+          "value": 1,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        76,
+        159,
+        312
+      ],
+      "questID": 313
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
           "tasklogic": "AND",
           "repeattime": -1,
           "simultaneous": false,
@@ -17173,6 +17417,245 @@
         249
       ],
       "questID": 314
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "thermalexpansion:frame",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 130
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "T1 Power",
+          "desc": "."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "score": "T1Power",
+          "type": "dummy",
+          "value": 1,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        80,
+        81,
+        78,
+        84,
+        83
+      ],
+      "questID": 315
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "OR",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "actuallyadditions:block_bio_reactor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Actually Bio Reaction",
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_bio_reactor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "scoreName": "T2Power",
+          "scoreDisp": "T2 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        315
+      ],
+      "questID": 316
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "OR",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "calculator:glowstoneextractor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": true,
+          "ismain": false,
+          "name": "Powder Power",
+          "desc": ""
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "calculator:glowstoneextractor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "calculator:redstoneextractor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "scoreName": "T2Power",
+          "scoreDisp": "T2 Power",
+          "type": "dummy",
+          "target": 1,
+          "unitConversion": 1.0,
+          "unitSuffix": "",
+          "operation": "MORE_OR_EQUAL",
+          "taskID": "bq_standard:scoreboard",
+          "index": 2
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        315
+      ],
+      "questID": 317
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "thermalexpansion:frame",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 131
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "T2 Power",
+          "desc": "."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "score": "T2Power",
+          "type": "dummy",
+          "value": 1,
+          "relative": true,
+          "rewardID": "bq_standard:scoreboard",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        82,
+        316,
+        317,
+        79,
+        85
+      ],
+      "questID": 318
     }
   ],
   "questLines": [
@@ -17600,99 +18083,141 @@
       "quests": [
         {
           "size": 24,
-          "x": 60,
-          "y": 109,
+          "x": 138,
+          "y": 246,
           "id": 73
         },
         {
           "size": 24,
-          "x": 70,
-          "y": 182,
+          "x": 24,
+          "y": 252,
           "id": 74
         },
         {
           "size": 24,
-          "x": 42,
-          "y": 140,
+          "x": 210,
+          "y": 252,
           "id": 75
         },
         {
           "size": 24,
-          "x": 61,
-          "y": 27,
+          "x": 66,
+          "y": 6,
           "id": 76
         },
         {
           "size": 24,
-          "x": 42,
-          "y": 182,
+          "x": 174,
+          "y": 246,
           "id": 77
         },
         {
           "size": 24,
-          "x": 29,
-          "y": 27,
+          "x": 102,
+          "y": 78,
           "id": 78
         },
         {
           "size": 24,
-          "x": 93,
-          "y": 85,
+          "x": 138,
+          "y": 150,
           "id": 79
         },
         {
           "size": 24,
-          "x": 29,
-          "y": 89,
+          "x": 30,
+          "y": 78,
           "id": 80
         },
         {
           "size": 24,
-          "x": 29,
-          "y": 58,
+          "x": 66,
+          "y": 78,
           "id": 81
         },
         {
           "size": 24,
-          "x": 80,
-          "y": 58,
+          "x": 30,
+          "y": 150,
           "id": 82
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 58,
+          "x": 174,
+          "y": 78,
           "id": 83
         },
         {
           "size": 24,
-          "x": 137,
-          "y": 58,
+          "x": 138,
+          "y": 78,
           "id": 84
         },
         {
           "size": 24,
-          "x": 137,
-          "y": 93,
+          "x": 168,
+          "y": 150,
           "id": 85
         },
         {
           "size": 24,
-          "x": 136,
-          "y": 127,
+          "x": 174,
+          "y": 216,
           "id": 86
         },
         {
           "size": 24,
-          "x": 78,
-          "y": 138,
+          "x": 102,
+          "y": 264,
           "id": 119
         },
         {
           "size": 24,
-          "x": 102,
-          "y": 180,
+          "x": 60,
+          "y": 246,
           "id": 120
+        },
+        {
+          "size": 24,
+          "x": 138,
+          "y": 6,
+          "id": 312
+        },
+        {
+          "size": 36,
+          "x": 96,
+          "y": 36,
+          "id": 313
+        },
+        {
+          "size": 36,
+          "x": 96,
+          "y": 108,
+          "id": 315
+        },
+        {
+          "size": 24,
+          "x": 66,
+          "y": 150,
+          "id": 316
+        },
+        {
+          "size": 24,
+          "x": 102,
+          "y": 150,
+          "id": 317
+        },
+        {
+          "size": 36,
+          "x": 96,
+          "y": 180,
+          "id": 318
+        },
+        {
+          "size": 24,
+          "x": 102,
+          "y": 6,
+          "id": 159
         }
       ],
       "lineID": 2,
