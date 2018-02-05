@@ -3,6 +3,8 @@ var enoriBlock = <actuallyadditions:block_crystal:5>;
 
 recipes.remove(<mekanismgenerators:generator>);
 
+<ore:foodSalt>.add(<mekanism:salt>);
+
 /*=========================
 Recipe Changes - Mekanism
 =========================*/

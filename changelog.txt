@@ -16,6 +16,8 @@ Removed old unused crushing tub recipe
 Removed pam's bees from worldgen
 Removed exu watering can
 Removed fabrication chamber from atomic multiplier recipe
+Add mek salt to food oredict
+Fixed rustic config making wine worse when primer culture is used
 
 ~remove nmrc
 
