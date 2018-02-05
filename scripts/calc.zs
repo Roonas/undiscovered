@@ -84,7 +84,7 @@ recipes.addShaped("calc transmitter", <calculator:transmitter>, [
 
 recipes.remove(<calculator:atomicmultiplier>);
 recipes.addShaped("atomic multiplier", <calculator:atomicmultiplier>, [
-    [<calculator:calculatorplug>, <calculator:fabricationchamber>, <calculator:calculatorplug>], 
+    [<calculator:calculatorplug>, <appliedenergistics2:material:11>, <calculator:calculatorplug>], 
     [<calculator:atomicmodule>, <calculator:atomicassembly>, <calculator:atomicmodule>], 
     [<astralsorcery:blockcelestialcollectorcrystal>, <draconicevolution:chaotic_core>, <evilcraft:garmonbozia>]
     ]);
@@ -154,6 +154,7 @@ Scientific Calc
 =========================*/
 mods.calculator.scientific.removeRecipe(<calculator:redstoneingot>);
 mods.calculator.scientific.addRecipe(<forestry:chipsets:3>, <darkutils:material:1>, <calculator:warpmodule>);
+mods.calculator.scientific.addRecipe(<silentgems:craftingmaterial:15>, <darkutils:material:1>, <calculator:jumpmodule>);
 mods.calculator.scientific.addRecipe(<calculator:reinforcedironingot>, <ore:dustObsidian>, <stevescarts:modulecomponents:19>);
 
 /*=========================

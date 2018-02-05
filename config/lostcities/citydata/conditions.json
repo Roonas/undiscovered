@@ -51,26 +51,6 @@
         "inpart": "rail_dungeon1"
       },
       {
-        "factor": 2,
-        "value": "lostcities:chests/raildungeonchest",
-        "inpart": "station_underground_stairs"
-      },
-      {
-        "factor": 2,
-        "value": "lostcities:chests/raildungeonchest",
-        "inpart": "station_openroof"
-      },
-      {
-        "factor": 60,
-        "value": "astralsorcery:chest_shrine",
-        "inpart": "flukealtar"
-      },
-      {
-        "factor": 30,
-        "value": "minecraft:chests/nether_bridge",
-        "inpart": "flukeevil"
-      },
-      {
         "factor": 20,
         "value": "lostcities:chests/raildungeonchest",
         "inpart": "rail_dungeon2"

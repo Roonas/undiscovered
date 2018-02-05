@@ -90,6 +90,12 @@ recipes.addShaped("mek wrench", <mekanism:configurator>, [
     [<ore:ingotSteel>, <jaopca:item_sticklapis>, null]
     ]);
 
+recipes.addShaped("turbine glass from casing", <mekanism:basicblock:10> * 4, [
+    [null, <mekanismgenerators:generator:10>, null],
+    [<mekanismgenerators:generator:10>, <minecraft:glass>, <mekanismgenerators:generator:10>], 
+    [null, <mekanismgenerators:generator:10>, null]
+    ]);
+
 
 /*=========================
 Crusher

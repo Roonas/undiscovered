@@ -97,6 +97,9 @@ val flukeShrinePool = shrineChest.addPool("fun stuff", 1, 1, 0, 0);
 val reliquaryNetherBridge = LootTables.getTable("xreliquary:inject/chests/nether_bridge");
 val reliquaryNetherPool = reliquaryNetherBridge.getPool("main");
 
+val lostcityRailChest = LootTables.getTable("lostcities:chests/raildungeonchest");
+val lostCityRailPool = lostcityRailChest.getPool("lostcities:raildungeonchest");
+
 val vindicatorMob = LootTables.getTable("minecraft:entities/vindication_illager");
 val vindAddLoot = vindicatorMob.addPool("spirit drop", 1, 1, 0, 0);
 
@@ -246,7 +249,12 @@ blacksmithRTBiome.removeItemEntry(<evilcraft:box_of_eternal_closure>);
 blacksmithRTBiome.removeItemEntry(<evilcraft:origins_of_darkness>);
 
 reliquaryNetherPool.removeEntry("xreliquary:molten_core");
-
+/*
+lostCityRailPool.removeEntry("minecraft:diamond");
+lostCityRailPool.removeEntry("minecraft:emerald");
+lostCityRailPool.addItemEntryJSON(<thermalfoundation:material:128>, 20, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Copper Ingot");
+lostCityRailPool.addItemEntryJSON(<thermalfoundation:material:195>, 19, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Lead Nugget");
+*/
 ieEngiPool.removeEntry("copper_ingot");
 ieEngiPool.addItemEntryJSON(<thermalfoundation:material:128>, 10, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Copper Ingot");
 ieEngiPool.removeEntry("lead_nugget");
