@@ -20,6 +20,7 @@ Add mek salt to food oredict
 Fixed rustic config making wine worse when primer culture is used
 
 ~remove nmrc
+~downgrade calc
 
 2.2.1
 ----------
