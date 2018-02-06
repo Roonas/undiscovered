@@ -18,9 +18,17 @@ Removed exu watering can
 Removed fabrication chamber from atomic multiplier recipe
 Add mek salt to food oredict
 Fixed rustic config making wine worse when primer culture is used
-
-~remove nmrc
-~downgrade calc
+Mod Updates:
+* Chisel and Bits
+* Dark Utilities
+* McJtyLib
+* RFTools
+* RFTools Dim
+* Xnet
+Mod Downgrades:
+* Calculator - pretty nasty bug when piping items in/out in latest version
+* Sonar Core
+* NoMoreRecipeConflict - Remove due to rare client crashing bug
 
 2.2.1
 ----------
