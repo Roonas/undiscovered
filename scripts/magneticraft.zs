@@ -53,11 +53,13 @@ Crushing Table
 =========================*/
 //mods.magneticraft.CrushingTable.removeRecipe(<thermalfoundation:ore:7>);
 mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:3>);
+mods.magneticraft.CrushingTable.removeRecipe(<mekanism:oreblock>);
 mods.magneticraft.CrushingTable.addRecipe(<minecraft:gold_block>, heavyGoldPlate, false);
 mods.magneticraft.CrushingTable.addRecipe(heavyGoldPlate, goldGear, false); 
 mods.magneticraft.CrushingTable.addRecipe(<appliedenergistics2:sky_stone_block>, skystoneDust, false);
 //mods.magneticraft.CrushingTable.addRecipe(<jaopca:block_blockquartzblack>, <jaopca:item_platequartzblack>, false);
 mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:storage:3>, heavyLeadPlate, true);
+mods.magneticraft.CrushingTable.addRecipe(<calculator:circuitdamaged>, <minecraft:redstone>, true);
 
 /*=========================
 Sluice Box

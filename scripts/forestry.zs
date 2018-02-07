@@ -79,10 +79,10 @@ recipes.addShaped("thermionic fab", <forestry:fabricator>, [
     ]);
     
 recipes.remove(<forestry:fermenter>);
-recipes.addShaped("fermenter", <forestry:fermenter>, [
-    [<magneticraft:copper_tank>, reinforcedCase, <magneticraft:copper_tank>], 
-    [constantanGear, <forestry:impregnated_casing>, constantanGear], 
-    [externalHeater, reinforcedCase, externalHeater]
+recipes.addShaped(<forestry:fermenter>, [
+    [<immersiveengineering:treated_wood>, <magneticraft:copper_tank>, <immersiveengineering:treated_wood>],
+    [<thermalfoundation:material:292>, <genetics:misc>, <thermalfoundation:material:292>], 
+    [<immersiveengineering:treated_wood>, <rustic:brewing_barrel>, <immersiveengineering:treated_wood>]
     ]);
 
 recipes.remove(<forestry:sturdy_machine>);

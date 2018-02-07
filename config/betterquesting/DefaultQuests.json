@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": false,
+      "editmode": true,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -2713,7 +2713,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermaldynamics:duct_16",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "thermaldynamics:servo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         239
       ],
@@ -13597,7 +13616,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Trashman #3",
-          "desc": "     Besides the river\n floXXXXXts\u0027am that clogs your nets, you\u0027ll find bits of scrap to open and sort, hoping for something that will put you past scraping in the muck.  Better trash can be found in the city dumps... if you can stomach the smell as you dig. "
+          "desc": "     Besides the river flotsam that clogs your nets, you\u0027ll find bits of scrap to open and sort, hoping for something that will put you past scraping in the muck.  Better trash can be found in the city dumps... if you can stomach the smell as you dig. "
         }
       },
       "tasks": [
@@ -15542,24 +15561,16 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
           "requiredItems": [
             {
               "id": "astralsorcery:blockwell",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:crafting",
-          "index": 0
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": true,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
+            },
             {
               "id": "forge:bucketfilled",
               "Count": 1,

@@ -1,3 +1,71 @@
+2.4.0
+----------
+Add fluiduct rewards to crushing quest
+Adjust loottable scripts to work with new evilcraft (aka less blood in chests)
+Fixed some weird formatting error in quest book
+Fixed yeast output from rf crushers for moldy bread to match rustic
+Made the stupidly expensive fermenter not stupidly expensive
+Fixed broken starlight quest
+~update evilcraft in twitch~
+~update cyclopse core in twitch~
+
+Forge Updated to 14.23.1.2604
+Mod Updates:
+* /dank/null
+* Actually Additions
+* Advanced Generators
+* AE2
+* Astral Sorcery
+* B.A.S.E
+* Baubles
+* Bdlib
+* Binnie's Mod
+* Bookshelf
+* Botania
+* CoFH Core
+* CoFH World
+* ConnectedTexturesMod
+* ContentTweaker
+* Controlling
+* Crafttweaker
+* Cucumber
+* Cyclops Core
+* Default Options
+* EvilCraft
+* ExtendedCrafting
+* Extra Utils 2
+* ExtraCells2
+* Extreme Reactor
+* Fence Jumper
+* Forestry
+* Gendustry
+* Industrial Foregoing
+* Inventory Tweaks
+* JOAPCA
+* JEI
+* JER
+* Lost Cities
+* Magneticraft
+* OpenBlocks Elevator
+* p455w0rd's Library
+* Pam's Harvestcraft
+* Placebo
+* Pressure Pipes
+* Random Things
+* Reborn Core
+* Reliquary
+* Rustic
+* Scrap
+* Silent's Gems
+* Steve's Cart Reborn
+* Storage Drawers
+* TOP Addons
+* Thermal Cultivation
+* Thermal Dynamics
+* Thermal Expansion
+* Thermal Foundation
+* Toast Control
+
 2.3.0
 ----------
 Add clay block to brick crushing recipe

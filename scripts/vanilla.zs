@@ -159,3 +159,9 @@ recipes.addShaped(<minecraft:dirt:1>, [
     [<calculator:soil>, <minecraft:gravel>, <calculator:soil>], 
     [<calculator:soil>, <calculator:soil>, <calculator:soil>]
     ]);
+
+recipes.addShaped(<minecraft:iron_bars> * 4, [
+    [<contenttweaker:brokenrod>, <contenttweaker:brokenrod>, <contenttweaker:brokenrod>],
+    [<contenttweaker:screws>, <contenttweaker:screws>, <contenttweaker:screws>], 
+    [<contenttweaker:brokenrod>, <contenttweaker:brokenrod>, <contenttweaker:brokenrod>]
+    ]);
