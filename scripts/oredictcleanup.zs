@@ -174,3 +174,4 @@ furnace.addRecipe(<mekanism:ingot:1>, <magneticraft:dusts:11>, 2);
 <ore:gemBrick>.add(<silentgems:gembrickcoateddark:*>);
 <ore:gemBrick>.add(<silentgems:gembrickcoatedlight:*>);
 <ore:damagedCircuit>.add(<calculator:circuitdamaged:*>);
+<ore:stickIron>.add(<silentgems:craftingmaterial:7>);

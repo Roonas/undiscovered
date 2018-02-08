@@ -46,7 +46,13 @@ recipes.addShaped("mesh fabric", meshFabric, [
     [<minecraft:string>, hempFabric, <minecraft:string>]
     ]);
 
+recipes.addShapeless(<chisel:limestone2:7>, [
+    <magneticraft:limestone>
+    ]);
 
+recipes.addShapeless(<magneticraft:limestone>, [
+    <chisel:limestone2:7>
+    ]);
 
 /*=========================
 Crushing Table

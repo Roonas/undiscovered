@@ -5,7 +5,11 @@ Adjust loottable scripts to work with new evilcraft (aka less blood in chests)
 Fixed some weird formatting error in quest book
 Fixed yeast output from rf crushers for moldy bread to match rustic
 Made the stupidly expensive fermenter not stupidly expensive
+Removed chisel limestone from oregen
+Added recipe to convert between chisel and magneticraft limestone
 Fixed broken starlight quest
+Added SG iron rod to IE iron rod oredict
+Update Pams config (need to diff check w/ old config)
 ~update evilcraft in twitch~
 ~update cyclopse core in twitch~
 
