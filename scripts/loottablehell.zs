@@ -187,6 +187,7 @@ dungeonMain.addItemEntryJSON(<forestry:digger_bag>.withTag({UID: -66682004}), 6,
 dungeonPool1.addItemEntryJSON(<scrap:scrap>.withTag({TABLE: "scrap:scrap", XP: "0d0", PLATE: "d1a77f", GEAR: "d0c2ba", NAME: "scrap"}), 6, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Scrap");
 dungeonPool1.addItemEntryJSON(<extendedcrafting:material:1>, 7, 0, ["count: {min: 3.0, max: 8.0}, function: 'minecraft:set_count'"], [], "Black Iron");
 dungeonPool1.addItemEntryJSON(<calculator:coaldust>, 7, 0, ["count: {min: 3.0, max: 8.0}, function: 'minecraft:set_count'"], [], "Mini Coal");
+dungeonPool1.addItemEntryJSON(<harvestcraft:garliccoinitem>, 5, 0, ["count: {min: 2.0, max: 5.0}, function: 'minecraft:set_count'"], [], "Garlic Money");
 dungeonPool1.addItemEntryJSON(<actuallyadditions:block_tiny_torch>, 4, 0, ["count: {min: 6.0, max: 11.0}, function: 'minecraft:set_count'"], [], "Mini Torch");
 dungeonPool1.addItemEntryJSON(<actuallyadditions:item_solidified_experience>, 3, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Exp");
 dungeonPool1.addItemEntryJSON(<cookingforblockheads:recipe_book:1>, 2, 0, [], [], "Cook Book");

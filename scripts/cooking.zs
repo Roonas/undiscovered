@@ -1,3 +1,6 @@
+
+mods.jei.JEI.addDescription(<harvestcraft:garliccoinitem>, "Used as currency in Pam's Market");
+
 /*=========================
 Recipe Changes - Cooking
 =========================*/

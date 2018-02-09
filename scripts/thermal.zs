@@ -285,6 +285,7 @@ mods.thermalexpansion.Transposer.addFillRecipe(<draconicevolution:dragon_heart>,
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:2049>, <minecraft:packed_ice>, <liquid:gasoline> * 250, 500);
 mods.thermalexpansion.Transposer.addFillRecipe(<bigreactors:ingotmetals:3>, <bigreactors:ingotmetals>, <liquid:cyanite> * 500, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<bigreactors:ingotmetals:3>, <bigreactors:ingotmetals>, <liquid:cryotheum> * 1000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<silentgems:nodemover>, <silentgems:craftingmaterial:14>, <liquid:ice> * 4000, 5000);
 
 /*=========================
 Refinery

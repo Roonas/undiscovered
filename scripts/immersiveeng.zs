@@ -184,6 +184,7 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<draconicevolution:dragon_he
 mods.immersiveengineering.BottlingMachine.addRecipe(mithrilCan, <forestry:can>, <liquid:mithril> * 1000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:experience_bottle>, <minecraft:glass_bottle>, <liquid:xpjuice> * 500);
 mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:experience_bottle>, <minecraft:glass_bottle>, <liquid:essence> * 500);
+mods.immersiveengineering.BottlingMachine.addRecipe(<silentgems:nodemover>, <silentgems:craftingmaterial:14>, <liquid:ice> * 4000);
 
 /*=========================
 Coke Oven

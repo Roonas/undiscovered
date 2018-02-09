@@ -10,8 +10,14 @@ Added recipe to convert between chisel and magneticraft limestone
 Fixed broken starlight quest
 Added SG iron rod to IE iron rod oredict
 Update Pams config (need to diff check w/ old config)
+Remove apatite from gem oredict
+Changed pams market currency (might reduce crashes from people trying to farm emeralds)
+Added alt recipe for node mover
+Raised max bonus hearts for SoL:Carrot to 10 at 240 different foods
+*apatite removed from fertilizer recipe, check other uses (like block)
 ~update evilcraft in twitch~
 ~update cyclopse core in twitch~
+~add Akashic Tome~
 
 Forge Updated to 14.23.1.2604
 Mod Updates:

@@ -3,5 +3,5 @@
 //#Remove
 //Don't touch me!
 //#Add
-
+recipes.addShaped(<magneticraft:guide_book>, [[<minecraft:book>, <minecraft:redstone>, null],[null, null, null], [null, null, null]]);
 //File End

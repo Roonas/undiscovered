@@ -144,7 +144,8 @@ mods.forestry.Carpenter.addRecipe(basicCircuit, [
 /*=========================
 Squeezer
 =========================*/
-mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 200, [zombieHeart], 20);
+mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 250, [zombieHeart], 20);
+mods.forestry.Squeezer.addRecipe(<liquid:ice> * 500, [<minecraft:packed_ice>], 40);
 
 /*=========================
 Centrifuge
