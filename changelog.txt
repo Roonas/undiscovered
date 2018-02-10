@@ -9,12 +9,15 @@ Removed chisel limestone from oregen
 Added recipe to convert between chisel and magneticraft limestone
 Fixed broken starlight quest
 Added SG iron rod to IE iron rod oredict
-Update Pams config (need to diff check w/ old config)
-Remove apatite from gem oredict
+Update Pams config 
 Changed pams market currency (might reduce crashes from people trying to farm emeralds)
 Added alt recipe for node mover
+Remove apatite gems from world gen, banned apatite use in silents tools
 Raised max bonus hearts for SoL:Carrot to 10 at 240 different foods
-*apatite removed from fertilizer recipe, check other uses (like block)
+Changed silent's gems to regional world gen (only 1 or 2 differnt gems generate in a 8x8 chunk area)
+Hide unused ingots/ores in JEI
+Fixed bibliocraft lang file errors (Thanks waffles)
+Made bog earth lakes less derpy (Thanks Alge)
 ~update evilcraft in twitch~
 ~update cyclopse core in twitch~
 ~add Akashic Tome~

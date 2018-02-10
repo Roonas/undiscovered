@@ -116,3 +116,7 @@ mods.mekanism.enrichment.removeRecipe(<thermalfoundation:ore:7>);
 Infuser
 =========================*/
 mods.mekanism.infuser.addRecipe("OBSIDIAN", 100, <mekanism:basicblock:8>, <contenttweaker:obsidiancase>);
+
+//make infuser use same ingot as everthing else
+mods.mekanism.infuser.removeRecipe(<mekanism:ingot:2>);
+mods.mekanism.infuser.addRecipe("TIN", 10, <thermalfoundation:material:128>, <thermalfoundation:material:163>);

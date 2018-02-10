@@ -31,6 +31,14 @@ bqmupdate.itemRightClick = function(stack, world, player, hand) {
     };
 bqmupdate.register();
 
+var mthand = VanillaFactory.createItem("mthand");
+mthand.maxStackSize = 1;
+mthand.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("mt hand", player, world);
+    return "Pass";
+    };
+mthand.register();
+
 /*worldIn.spawnEntityInWorld( new EntityItem( worldIn, pos.getX(), pos.getY(), pos.getZ(), ish.getStackInSlot( i ) ) );
 var whodat = VanillaFactory.createItem("whodat");
 whodat.maxStackSize = 1;

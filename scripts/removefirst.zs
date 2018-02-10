@@ -71,6 +71,44 @@ val metalDusts = [
         <appliedenergistics2:material:2>
     ] as IItemStack[];
 
+val hiddenItems = [
+        <magneticraft:ingots:7>,
+        <immersiveengineering:metal:1>,
+        <forestry:ingot_copper>,
+        <magneticraft:ingots:2>,
+        <mekanism:ingot:5>,
+        <immersiveengineering:metal>,
+        <immersiveengineering:metal:2>,
+        <magneticraft:ingots:3>,
+        <magneticraft:ingots:10>,
+        <immersiveengineering:metal:4>,
+        <magneticraft:ingots:12>,
+        <immersiveengineering:metal:3>,
+        <forestry:ingot_tin>,
+        <magneticraft:ingots:13>,
+        <mekanism:ingot:6>,
+        <magneticraft:ingots:11>,
+        <magneticraft:ingots:9>,
+        <thermalfoundation:ore:4>,
+        <forestry:resources:1>,
+        <immersiveengineering:ore>,
+        <mekanism:oreblock:1>,
+        <immersiveengineering:ore:2>,
+        <immersiveengineering:ore:4>,
+        <immersiveengineering:ore:3>,
+        <forestry:resources:2>,
+        <thermalfoundation:ore:1>,
+        <magneticraft:ores:1>,
+        <immersiveengineering:ore:5>,
+        <forestry:ingot_bronze>,
+        <mekanism:ingot:2>,
+        <bigreactors:ingotmetals:5>,
+        <magneticraft:ingots:6>,
+        <mekanism:ingot:4>,
+        <thermalfoundation:material:164>,
+        <thermalfoundation:material:161>
+    ] as IItemStack[];
+
 for oreEntry in metalOres{
     for item in oreEntry.items{
         mods.thermalexpansion.RedstoneFurnace.removeRecipe(item);
@@ -94,4 +132,12 @@ mods.thermalexpansion.RedstoneFurnace.removeRecipe(<magneticraft:rocky_chunks:8>
 for toometa in 9 to 15{
     mods.thermalexpansion.RedstoneFurnace.removeRecipe(metalChunks.makeStack(toometa));
     mods.thermalexpansion.RedstoneFurnace.removeRecipe(metalChunksRocky.makeStack(toometa));
+}
+
+//Hide non-prefered ingots from jei
+for item in hiddenItems{
+    mods.jei.JEI.hide(item);
 }      
+
+//Misc clean up
+<ore:ingotOsmium>.remove(<magneticraft:ingots:11>);      

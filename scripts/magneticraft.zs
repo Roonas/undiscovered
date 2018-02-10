@@ -54,6 +54,10 @@ recipes.addShapeless(<magneticraft:limestone>, [
     <chisel:limestone2:7>
     ]);
 
+recipes.addShapeless(<magneticraft:guide_book>, [
+    <minecraft:book>, <minecraft:redstone>
+    ]);
+
 /*=========================
 Crushing Table
 =========================*/

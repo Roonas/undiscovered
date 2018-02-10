@@ -234,13 +234,19 @@ Arc Furnace
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:135>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
-mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 300, 200);
+mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 300, 300);
 mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:135> * 2, <thermalfoundation:material:71>, <thermalfoundation:material:199>, 600, 1000);
 mods.immersiveengineering.ArcFurnace.addRecipe(<psi:material:1>, <psi:material>, null, 300, 200);
-//mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:iron_ingot> * 2, <minecraft:iron_ore>, null, 120, 100);
-//mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:gold_ingot> * 2, <minecraft:gold_ore>, null, 120, 100);
-//mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:128> * 2, <thermalfoundation:ore>, null, 120, 100);
-//mods.immersiveengineering.ArcFurnace.addRecipe(<immersiveengineering:metal:1> * 2, <immersiveengineering:ore:1>, null, 120, 100);
+
+//make arc furnace use the same ore as everyone else
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:2>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:4>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:3>);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:128> * 2, <ore:oreCopper>, <immersiveengineering:material:7>, 200, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:131> * 2, <ore:oreLead>, <immersiveengineering:material:7>, 200, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:133> * 2, <ore:oreNickel>, <immersiveengineering:material:7>, 200, 512);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:130> * 2, <ore:oreSilver>, <immersiveengineering:material:7>, 200, 512);
 
 /*=========================
 Crusher

@@ -6,6 +6,9 @@ mods.jei.JEI.addDescription(scrapBag, "Contains random junk and broken parts. Ri
 mods.jei.JEI.addDescription(<scrap:broken.plate:*>, "Found in piles of scrap");
 mods.jei.JEI.addDescription(<contenttweaker:lostcityportal>, "The portal to the lost city dimension can be opened by placing a bed on top of two blocks of empowered restonia crystals. The bed must also be surround by 6 skulls. When properly made, right clicking the pillow will teleport you to the lost city dimension.");
 mods.jei.JEI.addDescription(<appliedenergistics2:material:45>, "Needs a steel hammer to be crafted on the crushing table.");
+mods.jei.JEI.addDescription(<forestry:peat>, "Created by letting bog earth soak next to a water source");
+mods.jei.JEI.hide(<contenttweaker:mthand>);
+
 
 <ore:brokenPlate>.add(<scrap:broken.plate:*>);
 <ore:plankWood>.add(<contenttweaker:holyplank>);
@@ -13,6 +16,10 @@ mods.jei.JEI.addDescription(<appliedenergistics2:material:45>, "Needs a steel ha
 <extrautils2:machine>.withTag({Type: "extrautils2:furnace"}).addTooltip(format.red("Disabled"));
 <thermalexpansion:machine>.addTooltip(format.red("Disabled"));
 <thermalexpansion:device:8>.addTooltip(format.red("Disabled"));
+
+
+//Temp removed for crashin shit
+recipes.remove(<bibliocraft:framedchest:*>); 
 
 /*=========================
 Recipe Changes - Other
@@ -252,5 +259,11 @@ recipes.addShaped(<enderstorage:ender_pouch>, [
     [<botania:manaresource:16>, <harvestcraft:hardenedleatheritem>, <botania:manaresource:16>],
     [<harvestcraft:hardenedleatheritem>, <darkutils:material:1>, <harvestcraft:hardenedleatheritem>], 
     [<botania:manaresource:16>, <thermalfoundation:rockwool:14>, <botania:manaresource:16>]
+    ]);
+
+recipes.addShaped(<contenttweaker:mthand>, [
+    [<minecraft:cobblestone>, null, null],
+    [<minecraft:stick>, null, null], 
+    [<minecraft:dirt>, null, null]
     ]);
 
