@@ -66,7 +66,7 @@ recipes.addShaped("exu2 quarry", <extrautils2:quarry>, [
 
 recipes.remove(<extrautils2:resonator>);
 recipes.addShaped("resonator", <extrautils2:resonator>, [
-    [<immersiveengineering:wirecoil:5>, <evilcraft:blood_waxed_coal_block>, <immersiveengineering:wirecoil:5>], 
+    [<immersiveengineering:wirecoil:5>, <extendedcrafting:material>, <immersiveengineering:wirecoil:5>], 
     [<calculator:reinforcedironingot>, <extrautils2:ingredients>, <calculator:reinforcedironingot>], 
     [<calculator:reinforcedironingot>, <calculator:reinforcedironingot>, <calculator:reinforcedironingot>]
     ]);

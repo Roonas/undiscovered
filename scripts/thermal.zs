@@ -26,14 +26,42 @@ var cinnabar = <thermalfoundation:material:866>;
 var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}});
 var enderEgg = <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:enderman"}});
 
-var copperBlocks = [<mekanism:basicblock:12>, <forestry:resource_storage:1>, <thermalfoundation:storage>, <immersiveengineering:storage>] as IItemStack[];
-var alumBlocks = [<thermalfoundation:storage:4>, <immersiveengineering:storage:1>] as IItemStack[];
-var leadBlocks = [<immersiveengineering:storage:2>, <thermalfoundation:storage:3>] as IItemStack[];
-var silverBlocks = [<thermalfoundation:storage:2>, <immersiveengineering:storage:3>] as IItemStack[];
-var nickBlocks = [<thermalfoundation:storage:5>, <immersiveengineering:storage:4>] as IItemStack[];
-var conBlocks = [<immersiveengineering:storage:6>, <thermalfoundation:storage_alloy:4>] as IItemStack[];
-var eleBlocks = [<immersiveengineering:storage:7>, <thermalfoundation:storage_alloy:1>] as IItemStack[];
-var steelBlocks = [<thermalfoundation:storage_alloy>, <mekanism:basicblock:5>, <immersiveengineering:storage:8>, <bigreactors:blockmetals:5>] as IItemStack[];
+var copperBlocks = [
+    <mekanism:basicblock:12>, 
+    <forestry:resource_storage:1>, 
+    <thermalfoundation:storage>, 
+    <immersiveengineering:storage>
+    ] as IItemStack[];
+var alumBlocks = [
+    <thermalfoundation:storage:4>, 
+    <immersiveengineering:storage:1>
+    ] as IItemStack[];
+var leadBlocks = [
+    <immersiveengineering:storage:2>, 
+    <thermalfoundation:storage:3>
+    ] as IItemStack[];
+var silverBlocks = [
+    <thermalfoundation:storage:2>, 
+    <immersiveengineering:storage:3>
+    ] as IItemStack[];
+var nickBlocks = [
+    <thermalfoundation:storage:5>, 
+    <immersiveengineering:storage:4>
+    ] as IItemStack[];
+var conBlocks = [
+    <immersiveengineering:storage:6>, 
+    <thermalfoundation:storage_alloy:4>
+    ] as IItemStack[];
+var eleBlocks = [
+    <immersiveengineering:storage:7>, 
+    <thermalfoundation:storage_alloy:1>
+    ] as IItemStack[];
+var steelBlocks = [
+    <thermalfoundation:storage_alloy>, 
+    <mekanism:basicblock:5>, 
+    <immersiveengineering:storage:8>, 
+    <bigreactors:blockmetals:5>
+    ] as IItemStack[];
 
 recipes.remove(<thermalexpansion:machine>); //redstone furnace
 recipes.remove(<thermalfoundation:material:71>);

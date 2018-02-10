@@ -123,9 +123,24 @@ evilcraftBloodPool.addItemEntryJSON(<evilcraft:condensed_blood>, 5, 0, ["count: 
 /*
 lostCityRailPool.removeEntry("minecraft:diamond");
 lostCityRailPool.removeEntry("minecraft:emerald");
-lostCityRailPool.addItemEntryJSON(<thermalfoundation:material:128>, 20, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Copper Ingot");
-lostCityRailPool.addItemEntryJSON(<thermalfoundation:material:195>, 19, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Lead Nugget");
+lostCityRailPool.addItemEntryJSON(<minecraft:rail>, 20, 0, ["count: {min: 4.0, max: 12.0}, function: 'minecraft:set_count'"], [], "Basic Rail");
+lostCityRailPool.addItemEntryJSON(<stevescarts:blockadvdetector>, 15, 0, ["count: {min: 2.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Detector Rail");
+lostCityRailPool.addItemEntryJSON(<thermalfoundation:material:129>, 10, 0, ["count: {min: 2.0, max: 6.0}, function: 'minecraft:set_count'"], [], "Tin");
+lostCityRailPool.addItemEntryJSON(<jaopca:item_sticklead>, 10, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Lead Stick");
+lostCityRailPool.addItemEntryJSON(<thermalfoundation:storage_resource>, 7, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Charcoal Block");
+lostCityRailPool.addItemEntryJSON(<rustic:iron_lantern>, 10, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Lantern");
+lostCityRailPool.addItemEntryJSON(<stevescarts:modulecomponents:18>, 7, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Hardner");
+lostCityRailPool.addItemEntryJSON(<stevescarts:modulecomponents:15>, 7, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Tree Killer");
+lostCityRailPool.addItemEntryJSON(<minecraft:minecart>, 20, 0, [], [], "Cart");
+lostCityRailPool.addItemEntryJSON(<stevescarts:cartmodule:2>, 10, 0, [], [], "Side Chests");
+lostCityRailPool.addItemEntryJSON(<stevescarts:modulecomponents:1>, 10, 0, [], [], "Wheels");
+lostCityRailPool.addItemEntryJSON(<stevescarts:cartmodule:45>, 6, 0, [], [], "Solar Eng");
+lostCityRailPool.addItemEntryJSON(<stevescarts:cartmodule:25>, 10, 0, [], [], "Seat");
+lostCityRailPool.addItemEntryJSON(<actuallyadditions:item_misc:16>, 5, 0, [], [], "Drill Core");
+lostCityRailPool.addItemEntryJSON(<stevescarts:cartmodule:42>.withTag({Data: 100 as byte}), 7, 0, [], [], "Cart Drill");
+lostCityRailPool.addItemEntryJSON(<stevescarts:cartmodule:39>, 5, 0, [], [], "Fancy Hull");
 */
+
 ieEngiPool.removeEntry("copper_ingot");
 ieEngiPool.addItemEntryJSON(<thermalfoundation:material:128>, 10, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Copper Ingot");
 ieEngiPool.removeEntry("lead_nugget");
@@ -136,7 +151,7 @@ ieEngiPool.removeEntry("silver_nugget");
 ieEngiPool.addItemEntryJSON(<thermalfoundation:material:194>, 7, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Silver Nugget");
 ieEngiPool.removeEntry("nugget_nickel");
 ieEngiPool.addItemEntryJSON(<thermalfoundation:material:197>, 7, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Nickel Nugget");
-ieEngiPool.addItemEntryJSON(<immersivepetroleum:schematic>, 1, 0, [], [], "Projector");
+ieEngiPool.addItemEntryJSON(<immersivepetroleum:schematic>, 3, 0, [], [], "Projector");
 
 ieBlackPool.addItemEntryJSON(<immersiveengineering:blueprint>.withTag({blueprint: "components"}), 1, 0, [], [], "Blueprint 2");
 ieBlackPool.addItemEntryJSON(<immersiveengineering:bullet:2>.withTag({bullet: "flare"}), 1, 0, ["count: {min: 4.0, max: 9.0}, function: 'minecraft:set_count'"], [], "Fire Bullet");
@@ -188,13 +203,13 @@ dungeonPool1.addItemEntryJSON(<scrap:scrap>.withTag({TABLE: "scrap:scrap", XP: "
 dungeonPool1.addItemEntryJSON(<extendedcrafting:material:1>, 7, 0, ["count: {min: 3.0, max: 8.0}, function: 'minecraft:set_count'"], [], "Black Iron");
 dungeonPool1.addItemEntryJSON(<calculator:coaldust>, 7, 0, ["count: {min: 3.0, max: 8.0}, function: 'minecraft:set_count'"], [], "Mini Coal");
 dungeonPool1.addItemEntryJSON(<harvestcraft:garliccoinitem>, 5, 0, ["count: {min: 2.0, max: 5.0}, function: 'minecraft:set_count'"], [], "Garlic Money");
-dungeonPool1.addItemEntryJSON(<actuallyadditions:block_tiny_torch>, 4, 0, ["count: {min: 6.0, max: 11.0}, function: 'minecraft:set_count'"], [], "Mini Torch");
+dungeonPool1.addItemEntryJSON(<actuallyadditions:block_tiny_torch>, 4, 0, ["count: {min: 5.0, max: 11.0}, function: 'minecraft:set_count'"], [], "Mini Torch");
 dungeonPool1.addItemEntryJSON(<actuallyadditions:item_solidified_experience>, 3, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Exp");
 dungeonPool1.addItemEntryJSON(<cookingforblockheads:recipe_book:1>, 2, 0, [], [], "Cook Book");
-dungeonPool2.addItemEntryJSON(<astralsorcery:itemusabledust>, 4, 0, ["count: {min: 3.0, max: 6.0}, function: 'minecraft:set_count'"], [], "Light Dust");
+dungeonPool2.addItemEntryJSON(<astralsorcery:itemusabledust>, 4, 0, ["count: {min: 3.0, max: 5.0}, function: 'minecraft:set_count'"], [], "Light Dust");
 dungeonPool2.addItemEntryJSON(<randomthings:beans:1>, 3, 0, [], [], "Magic Bean");
 dungeonPool2.addItemEntryJSON(<contenttweaker:moldybread>, 7, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Gross Bread");
-dungeonPool2.addItemEntryJSON(<contenttweaker:screws>, 9, 0, ["count: {min: 3.0, max: 7.0}, function: 'minecraft:set_count'"], [], "Screws");
+dungeonPool2.addItemEntryJSON(<contenttweaker:screws>, 9, 0, ["count: {min: 3.0, max: 6.0}, function: 'minecraft:set_count'"], [], "Screws");
 dungeonPool2.addItemEntryJSON(<calculator:babygrenade>, 3, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Baby Boom");
 dungeonPool2.addItemEntryJSON(<forestry:decaying_wheat>, 3, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Rotting Wheat");
 dungeonMain.addItemEntryJSON(<botania:slingshot>, 4, 0, [], [], "Vine Slingshot");

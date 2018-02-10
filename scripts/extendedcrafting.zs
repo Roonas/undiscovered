@@ -34,7 +34,7 @@ var elytra = <minecraft:elytra>;
 Recipe Changes - Extended Crafting
 =========================*/
 
-recipes.remove(blackIron);
+recipes.removeByRecipeName("extendedcrafting:black_iron_ingot");
 recipes.addShaped(blackIron * 4, [
     [<minecraft:iron_ingot>, graphiteDust, <minecraft:iron_ingot>],
     [skystoneDust, <minecraft:iron_ingot>, skystoneDust], 

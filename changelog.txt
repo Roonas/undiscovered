@@ -1,6 +1,6 @@
 2.4.0
 ----------
-Add fluiduct rewards to crushing quest
+Add bucket quest before drying basin
 Adjust loottable scripts to work with new evilcraft (aka less blood in chests)
 Fixed some weird formatting error in quest book
 Fixed yeast output from rf crushers for moldy bread to match rustic
@@ -16,10 +16,14 @@ Remove apatite gems from world gen, banned apatite use in silents tools
 Raised max bonus hearts for SoL:Carrot to 10 at 240 different foods
 Changed silent's gems to regional world gen (only 1 or 2 differnt gems generate in a 8x8 chunk area)
 Hide unused ingots/ores in JEI
+Removed magic gate in exu resonator
+Added new fany loot and a bomb to rare rail dungeons
+Fixed black iron ingots not converting to nuggets/blocks and back again
 Fixed bibliocraft lang file errors (Thanks waffles)
 Made bog earth lakes less derpy (Thanks Alge)
 ~update evilcraft in twitch~
 ~update cyclopse core in twitch~
+~update LC in twitch~S
 ~add Akashic Tome~
 
 Forge Updated to 14.23.1.2604

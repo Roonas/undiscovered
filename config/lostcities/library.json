@@ -135,7 +135,7 @@
       },
       {
         "char": ">",
-        "block": "minecraft:stone_pressure_plate"
+        "block": "darkutils:update_detector"
       },
       {
         "char": "H",
@@ -252,7 +252,14 @@
       },
       {
         "char": "T",
-        "block": "minecraft:torch"
+        "block": "minecraft:torch",
+        "facing": {
+          "north": 4,
+          "south": 3,
+          "west": 2,
+          "east": 1,
+          "up": 5
+        }
       },
       {
         "char": "h",
@@ -413,16 +420,48 @@
         "char": "!",
         "blocks": [
           {
-            "random": 15,
+            "random": 10,
             "block": "minecraft:diamond_block"
           },
           {
-            "random": 20,
+            "random": 15,
             "block": "minecraft:gold_block"
           },
           {
-            "random": 15,
+            "random": 5,
             "block": "minecraft:emerald_block"
+          },
+          {
+            "random": 15,
+            "block": "appliedenergistics2:fluix_block"
+          },
+          {
+            "random": 15,
+            "block": "calculator:material"
+          },
+          {
+            "random": 5,
+            "block": "stevescarts:blockmetalstorage"
+          },
+          {
+            "random": 15,
+            "block": "thermalfoundation:storage"
+          },
+          {
+            "random": 15,
+            "block": "thermalfoundation:storage@1"
+          },
+          {
+            "random": 15,
+            "block": "thermalfoundation:storage@2"
+          },
+          {
+            "random": 10,
+            "block": "silentgems:gemblock@15"
+          },
+          {
+            "random": 15,
+            "block": "minecraft:redstone_block"
           },
           {
             "random": 1000,
