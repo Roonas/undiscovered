@@ -113,6 +113,7 @@ mods.rustic.EvaporatingBasin.addRecipe(<thermalfoundation:material:1026>, <liqui
 mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:resinplate>, <liquid:sap> * 500);
 mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:resinplate>, <liquid:resin> * 500);
 mods.rustic.EvaporatingBasin.addRecipe(<minecraft:redstone>, <liquid:redstone> * 500);
+mods.rustic.EvaporatingBasin.addRecipe(<harvestcraft:honeyitem>, <liquid:honey> * 250);
 
 
 /*=========================

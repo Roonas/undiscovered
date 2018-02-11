@@ -71,7 +71,7 @@ mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blocklens>, 1);
 mods.astralsorcery.Altar.addAttunmentAltarRecipe(lensNbt, 500, 100, [
     <ore:gemAquamarine>, glassLens, <ore:gemAquamarine>, 
     glassLens, <astralsorcery:itemrockcrystalsimple>, glassLens, 
-    psimetalIngot, psimetalIngot, psimetalIngot, 
+    psiDust, psiDust, psiDust, 
     null, null, 
     <ore:blockMarble>, <ore:blockMarble>
     ]);

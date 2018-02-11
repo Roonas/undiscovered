@@ -62,6 +62,7 @@ furnace.addRecipe(<thermalfoundation:material:192>, <scrap:broken.gear:2>);
 furnace.addRecipe(<thermalfoundation:material:226>, <scrap:broken.plate:13>);
 furnace.addRecipe(<thermalfoundation:material:194>, <scrap:broken.plate:4>);
 furnace.addRecipe(<jaopca:item_nuggetquartzblack>, <appliedenergistics2:material:2>);
+furnace.setFuel(<contenttweaker:bundle_of_sticks>, 1200);
 
 recipes.remove(<magneticraft:rocky_chunks:5>);
 recipes.remove(<jaopca:item_dustdirtytungsten>);

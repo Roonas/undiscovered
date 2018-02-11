@@ -95,6 +95,12 @@ recipes.addShaped("weather bottle", <evilcraft:weather_container>, [
     [null, <psi:material>, null]
     ]);
 
+recipes.addShaped("Infinite water gen", <evilcraft:eternal_water_block>, [
+    [<ore:paneGlass>, <ore:paneGlass>, <ore:paneGlass>],
+    [<ore:paneGlass>, <evilcraft:bucket_eternal_water>, <ore:paneGlass>], 
+    [<ore:paneGlass>, <evilcraft:dark_block>, <ore:paneGlass>]
+    ]);
+
 
 /*=========================
 Blood Infuser

@@ -21,6 +21,7 @@ var irradiatedIridiumOre = VanillaFactory.createBlock("irradiated_iridium", <blo
 irradiatedIridiumOre.register();
 
 var rottenPotBlock = VanillaFactory.createBlock("rotten_pot_block", <blockmaterial:cactus>);
+rottenPotBlock.setBlockHardness(1.0);
 rottenPotBlock.register();
 
 var obsidianMekCase = VanillaFactory.createBlock("obsidiancase", <blockmaterial:rock>);
@@ -41,3 +42,7 @@ var holyplank = VanillaFactory.createBlock("holyplank", <blockmaterial:wood>);
 holyplank.setLightValue(3);
 holyplank.setToolClass("axe");
 holyplank.register();
+
+var bundleOfSticks = VanillaFactory.createBlock("bundle_of_sticks", <blockmaterial:wood>);
+bundleOfSticks.setToolClass("axe");
+bundleOfSticks.register();

@@ -8,7 +8,9 @@ piss.density = 1500;
 piss.viscosity = 1500;
 piss.register();
 
-var dblood = VanillaFactory.createFluid("dblood", 3951111219);
+
+val redblood = mods.contenttweaker.Color.fromEpeen("8=====D~");
+var dblood = VanillaFactory.createFluid("dblood", redblood);
 dblood.density = 500;
 dblood.viscosity = 1500;
 dblood.material = <blockmaterial:lava>;

@@ -7,6 +7,9 @@ mods.jei.JEI.addDescription(<scrap:broken.plate:*>, "Found in piles of scrap");
 mods.jei.JEI.addDescription(<contenttweaker:lostcityportal>, "The portal to the lost city dimension can be opened by placing a bed on top of two blocks of empowered restonia crystals. The bed must also be surround by 6 skulls. When properly made, right clicking the pillow will teleport you to the lost city dimension.");
 mods.jei.JEI.addDescription(<appliedenergistics2:material:45>, "Needs a steel hammer to be crafted on the crushing table.");
 mods.jei.JEI.addDescription(<forestry:peat>, "Created by letting bog earth soak next to a water source");
+mods.jei.JEI.addDescription(<liquid:gasoline>, "Created by processing oil in an Immersive Petroleum distillation tower");
+mods.jei.JEI.addDescription(<liquid:lubricant>, "Created by processing oil in an Immersive Petroleum distillation tower");
+mods.jei.JEI.addDescription(<liquid:diesel>, "Created by processing oil in an Immersive Petroleum distillation tower");
 mods.jei.JEI.hide(<contenttweaker:mthand>);
 
 
@@ -265,5 +268,11 @@ recipes.addShaped(<contenttweaker:mthand>, [
     [<minecraft:cobblestone>, null, null],
     [<minecraft:stick>, null, null], 
     [<minecraft:dirt>, null, null]
+    ]);
+
+recipes.addShaped(<contenttweaker:bundle_of_sticks>, [
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>], 
+    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]
     ]);
 

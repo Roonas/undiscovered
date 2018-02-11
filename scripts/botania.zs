@@ -102,9 +102,9 @@ Pure Daisy
 =========================*/
 mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
 mods.botania.PureDaisy.removeRecipe(<minecraft:cobblestone>);
-mods.botania.PureDaisy.addRecipe(<minecraft:end_stone>, <astralsorcery:blockmarble>, 15);
-mods.botania.PureDaisy.addRecipe(<minecraft:netherrack>, <botania:livingrock>, 15);
-mods.botania.PureDaisy.addRecipe(<evilcraft:undead_log>, <contenttweaker:holylog>, 15);
+mods.botania.PureDaisy.addRecipe(<minecraft:end_stone>, <astralsorcery:blockmarble>, 40);
+mods.botania.PureDaisy.addRecipe(<minecraft:netherrack>, <botania:livingrock>, 40);
+mods.botania.PureDaisy.addRecipe(<evilcraft:undead_log>, <contenttweaker:holylog>, 40);
 //mods.botania.PureDaisy.addRecipe(<evilcraft:undead_sapling>, <forestry:sapling>.withTag({IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "holly", UID0: "holly", Slot: 0 as byte}]}}));
 //mods.botania.PureDaisy.addRecipe(<botania:alfheimportal>, <mekanism:energycube>.withTag({tier: 1}));
 /*=========================

@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": true,
+      "editmode": false,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -2665,7 +2665,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        52
+        52,
+        322
       ],
       "questID": 51
     },
@@ -2691,7 +2692,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Crush It",
-          "desc": "Items placed in the crushing tub my be processed by jumping on them. This will produce a liquid and often an item byproduct. Sneak + Right Click will clear any fluid in the tub. "
+          "desc": "Items placed in the crushing tub my be processed by jumping on them. This will produce a liquid and often an item byproduct. Sneak + Right Click will clear any fluid in the tub. Can be used to crush berries into juice, clay into bricks, and coal into dust. "
         }
       },
       "tasks": [
@@ -2713,26 +2714,7 @@
           "index": 0
         }
       ],
-      "rewards": [
-        {
-          "rewards": [
-            {
-              "id": "thermaldynamics:duct_16",
-              "Count": 2,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "thermaldynamics:servo",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "rewardID": "bq_standard:item",
-          "index": 0
-        }
-      ],
+      "rewards": [],
       "preRequisites": [
         239
       ],
@@ -7127,23 +7109,6 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 2
-        },
-        {
-          "partialMatch": true,
-          "ignoreNBT": false,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "bibliocraft:framedchest",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 3
         },
         {
           "partialMatch": true,
@@ -14197,7 +14162,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        272
+        273
       ],
       "questID": 247
     },
@@ -17983,6 +17948,106 @@
         320
       ],
       "questID": 321
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:bucket",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Fluid Mover",
+          "desc": "Using the broken plates salavaged from junk bags in the river, you can make a simple bucket."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        53,
+        323
+      ],
+      "questID": 322
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": true,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "visibility": "HIDDEN",
+          "simultaneous": false,
+          "icon": {
+            "id": "rftoolsdim:dimlet_control_circuit",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": true,
+          "ismain": false,
+          "name": "Found a Bucket Hidden",
+          "desc": "Used in case players skip progression by finding a bucket"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:bucket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [],
+      "questID": 323
     }
   ],
   "questLines": [
@@ -17998,32 +18063,44 @@
       "quests": [
         {
           "size": 24,
+          "x": 48,
+          "y": 84,
+          "id": 322
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 54,
+          "id": 323
+        },
+        {
+          "size": 24,
           "x": 108,
-          "y": 114,
+          "y": 174,
           "id": 226
         },
         {
           "size": 24,
           "x": 108,
-          "y": 24,
-          "id": 232
-        },
-        {
-          "size": 24,
-          "x": 138,
           "y": 54,
-          "id": 233
-        },
-        {
-          "size": 24,
-          "x": 138,
-          "y": 114,
-          "id": 235
+          "id": 232
         },
         {
           "size": 24,
           "x": 78,
           "y": 54,
+          "id": 233
+        },
+        {
+          "size": 24,
+          "x": 78,
+          "y": 114,
+          "id": 235
+        },
+        {
+          "size": 24,
+          "x": 138,
+          "y": 24,
           "id": 236
         },
         {
@@ -18034,7 +18111,7 @@
         },
         {
           "size": 24,
-          "x": 78,
+          "x": 168,
           "y": 84,
           "id": 238
         },
@@ -18070,8 +18147,8 @@
         },
         {
           "size": 24,
-          "x": 198,
-          "y": 114,
+          "x": 108,
+          "y": 84,
           "id": 178
         },
         {
@@ -18082,7 +18159,7 @@
         },
         {
           "size": 24,
-          "x": 168,
+          "x": 108,
           "y": 114,
           "id": 179
         },
@@ -18100,7 +18177,7 @@
         },
         {
           "size": 24,
-          "x": 168,
+          "x": 78,
           "y": 84,
           "id": 53
         },
@@ -18136,8 +18213,8 @@
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 84,
+          "x": 168,
+          "y": 54,
           "id": 121
         },
         {
@@ -18148,7 +18225,7 @@
         },
         {
           "size": 24,
-          "x": 78,
+          "x": 168,
           "y": 114,
           "id": 122
         }

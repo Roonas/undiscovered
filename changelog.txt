@@ -19,7 +19,11 @@ Hide unused ingots/ores in JEI
 Removed magic gate in exu resonator
 Added new fany loot and a bomb to rare rail dungeons
 Fixed black iron ingots not converting to nuggets/blocks and back again
-Fixed bibliocraft lang file errors (Thanks waffles)
+Made rustic bees not quite as fast to multiply
+Added bundle of sticks block which burn for a bit longer than the individual sticks
+BQM should (hopefully) auto update on world load
+Fixed dblood proper name not showing up (maybe?)
+Fixed bibliocraft lang file errors (Thanks MainFreak)
 Made bog earth lakes less derpy (Thanks Alge)
 ~update evilcraft in twitch~
 ~update cyclopse core in twitch~
