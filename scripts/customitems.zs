@@ -141,3 +141,6 @@ crown.register();
 
 var lostcityportal = VanillaFactory.createItem("lostcityportal");
 lostcityportal.register();
+
+var osmaticsteel = VanillaFactory.createItem("osmaticsteel");
+osmaticsteel.register();

@@ -376,3 +376,7 @@ recipes.addShaped(<silentgems:chaosrune>.withTag({chaos_buff: "silentgems:night_
     [<rustic:mooncap_mushroom>, <botania:rune:6>, <rustic:mooncap_mushroom>], 
     [<silentgems:craftingmaterial:1>, <minecraft:golden_carrot>, <silentgems:craftingmaterial:1>]
     ]);
+
+recipes.addShapeless("silent gem manual", <silentgems:guide_book>, [
+    <minecraft:book>, <silentgems:fluffypuff>
+    ]);

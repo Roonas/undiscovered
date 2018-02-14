@@ -114,6 +114,7 @@ mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:resinplate>, <liquid:sap>
 mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:resinplate>, <liquid:resin> * 500);
 mods.rustic.EvaporatingBasin.addRecipe(<minecraft:redstone>, <liquid:redstone> * 500);
 mods.rustic.EvaporatingBasin.addRecipe(<harvestcraft:honeyitem>, <liquid:honey> * 250);
+mods.rustic.EvaporatingBasin.addRecipe(<extrabees:propolis:7>, <liquid:creosote> * 500);
 
 
 /*=========================

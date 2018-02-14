@@ -120,6 +120,11 @@ recipes.addShaped(<actuallyadditions:item_engineer_goggles_advanced>, [
     [<actuallyadditions:item_crystal:1>, <minecraft:iron_bars>, <actuallyadditions:item_crystal:1>]
     ]);
 
+recipes.addShaped(<actuallyadditions:block_misc:4>, [
+    [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>],
+    [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>]
+    ]);
+
 
 
 /*=========================

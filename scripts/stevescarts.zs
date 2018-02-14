@@ -10,7 +10,7 @@ recipes.addShaped("advanced pcb", <stevescarts:modulecomponents:16>, [
     [<immersiveengineering:material:21>, <calculator:redstoneingot>, <immersiveengineering:material:21>]
     ]);
 
-recipes.remove(<stevescarts:cartmodule:14>.withTag({Data: 100 as byte}));
+recipes.remove(<stevescarts:cartmodule:14>);
 recipes.addShaped("basic farmer", <stevescarts:cartmodule:14>.withTag({Data: 100 as byte}), [
     [<silentgems:sickle>, <stevescarts:modulecomponents:14>, <silentgems:sickle>], 
     [null, <stevescarts:modulecomponents:9>, null], 

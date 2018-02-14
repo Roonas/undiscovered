@@ -146,33 +146,33 @@ recipes.addShapeless(<contenttweaker:holyplank> * 4, [
     ]);
 
 recipes.addShaped("repaired iron plate", <thermalfoundation:material:32>, [
-    [<contenttweaker:screws>, <ore:brokenPlateIRON>, <contenttweaker:screws>], 
-    [<ore:brokenPlateIRON>, null, <ore:brokenPlateIRON>], 
-    [<contenttweaker:screws>, <ore:brokenPlateIRON>, <contenttweaker:screws>]
+    [<contenttweaker:screws>, <ore:brokenPlateIron>, <contenttweaker:screws>], 
+    [<ore:brokenPlateIron>, null, <ore:brokenPlateIron>], 
+    [<contenttweaker:screws>, <ore:brokenPlateIron>, <contenttweaker:screws>]
     ]);
 
 recipes.addShaped("repaired invar plate", <thermalfoundation:material:354>, [
-    [<contenttweaker:screws>, <ore:brokenPlateINVAR>, <contenttweaker:screws>], 
-    [<ore:brokenPlateINVAR>, null, <ore:brokenPlateINVAR>], 
-    [<contenttweaker:screws>, <ore:brokenPlateINVAR>, <contenttweaker:screws>]
+    [<contenttweaker:screws>, <ore:brokenPlateInvar>, <contenttweaker:screws>], 
+    [<ore:brokenPlateInvar>, null, <ore:brokenPlateInvar>], 
+    [<contenttweaker:screws>, <ore:brokenPlateInvar>, <contenttweaker:screws>]
     ]);
 
 recipes.addShaped("repaired silver plate", <thermalfoundation:material:322>, [
-    [<contenttweaker:screws>, <ore:brokenPlateSILVER>, <contenttweaker:screws>], 
-    [<ore:brokenPlateSILVER>, null, <ore:brokenPlateSILVER>], 
-    [<contenttweaker:screws>, <ore:brokenPlateSILVER>, <contenttweaker:screws>]
+    [<contenttweaker:screws>, <ore:brokenPlateSilver>, <contenttweaker:screws>], 
+    [<ore:brokenPlateSilver>, null, <ore:brokenPlateSilver>], 
+    [<contenttweaker:screws>, <ore:brokenPlateSilver>, <contenttweaker:screws>]
     ]);
 
 recipes.addShaped("repaired iron gear", <thermalfoundation:material:24>, [
-    [<contenttweaker:screws>, <ore:brokenGearIRON>, <contenttweaker:screws>], 
-    [<ore:brokenGearIRON>, null, <ore:brokenGearIRON>], 
-    [<contenttweaker:screws>, <ore:brokenGearIRON>, <contenttweaker:screws>]
+    [<contenttweaker:screws>, <ore:brokenGearIron>, <contenttweaker:screws>], 
+    [<ore:brokenGearIron>, null, <ore:brokenGearIron>], 
+    [<contenttweaker:screws>, <ore:brokenGearIron>, <contenttweaker:screws>]
     ]);
 
 recipes.addShaped("repaired copper gear", <thermalfoundation:material:256>, [
-    [<contenttweaker:screws>, <ore:brokenGearCOPPER>, <contenttweaker:screws>], 
-    [<ore:brokenGearCOPPER>, null, <ore:brokenGearCOPPER>], 
-    [<contenttweaker:screws>, <ore:brokenGearCOPPER>, <contenttweaker:screws>]
+    [<contenttweaker:screws>, <ore:brokenGearCopper>, <contenttweaker:screws>], 
+    [<ore:brokenGearCopper>, null, <ore:brokenGearCopper>], 
+    [<contenttweaker:screws>, <ore:brokenGearCopper>, <contenttweaker:screws>]
     ]);
 
 recipes.addShaped("repaired iron rod", <silentgems:craftingmaterial:7> * 2, [

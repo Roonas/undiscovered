@@ -294,9 +294,7 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium
 mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium_ore>, richSlag);
 mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium_ore>, cinnabar);
 mods.thermalexpansion.InductionSmelter.removeRecipe(platinumOre, cinnabar);
-mods.thermalexpansion.InductionSmelter.removeRecipe(<minecraft:gold_ingot>, <thermalfoundation:material:130>);
-mods.thermalexpansion.InductionSmelter.addRecipe(<immersiveengineering:metal:7>, <minecraft:gold_ingot>, <thermalfoundation:material:130>, 1500);
-
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:osmaticsteel>, <mekanism:ingot:1>, <appliedenergistics2:material:45>, 1500);
 
 /*=========================
 Pulverizer 

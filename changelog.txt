@@ -1,3 +1,11 @@
+2.5.0
+----------
+Replaced missing broken to full plate recipes
+Added osmium alloy that can be used as steel replacement
+Added alt recipe for silent gem manual
+Added some other uses for treated wood/creosote
+
+
 2.4.0
 ----------
 Add bucket quest before drying basin
@@ -22,15 +30,13 @@ Fixed black iron ingots not converting to nuggets/blocks and back again
 Made rustic bees not quite as fast to multiply
 Added bundle of sticks block which burn for a bit longer than the individual sticks
 BQM should (hopefully) auto update on world load
-Fixed dblood proper name not showing up (maybe?)
+Broken calc circuits can now be crushed for redstone
 Fixed bibliocraft lang file errors (Thanks MainFreak)
 Made bog earth lakes less derpy (Thanks Alge)
-~update evilcraft in twitch~
-~update cyclopse core in twitch~
-~update LC in twitch~S
-~add Akashic Tome~
 
 Forge Updated to 14.23.1.2604
+New Mod:
+* Akashic Tome
 Mod Updates:
 * /dank/null
 * Actually Additions
@@ -80,12 +86,12 @@ Mod Updates:
 * Silent's Gems
 * Steve's Cart Reborn
 * Storage Drawers
-* TOP Addons
 * Thermal Cultivation
 * Thermal Dynamics
 * Thermal Expansion
 * Thermal Foundation
 * Toast Control
+* TOP Addons
 
 2.3.0
 ----------

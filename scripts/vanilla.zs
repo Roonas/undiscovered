@@ -63,6 +63,7 @@ furnace.addRecipe(<thermalfoundation:material:226>, <scrap:broken.plate:13>);
 furnace.addRecipe(<thermalfoundation:material:194>, <scrap:broken.plate:4>);
 furnace.addRecipe(<jaopca:item_nuggetquartzblack>, <appliedenergistics2:material:2>);
 furnace.setFuel(<contenttweaker:bundle_of_sticks>, 1200);
+furnace.setFuel(<extrabees:propolis:7>, 1000);
 
 recipes.remove(<magneticraft:rocky_chunks:5>);
 recipes.remove(<jaopca:item_dustdirtytungsten>);
@@ -165,4 +166,15 @@ recipes.addShaped(<minecraft:iron_bars> * 4, [
     [<contenttweaker:brokenrod>, <contenttweaker:brokenrod>, <contenttweaker:brokenrod>],
     [<contenttweaker:screws>, <contenttweaker:screws>, <contenttweaker:screws>], 
     [<contenttweaker:brokenrod>, <contenttweaker:brokenrod>, <contenttweaker:brokenrod>]
+    ]);
+
+recipes.addShaped(<minecraft:chest>, [
+    [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>],
+    [<immersiveengineering:treated_wood>, <actuallyadditions:block_misc:4>, <immersiveengineering:treated_wood>], 
+    [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>]
+    ]);
+
+recipes.addShapedMirrored("creo oil torch", <minecraft:torch> * 6, [
+    [null, <extrabees:propolis:7>],
+    [null, <minecraft:stick>]
     ]);
