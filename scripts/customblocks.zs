@@ -46,3 +46,8 @@ holyplank.register();
 var bundleOfSticks = VanillaFactory.createBlock("bundle_of_sticks", <blockmaterial:wood>);
 bundleOfSticks.setToolClass("axe");
 bundleOfSticks.register();
+
+var osmaticSteelOre = VanillaFactory.createBlock("osmaticsteelore", <blockmaterial:rock>);
+osmaticSteelOre.setToolLevel(3);
+osmaticSteelOre.setToolClass("pickaxe");
+osmaticSteelOre.register();
