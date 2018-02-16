@@ -138,6 +138,7 @@ mods.actuallyadditions.Crusher.addRecipe(<minecraft:redstone>, <thermalfoundatio
 mods.actuallyadditions.Crusher.addRecipe(<extratrees:misc:5> * 4, <contenttweaker:moldybread>);
 mods.actuallyadditions.Crusher.addRecipe(<immersivepetroleum:material>, <thermalfoundation:material:892>);
 mods.actuallyadditions.Crusher.addRecipe(<minecraft:glowstone_dust>, <thermalfoundation:material:894>, <minecraft:glowstone_dust>, 10);
+mods.actuallyadditions.Crusher.addRecipe(<contenttweaker:osmaticsteeldust> * 2, <contenttweaker:osmaticsteelore>);
 
 /*=========================
 Empowerer

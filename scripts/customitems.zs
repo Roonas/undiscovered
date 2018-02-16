@@ -144,3 +144,6 @@ lostcityportal.register();
 
 var osmaticsteel = VanillaFactory.createItem("osmaticsteel");
 osmaticsteel.register();
+
+var osmaticsteeldust = VanillaFactory.createItem("osmaticsteeldust");
+osmaticsteeldust.register();

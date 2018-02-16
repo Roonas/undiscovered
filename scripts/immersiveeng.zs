@@ -264,6 +264,7 @@ mods.immersiveengineering.Crusher.addRecipe(<extratrees:misc:5> * 4, <contenttwe
 mods.immersiveengineering.Crusher.addRecipe(<immersivepetroleum:material>, <thermalfoundation:material:892>, 800);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust>, <thermalfoundation:material:894>, 1000, <minecraft:glowstone_dust>, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>, <ore:damagedCircuit>, 250, <minecraft:redstone>, 0.1);
+mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:osmaticsteeldust> * 2, <contenttweaker:osmaticsteelore>, 800);
 
 /*=========================
 Mixer

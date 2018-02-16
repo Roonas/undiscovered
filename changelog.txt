@@ -2,8 +2,12 @@
 ----------
 Replaced missing broken to full plate recipes
 Added osmium alloy that can be used as steel replacement
+Added underground meteors that contain osmatic-steel ore
 Added alt recipe for silent gem manual
 Added some other uses for treated wood/creosote
+Added alt recipe for hardened fluiduct
+Increased rate of glowstone clathrate in the nether
+Turned down rustic slate world gen
 
 
 2.4.0

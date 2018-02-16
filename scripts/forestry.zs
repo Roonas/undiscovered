@@ -160,4 +160,12 @@ Moistener
 =========================*/
 mods.forestry.Moistener.addRecipe(<contenttweaker:moldybread>, <minecraft:bread>, 60);
 
+/*=========================
+Thermionic Fabricator
+=========================*/
+mods.forestry.ThermionicFabricator.addCast(<thermaldynamics:duct_16:2> * 3, [
+    [<immersiveengineering:material:3>, <thermaldynamics:duct_16>, <immersiveengineering:material:3>],
+    [<immersiveengineering:material:3>, <thermaldynamics:duct_16>, <immersiveengineering:material:3>],
+    [<immersiveengineering:material:3>, <thermaldynamics:duct_16>, <immersiveengineering:material:3>]
+    ], <liquid: glass> * 1000);
 

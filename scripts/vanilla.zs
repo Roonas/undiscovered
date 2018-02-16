@@ -62,6 +62,7 @@ furnace.addRecipe(<thermalfoundation:material:192>, <scrap:broken.gear:2>);
 furnace.addRecipe(<thermalfoundation:material:226>, <scrap:broken.plate:13>);
 furnace.addRecipe(<thermalfoundation:material:194>, <scrap:broken.plate:4>);
 furnace.addRecipe(<jaopca:item_nuggetquartzblack>, <appliedenergistics2:material:2>);
+furnace.addRecipe(<contenttweaker:osmaticsteel>, <contenttweaker:osmaticsteeldust>);
 furnace.setFuel(<contenttweaker:bundle_of_sticks>, 1200);
 furnace.setFuel(<extrabees:propolis:7>, 1000);
 
