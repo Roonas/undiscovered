@@ -185,6 +185,7 @@ mods.immersiveengineering.BottlingMachine.addRecipe(mithrilCan, <forestry:can>, 
 mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:experience_bottle>, <minecraft:glass_bottle>, <liquid:xpjuice> * 500);
 mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:experience_bottle>, <minecraft:glass_bottle>, <liquid:essence> * 500);
 mods.immersiveengineering.BottlingMachine.addRecipe(<silentgems:nodemover>, <silentgems:craftingmaterial:14>, <liquid:ice> * 4000);
+mods.immersiveengineering.BottlingMachine.addRecipe(<thermalfoundation:fertilizer>, <calculator:soil>, <liquid:sewage> * 100);
 
 /*=========================
 Coke Oven
@@ -208,7 +209,7 @@ Squeezer
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:evilcraftblood> * 50, <ore:listAllmeatraw>, 200);
 mods.immersiveengineering.Squeezer.addRecipe(<jaopca:item_platequartzblack> * 4, null, <jaopca:block_blockquartzblack>, 100);
 //mods.immersiveengineering.Squeezer.addRecipe(silverPlate, null, silverBlock, 100);
-mods.immersiveengineering.Squeezer.addRecipe(tungstenIngot, null, tungstenNug * 9, 1500);
+mods.immersiveengineering.Squeezer.addRecipe(tungstenIngot, null, tungstenNug * 9, 3500);
 mods.immersiveengineering.Squeezer.addRecipe(<advgenerators:iron_frame> * 4, null, <ore:plateIron>, 1500);
 mods.immersiveengineering.Squeezer.addRecipe(<harvestcraft:beeswaxitem>, <fluid:honey> * 1000, <rustic:honeycomb> * 8, 1500);
 mods.immersiveengineering.Squeezer.addRecipe(<forestry:wax_cast>, null, <harvestcraft:pressedwax>, 1500);

@@ -8,6 +8,14 @@ Added some other uses for treated wood/creosote
 Added alt recipe for hardened fluiduct
 Increased rate of glowstone clathrate in the nether
 Turned down rustic slate world gen
+Made survivalist gens a bit cheaper
+Fixed storage tablet not accecpting upgrades
+Changed botania quest to not consume runes
+Made tungston chunks easier to wash in mana pool
+Added vodka/neutral spirit to burnable fuel in advanced gen
+Fixed 'Cow Juice' quest to only need 1 task
+Added sluice box quest
+~update reliquary
 
 
 2.4.0

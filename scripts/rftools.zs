@@ -87,7 +87,7 @@ recipes.addShaped(<xnet:connector>, [
     [<immersiveengineering:material:3>, <extrautils2:decorativeglass>, <immersiveengineering:material:3>]
     ]);
 
-recipes.remove(<rftools:storage_module_tablet>);
+recipes.removeByRecipeName("rftools:storage_module_tablet");
 recipes.addShaped(<rftools:storage_module_tablet>, [
     [<ore:nuggetCopper>, <minecraft:emerald>, <ore:nuggetCopper>],
     [<minecraft:redstone>, <minecraft:quartz_block>, <minecraft:redstone>], 

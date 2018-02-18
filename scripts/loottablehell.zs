@@ -273,3 +273,4 @@ flukeShrinePool.addItemEntryJSON(<xreliquary:mob_ingredient:11>, 5, 0, [], [], "
 flukeShrinePool.addItemEntryJSON(<evilcraft:dark_gem>, 5, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Dark Gem");
 flukeShrinePool.addItemEntryJSON(<silentgems:petsummoner:1>, 4, 0, [], [], "Dog Bone");
 flukeShrinePool.addItemEntryJSON(<randomthings:beans:2>, 5, 0, [], [], "Dog Bone");
+flukeShrinePool.addItemEntryJSON(<mob_grinding_utils:gm_chicken_feed>.withTag({mguMobName: "villager"}), 6, 0, [], [], "Life");

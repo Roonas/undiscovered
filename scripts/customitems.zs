@@ -73,8 +73,44 @@ spray.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     return ActionResult.pass();   
 };
 spray.register();
-*/
 
+
+var oreinjection = VanillaFactory.createItem("oreinjection");
+oreinjection.maxStackSize = 1;
+oreinjection.setMaxDamage(10);
+oreinjection.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    var blocky = world.getBlockState(pos);
+    if(blocky != <block:magneticraft:ores:3>){
+        var cmdstr = "give " ~ player.name ~ " magneticraft:chunks 2 5";
+        print(cmdstr);
+        Commands.call(cmdstr, player, world, false, true);
+        world.setBlockState(<block:minecraft:air>, pos);
+        player.getHeldItem(hand).shrink(1);
+    }
+    else {
+
+    }
+    return ActionResult.success();  
+};
+oreinjection.register();
+
+
+var item = VanillaFactory.createItem("fake_flint");
+
+item.maxStackSize = 1;
+item.maxDamage = 50;
+item.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    var firePos = pos.getOffset(facing, 1);
+    if (world.getBlockState(firePos).isReplaceable(world, firePos)) {
+        world.setBlockState(<block:minecraft:fire>, firePos);
+        player.getHeldItem(hand).damageItem(1, player);
+        return ActionResult.success();
+    }
+
+    return ActionResult.pass();
+};
+item.register();
+*/
 
 var advmfr = VanillaFactory.createItem("advancedcase");
 advmfr.register();

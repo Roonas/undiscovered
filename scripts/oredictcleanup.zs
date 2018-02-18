@@ -176,3 +176,4 @@ furnace.addRecipe(<mekanism:ingot:1>, <magneticraft:dusts:11>, 2);
 <ore:damagedCircuit>.add(<calculator:circuitdamaged:*>);
 <ore:stickIron>.add(<silentgems:craftingmaterial:7>);
 <ore:ingotSteel>.add(<contenttweaker:osmaticsteel>);
+<ore:dustWood>.add(<extratrees:misc:1>);

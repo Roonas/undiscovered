@@ -100,8 +100,8 @@ recipes.addShapeless("angel gold wings", <flyringbaublemod:angelring:4>, [
 */
 recipes.remove(<extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}), true);
 recipes.addShaped("survival gen", <extrautils2:machine>.withTag({Type: "extrautils2:generator_survival"}), [
-    [<sonarcore:reinforcedstoneblock>, <sonarcore:reinforcedstoneblock>, <sonarcore:reinforcedstoneblock>], 
-    [<sonarcore:reinforcedstoneblock>, <immersiveengineering:material:8>, <sonarcore:reinforcedstoneblock>], 
+    [<immersiveengineering:stone_decoration:7>, <immersiveengineering:stone_decoration:7>, <immersiveengineering:stone_decoration:7>], 
+    [<immersiveengineering:stone_decoration:7>, <immersiveengineering:material:8>, <immersiveengineering:stone_decoration:7>], 
     [<minecraft:redstone>, <minecraft:furnace>, <minecraft:redstone>]
     ]);
 

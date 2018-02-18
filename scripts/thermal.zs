@@ -316,6 +316,7 @@ mods.thermalexpansion.Transposer.addFillRecipe(<bigreactors:ingotmetals:3>, <big
 mods.thermalexpansion.Transposer.addFillRecipe(<bigreactors:ingotmetals:3>, <bigreactors:ingotmetals>, <liquid:cryotheum> * 1000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<silentgems:nodemover>, <silentgems:craftingmaterial:14>, <liquid:ice> * 4000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<magneticraft:chunks:5> * 2, wolframiteOre, <liquid:aerotheum> * 1000, 5000);
+mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:fertilizer>, <calculator:soil>, <liquid:sewage> * 100, 5000);
 
 /*=========================
 Refinery

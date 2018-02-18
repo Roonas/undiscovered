@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": false,
+      "editmode": true,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -5401,7 +5401,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -5412,7 +5412,7 @@
           },
           "globalshare": false,
           "questlogic": "AND",
-          "partysinglereward": false,
+          "partysinglereward": true,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
@@ -5423,7 +5423,41 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "cookingforblockheads:cow_jar",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:animal_resource_harvester",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -5433,22 +5467,10 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 86
-            },
-            {
-              "id": "cookingforblockheads:cow_jar",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "industrialforegoing:animal_resource_harvester",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
-          "index": 0
+          "index": 2
         }
       ],
       "rewards": [],
@@ -14018,7 +14040,7 @@
         {
           "partialMatch": true,
           "ignoreNBT": false,
-          "consume": true,
+          "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
@@ -18048,6 +18070,56 @@
       "rewards": [],
       "preRequisites": [],
       "questID": 323
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "magneticraft:sluice_box",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "More from Ore",
+          "desc": "Placing the rocky ores in a sluice box then washing them with a bucket of water can uncover extra metal dusts hiding in the ore. This process cannot be automated and the dusts obtained cannot be used to craft other items. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "magneticraft:sluice_box",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        64
+      ],
+      "questID": 324
     }
   ],
   "questLines": [
@@ -18284,6 +18356,12 @@
           "x": 132,
           "y": 36,
           "id": 68
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 144,
+          "id": 324
         },
         {
           "size": 24,

@@ -131,9 +131,13 @@ mods.botania.ManaInfusion.addInfusion(manaSteel * 2, <thermalfoundation:material
 mods.botania.ManaInfusion.addInfusion(manaPearl, <randomthings:stableenderpearl>, 2000);
 
 /*=========================
+Mana Pool - Alchemy
+=========================*/
+mods.botania.ManaInfusion.addAlchemy(<magneticraft:chunks:5> * 2, rockyTungsten, 7000);
+
+/*=========================
 Mana Pool - Conjuration
 =========================*/
-mods.botania.ManaInfusion.addConjuration(<magneticraft:chunks:5> * 2, rockyTungsten, 7000);
 mods.botania.ManaInfusion.addConjuration(<psi:material:2>, <botania:manaresource:2>, 1000);
 mods.botania.ManaInfusion.addConjuration(<psi:material:1>, <botania:manaresource>, 1000);
 mods.botania.ManaInfusion.addConjuration(<psi:material>, <botania:manaresource:23>, 1000);
