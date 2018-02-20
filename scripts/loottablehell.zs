@@ -103,6 +103,9 @@ val lostCityRailPool = lostcityRailChest.getPool("lostcities:raildungeonchest");
 val evilcraftInjectBlood = LootTables.getTable("evilcraft:inject/chests/condensed_blood");
 val evilcraftBloodPool = evilcraftInjectBlood.getPool("main");
 
+val evilcraftInjectBook = LootTables.getTable("evilcraft:inject/chests/origins_of_darkness");
+val evilcraftBookPool = evilcraftInjectBook.getPool("main");
+
 val vindicatorMob = LootTables.getTable("minecraft:entities/vindication_illager");
 val vindAddLoot = vindicatorMob.addPool("spirit drop", 1, 1, 0, 0);
 
@@ -118,6 +121,7 @@ netherMain.removeItemEntry(<minecraft:flint_and_steel>);
 reliquaryNetherPool.removeEntry("xreliquary:molten_core");
 
 evilcraftBloodPool.removeEntry("evilcraft:condensed_blood");
+evilcraftBookPool.removeEntry("evilcraft:origins_of_darkness");
 evilcraftBloodPool.addItemEntryJSON(<evilcraft:condensed_blood>, 5, 0, ["count: {min: -12.0, max: 10.0}, function: 'minecraft:set_count'"], [], "Blood");
 
 /*

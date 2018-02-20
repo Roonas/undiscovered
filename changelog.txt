@@ -15,7 +15,11 @@ Made tungston chunks easier to wash in mana pool
 Added vodka/neutral spirit to burnable fuel in advanced gen
 Fixed 'Cow Juice' quest to only need 1 task
 Added sluice box quest
+Made draconic cores slightly easier to craft
+Added recipe set for peaceful players (disabled by default)
+Removed evilcraft book from loottables
 ~update reliquary
+~update LC
 
 
 2.4.0

@@ -13,14 +13,14 @@ Recipe Changes - Draconic
 
 recipes.remove(dCore);
 recipes.addShaped("draconic core", dCore, [
-    [netherChaos, dracCrystal, netherChaos],
-    [dracCrystal, <thermalfoundation:coin:71>, dracCrystal],
-    [netherChaos, dracCrystal, netherChaos]
+    [netherChaos, <draconicevolution:draconium_ingot>, netherChaos],
+    [<draconicevolution:draconium_ingot>, <thermalfoundation:coin:71>, <draconicevolution:draconium_ingot>],
+    [netherChaos, <draconicevolution:draconium_ingot>, netherChaos]
     ]);
 
 recipes.remove(<draconicevolution:wyvern_core>);
 recipes.addShaped(<draconicevolution:wyvern_core>, [
     [<magneticraft:ingots:4>, <evilcraft:vengeance_essence>, <magneticraft:ingots:4>],
-    [<draconicevolution:draconic_core>, <silentgems:craftingmaterial:20>, <draconicevolution:draconic_core>], 
+    [<mekanism:ingot>, dCore, <mekanism:ingot>], 
     [<magneticraft:ingots:4>, <evilcraft:vengeance_essence>, <magneticraft:ingots:4>]
     ]);

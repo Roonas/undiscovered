@@ -183,3 +183,6 @@ osmaticsteel.register();
 
 var osmaticsteeldust = VanillaFactory.createItem("osmaticsteeldust");
 osmaticsteeldust.register();
+
+var netherrod = VanillaFactory.createItem("netherrod");
+netherrod.register();

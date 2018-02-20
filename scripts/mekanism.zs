@@ -122,3 +122,14 @@ mods.mekanism.infuser.addRecipe("OBSIDIAN", 100, <mekanism:basicblock:8>, <conte
 //make infuser use same ingot as everthing else
 mods.mekanism.infuser.removeRecipe(<mekanism:ingot:2>);
 mods.mekanism.infuser.addRecipe("TIN", 10, <thermalfoundation:material:128>, <thermalfoundation:material:163>);
+
+/*=========================
+Osmium Compressor
+=========================*/
+/*
+mods.mekanism.compressor.removeRecipe(<mekanism:ingot:3>);
+
+
+mods.mekanism.reaction.addRecipe(<minecraft:gold_ingot>, <liquid:glowstone>, <gas:chlorine>, <mekanism:ingot:3>, <gas:hydrogenchloride>, 50000, 2000);
+mods.mekanism.reaction.addRecipe(<minecraft:gold_ingot> , <liquid:lava>, <gas:oxygen>, <minecraft:iron_ingot>, <gas:oxygen>, 50000, 2000);
+*/
