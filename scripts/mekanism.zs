@@ -98,6 +98,13 @@ recipes.addShaped("turbine glass from casing", <mekanism:basicblock:10> * 4, [
     [null, <mekanismgenerators:generator:10>, null]
     ]);
 
+recipes.remove(<mekanism:basicblock2:7>);
+recipes.addShaped("boiler case", <mekanism:basicblock2:7>, [
+    [<ore:ingotSteel>, null, <ore:ingotSteel>],
+    [<ore:ingotIron>, null, <ore:ingotIron>], 
+    [<ore:ingotSteel>, null, <ore:ingotSteel>]
+    ]);
+
 
 /*=========================
 Crusher

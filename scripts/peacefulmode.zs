@@ -135,3 +135,10 @@ recipes.addShapeless("peace shulker pearl", <darkutils:shulker_pearl>, [
 recipes.addShapeless("peace shulker shell", <minecraft:shulker_shell>, [
     <darkutils:shulker_pearl>, <appliedenergistics2:sky_stone_chest>, <darkutils:shulker_pearl>
     ]);
+
+//super expensive stuff = chaos shard
+recipes.addShaped(<draconicevolution:chaos_shard>, [
+    [<extendedcrafting:material:24>, <extendedcrafting:storage:2>, <extendedcrafting:material:24>],
+    [<extendedcrafting:material:24>, <draconicevolution:awakened_core>, <extendedcrafting:material:24>], 
+    [<ore:spinnyBoi>, <extendedcrafting:material:32>, <ore:spinnyBoi>]
+    ]);
