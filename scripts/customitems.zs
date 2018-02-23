@@ -74,27 +74,6 @@ spray.onItemUse = function(player, world, pos, hand, facing, blockHit) {
 };
 spray.register();
 
-
-var oreinjection = VanillaFactory.createItem("oreinjection");
-oreinjection.maxStackSize = 1;
-oreinjection.setMaxDamage(10);
-oreinjection.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-    var blocky = world.getBlockState(pos);
-    if(blocky != <block:magneticraft:ores:3>){
-        var cmdstr = "give " ~ player.name ~ " magneticraft:chunks 2 5";
-        print(cmdstr);
-        Commands.call(cmdstr, player, world, false, true);
-        world.setBlockState(<block:minecraft:air>, pos);
-        player.getHeldItem(hand).shrink(1);
-    }
-    else {
-
-    }
-    return ActionResult.success();  
-};
-oreinjection.register();
-
-
 var item = VanillaFactory.createItem("fake_flint");
 
 item.maxStackSize = 1;
@@ -111,6 +90,47 @@ item.onItemUse = function(player, world, pos, hand, facing, blockHit) {
 };
 item.register();
 */
+
+var oreinjectionaero = VanillaFactory.createItem("oreinjectionaero");
+oreinjectionaero.maxStackSize = 1;
+oreinjectionaero.setMaxDamage(10);
+oreinjectionaero.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    var blocky = world.getBlockState(pos);
+    if(blocky == <block:magneticraft:ores:3>){
+        var cmdstr = "give " ~ player.name ~ " magneticraft:chunks 2 5";
+        print(cmdstr);
+        Commands.call(cmdstr, player, world, false, true);
+        world.setBlockState(<block:minecraft:air>, pos);
+        player.getHeldItem(hand).shrink(1);
+    }
+    else {
+
+    }
+    return ActionResult.success();  
+};
+oreinjectionaero.register();
+
+var oreinjectiondna = VanillaFactory.createItem("oreinjectiondna");
+oreinjectiondna.maxStackSize = 1;
+oreinjectiondna.setMaxDamage(10);
+oreinjectiondna.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    var blocky = world.getBlockState(pos);
+    if(blocky == <block:magneticraft:ores:3>){
+        var cmdstr = "give " ~ player.name ~ " magneticraft:rocky_chunks 2 5";
+        print(cmdstr);
+        Commands.call(cmdstr, player, world, false, true);
+        world.setBlockState(<block:minecraft:air>, pos);
+        player.getHeldItem(hand).shrink(1);
+    }
+    else {
+
+    }
+    return ActionResult.success();  
+};
+oreinjectiondna.register();
+
+var oreinjection = VanillaFactory.createItem("oreinjection");
+oreinjection.register();
 
 var advmfr = VanillaFactory.createItem("advancedcase");
 advmfr.register();

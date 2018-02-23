@@ -1,5 +1,15 @@
+2.6.0
+----------
+Added recipes for turning silents tanzanite blocks into large tanzanite from calc
+Added recipe for niter in AA crusher
+Added wood pulp from forestry to saw dust oredict (used in phyto-gro)
+Added recipes for crushing rustic honey into forestry honey drops (usable as food sugar)
+Added crushing tub recip for pams/binnies olives into olive oil
+
+
 2.5.0
 ----------
+The update where nothing was nerfed
 Replaced missing broken to full plate recipes
 Added osmium alloy that can be used as steel replacement
 Added underground meteors that contain osmatic-steel ore
@@ -9,17 +19,18 @@ Added alt recipe for hardened fluiduct
 Increased rate of glowstone clathrate in the nether
 Turned down rustic slate world gen
 Made survivalist gens a bit cheaper
-Fixed storage tablet not accecpting upgrades
+Fixed storage tablet not accepting upgrades
 Changed botania quest to not consume runes
-Made tungston chunks easier to wash in mana pool
+Made tungsten chunks easier to wash in mana pool
 Added vodka/neutral spirit to burnable fuel in advanced gen
 Fixed 'Cow Juice' quest to only need 1 task
 Added sluice box quest
 Made draconic cores slightly easier to craft
 Added recipe set for peaceful players (disabled by default)
 Removed evilcraft book from loottables
-~update reliquary
-~update LC
+Mod Updates:
+* The Lost Cities
+* Reliquary - fix grappling hook crash with interdiction torch
 
 
 2.4.0

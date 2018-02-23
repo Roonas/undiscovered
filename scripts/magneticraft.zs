@@ -70,6 +70,7 @@ mods.magneticraft.CrushingTable.addRecipe(<appliedenergistics2:sky_stone_block>,
 //mods.magneticraft.CrushingTable.addRecipe(<jaopca:block_blockquartzblack>, <jaopca:item_platequartzblack>, false);
 mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:storage:3>, heavyLeadPlate, true);
 mods.magneticraft.CrushingTable.addRecipe(<calculator:circuitdamaged>, <minecraft:redstone>, true);
+mods.magneticraft.CrushingTable.addRecipe(<silentgems:gemblockdark:10>, <calculator:largetanzanite>, false);
 
 /*=========================
 Sluice Box

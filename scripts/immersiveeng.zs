@@ -173,8 +173,6 @@ recipes.addShaped("cloche", <immersiveengineering:metal_device1:13>, [
 
 
 
-
-
 /*=========================
 Bottling Machine
 =========================*/
@@ -215,6 +213,7 @@ mods.immersiveengineering.Squeezer.addRecipe(<harvestcraft:beeswaxitem>, <fluid:
 mods.immersiveengineering.Squeezer.addRecipe(<forestry:wax_cast>, null, <harvestcraft:pressedwax>, 1500);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, <ore:grassSeed>, 200);
 mods.immersiveengineering.Squeezer.addRecipe(<randomthings:compressedslimeblock>, null, <minecraft:slime>, 2000);
+mods.immersiveengineering.Squeezer.addRecipe(<calculator:largetanzanite>, null, <silentgems:gemblockdark:10>, 2000);
 
 /*=========================
 Refinery
@@ -266,6 +265,7 @@ mods.immersiveengineering.Crusher.addRecipe(<immersivepetroleum:material>, <ther
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:glowstone_dust>, <thermalfoundation:material:894>, 1000, <minecraft:glowstone_dust>, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>, <ore:damagedCircuit>, 250, <minecraft:redstone>, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:osmaticsteeldust> * 2, <contenttweaker:osmaticsteelore>, 800);
+mods.immersiveengineering.Crusher.addRecipe(<forestry:honey_drop>, <rustic:honeycomb>, 1000, <forestry:honey_drop>, 0.1);
 
 /*=========================
 Mixer

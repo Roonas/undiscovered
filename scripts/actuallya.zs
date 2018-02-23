@@ -139,6 +139,9 @@ mods.actuallyadditions.Crusher.addRecipe(<extratrees:misc:5> * 4, <contenttweake
 mods.actuallyadditions.Crusher.addRecipe(<immersivepetroleum:material>, <thermalfoundation:material:892>);
 mods.actuallyadditions.Crusher.addRecipe(<minecraft:glowstone_dust>, <thermalfoundation:material:894>, <minecraft:glowstone_dust>, 10);
 mods.actuallyadditions.Crusher.addRecipe(<contenttweaker:osmaticsteeldust> * 2, <contenttweaker:osmaticsteelore>);
+mods.actuallyadditions.Crusher.addRecipe(<minecraft:sand>, <minecraft:sandstone>, <immersiveengineering:material:24>, 50);
+mods.actuallyadditions.Crusher.addRecipe(<minecraft:sand:1>, <minecraft:red_sandstone>, <immersiveengineering:material:24>, 50);
+mods.actuallyadditions.Crusher.addRecipe(<forestry:honey_drop>, <rustic:honeycomb>, <forestry:honey_drop>, 10);
 
 /*=========================
 Empowerer
