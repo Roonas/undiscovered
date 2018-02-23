@@ -1,0 +1,54 @@
+{
+	"populate": {
+		"deep_boulder": {
+
+			"distribution": "gaussian",
+
+			"generator": {
+			"type": "boulder",
+			"block": [
+				{
+					"name": "appliedenergistics2:sky_stone_block",
+					"weight": 80
+				},
+				{
+					"name": "contenttweaker:osmaticsteelore",
+					"metadata": 7,
+					"weight": 20
+				}
+			],
+			"diameter": 1,
+			"size-variance": 0,
+			"count-variance": 1,
+			"count": 1
+			},
+
+			"material": [
+				{
+					"name": "minecraft:stone"
+				},
+				{
+					"name": "rustic:slate"
+				},
+				{
+					"name": "chisel:basalt2",
+					"metadata": 7
+				}
+			],
+
+			"chunk-chance": 1,
+			"cluster-count": 1,
+			"center-height": 6,
+			"spread": 3,
+			"retrogen": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
