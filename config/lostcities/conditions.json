@@ -46,19 +46,14 @@
         "range": "-100,-3"
       },
       {
-        "factor": 1,
+        "factor": 35,
         "value": "lostcities:chests/raildungeonchest",
         "inpart": "station_underground_stairs"
       },
       {
-        "factor": 1,
+        "factor": 50,
         "value": "lostcities:chests/raildungeonchest",
         "inpart": "station_openroof"
-      },
-      {
-        "factor": 1,
-        "value": "lostcities:chests/raildungeonchest",
-        "inpart": "rails_horizontal"
       },
       {
         "factor": 60,

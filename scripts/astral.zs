@@ -141,3 +141,8 @@ mods.astralsorcery.Grindstone.removeReipce(<astralsorcery:itemcraftingcomponent:
 mods.astralsorcery.Grindstone.removeReipce(<astralsorcery:itemcraftingcomponent:2>);
 mods.astralsorcery.Grindstone.removeReipce(<jaopca:item_dusttungsten>);
 mods.astralsorcery.Grindstone.addRecipe(<astralsorcery:itemcraftingcomponent:1>, <astralsorcery:itemcraftingcomponent:2>);
+
+/*=========================
+Starlight Transmutation
+=========================*/
+mods.astralsorcery.LightTransmutation.addTransmutation(<appliedenergistics2:sky_stone_block>, <contenttweaker:osmaticsteelore>, 70);

@@ -134,6 +134,7 @@ mods.botania.ManaInfusion.addInfusion(manaPearl, <randomthings:stableenderpearl>
 Mana Pool - Alchemy
 =========================*/
 mods.botania.ManaInfusion.addAlchemy(<magneticraft:chunks:5> * 2, rockyTungsten, 7000);
+mods.botania.ManaInfusion.addAlchemy(<contenttweaker:osmaticsteel> * 2, <contenttweaker:osmaticsteelore>, 7000);
 
 /*=========================
 Mana Pool - Conjuration

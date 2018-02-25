@@ -366,7 +366,8 @@ Centrifuge
 =========================*/  
 mods.thermalexpansion.Centrifuge.addRecipe([<minecraft:gravel> % 50, (<thermalfoundation:material:198> * 2) % 70, <jaopca:item_rockychunkplatinum> % 20], <contenttweaker:platslurry>, <liquid:platinum> * 1000, 1000);
 mods.thermalexpansion.Centrifuge.addRecipe([enderEgg % 100], <minecraft:dragon_egg>, <liquid:dblood> * 1000, 20000);
-mods.thermalexpansion.Centrifuge.addRecipe([<appliedenergistics2:material:5> % 50, <evilcraft:dull_dust> % 41, <appliedenergistics2:crystal_seed> % 6], <appliedenergistics2:material:2>, null, 1000);
+mods.thermalexpansion.Centrifuge.addRecipe([<appliedenergistics2:material:5> % 50, <evilcraft:dull_dust> % 40, <appliedenergistics2:crystal_seed> % 5], <appliedenergistics2:material:2>, null, 1000);
+mods.thermalexpansion.Centrifuge.addRecipe([<appliedenergistics2:material:5> % 35, <evilcraft:dull_dust> % 20, <appliedenergistics2:crystal_seed> % 2], <actuallyadditions:item_dust:5>, null, 1000);
 
 /*=========================
 Energetic Infuser

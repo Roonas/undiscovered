@@ -1,11 +1,18 @@
 2.6.0
 ----------
-Added recipes for turning silents tanzanite blocks into large tanzanite from calc
+Added recipes for turning silents tanzanite/amethyst blocks into large tanzanite/amethyst from calc
 Added recipe for niter in AA crusher
 Added wood pulp from forestry to saw dust oredict (used in phyto-gro)
 Added recipes for crushing rustic honey into forestry honey drops (usable as food sugar)
 Added crushing tub recip for pams/binnies olives into olive oil
-
+Increase silcon from vodka + sand, added silcon recipe for centrifuging nether quartz dust
+Added loot chest to subway stations with rail themed loot
+Added mana pool recipe for processing osmatic steel (removes steel tech gate from botania)
+Skystone blocks will now transform into osmatic steel ore with a bit of startlight encouragment
+Redid farmville quest chapter
+Added rewards to first chapter
+~update LC in twitch
+~update fastcraft
 
 2.5.0
 ----------

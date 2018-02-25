@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": false,
+      "editmode": true,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -2505,7 +2505,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "actuallyadditions:item_misc",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "contenttweaker:bundle_of_sticks",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         49,
         226
@@ -2663,7 +2682,30 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:brick",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "redstone",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         52,
         322
@@ -2714,7 +2756,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermaldynamics:duct_16",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "thermaldynamics:servo",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         239
       ],
@@ -2770,7 +2831,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "waterstrainer:net",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "contenttweaker:bagofjunk",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         233
       ],
@@ -2820,7 +2900,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:cookie",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "extratrees:logs.2",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         237
       ],
@@ -2870,7 +2969,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:cake",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         49
       ],
@@ -4853,7 +4965,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -4868,7 +4980,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Collecting Spores",
+          "name": "Industrial for Farming",
           "desc": "No Description"
         }
       },
@@ -4889,11 +5001,29 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:plant_interactor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
       "preRequisites": [
-        72
+        72,
+        92
       ],
       "questID": 87
     },
@@ -5033,7 +5163,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        234
+        234,
+        333
       ],
       "questID": 89
     },
@@ -5043,7 +5174,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -5115,11 +5246,62 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "stevescarts:blockcartassembler",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "stevescarts:cartmodule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 38
+            },
+            {
+              "id": "stevescarts:cartmodule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 15,
+              "tag": {
+                "Data:1": 100
+              }
+            },
+            {
+              "id": "stevescarts:cartmodule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 44
+            },
+            {
+              "id": "stevescarts:cartmodule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "minecraft:rail",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
       "preRequisites": [
-        234
+        234,
+        93
       ],
       "questID": 90
     },
@@ -5163,12 +5345,6 @@
               "Damage": 0
             },
             {
-              "id": "harvestcraft:potitem",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
               "id": "harvestcraft:skilletitem",
               "Count": 1,
               "OreDict": "",
@@ -5176,18 +5352,6 @@
             },
             {
               "id": "harvestcraft:saucepanitem",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "harvestcraft:bakewareitem",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "harvestcraft:juiceritem",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -5211,7 +5375,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        234
+        328
       ],
       "questID": 91
     },
@@ -5279,7 +5443,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        93
+        326
       ],
       "questID": 92
     },
@@ -5377,12 +5541,6 @@
                 },
                 "SG_UUIDMost:4": -5323472180537045088
               }
-            },
-            {
-              "id": "harvestcraft:market",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -5475,7 +5633,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        89
+        333
       ],
       "questID": 94
     },
@@ -5549,7 +5707,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        91
+        328
       ],
       "questID": 95
     },
@@ -5619,7 +5777,7 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:emerald",
+            "id": "harvestcraft:shippingbin",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -5655,7 +5813,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        93
+        327
       ],
       "questID": 97
     },
@@ -5669,7 +5827,7 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "harvestcraft:delightedmealitem",
+            "id": "harvestcraft:butteritem",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -5693,21 +5851,9 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "harvestcraft:saltitem",
-              "Count": 1,
-              "OreDict": "foodSalt",
-              "Damage": 0
-            },
-            {
               "id": "harvestcraft:spiceleafitem",
               "Count": 1,
               "OreDict": "listAllspice",
-              "Damage": 0
-            },
-            {
-              "id": "minecraft:beef",
-              "Count": 1,
-              "OreDict": "listAllmeatraw",
               "Damage": 0
             },
             {
@@ -5733,6 +5879,12 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
+            },
+            {
+              "id": "harvestcraft:stockitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -5741,7 +5893,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        95
+        330,
+        329
       ],
       "questID": 98
     },
@@ -5847,7 +6000,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        234
+        234,
+        333
       ],
       "questID": 100
     },
@@ -7150,7 +7304,24 @@
           "index": 4
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalexpansion:satchel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Inventory:10": {},
+                "Accessible:1": 1
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         236
       ],
@@ -7307,7 +7478,30 @@
           "index": 5
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "storagedrawers:compdrawers",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "thermalexpansion:cache",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Facing:1": 3,
+                "Level:1": 0
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         238
       ],
@@ -10294,7 +10488,29 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "storagedrawers:basicdrawers",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "material:8": "oak"
+              }
+            },
+            {
+              "id": "extrautils2:trashcan",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         53
       ],
@@ -10344,7 +10560,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "waterstrainer:bait_pot",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         53
       ],
@@ -10438,7 +10667,26 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "rustic:mooncap_mushroom",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "rustic:wind_thistle",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         50
       ],
@@ -10494,7 +10742,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "rustic:barrel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "rustic:liquid_barrel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         180
       ],
@@ -10588,7 +10855,26 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "rustic:blood_orchid",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "rustic:cohosh",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         181
       ],
@@ -10675,7 +10961,39 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "rustic:fluid_bottle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "ironwine",
+                  "Amount:3": 1000,
+                  "Tag:10": {
+                    "Quality:5": 0.47
+                  }
+                }
+              }
+            },
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "alewort",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 1
+        }
+      ],
       "preRequisites": [
         240
       ],
@@ -10802,7 +11120,26 @@
           "index": 2
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "immersiveengineering:metal_device0",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "thermaldynamics:duct_0",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         48,
         184
@@ -18015,7 +18352,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "extracells:certustank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "extrautils2:grocket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         53,
         323
@@ -18120,6 +18476,728 @@
         64
       ],
       "questID": 324
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:wheat_seeds",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Selection of Seeds",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:wheat_seeds",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:item_canola_seed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "immersiveengineering:seed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "actuallyadditions:item_flax_seed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        93
+      ],
+      "questID": 326
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:market",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Buying What You Can\u0027t Grow",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:market",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:garliccoinitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        326
+      ],
+      "questID": 327
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:potitem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Kitchenaid",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:potitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:bakewareitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:juiceritem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        326
+      ],
+      "questID": 328
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:beef",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Eat to Grow",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:saltitem",
+              "Count": 1,
+              "OreDict": "foodSalt",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:beef",
+              "Count": 1,
+              "OreDict": "listAllmeatraw",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:bellpepperitem",
+              "Count": 1,
+              "OreDict": "listAllveggie",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:apple",
+              "Count": 1,
+              "OreDict": "listAllfruit",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        328
+      ],
+      "questID": 329
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:presser",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Food Squisher",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:presser",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        91
+      ],
+      "questID": 330
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "OR",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "harvestcraft:thankfuldinneritem",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Food of the Gods",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:cornedbeefbreakfastitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:thankfuldinneritem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:southernstylebreakfastitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:meatfeastpizzaitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:koreandinneritem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 4
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        98
+      ],
+      "questID": 331
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "OR",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:spores_recreator",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Full Auto Farming",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalexpansion:machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4,
+              "tag": {
+                "RSControl:1": 0,
+                "Facing:1": 3,
+                "Energy:3": 0,
+                "SideCache:7": [
+                  3,
+                  1,
+                  2,
+                  2,
+                  2,
+                  2
+                ],
+                "Level:1": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:crop_recolector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_farmer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "immersiveengineering:metal_device1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 13
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        96
+      ],
+      "questID": 332
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:feather",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Natural Resources",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "minecraft:porkchop",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:feather",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:wool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        234
+      ],
+      "questID": 333
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "mob_grinding_utils:saw",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Cow Disassembly Plant",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:mob_slaughter_factory",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "mob_grinding_utils:saw",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        89
+      ],
+      "questID": 334
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:villager_trade_exchanger",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "People Farm",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:villager_trade_exchanger",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "industrialforegoing:mob_imprisonment_tool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        89
+      ],
+      "questID": 335
     }
   ],
   "questLines": [
@@ -18735,87 +19813,147 @@
       "quests": [
         {
           "size": 24,
-          "x": 138,
-          "y": 95,
-          "id": 96
+          "x": 96,
+          "y": 60,
+          "id": 326
         },
         {
           "size": 24,
-          "x": 106,
-          "y": 56,
-          "id": 97
+          "x": 132,
+          "y": 60,
+          "id": 327
         },
         {
           "size": 24,
-          "x": 78,
-          "y": 92,
-          "id": 98
+          "x": 96,
+          "y": 96,
+          "id": 328
         },
         {
           "size": 24,
-          "x": 31,
-          "y": 81,
-          "id": 99
+          "x": 96,
+          "y": 132,
+          "id": 329
         },
         {
           "size": 24,
-          "x": 84,
-          "y": 126,
-          "id": 100
+          "x": 132,
+          "y": 168,
+          "id": 330
         },
         {
           "size": 24,
-          "x": 55,
-          "y": 126,
+          "x": 132,
+          "y": 204,
+          "id": 331
+        },
+        {
+          "size": 24,
+          "x": 24,
+          "y": 168,
+          "id": 332
+        },
+        {
+          "size": 24,
+          "x": 204,
+          "y": 24,
+          "id": 333
+        },
+        {
+          "size": 24,
+          "x": 168,
+          "y": 132,
+          "id": 334
+        },
+        {
+          "size": 24,
+          "x": 240,
+          "y": 132,
+          "id": 335
+        },
+        {
+          "size": 24,
+          "x": 24,
+          "y": 96,
           "id": 87
         },
         {
           "size": 24,
-          "x": 15,
-          "y": 56,
+          "x": 240,
+          "y": 96,
           "id": 88
         },
         {
           "size": 24,
-          "x": 31,
-          "y": 22,
+          "x": 204,
+          "y": 96,
           "id": 89
         },
         {
           "size": 24,
-          "x": 25,
-          "y": 126,
+          "x": 60,
+          "y": 60,
           "id": 90
         },
         {
           "size": 24,
-          "x": 77,
-          "y": 21,
+          "x": 132,
+          "y": 132,
           "id": 91
         },
         {
           "size": 24,
-          "x": 138,
-          "y": 56,
+          "x": 60,
+          "y": 96,
           "id": 92
         },
         {
           "size": 24,
-          "x": 122,
-          "y": 21,
+          "x": 96,
+          "y": 24,
           "id": 93
         },
         {
           "size": 24,
-          "x": 47,
-          "y": 56,
+          "x": 240,
+          "y": 60,
           "id": 94
         },
         {
           "size": 24,
-          "x": 77,
-          "y": 56,
+          "x": 60,
+          "y": 132,
           "id": 95
+        },
+        {
+          "size": 24,
+          "x": 24,
+          "y": 132,
+          "id": 96
+        },
+        {
+          "size": 24,
+          "x": 132,
+          "y": 96,
+          "id": 97
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 204,
+          "id": 98
+        },
+        {
+          "size": 24,
+          "x": 204,
+          "y": 132,
+          "id": 99
+        },
+        {
+          "size": 24,
+          "x": 168,
+          "y": 96,
+          "id": 100
         }
       ],
       "lineID": 3,

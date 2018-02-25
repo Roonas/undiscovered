@@ -28,7 +28,7 @@ recipes.addShaped("me chest", <appliedenergistics2:chest>, [
     [<silentgems:craftingmaterial:30>, <ore:crystalFluix>, <silentgems:craftingmaterial:30>]
     ]);
 
-recipes.addShapeless("silicon", <appliedenergistics2:material:5>, [
+recipes.addShapeless("silicon", <appliedenergistics2:material:5> * 4, [
     <extrautils2:compressedsand>, <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}})
     ]);
 

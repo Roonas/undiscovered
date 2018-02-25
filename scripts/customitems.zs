@@ -7,7 +7,13 @@ import mods.contenttweaker.ActionResult;
 import mods.contenttweaker.BlockState;
 import mods.contenttweaker.World;
 import crafttweaker.block.IBlock;
+import crafttweaker.player.IPlayer;
 
+function giveItem(player as IPlayer, itemString as string) as string{
+    var cmdstr = "give " ~ player.name ~ " " ~ itemString;
+    print(cmdstr);
+    return cmdstr;
+}
 
 var eKill = VanillaFactory.createItem("entitykiller");
 eKill.maxStackSize = 1;
@@ -39,95 +45,84 @@ mthand.itemRightClick = function(stack, world, player, hand) {
     };
 mthand.register();
 
-/*worldIn.spawnEntityInWorld( new EntityItem( worldIn, pos.getX(), pos.getY(), pos.getZ(), ish.getStackInSlot( i ) ) );
-var whodat = VanillaFactory.createItem("whodat");
-whodat.maxStackSize = 1;
-whodat.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-    var poke = pos.getOffset(facing, 1);
-    var blocky = world.getBlockState(poke).getBlock();
-    if (world.getBlockState(poke).isReplaceable(world, poke)) {
-        world.setBlockState(<block:minecraft:dirt>, poke);
-        return ActionResult.success();
-    }
-    return ActionResult.pass();
-    };
-whodat.register();
-
-
-var spray = VanillaFactory.createItem("spray");
-spray.maxStackSize = 1;
-spray.setMaxDamage(10);
-spray.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-    var blocky = world.getBlockState(pos);
-    if(blocky != <block:minecraft:wool:6>){
-        Commands.call("summon minecraft:tnt", player, world);
-        return ActionResult.success();
-    }
-    else {
-        world.setBlockState(<block:minecraft:gold_block>, pos);
-        player.give(<minecraft:wool>);
-        //var heldItem = player.getHeldItem(hand);
-        //heldItem.damage(1, player);
-        return ActionResult.success();
-    }
-    return ActionResult.pass();   
-};
-spray.register();
-
-var item = VanillaFactory.createItem("fake_flint");
-
-item.maxStackSize = 1;
-item.maxDamage = 50;
-item.onItemUse = function(player, world, pos, hand, facing, blockHit) {
-    var firePos = pos.getOffset(facing, 1);
-    if (world.getBlockState(firePos).isReplaceable(world, firePos)) {
-        world.setBlockState(<block:minecraft:fire>, firePos);
-        player.getHeldItem(hand).damageItem(1, player);
-        return ActionResult.success();
-    }
-
-    return ActionResult.pass();
-};
-item.register();
-*/
-
 var oreinjectionaero = VanillaFactory.createItem("oreinjectionaero");
-oreinjectionaero.maxStackSize = 1;
+oreinjectionaero.maxStackSize = 16;
 oreinjectionaero.setMaxDamage(10);
 oreinjectionaero.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     var blocky = world.getBlockState(pos);
     if(blocky == <block:magneticraft:ores:3>){
-        var cmdstr = "give " ~ player.name ~ " magneticraft:chunks 2 5";
-        print(cmdstr);
-        Commands.call(cmdstr, player, world, false, true);
+        var dropItem = "magneticraft:chunks 2 5";
+        Commands.call(giveItem(player, dropItem), player, world, false, true);
         world.setBlockState(<block:minecraft:air>, pos);
         player.getHeldItem(hand).shrink(1);
+        return ActionResult.success(); 
     }
-    else {
 
-    }
-    return ActionResult.success();  
+    return ActionResult.pass(); 
 };
 oreinjectionaero.register();
 
 var oreinjectiondna = VanillaFactory.createItem("oreinjectiondna");
-oreinjectiondna.maxStackSize = 1;
+oreinjectiondna.maxStackSize = 16;
 oreinjectiondna.setMaxDamage(10);
 oreinjectiondna.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     var blocky = world.getBlockState(pos);
     if(blocky == <block:magneticraft:ores:3>){
-        var cmdstr = "give " ~ player.name ~ " magneticraft:rocky_chunks 2 5";
-        print(cmdstr);
-        Commands.call(cmdstr, player, world, false, true);
+        var dropItem = "magneticraft:rocky_chunks 2 5";
+        Commands.call(giveItem(player, dropItem), player, world, false, true);
         world.setBlockState(<block:minecraft:air>, pos);
         player.getHeldItem(hand).shrink(1);
+        return ActionResult.success(); 
     }
-    else {
 
-    }
-    return ActionResult.success();  
+    return ActionResult.pass(); 
 };
 oreinjectiondna.register();
+
+var oreinjectionvodka = VanillaFactory.createItem("oreinjectionvodka");
+oreinjectionvodka.maxStackSize = 16;
+oreinjectionvodka.setMaxDamage(10);
+oreinjectionvodka.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    var blocky = world.getBlockState(pos);
+    if(blocky == <block:thermalfoundation:ore>){
+        var dropItem = "immersiveengineering:metal 2 9";
+        Commands.call(giveItem(player, dropItem), player, world, false, true);
+        world.setBlockState(<block:minecraft:air>, pos);
+        player.getHeldItem(hand).shrink(1);
+        return ActionResult.success(); 
+    }else if(blocky == <block:minecraft:iron_ore>){
+        var dropItem = "immersiveengineering:metal 2 18";
+        Commands.call(giveItem(player, dropItem), player, world, false, true);
+        world.setBlockState(<block:minecraft:air>, pos);
+        player.getHeldItem(hand).shrink(1);
+        return ActionResult.success(); 
+    }else if(blocky == <block:immersiveengineering:ore:1>){
+        var dropItem = "immersiveengineering:metal 2 10";
+        Commands.call(giveItem(player, dropItem), player, world, false, true);
+        world.setBlockState(<block:minecraft:air>, pos);
+        player.getHeldItem(hand).shrink(1);
+        return ActionResult.success(); 
+    }else if(blocky == <block:minecraft:gold_ore>){
+        var dropItem = "immersiveengineering:metal 2 19";
+        Commands.call(giveItem(player, dropItem), player, world, false, true);
+        world.setBlockState(<block:minecraft:air>, pos);
+        player.getHeldItem(hand).shrink(1);
+        return ActionResult.success(); 
+    }else if(blocky == <block:extrautils2:compressedsand>){
+        var dropItem = "appliedenergistics2:material 2 5";
+        Commands.call(giveItem(player, dropItem), player, world, false, true);
+        world.setBlockState(<block:minecraft:air>, pos);
+        player.getHeldItem(hand).shrink(1);
+        return ActionResult.success(); 
+    }else if(blocky == <block:thermalfoundation:ore:6>){
+        world.setBlockState(<block:contenttweaker:platslurry>, pos);
+        player.getHeldItem(hand).shrink(1);
+        return ActionResult.success(); 
+    }
+
+    return ActionResult.pass();   
+};
+oreinjectionvodka.register();
 
 var oreinjection = VanillaFactory.createItem("oreinjection");
 oreinjection.register();
@@ -206,3 +201,35 @@ osmaticsteeldust.register();
 
 var netherrod = VanillaFactory.createItem("netherrod");
 netherrod.register();
+
+/*
+worldIn.spawnEntityInWorld( new EntityItem( worldIn, pos.getX(), pos.getY(), pos.getZ(), ish.getStackInSlot( i ) ) );
+var whodat = VanillaFactory.createItem("whodat");
+whodat.maxStackSize = 1;
+whodat.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    var poke = pos.getOffset(facing, 1);
+    var blocky = world.getBlockState(poke).getBlock();
+    if (world.getBlockState(poke).isReplaceable(world, poke)) {
+        world.setBlockState(<block:minecraft:dirt>, poke);
+        return ActionResult.success();
+    }
+    return ActionResult.pass();
+    };
+whodat.register();
+
+var item = VanillaFactory.createItem("fake_flint");
+
+item.maxStackSize = 1;
+item.maxDamage = 50;
+item.onItemUse = function(player, world, pos, hand, facing, blockHit) {
+    var firePos = pos.getOffset(facing, 1);
+    if (world.getBlockState(firePos).isReplaceable(world, firePos)) {
+        world.setBlockState(<block:minecraft:fire>, firePos);
+        player.getHeldItem(hand).damageItem(1, player);
+        return ActionResult.success();
+    }
+
+    return ActionResult.pass();
+};
+item.register();
+*/

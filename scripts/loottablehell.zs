@@ -124,7 +124,7 @@ evilcraftBloodPool.removeEntry("evilcraft:condensed_blood");
 evilcraftBookPool.removeEntry("evilcraft:origins_of_darkness");
 evilcraftBloodPool.addItemEntryJSON(<evilcraft:condensed_blood>, 5, 0, ["count: {min: -12.0, max: 10.0}, function: 'minecraft:set_count'"], [], "Blood");
 
-/*
+
 lostCityRailPool.removeEntry("minecraft:diamond");
 lostCityRailPool.removeEntry("minecraft:emerald");
 lostCityRailPool.addItemEntryJSON(<minecraft:rail>, 20, 0, ["count: {min: 4.0, max: 12.0}, function: 'minecraft:set_count'"], [], "Basic Rail");
@@ -143,7 +143,7 @@ lostCityRailPool.addItemEntryJSON(<stevescarts:cartmodule:25>, 10, 0, [], [], "S
 lostCityRailPool.addItemEntryJSON(<actuallyadditions:item_misc:16>, 5, 0, [], [], "Drill Core");
 lostCityRailPool.addItemEntryJSON(<stevescarts:cartmodule:42>.withTag({Data: 100 as byte}), 7, 0, [], [], "Cart Drill");
 lostCityRailPool.addItemEntryJSON(<stevescarts:cartmodule:39>, 5, 0, [], [], "Fancy Hull");
-*/
+
 
 ieEngiPool.removeEntry("copper_ingot");
 ieEngiPool.addItemEntryJSON(<thermalfoundation:material:128>, 10, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Copper Ingot");

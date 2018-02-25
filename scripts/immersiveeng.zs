@@ -214,6 +214,7 @@ mods.immersiveengineering.Squeezer.addRecipe(<forestry:wax_cast>, null, <harvest
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 80, <ore:grassSeed>, 200);
 mods.immersiveengineering.Squeezer.addRecipe(<randomthings:compressedslimeblock>, null, <minecraft:slime>, 2000);
 mods.immersiveengineering.Squeezer.addRecipe(<calculator:largetanzanite>, null, <silentgems:gemblockdark:10>, 2000);
+mods.immersiveengineering.Squeezer.addRecipe(<calculator:largeamethyst>, null, <silentgems:gemblock:11>, 2000);
 
 /*=========================
 Refinery
