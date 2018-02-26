@@ -1,5 +1,8 @@
 2.6.0
 ----------
+Added rewards to new beginnings and discovering magic
+Redid farmville quest chapter
+Added some lore quest to farming chapter
 Added recipes for turning silents tanzanite/amethyst blocks into large tanzanite/amethyst from calc
 Added recipe for niter in AA crusher
 Added wood pulp from forestry to saw dust oredict (used in phyto-gro)
@@ -9,9 +12,9 @@ Increase silcon from vodka + sand, added silcon recipe for centrifuging nether q
 Added loot chest to subway stations with rail themed loot
 Added mana pool recipe for processing osmatic steel (removes steel tech gate from botania)
 Skystone blocks will now transform into osmatic steel ore with a bit of startlight encouragment
-Redid farmville quest chapter
-Added rewards to first chapter
+Evilcraft book can now join its book friends in the bookcase and akashik tome
 ~update LC in twitch
+~update jei in twitch
 ~update fastcraft
 
 2.5.0
@@ -26,7 +29,7 @@ Added alt recipe for hardened fluiduct
 Increased rate of glowstone clathrate in the nether
 Turned down rustic slate world gen
 Made survivalist gens a bit cheaper
-Fixed storage tablet not accepting upgrades
+Fixed storage tablet not accepting upgradese
 Changed botania quest to not consume runes
 Made tungsten chunks easier to wash in mana pool
 Added vodka/neutral spirit to burnable fuel in advanced gen

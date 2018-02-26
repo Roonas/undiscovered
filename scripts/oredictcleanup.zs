@@ -47,7 +47,10 @@ val metalOres = [
     ] as IOreDictEntry[];
 
 */
+
 //All metal dusts/ore types should smelt into the thermal ingot, reducing redundant ingot types
+
+//ALUMINIUM
 furnace.remove(<*>, <ore:dustAluminium>);
 furnace.remove(<*>, <thermalfoundation:ore:4>);
 furnace.remove(<*>, <magneticraft:rocky_chunks:7>);
@@ -60,12 +63,15 @@ furnace.addRecipe(<thermalfoundation:material:132>, <magneticraft:rocky_chunks:7
 furnace.addRecipe(<thermalfoundation:material:132>, <magneticraft:chunks:7>, 2);
 furnace.addRecipe(<thermalfoundation:material:132>, <magneticraft:dusts:7>, 2);
 
+//BRONZE
 furnace.remove(<*>, <ore:dustBronze>);
 furnace.addRecipe(<thermalfoundation:material:163>, <ore:dustBronze>, 2);
 
+//CONSTANTAN
 furnace.remove(<*>, <ore:dustConstantan>);
 furnace.addRecipe(<immersiveengineering:metal:6>, <ore:dustConstantan>, 2);
 
+//COPPER
 furnace.remove(<*>, <ore:dustCopper>);
 furnace.remove(<*>, <mekanism:oreblock:1>);
 furnace.remove(<*>, <forestry:resources:1>);
@@ -84,12 +90,15 @@ furnace.addRecipe(<contenttweaker:copperslag>, <immersiveengineering:ore>, 2);
 furnace.addRecipe(<contenttweaker:copperslag>, <magneticraft:ores>, 2);
 furnace.addRecipe(<contenttweaker:copperslag>, <thermalfoundation:ore>, 2);
 
+//ELECTRUM
 furnace.remove(<*>, <ore:dustElectrum>);
 furnace.addRecipe(<immersiveengineering:metal:7>, <ore:dustElectrum>, 2);
 
+//INVAR
 furnace.remove(<*>, <ore:dustInvar>);
 furnace.addRecipe(<thermalfoundation:material:162>, <ore:dustInvar>, 2);
 
+//LEAD
 furnace.remove(<*>, <ore:dustLead>);
 furnace.remove(<*>, <immersiveengineering:ore:2>);
 furnace.remove(<*>, <magneticraft:ores:1>);
@@ -103,6 +112,7 @@ furnace.addRecipe(<thermalfoundation:material:131>, <magneticraft:rocky_chunks:3
 furnace.addRecipe(<thermalfoundation:material:131>, <magneticraft:chunks:3>, 2);
 furnace.addRecipe(<thermalfoundation:material:131>, <magneticraft:dusts:3>, 2);
 
+//NICKEL
 furnace.remove(<*>, <ore:dustNickel>);
 furnace.remove(<*>, <immersiveengineering:ore:4>);
 furnace.remove(<*>, <magneticraft:rocky_chunks:10>);
@@ -114,6 +124,7 @@ furnace.addRecipe(<thermalfoundation:material:133>, <magneticraft:rocky_chunks:1
 furnace.addRecipe(<thermalfoundation:material:133>, <magneticraft:chunks:10>, 2);
 furnace.addRecipe(<thermalfoundation:material:133>, <magneticraft:dusts:10>, 2);
 
+//SILVER
 furnace.remove(<*>, <ore:dustSilver>);
 furnace.remove(<*>, <immersiveengineering:ore:3>);
 furnace.remove(<*>, <magneticraft:rocky_chunks:12>);
@@ -125,11 +136,13 @@ furnace.addRecipe(<thermalfoundation:material:130>, <magneticraft:rocky_chunks:1
 furnace.addRecipe(<thermalfoundation:material:130>, <magneticraft:chunks:12>, 2);
 furnace.addRecipe(<thermalfoundation:material:130>, <magneticraft:dusts:12>, 2);
 
+//STEEL
 furnace.remove(<*>, <ore:dustSteel>);
 furnace.remove(<*>, <magneticraft:dusts:6>);
 furnace.addRecipe(<immersiveengineering:metal:8>, <ore:dustSteel>, 2);
 furnace.addRecipe(<immersiveengineering:metal:8>, <magneticraft:dusts:6>, 2);
 
+//TIN
 furnace.remove(<*>, <ore:dustTin>);
 furnace.remove(<*>, <forestry:resources:2>);
 furnace.remove(<*>, <thermalfoundation:ore:1>);
@@ -145,6 +158,7 @@ furnace.addRecipe(<thermalfoundation:material:129>, <magneticraft:rocky_chunks:1
 furnace.addRecipe(<thermalfoundation:material:129>, <magneticraft:chunks:13>, 2);
 furnace.addRecipe(<thermalfoundation:material:129>, <magneticraft:dusts:13>, 2);
 
+//OSMIUM
 furnace.remove(<*>, <magneticraft:rocky_chunks:11>);
 furnace.remove(<*>, <magneticraft:chunks:11>);
 furnace.remove(<*>, <magneticraft:dusts:11>);
@@ -180,3 +194,33 @@ furnace.addRecipe(<mekanism:ingot:1>, <magneticraft:dusts:11>, 2);
 <ore:dustWood>.add(<forestry:wood_pulp>);
 <ore:silentGem>.add(<silentgems:gem:*>);
 <ore:spinnyBoi>.add(<extendedcrafting:singularity:*>);
+<ore:homeCharm>.add(<silentgems:returnhomecharm:*>);
+
+
+
+
+
+recipes.removeShaped(<mekanism:ingot:5>, [
+    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>],
+    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>], 
+    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]
+    ]);
+
+recipes.remove(<mekanism:nugget:5>);
+
+recipes.remove(<mekanism:ingot:5>);
+
+recipes.addShaped(<thermalfoundation:material:128>, [
+    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>],
+    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>], 
+    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]
+    ]);
+recipes.addShaped(<thermalfoundation:material:128>, [
+    [<mekanism:nugget:5>, <mekanism:nugget:5>, <mekanism:nugget:5>],
+    [<mekanism:nugget:5>, <mekanism:nugget:5>, <mekanism:nugget:5>], 
+    [<mekanism:nugget:5>, <mekanism:nugget:5>, <mekanism:nugget:5>]
+    ]);
+
+recipes.addShapeless(<thermalfoundation:material:128> * 9, [
+    <thermalfoundation:storage>
+    ]);

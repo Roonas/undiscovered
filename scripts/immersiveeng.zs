@@ -171,6 +171,11 @@ recipes.addShaped("cloche", <immersiveengineering:metal_device1:13>, [
     [<immersiveengineering:treated_wood>, <immersiveengineering:material:9>, <immersiveengineering:treated_wood>]
     ]);
 
+recipes.addShaped(<immersiveengineering:metal_decoration2:5> * 3, [
+    [<ore:plateTin>, <ore:wireAluminum>, <ore:plateTin>],
+    [<ore:wireAluminum>, <ore:wireAluminum>, <ore:wireAluminum>], 
+    [<ore:plateTin>, <ore:wireAluminum>, <ore:plateTin>]
+    ]);
 
 
 /*=========================

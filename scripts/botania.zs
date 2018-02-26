@@ -75,6 +75,16 @@ recipes.addShaped("elf portal core3", <botania:alfheimportal>, [
     [<ore:livingwood>, <evilcraft:biome_extract:1>.withTag({biomeKey: "minecraft:birch_forest"}), <ore:livingwood>], 
     [<ore:livingwood>, <ore:ingotTerrasteel>, <ore:livingwood>]
     ]);
+recipes.addShaped("elf portal core4", <botania:alfheimportal>, [
+    [<ore:livingwood>, <ore:ingotTerrasteel>, <ore:livingwood>], 
+    [<ore:livingwood>, <evilcraft:biome_extract:1>.withTag({biomeKey: "traverse:temperate_rainforest"}), <ore:livingwood>], 
+    [<ore:livingwood>, <ore:ingotTerrasteel>, <ore:livingwood>]
+    ]);
+recipes.addShaped("elf portal core5", <botania:alfheimportal>, [
+    [<ore:livingwood>, <ore:ingotTerrasteel>, <ore:livingwood>], 
+    [<ore:livingwood>, <evilcraft:biome_extract:1>.withTag({biomeKey: "minecraft:forest"}), <ore:livingwood>], 
+    [<ore:livingwood>, <ore:ingotTerrasteel>, <ore:livingwood>]
+    ]);
 
 recipes.remove(<botania:livingwood:5>);
 recipes.addShapeless("glimering living wood", <botania:livingwood:5>, [

@@ -109,6 +109,9 @@ val hiddenItems = [
         <thermalfoundation:material:161>
     ] as IItemStack[];
 
+
+//Removed items from the redstone furnace and exu crusher show they show up less in JEI
+
 for oreEntry in metalOres{
     for item in oreEntry.items{
         mods.thermalexpansion.RedstoneFurnace.removeRecipe(item);
@@ -134,7 +137,7 @@ for toometa in 9 to 15{
     mods.thermalexpansion.RedstoneFurnace.removeRecipe(metalChunksRocky.makeStack(toometa));
 }
 
-//Hide non-prefered ingots from jei
+//Hide non-prefered ingots/ores from jei
 for item in hiddenItems{
     mods.jei.JEI.hide(item);
 }      

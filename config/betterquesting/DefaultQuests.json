@@ -2803,7 +2803,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Water Junk",
-          "desc": "Many useful items can be strained out of these rivers, including valuable metal scraps."
+          "desc": "Many useful items can be strained out of these rivers, including valuable metal scraps. These strainers can be emptied by placing a hopper underneath."
         }
       },
       "tasks": [
@@ -5164,7 +5164,7 @@
       "rewards": [],
       "preRequisites": [
         234,
-        333
+        338
       ],
       "questID": 89
     },
@@ -5633,7 +5633,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        333
+        338
       ],
       "questID": 94
     },
@@ -5707,7 +5707,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        328
+        341
       ],
       "questID": 95
     },
@@ -6001,7 +6001,7 @@
       "rewards": [],
       "preRequisites": [
         234,
-        333
+        338
       ],
       "questID": 100
     },
@@ -8869,7 +8869,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Bloody Crafting",
-          "desc": "No Description"
+          "desc": "Retains the blood of living creature slain while in the users inventory. "
         }
       },
       "tasks": [
@@ -8897,7 +8897,62 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "xreliquary:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "effects:9": {
+                  "10": {
+                    "duration:3": 1750,
+                    "potency:3": 0,
+                    "name:8": "minecraft:speed"
+                  }
+                },
+                "hasPotion:1": 1
+              }
+            },
+            {
+              "id": "xreliquary:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "effects:9": {
+                  "10": {
+                    "duration:3": 2250,
+                    "potency:3": 1,
+                    "name:8": "minecraft:resistance"
+                  }
+                },
+                "hasPotion:1": 1
+              }
+            },
+            {
+              "id": "xreliquary:potion",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "effects:9": {
+                  "10": {
+                    "duration:3": 1500,
+                    "potency:3": 1,
+                    "name:8": "minecraft:strength"
+                  }
+                },
+                "hasPotion:1": 1
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         234,
         292
@@ -8948,7 +9003,32 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "psi:cad_colorizer_",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "psi:cad_colorizer_",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11
+            },
+            {
+              "id": "psi:cad_colorizer_",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         234
       ],
@@ -8998,7 +9078,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:redstone_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:gold_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         262
       ],
@@ -9048,7 +9147,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "astralsorcery:itemcraftingcomponent",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         234
       ],
@@ -9098,7 +9210,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:flowerbag",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         301
       ],
@@ -9148,7 +9273,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "astralsorcery:blockcustomore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         297
       ],
@@ -9211,7 +9349,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "randomthings:beans",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         261,
         265
@@ -9262,7 +9413,40 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:skull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "SkullOwner:10": {
+                  "Id:8": "a0b127a8-4650-431e-b138-055720084ffd",
+                  "Properties:10": {
+                    "textures:9": {
+                      "10": {
+                        "Signature:8": "yBq6vS0cWx0SH9jFXK/Vhu9W8P0KkGPGaI6/gd5ppzLqJF6YOx6mySWQauQ7Kd2+R647Oy5qJ+ZiVXUvFHv8fMSKfqRQBJ/7dIS95SwYfm5Ij7H/hVs9eZ88NuSC7Yg/jKrZO0cDjPEBY59TlslOLbAGae8Lj39rhouXcXRogN1GHf00LkorU27LwVKg9W+sPblP56SVCD6svXkFF57sEdADGxGE2An826PGT4Vx9qB0mHjPds9i0SFKw88ZX/argq0wANQ1VfrYgTzRhXlFlHKNeoZ93PYUnlN6Pcks38YtHfO7MSBGw/7HfEEBZARkx54CYtL4l/3lORZppo8LsyKZZ81ZfXSL+FBII7fTE18hIkMFd0FDL9utN545n4UI5lMQQ8T0njYn251Ry5PIzkCsFmlynWiZH+j8+ufrfrzgvy1QugDEDvGdMxhfb1mJWsKUInlWry18f/swr9QcEhBnic5ulXwXabrjYycYKUPwYAvwnXjLzvypuK3Yzkz6oVBlbJ6Pot/kr/VfNLfRBQlvrP8GlfQLImZ0jXZF0EGNd9bIpmKzMALlvC+N/i58lm7BTnOWKqLfLjXfaIEvIK4OZ8Jh6/r0TW/FTE/f7dUfbdS2ez0KJFYPlBXfe/snRUgHhxkVlk0mSgm1s49b7VDSK+oOC2Q2wquCM/Oupg0\u003d",
+                        "Value:8": "eyJ0aW1lc3RhbXAiOjE1MTk1OTEzNzg4NTMsInByb2ZpbGVJZCI6ImEwYjEyN2E4NDY1MDQzMWViMTM4MDU1NzIwMDg0ZmZkIiwicHJvZmlsZU5hbWUiOiJTdXBlcl9GbHVrZSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNhZmM0MTQ0NGUzMzA0NTg5M2ExOTJiYTJjNTIyOWM5YzgyYzQ3MmQ3OGI3N2YzYjc0MTgwNjg3YzVjMmQifX19"
+                      }
+                    }
+                  },
+                  "Name:8": "Super_Fluke"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         256
       ],
@@ -9362,7 +9546,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "botania:spreader",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "botania:pool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         311
       ],
@@ -9414,7 +9617,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "evilcraft:blood_potash",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "evilcraft:blood_waxed_coal",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         296
       ],
@@ -9531,7 +9753,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "randomthings:lapislamp",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "evilcraft:gem_stone_torch",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         259
       ],
@@ -14338,7 +14579,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "evilcraft:dark_block",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
       "preRequisites": [
         160
       ],
@@ -14410,7 +14664,56 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "silentgems:enchantmenttoken",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "TokenEnchantments:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "name:8": "astralsorcery:enchantment.as.nightvision"
+                  }
+                }
+              }
+            },
+            {
+              "id": "silentgems:enchantmenttoken",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "TokenEnchantments:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "name:8": "cofhcore:holding"
+                  }
+                }
+              }
+            },
+            {
+              "id": "silentgems:enchantmenttoken",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "TokenEnchantments:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "name:8": "minecraft:mending"
+                  }
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         157
       ],
@@ -14519,7 +14822,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:diamond_ore",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:iron_ore",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         273
       ],
@@ -14617,7 +14939,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:redstone",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         293
       ],
@@ -14673,7 +15008,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "rftools:sensor_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "randomthings:blockbreaker",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         152
       ],
@@ -14723,7 +15077,21 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "psi:spell_drive",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         314
       ],
@@ -14773,7 +15141,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "evilcraft:dark_gem_crushed",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "evilcraft:condensed_blood",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         294
       ],
@@ -14823,7 +15210,32 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "extratrees:logs.fireproof.7",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "extratrees:logs.fireproof.6",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "forestry:logs.fireproof.2",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         250
       ],
@@ -14873,7 +15285,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:distributor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         250
       ],
@@ -14937,7 +15362,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:monocle",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         253
       ],
@@ -14987,7 +15425,32 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:pecan_sapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:peppercorn_sapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:lime_sapling",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         158,
         302
@@ -15038,7 +15501,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "evilcraft:promise",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "evilcraft:promise",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         259
       ],
@@ -15088,7 +15570,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "randomthings:stableenderpearl",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "contenttweaker:osmaticsteel",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         158
       ],
@@ -15156,7 +15657,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:starfruitjellysandwichitem",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         247
       ],
@@ -15206,7 +15720,28 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "botania:lens",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10,
+              "tag": {}
+            },
+            {
+              "id": "botania:lens",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7,
+              "tag": {}
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         254
       ],
@@ -15256,7 +15791,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "xreliquary:holy_hand_grenade",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         256
       ],
@@ -15356,7 +15904,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "evilcraft:invigorating_pendant",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "evilcraftblood",
+                  "Amount:3": 5000
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         150
       ],
@@ -15412,7 +15979,23 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:manatablet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "mana:3": 500000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         257
       ],
@@ -15462,7 +16045,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:diamond_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         271
       ],
@@ -15512,7 +16108,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "forestry:can",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "astralsorcery.liquidstarlight",
+                  "Amount:3": 1000
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         261
       ],
@@ -15562,7 +16177,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "evilcraft:condensed_blood",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "evilcraft:effortless_ring",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         265
       ],
@@ -15612,7 +16246,23 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "evilcraft:dark_tank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "capacity:3": 144000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         257
       ],
@@ -15680,7 +16330,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "randomthings:spectreshovel",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         151
       ],
@@ -15796,7 +16459,23 @@
           "index": 3
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "manastar"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         260
       ],
@@ -15846,7 +16525,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "psi:cad_socket",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            },
+            {
+              "id": "psi:cad_colorizer_",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 16
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         245
       ],
@@ -15910,7 +16608,20 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "astralsorcery:blockmarble",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         295
       ],
@@ -16672,7 +17383,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "psi:spell_bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "psi:spell_bullet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         251
       ],
@@ -16728,7 +17458,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "akashictome:tome",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         234
       ],
@@ -16762,7 +17505,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Expanding Supply",
-          "desc": "The capacity of the blood extractor can be increased by combining the blood extractor with a dark tank or another blood extractor."
+          "desc": "The capacity of the blood extractor can be increased by combining the blood extractor with a dark tank or another blood extractor. A Dark Tank\u0027s capacity can also be expanded in a similar way. By combining two tanks together, the capacity of both tanks will be combined."
         }
       },
       "tasks": [
@@ -16790,7 +17533,23 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "evilcraft:dark_tank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "capacity:3": 16000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         294
       ],
@@ -16846,7 +17605,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "astralsorcery:itemusabledust",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "astralsorcery:itemusabledust",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         272
       ],
@@ -16902,7 +17680,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "silentgems:craftingmaterial",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "minecraft:end_crystal",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         271
       ],
@@ -17216,7 +18013,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "mob_grinding_utils:fan_upgrade",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "extrautils2:ineffableglass",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         296
       ],
@@ -17303,7 +18119,23 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:specialflower",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "hydroangeas"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         299
       ],
@@ -18483,6 +19315,69 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
+          "tasklogic": "OR",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "contenttweaker:bundle_of_sticks",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Buring the Junk",
+          "desc": "With so many sticks clogging up the strainers, it might be helpful to combine them into bundles for easy fuel."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "contenttweaker:bundle_of_sticks",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:log",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        53
+      ],
+      "questID": 325
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
           "tasklogic": "AND",
           "repeattime": -1,
           "simultaneous": false,
@@ -18659,7 +19554,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        326
+        340
       ],
       "questID": 328
     },
@@ -18727,7 +19622,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        328
+        342
       ],
       "questID": 329
     },
@@ -19198,6 +20093,344 @@
         89
       ],
       "questID": 335
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:apple",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "One Fruit, Many Foods",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:applecideritem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:applesmoothieitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:applejellyitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:applejuiceitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:applesauceitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        91
+      ],
+      "questID": 336
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "rustic:bee",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Not the Bees",
+          "desc": "No Description"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "rustic:bee",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "rustic:apiary",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "harvestcraft:queenbeeitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:apiary",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        339
+      ],
+      "questID": 337
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Miss Martha’s Guidebook #1",
+          "desc": "Miss Martha’s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Animals \n \nAnimals smell Bad.  The sooner you can Not Touch Them Ever, the better.  One simple method is to make a special jar, trap a cow on top of it and then drop an anvil on its nasty head.  So much cleaner now! More heavily automated options are even better because you can lock the filthy animals underground and never let them see the light of day ever again.  Fabulous!"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        333
+      ],
+      "questID": 338
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Miss Martha’s Guidebook #2",
+          "desc": "Miss Martha’s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Bees \n \nThe health and beauty benefits of honey are well known, so I don’t have to tell you that!  But there are so many options it can be bewildering for the discerning consumer.  Today we are going to do a quick review and comparison of the options available on this godforsaken wasteland.  The simple Rustic bees are clearly native; they have very high production and boost the growth of nearby plants.  The more elusive Pams honey bees produce much slower, but are great for food and candles… and I’m sure this royal jelly will have cosmetic properties.  Then there are the diverse and mysterious (and painful) bees that seem to vary by biome.  Slow and troublesome, they do show promise in the long run."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        327
+      ],
+      "questID": 339
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Miss Martha’s Guidebook #3",
+          "desc": "Miss Martha’s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Cooking \n \nThe newest and fastest growing trend in cooking is… old and slow! Slowly braising wild caught ingredients in clay crockery, frying an egg on a heated ceramic disc by a wood fire, adding a touch of smoke and depth.  A rustic, hand-pressed juice… \n\nWho are we kidding. I just beat two rocks together and licked up what squirts out .  I hate my life."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        326
+      ],
+      "questID": 340
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Miss Martha’s Guidebook #4",
+          "desc": "Miss Martha’s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Kitchen \n \nWhen laying out a kitchen, it is important that not only is the space fuctional and well organized, but also well lit and decorated! A well palced window for natural light and some attractive framed art of a dead chicken or other hunting trophy add color and flair.  If nothing else is available, perhaps a potato print… of the poisonous variety."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        328
+      ],
+      "questID": 341
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Miss Martha’s Guidebook #5",
+          "desc": "Miss Martha’s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Balanced Diet \n \nHave you been eating too much steak and baked potatoes?  Is your waistline growing, along with your bathroom time? Time to vary that diet, get some fiber, and stay Heart Smart!For every 25 unique foods you eat, your heart will grow a little stronger and beat a little harder, letting you fight, mine, or love for just a little bit longer each day.  So get off that fat ass and start varying your diet."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        328
+      ],
+      "questID": 342
     }
   ],
   "questLines": [
@@ -19214,14 +20447,20 @@
         {
           "size": 24,
           "x": 48,
-          "y": 84,
+          "y": 54,
           "id": 322
         },
         {
           "size": 24,
-          "x": 48,
-          "y": 54,
+          "x": 18,
+          "y": 24,
           "id": 323
+        },
+        {
+          "size": 24,
+          "x": 48,
+          "y": 84,
+          "id": 325
         },
         {
           "size": 24,
@@ -19826,13 +21065,13 @@
         {
           "size": 24,
           "x": 96,
-          "y": 96,
+          "y": 132,
           "id": 328
         },
         {
           "size": 24,
-          "x": 96,
-          "y": 132,
+          "x": 60,
+          "y": 204,
           "id": 329
         },
         {
@@ -19870,6 +21109,48 @@
           "x": 240,
           "y": 132,
           "id": 335
+        },
+        {
+          "size": 24,
+          "x": 168,
+          "y": 168,
+          "id": 336
+        },
+        {
+          "size": 24,
+          "x": 168,
+          "y": 96,
+          "id": 337
+        },
+        {
+          "size": 24,
+          "x": 204,
+          "y": 60,
+          "id": 338
+        },
+        {
+          "size": 24,
+          "x": 168,
+          "y": 60,
+          "id": 339
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 96,
+          "id": 340
+        },
+        {
+          "size": 24,
+          "x": 60,
+          "y": 132,
+          "id": 341
+        },
+        {
+          "size": 24,
+          "x": 96,
+          "y": 168,
+          "id": 342
         },
         {
           "size": 24,
@@ -19922,7 +21203,7 @@
         {
           "size": 24,
           "x": 60,
-          "y": 132,
+          "y": 168,
           "id": 95
         },
         {
@@ -19951,8 +21232,8 @@
         },
         {
           "size": 24,
-          "x": 168,
-          "y": 96,
+          "x": 240,
+          "y": 24,
           "id": 100
         }
       ],

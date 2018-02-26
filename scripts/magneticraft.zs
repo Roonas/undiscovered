@@ -58,6 +58,13 @@ recipes.addShapeless(<magneticraft:guide_book>, [
     <minecraft:book>, <minecraft:redstone>
     ]);
 
+recipes.remove(<magneticraft:copper_tank>);
+recipes.addShaped(<magneticraft:copper_tank>, [
+    [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
+    [<ore:blockGlass>, null, <ore:blockGlass>], 
+    [<ore:blockGlass>, <ore:plateCopper>, <ore:blockGlass>]
+    ]);
+
 /*=========================
 Crushing Table
 =========================*/

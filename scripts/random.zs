@@ -10,6 +10,7 @@ mods.jei.JEI.addDescription(<forestry:peat>, "Created by letting bog earth soak 
 mods.jei.JEI.addDescription(<liquid:gasoline>, "Created by processing oil in an Immersive Petroleum distillation tower");
 mods.jei.JEI.addDescription(<liquid:lubricant>, "Created by processing oil in an Immersive Petroleum distillation tower");
 mods.jei.JEI.addDescription(<liquid:diesel>, "Created by processing oil in an Immersive Petroleum distillation tower");
+mods.jei.JEI.addDescription(<akashictome:tome>, "Can hold many different books and journals together when combined in a crafting grid. Right click to morph book, left click to revert held book back to tome.");
 mods.jei.JEI.hide(<contenttweaker:mthand>);
 
 
