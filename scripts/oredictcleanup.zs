@@ -1,6 +1,12 @@
 #priority 10
 
-/*Can't we all just get along?
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+
+/*
+Can't we all just get along?
 Aluminum blocks:
 [<thermalfoundation:storage:4>, <immersiveengineering:storage:1>]
 Bronze block:
@@ -47,6 +53,114 @@ val metalOres = [
     ] as IOreDictEntry[];
 
 */
+
+
+//Removes and re-adds recipes for nugget-ingot-block conversions so all recipes craft to the same prefered type regarless of what mod the input item is from 
+
+function metalRecipeFix(
+    oredictBlock  as IOreDictEntry,
+    oredictIngot  as IOreDictEntry,
+    oredictNugget as IOreDictEntry,
+    preferedBlock as IItemStack,
+    preferedIngot as IItemStack,
+    preferedNugget as IItemStack
+    ){
+        for metalBlock in oredictBlock.items {
+            //Fix block to ingot recipes
+            recipes.removeShaped(metalBlock);
+            recipes.removeShapeless(metalBlock);
+
+            recipes.addShapeless(preferedIngot * 9, [
+                metalBlock
+                ]);
+        }
+        for metalIngot in oredictIngot.items {
+            //Fix ingot to block and ingot to nugget recipes
+            recipes.removeShaped(metalIngot * 9);
+            recipes.removeShapeless(metalIngot * 9);
+            recipes.removeShaped(metalIngot);
+            recipes.removeShapeless(metalIngot);
+
+            recipes.addShapeless(preferedNugget * 9, [
+                metalIngot
+                ]);
+            recipes.addShapeless(preferedBlock, [
+                metalIngot, metalIngot, metalIngot,
+                metalIngot, metalIngot, metalIngot,
+                metalIngot, metalIngot, metalIngot
+                ]);
+        }
+        for metalNugget in oredictNugget.items {
+            //Fix nugget to ingot recipes
+            recipes.removeShaped(metalNugget * 9);
+            recipes.removeShapeless(metalNugget * 9);
+
+            recipes.addShapeless(preferedIngot, [
+                metalNugget, metalNugget, metalNugget,
+                metalNugget, metalNugget, metalNugget,
+                metalNugget, metalNugget, metalNugget
+                ]);
+        }
+
+        //Backup oredict ingot to block and nugget to ingot recipes for if a player tries to combine various mod ingots
+        recipes.addShapeless(preferedBlock, [
+                oredictIngot, oredictIngot, oredictIngot,
+                oredictIngot, oredictIngot, oredictIngot,
+                oredictIngot, oredictIngot, oredictIngot
+                ]);
+        recipes.addShapeless(preferedIngot, [
+                oredictNugget, oredictNugget, oredictNugget,
+                oredictNugget, oredictNugget, oredictNugget,
+                oredictNugget, oredictNugget, oredictNugget
+                ]);
+}
+
+
+metalRecipeFix(
+    <ore:blockCopper>, <ore:ingotCopper>, <ore:nuggetCopper>,
+    <thermalfoundation:storage>, <thermalfoundation:material:128>, <thermalfoundation:material:192>
+    );
+metalRecipeFix(
+    <ore:blockTin>, <ore:ingotTin>, <ore:nuggetTin>,
+    <thermalfoundation:storage:1>, <thermalfoundation:material:129>, <thermalfoundation:material:193>
+    );
+metalRecipeFix(
+    <ore:blockSilver>, <ore:ingotSilver>, <ore:nuggetSilver>,
+    <thermalfoundation:storage:2>, <thermalfoundation:material:130>, <thermalfoundation:material:194>
+    );
+metalRecipeFix(
+    <ore:blockLead>, <ore:ingotLead>, <ore:nuggetLead>,
+    <thermalfoundation:storage:3>, <thermalfoundation:material:131>, <thermalfoundation:material:195>
+    );
+metalRecipeFix(
+    <ore:blockAluminum>, <ore:ingotAluminum>, <ore:nuggetAluminum>,
+    <thermalfoundation:storage:4>, <thermalfoundation:material:132>, <thermalfoundation:material:196>
+    );
+metalRecipeFix(
+    <ore:blockNickel>, <ore:ingotNickel>, <ore:nuggetNickel>,
+    <thermalfoundation:storage:5>, <thermalfoundation:material:133>, <thermalfoundation:material:197>
+    );
+metalRecipeFix(
+    <ore:blockSteel>, <ore:ingotSteel>, <ore:nuggetSteel>,
+    <immersiveengineering:storage:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:28>
+    );
+metalRecipeFix(
+    <ore:blockElectrum>, <ore:ingotElectrum>, <ore:nuggetElectrum>,
+    <immersiveengineering:storage:7>, <immersiveengineering:metal:7>, <immersiveengineering:metal:27>
+    );
+metalRecipeFix(
+    <ore:blockConstantan>, <ore:ingotConstantan>, <ore:nuggetConstantan>,
+    <immersiveengineering:storage:6>, <immersiveengineering:metal:6>, <immersiveengineering:metal:26>
+    );
+metalRecipeFix(
+    <ore:blockBronze>, <ore:ingotBronze>, <ore:nuggetBronze>,
+    <thermalfoundation:storage_alloy:3>, <thermalfoundation:material:163>, <thermalfoundation:material:227>
+    );
+metalRecipeFix(
+    <ore:blockBronze>, <ore:ingotBronze>, <ore:nuggetBronze>,
+    <thermalfoundation:storage_alloy:3>, <thermalfoundation:material:163>, <thermalfoundation:material:227>
+    );
+
 
 //All metal dusts/ore types should smelt into the thermal ingot, reducing redundant ingot types
 
@@ -167,6 +281,7 @@ furnace.addRecipe(<mekanism:ingot:1>, <magneticraft:chunks:11>, 2);
 furnace.addRecipe(<mekanism:ingot:1>, <magneticraft:dusts:11>, 2);
 
 
+
 //will hopefully remove various unused ores from auto ore methods
 <ore:oreCopper>.remove(<mekanism:oreblock:1>);
 <ore:oreCopper>.remove(<immersiveengineering:ore>);
@@ -195,32 +310,3 @@ furnace.addRecipe(<mekanism:ingot:1>, <magneticraft:dusts:11>, 2);
 <ore:silentGem>.add(<silentgems:gem:*>);
 <ore:spinnyBoi>.add(<extendedcrafting:singularity:*>);
 <ore:homeCharm>.add(<silentgems:returnhomecharm:*>);
-
-
-
-
-
-recipes.removeShaped(<mekanism:ingot:5>, [
-    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>],
-    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>], 
-    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]
-    ]);
-
-recipes.remove(<mekanism:nugget:5>);
-
-recipes.remove(<mekanism:ingot:5>);
-
-recipes.addShaped(<thermalfoundation:material:128>, [
-    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>],
-    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>], 
-    [<ore:nuggetCopper>, <ore:nuggetCopper>, <ore:nuggetCopper>]
-    ]);
-recipes.addShaped(<thermalfoundation:material:128>, [
-    [<mekanism:nugget:5>, <mekanism:nugget:5>, <mekanism:nugget:5>],
-    [<mekanism:nugget:5>, <mekanism:nugget:5>, <mekanism:nugget:5>], 
-    [<mekanism:nugget:5>, <mekanism:nugget:5>, <mekanism:nugget:5>]
-    ]);
-
-recipes.addShapeless(<thermalfoundation:material:128> * 9, [
-    <thermalfoundation:storage>
-    ]);
