@@ -147,7 +147,8 @@ mods.actuallyadditions.Crusher.addRecipe(<forestry:honey_drop>, <rustic:honeycom
 Empowerer
 OutputStack, InputStack, Modifier1, Modifier2, Modifier3, Modifier4, EnergyPerStand, TimeInTicks
 =========================*/
-for toometa in 0 to 6 { //removes normal AA empowered crystal/block recipes
+//removes normal AA empowered crystal/block recipes
+for toometa in 0 to 6 { 
     mods.actuallyadditions.Empowerer.removeRecipe(empoweredItem.makeStack(toometa));
     mods.actuallyadditions.Empowerer.removeRecipe(empoweredBlock.makeStack(toometa));
 } 
@@ -158,6 +159,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empo
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:3>, <actuallyadditions:block_crystal:3>, <actuallyadditions:item_misc:22>, <immersivepetroleum:material>, <bigreactors:dustmetals:2>, <rustic:slate>, 30000, 500, [6,1,6]);
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:4>, <actuallyadditions:block_crystal:4>, <immersiveengineering:stone_decoration:8>, <thermalfoundation:fertilizer>, <randomthings:compressedslimeblock>, <harvestcraft:creepercookieitem>, 180000, 500, [6,1,6]);
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <sonarcore:reinforcedstoneblock>, <thermalfoundation:material:129>, <immersiveengineering:material:24>, <forestry:ash>, 50000, 500, [6,1,6]);
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:block_crystal_empowered:5>, <actuallyadditions:block_crystal:5>, <sonarcore:reinforcedstoneblock>, <thermalfoundation:material:129>, <thermalfoundation:material:772>, <forestry:ash>, 50000, 500, [6,1,6]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal>, <thermalfoundation:material:893>, <immersiveengineering:metal:6>, <extrautils2:ingredients:3>, <minecraft:nether_wart>, 8000, 50, [6,1,6]);
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal:1>, <stevescarts:modulecomponents:22>, <calculator:largetanzanite>, <randomthings:luminousstainedbrick:11>, <forestry:resource_storage>, 11000, 50, [6,1,6]);
@@ -165,7 +167,7 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empow
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal:3>, <actuallyadditions:item_misc:22>, <immersivepetroleum:material>, <bigreactors:dustmetals:2>, <rustic:slate>, 3000, 50, [6,1,6]);
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:4>, <actuallyadditions:item_crystal:4>, <immersiveengineering:stone_decoration:8>, <thermalfoundation:fertilizer>, <randomthings:compressedslimeblock>, <harvestcraft:creepercookieitem>, 18000, 50, [6,1,6]);
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, <sonarcore:reinforcedstoneblock>, <thermalfoundation:material:129>, <immersiveengineering:material:24>, <forestry:ash>, 5000, 50, [6,1,6]);
-
+mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered:5>, <actuallyadditions:item_crystal:5>, <sonarcore:reinforcedstoneblock>, <thermalfoundation:material:129>, <thermalfoundation:material:772>, <forestry:ash>, 5000, 50, [6,1,6]);
 
 mods.actuallyadditions.Empowerer.addRecipe(<contenttweaker:irradiated_iridium>, <thermalfoundation:ore:7>, <bigreactors:ingotmetals>, <actuallyadditions:item_crystal:4>, <randomthings:ingredient:7>, <extrautils2:magicapple>, 125000, 10, [0,0,1]);
 //mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal>, <evilcraft:blood_orb:1>, <calculator:firediamond>, <minecraft:apple>, <minecraft:red_nether_brick>, 125000, 10,[1,0,0]);

@@ -176,7 +176,87 @@ recipes.addShaped(<immersiveengineering:metal_decoration2:5> * 3, [
     [<ore:wireAluminum>, <ore:wireAluminum>, <ore:wireAluminum>], 
     [<ore:plateTin>, <ore:wireAluminum>, <ore:plateTin>]
     ]);
+/*
+recipes.removeShapeless(<immersiveengineering:sheetmetal>);
+recipes.addShapeless(<immersiveengineering:sheetmetal>, [
+    <thermalfoundation:material:320>
+    ]);
 
+recipes.removeShapeless(<immersiveengineering:sheetmetal:1>);
+recipes.addShapeless(<immersiveengineering:sheetmetal:1>, [
+    <thermalfoundation:material:324>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:sheetmetal:2>);
+recipes.addShapeless(<immersiveengineering:sheetmetal:2>, [
+    <thermalfoundation:material:323>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:sheetmetal:3>);
+recipes.addShapeless(<immersiveengineering:sheetmetal:3>, [
+    <thermalfoundation:material:322>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:sheetmetal:4>);
+recipes.addShapeless(<immersiveengineering:sheetmetal:4>, [
+    <thermalfoundation:material:325>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:sheetmetal:8>);
+recipes.addShapeless(<immersiveengineering:sheetmetal:8>, [
+    <thermalfoundation:material:352>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:sheetmetal:9>);
+recipes.addShapeless(<immersiveengineering:sheetmetal:9>, [
+    <thermalfoundation:material:32>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:sheetmetal:10>);
+recipes.addShapeless(<immersiveengineering:sheetmetal:10>, [
+    <thermalfoundation:material:33>
+    ]);
+*/
+
+recipes.removeShapeless(<immersiveengineering:metal:30>);
+recipes.addShapeless(<thermalfoundation:material:320>, [
+    <immersiveengineering:sheetmetal>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:metal:31>);
+recipes.addShapeless(<thermalfoundation:material:324>, [
+    <immersiveengineering:sheetmetal:1>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:metal:32>);
+recipes.addShapeless(<thermalfoundation:material:323>, [
+    <immersiveengineering:sheetmetal:2>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:metal:33>);
+recipes.addShapeless(<thermalfoundation:material:322>, [
+    <immersiveengineering:sheetmetal:3>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:metal:34>);
+recipes.addShapeless(<thermalfoundation:material:325>, [
+    <immersiveengineering:sheetmetal:4>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:metal:38>);
+recipes.addShapeless(<thermalfoundation:material:352>, [
+    <immersiveengineering:sheetmetal:8>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:metal:39>);
+recipes.addShapeless(<thermalfoundation:material:32>, [
+    <immersiveengineering:sheetmetal:9>
+    ]);
+
+recipes.removeShapeless(<immersiveengineering:metal:40>);
+recipes.addShapeless(<thermalfoundation:material:33>, [
+    <immersiveengineering:sheetmetal:10>
+    ]);
 
 /*=========================
 Bottling Machine

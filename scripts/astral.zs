@@ -34,7 +34,7 @@ Light Well
 mods.astralsorcery.Lightwell.addLiquefaction(silverIngot, <liquid:silver>, 0.7, 12, 0);
 mods.astralsorcery.Lightwell.addLiquefaction(platinumIngot, <liquid:platinum>, 0.7, 12, 0);
 mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:irradiated_iridium>, <liquid:iridium>, 0.7, 12, 0);
-mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:rotten_pot_block>, <liquid:binnie.vodka>, 0.55, 10, 599919);
+mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:rotten_pot_block>, <liquid:binnie.vodka>, 0.50, 10, 599919);
 mods.astralsorcery.Lightwell.addLiquefaction(<thermalfoundation:material:892>, <liquid:sludge>, 0.7, 8, 0);
     
 /*=========================

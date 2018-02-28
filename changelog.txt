@@ -1,6 +1,6 @@
 2.6.0
 ----------
-Added rewards to new beginnings and discovering magic
+Added rewards to new beginnings, discovering magic, and 
 Redid farmville quest chapter
 Added some lore quest to farming chapter
 Added recipes for turning silents tanzanite/amethyst blocks into large tanzanite/amethyst from calc
@@ -13,6 +13,9 @@ Added loot chest to subway stations with rail themed loot
 Added mana pool recipe for processing osmatic steel (removes steel tech gate from botania)
 Skystone blocks will now transform into osmatic steel ore with a bit of startlight encouragment
 Evilcraft book can now join its book friends in the bookcase and akashik tome
+Metal blocks/ingots/nuggets should now all break down and reform into one type (continuing my insane unification journey)
+Empowered enori now accecpts niter in addition to nitrate
+IE Sheetmetal now breaks down into TE plates 
 ~update LC in twitch
 ~update jei in twitch
 ~update fastcraft
