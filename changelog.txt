@@ -1,6 +1,49 @@
+2.7.0
+----------
+
+Mod Updates (needs testing):
+-Forge 14.23.2.2611
+-Actually Additions
+-Apple Core
+-Bookshelf
+-Brandon's Core
+-Calculator (needs i/o tested)
+-Chisel
+-Comforts
+-Corail Tombstone
+-Craft Tweaker
+-Dark Utils
+-Draconic Evolution
+-Extended Crafting
+-Extra Utilities
+-Immersive Engineering (Test wires damage/ insulated recipes/ new configs. Check Mixer 1:1 in CT script)
+-Industrial Foregoing
+-Iron Chests (check upgrade recipes)
+-JEHC
+-JEI
+-Magneticraft (New machines ginder, sieve, wind turbine, solar. sluice box CT api changed)
+-McJtyLib
+-ModTweaker
+-MTLib
+-p455w0rd's Library
+-Placebo
+-Reborn Core
+-Reliquary
+-RFTools
+-RFTools Dimensions
+-Rustic
+-Sonar Core
+-Steve's Carts
+-Storage Drawers
+-Toast Control
+-Xtones
+Add:
+-FastWorkBench
+
+
 2.6.0
 ----------
-Added rewards to new beginnings, discovering magic, and 
+Added rewards to new beginnings, discovering magic, and amateur engineer
 Redid farmville quest chapter
 Added some lore quest to farming chapter
 Added recipes for turning silents tanzanite/amethyst blocks into large tanzanite/amethyst from calc
@@ -16,9 +59,12 @@ Evilcraft book can now join its book friends in the bookcase and akashik tome
 Metal blocks/ingots/nuggets should now all break down and reform into one type (continuing my insane unification journey)
 Empowered enori now accecpts niter in addition to nitrate
 IE Sheetmetal now breaks down into TE plates 
-~update LC in twitch
-~update jei in twitch
-~update fastcraft
+Mod Updates:
+* /dank/null
+* FoamFix
+* The Lost Cities - Custom loot tables :D
+New Mod:
+* Tick Profiler
 
 2.5.0
 ----------
