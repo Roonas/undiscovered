@@ -1,6 +1,9 @@
 2.7.0
 ----------
 
+~downgrade crafttweaker
+~update harvest craft
+
 Mod Updates (needs testing):
 -Forge 14.23.2.2611
 -Actually Additions
@@ -26,6 +29,7 @@ Mod Updates (needs testing):
 -ModTweaker
 -MTLib
 -p455w0rd's Library
+-Pam's Harvest Craft (regen configs)
 -Placebo
 -Reborn Core
 -Reliquary
