@@ -12,7 +12,8 @@ var meshFabric = <magneticraft:crafting:6>;
 
 recipes.remove(<ore:ingotTungsten>);
 recipes.remove(wolframiteOre);
-recipes.remove(<magneticraft:thermopile>);
+//recipes.remove(<magneticraft:thermopile>);
+recipes.removeByRecipeName("thermalfoundation:dusts_2");
 
 /*=========================
 Recipe Changes - Magneticraft
@@ -69,6 +70,7 @@ recipes.addShaped(<magneticraft:copper_tank>, [
 Crushing Table
 =========================*/
 //mods.magneticraft.CrushingTable.removeRecipe(<thermalfoundation:ore:7>);
+mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:2>);
 mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:3>);
 mods.magneticraft.CrushingTable.removeRecipe(<mekanism:oreblock>);
 mods.magneticraft.CrushingTable.addRecipe(<minecraft:gold_block>, heavyGoldPlate, false);
@@ -79,12 +81,14 @@ mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:storage:3>, heavyLe
 mods.magneticraft.CrushingTable.addRecipe(<calculator:circuitdamaged>, <minecraft:redstone>, true);
 mods.magneticraft.CrushingTable.addRecipe(<silentgems:gemblockdark:10>, <calculator:largetanzanite>, false);
 mods.magneticraft.CrushingTable.addRecipe(<silentgems:gemblock:11>, <calculator:largeamethyst>, false);
-
+mods.magneticraft.CrushingTable.addRecipe(<randomthings:lavacharm>, <minecraft:blaze_powder> * 2, false);
 
 /*=========================
 Sluice Box
 =========================*/
-//mods.magneticraft.SluiceBox.removeRecipe(<thermalfoundation:material:71>);
-//mods.magneticraft.SluiceBox.removeRecipe(<jaopca:item_rockychunkplatinum>);
-//mods.magneticraft.SluiceBox.removeRecipe(<jaopca:item_rockychunkiridium>);
 mods.magneticraft.SluiceBox.removeRecipe(<magneticraft:rocky_chunks:5>);
+
+/*=========================
+Grinder
+=========================*/
+//mods.magneticraft.Grinder.removeRecipe(<mekanism:oreblock>);

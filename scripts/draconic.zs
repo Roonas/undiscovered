@@ -24,3 +24,24 @@ recipes.addShaped(<draconicevolution:wyvern_core>, [
     [<mekanism:ingot>, dCore, <mekanism:ingot>], 
     [<magneticraft:ingots:4>, <evilcraft:vengeance_essence>, <magneticraft:ingots:4>]
     ]);
+
+recipes.remove(<draconicevolution:draconic_energy_core>);
+recipes.addShaped(<draconicevolution:draconic_energy_core>, [
+  [<draconicevolution:draconic_ingot>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconic_ingot>],
+  [<mekanism:ingot:3>, <mekanism:controlcircuit:1>, <mekanism:ingot:3>], 
+  [<draconicevolution:draconic_ingot>, <draconicevolution:wyvern_energy_core>, <draconicevolution:draconic_ingot>]
+  ]);
+
+recipes.remove(<draconicevolution:draconium_capacitor>);
+recipes.addShaped(<draconicevolution:draconium_capacitor>, [
+  [<thermalfoundation:material:359>, <draconicevolution:wyvern_energy_core>, <thermalfoundation:material:359>],
+  [<draconicevolution:draconium_block>, <draconicevolution:wyvern_core>, <draconicevolution:draconium_block>], 
+  [<thermalfoundation:material:359>, <draconicevolution:wyvern_energy_core>, <thermalfoundation:material:359>]
+  ]);
+
+recipes.remove(<draconicevolution:draconium_capacitor:1>);
+recipes.addShaped(<draconicevolution:draconium_capacitor:1>, [
+  [<mekanism:controlcircuit:3>, <draconicevolution:awakened_core>, <mekanism:controlcircuit:3>],
+  [<draconicevolution:draconic_ingot>, <draconicevolution:draconium_capacitor>, <draconicevolution:draconic_ingot>], 
+  [<thermalfoundation:material:358>, <draconicevolution:draconic_energy_core>, <thermalfoundation:material:358>]
+  ]);

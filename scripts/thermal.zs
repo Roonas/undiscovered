@@ -138,7 +138,7 @@ recipes.addShaped("thermal centrifuge", <thermalexpansion:machine:10>, [
 
 recipes.remove(<thermalexpansion:machine:1>);
 recipes.addShaped("te pulverizer", <thermalexpansion:machine:1>, [
-    [null, <ore:heavyPlateGold>, null], 
+    [null, <ore:plateSignalum>, null], 
     [<ore:ingotTungsten>, <contenttweaker:enchantedframe>, <ore:ingotTungsten>], 
     [<ore:gearElectrum>, <thermalfoundation:material:513>, <ore:gearElectrum>]
     ]);
@@ -265,7 +265,12 @@ recipes.addShaped("rich slag", <thermalfoundation:material:865>, [
     [<calculator:soil>, <calculator:soil>, <calculator:soil>]
     ]);
 
-
+recipes.remove(<thermaldynamics:relay>);
+recipes.addShaped(<thermaldynamics:relay> * 2, [
+    [null, null, null],
+    [<ore:nuggetElectrum>, <minecraft:quartz>, <ore:nuggetElectrum>], 
+    [<thermalfoundation:material:131>, <minecraft:redstone>, <thermalfoundation:material:131>]
+    ]);
 
 
 /*=========================

@@ -285,3 +285,7 @@ recipes.addShapeless(<minecraft:comparator>, [
 recipes.addShapeless(<minecraft:repeater>, [
     <redstonepaste:stickyrepeater>, <harvestcraft:freshwateritem>
     ]);    
+
+recipes.addShapeless(<genetics:misc:2> * 64, [
+    <contenttweaker:compressed_dye>
+    ]);

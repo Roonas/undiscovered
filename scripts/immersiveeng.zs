@@ -289,9 +289,8 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:osmaticsteel>, 
 /*=========================
 Squeezer
 =========================*/
-mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:evilcraftblood> * 50, <ore:listAllmeatraw>, 200);
+mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:evilcraftblood> * 125, <ore:listAllmeatraw>, 200);
 mods.immersiveengineering.Squeezer.addRecipe(<jaopca:item_platequartzblack> * 4, null, <jaopca:block_blockquartzblack>, 100);
-//mods.immersiveengineering.Squeezer.addRecipe(silverPlate, null, silverBlock, 100);
 mods.immersiveengineering.Squeezer.addRecipe(tungstenIngot, null, tungstenNug * 9, 3500);
 mods.immersiveengineering.Squeezer.addRecipe(<advgenerators:iron_frame> * 4, null, <ore:plateIron>, 1500);
 mods.immersiveengineering.Squeezer.addRecipe(<harvestcraft:beeswaxitem>, <fluid:honey> * 1000, <rustic:honeycomb> * 8, 1500);
@@ -322,7 +321,7 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:13
 mods.immersiveengineering.ArcFurnace.removeRecipe(<magneticraft:ingots:5>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:167>);
 mods.immersiveengineering.ArcFurnace.addRecipe(tungstenIngot, tungstenChunks, steelNug * 3, 300, 300);
-mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:135> * 2, <thermalfoundation:material:71>, <thermalfoundation:material:199>, 600, 1000);
+mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:135>, <thermalfoundation:material:71>, <thermalfoundation:material:199> * 2, 600, 1000);
 mods.immersiveengineering.ArcFurnace.addRecipe(<psi:material:1>, <psi:material>, null, 300, 200);
 
 //make arc furnace use the same ore as everyone else
@@ -338,7 +337,8 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<thermalfoundation:material:130> 
 /*=========================
 Crusher
 =========================*/
-mods.immersiveengineering.Crusher.removeRecipe(<jaopca:item_dusttungsten>);
+//mods.immersiveengineering.Crusher.removeRecipe(<jaopca:item_dusttungsten>);
+mods.immersiveengineering.Crusher.removeRecipe(<magneticraft:dusts:5>);
 mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:71>);
 mods.immersiveengineering.Crusher.removeRecipe(<draconicevolution:draconium_dust>);
 mods.immersiveengineering.Crusher.addRecipe(<extrautils2:endershard> * 8, <minecraft:ender_pearl>, 2000);

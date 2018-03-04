@@ -117,7 +117,6 @@ mods.mekanism.crusher.addRecipe(<contenttweaker:osmaticsteelore>, <contenttweake
 /*=========================
 Enrichment
 =========================*/
-mods.mekanism.enrichment.removeRecipe(<draconicevolution:draconium_ore>);
 mods.mekanism.enrichment.removeRecipe(<magneticraft:ores:3>);
 mods.mekanism.enrichment.removeRecipe(<thermalfoundation:ore:7>);
 

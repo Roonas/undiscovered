@@ -130,7 +130,7 @@ recipes.addShaped(<actuallyadditions:block_misc:4>, [
 /*=========================
 Crusher
 =========================*/
-mods.actuallyadditions.Crusher.removeRecipe(<jaopca:item_dusttungsten>);
+mods.actuallyadditions.Crusher.removeRecipe(<magneticraft:dusts:5>);
 mods.actuallyadditions.Crusher.removeRecipe(<thermalfoundation:material:71>);
 mods.actuallyadditions.Crusher.removeRecipe(<draconicevolution:draconium_dust>);
 mods.actuallyadditions.Crusher.addRecipe(<extrautils2:endershard>*8 * 8, <minecraft:ender_pearl>);

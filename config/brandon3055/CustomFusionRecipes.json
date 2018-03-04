@@ -7,7 +7,7 @@
         "tier": 1,
         "ingredients": [
             "draconicevolution:draconic_core",
-            "draconicevolution:draconic_core",
+            "mekanism:basicblock,1,2",
             "draconicevolution:dragon_heart",
             "harvestcraft:dragonfruititem",
             "botania:manaresource,1,9",
@@ -46,6 +46,23 @@
             "appliedenergistics2:material,1,11",
             "extrautils2:ingredients,1,17",
             "extrautils2:ingredients,1,17"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "silentgems:miscblock,1,2",
+        "catalyst": "draconicevolution:draconium_block",
+        "energy": 50000,
+        "tier": 1,
+        "ingredients": [
+            "silentgems:craftingmaterial,1,20",
+            "silentgems:craftingmaterial,1,20",
+            "silentgems:craftingmaterial,1,20",
+            "silentgems:craftingmaterial,1,20",
+            "thermalfoundation:storage_alloy,1,7",
+            "thermalfoundation:storage_alloy,1,7",
+            "actuallyadditions:block_crystal,1,1",
+            "actuallyadditions:block_crystal,1,1"
         ]
     },
     {

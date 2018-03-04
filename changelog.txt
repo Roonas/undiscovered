@@ -1,7 +1,17 @@
 2.7.0
 ----------
-
-~downgrade crafttweaker
+Reduced overall number of DE cores needed (still adjusting DE balance)
+Added recipe for mass producing florecent dye after wyvern fusion
+Added alt recipe for crystal chaos essence
+Changed a few default keys for less conflicts
+Magneticraft thermopile is craftable again
+Added some helpful tool tips on GM chicken feed / mob swabs
+Reduced dupe processing loop with iridium
+Changed block of manasteel to use steel
+Added calc diamonds to mana diamond recipe
+Made redtsone relay for TE pipes cheaper
+Changed the plate used in pulverizer recipe because one player hated the crushing table
+~downgrade crafttweaker 
 ~update harvest craft
 
 Mod Updates (needs testing):
@@ -10,7 +20,6 @@ Mod Updates (needs testing):
 -Apple Core
 -Bookshelf
 -Brandon's Core
--Calculator (needs i/o tested)
 -Chisel
 -Comforts
 -Corail Tombstone
@@ -36,13 +45,14 @@ Mod Updates (needs testing):
 -RFTools
 -RFTools Dimensions
 -Rustic
--Sonar Core
 -Steve's Carts
--Storage Drawers
 -Toast Control
 -Xtones
 Add:
 -FastWorkBench
+-LagGoggles
+Remove:
+-TickProfiler
 
 
 2.6.0

@@ -44,7 +44,6 @@ val metalDusts = [
         <thermalfoundation:material:100>,
         <bigreactors:dustmetals>,
         <immersiveengineering:metal:14>,
-        <jaopca:item_dusttungsten>,
         <magneticraft:dusts:4>,
         <thermalfoundation:material:69>,
         <thermalfoundation:material:66>,
@@ -67,8 +66,11 @@ val metalDusts = [
         <bigreactors:dustmetals:4>,
         <bigreactors:dustmetals:3>,
         <bigreactors:dustmetals:1>,
-        <jaopca:item_dustcobalt>,
-        <appliedenergistics2:material:2>
+        <appliedenergistics2:material:2>,
+        <magneticraft:dusts:5>
+        //<magneticraft:dusts:4>
+        //<jaopca:item_dusttungsten>,
+        //<jaopca:item_dustcobalt>,
     ] as IItemStack[];
 
 val hiddenItems = [

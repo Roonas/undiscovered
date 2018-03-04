@@ -222,3 +222,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<output>, rfCost, rfRate(opt
 mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material:32>, 50000000, <extrautils2:ingredients:12>, [
     <stevescarts:modulecomponents:49>, <evilcraft:corrupted_tear>, <psi:material:4>, <astralsorcery:itemcraftingcomponent:4>, <magneticraft:ingots:4>, <rftools:infused_diamond>, <appliedenergistics2:material:47>, <draconicevolution:draconic_ingot>
     ]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:compressed_dye>, 1000000, 15000, <extendedcrafting:storage:1>, [
+    <draconicevolution:draconic_ingot>, <contenttweaker:goldclay>, <draconicevolution:draconic_ingot>, <botania:quartztypesunny>
+    ]);

@@ -51,3 +51,6 @@ var osmaticSteelOre = VanillaFactory.createBlock("osmaticsteelore", <blockmateri
 osmaticSteelOre.setToolLevel(3);
 osmaticSteelOre.setToolClass("pickaxe");
 osmaticSteelOre.register();
+
+var compresseddye = VanillaFactory.createBlock("compressed_dye", <blockmaterial:cactus>);
+compresseddye.register();

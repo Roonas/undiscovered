@@ -202,6 +202,9 @@ osmaticsteeldust.register();
 var netherrod = VanillaFactory.createItem("netherrod");
 netherrod.register();
 
+//var inertcore = VanillaFactory.createItem("inertcore");
+//inertcore.register();
+
 /*
 worldIn.spawnEntityInWorld( new EntityItem( worldIn, pos.getX(), pos.getY(), pos.getZ(), ish.getStackInSlot( i ) ) );
 var whodat = VanillaFactory.createItem("whodat");

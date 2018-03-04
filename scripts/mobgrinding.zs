@@ -1,3 +1,7 @@
+
+mods.jei.JEI.addDescription(<mob_grinding_utils:gm_chicken_feed>, "Crafted by combining mob DNA (from a swab), a bucket of xp, and seeds. Feed to a chicken to produce a spawn egg.");
+mods.jei.JEI.addDescription(<mob_grinding_utils:mob_swab>, "Right click mob to swab. DNA can be used to create spawn egg");
+
 /*=========================
 Recipe Changes - Mob Grinding
 =========================*/

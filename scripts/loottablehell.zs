@@ -164,7 +164,7 @@ jungleDisMain.removeEntry("minecraft:arrow");
 jungleDisMain.addItemEntryJSON(<minecraft:tipped_arrow>.withTag({Potion: "randomthings:long_collapse"}), 20, 0, ["count: {min: 2.0, max: 6.0}, function: 'minecraft:set_count'"], [], "Confuse Arrow");
 jungleDisMain.addItemEntryJSON(<minecraft:tipped_arrow>.withTag({Potion: "cofhcore:wither+"}), 20, 0, ["count: {min: 2.0, max: 6.0}, function: 'minecraft:set_count'"], [], "Wither Arrow");
 jungleDisMain.addItemEntryJSON(<minecraft:fire_charge>, 20, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Fire Charge");
-jungleDisMain.addItemEntryJSON(<forge:bucketfilled>.withTag({FluidName: "sewage", Amount: 1000}), 20, 0, [], [], "Poo Bucket");
+jungleDisMain.addItemEntryJSON(<thermalexpansion:florb>.withTag({Fluid: "sewage"}), 20, 0, [], [], "Poo Bucket");
 jungleDisMain.addItemEntryJSON(<minecraft:lingering_potion>.withTag({Potion: "minecraft:harming"}), 20, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "Linger Damage");
 
 blacksmithMain.removeEntry("minecraft:sapling");
@@ -192,6 +192,7 @@ forVillagerPool.addItemEntryJSON(<forestry:apiarist_bag>, 2, 0, [], [], "Bee Bag
 forVillagerPool.addItemEntryJSON(<forestry:honeyed_slice>, 3, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Fancy Bread");
 forVillagerPool.addItemEntryJSON(<gendustry:gene_sample_blank>, 3, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Bee Gene");
 forVillagerPool.addItemEntryJSON(<gendustry:labware>, 3, 0, ["count: {min: 4.0, max: 9.0}, function: 'minecraft:set_count'"], [], "Lab Ware");
+forVillagerPool.addItemEntryJSON(<harvestcraft:queenbeeitem>, 3, 0, ["count: {min: 2.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Pam Beez");
 
 dungeonMain.removeEntry("minecraft:record_13");
 dungeonMain.addItemEntryJSON(<randomthings:ingredient:6>, 5, 0, [], [], "Lube");
@@ -250,6 +251,7 @@ desertPool1.addItemEntryJSON(<astralsorcery:itemusabledust:1>, 6, 0, [], [], "Mo
 desertPool1.addItemEntryJSON(<botania:grassseeds:3>, 5, 0, [], [], "Dry Grass");
 desertPool1.addItemEntryJSON(<harvestcraft:soybeanseeditem>, 3, 0, [], [], "Peanuts");
 desertPool1.addItemEntryJSON(<harvestcraft:peanutseeditem>, 3, 0, [], [], "Soybeans");
+desertPool1.addItemEntryJSON(<harvestcraft:queenbeeitem>, 3, 0, [], [], "Pam Bee");
 desertMain.addItemEntryJSON(<minecraft:tipped_arrow>.withTag({Potion: "extrautils2:xu2.fizzy.lifting"}), 6, 0, ["count: {min: 8.0, max: 16.0}, function: 'minecraft:set_count'"], [], "Floaty Arrows");
 
 jungleMain.removeEntry("minecraft:iron_horse_armor");

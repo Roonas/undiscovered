@@ -2,6 +2,7 @@ var polishedStone = <extrautils2:decorativesolid:2>;
 var rockyTungsten = <magneticraft:rocky_chunks:5>;
 var manaSteel = <botania:manaresource>;
 var manaPearl = <botania:manaresource:1>;
+var manaDiamond = <botania:manaresource:2>;
 var endoflame = <botania:specialflower>.withTag({type: "endoflame"});
 var rafflowsia = <botania:specialflower>.withTag({type: "rafflowsia"});	
 var thermalily = <botania:specialflower>.withTag({type: "thermalily"});
@@ -117,6 +118,7 @@ mods.botania.PureDaisy.addRecipe(<minecraft:netherrack>, <botania:livingrock>, 4
 mods.botania.PureDaisy.addRecipe(<evilcraft:undead_log>, <contenttweaker:holylog>, 40);
 //mods.botania.PureDaisy.addRecipe(<evilcraft:undead_sapling>, <forestry:sapling>.withTag({IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "holly", UID0: "holly", Slot: 0 as byte}]}}));
 //mods.botania.PureDaisy.addRecipe(<botania:alfheimportal>, <mekanism:energycube>.withTag({tier: 1}));
+
 /*=========================
 Apothecary
 =========================*/
@@ -135,10 +137,13 @@ Mana Pool
 =========================*/
 mods.botania.ManaInfusion.removeRecipe(manaSteel);
 mods.botania.ManaInfusion.removeRecipe(manaPearl);
+mods.botania.ManaInfusion.removeRecipe(<botania:storage>);
 mods.botania.ManaInfusion.addInfusion(<silentgems:craftingmaterial:21>, <evilcraft:golden_string>, 700);
-mods.botania.ManaInfusion.addInfusion(manaSteel, <immersiveengineering:metal:8>, 4000);
+mods.botania.ManaInfusion.addInfusion(manaSteel, <ore:ingotSteel>, 4000);
 mods.botania.ManaInfusion.addInfusion(manaSteel * 2, <thermalfoundation:material:134>, 2000);
 mods.botania.ManaInfusion.addInfusion(manaPearl, <randomthings:stableenderpearl>, 2000);
+mods.botania.ManaInfusion.addInfusion(manaDiamond, <calculator:flawlessdiamond>, 6000);
+mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockSteel>, 12000);
 
 /*=========================
 Mana Pool - Alchemy
