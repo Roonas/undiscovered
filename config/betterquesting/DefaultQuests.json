@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": false,
+      "editmode": true,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -2575,7 +2575,29 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:brewvial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "brewKey:8": "haste"
+              }
+            },
+            {
+              "id": "xreliquary:interdiction_torch",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         50,
         226
@@ -2632,7 +2654,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:coal",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:glass_bottle",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         51
       ],
@@ -5299,7 +5340,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Industrial for Farming",
-          "desc": "No Description"
+          "desc": "The spore recreator produces mushrooms, perfect for a life sustained by mushroom stew.... or making yeast. The plant interacter gently harvests crops or fruits by collecting drops without breaking the plant."
         }
       },
       "tasks": [
@@ -5367,23 +5408,17 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Baby Thief",
-          "desc": "No Description"
+          "desc": "A system for limiting the population! The baby seperator is an active soultion which moves baby animals to the back of the machine while the mob filter will passivly let baby animals fall through.  "
         }
       },
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
-            {
-              "id": "darkutils:filter",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 6
-            },
             {
               "id": "industrialforegoing:animal_independence_selector",
               "Count": 1,
@@ -5393,6 +5428,23 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "darkutils:filter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 6
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [],
@@ -5423,7 +5475,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Auto Babies",
-          "desc": "Only 1 of the 3 items needed to complete quest"
+          "desc": "Let\u0027s the animals do their thing while you\u0027re not around... or while you are around, whatever you\u0027re into. Should be combined with some system for limiting population."
         }
       },
       "tasks": [
@@ -5511,7 +5563,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Farming With Steve",
-          "desc": "No Description"
+          "desc": "Note: cart assembler time requirement removed. Simply combine the cart parts and input coal to form Steve\u0027s farming cart. "
         }
       },
       "tasks": [
@@ -5645,7 +5697,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Pro Chef Tools",
-          "desc": "No Description"
+          "desc": "Enough tools you\u0027re going to need some place to put them all."
         }
       },
       "tasks": [
@@ -5703,7 +5755,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -5719,13 +5771,13 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Quick Harvest",
-          "desc": "No Description"
+          "desc": "Various options for speeding up crop growth exist. This small selection all function by being phycially near the plants. Who says you\u0027re limited to just one type?"
         }
       },
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -5735,28 +5787,67 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0
-            },
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
             {
               "id": "xreliquary:fertile_lilypad",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "actuallyadditions:item_worm",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            },
-            {
-              "id": "rustic:apiary",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
-          "index": 0
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:item_worm",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "rustic:apiary",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "rustic:bee",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 3
         }
       ],
       "rewards": [],
@@ -5815,7 +5906,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Expanding Seed Selection",
-          "desc": "No Description"
+          "desc": "Breaks a large number of leaves or grass with a single strike. Effective for scavenging for seeds."
         }
       },
       "tasks": [
@@ -5893,7 +5984,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Cow Juice",
-          "desc": "No Description"
+          "desc": "Milk: useful both for clearing posions and as an ingredent in a wide variety of recipes."
         }
       },
       "tasks": [
@@ -5977,7 +6068,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Pro Kitchen",
-          "desc": "No Description"
+          "desc": "A multiblock disguised as a simple kitchen pieces. Assembled by placing the various components next to one another."
         }
       },
       "tasks": [
@@ -6107,7 +6198,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Farm Land Profits",
-          "desc": "No Description"
+          "desc": "Pam will also buy almost any crop back from you. She pays particularly well for raw meats and mob drops."
         }
       },
       "tasks": [
@@ -6157,7 +6248,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Kitchen Staples",
-          "desc": "No Description"
+          "desc": "Stocking your fridge with these staples will open up a great number of different recipes."
         }
       },
       "tasks": [
@@ -6238,7 +6329,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Giving a Shit",
-          "desc": "No Description"
+          "desc": "Placed under animals, this will produce sewage. This waste can be refined into more useful items. "
         }
       },
       "tasks": [
@@ -6288,7 +6379,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Let Them Come To You",
-          "desc": "No Description"
+          "desc": "Needs to be filled with bait and surrounded by at least 5 grass blocks to generate drops."
         }
       },
       "tasks": [
@@ -6316,7 +6407,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:veggiebaititem",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "harvestcraft:fruitbaititem",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         234,
         338
@@ -6786,7 +6896,7 @@
       "rewards": [],
       "preRequisites": [
         103,
-        205
+        101
       ],
       "questID": 108
     },
@@ -7043,7 +7153,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        205
+        101
       ],
       "questID": 113
     },
@@ -13048,34 +13158,34 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "thermalfoundation:material",
+            "id": "industrialforegoing:mob_slaughter_factory",
             "Count": 1,
             "OreDict": "",
-            "Damage": 135
+            "Damage": 0
           },
           "globalshare": false,
           "questlogic": "AND",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": true,
-          "name": "Powered Ingot",
-          "desc": "This highly charged metal provides a base for crafting highly advanced technology. "
+          "ismain": false,
+          "name": "Mob Juicifier",
+          "desc": "\"Processes\" mobs into their base components, pink slime and liquid meat."
         }
       },
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": false,
+          "ignoreNBT": true,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "thermalfoundation:material",
+              "id": "industrialforegoing:mob_slaughter_factory",
               "Count": 1,
               "OreDict": "",
-              "Damage": 135
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
@@ -13084,7 +13194,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        101
+        110
       ],
       "questID": 205
     },
@@ -14346,7 +14456,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": true,
+          "ismain": false,
           "name": "A Fancier Torch",
           "desc": "(Only 1 task needs to be completed for quest) A high tech tinkerer deserves better than burning sticks to light their workspace."
         }
@@ -19728,10 +19838,10 @@
               "Damage": 0
             },
             {
-              "id": "extrautils2:grocket",
+              "id": "extrautils2:flattransfernode",
               "Count": 1,
               "OreDict": "",
-              "Damage": 2
+              "Damage": 1
             }
           ],
           "rewardID": "bq_standard:choice",
@@ -19941,7 +20051,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Selection of Seeds",
-          "desc": "No Description"
+          "desc": "A small sample of a number of useful seeds. Plants like fluffy puff can be crafting into various items, flax produces string, and hemp can be used for upgraded wires and nets."
         }
       },
       "tasks": [
@@ -19959,7 +20069,7 @@
               "Damage": 0
             },
             {
-              "id": "actuallyadditions:item_canola_seed",
+              "id": "silentgems:fluffypuffseeds",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -20009,7 +20119,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Buying What You Can\u0027t Grow",
-          "desc": "No Description"
+          "desc": "Pam\u0027s market sells a wide variety of seeds, saplings, and spawn eggs. Garlic coins can be found in chests or crafted (consider buying garlic seeds with your first garlic coin)."
         }
       },
       "tasks": [
@@ -20037,7 +20147,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "harvestcraft:garliccoinitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         326
       ],
@@ -20065,7 +20188,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Kitchenaid",
-          "desc": "No Description"
+          "desc": "4 bricks and a stick to make a cooking pot? Sure why not."
         }
       },
       "tasks": [
@@ -20127,7 +20250,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Eat to Grow",
-          "desc": "No Description"
+          "desc": "Spice of Life - Carrot Edition (aka the spice of life you won\u0027t hate). By eating a number of different foods, you can increase your max health. Gain your first additional heart by consuming 25 different foods. Gain a maximum of 10 additional hearts at 240 different foods consumed. Food tooltips will show if they have been previously eaten."
         }
       },
       "tasks": [
@@ -20195,7 +20318,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Food Squisher",
-          "desc": "No Description"
+          "desc": "Once known as a squisher of soybeans, the food press can not squeeze fruits into juice, wood into logs, and water into bubbly water."
         }
       },
       "tasks": [
@@ -20245,7 +20368,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Food of the Gods",
-          "desc": "No Description"
+          "desc": "Top tier foods can be eaten regardless of hunger level and will provide players with strength and resistance buffs."
         }
       },
       "tasks": [
@@ -20363,7 +20486,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Full Auto Farming",
-          "desc": "No Description"
+          "desc": "Not all farmers are created equal, but all will harvest crops while you\u0027re busy slaying dragons. "
         }
       },
       "tasks": [
@@ -20478,7 +20601,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Natural Resources",
-          "desc": "No Description"
+          "desc": "Just like mining ores, except it\u0027s live animals."
         }
       },
       "tasks": [
@@ -20540,7 +20663,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Cow Disassembly Plant",
-          "desc": "No Description"
+          "desc": "Great for turning cute creatures into crafting components. (If you\u0027re on a server, be nice and hook some lights to an online detector to automaticlly turn off mob farms while you\u0027re away)"
         }
       },
       "tasks": [
@@ -20552,7 +20675,7 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "industrialforegoing:mob_slaughter_factory",
+              "id": "industrialforegoing:mob_relocator",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
@@ -20579,7 +20702,26 @@
           "index": 1
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "randomthings:onlinedetector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "silentgems:gemlamplitinverteddark",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 14
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         89
       ],
@@ -20606,8 +20748,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "People Farm",
-          "desc": "No Description"
+          "name": "People Farm ",
+          "desc": "Allows for trading with an imprisioned villager with 100 percent less moaning. Can also be automated."
         }
       },
       "tasks": [
@@ -20663,7 +20805,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "One Fruit, Many Foods",
-          "desc": "No Description"
+          "desc": "With a few different cooking tools and some simple kitchen staples, a single fruit can be processed into a number of different food items."
         }
       },
       "tasks": [
@@ -20737,7 +20879,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Not the Bees",
-          "desc": "No Description"
+          "desc": "Rustic bees can be found hanging from trees. Pams bees only appear in chests or their larva can be purchased from the market. Both function by simply placing the bee inside the apiary"
         }
       },
       "tasks": [
@@ -21047,6 +21189,437 @@
         59
       ],
       "questID": 343
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:specialflower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "type:8": "marimorphosis"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Transforming Stone",
+          "desc": "Stone placed near the marimorphosis will transform into a random biome variation. The stone is 12 times more likey to transform into the biome variant where is it placed. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "marimorphosis"
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "rftoolsdim:dimensional_small_blocks",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "chisel:energizedvoidstone",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 2
+            },
+            {
+              "id": "randomthings:biomestone",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        245
+      ],
+      "questID": 344
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "extrautils2:teleporter",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Into the Depths",
+          "desc": "Standing on the deep dark portal will teleport you into a dimension which contains a great number of ores... and monsters. Be sure to bring light, as the dark will hurt you. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "extrautils2:teleporter",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "astralsorcery:itemusabledust",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "thermalexpansion:florb",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:8": "astralsorcery.liquidstarlight"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        344
+      ],
+      "questID": 345
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "contenttweaker:lostcityportal",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "City Block",
+          "desc": "The lost city dimension is almost entirly filled with cities without damage. Great for looting or finding ores that don\u0027t generate in the overworld. Created by placing a bed ontop of 2 empowered restonia blocks and surrounding the bed with 6 skulls. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "actuallyadditions:block_crystal_empowered",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:bed",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:skull",
+              "Count": 6,
+              "OreDict": "itemSkull",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        115
+      ],
+      "questID": 346
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:material_stonework_factory",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "A Superior Cobble Gen",
+          "desc": "Not only capable of generating cobble, this machine can be configured to crush, smelt, or craft. Useful for producing smooth stone, polished stone, stone bricks, gravel, sand, glass, and even silicon."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:material_stonework_factory",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        110
+      ],
+      "questID": 347
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:meat_feeder",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Meaty Supply",
+          "desc": "By injecting liquid meat right into your veins, you\u0027ll never go hungry again. Will auto supply liquid meat while in your inventory. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:meat_feeder",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "meat",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        205
+      ],
+      "questID": 348
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:pink_slime",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Spontaneous Reformation",
+          "desc": "Dropped from pink slimes. These mobs naturally spawn in pools of liquid pink slime. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:pink_slime",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        205
+      ],
+      "questID": 349
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "stevescarts:blockcargomanager",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Getting It In and Out",
+          "desc": "The cart manager, when placed next to a detector rail, can be used to automaticlly input or extract item from the cart. Clicking the center button will allow each side to have a separate behavior. This can be used to configure a single cargo manager to extract items from one face and insert fuel into a cart from another."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "stevescarts:blockcargomanager",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "stevescarts:blockadvdetector",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        90
+      ],
+      "questID": 350
     }
   ],
   "questLines": [
@@ -21824,6 +22397,12 @@
         },
         {
           "size": 24,
+          "x": 24,
+          "y": 60,
+          "id": 350
+        },
+        {
+          "size": 24,
           "x": 60,
           "y": 168,
           "id": 95
@@ -21874,170 +22453,194 @@
       "quests": [
         {
           "size": 24,
-          "x": 78,
-          "y": 138,
+          "x": 222,
+          "y": 42,
           "id": 205
         },
         {
           "size": 24,
-          "x": -6,
-          "y": 24,
+          "x": 6,
+          "y": 72,
+          "id": 346
+        },
+        {
+          "size": 24,
+          "x": 252,
+          "y": 42,
+          "id": 347
+        },
+        {
+          "size": 24,
+          "x": 222,
+          "y": 78,
+          "id": 348
+        },
+        {
+          "size": 24,
+          "x": 252,
+          "y": 78,
+          "id": 349
+        },
+        {
+          "size": 24,
+          "x": -24,
+          "y": 12,
           "id": 227
         },
         {
           "size": 24,
-          "x": 12,
-          "y": 66,
+          "x": 6,
+          "y": 42,
           "id": 228
         },
         {
           "size": 24,
-          "x": 78,
-          "y": 108,
+          "x": 54,
+          "y": 78,
           "id": 101
         },
         {
           "size": 24,
-          "x": -30,
-          "y": 0,
-          "id": 229
-        },
-        {
-          "size": 24,
-          "x": 78,
-          "y": 72,
-          "id": 102
-        },
-        {
-          "size": 24,
-          "x": 132,
-          "y": 102,
-          "id": 230
-        },
-        {
-          "size": 24,
-          "x": 30,
-          "y": 138,
-          "id": 103
-        },
-        {
-          "size": 24,
-          "x": 102,
-          "y": 24,
-          "id": 231
-        },
-        {
-          "size": 24,
-          "x": 42,
-          "y": 102,
-          "id": 104
-        },
-        {
-          "size": 24,
-          "x": 12,
-          "y": 102,
-          "id": 105
-        },
-        {
-          "size": 24,
-          "x": 66,
+          "x": 6,
           "y": 12,
-          "id": 106
+          "id": 229
         },
         {
           "size": 24,
           "x": 72,
           "y": 42,
+          "id": 102
+        },
+        {
+          "size": 24,
+          "x": 102,
+          "y": 42,
+          "id": 230
+        },
+        {
+          "size": 24,
+          "x": 132,
+          "y": 78,
+          "id": 103
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": -18,
+          "id": 231
+        },
+        {
+          "size": 24,
+          "x": 132,
+          "y": 12,
+          "id": 104
+        },
+        {
+          "size": 24,
+          "x": 162,
+          "y": 12,
+          "id": 105
+        },
+        {
+          "size": 24,
+          "x": 102,
+          "y": -18,
+          "id": 106
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": 12,
           "id": 107
         },
         {
           "size": 24,
-          "x": 60,
-          "y": 174,
+          "x": 96,
+          "y": 114,
           "id": 108
         },
         {
           "size": 24,
-          "x": 138,
-          "y": 6,
+          "x": 222,
+          "y": -18,
           "id": 109
         },
         {
           "size": 24,
-          "x": 156,
-          "y": 42,
+          "x": 222,
+          "y": 12,
           "id": 110
         },
         {
           "size": 24,
-          "x": 174,
-          "y": 6,
+          "x": 192,
+          "y": -18,
           "id": 111
         },
         {
           "size": 24,
-          "x": 18,
+          "x": 6,
           "y": -18,
           "id": 112
         },
         {
           "size": 24,
-          "x": -24,
-          "y": 174,
+          "x": 174,
+          "y": 114,
           "id": 176
         },
         {
           "size": 24,
-          "x": 96,
-          "y": 174,
+          "x": 54,
+          "y": 114,
           "id": 113
         },
         {
           "size": 24,
-          "x": 54,
+          "x": 132,
           "y": -18,
           "id": 114
         },
         {
           "size": 24,
-          "x": 42,
+          "x": 36,
           "y": 42,
           "id": 115
         },
         {
           "size": 24,
-          "x": 30,
-          "y": 12,
+          "x": 36,
+          "y": -18,
           "id": 116
         },
         {
           "size": 24,
-          "x": -54,
-          "y": 60,
+          "x": -48,
+          "y": 66,
           "id": 184
         },
         {
           "size": 24,
-          "x": -18,
-          "y": 102,
+          "x": 192,
+          "y": 12,
           "id": 124
         },
         {
           "size": 24,
-          "x": -6,
-          "y": 138,
+          "x": 192,
+          "y": 78,
           "id": 125
         },
         {
           "size": 24,
-          "x": 18,
-          "y": 174,
+          "x": 210,
+          "y": 114,
           "id": 126
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 72,
+          "x": 102,
+          "y": 12,
           "id": 127
         }
       ],
@@ -22376,7 +22979,7 @@
         },
         {
           "size": 24,
-          "x": 234,
+          "x": 264,
           "y": 222,
           "id": 290
         },
@@ -22463,6 +23066,18 @@
           "x": 60,
           "y": 12,
           "id": 314
+        },
+        {
+          "size": 24,
+          "x": 234,
+          "y": 222,
+          "id": 344
+        },
+        {
+          "size": 24,
+          "x": 234,
+          "y": 252,
+          "id": 345
         },
         {
           "size": 24,

@@ -126,9 +126,9 @@ recipes.addShaped("drawer oredict2", <storagedrawers:upgrade_conversion>, [
 
 recipes.remove(<grapplemod:repeller>);
 recipes.addShaped("magnetic flight", <grapplemod:repeller>, [
-    [null, <actuallyadditions:item_crystal:2>, null], 
+    [null, <actuallyadditions:item_crystal:1>, null], 
     [<actuallyadditions:item_crystal:5>, <ore:ingotTungsten>, <actuallyadditions:item_crystal:5>], 
-    [null, <actuallyadditions:item_crystal:2>, null]
+    [null, <actuallyadditions:item_crystal:1>, null]
     ]);
 
 recipes.addShapeless(<contenttweaker:heartcast>, [
@@ -288,4 +288,16 @@ recipes.addShapeless(<minecraft:repeater>, [
 
 recipes.addShapeless(<genetics:misc:2> * 64, [
     <contenttweaker:compressed_dye>
+    ]);
+
+recipes.addShaped(<harvestcraft:royaljellyitem>, [
+    [null, <minecraft:dye:4>, null],
+    [<minecraft:dye:4>, <rustic:fluid_bottle>, <minecraft:dye:4>], 
+    [null, <minecraft:dye:4>, null]
+    ]);
+
+recipes.addShaped(<harvestcraft:royaljellyitem>, [
+    [null, <minecraft:dye:4>, null],
+    [<minecraft:dye:4>, <rustic:fluid_bottle>, <minecraft:dye:4>], 
+    [null, <minecraft:dye:4>, null]
     ]);

@@ -258,6 +258,23 @@ recipes.addShapeless(<thermalfoundation:material:33>, [
     <immersiveengineering:sheetmetal:10>
     ]);
 
+recipes.remove(<immersiveengineering:material:5>);
+recipes.addShaped(<immersiveengineering:material:5>, [
+    [null, <immersiveengineering:material:4>, null],
+    [<immersiveengineering:material:4>, <minecraft:stick>, <immersiveengineering:material:4>], 
+    [null, <immersiveengineering:material:4>, null]
+    ]);
+
+recipes.addShapeless(<immersiveengineering:wirecoil:7>, [
+    <industrialforegoing:plastic>, <immersiveengineering:wirecoil:1>
+    ]);
+
+recipes.addShapeless(<immersiveengineering:wirecoil:6>, [
+    <industrialforegoing:plastic>, <immersiveengineering:wirecoil>
+    ]);
+
+
+
 /*=========================
 Bottling Machine
 =========================*/

@@ -121,7 +121,7 @@
 					{
 						"name": "magneticraft:ores",
 						"metadata": 2,
-						"weight": 60
+						"weight": 70
 					},
 					{
 						"name": "magneticraft:ores",
@@ -130,9 +130,9 @@
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 7
+				"cluster-size": 9
 			},
-			"cluster-count": 1,
+			"cluster-count": 2,
 			"min-height": 5,
 			"max-height": 33,
 			"retrogen": "true",

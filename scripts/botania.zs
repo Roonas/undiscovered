@@ -14,6 +14,8 @@ var spectrolus = <botania:specialflower>.withTag({type: "spectrolus"});
 <ore:listAllmushroom>.add(<botania:mushroom:*>);
 
 <botania:terrapick>.addTooltip("Cobalt Level");
+mods.jei.JEI.addDescription(<botania:biomestonea:*>, "Created by placing stone near a Marimorphosis flower.");
+mods.jei.JEI.addDescription(<botania:biomestonea:*>, "Created by placing stone near a Marimorphosis flower.");
 
 recipes.remove(<botania:felpumpkin>);
 
