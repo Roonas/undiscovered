@@ -179,3 +179,9 @@ recipes.addShapedMirrored("creo oil torch", <minecraft:torch> * 6, [
     [null, <extrabees:propolis:7>],
     [null, <minecraft:stick>]
     ]);
+
+recipes.addShaped(<minecraft:end_crystal>, [
+    [<appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>, <appliedenergistics2:quartz_glass>],
+    [<appliedenergistics2:quartz_glass>, <astralsorcery:itemshiftingstar>, <appliedenergistics2:quartz_glass>], 
+    [<appliedenergistics2:quartz_glass>, <darkutils:wither_block:4>, <appliedenergistics2:quartz_glass>]
+    ]);

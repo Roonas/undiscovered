@@ -105,6 +105,13 @@ recipes.addShaped("boiler case", <mekanism:basicblock2:7>, [
     [<ore:ingotSteel>, null, <ore:ingotSteel>]
     ]);
 
+recipes.remove(<mekanism:machineblock:1>);
+recipes.addShaped(<mekanism:machineblock:1>, [
+    [<mekanism:controlcircuit:1>, <mekanism:compressedcarbon>, <mekanism:controlcircuit:1>],
+    [<ore:plateSignalum>, <contenttweaker:obsidiancase>, <ore:plateSignalum>], 
+    [<mekanism:controlcircuit:1>, <mekanism:compressedcarbon>, <mekanism:controlcircuit:1>]
+    ]);
+
 
 /*=========================
 Crusher

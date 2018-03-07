@@ -168,7 +168,7 @@ mods.extendedcrafting.TableCrafting.addShaped(<botania:pool:1>, [
     [<botania:storage:4>, <botania:storage:1>, <botania:storage>, <botania:storage>, <ore:runeLustB>, <botania:storage>, <botania:storage>, <botania:storage:1>, <botania:storage:4>], 
     [<botania:storage:4>, <botania:storage>, <botania:storage:1>, <botania:storage:2>, <ore:runeWrathB>, <botania:storage:2>, <botania:storage:1>, <botania:storage>, <botania:storage:4>], 
     [<botania:storage:4>, <botania:storage>, <botania:storage:2>, <botania:manaresource:14>, vazkiiHead, <botania:manaresource:14>, <botania:storage:2>, <botania:storage>, <botania:storage:4>], 
-    [<ore:runeManaB>, <ore:runeSlothB>, <ore:runeSummerB>, <botania:spreader:3>, <botania:pool:3>, <botania:spreader:3>, <ore:runeEnvyB>, <ore:runeGluttonyB>, <ore:runeAutumnB>], 
+    [<ore:runeSummerB>, <ore:runeSlothB>, <ore:runeManaB>, <botania:spreader:3>, <botania:pool:3>, <botania:spreader:3>, <ore:runeEnvyB>, <ore:runeGluttonyB>, <ore:runeAutumnB>], 
     [<botania:storage:4>, <botania:storage>, <botania:storage:2>, <botania:manaresource:14>, <botania:manaresource:14>, <botania:manaresource:14>, <botania:storage:2>, <botania:storage>, <botania:storage:4>], 
     [<botania:storage:4>, <botania:storage>, <botania:storage:1>, <botania:storage:2>, <ore:runePrideB>, <botania:storage:2>, <botania:storage:1>, <botania:storage>, <botania:storage:4>], 
     [<botania:storage:4>, <botania:storage:1>, <botania:storage>, <botania:storage>, <ore:runeGreedB>, <botania:storage>, <botania:storage>, <botania:storage:1>, <botania:storage:4>], 
@@ -224,5 +224,5 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material:3
     ]);
 
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:compressed_dye>, 1000000, 15000, <extendedcrafting:storage:1>, [
-    <draconicevolution:draconic_ingot>, <contenttweaker:goldclay>, <draconicevolution:draconic_ingot>, <botania:quartztypesunny>
+    <draconicevolution:draconic_ingot>, <contenttweaker:goldclay>, <draconicevolution:draconic_ingot>, <forestry:can:1>.withTag({Fluid: {FluidName: "liquidlithium", Amount: 1000}})
     ]);

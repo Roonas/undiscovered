@@ -310,3 +310,5 @@ furnace.addRecipe(<mekanism:ingot:1>, <magneticraft:dusts:11>, 2);
 <ore:silentGem>.add(<silentgems:gem:*>);
 <ore:spinnyBoi>.add(<extendedcrafting:singularity:*>);
 <ore:homeCharm>.add(<silentgems:returnhomecharm:*>);
+<ore:astralCrystal>.add(<astralsorcery:itemrockcrystalsimple>);
+<ore:astralCrystal>.add(<astralsorcery:itemcelestialcrystal>);

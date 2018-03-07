@@ -12,6 +12,7 @@ mods.jei.JEI.addDescription(<liquid:lubricant>, "Created by processing oil in an
 mods.jei.JEI.addDescription(<liquid:diesel>, "Created by processing oil in an Immersive Petroleum distillation tower");
 mods.jei.JEI.addDescription(<akashictome:tome>, "Can hold many different books and journals together when combined in a crafting grid. Right click to morph book, left click to revert held book back to tome.");
 mods.jei.JEI.addDescription(<harvestcraft:well>, "Infinite water, cannot be piped out.");
+mods.jei.JEI.addDescription(<contenttweaker:butterflyspray>, "Kills all butterflies in the world.");
 mods.jei.JEI.hide(<contenttweaker:mthand>);
 
 
@@ -300,4 +301,10 @@ recipes.addShaped(<harvestcraft:royaljellyitem>, [
     [null, <minecraft:dye:4>, null],
     [<minecraft:dye:4>, <rustic:fluid_bottle>, <minecraft:dye:4>], 
     [null, <minecraft:dye:4>, null]
+    ]);
+
+recipes.addShaped(<contenttweaker:butterflyspray>, [
+    [null, <immersiveengineering:metal:1>, null],
+    [<immersiveengineering:metal:1>, <forestry:can>, <immersiveengineering:metal:1>], 
+    [<immersiveengineering:metal:1>, <forge:bucketfilled>.withTag({FluidName: "evilcraftpoison", Amount: 1000}), <immersiveengineering:metal:1>]
     ]);

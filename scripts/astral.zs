@@ -66,6 +66,7 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe(<extrautils2:endershard>*8, 100
 /*=========================
 Attunment Altar (Starlight Altar) 3x3 + 4
 =========================*/
+/*
 val lensNbt = <astralsorcery:blocklens>.withTag({astralsorcery: {crystalProperties: {collectiveCapability: 100, size: 400, purity: 100}}});
 mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:blocklens>, 1);
 mods.astralsorcery.Altar.addAttunmentAltarRecipe(lensNbt, 500, 100, [
@@ -74,6 +75,16 @@ mods.astralsorcery.Altar.addAttunmentAltarRecipe(lensNbt, 500, 100, [
     psiDust, psiDust, psiDust, 
     null, null, 
     <ore:blockMarble>, <ore:blockMarble>
+    ]);
+*/
+
+mods.astralsorcery.Altar.removeAltarRecipe(<astralsorcery:itemlinkingtool>, 1);
+mods.astralsorcery.Altar.addAttunmentAltarRecipe(<astralsorcery:itemlinkingtool>, 300, 60, [
+    <ore:stickWood>, psiDust, null,
+    <ore:stickWood>, <astralsorcery:itemrockcrystalsimple>, psiDust,
+    <ore:logWood>, <ore:stickWood>, <ore:stickWood>,
+    null, null, 
+    <ore:logWood>, null
     ]);
 
 mods.astralsorcery.Altar.addAttunmentAltarRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:vindication_illager"}}), 500, 100, [

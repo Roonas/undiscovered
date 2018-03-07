@@ -124,6 +124,17 @@ oreinjectionvodka.onItemUse = function(player, world, pos, hand, facing, blockHi
 };
 oreinjectionvodka.register();
 
+var butterflyspray = VanillaFactory.createItem("butterflyspray");
+butterflyspray.maxStackSize = 1;
+butterflyspray.itemRightClick = function(stack, world, player, hand) {
+    Commands.call("forestry butterfly kill", player, world);
+    if (world.remote) {
+        player.sendChat("A million tiny butterflies cry out and were suddenly silenced");
+    }
+    return "Pass";
+};
+butterflyspray.register();
+
 var oreinjection = VanillaFactory.createItem("oreinjection");
 oreinjection.register();
 

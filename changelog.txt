@@ -14,7 +14,13 @@ Changed the plate used in pulverizer recipe because one player hated the crushin
 Adjusted new IE insulated wire recipes a bit
 Added quests for metamorphic stone and deep dark
 Added quests for lost city dim
-Fiddled with quest book (some new quest, some new descriptions, some new rewards)
+Added rewards to farming chapter
+More fiddling with quest book (some new quest, some new descriptions, some new rewards)
+Added little things to LC and deep dark world gen
+Removed custom recipe for AS lens due to lack of nbt support
+Added an alt recipe for end crystal
+Dropped singularities input down to 2k 
+Added butterfly poison
 ~downgrade crafttweaker 
 ~update harvest craft
 
