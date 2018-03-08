@@ -29,7 +29,7 @@ recipes.addShaped("me chest", <appliedenergistics2:chest>, [
     ]);
 
 recipes.addShapeless("silicon", <appliedenergistics2:material:5> * 4, [
-    <extrautils2:compressedsand>, <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}})
+    <extrautils2:compressedsand>, <contenttweaker:oreinjectionvodka>
     ]);
 
 recipes.addShaped("1k component", <appliedenergistics2:material:35>, [[<ore:rodTin>, <appliedenergistics2:material:1>, <ore:rodTin>], [<appliedenergistics2:material:1>, <advgenerators:controller>, <appliedenergistics2:material:1>], [<ore:rodTin>, <appliedenergistics2:material:1>, <ore:rodTin>]]);

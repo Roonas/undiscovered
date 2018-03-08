@@ -74,19 +74,19 @@ recipes.addShaped("kiln brick", kilnBrick, [
     [<minecraft:brick>, <ore:gemBrick>]
     ]);
 
-//recipes.removeShapeless(copperGrit);
+
 recipes.addShapeless(copperGrit * 2, [
-    <ore:oreCopper>, vodkaBottle
+    <ore:oreCopper>, <contenttweaker:oreinjectionvodka>
     ]);
 
 recipes.addShapeless(ironGrit * 2, [
-    <minecraft:iron_ore>, vodkaBottle
+    <minecraft:iron_ore>, <contenttweaker:oreinjectionvodka>
     ]);
 recipes.addShapeless(alumGrit * 2, [
-    <immersiveengineering:ore:1>, vodkaBottle
+    <immersiveengineering:ore:1>, <contenttweaker:oreinjectionvodka>
     ]);
 recipes.addShapeless(goldGrit * 2, [
-    <minecraft:gold_ore>, vodkaBottle
+    <minecraft:gold_ore>, <contenttweaker:oreinjectionvodka>
     ]);
 
 recipes.removeShaped(lightEng);
@@ -278,7 +278,9 @@ recipes.addShapeless(<immersiveengineering:wirecoil:6>, [
 /*=========================
 Bottling Machine
 =========================*/
-mods.immersiveengineering.BottlingMachine.addRecipe(vodkaBottle, <minecraft:glass_bottle>, <liquid:binnie.vodka> * 1000);
+mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:oreinjectionvodka>, <contenttweaker:oreinjection>, <liquid:binnie.vodka> * 1000);
+mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:oreinjectionaero>, <contenttweaker:oreinjection>, <liquid:aerotheum> * 1000);
+mods.immersiveengineering.BottlingMachine.addRecipe(<contenttweaker:oreinjectiondna>, <contenttweaker:oreinjection>, <liquid:liquiddna> * 1000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<thermalfoundation:material:135>, <forestry:wax_cast>, <liquid:iridium> * 1000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<draconicevolution:dragon_heart>, <contenttweaker:heartcast>, <liquid:dblood> * 1000);
 mods.immersiveengineering.BottlingMachine.addRecipe(mithrilCan, <forestry:can>, <liquid:mithril> * 1000);
@@ -286,6 +288,7 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:experience_bottle
 mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:experience_bottle>, <minecraft:glass_bottle>, <liquid:essence> * 500);
 mods.immersiveengineering.BottlingMachine.addRecipe(<silentgems:nodemover>, <silentgems:craftingmaterial:14>, <liquid:ice> * 4000);
 mods.immersiveengineering.BottlingMachine.addRecipe(<thermalfoundation:fertilizer>, <calculator:soil>, <liquid:sewage> * 100);
+
 
 /*=========================
 Coke Oven

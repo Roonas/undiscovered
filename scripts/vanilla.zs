@@ -68,8 +68,6 @@ furnace.setFuel(<extrabees:propolis:7>, 1000);
 
 recipes.remove(<magneticraft:rocky_chunks:5>);
 recipes.remove(<jaopca:item_dustdirtytungsten>);
-//recipes.remove(<appliedfluidics:quartz_bucket_certus>);
-//recipes.remove(<appliedfluidics:quartz_bucket_nether>);
 
 vanilla.seeds.removeSeed(<extrautils2:redorchid>);
 vanilla.seeds.addSeed(<extrautils2:redorchid> % 1);

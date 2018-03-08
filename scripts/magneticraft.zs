@@ -27,14 +27,12 @@ recipes.addShaped("crushing table", <magneticraft:crushing_table>, [
     ]);
 
 recipes.addShapeless(<magneticraft:rocky_chunks:5> * 2, [
-    <ore:oreTungsten>, dnaCan
+    <ore:oreTungsten>, <contenttweaker:oreinjectiondna>
     ]);
 
-/*
 recipes.addShapeless(<magneticraft:chunks:5> * 2, [
-    rockyTungsten, crystalOilBucket
+    <ore:oreTungsten>, <contenttweaker:oreinjectionaero>
     ]);
-*/
 
 recipes.addShapeless("tungsten block to ingot", <magneticraft:ingots:5> * 9, [
     <ore:blockTungsten>

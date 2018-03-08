@@ -1,4 +1,9 @@
 var scrapBag = <scrap:scrap>.withTag({TABLE: "scrap:scrap", PLATE: "d1a77f", GEAR: "d0c2ba", NAME: "scrap"});
+var liquidTube = <stevescarts:modulecomponents:65>;
+var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}});
+var vodkaBucket = <forge:bucketfilled>.withTag({FluidName: "binnie.vodka", Amount: 1000});
+var aeroBucket = <forge:bucketfilled>.withTag({FluidName: "aerotheum", Amount: 1000});
+var dnaBucket = <forge:bucketfilled>.withTag({FluidName: "liquiddna", Amount: 1000});
 
 mods.jei.JEI.addDescription(<contenttweaker:entitykiller>, "It kills stuff");
 mods.jei.JEI.addDescription(<contenttweaker:bqmupdate>, "Run once to sync new quests after updating pack versions");
@@ -307,4 +312,28 @@ recipes.addShaped(<contenttweaker:butterflyspray>, [
     [null, <immersiveengineering:metal:1>, null],
     [<immersiveengineering:metal:1>, <forestry:can>, <immersiveengineering:metal:1>], 
     [<immersiveengineering:metal:1>, <forge:bucketfilled>.withTag({FluidName: "evilcraftpoison", Amount: 1000}), <immersiveengineering:metal:1>]
+    ]);
+
+recipes.addShaped("empty injector", <contenttweaker:oreinjection>, [
+    [null, <evilcraft:dark_spike>, <evilcraft:dark_spike>],
+    [null, <minecraft:glass_bottle>, <evilcraft:dark_spike>], 
+    [<silentgems:craftingmaterial:7>, null, null]
+    ]);
+
+recipes.addShaped("vodka injector", <contenttweaker:oreinjectionvodka>, [
+    [null, vodkaBucket, null],
+    [null, liquidTube, null],
+    [null, <contenttweaker:oreinjection>, null]
+    ]);
+
+recipes.addShaped("aero injector", <contenttweaker:oreinjectionaero>, [
+    [null, <contenttweaker:oreinjection>, null],
+    [null, liquidTube, null],
+    [null, aeroBucket, null]
+    ]);
+
+recipes.addShaped("dna injector", <contenttweaker:oreinjectiondna>, [
+    [dnaBucket],
+    [liquidTube],
+    [<contenttweaker:oreinjection>]
     ]);

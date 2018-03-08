@@ -20,9 +20,12 @@ Added little things to LC and deep dark world gen
 Removed custom recipe for AS lens due to lack of nbt support
 Added an alt recipe for end crystal
 Dropped singularities input down to 2k 
+Various forgotten recipe tweaks
 Added butterfly poison
+Added ore injection tool to replace ore + bottle recipes
 ~downgrade crafttweaker 
 ~update harvest craft
+~update content tweaker
 
 Mod Updates (needs testing):
 -Forge 14.23.2.2611
@@ -40,15 +43,15 @@ Mod Updates (needs testing):
 -Extra Utilities
 -Immersive Engineering (Test wires damage/ insulated recipes/ new configs. Check Mixer 1:1 in CT script)
 -Industrial Foregoing
--Iron Chests (check upgrade recipes)
+-Iron Chests 
 -JEHC
 -JEI
--Magneticraft (New machines ginder, sieve, wind turbine, solar. sluice box CT api changed)
+-Magneticraft 
 -McJtyLib
 -ModTweaker
 -MTLib
 -p455w0rd's Library
--Pam's Harvest Craft (regen configs)
+-Pam's Harvest Craft
 -Placebo
 -Reborn Core
 -Reliquary
@@ -60,9 +63,6 @@ Mod Updates (needs testing):
 -Xtones
 Add:
 -FastWorkBench
--LagGoggles
-Remove:
--TickProfiler
 
 
 2.6.0

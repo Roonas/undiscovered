@@ -47,7 +47,6 @@ mthand.register();
 
 var oreinjectionaero = VanillaFactory.createItem("oreinjectionaero");
 oreinjectionaero.maxStackSize = 16;
-oreinjectionaero.setMaxDamage(10);
 oreinjectionaero.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     var blocky = world.getBlockState(pos);
     if(blocky == <block:magneticraft:ores:3>){
@@ -64,7 +63,6 @@ oreinjectionaero.register();
 
 var oreinjectiondna = VanillaFactory.createItem("oreinjectiondna");
 oreinjectiondna.maxStackSize = 16;
-oreinjectiondna.setMaxDamage(10);
 oreinjectiondna.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     var blocky = world.getBlockState(pos);
     if(blocky == <block:magneticraft:ores:3>){
@@ -81,7 +79,6 @@ oreinjectiondna.register();
 
 var oreinjectionvodka = VanillaFactory.createItem("oreinjectionvodka");
 oreinjectionvodka.maxStackSize = 16;
-oreinjectionvodka.setMaxDamage(10);
 oreinjectionvodka.onItemUse = function(player, world, pos, hand, facing, blockHit) {
     var blocky = world.getBlockState(pos);
     if(blocky == <block:thermalfoundation:ore>){
