@@ -1328,6 +1328,7 @@
     "name": "station_underground_stairs",
     "xsize": 16,
     "zsize": 16,
+    "palette": "rails",
     "slices": [
       [
         "yyyyyyyyyyyyyyyy",
@@ -1445,6 +1446,7 @@
     "name": "rail_dungeon1",
     "xsize": 16,
     "zsize": 16,
+	"palette": "rails",
     "slices": [
       [
         "yyyyyyyyyyyyyyyy",

@@ -1,6 +1,60 @@
 [
   {
     "type": "palette",
+    "name": "rails",
+    "palette": [
+      {
+        "char": "k",
+        "block": "minecraft:rail"
+      },
+      {
+        "char": "e",
+        "block": "minecraft:rail@1"
+      },
+      {
+        "char": "j",
+        "block": "minecraft:rail@2"
+      },
+      {
+        "char": "q",
+        "block": "minecraft:rail@6"
+      },
+      {
+        "char": "s",
+        "block": "minecraft:rail@7"
+      },
+      {
+        "char": "r",
+        "block": "minecraft:rail@8"
+      },
+      {
+        "char": "n",
+        "block": "minecraft:rail@9"
+      },
+      {
+        "char": "m",
+        "block": "minecraft:golden_rail@8"
+      },
+      {
+        "char": "E",
+        "block": "minecraft:golden_rail@13"
+      },
+      {
+        "char": "H",
+        "block": "minecraft:golden_rail@12"
+      },
+      {
+        "char": "f",
+        "block": "minecraft:golden_rail@9"
+      },
+      {
+        "char": "i",
+        "block": "minecraft:golden_rail@10"
+      }
+    ]
+  },
+  {
+    "type": "palette",
     "name": "common",
     "palette": [
       {
@@ -266,52 +320,29 @@
         "block": "minecraft:glowstone"
       },
       {
-        "char": "k",
-        "block": "minecraft:rail"
-      },
-      {
-        "char": "j",
-        "block": "minecraft:rail@2"
-      },
-      {
-        "char": "e",
-        "block": "minecraft:rail@1"
-      },
-      {
-        "char": "n",
-        "block": "minecraft:rail@9"
-      },
-      {
-        "char": "r",
-        "block": "minecraft:rail@8"
-      },
-      {
-        "char": "q",
-        "block": "minecraft:rail@6"
-      },
-      {
-        "char": "s",
-        "block": "minecraft:rail@7"
-      },
-      {
-        "char": "m",
-        "block": "minecraft:golden_rail@8"
-      },
-      {
-        "char": "f",
-        "block": "minecraft:golden_rail@9"
-      },
-      {
-        "char": "i",
-        "block": "minecraft:golden_rail@10"
-      },
-      {
         "char": "g",
         "block": "minecraft:redstone_torch@5"
       },
       {
         "char": "Z",
-        "block": "minecraft:glass"
+        "blocks": [
+          {
+            "random": 32,
+            "block": "minecraft:glass"
+          },
+          {
+            "random": 32,
+            "block": "minecraft:stained_glass@7"
+          },
+          {
+            "random": 32,
+            "block": "minecraft:stained_glass@11"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:stained_glass@3"
+          }
+        ]
       },
       {
         "char": "?",
@@ -320,27 +351,6 @@
       {
         "char": ",",
         "block": "randomthings:contactbutton"
-      },
-      {
-        "char": "P",
-        "blocks": [
-          {
-            "random": 32,
-            "block": "minecraft:sapling"
-          },
-          {
-            "random": 32,
-            "block": "minecraft:sapling@1"
-          },
-          {
-            "random": 32,
-            "block": "minecraft:sapling@2"
-          },
-          {
-            "random": 1000,
-            "block": "minecraft:sapling@4"
-          }
-        ]
       },
       {
         "char": "p",
@@ -636,6 +646,11 @@
     "railblocks": {
       "railmain": "y"
     },
+	"sphereblocks": {
+      "glass": "Z",
+      "border": "X",
+      "inner": "b"
+    },
     "buildings": [
       {
         "factor": 0.4,
@@ -656,6 +671,10 @@
       {
         "factor": 0.3,
         "building": "building5"
+      },
+      {
+        "factor": 0.28,
+        "building": "flukebld"
       }
     ],
     "multibuildings": [
@@ -788,6 +807,14 @@
       {
         "factor": 0.3,
         "park": "park_building2"
+      },
+      {
+        "factor": 0.1,
+        "park": "flukechaos"
+      },
+      {
+        "factor": 0.12,
+        "park": "flukegarden"
       }
     ],
     "raildungeons": [
@@ -1936,6 +1963,29 @@
     "name": "park_trees",
     "xsize": 16,
     "zsize": 16,
+	"palette": [
+      {
+        "char": "P",
+        "blocks": [
+          {
+            "random": 32,
+            "block": "minecraft:sapling"
+          },
+          {
+            "random": 32,
+            "block": "minecraft:sapling@1"
+          },
+          {
+            "random": 32,
+            "block": "minecraft:sapling@2"
+          },
+          {
+            "random": 1000,
+            "block": "minecraft:sapling@4"
+          }
+        ]
+      }
+    ],
     "slices": [
       [
         "                ",
