@@ -2,6 +2,7 @@
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
+import crafttweaker.game.IGame;
 
 val metalOres = [
         <ore:oreAluminum>,
@@ -113,7 +114,6 @@ val hiddenItems = [
 
 
 //Removed items from the redstone furnace and exu crusher show they show up less in JEI
-
 for oreEntry in metalOres{
     for item in oreEntry.items{
         mods.thermalexpansion.RedstoneFurnace.removeRecipe(item);
@@ -145,4 +145,4 @@ for item in hiddenItems{
 }      
 
 //Misc clean up
-<ore:ingotOsmium>.remove(<magneticraft:ingots:11>);      
+<ore:ingotOsmium>.remove(<magneticraft:ingots:11>);

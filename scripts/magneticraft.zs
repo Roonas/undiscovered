@@ -10,6 +10,8 @@ var heavyLeadPlate = <magneticraft:heavy_plates:3>;
 var hempFabric = <immersiveengineering:material:5>;
 var meshFabric = <magneticraft:crafting:6>;
 
+<magneticraft:dusts>.addTooltip("Cannot be used in crafting recipes");
+
 recipes.remove(<ore:ingotTungsten>);
 recipes.remove(wolframiteOre);
 //recipes.remove(<magneticraft:thermopile>);

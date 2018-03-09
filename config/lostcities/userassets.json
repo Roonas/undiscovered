@@ -1193,6 +1193,7 @@
     "name": "station_openroof",
     "xsize": 16,
     "zsize": 16,
+    "palette": "rails",
     "slices": [
       [
         "yyyyyyyyyyyyyyyy",

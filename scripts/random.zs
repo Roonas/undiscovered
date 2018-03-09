@@ -24,6 +24,7 @@ mods.jei.JEI.hide(<contenttweaker:mthand>);
 <ore:brokenPlate>.add(<scrap:broken.plate:*>);
 <ore:plankWood>.add(<contenttweaker:holyplank>);
 <cookingforblockheads:sink>.addTooltip(format.red("Needs water pumped in"));
+<extrautils2:passivegenerator:6>.addTooltip(format.red("CANNOT BE MOVED ONCE PLACED"));
 <extrautils2:machine>.withTag({Type: "extrautils2:furnace"}).addTooltip(format.red("Disabled"));
 <thermalexpansion:machine>.addTooltip(format.red("Disabled"));
 <thermalexpansion:device:8>.addTooltip(format.red("Disabled"));

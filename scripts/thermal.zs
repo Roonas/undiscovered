@@ -307,7 +307,7 @@ Pulverizer
 mods.thermalexpansion.Pulverizer.removeRecipe(iridiumOre);
 mods.thermalexpansion.Pulverizer.removeRecipe(<draconicevolution:draconium_ore>);
 mods.thermalexpansion.Pulverizer.removeRecipe(platinumOre);
-mods.thermalexpansion.Pulverizer.removeRecipe(wolframiteOre);
+//mods.thermalexpansion.Pulverizer.removeRecipe(wolframiteOre);
 
 /*=========================
 Fluid Transposer
@@ -333,6 +333,7 @@ mods.thermalexpansion.Refinery.addRecipe(<liquid:binnie.spirit.neutral> * 250, <
 mods.thermalexpansion.Refinery.addRecipe(<liquid:sludge> * 250, <contenttweaker:crystalsludge>%3, <liquid:sewage> * 1000, 3000);
 mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 250, <actuallyadditions:item_solidified_experience>%3, <liquid:xpjuice> * 1000, 10000);
 mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 250, <actuallyadditions:item_solidified_experience>%3, <liquid:essence> * 1000, 10000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:mithril> * 200, <thermalfoundation:material:198>%90, <liquid:mithril> * 100, 5000);
 
 /*=========================
 Sawmill

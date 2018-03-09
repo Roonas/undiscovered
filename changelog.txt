@@ -15,6 +15,7 @@ Adjusted new IE insulated wire recipes a bit
 Added quests for metamorphic stone and deep dark
 Added quests for lost city dim
 Added rewards to farming chapter
+Added lore to advanced infrastrucre chapter
 More fiddling with quest book (some new quest, some new descriptions, some new rewards)
 Added little things to LC and deep dark world gen
 Removed custom recipe for AS lens due to lack of nbt support
@@ -23,6 +24,8 @@ Dropped singularities input down to 2k
 Various forgotten recipe tweaks
 Added butterfly poison
 Added ore injection tool to replace ore + bottle recipes
+Fixed custom lost city buildings/gardens not spawning
+Renamed magneticraft dusts so its more clear they can't be used for crafting
 ~downgrade crafttweaker 
 ~update harvest craft
 ~update content tweaker

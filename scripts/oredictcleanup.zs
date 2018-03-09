@@ -281,7 +281,6 @@ furnace.addRecipe(<mekanism:ingot:1>, <magneticraft:chunks:11>, 2);
 furnace.addRecipe(<mekanism:ingot:1>, <magneticraft:dusts:11>, 2);
 
 
-
 //will hopefully remove various unused ores from auto ore methods
 <ore:oreCopper>.remove(<mekanism:oreblock:1>);
 <ore:oreCopper>.remove(<immersiveengineering:ore>);
@@ -296,9 +295,43 @@ furnace.addRecipe(<mekanism:ingot:1>, <magneticraft:dusts:11>, 2);
 <ore:oreAluminium>.remove(<thermalfoundation:ore:4>);
 <ore:oreAluminum>.remove(<thermalfoundation:ore:4>);
 <ore:oreNickel>.remove(<immersiveengineering:ore:4>);
+
+
+//magneticraft dust only for smelting into ingots, remove from oredict for recipes
+<ore:dustIron>.remove(<magneticraft:dusts>);
+<ore:dustGold>.remove(<magneticraft:dusts:1>);
+<ore:dustCopper>.remove(<magneticraft:dusts:2>);
+<ore:dustLead>.remove(<magneticraft:dusts:3>);
+<ore:dustCobalt>.remove(<magneticraft:dusts:4>);
+<ore:dustTungsten>.remove(<magneticraft:dusts:5>);
+<ore:dustSteel>.remove(<magneticraft:dusts:6>);
+<ore:dustAluminium>.remove(<magneticraft:dusts:7>);
+<ore:dustAluminum>.remove(<magneticraft:dusts:7>);
+<ore:dustMithril>.remove(<magneticraft:dusts:9>);
+<ore:dustNickel>.remove(<magneticraft:dusts:10>);
+<ore:dustOsmium>.remove(<magneticraft:dusts:11>);
+<ore:dustSilver>.remove(<magneticraft:dusts:12>);
+<ore:dustTin>.remove(<magneticraft:dusts:13>);
+<ore:dustZinc>.remove(<magneticraft:dusts:14>);
+
+//change magneticraft dust names since they have been removed from dust oredict
+game.setLocalization("en_us", "item.magneticraft.dusts_iron.name", "Iron Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_gold.name", "Gold Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_copper.name", "Copper Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_lead.name", "Lead Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_cobalt.name", "Cobalt Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_tungsten.name", "Tungsten Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_steel.name", "Steel Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_aluminium.name", "Aluminium Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_silver.name", "Silver Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_mithril.name", "Mithril Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_tin.name", "Tin Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_zinc.name", "Zinc Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_osmium.name", "Osmium Concentrate");
+game.setLocalization("en_us", "item.magneticraft.dusts_nickel.name", "Nickel Concentrate");
+
+
 <ore:oreFoolsGold>.add(<magneticraft:ores:4>);
-
-
 <ore:gemBrick>.add(<silentgems:gembrickcoated:*>);
 <ore:gemBrick>.add(<silentgems:gembrickcoateddark:*>);
 <ore:gemBrick>.add(<silentgems:gembrickcoatedlight:*>);

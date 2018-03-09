@@ -6737,8 +6737,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        102,
-        115
+        115,
+        358
       ],
       "questID": 101
     },
@@ -6808,7 +6808,7 @@
             "Damage": 136
           },
           "globalshare": false,
-          "questlogic": "AND",
+          "questlogic": "OR",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
@@ -6850,8 +6850,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        104,
-        105
+        353,
+        352
       ],
       "questID": 103
     },
@@ -6979,7 +6979,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        71
+        71,
+        356
       ],
       "questID": 105
     },
@@ -7193,7 +7194,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        72
+        72,
+        355
       ],
       "questID": 109
     },
@@ -7294,7 +7296,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        71
+        71,
+        355
       ],
       "questID": 111
     },
@@ -7500,7 +7503,7 @@
       ],
       "rewards": [],
       "preRequisites": [
-        116
+        357
       ],
       "questID": 115
     },
@@ -8378,7 +8381,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        71
+        71,
+        356
       ],
       "questID": 124
     },
@@ -15759,54 +15763,6 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "globalshare": false,
-          "questlogic": "AND",
-          "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
-          "ismain": false,
-          "name": "Template",
-          "desc": "Hi, I\u0027m a place holder. I\u0027ll disappear eventually"
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [],
-      "questID": 248
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "issilent": false,
-          "snd_complete": "minecraft:entity.player.levelup",
-          "lockedprogress": false,
-          "tasklogic": "AND",
-          "repeattime": -1,
-          "simultaneous": false,
-          "icon": {
             "id": "psi:cad_assembly",
             "Count": 1,
             "OreDict": "",
@@ -17589,56 +17545,6 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:nether_star",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "globalshare": false,
-          "questlogic": "AND",
-          "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
-          "ismain": false,
-          "name": "Tempy",
-          "desc": "just a template"
-        }
-      },
-      "tasks": [
-        {
-          "partialMatch": true,
-          "ignoreNBT": true,
-          "consume": false,
-          "groupDetect": false,
-          "autoConsume": false,
-          "requiredItems": [
-            {
-              "id": "minecraft:stone",
-              "Count": 1,
-              "OreDict": "",
-              "Damage": 0
-            }
-          ],
-          "taskID": "bq_standard:retrieval",
-          "index": 0
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [
-        154
-      ],
-      "questID": 274
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "issilent": false,
-          "snd_complete": "minecraft:entity.player.levelup",
-          "lockedprogress": false,
-          "tasklogic": "AND",
-          "repeattime": -1,
-          "simultaneous": false,
-          "icon": {
             "id": "astralsorcery:blockstarlightinfuser",
             "Count": 1,
             "OreDict": "",
@@ -18628,41 +18534,6 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Story template",
-          "desc": "Hi bby ;)"
-        }
-      },
-      "tasks": [
-        {
-          "taskID": "bq_standard:checkbox",
-          "index": 0
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [],
-      "questID": 291
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "issilent": false,
-          "snd_complete": "minecraft:entity.player.levelup",
-          "lockedprogress": false,
-          "tasklogic": "AND",
-          "repeattime": -1,
-          "simultaneous": false,
-          "icon": {
-            "id": "minecraft:writable_book",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "globalshare": false,
-          "questlogic": "AND",
-          "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
-          "ismain": false,
           "name": "The Only Child #2",
           "desc": "This is the magic of my father: a magic of blood and earth and viscera, born of rage and fear.  A magic of chaos."
         }
@@ -19117,41 +18988,6 @@
         253
       ],
       "questID": 302
-    },
-    {
-      "properties": {
-        "betterquesting": {
-          "issilent": false,
-          "snd_complete": "minecraft:entity.player.levelup",
-          "lockedprogress": false,
-          "tasklogic": "AND",
-          "repeattime": -1,
-          "simultaneous": false,
-          "icon": {
-            "id": "minecraft:writable_book",
-            "Count": 1,
-            "OreDict": "",
-            "Damage": 0
-          },
-          "globalshare": false,
-          "questlogic": "AND",
-          "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": false,
-          "ismain": false,
-          "name": "Story Template",
-          "desc": "You strong, you loyal, dont play yourself"
-        }
-      },
-      "tasks": [
-        {
-          "taskID": "bq_standard:checkbox",
-          "index": 0
-        }
-      ],
-      "rewards": [],
-      "preRequisites": [],
-      "questID": 303
     },
     {
       "properties": {
@@ -22170,6 +22006,282 @@
         269
       ],
       "questID": 351
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": true,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "visibility": "HIDDEN",
+          "simultaneous": false,
+          "icon": {
+            "id": "rftoolsdim:dimlet_control_circuit",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Hidden Mana Ingot",
+          "desc": "Unlocks for players who used other methods to make mana infused ingots."
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        184
+      ],
+      "questID": 352
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "OR",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "immersiveengineering:mold",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 7
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Forming the Unusual Alloy",
+          "desc": "Mana infused ingots can be obtained by compressing the canned molten metal in an IE press or reduced in the TE fractioning still and collecting the nuggets as the molten metal reduces."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": false,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "forestry:can",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "mithril",
+                  "Amount:3": 1000
+                }
+              }
+            },
+            {
+              "id": "immersiveengineering:mold",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalexpansion:machine",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 7,
+              "tag": {
+                "RSControl:1": 0,
+                "Facing:1": 3,
+                "Energy:3": 0,
+                "SideCache:7": [
+                  1,
+                  2,
+                  3,
+                  3,
+                  3,
+                  3
+                ],
+                "Level:1": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        104,
+        105
+      ],
+      "questID": 353
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "OR",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Chemist’s Research #2",
+          "desc": "Nature may abhor a vacuum… but this world adores a vacuum tube.  Every variation I try seems to interact with the world around it in a different way.  Some of them light up in my hand the second I create them, others it takes more investigation but all seem to be useful in a variety of ways.  Many of them have proved excellent in the automation of various farms and growth varieties but their most promising use by far has been in automation and logistics, which frees my time for more pressing pursuits"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        71,
+        72
+      ],
+      "questID": 355
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Chemist’s Research #1",
+          "desc": "The wildlife of this world, which seemed at first little more than a painful annoyance (especially the bees), seems to interact with the unrecognizable minerals in exciting ways.  I’ve tried combining them in different iterations and have already discovered at least two useful byproducts."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        71
+      ],
+      "questID": 356
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Chemist’s Research #3",
+          "desc": "Matter and energy may or may not be interchangeable in this world,  but they are certainly changeable.  Exposing certain minerals to focused laser beams seems to transform them into a more powerful and unpredictable variation and I have begun toying with lenses which cause even more spectacular results!  My newest experiments involve converting various samples of matter into beams of energy that the altered crystal matrices of reconstructed minerals seem to be able to absorb, causing stranger and stranger matter states to coalesce.  They aren’t stable yet, but I remain optimistic that with further experimentation I will succeed."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        116
+      ],
+      "questID": 357
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Chemist’s Research #4",
+          "desc": "Now that I have my empowered mineral variants, I can see how truly interconnected the weird physics of this world is. Some sort of mathemagnetic field seems to swirl around them, affecting nearby matter.  I am now experimenting with how these fields interact, exposing items to each other and seeing what strange new form of matter comes out the other side. Some things combine easily, others need more complex mathematics to stabilize the reaction.  For the most dramatic effects, I have found it necessary to add vast amounts of energy into the equation, and the natural electricity formed by the magnetosphere of this planet seems to be the most efficacious of all.  With my conductor mast I am toying with very powerful and dangerous tools indeed.  It\u0027s a good thing I shall only use my powers for good! Mostly..."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        102
+      ],
+      "questID": 358
     }
   ],
   "questLines": [
@@ -22448,12 +22560,6 @@
           "x": 24,
           "y": 216,
           "id": 343
-        },
-        {
-          "size": 24,
-          "x": 258,
-          "y": 0,
-          "id": 303
         },
         {
           "size": 24,
@@ -22783,7 +22889,7 @@
         }
       ],
       "lineID": 2,
-      "order": 3
+      "order": 5
     },
     {
       "properties": {
@@ -22989,7 +23095,7 @@
         }
       ],
       "lineID": 3,
-      "order": 4
+      "order": 6
     },
     {
       "properties": {
@@ -23033,15 +23139,39 @@
         },
         {
           "size": 24,
+          "x": 156,
+          "y": 78,
+          "id": 352
+        },
+        {
+          "size": 24,
+          "x": 162,
+          "y": 42,
+          "id": 353
+        },
+        {
+          "size": 24,
           "x": -24,
           "y": 12,
           "id": 227
         },
         {
           "size": 24,
+          "x": 222,
+          "y": -18,
+          "id": 355
+        },
+        {
+          "size": 24,
           "x": 6,
           "y": 42,
           "id": 228
+        },
+        {
+          "size": 24,
+          "x": 162,
+          "y": -18,
+          "id": 356
         },
         {
           "size": 24,
@@ -23057,15 +23187,27 @@
         },
         {
           "size": 24,
-          "x": 72,
-          "y": 42,
-          "id": 102
+          "x": 36,
+          "y": 12,
+          "id": 357
         },
         {
           "size": 24,
           "x": 102,
           "y": 42,
+          "id": 102
+        },
+        {
+          "size": 24,
+          "x": 132,
+          "y": 42,
           "id": 230
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": 42,
+          "id": 358
         },
         {
           "size": 24,
@@ -23111,7 +23253,7 @@
         },
         {
           "size": 24,
-          "x": 222,
+          "x": 252,
           "y": -18,
           "id": 109
         },
@@ -23165,8 +23307,8 @@
         },
         {
           "size": 24,
-          "x": -48,
-          "y": 66,
+          "x": 156,
+          "y": 156,
           "id": 184
         },
         {
@@ -23195,7 +23337,7 @@
         }
       ],
       "lineID": 4,
-      "order": 5
+      "order": 3
     },
     {
       "properties": {
@@ -23317,7 +23459,7 @@
         }
       ],
       "lineID": 5,
-      "order": 8
+      "order": 4
     },
     {
       "properties": {
@@ -23535,12 +23677,6 @@
         },
         {
           "size": 24,
-          "x": 384,
-          "y": 12,
-          "id": 291
-        },
-        {
-          "size": 24,
           "x": 294,
           "y": 42,
           "id": 292
@@ -23655,12 +23791,6 @@
         },
         {
           "size": 24,
-          "x": 384,
-          "y": 42,
-          "id": 248
-        },
-        {
-          "size": 24,
           "x": 30,
           "y": 42,
           "id": 249
@@ -23703,7 +23833,7 @@
         }
       ],
       "lineID": 6,
-      "order": 6
+      "order": 7
     },
     {
       "properties": {
@@ -23841,12 +23971,6 @@
       "quests": [
         {
           "size": 24,
-          "x": -12,
-          "y": 0,
-          "id": 274
-        },
-        {
-          "size": 24,
           "x": 0,
           "y": 54,
           "id": 275
@@ -23925,7 +24049,7 @@
         }
       ],
       "lineID": 9,
-      "order": 7
+      "order": 8
     }
   ],
   "format": "1.0.0"
