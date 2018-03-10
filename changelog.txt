@@ -1,3 +1,9 @@
+2.7.1
+---------- 
+Fixed bqm starting in edit mode
+Fixed recipe conflict making tough fabric uncraftable 
+
+
 2.7.0
 ----------
 Reduced overall number of DE cores needed (still adjusting DE balance)
@@ -26,46 +32,44 @@ Added butterfly poison
 Added ore injection tool to replace ore + bottle recipes
 Fixed custom lost city buildings/gardens not spawning
 Renamed magneticraft dusts so its more clear they can't be used for crafting
-~downgrade crafttweaker 
-~update harvest craft
-~update content tweaker
 
-Mod Updates (needs testing):
--Forge 14.23.2.2611
--Actually Additions
--Apple Core
--Bookshelf
--Brandon's Core
--Chisel
--Comforts
--Corail Tombstone
--Craft Tweaker
--Dark Utils
--Draconic Evolution
--Extended Crafting
--Extra Utilities
--Immersive Engineering (Test wires damage/ insulated recipes/ new configs. Check Mixer 1:1 in CT script)
--Industrial Foregoing
--Iron Chests 
--JEHC
--JEI
--Magneticraft 
--McJtyLib
--ModTweaker
--MTLib
--p455w0rd's Library
--Pam's Harvest Craft
--Placebo
--Reborn Core
--Reliquary
--RFTools
--RFTools Dimensions
--Rustic
--Steve's Carts
--Toast Control
--Xtones
+Mod Updates:
+* Forge 14.23.2.2611
+* Actually Additions
+* Apple Core
+* Bookshelf
+* Brandon's Core
+* Chisel
+* Comforts
+* Content Tweaker
+* Corail Tombstone
+* Craft Tweaker
+* Dark Utils
+* Draconic Evolution
+* Extended Crafting
+* Extra Utilities
+* Immersive Engineering
+* Industrial Foregoing
+* Iron Chests 
+* JEHC
+* JEI
+* Magneticraft 
+* McJtyLib
+* ModTweaker
+* MTLib
+* p455w0rd's Library
+* Pam's Harvest Craft
+* Placebo
+* Reborn Core
+* Reliquary
+* RFTools
+* RFTools Dimensions
+* Rustic
+* Steve's Carts
+* Toast Control
+* Xtones
 Add:
--FastWorkBench
+* FastWorkBench
 
 
 2.6.0

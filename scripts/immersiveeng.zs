@@ -261,7 +261,7 @@ recipes.addShapeless(<thermalfoundation:material:33>, [
 recipes.remove(<immersiveengineering:material:5>);
 recipes.addShaped(<immersiveengineering:material:5>, [
     [null, <immersiveengineering:material:4>, null],
-    [<immersiveengineering:material:4>, <minecraft:stick>, <immersiveengineering:material:4>], 
+    [<immersiveengineering:material:4>, null, <immersiveengineering:material:4>], 
     [null, <immersiveengineering:material:4>, null]
     ]);
 
