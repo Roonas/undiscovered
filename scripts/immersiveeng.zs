@@ -377,4 +377,4 @@ mods.immersiveengineering.Crusher.addRecipe(<forestry:honey_drop>, <rustic:honey
 Mixer
 =========================*/
 mods.immersiveengineering.Mixer.addRecipe(<liquid:aerotheum> * 500, <liquid:binnie.spirit.neutral> * 500, [<contenttweaker:crystalsludge>, <magneticraft:crafting>, <extratrees:misc:5>], 50);
-mods.immersiveengineering.Mixer.addRecipe(<liquid:dblood> * 100, <liquid:evilcraftblood> * 1000, [<astralsorcery:itemcraftingcomponent:2>, <botania:manaresource:8>, <industrialforegoing:pink_slime>, <evilcraft:vengeance_essence>], 120);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:dblood> * 500, <liquid:evilcraftblood> * 500, [<astralsorcery:itemcraftingcomponent:2>, <botania:manaresource:8>, <industrialforegoing:pink_slime>, <evilcraft:vengeance_essence>], 120);

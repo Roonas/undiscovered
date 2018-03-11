@@ -276,10 +276,10 @@ recipes.addShaped(<thermaldynamics:relay> * 2, [
 /*=========================
 Crucible
 =========================*/    
-//mods.thermalexpansion.Crucible.removeRecipe(<thermalfoundation:material:135>);
 mods.thermalexpansion.Crucible.removeRecipe(<minecraft:ender_pearl>);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:platinum> * 2000, <thermalfoundation:ore:6>, 500);
 mods.thermalexpansion.Crucible.addRecipe(<liquid:cyanite> * 500, <bigreactors:dustmetals:1>, 1000);
+mods.thermalexpansion.Crucible.addRecipe(<liquid:ender> * 200, <minecraft:chorus_flower>, 2000);
 
 /*=========================
 Insolator
@@ -320,7 +320,6 @@ mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:material:2049>
 mods.thermalexpansion.Transposer.addFillRecipe(<bigreactors:ingotmetals:3>, <bigreactors:ingotmetals>, <liquid:cyanite> * 500, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<bigreactors:ingotmetals:3>, <bigreactors:ingotmetals>, <liquid:cryotheum> * 1000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<silentgems:nodemover>, <silentgems:craftingmaterial:14>, <liquid:ice> * 4000, 5000);
-//mods.thermalexpansion.Transposer.addFillRecipe(<magneticraft:chunks:5> * 2, wolframiteOre, <liquid:aerotheum> * 1000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<thermalfoundation:fertilizer>, <calculator:soil>, <liquid:sewage> * 100, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:oreinjectionvodka>, <contenttweaker:oreinjection>, <liquid:binnie.vodka> * 1000, 5000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:oreinjectionaero>, <contenttweaker:oreinjection>, <liquid:aerotheum> * 1000, 5000);
@@ -333,7 +332,8 @@ mods.thermalexpansion.Refinery.addRecipe(<liquid:binnie.spirit.neutral> * 250, <
 mods.thermalexpansion.Refinery.addRecipe(<liquid:sludge> * 250, <contenttweaker:crystalsludge>%3, <liquid:sewage> * 1000, 3000);
 mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 250, <actuallyadditions:item_solidified_experience>%3, <liquid:xpjuice> * 1000, 10000);
 mods.thermalexpansion.Refinery.addRecipe(<liquid:experience> * 250, <actuallyadditions:item_solidified_experience>%3, <liquid:essence> * 1000, 10000);
-mods.thermalexpansion.Refinery.addRecipe(<liquid:mithril> * 200, <thermalfoundation:material:198>%90, <liquid:mithril> * 100, 5000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:mithril> * 100, <thermalfoundation:material:200>%90, <liquid:mithril> * 200, 5000);
+mods.thermalexpansion.Refinery.addRecipe(<liquid:aerotheum> * 500, <thermalfoundation:material:1026>, <liquid:liquidlithium> * 1000, 2000);
 
 /*=========================
 Sawmill
@@ -366,10 +366,6 @@ for items in steelBlocks{
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:9>*8, <minecraft:iron_block>, 1200);
 mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:10>*8, <minecraft:gold_block>, 1200);
 
-
-//mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:material:8>*8, <minecraft:iron_block>, 1200);
-//mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:material:9>*8, <mekanism:basicblock:5>, 1200);
-
 /*=========================
 Centrifuge
 =========================*/  
@@ -382,6 +378,8 @@ mods.thermalexpansion.Centrifuge.addRecipe([<appliedenergistics2:material:5> % 3
 Energetic Infuser
 =========================*/ 
 mods.thermalexpansion.Infuser.addRecipe(<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block>, 1500000);
+mods.thermalexpansion.Infuser.addRecipe(<calculator:electricdiamond>, <calculator:firediamond>, 12000);
+
 
 /*=========================
 Compactor - Press 

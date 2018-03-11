@@ -1,6 +1,36 @@
 [
     {
         "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,1,1",
+        "catalyst": "draconicevolution:crafting_injector",
+        "energy": 20000,
+        "tier": 0,
+        "ingredients": [
+            "draconicevolution:draconium_block",
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_core",
+            "actuallyadditions:block_crystal_empowered,1,4",
+            "botania:storage,1,2",
+            "calculator:material,1,7"
+        ]
+    },
+    {
+        "mode": "ADD",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1",
+        "energy": 32000,
+        "tier": 1,
+        "ingredients": [
+            "draconicevolution:draconic_block",
+            "draconicevolution:wyvern_core",
+            "thermalfoundation:storage,1,8",
+            "calculator:material,1,9",
+            "evilcraft:dark_power_gem_block",
+            "evilcraft:dark_power_gem_block"
+        ]
+    },
+    {
+        "mode": "ADD",
         "result": "draconicevolution:draconic_block,4",
         "catalyst": "draconicevolution:draconium_block,4,1",
         "energy": 100000,
@@ -33,23 +63,6 @@
     },
     {
         "mode": "ADD",
-        "result": "draconicevolution:chaotic_core",
-        "catalyst": "draconicevolution:chaos_shard",
-        "energy": 175000,
-        "tier": 2,
-        "ingredients": [
-            "draconicevolution:awakened_core",
-            "draconicevolution:awakened_core",
-            "stevescarts:modulecomponents,1,49",
-            "botania:manaresource,1,5",
-            "appliedenergistics2:material,1,11",
-            "appliedenergistics2:material,1,11",
-            "extrautils2:ingredients,1,17",
-            "extrautils2:ingredients,1,17"
-        ]
-    },
-    {
-        "mode": "ADD",
         "result": "silentgems:miscblock,1,2",
         "catalyst": "draconicevolution:draconium_block",
         "energy": 50000,
@@ -66,6 +79,23 @@
         ]
     },
     {
+        "mode": "ADD",
+        "result": "draconicevolution:chaotic_core",
+        "catalyst": "draconicevolution:chaos_shard",
+        "energy": 175000,
+        "tier": 2,
+        "ingredients": [
+            "draconicevolution:awakened_core",
+            "draconicevolution:awakened_core",
+            "stevescarts:modulecomponents,1,49",
+            "botania:manaresource,1,5",
+            "appliedenergistics2:material,1,11",
+            "appliedenergistics2:material,1,11",
+            "extrautils2:ingredients,1,17",
+            "extrautils2:ingredients,1,17"
+        ]
+    },
+    {
         "mode": "REMOVE",
         "result": "draconicevolution:draconic_block",
         "catalyst": "draconicevolution:draconium_block"
@@ -79,5 +109,15 @@
         "mode": "REMOVE",
         "result": "draconicevolution:chaotic_core",
         "catalyst": "draconicevolution:chaos_shard"
-    }        
+    },  
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,1",
+        "catalyst": "draconicevolution:crafting_injector"
+    },  
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:crafting_injector,1,2",
+        "catalyst": "draconicevolution:crafting_injector,1,1"
+    }          
 ]

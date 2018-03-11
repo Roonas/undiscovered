@@ -22,7 +22,7 @@ recipes.addShaped("machine case", <contenttweaker:expertcase>, [
 
 recipes.addShaped("adv mfr case", <contenttweaker:advancedcase>, [
     [<forestry:thermionic_tubes:10>, <forestry:crafting_material:1>, <forestry:thermionic_tubes:10>], 
-    [<forestry:crafting_material:1>, <ore:blockSteel>, <forestry:crafting_material:1>], 
+    [<forestry:crafting_material:1>, <ore:blockLead>, <forestry:crafting_material:1>], 
     [<forestry:thermionic_tubes:10>, <forestry:crafting_material:1>, <forestry:thermionic_tubes:10>]
     ]);
 

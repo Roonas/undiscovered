@@ -1,3 +1,20 @@
+2.8.0
+---------- 
+Fleshed out the final tech chapter with more quests
+Made infusion crafter tier upgrade recipes more difficult
+Enabled setting for players to delete their own RF dimension
+Decreased rarity 0 dimelet chance and increase rarity 6 
+Slightly increase dimension shard ore generation
+Increased rates of unusal liquids randomly chosen in dims
+Added alt recipe for calc electric diamonds
+Fixed solid heart item being eaten by ae2 crafting (probably)
+Fixed laser colors for empowerer recipes
+Actually removed the temp conductor mast recipes this time
+Fixed royal jelly recipes
+Fixed pure daisy recipe being very picky about how logs are placed
+Mods Added:
+ * PackMode (Peaceful players can load extra recipes for mob drops with /packmode peaceful) 
+
 2.7.1
 ---------- 
 Fixed bqm starting in edit mode

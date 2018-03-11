@@ -1,9 +1,9 @@
-#norun
+#packmode peaceful
 
 /*=========================
 Peaceful Mode - Recipe Changes
 These changes are intended for those playing without mobs and are disable by default.
-To enable these recipes, delete the "#norun" on the first line of this file and restart the pack
+To enable these recipes, run the command /packmode peaceful
 =========================*/
 
 //crush flint to gunpowder

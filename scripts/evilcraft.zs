@@ -2,9 +2,10 @@ var rusticHealthPot = <rustic:elixir>.withTag({ElixirEffects: [{Effect: "minecra
 var starmetalOre = <astralsorcery:blockcustomore:1>;
 var starmetalIngot = <astralsorcery:itemcraftingcomponent:1>;
 
-<ore:logWood>.remove(<evilcraft:undead_log>);
 
-mods.jei.JEI.addDescription(<evilcraft:inverted_potentia:1>, "Created by when inverted potentia is struck by lightning or thrown on an environmental accumulator during a thunder storm. (Check Psi smite trick or Evilcraft Sceptre of Thunder)");
+
+mods.jei.JEI.addDescription(<evilcraft:inverted_potentia:1>, "Created by when inverted potentia is struck by lightning or thrown on an environmental accumulator during a thunder storm. (Check Psi smite trick to call lightning directly or Evilcraft Sceptre of Thunder to change the weather to a thunderstorm)");
+mods.jei.JEI.addDescription(<evilcraft:vengeance_essence>, "Dropped by mob spirits when killed with a piercing vengeance focus");
 
 /*=========================
 Recipe Changes - Evilcraft

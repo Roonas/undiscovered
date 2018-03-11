@@ -146,3 +146,4 @@ for item in hiddenItems{
 
 //Misc clean up
 <ore:ingotOsmium>.remove(<magneticraft:ingots:11>);
+<ore:logWood>.remove(<evilcraft:undead_log>);

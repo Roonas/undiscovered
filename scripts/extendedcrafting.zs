@@ -226,3 +226,7 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<extendedcrafting:material:3
 mods.extendedcrafting.CombinationCrafting.addRecipe(<contenttweaker:compressed_dye>, 1000000, 15000, <extendedcrafting:storage:1>, [
     <draconicevolution:draconic_ingot>, <contenttweaker:goldclay>, <draconicevolution:draconic_ingot>, <forestry:can:1>.withTag({Fluid: {FluidName: "liquidlithium", Amount: 1000}})
     ]);
+
+mods.extendedcrafting.CombinationCrafting.addRecipe(<extrautils2:ingredients:17> * 9, 950000, 15000, <extendedcrafting:storage>, [
+    <minecraft:nether_star>, <minecraft:experience_bottle>, <astralsorcery:itemcraftingcomponent:2>, <darkutils:material>
+    ]);

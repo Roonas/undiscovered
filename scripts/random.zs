@@ -1,9 +1,13 @@
+import crafttweaker.item.IItemDefinition;
+
 var scrapBag = <scrap:scrap>.withTag({TABLE: "scrap:scrap", PLATE: "d1a77f", GEAR: "d0c2ba", NAME: "scrap"});
 var liquidTube = <stevescarts:modulecomponents:65>;
 var vodkaBottle = <binniecore:glass:1>.withTag({Fluid: {FluidName: "binnie.vodka", Amount: 1000}});
 var vodkaBucket = <forge:bucketfilled>.withTag({FluidName: "binnie.vodka", Amount: 1000});
 var aeroBucket = <forge:bucketfilled>.withTag({FluidName: "aerotheum", Amount: 1000});
 var dnaBucket = <forge:bucketfilled>.withTag({FluidName: "liquiddna", Amount: 1000});
+val solidHeart = <contenttweaker:solidheart>.definition;
+solidHeart.setContainerItem(solidHeart); //should keep the item from being used in crafting or being eaten by ae2
 
 mods.jei.JEI.addDescription(<contenttweaker:entitykiller>, "It kills stuff");
 mods.jei.JEI.addDescription(<contenttweaker:bqmupdate>, "Run once to sync new quests after updating pack versions");
@@ -19,6 +23,7 @@ mods.jei.JEI.addDescription(<akashictome:tome>, "Can hold many different books a
 mods.jei.JEI.addDescription(<harvestcraft:well>, "Infinite water, cannot be piped out.");
 mods.jei.JEI.addDescription(<contenttweaker:butterflyspray>, "Kills all butterflies in the world.");
 mods.jei.JEI.hide(<contenttweaker:mthand>);
+mods.jei.JEI.addDescription(<harvestcraft:waterfilter>, "Needs to be surrounded on 5 sides by water and filled with woven cloth");
 
 
 <ore:brokenPlate>.add(<scrap:broken.plate:*>);
@@ -139,11 +144,11 @@ recipes.addShaped("magnetic flight", <grapplemod:repeller>, [
     ]);
 
 recipes.addShapeless(<contenttweaker:heartcast>, [
-    <contenttweaker:resinplate>, <contenttweaker:solidheart>.transformReplace(<contenttweaker:solidheart>)
+    <contenttweaker:resinplate>, <contenttweaker:solidheart>
     ]);
 
 recipes.addShapeless(<contenttweaker:heartcast>, [
-    <forestry:wax_cast>, <contenttweaker:solidheart>.transformReplace(<contenttweaker:solidheart>)
+    <forestry:wax_cast>, <contenttweaker:solidheart>
     ]);
 
 recipes.addShapeless(<redstonepaste:redstonepaste>, [
@@ -299,13 +304,13 @@ recipes.addShapeless(<genetics:misc:2> * 64, [
 
 recipes.addShaped(<harvestcraft:royaljellyitem>, [
     [null, <minecraft:dye:4>, null],
-    [<minecraft:dye:4>, <rustic:fluid_bottle>, <minecraft:dye:4>], 
+    [<minecraft:dye:4>, <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "honey", Amount: 1000}}), <minecraft:dye:4>], 
     [null, <minecraft:dye:4>, null]
     ]);
 
 recipes.addShaped(<harvestcraft:royaljellyitem>, [
     [null, <minecraft:dye:4>, null],
-    [<minecraft:dye:4>, <rustic:fluid_bottle>, <minecraft:dye:4>], 
+    [<minecraft:dye:4>, <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "for.honey", Amount: 1000}}), <minecraft:dye:4>], 
     [null, <minecraft:dye:4>, null]
     ]);
 
@@ -337,4 +342,12 @@ recipes.addShaped("dna injector", <contenttweaker:oreinjectiondna>, [
     [dnaBucket],
     [liquidTube],
     [<contenttweaker:oreinjection>]
+    ]);
+
+recipes.addShapeless(<harvestcraft:vinegaritem>, [
+    <harvestcraft:potitem>, <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "wildberryjuice", Amount: 1000}})
+    ]);
+
+recipes.addShapeless(<harvestcraft:vinegaritem>, [
+    <harvestcraft:potitem>, <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "grapejuice", Amount: 1000}})
     ]);
