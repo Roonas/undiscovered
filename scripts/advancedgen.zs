@@ -1,5 +1,5 @@
 
-mods.jei.JEI.addDescription(<advgenerators:turbine_controller>, ["Acceptable Fuel","Gasoline 150 rf/mb", "Biodiesel 600 rf/mb", "Biofuel 800 rf/mb", "Vodka 800 rf/mb","Ethanol 800 rf/mb", "Crystal Oil 850 rf/mb", "Neutral Spirit 900 rf/mb", "Syngas 1000 rf/mb", "Liquifacted Coal 1000 rf/mb", "Naphta 1250 rf/mb", "Empowered Oil 1350 rf/mb", "Refined Fuel 2000 rf/mb", "Liquid Ethene 6000 rf/mb"]);
+mods.jei.JEI.addDescription(<advgenerators:turbine_controller>, ["Acceptable Fuel","Gasoline 150 rf/mb", "Diesel 500 rf/mb", "Biodiesel 600 rf/mb", "Biofuel 800 rf/mb", "Vodka 800 rf/mb","Ethanol 800 rf/mb", "Crystal Oil 850 rf/mb", "Neutral Spirit 900 rf/mb", "Syngas 1000 rf/mb", "Liquifacted Coal 1000 rf/mb", "Naphta 1250 rf/mb", "Empowered Oil 1350 rf/mb", "Refined Fuel 2000 rf/mb", "Liquid Ethene 6000 rf/mb"]);
 
 /*=========================
 Recipe Changes - Advanced Gens

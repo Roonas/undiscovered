@@ -7216,7 +7216,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Thermal Refined",
-          "desc": "No Description"
+          "desc": "It\u0027s a machine frame."
         }
       },
       "tasks": [
@@ -7238,7 +7238,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "thermaldynamics:duct_0",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "thermaldynamics:duct_32",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         103,
         101
@@ -7546,7 +7565,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Expert MFR",
-          "desc": "No Description"
+          "desc": "The base component for powerful machines that can duplicate mobs or generate ores."
         }
       },
       "tasks": [
@@ -7568,7 +7587,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "industrialforegoing:itemstack_transfer_addon_pull",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "industrialforegoing:itemstack_transfer_addon_push",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         101
       ],
@@ -8720,7 +8758,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "RF Base",
-          "desc": "No Description"
+          "desc": "The core component to RFTool\u0027s devices. A basic building block for the mod\u0027s apparatus. A frame to their machines, if you will."
         }
       },
       "tasks": [
@@ -13856,7 +13894,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "draconicevolution:flow_gate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "draconicevolution:flow_gate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         223,
         212,
@@ -13909,7 +13966,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "draconicevolution:energy_crystal",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         215
       ],
@@ -13959,7 +14029,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "thermaldynamics:duct_0",
+              "Count": 16,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "thermalfoundation:upgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 35
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         224,
         248,
@@ -14011,7 +14100,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:cake",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         208
       ],
@@ -14061,7 +14163,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "xreliquary:mob_ingredient",
+              "Count": 64,
+              "OreDict": "",
+              "Damage": 6
+            },
+            {
+              "id": "xreliquary:angelheart_vial",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         204
       ],
@@ -14111,7 +14232,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "mekanism:mufflingupgrade",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "mekanism:energyupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         216
       ],
@@ -14161,7 +14301,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "mekanism:gasupgrade",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "mekanism:anchorupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         211
       ],
@@ -14274,7 +14433,23 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "rftoolsdim:known_dimlet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 11,
+              "tag": {
+                "dkey:8": "MediocreEfficiency"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         212
       ],
@@ -14324,7 +14499,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "chisel:blockcobalt",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         214
       ],
@@ -14374,7 +14562,24 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "ender",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         217,
         361
@@ -14453,7 +14658,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "thermalexpansion:augment",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 303
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         213
       ],
@@ -14654,7 +14872,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:material",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 43
+            },
+            {
+              "id": "appliedenergistics2:material",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 7
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         204
       ],
@@ -14704,7 +14941,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "appliedenergistics2:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 37
+            },
+            {
+              "id": "appliedenergistics2:material",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 30
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         221
       ],
@@ -14746,7 +15002,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Mini Mint",
-          "desc": "Presses ingots into small disks imprinted with a signiture design. Makes the metal seem more expensive. "
+          "desc": "Presses ingots into small disks imprinted with a signiture design. Makes the metal seem more expensive. Can be used to turn excess metal into a bit of power."
         }
       },
       "tasks": [
@@ -14788,7 +15044,28 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 35
+                  }
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         213
       ],
@@ -14846,7 +15123,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "harvestcraft:queenbeeitem",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "evilcraft:condensed_blood",
+              "Count": 32,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         204,
         210
@@ -14903,7 +15199,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "draconicevolution:tool_upgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 10
+            },
+            {
+              "id": "draconicevolution:tool_upgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         206
       ],
@@ -16237,7 +16552,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Exotic Shards",
-          "desc": "No Description"
+          "desc": "Found in RFTools dimensions. Can be used to infuse machines making them more efficient."
         }
       },
       "tasks": [
@@ -16259,7 +16574,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "rftools:dimensional_shard_ore",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         291
       ],
@@ -18057,7 +18385,7 @@
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
-            "id": "minecraft:web",
+            "id": "rftoolsdim:dimlet_workbench",
             "Count": 1,
             "OreDict": "",
             "Damage": 0
@@ -18068,8 +18396,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "New Quest",
-          "desc": "No Description"
+          "name": "Custom Dimlets",
+          "desc": "Used to create custom dimlets out of parts obtained from dimlet packages or through deconstructing other dimlets."
         }
       },
       "tasks": [
@@ -18081,18 +18409,39 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "minecraft:wool",
+              "id": "rftoolsdim:dimlet_workbench",
               "Count": 1,
               "OreDict": "",
-              "Damage": 6
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],
-      "rewards": [],
-      "preRequisites": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "rftoolsdim:dimlet_control_circuit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            },
+            {
+              "id": "rftoolsdim:dimlet_parcel",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        214
+      ],
       "questID": 274
     },
     {
@@ -19095,7 +19444,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Powering the Planet",
-          "desc": "No Description"
+          "desc": "Once built, the dimensions must be powered. Be sure to have the dimension builder chunk loaded to prevent the world running out of power while inside."
         }
       },
       "tasks": [
@@ -19117,7 +19466,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "rftoolsdim:dimension_editor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         214
       ],
@@ -23003,7 +23365,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mekanism:basicblock2",
+              "Count": 24,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         211
       ],
@@ -23202,7 +23577,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "silentgems:armorframe",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            },
+            {
+              "id": "silentgems:gemsuper",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 41
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         360
       ],
@@ -23344,7 +23738,29 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "actuallyadditions:block_firework_box",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:tipped_arrow",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Potion:8": "extrautils2:xu2.greek.fire"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         213
       ],
@@ -23372,7 +23788,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Infusion Upgrade",
-          "desc": "No Description"
+          "desc": "Powerful infusion crafting boosted by the life force of dragons."
         }
       },
       "tasks": [
@@ -23394,7 +23810,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "draconicevolution:tool_upgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 8
+            },
+            {
+              "id": "draconicevolution:tool_upgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 9
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         207,
         225
@@ -23460,7 +23895,24 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "mekanism:gastank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "tier:3": 1,
+                "mekData:10": {}
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         354
       ],
@@ -23515,6 +23967,107 @@
         209
       ],
       "questID": 364
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "rftoolsdim:liquid_absorber",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Absorbing the World",
+          "desc": "Needs 128 blocks for the material absorber or 64 blocks of fluid for the liquid absorber. Check the dimlet workbench for valid dimlet materials."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "rftoolsdim:material_absorber",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "rftoolsdim:liquid_absorber",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "rftoolsdim:known_dimlet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2,
+              "tag": {
+                "dkey:8": "minecraft:iron_block@0"
+              }
+            },
+            {
+              "id": "rftoolsdim:known_dimlet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1,
+              "tag": {
+                "dkey:8": "rustic:honey@0"
+              }
+            },
+            {
+              "id": "rftoolsdim:known_dimlet",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3,
+              "tag": {
+                "dkey:8": "minecraft:slime"
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        274
+      ],
+      "questID": 365
     }
   ],
   "questLines": [
@@ -24584,56 +25137,56 @@
       "quests": [
         {
           "size": 24,
-          "x": 84,
-          "y": -66,
+          "x": -96,
+          "y": -12,
           "id": 204
         },
         {
           "size": 24,
           "x": 108,
-          "y": 66,
+          "y": 60,
           "id": 206
         },
         {
           "size": 24,
-          "x": 66,
-          "y": 120,
+          "x": 108,
+          "y": 126,
           "id": 207
         },
         {
           "size": 24,
-          "x": 78,
+          "x": 108,
           "y": 156,
           "id": 208
         },
         {
           "size": 24,
-          "x": 78,
-          "y": 192,
+          "x": 108,
+          "y": 186,
           "id": 209
         },
         {
           "size": 24,
           "x": 30,
-          "y": 186,
+          "y": 156,
           "id": 210
         },
         {
           "size": 24,
-          "x": 180,
-          "y": 30,
+          "x": 6,
+          "y": 90,
           "id": 274
         },
         {
           "size": 24,
           "x": 6,
-          "y": 54,
+          "y": 60,
           "id": 211
         },
         {
           "size": 24,
           "x": 36,
-          "y": 54,
+          "y": 60,
           "id": 212
         },
         {
@@ -24650,7 +25203,7 @@
         },
         {
           "size": 24,
-          "x": 66,
+          "x": 72,
           "y": 90,
           "id": 215
         },
@@ -24668,14 +25221,14 @@
         },
         {
           "size": 24,
-          "x": -24,
+          "x": -30,
           "y": 24,
           "id": 221
         },
         {
           "size": 24,
-          "x": -24,
-          "y": 54,
+          "x": -30,
+          "y": 60,
           "id": 222
         },
         {
@@ -24686,7 +25239,7 @@
         },
         {
           "size": 24,
-          "x": 30,
+          "x": 72,
           "y": 156,
           "id": 224
         },
@@ -24698,14 +25251,14 @@
         },
         {
           "size": 24,
-          "x": -24,
+          "x": -30,
           "y": 90,
           "id": 354
         },
         {
           "size": 24,
-          "x": 6,
-          "y": 90,
+          "x": 36,
+          "y": 126,
           "id": 291
         },
         {
@@ -24728,21 +25281,27 @@
         },
         {
           "size": 24,
-          "x": 108,
+          "x": 138,
           "y": 126,
           "id": 362
         },
         {
           "size": 24,
-          "x": -24,
+          "x": -30,
           "y": 120,
           "id": 363
         },
         {
           "size": 24,
-          "x": 114,
-          "y": 192,
+          "x": 144,
+          "y": 186,
           "id": 364
+        },
+        {
+          "size": 24,
+          "x": 6,
+          "y": 126,
+          "id": 365
         },
         {
           "size": 24,
@@ -24752,8 +25311,8 @@
         },
         {
           "size": 24,
-          "x": 6,
-          "y": 120,
+          "x": 72,
+          "y": 126,
           "id": 248
         }
       ],

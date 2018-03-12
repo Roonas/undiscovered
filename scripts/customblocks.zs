@@ -54,3 +54,7 @@ osmaticSteelOre.register();
 
 var compresseddye = VanillaFactory.createBlock("compressed_dye", <blockmaterial:cactus>);
 compresseddye.register();
+
+var trophy = VanillaFactory.createBlock("trophy", <blockmaterial:rock>);
+trophy.fullBlock = false;
+trophy.register();

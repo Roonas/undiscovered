@@ -1,17 +1,20 @@
 2.8.0
 ---------- 
 Fleshed out the final tech chapter with more quests
+Added rewards to advanced and mastery tech chapters
 Made infusion crafter tier upgrade recipes more difficult
 Enabled setting for players to delete their own RF dimension
-Decreased rarity 0 dimelet chance and increase rarity 6 
+Decreased rarity 0 dimlet chance and increase rarity 6 
 Slightly increase dimension shard ore generation
-Increased rates of unusal liquids randomly chosen in dims
+Increased rates of unusual liquids randomly chosen in dims
 Added alt recipe for calc electric diamonds
 Fixed solid heart item being eaten by ae2 crafting (probably)
 Fixed laser colors for empowerer recipes
 Actually removed the temp conductor mast recipes this time
 Fixed royal jelly recipes
 Fixed pure daisy recipe being very picky about how logs are placed
+Added immersive petrol diesel to advanced gen fuel list
+Added a trophy
 Mods Added:
  * PackMode (Peaceful players can load extra recipes for mob drops with /packmode peaceful) 
 
@@ -24,7 +27,7 @@ Fixed recipe conflict making tough fabric uncraftable
 2.7.0
 ----------
 Reduced overall number of DE cores needed (still adjusting DE balance)
-Added recipe for mass producing florecent dye after wyvern fusion
+Added recipe for mass producing florescent dye after wyvern fusion
 Added alt fusion recipe for crystal chaos essence
 Changed a few default keys for less conflicts
 Magneticraft thermopile is craftable again
@@ -32,13 +35,13 @@ Added some helpful tool tips on GM chicken feed / mob swabs
 Reduced dupe processing loop with iridium
 Changed block of manasteel to use steel
 Added calc diamonds to mana diamond recipe
-Made redtsone relay for TE pipes cheaper
+Made redstone relay for TE pipes cheaper
 Changed the plate used in pulverizer recipe because one player hated the crushing table
 Adjusted new IE insulated wire recipes a bit
 Added quests for metamorphic stone and deep dark
 Added quests for lost city dim
 Added rewards to farming chapter
-Added lore to advanced infrastrucre chapter
+Added lore to advanced infrastructure chapter
 More fiddling with quest book (some new quest, some new descriptions, some new rewards)
 Added little things to LC and deep dark world gen
 Removed custom recipe for AS lens due to lack of nbt support
