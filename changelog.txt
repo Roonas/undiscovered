@@ -1,7 +1,7 @@
 2.8.0
 ---------- 
 Fleshed out the final tech chapter with more quests
-Added rewards to advanced and mastery tech chapters
+Added rewards to advanced/mastery tech chapters and later magic chapter
 Made infusion crafter tier upgrade recipes more difficult
 Enabled setting for players to delete their own RF dimension
 Decreased rarity 0 dimlet chance and increase rarity 6 
@@ -13,8 +13,11 @@ Fixed laser colors for empowerer recipes
 Actually removed the temp conductor mast recipes this time
 Fixed royal jelly recipes
 Fixed pure daisy recipe being very picky about how logs are placed
+Chorus fruit now smelts into a small amount of resonant ender
 Added immersive petrol diesel to advanced gen fuel list
 Added a trophy
+Adding missing ores to mining lens (dark ore, wolframite, iridium, chaos) and rebalanced nickel 
+Nerfed carbon values for wood dust/pulp & TE bitumen. Added carbon value for IE bitumen
 Mods Added:
  * PackMode (Peaceful players can load extra recipes for mob drops with /packmode peaceful) 
 

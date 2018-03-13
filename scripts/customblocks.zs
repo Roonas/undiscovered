@@ -57,4 +57,5 @@ compresseddye.register();
 
 var trophy = VanillaFactory.createBlock("trophy", <blockmaterial:rock>);
 trophy.fullBlock = false;
+trophy.lightOpacity = 0;
 trophy.register();

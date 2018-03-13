@@ -345,3 +345,5 @@ game.setLocalization("en_us", "item.magneticraft.dusts_nickel.name", "Nickel Con
 <ore:homeCharm>.add(<silentgems:returnhomecharm:*>);
 <ore:astralCrystal>.add(<astralsorcery:itemrockcrystalsimple>);
 <ore:astralCrystal>.add(<astralsorcery:itemcelestialcrystal>);
+<ore:bitumen>.add(<immersivepetroleum:material>);
+<ore:bitumen>.add(<thermalfoundation:material:892>);

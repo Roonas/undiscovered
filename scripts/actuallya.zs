@@ -179,3 +179,13 @@ mods.actuallyadditions.Empowerer.addRecipe(<calculator:material:7>, <calculator:
 Atomice Reconstructor
 =========================*/
 mods.actuallyadditions.AtomicReconstructor.addRecipe(<minecraft:experience_bottle>, <actuallyadditions:item_solidified_experience>, 15000);
+
+/*=========================
+Mining Lens
+=========================*/
+mods.actuallyadditions.MiningLens.removeStoneOre(<ore:oreNickel>);
+mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreNickel>, 200);
+mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreDark>, 200);
+mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreChaos>, 320);
+mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreTungsten>, 180);
+mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreIridium>, 40);

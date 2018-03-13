@@ -10581,7 +10581,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:ghast_tear",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "evilcraft:ender_tear",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         275
       ],
@@ -16454,7 +16473,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "evilcraft:necromancer_staff",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "Fluid:10": {
+                  "FluidName:8": "evilcraftblood",
+                  "Amount:3": 10000
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         278,
         156
@@ -18488,7 +18526,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:gold_ore",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:diamond_ore",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         154
       ],
@@ -18538,7 +18595,43 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "minecraft:jukebox",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:record_wait",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:recordgaia1",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:spawn_egg",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "EntityTag:10": {
+                  "id:8": "minecraft:parrot"
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         275
       ],
@@ -18600,7 +18693,32 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "contenttweaker:osmaticsteelore",
+              "Count": 6,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "randomthings:stableenderpearl",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:diamond",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         282,
         264
@@ -18671,7 +18789,56 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": {
+                  "10": {
+                    "lvl:2": 2,
+                    "id:2": 32
+                  }
+                }
+              }
+            },
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": {
+                  "10": {
+                    "lvl:2": 2,
+                    "id:2": 4
+                  }
+                }
+              }
+            },
+            {
+              "id": "minecraft:enchanted_book",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "StoredEnchantments:9": {
+                  "10": {
+                    "lvl:2": 1,
+                    "id:2": 51
+                  }
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         266
       ],
@@ -18743,7 +18910,29 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "astralsorcery:blockprism",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "astralsorcery:10": {
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 900,
+                    "purity:3": 100
+                  }
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         275
       ],
@@ -18793,7 +18982,48 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "astralsorcery:blockcelestialcollectorcrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "astralsorcery:10": {
+                  "constellationName:8": "astralsorcery.constellation.vicio",
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 900,
+                    "purity:3": 100
+                  },
+                  "collectorType:3": 1
+                }
+              }
+            },
+            {
+              "id": "astralsorcery:blockcelestialcollectorcrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "astralsorcery:10": {
+                  "constellationName:8": "astralsorcery.constellation.mineralis",
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 900,
+                    "purity:3": 100
+                  },
+                  "collectorType:3": 1
+                }
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         283
       ],
@@ -18837,13 +19067,32 @@
               "Count": 4,
               "OreDict": "",
               "Damage": 2
+            },
+            {
+              "id": "minecraft:beacon",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
             }
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:manaresource",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         277,
         278
@@ -18944,7 +19193,28 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "botania:unholycloak",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            },
+            {
+              "id": "botania:holycloak",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         281
       ],
@@ -18994,7 +19264,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:overgrowthseed",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         276
       ],
@@ -19044,7 +19327,23 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "botania:manamirror",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1000,
+              "tag": {
+                "mana:3": 0
+              }
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         277
       ],
@@ -23962,7 +24261,20 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "contenttweaker:trophy",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         209
       ],
@@ -24068,6 +24380,79 @@
         274
       ],
       "questID": 365
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "astralsorcery:itemcape",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "astralsorcery:10": {
+                "constellationName:8": "astralsorcery.constellation.discidia"
+              }
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Anti Dragon Cape",
+          "desc": "Each attunement has slighty different properties, but all make an excellent defence against chaos dragons. (Any attunement valid for quest)."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:itemcape",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "astralsorcery:10": {
+                  "constellationName:8": "astralsorcery.constellation.discidia"
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "astralsorcery:blockchalice",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        280
+      ],
+      "questID": 366
     }
   ],
   "questLines": [
@@ -25827,6 +26212,12 @@
         }
       },
       "quests": [
+        {
+          "size": 24,
+          "x": 156,
+          "y": 144,
+          "id": 366
+        },
         {
           "size": 24,
           "x": 0,
