@@ -33,6 +33,16 @@
   },
   {
     "type": "condition",
+    "name": "trap",
+    "values": [
+      {
+        "factor": 100,
+        "value": "scrap:sampleloot"
+      }
+    ]
+  },
+  {
+    "type": "condition",
     "name": "chestloot",
     "values": [
       {

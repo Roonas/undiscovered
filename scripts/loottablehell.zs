@@ -32,6 +32,8 @@ val endChest = LootTables.getTable("minecraft:chests/end_city_treasure");
 val endMain = endChest.getPool("main");
 val endReliquary = endChest.getPool("xreliquary_inject_pool");
 val endRTBiome = endChest.getPool("randomthings:biomeCrystal");
+val endBees = endChest.getPool("forestry_apiculture_bees");
+val endForestry = endChest.getPool("forestry_apiculture_items");
 
 val iglooChest = LootTables.getTable("minecraft:chests/igloo_chest");
 val iglooPool1 = iglooChest.getPool("pool1");
@@ -96,6 +98,9 @@ val flukeShrinePool = shrineChest.addPool("fun stuff", 1, 1, 0, 0);
 
 val reliquaryNetherBridge = LootTables.getTable("xreliquary:inject/chests/nether_bridge");
 val reliquaryNetherPool = reliquaryNetherBridge.getPool("main");
+
+val reliquaryEndCity = LootTables.getTable("xreliquary:inject/chests/end_city_treasure");
+val reliquaryEndPool = reliquaryEndCity.getPool("main");
 
 val lostcityRailChest = LootTables.getTable("lostcities:chests/raildungeonchest");
 val lostCityRailPool = lostcityRailChest.getPool("lostcities:raildungeonchest");
@@ -280,3 +285,65 @@ flukeShrinePool.addItemEntryJSON(<evilcraft:dark_gem>, 5, 0, ["count: {min: 1.0,
 flukeShrinePool.addItemEntryJSON(<silentgems:petsummoner:1>, 4, 0, [], [], "Dog Bone");
 flukeShrinePool.addItemEntryJSON(<randomthings:beans:2>, 5, 0, [], [], "Dog Bone");
 flukeShrinePool.addItemEntryJSON(<mob_grinding_utils:gm_chicken_feed>.withTag({mguMobName: "villager"}), 6, 0, [], [], "Life");
+
+endMain.setRolls(3.0, 6.0);
+endMain.removeEntry("minecraft:iron_horse_armor");
+endMain.removeEntry("minecraft:golden_horse_armor");
+endMain.removeEntry("minecraft:diamond_horse_armor");
+endMain.removeEntry("minecraft:iron_sword");
+endMain.removeEntry("minecraft:iron_boots");
+endMain.removeEntry("minecraft:iron_chestplate");
+endMain.removeEntry("minecraft:iron_leggings");
+endMain.removeEntry("minecraft:iron_helmet");
+endMain.removeEntry("minecraft:iron_pickaxe");
+endMain.removeEntry("minecraft:iron_shovel");
+endMain.removeEntry("minecraft:beetroot_seeds");
+endMain.removeEntry("minecraft:saddle");
+endMain.addItemEntryJSON(<actuallyadditions:item_boots_quartz>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted High Heels");
+endMain.addItemEntryJSON(<actuallyadditions:item_pants_crystal_green>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Panties");
+endMain.addItemEntryJSON(<actuallyadditions:item_chest_crystal_red>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Bra");
+endMain.addItemEntryJSON(<actuallyadditions:item_helm_crystal_light_blue>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Party Hat");
+endMain.addItemEntryJSON(<actuallyadditions:item_sword_crystal_blue>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Sword");
+endMain.addItemEntryJSON(<botania:manasteelpick>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Pick");
+endMain.addItemEntryJSON(<calculator:endforgedaxe>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Axe");
+endMain.addItemEntryJSON(<storagedrawers:upgrade_storage:3>, 5, 0, [], [], "Drawer Upgrade");
+endMain.addItemEntryJSON(<astralsorcery:itemcraftingcomponent>, 10, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "AS Gem");
+endMain.addItemEntryJSON(<appliedenergistics2:material:7>, 10, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Fluix");
+endMain.addItemEntryJSON(<thermalfoundation:material:895>, 10, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Ender Clath");
+endMain.addItemEntryJSON(<appliedenergistics2:material:2>, 10, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Certus Dust");
+endMain.addItemEntryJSON(<thermalfoundation:material:134>, 5, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Platinum");
+endMain.addItemEntryJSON(<thermalfoundation:material:166>, 5, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Lumium");
+endMain.addItemEntryJSON(<thermalfoundation:material:167>, 5, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Enderium");
+endMain.addItemEntryJSON(<xreliquary:potion>.withTag({effects: [{duration: 2250, potency: 1, name: "minecraft:health_boost"}], hasPotion: 1 as byte}), 4, 0, [], [], "Health Pot");
+endMain.addItemEntryJSON(<harvestcraft:rainbowcurryitem>, 8, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Curry");
+endMain.addItemEntryJSON(<harvestcraft:chorusfruitsoupitem>, 8, 0, ["count: {min: 1.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Ender Os");
+endMain.addItemEntryJSON(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "draconicevolution:enchant_reaper"}]}), 5, 0, [], [], "Reaper Enchant");
+endMain.addItemEntryJSON(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "silentgems:gravity"}]}), 5, 0, [], [], "Gravity Enchant");
+endMain.addItemEntryJSON(<silentgems:enchantmenttoken>.withTag({TokenEnchantments: [{lvl: 1 as short, name: "cofhcore:holding"}]}), 5, 0, [], [], "Holding Enchant");
+endMain.addItemEntryJSON(<silentgems:craftingmaterial:1>, 8, 0, ["count: {min: 2.0, max: 5.0}, function: 'minecraft:set_count'"], [], "Enriched Chaos");
+endMain.addItemEntryJSON(<silentgems:craftingmaterial:6>, 6, 0, ["count: {min: 3.0, max: 8.0}, function: 'minecraft:set_count'"], [], "Chaos Coal");
+endMain.addItemEntryJSON(<rftoolsdim:dimlet_parcel>, 6, 0, ["count: {min: 2.0, max: 6.0}, function: 'minecraft:set_count'"], [], "Dimlet Lootbox");
+endMain.addItemEntryJSON(<rftoolsdim:dimlet_control_circuit:6>, 5, 0, [], [], "T6 Dimlet");
+endMain.addItemEntryJSON(<contenttweaker:osmaticsteeldust>, 10, 0, ["count: {min: 3.0, max: 6.0}, function: 'minecraft:set_count'"], [], "Fake Steel");
+endMain.addItemEntryJSON(<evilcraft:dark_power_gem>, 10, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Edgy Gem");
+endMain.addItemEntryJSON(<extrautils2:ingredients:5>, 7, 0, ["count: {min: 1.0, max: 2.0}, function: 'minecraft:set_count'"], [], "MoonMoon");
+endMain.addItemEntryJSON(<botania:manaresource:1>, 7, 0, ["count: {min: 2.0, max: 3.0}, function: 'minecraft:set_count'"], [], "Mana Pearl");
+reliquaryEndPool.removeEntry("xreliquary:nebulous_heart");
+reliquaryEndPool.addItemEntryJSON(<xreliquary:mob_ingredient:11>, 15, 0, ["count: {min: 1.0, max: 4.0}, function: 'minecraft:set_count'"], [], "Ender Heart");
+reliquaryEndPool.addItemEntryJSON(<xreliquary:serpent_staff>, 5, 0, [], [], "Snek Stick");
+reliquaryEndPool.addItemEntryJSON(<xreliquary:mob_charm>.withTag({type: 8 as byte}), 7, 0, [], [], "Anti Ender Belt");
+reliquaryEndPool.addItemEntryJSON(<xreliquary:sojourner_staff>, 5, 0, [], [], "Torch Staff");
+reliquaryEndPool.addItemEntryJSON(<xreliquary:twilight_cloak>, 5, 0, [], [], "Sneaky Cloak");
+reliquaryEndPool.addItemEntryJSON(<xreliquary:infernal_claws>, 5, 0, [], [], "Sneaky Cloak");
+/*
+forestry wont let me edit this :<
+endBees.addItemEntryJSON(<forestry:bee_princess_ge>, 10, 0, ["speciesUid: 'extrabees.species.latex', function: 'minecraft:set_species_nbt'"], [], "Plastic Bee");
+endBees.addItemEntryJSON(<forestry:bee_princess_ge>, 10, 0, ["speciesUid: 'extrabees.species.sticky', function: 'minecraft:set_species_nbt'"], [], "Sticky Bee");
+endBees.addItemEntryJSON(<forestry:bee_princess_ge>, 10, 0, ["speciesUid: 'forestry.speciesPhantasmal', function: 'minecraft:set_species_nbt'"], [], "Phantom Bee");
+endBees.addItemEntryJSON(<forestry:bee_princess_ge>, 10, 0, ["speciesUid: 'forestry.speciesGlacial', function: 'minecraft:set_species_nbt'"], [], "Glacial Bee");
+endForestry.addItemEntryJSON(<forestry:crafting_material:4>, 1, 0, [], [], "Anti Rain");
+endForestry.addItemEntryJSON(<forestry:crafting_material:1>, 1, 0, [], [], "Ender Mesh");
+endForestry.addItemEntryJSON(<contenttweaker:butterflyspray>, 1, 0, [], [], "Buttery Death");
+endForestry.addItemEntryJSON(<extrabees:hive_frame.cocoa>, 1, 0, [], [], "Choco Frame (Some stay dry)");
+endForestry.addItemEntryJSON(<extrabees:hive_frame.soul>, 1, 0, [], [], "Soul Frame");
+*/

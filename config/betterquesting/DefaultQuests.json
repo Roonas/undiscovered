@@ -10602,7 +10602,7 @@
         }
       ],
       "preRequisites": [
-        275
+        370
       ],
       "questID": 156
     },
@@ -13935,9 +13935,9 @@
       ],
       "preRequisites": [
         223,
-        212,
         303,
-        359
+        359,
+        373
       ],
       "questID": 206
     },
@@ -14000,7 +14000,7 @@
         }
       ],
       "preRequisites": [
-        215
+        374
       ],
       "questID": 207
     },
@@ -14404,7 +14404,8 @@
         }
       ],
       "preRequisites": [
-        108
+        108,
+        368
       ],
       "questID": 213
     },
@@ -14601,7 +14602,8 @@
       ],
       "preRequisites": [
         217,
-        361
+        361,
+        369
       ],
       "questID": 216
     },
@@ -14912,7 +14914,7 @@
         }
       ],
       "preRequisites": [
-        204
+        369
       ],
       "questID": 221
     },
@@ -19094,8 +19096,8 @@
         }
       ],
       "preRequisites": [
-        277,
-        278
+        278,
+        371
       ],
       "questID": 281
     },
@@ -19780,7 +19782,7 @@
         }
       ],
       "preRequisites": [
-        214
+        372
       ],
       "questID": 291
     },
@@ -20608,7 +20610,12 @@
           "desc": "Having brought the magic of my mother and the magic of my father into some sort of uneasy cooperation, I was able to bring my own magic to the next level.  The way my mother\u0027s magic let you pre-program an event, when combined with the visceral worldliness that my father preferred let me capture those natural forces into a token that I could reuse and repurpose at need.  I called it the Runic Altar in honor of this combination of Symbol and Sanguine."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         263
@@ -23961,7 +23968,7 @@
         }
       ],
       "preRequisites": [
-        204
+        368
       ],
       "questID": 360
     },
@@ -24276,7 +24283,7 @@
         }
       ],
       "preRequisites": [
-        209
+        367
       ],
       "questID": 364
     },
@@ -24453,6 +24460,292 @@
         280
       ],
       "questID": 366
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Diamatine Diary #8",
+          "desc": "   We rule this world as the pharaohs, our powers absolute.  None remain to question us, and none have we found to ask our own questions. Together we shall await the end of the world, or pull destruction up over our heads like blankets when the time comes for sleep..."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        209
+      ],
+      "questID": 367
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Diamatine Diary #1",
+          "desc": "   Father or brother? Brother or father?  The question no one is asking, but I can feel it in the air since my own coming of age, especially in the years since my mother drowned in the fires of the nether. It floats in the air, filling overlong silences and catching the light in the corner of your eye, leaving awkward glances behind. I travel a great deal because of it, and no one in this latter age has explored this world as thoroughly as my family.  \n   Most of the evidence we find of other stranded Travelers is ephemeral, with little evidence that they managed to travel far or survive for long.  Even in the records left by the most successful of the Travelers, they very rarely find evidence of others and there seems to be only one other clear case of people arriving together as my parents did, though there were three in that group.  How different my life would be if there were just one more person in the wide world!"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        204
+      ],
+      "questID": 368
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Diamatine Diary #2",
+          "desc": "None of the journals we have copied, the maps we have marked, the cities we have searched or ravines we have probed have answered any of our questions.  People arrive from… wherever, they survive as best they can, and then they die alone.  I will not let this happen to me.  If there is no hope to be found in this world, I must look beyond it.  Too many have tried to return home from whence they came and failed.  I think I must look the other way and try to pass Beyond.  It seems like some of the unusual alloys and metallics have properties that seem to extend beyond the obvious interaction of this world and touch something else… either of the End, or of the mysterious insides of atom themselves.  I shall experiment and see if any of them opens the doors I need."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        204
+      ],
+      "questID": 369
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Diamatine Diary #3",
+          "desc": "   I think sometimes that the easiest door to open would be the one to death… surely I would not be alone there? But the afterlife of this world may be crowded with its own lost souls, all those who built this world before… dying? Leaving? Ascending?  I have performed some experiments to see where the souls of the local inhabitants go when they pass beyond this life.  The answers… do not encourage me to follow them there, tho I continue my experiments and have derived some good from the knowledge."
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        275
+      ],
+      "questID": 370
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Diamatine Diary #4",
+          "desc": "   There is a more peaceful approach I attempted after becoming embittered by my experiments with the afterlife.  Tho gentler, it was no more successful.  I was ebullient when I first opened what appeared to be a gateway to a new dimension, and a powerful one at that… but all my attempts to pass through have failed.  If there is indeed a world through there, it is not for such life as us.  I have managed to obtain some transformed elements that may help me on my ongoing search for escape."
+        }
+      },
+      "tasks": [],
+      "rewards": [],
+      "preRequisites": [
+        277
+      ],
+      "questID": 371
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Diamatine Diary #5",
+          "desc": "   Success! My brother who I long avoided is the one who finally came up with the answer.  I cannot follow the mathematical flights of his intellect but I can fly through the doors he has opened for me… and such doors!  Worlds uncountable, each different and unexpected.  Is our own world just another one of these options that we have been dropped into? Or are we truly creating these worlds each time we pour in a months worth of power and wait to see what we have created?\n   And when will one of these worlds be full not just of wonder… but of people?"
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        214
+      ],
+      "questID": 372
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Diamatine Diary #6",
+          "desc": "   Perhaps looking at these endless worlds is fruitless.  What was once so novel is now disheartening.  But there are other hearts to give us courage… dragon hearts.  If we fail as explorers, perhaps we shall succeed as conquerors.  And so we venture further than even we have before."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        212
+      ],
+      "questID": 373
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "minecraft:writable_book",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": true,
+          "name": "Diamatine Diary #7",
+          "desc": "   I still hear her cries, and the unhatched egg I keep near my as a reminder of our folly and destruction.  Does our own restlessness merit the destruction of such a majestic creature?  In penance, my brother and I fly into the darkest stretches of the End in search of the chaos dragon whose angry roars we hear echoing through the quiet spaces between worlds.  Perhaps he shall guide us home...Or perhaps we shall have to pay the final price for the death of his mate, for we are not the only two creatures who live alone in a world empty of their own kind."
+        }
+      },
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        215
+      ],
+      "questID": 374
     }
   ],
   "questLines": [
@@ -25552,8 +25845,8 @@
         },
         {
           "size": 24,
-          "x": 30,
-          "y": 156,
+          "x": 36,
+          "y": 186,
           "id": 210
         },
         {
@@ -25630,8 +25923,8 @@
         },
         {
           "size": 24,
-          "x": 108,
-          "y": 96,
+          "x": 138,
+          "y": 90,
           "id": 225
         },
         {
@@ -25643,7 +25936,7 @@
         {
           "size": 24,
           "x": 36,
-          "y": 126,
+          "y": 156,
           "id": 291
         },
         {
@@ -25678,7 +25971,7 @@
         },
         {
           "size": 24,
-          "x": 144,
+          "x": 180,
           "y": 186,
           "id": 364
         },
@@ -25693,6 +25986,42 @@
           "x": 108,
           "y": 24,
           "id": 303
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 186,
+          "id": 367
+        },
+        {
+          "size": 24,
+          "x": 108,
+          "y": -12,
+          "id": 368
+        },
+        {
+          "size": 24,
+          "x": -12,
+          "y": -12,
+          "id": 369
+        },
+        {
+          "size": 24,
+          "x": 36,
+          "y": 126,
+          "id": 372
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": 60,
+          "id": 373
+        },
+        {
+          "size": 24,
+          "x": 108,
+          "y": 90,
+          "id": 374
         },
         {
           "size": 24,
@@ -26220,9 +26549,21 @@
         },
         {
           "size": 24,
-          "x": 0,
+          "x": 30,
           "y": 54,
+          "id": 370
+        },
+        {
+          "size": 24,
+          "x": 0,
+          "y": 24,
           "id": 275
+        },
+        {
+          "size": 24,
+          "x": 120,
+          "y": 84,
+          "id": 371
         },
         {
           "size": 24,
@@ -26251,7 +26592,7 @@
         {
           "size": 24,
           "x": -30,
-          "y": 84,
+          "y": 54,
           "id": 279
         },
         {
@@ -26262,8 +26603,8 @@
         },
         {
           "size": 24,
-          "x": 120,
-          "y": 84,
+          "x": 156,
+          "y": 54,
           "id": 281
         },
         {
@@ -26274,7 +26615,7 @@
         },
         {
           "size": 24,
-          "x": 120,
+          "x": 156,
           "y": 114,
           "id": 283
         },
@@ -26286,7 +26627,7 @@
         },
         {
           "size": 24,
-          "x": 30,
+          "x": 60,
           "y": 54,
           "id": 156
         },
