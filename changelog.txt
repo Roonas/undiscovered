@@ -20,6 +20,7 @@ Adding missing ores to mining lens (dark ore, wolframite, iridium, chaos) and re
 Nerfed carbon values for wood dust/pulp & TE bitumen. Added carbon value for IE bitumen
 Redid loottables for end chest
 Added lore for final tech and magic chapters
+Fixed lava charm crushing recipe 
 Mods Added:
  * PackMode (Peaceful players can load extra recipes for mob drops with /packmode peaceful) 
 

@@ -3526,8 +3526,6 @@
   {
     "type": "building",
     "name": "building5",
-    "mincellars": 2,
-    "maxcellars": 3,
     "filler": "#",
     "parts": [
       {
@@ -3561,10 +3559,6 @@
       {
         "top": true,
         "part": "top1x1_5"
-      },
-      {
-        "floor": -3,
-        "part": "fluke_tnt"
       }
     ]
   },

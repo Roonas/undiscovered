@@ -81,7 +81,7 @@ mods.magneticraft.CrushingTable.addRecipe(<thermalfoundation:storage:3>, heavyLe
 mods.magneticraft.CrushingTable.addRecipe(<calculator:circuitdamaged>, <minecraft:redstone>, true);
 mods.magneticraft.CrushingTable.addRecipe(<silentgems:gemblockdark:10>, <calculator:largetanzanite>, false);
 mods.magneticraft.CrushingTable.addRecipe(<silentgems:gemblock:11>, <calculator:largeamethyst>, false);
-mods.magneticraft.CrushingTable.addRecipe(<randomthings:lavacharm>, <minecraft:blaze_powder> * 2, false);
+mods.magneticraft.CrushingTable.addRecipe(<randomthings:lavacharm>, <minecraft:blaze_powder> * 2, true);
 
 /*=========================
 Sluice Box
