@@ -5340,7 +5340,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Industrial for Farming",
-          "desc": "The spore recreator produces mushrooms, perfect for a life sustained by mushroom stew.... or making yeast. The plant interacter gently harvests crops or fruits by collecting drops without breaking the plant."
+          "desc": "The spore recreator produces mushrooms, perfect for a life sustained by mushroom stew.... or making yeast. The plant interactor gently harvests crops or fruits by collecting drops without breaking the plant."
         }
       },
       "tasks": [
@@ -5427,7 +5427,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Baby Thief",
-          "desc": "A system for limiting the population! The baby seperator is an active soultion which moves baby animals to the back of the machine while the mob filter will passivly let baby animals fall through.  "
+          "desc": "A system for limiting the population! The baby separator is an active solution which moves baby animals to the back of the machine while the mob filter will passively let baby animals fall through.  "
         }
       },
       "tasks": [
@@ -5860,7 +5860,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Quick Harvest",
-          "desc": "Various options for speeding up crop growth exist. This small selection all function by being phycially near the plants. Who says you\u0027re limited to just one type?"
+          "desc": "Various options for speeding up crop growth exist. This small selection all function by being physically near the plants. Who says you\u0027re limited to just one type?"
         }
       },
       "tasks": [
@@ -6099,7 +6099,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Cow Juice",
-          "desc": "Milk: useful both for clearing posions and as an ingredent in a wide variety of recipes."
+          "desc": "Milk: useful both for clearing poisons and as an ingredient in a wide variety of recipes."
         }
       },
       "tasks": [
@@ -7286,7 +7286,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "In Need of Latex",
-          "desc": "The tree fluid extractor must be placed with a log in front. The machine will extract fluid from the log, slowly breaking it. This laxex should then be piped into the latex processing unit. The latex processing unit additionally needs water and RF to function. "
+          "desc": "The tree fluid extractor must be placed with a log in front. The machine will extract fluid from the log, slowly breaking it. This latex should then be piped into the latex processing unit. The latex processing unit additionally needs water and RF to function. "
         }
       },
       "tasks": [
@@ -10210,7 +10210,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Space Wand",
-          "desc": "A wand specially attuned to specific crystals found deep undergound. When held at night, the wand will mark the location of rock crystal."
+          "desc": "A wand specially attuned to specific crystals found deep underground. When held at night, the wand will mark the location of rock crystal."
         }
       },
       "tasks": [
@@ -10336,7 +10336,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Space Metal",
-          "desc": "Not receptive to the low heat of traditional furnaces, the rock containing starmetal seems to easly melt away by the evil within the blood infusion process."
+          "desc": "Not receptive to the low heat of traditional furnaces, the rock containing starmetal seems to easily melt away by the evil within the blood infusion process."
         }
       },
       "tasks": [
@@ -10406,7 +10406,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Bigger Drum Set",
-          "desc": "A high density starlight table with more room for crafting. Unlock acesses to many useful tools such as craftable floating crystals."
+          "desc": "A high density starlight table with more room for crafting. Unlock accesses to many useful tools such as craftable floating crystals."
         }
       },
       "tasks": [
@@ -10476,7 +10476,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Evil Sticks",
-          "desc": "Not only a useful ingredent in broom making, these sticks are attuned to evil shrines and will point to the nearest one when dropped on the ground. However, cities have been known to tear down these evil structures and pave over them."
+          "desc": "Not only a useful ingredient in broom making, these sticks are attuned to evil shrines and will point to the nearest one when dropped on the ground. However, cities have been known to tear down these evil structures and pave over them."
         }
       },
       "tasks": [
@@ -10559,7 +10559,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Soul Shredder",
-          "desc": "Not content with just trapping spirits, this ring shread the everlasting soul of lingering spirits. The essence dropped by these spirits my be useful in some advanced items."
+          "desc": "Not content with just trapping spirits, this ring shreds the everlasting soul of lingering spirits. The essence dropped by these spirits my be useful in some advanced items."
         }
       },
       "tasks": [
@@ -10628,7 +10628,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Runecraft",
-          "desc": "By traslating mana energy into runes crafted onto living wood, these items can then be used to craft greater magical items."
+          "desc": "By translating mana energy into runes crafted onto living wood, these items can then be used to craft greater magical items."
         }
       },
       "tasks": [
@@ -10698,7 +10698,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Blood Furnace",
-          "desc": "A modified furnace capable of maniuplating blood without the risk of it hardening."
+          "desc": "A modified furnace capable of manipulating blood without the risk of it hardening."
         }
       },
       "tasks": [
@@ -11777,7 +11777,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker’s Notebook #7",
+          "name": "Tinker's Notebook #7",
           "desc": "Eureka!  Not only are materials science and electricity different in this world… math itself seems to have strange, material altering properties!  I do not know if I am starting to understand the physics of this universe or have finally gone mad.  I mock my friends for dabbling with blood and starlight but when 2+2\u003dgold… am I any different? I should tell her, next time I visit.  As soon as I trim my beard… and bathe… and perhaps I should bring her something… hmmmm."
         }
       },
@@ -13261,7 +13261,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Serious Farmer",
-          "desc": "A watering can with built in WiFi-Water technology. Allows for users to indiscrimintaly spray everything with water."
+          "desc": "A watering can with built in WiFi-Water technology. Allows for users to indiscriminately spray everything with water."
         }
       },
       "tasks": [
@@ -13367,7 +13367,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Well Read",
-          "desc": "Automaticlly fills with random books when place. Perfect for the horder who loves to collect books they\u0027ll never read. "
+          "desc": "Automatically fills with random books when place. Perfect for the hoarder who loves to collect books they\u0027ll never read. "
         }
       },
       "tasks": [
@@ -13573,7 +13573,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "High Power",
-          "desc": "Based on the technology of draconic reactors, this tiny box outputs an impressive ammount of energy."
+          "desc": "Based on the technology of draconic reactors, this tiny box outputs an impressive amount of energy."
         }
       },
       "tasks": [
@@ -13626,7 +13626,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Full Tank",
-          "desc": "Thanks to break throughs in the science of quantum homeopathy and water memory, this tank will provide an unlimted ammount of any fluid provided to it. Although, this does make it more difficult to empty. "
+          "desc": "Thanks to breakthroughs in the science of quantum homeopathy and water memory, this tank will provide an unlimited amount of any fluid provided to it. Although, this does make it more difficult to empty. "
         }
       },
       "tasks": [
@@ -13683,7 +13683,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Full of Hot Air",
-          "desc": "Not actually unlimed gas, it just mixes the given gas with air and outputs a more diluted product. Noone seems to notice though. Prefers to be filled within a machine or tank gui but happliy outputs to gas tubes."
+          "desc": "Not actually unlimited gas, it just mixes the given gas with air and outputs a more diluted product. None seems to notice though. Prefers to be filled within a machine or tank gui but happily outputs to gas tubes."
         }
       },
       "tasks": [
@@ -13737,7 +13737,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Vazkii\u0027s Tears",
-          "desc": "Based on ancient dayblood technology, provides a bottom less source of mana."
+          "desc": "Based on ancient daybloom technology, provides a bottom less source of mana."
         }
       },
       "tasks": [
@@ -13891,7 +13891,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Dragons Core",
-          "desc": "The basic compontent for draconic tools and machines. "
+          "desc": "The basic component for draconic tools and machines. "
         }
       },
       "tasks": [
@@ -14026,7 +14026,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Woke Core",
-          "desc": "With high ammounts of power and some additional catalys, the daconium can become awakened."
+          "desc": "With high amounts of power and some additional catalysts, the daconium can become awakened."
         }
       },
       "tasks": [
@@ -14097,7 +14097,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Chaos",
-          "desc": "Crafted from cores gaurded by near immortal dragons. A highly prized item containing great power."
+          "desc": "Crafted from cores guarded by near immortal dragons. A highly prized item containing great power."
         }
       },
       "tasks": [
@@ -14229,7 +14229,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Mek Box",
-          "desc": "A simple frame crafted from difficult to aquire parts. The base of mekanism machines."
+          "desc": "A simple frame crafted from difficult to acquire parts. The base of mekanism machines."
         }
       },
       "tasks": [
@@ -14431,7 +14431,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Creator of Worlds",
-          "desc": "Used to enscribe new worlds onto metal tablets. Useful for creating large worlds with difficult to find materials or ores not found in the overworld.  "
+          "desc": "Used to inscribe new worlds onto metal tablets. Useful for creating large worlds with difficult to find materials or ores not found in the overworld.  "
         }
       },
       "tasks": [
@@ -14643,7 +14643,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Super Hot",
-          "desc": "The pinicle of furnace technology, capable of smelting multiple ingots from a single ore. Also needed to produce the exceptionally high tempatures required to smelt advanced alloys. "
+          "desc": "The pinnacle of furnace technology, capable of smelting multiple ingots from a single ore. Also needed to produce the exceptionally high temperatures required to smelt advanced alloys. "
         }
       },
       "tasks": [
@@ -14871,7 +14871,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Blue Gold",
-          "desc": "Yellorium may be stablized by being injected with a very cool liquid. This stabilized fuel makes for the perfect building material for sensitive electronics capable of autocrafting nearly any object."
+          "desc": "Yellorium may be stabilized by being injected with a very cool liquid. This stabilized fuel makes for the perfect building material for sensitive electronics capable of auto-crafting nearly any object."
         }
       },
       "tasks": [
@@ -14940,7 +14940,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Craft on Demand",
-          "desc": "The base unit for the CPU multiblock needed for AE autocrafting.  "
+          "desc": "The base unit for the CPU multiblock needed for AE auto-crafting.  "
         }
       },
       "tasks": [
@@ -15023,7 +15023,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Mini Mint",
-          "desc": "Presses ingots into small disks imprinted with a signiture design. Makes the metal seem more expensive. Can be used to turn excess metal into a bit of power."
+          "desc": "Presses ingots into small disks imprinted with a signature design. Makes the metal seem more expensive. Can be used to turn excess metal into a bit of power."
         }
       },
       "tasks": [
@@ -15576,7 +15576,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Staying Stocked",
-          "desc": "Not limited to just accessing boxes of items, the player interface allows for automated extraction or insertion of items directly into your hands, even when far from home. Both reinforcedretrieval nodes and transfer filters can be used to limit items to a specific number in inventory."
+          "desc": "Not limited to just accessing boxes of items, the player interface allows for automated extraction or insertion of items directly into your hands, even when far from home. Both reinforced retrieval nodes and transfer filters can be used to limit items to a specific number in inventory."
         }
       },
       "tasks": [
@@ -16446,7 +16446,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Soul Food",
-          "desc": "The spirit furnace is able to recreate living beings from the traped souls using some blood. This allows for farming of items dropped by these creatures."
+          "desc": "The spirit furnace is able to recreate living beings from the trapped souls using some blood. This allows for farming of items dropped by these creatures."
         }
       },
       "tasks": [
@@ -17001,7 +17001,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Pure Rocks",
-          "desc": "By purifying the helish nature of netherack, a more refined rock is created."
+          "desc": "By purifying the hellish nature of netherack, a more refined rock is created."
         }
       },
       "tasks": [
@@ -17071,7 +17071,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Flower Conductor",
-          "desc": "Strapping a few pretty leaves to some magical wood seems to be enough to interact with these mystial flowers."
+          "desc": "Strapping a few pretty leaves to some magical wood seems to be enough to interact with these mystical flowers."
         }
       },
       "tasks": [
@@ -17620,7 +17620,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Potential Realized",
-          "desc": "Created by charging the inverted potentia with lightning. Can be created by direct lighning strikes or by using the enviormental accumultor during a thunder storm. The secptre of thunder or the psi smite trick could be useful here."
+          "desc": "Created by charging the inverted potentia with lightning. Can be created by direct lightning strikes or by using the environmental accumulator during a thunder storm. The sceptre of thunder or the psi smite trick could be useful here."
         }
       },
       "tasks": [
@@ -17761,7 +17761,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Psi Diamonds",
-          "desc": "Diamons infused directly with the greater infusion trick."
+          "desc": "Diamonds infused directly with the greater infusion trick."
         }
       },
       "tasks": [
@@ -17824,7 +17824,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "What\u0027s Your Sign?",
-          "desc": "Unlocks the ability to attune both crystals and yourself to specific constalations. This attunment unlocks some of the more powerful aspects of astral magic."
+          "desc": "Unlocks the ability to attune both crystals and yourself to specific constellations. This attunement unlocks some of the more powerful aspects of astral magic."
         }
       },
       "tasks": [
@@ -17962,7 +17962,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Portable Accumulation",
-          "desc": "When you can\u0027t find an enviormental accumulator in just the right spot, a portable version of this infuser is needed. Requires 8 dark tanks filled with a significant amount of blood placed in specific locations around the accumulator to work."
+          "desc": "When you can\u0027t find an environmental accumulator in just the right spot, a portable version of this infuser is needed. Requires 8 dark tanks filled with a significant amount of blood placed in specific locations around the accumulator to work."
         }
       },
       "tasks": [
@@ -18037,7 +18037,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Deep Earth Crystals",
-          "desc": "Found very rarly near bedrock. "
+          "desc": "Found very rarely near bedrock. "
         }
       },
       "tasks": [
@@ -18112,7 +18112,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Flower Power",
-          "desc": "(Only one task needed to complete quest) \nWith simple coal eating flower more difficult to create, botanists must consider some of the more unsual mystial flowers. \n\nRafflowsia - Consumes other mana generating flowers for power \nThermalily - Consumes lava sources for power with a long cool down \nSpectrolus - Consumes colored wool in a specific order for mana \nHydroangeas - Consumes water source blocks for mana (has a limited life span)"
+          "desc": "(Only one task needed to complete quest) \nWith simple coal eating flower more difficult to create, botanists must consider some of the more unusual mystical flowers. \n\nRafflowsia - Consumes other mana generating flowers for power \nThermalily - Consumes lava sources for power with a long cool down \nSpectrolus - Consumes colored wool in a specific order for mana \nHydroangeas - Consumes water source blocks for mana (has a limited life span)"
         }
       },
       "tasks": [
@@ -18240,8 +18240,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Mages Glock",
-          "desc": "A very powerful CAD capable of accecpting even more complex spells."
+          "name": "Mage's Glock",
+          "desc": "A very powerful CAD capable of accepting even more complex spells."
         }
       },
       "tasks": [
@@ -18387,7 +18387,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Crafting by Starlight",
-          "desc": "A more refined crafting table, capable of absorbing greater quanities of starlight."
+          "desc": "A more refined crafting table, capable of absorbing greater quantities of starlight."
         }
       },
       "tasks": [
@@ -18506,7 +18506,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Star Soaked",
-          "desc": "Creating an altar designed to radiate starlight on a single point allows for the refinement, enhansement, and even improvement of items placed in the center. Requires 12 buckets of liquid starlight to function, which have a chance to be consumed in crafting."
+          "desc": "Creating an altar designed to radiate starlight on a single point allows for the refinement, enhancement, and even improvement of items placed in the center. Requires 12 buckets of liquid starlight to function, which have a chance to be consumed in crafting."
         }
       },
       "tasks": [
@@ -18661,7 +18661,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Elf Dimension",
-          "desc": "The material required to construct a portal between our world and alfheim. Also needs a significan source of mana to initally open the gate."
+          "desc": "The material required to construct a portal between our world and alfheim. Also needs a significant source of mana to initially open the gate."
         }
       },
       "tasks": [
@@ -18759,7 +18759,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Space Assimilation",
-          "desc": "Crystals can be attuned in a similar maner to living beings. This passes the strength of the attuned constalation onto the crystal."
+          "desc": "Crystals can be attuned in a similar manner to living beings. This passes the strength of the attuned constellation onto the crystal."
         }
       },
       "tasks": [
@@ -18879,7 +18879,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Night Light",
-          "desc": "A hand crafted version of the naturally occuring crystals. Provides starlight to any block or crafting table it is linked to."
+          "desc": "A hand crafted version of the naturally occurring crystals. Provides starlight to any block or crafting table it is linked to."
         }
       },
       "tasks": [
@@ -19307,7 +19307,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Mana Switcheroo",
-          "desc": "Allows for the duplication of item though the use of mana. Also allows for a more easily automatble form of psi materials."
+          "desc": "Allows for the duplication of item though the use of mana. Also allows for a more easily automated form of psi materials."
         }
       },
       "tasks": [
@@ -19448,7 +19448,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Book of Darkness",
-          "desc": "The guide to all things evil can be created by feeeding the dark apple to a pig and throwing a book at the resulting dark orb."
+          "desc": "The guide to all things evil can be created by feeding the dark apple to a pig and throwing a book at the resulting dark orb."
         }
       },
       "tasks": [
@@ -19882,7 +19882,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "The Only Child #3",
-          "desc": "My mother says it is no surprise that my father’s magic starts with crystal and syringes, shaking her head.  Yet another bit of their past that I don’t understand.  As a child, I begged for stories and she rarely let anything slip.  When she got older… well, by then I knew that this world was my world and had little interest in theirs."
+          "desc": "My mother says it is no surprise that my father's magic starts with crystal and syringes, shaking her head.  Yet another bit of their past that I don't understand.  As a child, I begged for stories and she rarely let anything slip.  When she got older… well, by then I knew that this world was my world and had little interest in theirs."
         }
       },
       "tasks": [
@@ -19919,7 +19919,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "The Only Child #5",
-          "desc": "After putting me to bed, my mother would often climb her tower and stare up at the stars.  At first I’m sure she was searching for something familiar, a way home.  But she soon found they had a power and beauty all their own… and learned how to harness it."
+          "desc": "After putting me to bed, my mother would often climb her tower and stare up at the stars.  At first I'm sure she was searching for something familiar, a way home.  But she soon found they had a power and beauty all their own… and learned how to harness it."
         }
       },
       "tasks": [
@@ -19994,7 +19994,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "The Only Child #11",
-          "desc": "My mother was very frustrated when she first tried to get her newest discovery, starmetal, to successfully smelt.  Tinker tried to help her but they couldn’t get the heat to sustain at a high enough level; he was muttering about arc power and signalum upgrades as he wandered off.  It was my father who finally solved it, much to her chagrin. Say what you will about him, he would always come when she needed him, even if he couldn’t figure out how to stay.  She called him horrid names at times… but also called him her “last man on earth” and always welcomed him back."
+          "desc": "My mother was very frustrated when she first tried to get her newest discovery, starmetal, to successfully smelt.  Tinker tried to help her but they couldn't get the heat to sustain at a high enough level; he was muttering about arc power and signalum upgrades as he wandered off.  It was my father who finally solved it, much to her chagrin. Say what you will about him, he would always come when she needed him, even if he couldn't figure out how to stay.  She called him horrid names at times… but also called him her “last man on earth” and always welcomed him back."
         }
       },
       "tasks": [
@@ -20106,7 +20106,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "The Only Child #7",
-          "desc": "Not everything my father touches was death and blood.  All that cleanup led him to develop some very clever plumbing that rivals anything the fools in the lost cities had… I mean, did those people never have to use a toilet?  My father’s inventions made cleanup a breeze and are useful for any number of things!"
+          "desc": "Not everything my father touches was death and blood.  All that cleanup led him to develop some very clever plumbing that rivals anything the fools in the lost cities had… I mean, did those people never have to use a toilet?  My father's inventions made cleanup a breeze and are useful for any number of things!"
         }
       },
       "tasks": [
@@ -20346,7 +20346,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker’s Notebook #1",
+          "name": "Tinker's Notebook #1",
           "desc": "This world is strange in more ways than just the obvious.  The very rules of science seem to be different; currents and metals work in different ways.  It is clear that they were once very sophisticated; their skyscrapers are built of mysterious and wondrous materials and you find remains of their gears and circuits everywhere.  I refuse to give up and live like a caveman or follow the path of magic and madness like my friends.  I will pick away at this problem until I understand!"
         }
       },
@@ -20383,7 +20383,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker’s Notebook #2",
+          "name": "Tinker's Notebook #2",
           "desc": "I seem to be missing some very basic materials.  I see them in the buildings and in the detritus but they are completely absent from my core samples.  Finally I found a tower with an odd doorway.  After months of trying, it was finally my friend who gave me the materials to light an eerie fire and open the door to… I do not know how to describe it.  It scares me and fills me with hope, for here are the missing pieces!"
         }
       },
@@ -20420,8 +20420,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker’s Notebook #3",
-          "desc": "I found a crazy assortment of brewing apparatus and stills (and a lot of broken bottles) in an abandoned cottage up the hills.  I think the hermit is long dead, but I’ve been tinkering with his equipment and I think I might be able to improve on his designs and put it to a more industrial use. If this doesn’t work to improve my ore processing, I may take up drinking myself."
+          "name": "Tinker's Notebook #3",
+          "desc": "I found a crazy assortment of brewing apparatus and stills (and a lot of broken bottles) in an abandoned cottage up the hills.  I think the hermit is long dead, but I've been tinkering with his equipment and I think I might be able to improve on his designs and put it to a more industrial use. If this doesn't work to improve my ore processing, I may take up drinking myself."
         }
       },
       "tasks": [
@@ -20457,7 +20457,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker’s Notebook #4",
+          "name": "Tinker's Notebook #4",
           "desc": "Now that I seem to have the basic materials, I need to go about this a little more methodically. Enough custom gears and individual design.  I think I can make some basic components that I can assemble and customize to different needs."
         }
       },
@@ -20494,7 +20494,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker’s Notebook #5",
+          "name": "Tinker's Notebook #5",
           "desc": "For my smaller machines, I think if I build them into a standard casing it will allow me to rearrange my systems easily.  And one style of case should work for everything, right? Right!?  Right…."
         }
       },
@@ -20531,8 +20531,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker’s Notebook #6",
-          "desc": "The bees seem to be bothered by the chemical smells of my workshop… perhaps if I make a more natural appearing (and smelling) piece of machinery to process their output and supplies, they won’t sting me so much.  Please.  Effing bees…"
+          "name": "Tinker's Notebook #6",
+          "desc": "The bees seem to be bothered by the chemical smells of my workshop… perhaps if I make a more natural appearing (and smelling) piece of machinery to process their output and supplies, they won't sting me so much.  Please.  Effing bees…"
         }
       },
       "tasks": [
@@ -20568,7 +20568,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker’s Notebook #8",
+          "name": "Tinker's Notebook #8",
           "desc": "I have created some more prototypes of machine casings.  After extensive testing, it is my plan to consolidate them all into one consistent, easy-to-manufacture style.  I am totally putting that on my to-do list… as soon as i find it."
         }
       },
@@ -20607,7 +20607,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "The Only Child #11",
-          "desc": "Having brought the magic of my mother and the magic of my father into some sort of uneasy cooperation, I was able to bring my own magic to the next level.  The way my mother\u0027s magic let you pre-program an event, when combined with the visceral worldliness that my father preferred let me capture those natural forces into a token that I could reuse and repurpose at need.  I called it the Runic Altar in honor of this combination of Symbol and Sanguine."
+          "desc": "Having brought the magic of my mother and the magic of my father into some sort of uneasy cooperation, I was able to bring my own magic to the next level.  The way my mother\u0027s magic let you pre-program an event, when combined with the visceral worldliness that my father preferred let me capture those natural forces into a token that I could reuse and re-purpose at need.  I called it the Runic Altar in honor of this combination of Symbol and Sanguine."
         }
       },
       "tasks": [
@@ -21246,7 +21246,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Fluid Mover",
-          "desc": "Using the broken plates salavaged from junk bags in the river, you can make a simple bucket."
+          "desc": "Using the broken plates salvaged from junk bags in the river, you can make a simple bucket."
         }
       },
       "tasks": [
@@ -21427,7 +21427,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Buring the Junk",
+          "name": "Burning the Junk",
           "desc": "With so many sticks clogging up the strainers, it might be helpful to combine them into bundles for easy fuel."
         }
       },
@@ -22275,7 +22275,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Cow Disassembly Plant",
-          "desc": "Great for turning cute creatures into crafting components. (If you\u0027re on a server, be nice and hook some lights to an online detector to automaticlly turn off mob farms while you\u0027re away)"
+          "desc": "Great for turning cute creatures into crafting components. (If you\u0027re on a server, be nice and hook some lights to an online detector to automatically turn off mob farms while you\u0027re away)"
         }
       },
       "tasks": [
@@ -22361,7 +22361,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "People Farm ",
-          "desc": "Allows for trading with an imprisioned villager with 100 percent less moaning. Can also be automated."
+          "desc": "Allows for trading with an imprisoned villager with 100 percent less moaning. Can also be automated."
         }
       },
       "tasks": [
@@ -22511,7 +22511,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Not the Bees",
-          "desc": "Rustic bees can be found hanging from trees. Pams bees only appear in chests or their larva can be purchased from the market. Both function by simply placing the bee inside the apiary"
+          "desc": "Rustic bees can be found hanging from trees. Pam's bees only appear in chests or their larva can be purchased from the market. Both function by simply placing the bee inside the apiary"
         }
       },
       "tasks": [
@@ -22613,8 +22613,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Miss Martha’s Guidebook #1",
-          "desc": "Miss Martha’s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Animals \n \nAnimals smell Bad.  The sooner you can Not Touch Them Ever, the better.  One simple method is to make a special jar, trap a cow on top of it and then drop an anvil on its nasty head.  So much cleaner now! More heavily automated options are even better because you can lock the filthy animals underground and never let them see the light of day ever again.  Fabulous!"
+          "name": "Miss Martha's Guidebook #1",
+          "desc": "Miss Martha's Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Animals \n \nAnimals smell Bad.  The sooner you can Not Touch Them Ever, the better.  One simple method is to make a special jar, trap a cow on top of it and then drop an anvil on its nasty head.  So much cleaner now! More heavily automated options are even better because you can lock the filthy animals underground and never let them see the light of day ever again.  Fabulous!"
         }
       },
       "tasks": [
@@ -22650,8 +22650,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Miss Martha’s Guidebook #2",
-          "desc": "Miss Martha’s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Bees \n \nThe health and beauty benefits of honey are well known, so I don’t have to tell you that!  But there are so many options it can be bewildering for the discerning consumer.  Today we are going to do a quick review and comparison of the options available on this godforsaken wasteland.  The simple Rustic bees are clearly native; they have very high production and boost the growth of nearby plants.  The more elusive Pams honey bees produce much slower, but are great for food and candles… and I’m sure this royal jelly will have cosmetic properties.  Then there are the diverse and mysterious (and painful) bees that seem to vary by biome.  Slow and troublesome, they do show promise in the long run."
+          "name": "Miss Martha's Guidebook #2",
+          "desc": "Miss Martha's Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Bees \n \nThe health and beauty benefits of honey are well known, so I don't have to tell you that!  But there are so many options it can be bewildering for the discerning consumer.  Today we are going to do a quick review and comparison of the options available on this godforsaken wasteland.  The simple Rustic bees are clearly native; they have very high production and boost the growth of nearby plants.  The more elusive Pam's honey bees produce much slower, but are great for food and candles… and I'm sure this royal jelly will have cosmetic properties.  Then there are the diverse and mysterious (and painful) bees that seem to vary by biome.  Slow and troublesome, they do show promise in the long run."
         }
       },
       "tasks": [
@@ -22687,8 +22687,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Miss Martha’s Guidebook #3",
-          "desc": "Miss Martha’s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Cooking \n \nThe newest and fastest growing trend in cooking is… old and slow! Slowly braising wild caught ingredients in clay crockery, frying an egg on a heated ceramic disc by a wood fire, adding a touch of smoke and depth.  A rustic, hand-pressed juice… \n\nWho are we kidding. I just beat two rocks together and licked up what squirts out .  I hate my life."
+          "name": "Miss Martha's Guidebook #3",
+          "desc": "Miss Martha's Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Cooking \n \nThe newest and fastest growing trend in cooking is… old and slow! Slowly braising wild caught ingredients in clay crockery, frying an egg on a heated ceramic disc by a wood fire, adding a touch of smoke and depth.  A rustic, hand-pressed juice… \n\nWho are we kidding. I just beat two rocks together and licked up what squirts out .  I hate my life."
         }
       },
       "tasks": [
@@ -22724,8 +22724,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Miss Martha’s Guidebook #4",
-          "desc": "Miss Martha’s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Kitchen \n \nWhen laying out a kitchen, it is important that not only is the space fuctional and well organized, but also well lit and decorated! A well palced window for natural light and some attractive framed art of a dead chicken or other hunting trophy add color and flair.  If nothing else is available, perhaps a potato print… of the poisonous variety."
+          "name": "Miss Martha's Guidebook #4",
+          "desc": "Miss Martha's Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Kitchen \n \nWhen laying out a kitchen, it is important that not only is the space functional and well organized, but also well lit and decorated! A well placed window for natural light and some attractive framed art of a dead chicken or other hunting trophy add color and flair.  If nothing else is available, perhaps a potato print… of the poisonous variety."
         }
       },
       "tasks": [
@@ -22761,8 +22761,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Miss Martha’s Guidebook #5",
-          "desc": "Miss Martha’s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Balanced Diet \n \nHave you been eating too much steak and baked potatoes?  Is your waistline growing, along with your bathroom time? Time to vary that diet, get some fiber, and stay Heart Smart!For every 25 unique foods you eat, your heart will grow a little stronger and beat a little harder, letting you fight, mine, or love for just a little bit longer each day.  So get off that fat ass and start varying your diet."
+          "name": "Miss Martha's Guidebook #5",
+          "desc": "Miss Martha's Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Balanced Diet \n \nHave you been eating too much steak and baked potatoes?  Is your waistline growing, along with your bathroom time? Time to vary that diet, get some fiber, and stay Heart Smart!For every 25 unique foods you eat, your heart will grow a little stronger and beat a little harder, letting you fight, mine, or love for just a little bit longer each day.  So get off that fat ass and start varying your diet."
         }
       },
       "tasks": [
@@ -22871,7 +22871,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Transforming Stone",
-          "desc": "Stone placed near the marimorphosis will transform into a random biome variation. The stone is 12 times more likey to transform into the biome variant where is it placed. "
+          "desc": "Stone placed near the marimorphosis will transform into a random biome variation. The stone is 12 times more likely to transform into the biome variant where is it placed. "
         }
       },
       "tasks": [
@@ -23021,7 +23021,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "City Block",
-          "desc": "The lost city dimension is almost entirly filled with cities without damage. Great for looting or finding ores that don\u0027t generate in the overworld. Created by placing a bed ontop of 2 empowered restonia blocks and surrounding the bed with 6 skulls. "
+          "desc": "The lost city dimension is almost entirely filled with cities without damage. Great for looting or finding ores that don\u0027t generate in the overworld. Created by placing a bed on top of 2 empowered restonia blocks and surrounding the bed with 6 skulls. "
         }
       },
       "tasks": [
@@ -23365,7 +23365,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Getting It In and Out",
-          "desc": "   The cart manager, when placed next to a detector rail, can be used to automaticlly input or extract item from the cart. Clicking the center button will allow each side to have a separate behavior. This can be used to configure a single cargo manager to extract items from one face and insert fuel into a cart from another.\n   The external distributer will extend access to the cart manager one block higer when placed on top. This will make using pipes to insert/extract items from the cargo manager easier."
+          "desc": "   The cart manager, when placed next to a detector rail, can be used to automatically input or extract item from the cart. Clicking the center button will allow each side to have a separate behavior. This can be used to configure a single cargo manager to extract items from one face and insert fuel into a cart from another.\n   The external distributer will extend access to the cart manager one block higher when placed on top. This will make using pipes to insert/extract items from the cargo manager easier."
         }
       },
       "tasks": [
@@ -23711,7 +23711,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The Chemist’s Research #2",
+          "name": "The Chemist's Research #2",
           "desc": "Nature may abhor a vacuum… but this world adores a vacuum tube.  Every variation I try seems to interact with the world around it in a different way.  Some of them light up in my hand the second I create them, others it takes more investigation but all seem to be useful in a variety of ways.  Many of them have proved excellent in the automation of various farms and growth varieties but their most promising use by far has been in automation and logistics, which frees my time for more pressing pursuits"
         }
       },
@@ -23749,8 +23749,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The Chemist’s Research #1",
-          "desc": "The wildlife of this world, which seemed at first little more than a painful annoyance (especially the bees), seems to interact with the unrecognizable minerals in exciting ways.  I’ve tried combining them in different iterations and have already discovered at least two useful byproducts."
+          "name": "The Chemist's Research #1",
+          "desc": "The wildlife of this world, which seemed at first little more than a painful annoyance (especially the bees), seems to interact with the unrecognizable minerals in exciting ways.  I've tried combining them in different iterations and have already discovered at least two useful byproducts."
         }
       },
       "tasks": [
@@ -23786,8 +23786,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The Chemist’s Research #3",
-          "desc": "Matter and energy may or may not be interchangeable in this world,  but they are certainly changeable.  Exposing certain minerals to focused laser beams seems to transform them into a more powerful and unpredictable variation and I have begun toying with lenses which cause even more spectacular results!  My newest experiments involve converting various samples of matter into beams of energy that the altered crystal matrices of reconstructed minerals seem to be able to absorb, causing stranger and stranger matter states to coalesce.  They aren’t stable yet, but I remain optimistic that with further experimentation I will succeed."
+          "name": "The Chemist's Research #3",
+          "desc": "Matter and energy may or may not be interchangeable in this world,  but they are certainly changeable.  Exposing certain minerals to focused laser beams seems to transform them into a more powerful and unpredictable variation and I have begun toying with lenses which cause even more spectacular results!  My newest experiments involve converting various samples of matter into beams of energy that the altered crystal matrices of reconstructed minerals seem to be able to absorb, causing stranger and stranger matter states to coalesce.  They aren't stable yet, but I remain optimistic that with further experimentation I will succeed."
         }
       },
       "tasks": [
@@ -23823,8 +23823,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The Chemist’s Research #4",
-          "desc": "Now that I have my empowered mineral variants, I can see how truly interconnected the weird physics of this world is. Some sort of mathemagnetic field seems to swirl around them, affecting nearby matter.  I am now experimenting with how these fields interact, exposing items to each other and seeing what strange new form of matter comes out the other side. Some things combine easily, others need more complex mathematics to stabilize the reaction.  For the most dramatic effects, I have found it necessary to add vast amounts of energy into the equation, and the natural electricity formed by the magnetosphere of this planet seems to be the most efficacious of all.  With my conductor mast I am toying with very powerful and dangerous tools indeed.  It\u0027s a good thing I shall only use my powers for good! Mostly..."
+          "name": "The Chemist's Research #4",
+          "desc": "Now that I have my empowered mineral variants, I can see how truly interconnected the weird physics of this world is. Some sort of mathematic field seems to swirl around them, affecting nearby matter.  I am now experimenting with how these fields interact, exposing items to each other and seeing what strange new form of matter comes out the other side. Some things combine easily, others need more complex mathematics to stabilize the reaction.  For the most dramatic effects, I have found it necessary to add vast amounts of energy into the equation, and the natural electricity formed by the magnetosphere of this planet seems to be the most efficacious of all.  With my conductor mast I am toying with very powerful and dangerous tools indeed.  It\u0027s a good thing I shall only use my powers for good! Mostly..."
         }
       },
       "tasks": [
@@ -24246,7 +24246,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Dupe Bugs",
-          "desc": "The universe now in fear of your great power has reveal the secrect of multiplying matter with energy. Requires 1.5 billion RF and 7 circuits."
+          "desc": "The universe now in fear of your great power has reveal the secret of multiplying matter with energy. Requires 1.5 billion RF and 7 circuits."
         }
       },
       "tasks": [
@@ -24415,7 +24415,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Anti Dragon Cape",
-          "desc": "Each attunement has slighty different properties, but all make an excellent defence against chaos dragons. (Any attunement valid for quest)."
+          "desc": "Each attunement has slightly different properties, but all make an excellent defence against chaos dragons. (Any attunement valid for quest)."
         }
       },
       "tasks": [
