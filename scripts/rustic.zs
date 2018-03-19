@@ -109,7 +109,6 @@ Evaporating Basin
 =========================*/
 mods.rustic.EvaporatingBasin.addRecipe(<evilcraft:condensed_blood>, <liquid:evilcraftblood> * 500);
 mods.rustic.EvaporatingBasin.addRecipe(<harvestcraft:saltitem>, <liquid:water> * 100);
-mods.rustic.EvaporatingBasin.addRecipe(<immersiveengineering:metal:33>, <liquid:silver> * 1000);
 mods.rustic.EvaporatingBasin.addRecipe(<thermalfoundation:material:199>, <liquid:iridium> * 200);
 mods.rustic.EvaporatingBasin.addRecipe(<thermalfoundation:material:1026>, <liquid:aerotheum> * 1000);
 mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:resinplate>, <liquid:sap> * 500);
@@ -117,6 +116,7 @@ mods.rustic.EvaporatingBasin.addRecipe(<contenttweaker:resinplate>, <liquid:resi
 mods.rustic.EvaporatingBasin.addRecipe(<minecraft:redstone>, <liquid:redstone> * 500);
 mods.rustic.EvaporatingBasin.addRecipe(<harvestcraft:honeyitem>, <liquid:honey> * 250);
 mods.rustic.EvaporatingBasin.addRecipe(<extrabees:propolis:7>, <liquid:creosote> * 500);
+mods.rustic.EvaporatingBasin.addRecipe(<jaopca:item_clumpmithril>, <liquid:mithril> * 1000);
 
 
 /*=========================

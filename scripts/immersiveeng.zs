@@ -328,7 +328,7 @@ mods.immersiveengineering.Refinery.addRecipe(<liquid:mithril> * 500, <liquid:pla
 /*=========================
 Metal Press
 =========================*/
-mods.immersiveengineering.MetalPress.addRecipe(manaIngot, mithrilCan, unpackingMold, 300);
+mods.immersiveengineering.MetalPress.addRecipe(manaIngot, <jaopca:item_clumpmithril>, unpackingMold, 300);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:metal:37>, <ore:ingotElectrum>, <immersiveengineering:mold>, 300);
 mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_platediamond>, <minecraft:diamond>, <immersiveengineering:mold>, 600);
 mods.immersiveengineering.MetalPress.addRecipe(<jaopca:item_geardark>, <evilcraft:dark_gem> * 4  , gearMold, 300);

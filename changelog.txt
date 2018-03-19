@@ -1,3 +1,12 @@
+2.9.0
+---------- 
+Changed starting botania quest to require either evilcraft or psi rather than both
+Removed unused drying bin recipe
+Fixed a few typos in quest book
+Night Light quest now accepts either regular or celestial crystal
+Blacklist bunch of AS items from cardboard box to avoid upsetting the sensitive light network
+Slightly altar mana infused metal process for... reasons 
+
 2.8.0
 ---------- 
 Fleshed out the final tech chapter with more quests

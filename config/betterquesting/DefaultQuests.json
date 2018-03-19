@@ -2775,7 +2775,7 @@
           "autoclaim": false,
           "ismain": true,
           "name": "Crush It",
-          "desc": "Items placed in the crushing tub my be processed by jumping on them. This will produce a liquid and often an item byproduct. Sneak + Right Click will clear any fluid in the tub. Can be used to crush berries into juice, clay into bricks, and coal into dust. "
+          "desc": "Items placed in the crushing tub may be processed by jumping on them. This will produce a liquid and often an item byproduct. Sneak + Right Click will clear any fluid in the tub. Can be used to crush berries into juice, clay into bricks, and coal into dust. "
         }
       },
       "tasks": [
@@ -11777,7 +11777,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker's Notebook #7",
+          "name": "Tinker\u0027s Notebook #7",
           "desc": "Eureka!  Not only are materials science and electricity different in this world… math itself seems to have strange, material altering properties!  I do not know if I am starting to understand the physics of this universe or have finally gone mad.  I mock my friends for dabbling with blood and starlight but when 2+2\u003dgold… am I any different? I should tell her, next time I visit.  As soon as I trim my beard… and bathe… and perhaps I should bring her something… hmmmm."
         }
       },
@@ -18240,7 +18240,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Mage's Glock",
+          "name": "Mage\u0027s Glock",
           "desc": "A very powerful CAD capable of accepting even more complex spells."
         }
       },
@@ -18852,7 +18852,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -18877,7 +18877,7 @@
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "Night Light",
           "desc": "A hand crafted version of the naturally occurring crystals. Provides starlight to any block or crafting table it is linked to."
         }
@@ -18910,6 +18910,34 @@
           ],
           "taskID": "bq_standard:retrieval",
           "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "astralsorcery:blockcelestialcollectorcrystal",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "astralsorcery:10": {
+                  "constellationName:8": "astralsorcery.constellation.discidia",
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 900,
+                    "purity:3": 100
+                  },
+                  "collectorType:3": 1
+                }
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
         }
       ],
       "rewards": [
@@ -19882,7 +19910,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "The Only Child #3",
-          "desc": "My mother says it is no surprise that my father's magic starts with crystal and syringes, shaking her head.  Yet another bit of their past that I don't understand.  As a child, I begged for stories and she rarely let anything slip.  When she got older… well, by then I knew that this world was my world and had little interest in theirs."
+          "desc": "My mother says it is no surprise that my father\u0027s magic starts with crystal and syringes, shaking her head.  Yet another bit of their past that I don\u0027t understand.  As a child, I begged for stories and she rarely let anything slip.  When she got older… well, by then I knew that this world was my world and had little interest in theirs."
         }
       },
       "tasks": [
@@ -19919,7 +19947,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "The Only Child #5",
-          "desc": "After putting me to bed, my mother would often climb her tower and stare up at the stars.  At first I'm sure she was searching for something familiar, a way home.  But she soon found they had a power and beauty all their own… and learned how to harness it."
+          "desc": "After putting me to bed, my mother would often climb her tower and stare up at the stars.  At first I\u0027m sure she was searching for something familiar, a way home.  But she soon found they had a power and beauty all their own… and learned how to harness it."
         }
       },
       "tasks": [
@@ -19994,7 +20022,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "The Only Child #11",
-          "desc": "My mother was very frustrated when she first tried to get her newest discovery, starmetal, to successfully smelt.  Tinker tried to help her but they couldn't get the heat to sustain at a high enough level; he was muttering about arc power and signalum upgrades as he wandered off.  It was my father who finally solved it, much to her chagrin. Say what you will about him, he would always come when she needed him, even if he couldn't figure out how to stay.  She called him horrid names at times… but also called him her “last man on earth” and always welcomed him back."
+          "desc": "My mother was very frustrated when she first tried to get her newest discovery, starmetal, to successfully smelt.  Tinker tried to help her but they couldn\u0027t get the heat to sustain at a high enough level; he was muttering about arc power and signalum upgrades as he wandered off.  It was my father who finally solved it, much to her chagrin. Say what you will about him, he would always come when she needed him, even if he couldn\u0027t figure out how to stay.  She called him horrid names at times… but also called him her “last man on earth” and always welcomed him back."
         }
       },
       "tasks": [
@@ -20106,7 +20134,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "The Only Child #7",
-          "desc": "Not everything my father touches was death and blood.  All that cleanup led him to develop some very clever plumbing that rivals anything the fools in the lost cities had… I mean, did those people never have to use a toilet?  My father's inventions made cleanup a breeze and are useful for any number of things!"
+          "desc": "Not everything my father touches was death and blood.  All that cleanup led him to develop some very clever plumbing that rivals anything the fools in the lost cities had… I mean, did those people never have to use a toilet?  My father\u0027s inventions made cleanup a breeze and are useful for any number of things!"
         }
       },
       "tasks": [
@@ -20203,11 +20231,11 @@
             "Damage": 0
           },
           "globalshare": false,
-          "questlogic": "AND",
+          "questlogic": "OR",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
-          "ismain": false,
+          "ismain": true,
           "name": "The Only Child #8",
           "desc": "I was 15 when I made my own first magic.  After yet another fight with my mother, I fled to the woods, picking the flowers there that shimmered slightly in the coming twilight.  In this world, nearly everything seems to have more uses than meet the eye but it took me two months of experimentation before I had my first functional apothecary and created a Pure Daisy, so called because of the daze my life had been before discovering the powerful flowers."
         }
@@ -20346,7 +20374,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker's Notebook #1",
+          "name": "Tinker\u0027s Notebook #1",
           "desc": "This world is strange in more ways than just the obvious.  The very rules of science seem to be different; currents and metals work in different ways.  It is clear that they were once very sophisticated; their skyscrapers are built of mysterious and wondrous materials and you find remains of their gears and circuits everywhere.  I refuse to give up and live like a caveman or follow the path of magic and madness like my friends.  I will pick away at this problem until I understand!"
         }
       },
@@ -20383,7 +20411,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker's Notebook #2",
+          "name": "Tinker\u0027s Notebook #2",
           "desc": "I seem to be missing some very basic materials.  I see them in the buildings and in the detritus but they are completely absent from my core samples.  Finally I found a tower with an odd doorway.  After months of trying, it was finally my friend who gave me the materials to light an eerie fire and open the door to… I do not know how to describe it.  It scares me and fills me with hope, for here are the missing pieces!"
         }
       },
@@ -20420,8 +20448,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker's Notebook #3",
-          "desc": "I found a crazy assortment of brewing apparatus and stills (and a lot of broken bottles) in an abandoned cottage up the hills.  I think the hermit is long dead, but I've been tinkering with his equipment and I think I might be able to improve on his designs and put it to a more industrial use. If this doesn't work to improve my ore processing, I may take up drinking myself."
+          "name": "Tinker\u0027s Notebook #3",
+          "desc": "I found a crazy assortment of brewing apparatus and stills (and a lot of broken bottles) in an abandoned cottage up the hills.  I think the hermit is long dead, but I\u0027ve been tinkering with his equipment and I think I might be able to improve on his designs and put it to a more industrial use. If this doesn\u0027t work to improve my ore processing, I may take up drinking myself."
         }
       },
       "tasks": [
@@ -20457,7 +20485,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker's Notebook #4",
+          "name": "Tinker\u0027s Notebook #4",
           "desc": "Now that I seem to have the basic materials, I need to go about this a little more methodically. Enough custom gears and individual design.  I think I can make some basic components that I can assemble and customize to different needs."
         }
       },
@@ -20494,7 +20522,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker's Notebook #5",
+          "name": "Tinker\u0027s Notebook #5",
           "desc": "For my smaller machines, I think if I build them into a standard casing it will allow me to rearrange my systems easily.  And one style of case should work for everything, right? Right!?  Right…."
         }
       },
@@ -20531,8 +20559,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker's Notebook #6",
-          "desc": "The bees seem to be bothered by the chemical smells of my workshop… perhaps if I make a more natural appearing (and smelling) piece of machinery to process their output and supplies, they won't sting me so much.  Please.  Effing bees…"
+          "name": "Tinker\u0027s Notebook #6",
+          "desc": "The bees seem to be bothered by the chemical smells of my workshop… perhaps if I make a more natural appearing (and smelling) piece of machinery to process their output and supplies, they won\u0027t sting me so much.  Please.  Effing bees…"
         }
       },
       "tasks": [
@@ -20568,7 +20596,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Tinker's Notebook #8",
+          "name": "Tinker\u0027s Notebook #8",
           "desc": "I have created some more prototypes of machine casings.  After extensive testing, it is my plan to consolidate them all into one consistent, easy-to-manufacture style.  I am totally putting that on my to-do list… as soon as i find it."
         }
       },
@@ -22511,7 +22539,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Not the Bees",
-          "desc": "Rustic bees can be found hanging from trees. Pam's bees only appear in chests or their larva can be purchased from the market. Both function by simply placing the bee inside the apiary"
+          "desc": "Rustic bees can be found hanging from trees. Pam\u0027s bees only appear in chests or their larva can be purchased from the market. Both function by simply placing the bee inside the apiary"
         }
       },
       "tasks": [
@@ -22613,8 +22641,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Miss Martha's Guidebook #1",
-          "desc": "Miss Martha's Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Animals \n \nAnimals smell Bad.  The sooner you can Not Touch Them Ever, the better.  One simple method is to make a special jar, trap a cow on top of it and then drop an anvil on its nasty head.  So much cleaner now! More heavily automated options are even better because you can lock the filthy animals underground and never let them see the light of day ever again.  Fabulous!"
+          "name": "Miss Martha\u0027s Guidebook #1",
+          "desc": "Miss Martha\u0027s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Animals \n \nAnimals smell Bad.  The sooner you can Not Touch Them Ever, the better.  One simple method is to make a special jar, trap a cow on top of it and then drop an anvil on its nasty head.  So much cleaner now! More heavily automated options are even better because you can lock the filthy animals underground and never let them see the light of day ever again.  Fabulous!"
         }
       },
       "tasks": [
@@ -22650,8 +22678,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Miss Martha's Guidebook #2",
-          "desc": "Miss Martha's Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Bees \n \nThe health and beauty benefits of honey are well known, so I don't have to tell you that!  But there are so many options it can be bewildering for the discerning consumer.  Today we are going to do a quick review and comparison of the options available on this godforsaken wasteland.  The simple Rustic bees are clearly native; they have very high production and boost the growth of nearby plants.  The more elusive Pam's honey bees produce much slower, but are great for food and candles… and I'm sure this royal jelly will have cosmetic properties.  Then there are the diverse and mysterious (and painful) bees that seem to vary by biome.  Slow and troublesome, they do show promise in the long run."
+          "name": "Miss Martha\u0027s Guidebook #2",
+          "desc": "Miss Martha\u0027s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Bees \n \nThe health and beauty benefits of honey are well known, so I don\u0027t have to tell you that!  But there are so many options it can be bewildering for the discerning consumer.  Today we are going to do a quick review and comparison of the options available on this godforsaken wasteland.  The simple Rustic bees are clearly native; they have very high production and boost the growth of nearby plants.  The more elusive Pam\u0027s honey bees produce much slower, but are great for food and candles… and I\u0027m sure this royal jelly will have cosmetic properties.  Then there are the diverse and mysterious (and painful) bees that seem to vary by biome.  Slow and troublesome, they do show promise in the long run."
         }
       },
       "tasks": [
@@ -22687,8 +22715,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Miss Martha's Guidebook #3",
-          "desc": "Miss Martha's Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Cooking \n \nThe newest and fastest growing trend in cooking is… old and slow! Slowly braising wild caught ingredients in clay crockery, frying an egg on a heated ceramic disc by a wood fire, adding a touch of smoke and depth.  A rustic, hand-pressed juice… \n\nWho are we kidding. I just beat two rocks together and licked up what squirts out .  I hate my life."
+          "name": "Miss Martha\u0027s Guidebook #3",
+          "desc": "Miss Martha\u0027s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Cooking \n \nThe newest and fastest growing trend in cooking is… old and slow! Slowly braising wild caught ingredients in clay crockery, frying an egg on a heated ceramic disc by a wood fire, adding a touch of smoke and depth.  A rustic, hand-pressed juice… \n\nWho are we kidding. I just beat two rocks together and licked up what squirts out .  I hate my life."
         }
       },
       "tasks": [
@@ -22724,8 +22752,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Miss Martha's Guidebook #4",
-          "desc": "Miss Martha's Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Kitchen \n \nWhen laying out a kitchen, it is important that not only is the space functional and well organized, but also well lit and decorated! A well placed window for natural light and some attractive framed art of a dead chicken or other hunting trophy add color and flair.  If nothing else is available, perhaps a potato print… of the poisonous variety."
+          "name": "Miss Martha\u0027s Guidebook #4",
+          "desc": "Miss Martha\u0027s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Kitchen \n \nWhen laying out a kitchen, it is important that not only is the space functional and well organized, but also well lit and decorated! A well placed window for natural light and some attractive framed art of a dead chicken or other hunting trophy add color and flair.  If nothing else is available, perhaps a potato print… of the poisonous variety."
         }
       },
       "tasks": [
@@ -22761,8 +22789,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "Miss Martha's Guidebook #5",
-          "desc": "Miss Martha's Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Balanced Diet \n \nHave you been eating too much steak and baked potatoes?  Is your waistline growing, along with your bathroom time? Time to vary that diet, get some fiber, and stay Heart Smart!For every 25 unique foods you eat, your heart will grow a little stronger and beat a little harder, letting you fight, mine, or love for just a little bit longer each day.  So get off that fat ass and start varying your diet."
+          "name": "Miss Martha\u0027s Guidebook #5",
+          "desc": "Miss Martha\u0027s Guidebook for Survival on a Hostile Planet (without getting your white pants dirty) - Balanced Diet \n \nHave you been eating too much steak and baked potatoes?  Is your waistline growing, along with your bathroom time? Time to vary that diet, get some fiber, and stay Heart Smart! For every 25 unique foods you eat, your heart will grow a little stronger and beat a little harder, letting you fight, mine, or love for just a little bit longer each day.  So get off that fat ass and start varying your diet."
         }
       },
       "tasks": [
@@ -23711,7 +23739,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The Chemist's Research #2",
+          "name": "The Chemist\u0027s Research #2",
           "desc": "Nature may abhor a vacuum… but this world adores a vacuum tube.  Every variation I try seems to interact with the world around it in a different way.  Some of them light up in my hand the second I create them, others it takes more investigation but all seem to be useful in a variety of ways.  Many of them have proved excellent in the automation of various farms and growth varieties but their most promising use by far has been in automation and logistics, which frees my time for more pressing pursuits"
         }
       },
@@ -23749,8 +23777,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The Chemist's Research #1",
-          "desc": "The wildlife of this world, which seemed at first little more than a painful annoyance (especially the bees), seems to interact with the unrecognizable minerals in exciting ways.  I've tried combining them in different iterations and have already discovered at least two useful byproducts."
+          "name": "The Chemist\u0027s Research #1",
+          "desc": "The wildlife of this world, which seemed at first little more than a painful annoyance (especially the bees), seems to interact with the unrecognizable minerals in exciting ways.  I\u0027ve tried combining them in different iterations and have already discovered at least two useful byproducts."
         }
       },
       "tasks": [
@@ -23786,8 +23814,8 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The Chemist's Research #3",
-          "desc": "Matter and energy may or may not be interchangeable in this world,  but they are certainly changeable.  Exposing certain minerals to focused laser beams seems to transform them into a more powerful and unpredictable variation and I have begun toying with lenses which cause even more spectacular results!  My newest experiments involve converting various samples of matter into beams of energy that the altered crystal matrices of reconstructed minerals seem to be able to absorb, causing stranger and stranger matter states to coalesce.  They aren't stable yet, but I remain optimistic that with further experimentation I will succeed."
+          "name": "The Chemist\u0027s Research #3",
+          "desc": "Matter and energy may or may not be interchangeable in this world,  but they are certainly changeable.  Exposing certain minerals to focused laser beams seems to transform them into a more powerful and unpredictable variation and I have begun toying with lenses which cause even more spectacular results!  My newest experiments involve converting various samples of matter into beams of energy that the altered crystal matrices of reconstructed minerals seem to be able to absorb, causing stranger and stranger matter states to coalesce.  They aren\u0027t stable yet, but I remain optimistic that with further experimentation I will succeed."
         }
       },
       "tasks": [
@@ -23823,7 +23851,7 @@
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": false,
-          "name": "The Chemist's Research #4",
+          "name": "The Chemist\u0027s Research #4",
           "desc": "Now that I have my empowered mineral variants, I can see how truly interconnected the weird physics of this world is. Some sort of mathematic field seems to swirl around them, affecting nearby matter.  I am now experimenting with how these fields interact, exposing items to each other and seeing what strange new form of matter comes out the other side. Some things combine easily, others need more complex mathematics to stabilize the reaction.  For the most dramatic effects, I have found it necessary to add vast amounts of energy into the equation, and the natural electricity formed by the magnetosphere of this planet seems to be the most efficacious of all.  With my conductor mast I am toying with very powerful and dangerous tools indeed.  It\u0027s a good thing I shall only use my powers for good! Mostly..."
         }
       },

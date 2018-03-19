@@ -42,6 +42,7 @@ item.contenttweaker.oreinjectiondna.name=Ore Injection Tool (DNA)
 item.contenttweaker.oreinjectionaero.name=Ore Injection Tool (Aerotheum)
 item.contenttweaker.inertcore.name=Inert Draconic Core
 item.contenttweaker.butterflyspray.name=Butterfly Poison
+item.contenttweaker.glassshards.name=Glass Shards
 fluid.dblood=Otherworldly Blood
 fluid.dblood.name=Otherworldly Blood
 binniecore.storage.compartment=Compartment

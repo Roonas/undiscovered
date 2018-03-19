@@ -210,6 +210,9 @@ osmaticsteeldust.register();
 var netherrod = VanillaFactory.createItem("netherrod");
 netherrod.register();
 
+var glassshards = VanillaFactory.createItem("glassshards");
+glassshards.register();
+
 //var inertcore = VanillaFactory.createItem("inertcore");
 //inertcore.register();
 
