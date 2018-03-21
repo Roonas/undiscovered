@@ -189,3 +189,4 @@ mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreDark>, 200);
 mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreChaos>, 320);
 mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreTungsten>, 180);
 mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreIridium>, 40);
+mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreSteel>, 40);

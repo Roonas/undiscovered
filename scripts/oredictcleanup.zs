@@ -348,3 +348,4 @@ game.setLocalization("en_us", "item.magneticraft.dusts_nickel.name", "Nickel Con
 <ore:bitumen>.add(<immersivepetroleum:material>);
 <ore:bitumen>.add(<thermalfoundation:material:892>);
 <ore:lavaRing>.add(<randomthings:lavacharm>);
+<ore:oreSteel>.add(<contenttweaker:osmaticsteelore>);
