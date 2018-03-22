@@ -6,6 +6,11 @@ Fixed a few typos in quest book
 Night Light quest now accepts either regular or celestial crystal
 Blacklist bunch of AS items from cardboard box to avoid upsetting the sensitive light network
 Slightly altar mana infused metal process for... reasons 
+Added glass shards to recycle glass bottles
+Fixed marimorph quest
+Changed many magneticraft recipes to use oredict plates
+Magneticraft ore chunks all smelt to 2 ingots now
+Fixed sandstone crushing table recipe
 
 2.8.0
 ---------- 

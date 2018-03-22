@@ -125,6 +125,13 @@ recipes.addShaped(<actuallyadditions:block_misc:4>, [
     [<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>]
     ]);
 
+recipes.remove(<actuallyadditions:item_laser_wrench>);
+recipes.addShaped(<actuallyadditions:item_laser_wrench>, [
+    [<actuallyadditions:item_misc:7>, null, null],
+    [null, <actuallyadditions:item_crystal:5>, null], 
+    [null, null, <actuallyadditions:item_crystal:5>]
+    ]);
+
 
 
 /*=========================
@@ -142,6 +149,7 @@ mods.actuallyadditions.Crusher.addRecipe(<contenttweaker:osmaticsteeldust> * 2, 
 mods.actuallyadditions.Crusher.addRecipe(<minecraft:sand>, <minecraft:sandstone>, <immersiveengineering:material:24>, 50);
 mods.actuallyadditions.Crusher.addRecipe(<minecraft:sand:1>, <minecraft:red_sandstone>, <immersiveengineering:material:24>, 50);
 mods.actuallyadditions.Crusher.addRecipe(<forestry:honey_drop>, <rustic:honeycomb>, <forestry:honey_drop>, 10);
+mods.actuallyadditions.Crusher.addRecipe(<contenttweaker:glassshards>, <minecraft:glass_bottle>);
 
 /*=========================
 Empowerer
@@ -188,5 +196,5 @@ mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreNickel>, 200);
 mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreDark>, 200);
 mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreChaos>, 320);
 mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreTungsten>, 180);
-mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreIridium>, 40);
-mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreSteel>, 40);
+mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreIridium>, 65);
+mods.actuallyadditions.MiningLens.addStoneOre(<ore:oreSteel>, 80);

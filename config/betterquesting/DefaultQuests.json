@@ -22905,7 +22905,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,

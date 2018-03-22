@@ -351,3 +351,15 @@ recipes.addShapeless(<harvestcraft:vinegaritem>, [
 recipes.addShapeless(<harvestcraft:vinegaritem>, [
     <harvestcraft:potitem>, <rustic:fluid_bottle>.withTag({Fluid: {FluidName: "grapejuice", Amount: 1000}})
     ]);
+
+recipes.addShaped(<extrautils2:decorativesolid:4> * 2, [
+    [<contenttweaker:glassshards>, <contenttweaker:glassshards>, <contenttweaker:glassshards>],
+    [<contenttweaker:glassshards>, <minecraft:sand>, <contenttweaker:glassshards>], 
+    [<contenttweaker:glassshards>, <contenttweaker:glassshards>, <contenttweaker:glassshards>]
+    ]);
+
+recipes.addShaped(<minecraft:glass>, [
+    [<contenttweaker:glassshards>, <contenttweaker:glassshards>, <contenttweaker:glassshards>],
+    [<contenttweaker:glassshards>, <contenttweaker:glassshards>, <contenttweaker:glassshards>], 
+    [<contenttweaker:glassshards>, <contenttweaker:glassshards>, <contenttweaker:glassshards>]
+    ]);

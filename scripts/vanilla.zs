@@ -48,8 +48,6 @@ furnace.remove(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>);
 furnace.addRecipe(tungstenNug * 2, rockyTungsten);
 furnace.addRecipe(<contenttweaker:ironslag>, <minecraft:iron_ore>);
 furnace.addRecipe(<contenttweaker:goldslag>, <minecraft:gold_ore>);
-//furnace.addRecipe(<contenttweaker:copperslag>, <thermalfoundation:ore>);
-//furnace.addRecipe(<contenttweaker:alumslag>, <immersiveengineering:ore:1>);
 furnace.addRecipe(<thermalfoundation:material:135>, <thermalfoundation:material:71>);
 furnace.addRecipe(<magneticraft:crafting>, <thermalfoundation:material:771>);
 furnace.addRecipe(<contenttweaker:resinplate>, <forestry:can:1>.withTag({Fluid: {FluidName: "sap", Amount: 1000}}));
