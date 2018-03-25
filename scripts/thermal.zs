@@ -339,32 +339,34 @@ mods.thermalexpansion.Refinery.addRecipe(<liquid:aerotheum> * 500, <thermalfound
 Sawmill
 =========================*/
 for items in copperBlocks{
-    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal>*8, items, 1200);
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal> * 8, items, 1200);
 }
 for items in alumBlocks{
-    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:1>*8, items, 1200);
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:1> * 8, items, 1200);
 }
 for items in leadBlocks{
-    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:2>*8, items, 1200);
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:2> * 8, items, 1200);
 }
 for items in silverBlocks{
-    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:3>*8, items, 1200);
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:3> * 8, items, 1200);
 }
 for items in nickBlocks{
-    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:4>*8, items, 1200);
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:4> * 8, items, 1200);
 }
-//mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:5>*8, <immersiveengineering:storage:5>, 1200);
+//mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:5> * 8, <immersiveengineering:storage:5>, 1200);
 for items in conBlocks{
-    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:6>*8, items, 1200);
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:6> * 8, items, 1200);
 }
 for items in eleBlocks{
-    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:7>*8, items, 1200);
+    mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:7> * 8, items, 1200);
 }
 for items in steelBlocks{
     mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:8>*8, items, 1200);
 }
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:9>*8, <minecraft:iron_block>, 1200);
-mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:10>*8, <minecraft:gold_block>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:9> * 8, <minecraft:iron_block>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<immersiveengineering:sheetmetal:10> * 8, <minecraft:gold_block>, 1200);
+mods.thermalexpansion.Sawmill.addRecipe(<contenttweaker:screws> * 2, <jaopca:item_stickosmium>, 800);
+mods.thermalexpansion.Sawmill.addRecipe(<contenttweaker:screws> * 2, <jaopca:item_sticknickel>, 800);
 
 /*=========================
 Centrifuge

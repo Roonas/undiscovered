@@ -140,3 +140,9 @@ mods.mekanism.infuser.addRecipe("TIN", 10, <thermalfoundation:material:128>, <th
 Osmium Compressor
 =========================*/
 mods.mekanism.compressor.addRecipe(<mekanism:ingot:1>, <gas:liquidOsmium>, <contenttweaker:osmaticsteel>);
+
+/*=========================
+Precision Sawmill
+=========================*/
+mods.mekanism.sawmill.addRecipe(<jaopca:item_stickosmium>, <contenttweaker:screws> * 4);
+mods.mekanism.sawmill.addRecipe(<jaopca:item_sticknickel>, <contenttweaker:screws> * 4);

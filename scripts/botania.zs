@@ -133,7 +133,7 @@ mods.botania.Apothecary.addRecipe(rafflowsia, [<ore:petalPurple>, <ore:petalPurp
 mods.botania.Apothecary.removeRecipe(thermalily);
 mods.botania.Apothecary.addRecipe(thermalily, [<ore:petalRed>, <ore:petalRed>, <ore:petalRed>, <ore:petalOrange>, <ore:petalOrange>, <ore:petalOrange>]);
 mods.botania.Apothecary.removeRecipe(spectrolus);
-mods.botania.Apothecary.addRecipe(spectrolus, [<ore:petalOrange>, <ore:petalMagenta>, <ore:petalYellow>, <ore:petalLime>, <ore:petalPink>, <ore:petalGrey>, <ore:petalCyan>, <ore:petalPurple>, <ore:petalBlue>, <ore:petalBrown>, <ore:petalGreen>, <ore:petalRed>]);
+mods.botania.Apothecary.addRecipe(spectrolus, [<ore:petalOrange>, <ore:petalMagenta>, <ore:petalYellow>, <ore:petalLime>, <ore:petalPink>, <ore:petalGray>, <ore:petalCyan>, <ore:petalPurple>, <ore:petalBlue>, <ore:petalBrown>, <ore:petalGreen>, <ore:petalRed>]);
 
 /*=========================
 Mana Pool
