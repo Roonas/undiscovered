@@ -321,8 +321,8 @@ recipes.addShaped(<contenttweaker:butterflyspray>, [
     ]);
 
 recipes.addShaped("empty injector", <contenttweaker:oreinjection>, [
-    [null, <evilcraft:dark_spike>, <evilcraft:dark_spike>],
-    [null, <minecraft:glass_bottle>, <evilcraft:dark_spike>], 
+    [null, <ore:rodStone>, <evilcraft:dark_spike>],
+    [null, <minecraft:glass_bottle>, <ore:rodStone>], 
     [<silentgems:craftingmaterial:7>, null, null]
     ]);
 
@@ -330,6 +330,10 @@ recipes.addShaped("vodka injector", <contenttweaker:oreinjectionvodka>, [
     [null, vodkaBucket, null],
     [null, liquidTube, null],
     [null, <contenttweaker:oreinjection>, null]
+    ]);
+
+recipes.addShapeless("vodka bottle injector", <contenttweaker:oreinjectionvodka>, [
+    vodkaBottle, <contenttweaker:oreinjection>
     ]);
 
 recipes.addShaped("aero injector", <contenttweaker:oreinjectionaero>, [
@@ -362,4 +366,12 @@ recipes.addShaped(<minecraft:glass>, [
     [<contenttweaker:glassshards>, <contenttweaker:glassshards>, <contenttweaker:glassshards>],
     [<contenttweaker:glassshards>, <contenttweaker:glassshards>, <contenttweaker:glassshards>], 
     [<contenttweaker:glassshards>, <contenttweaker:glassshards>, <contenttweaker:glassshards>]
+    ]);
+
+recipes.addShaped("alum pressure plate", <minecraft:heavy_weighted_pressure_plate>, [
+    [<ore:ingotAluminum>, <ore:ingotAluminum>]
+    ]);
+
+recipes.addShaped("osmium pressure plate", <minecraft:heavy_weighted_pressure_plate>, [
+    [<ore:ingotOsmium>, <ore:ingotOsmium>]
     ]);

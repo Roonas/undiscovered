@@ -303,8 +303,8 @@ endMain.addItemEntryJSON(<actuallyadditions:item_boots_quartz>, 3, 0, ["levels: 
 endMain.addItemEntryJSON(<actuallyadditions:item_pants_crystal_green>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Panties");
 endMain.addItemEntryJSON(<actuallyadditions:item_chest_crystal_red>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Bra");
 endMain.addItemEntryJSON(<actuallyadditions:item_helm_crystal_light_blue>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Party Hat");
-endMain.addItemEntryJSON(<actuallyadditions:item_sword_crystal_blue>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Sword");
-endMain.addItemEntryJSON(<botania:manasteelpick>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Pick");
+endMain.addItemEntryJSON(<astralsorcery:itemcrystalsword>.withTag({astralsorcery: {size: 1500, purity: 90, collect: 90}}), 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Sword");
+endMain.addItemEntryJSON(<randomthings:spectrepickaxe>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Pick");
 endMain.addItemEntryJSON(<calculator:endforgedaxe>, 3, 0, ["levels: {min: 20.0, max: 39.0}, function: 'minecraft:enchant_with_levels'"], [], "Enchanted Axe");
 endMain.addItemEntryJSON(<storagedrawers:upgrade_storage:3>, 5, 0, [], [], "Drawer Upgrade");
 endMain.addItemEntryJSON(<astralsorcery:itemcraftingcomponent>, 10, 0, ["count: {min: 2.0, max: 4.0}, function: 'minecraft:set_count'"], [], "AS Gem");

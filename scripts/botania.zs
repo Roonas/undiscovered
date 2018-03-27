@@ -152,7 +152,8 @@ mods.botania.ManaInfusion.addInfusion(<botania:storage>, <ore:blockSteel>, 12000
 Mana Pool - Alchemy
 =========================*/
 mods.botania.ManaInfusion.addAlchemy(<magneticraft:chunks:5> * 2, rockyTungsten, 7000);
-mods.botania.ManaInfusion.addAlchemy(<contenttweaker:osmaticsteel> * 2, <contenttweaker:osmaticsteelore>, 7000);
+mods.botania.ManaInfusion.addAlchemy(<contenttweaker:osmaticsteel> * 2, <contenttweaker:osmaticsteelore>, 2800);
+mods.botania.ManaInfusion.addAlchemy(<thermalfoundation:material:72>, <magneticraft:dusts:9>, 5000);
 
 /*=========================
 Mana Pool - Conjuration

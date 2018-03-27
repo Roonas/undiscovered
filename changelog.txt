@@ -1,3 +1,21 @@
+2.10.0
+---------- 
+Fixed osmatic steel on crushing table
+Removed osmatic steel from AS grindstone
+Added recipe for using bottled vodka to fill injector (can avoid cleaning tube with bottling machine)
+Allow metal pressure plates to be crafted with metals other than iron
+Replaced mana pick with specte pick in end chest
+Replaced sword with AS crystal sword in end chest
+Added alt recipe for flint and steel that doesn't require tech
+Botania starting quest now properly shows when either psi or blood magic prereq is completed
+Lowered mana cost of processing osmatic steel
+Added additional recipe for mitherial -> mana infused dust
+Fixed tungeston processing with mekanism
+
+2.9.1
+---------- 
+Fixed quest book starting in edit mode
+
 2.9.0
 ---------- 
 Changed starting botania quest to require either evilcraft or psi rather than both
@@ -11,6 +29,13 @@ Fixed marimorph quest
 Changed many magneticraft recipes to use oredict plates
 Magneticraft ore chunks all smelt to 2 ingots now
 Fixed sandstone crushing table recipe
+Added a recipe for screws
+Fixed an uncraftable botania flower
+Mod Updates:
+* Silent Gems - Stone Torches!
+* Steve's Cart Reborn
+New Mods: 
+* Hunger In Peace - Requested by multiple players
 
 2.8.0
 ---------- 

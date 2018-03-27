@@ -20223,6 +20223,7 @@
           "lockedprogress": false,
           "tasklogic": "AND",
           "repeattime": -1,
+          "visibility": "CHAIN",
           "simultaneous": false,
           "icon": {
             "id": "minecraft:writable_book",

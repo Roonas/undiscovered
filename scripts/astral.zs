@@ -138,6 +138,7 @@ mods.astralsorcery.Altar.addConstellationAltarRecipe(<astralsorcery:blockaltar:3
 /*=========================
 Grindstone
 =========================*/
+mods.astralsorcery.Grindstone.removeReipce(<thermalfoundation:material:96>);
 mods.astralsorcery.Grindstone.removeReipce(<calculator:enrichedgold>);
 mods.astralsorcery.Grindstone.removeReipce(<thermalfoundation:material:64>);
 mods.astralsorcery.Grindstone.removeReipce(<thermalfoundation:material>);

@@ -126,6 +126,8 @@ Enrichment
 =========================*/
 mods.mekanism.enrichment.removeRecipe(<magneticraft:ores:3>);
 mods.mekanism.enrichment.removeRecipe(<thermalfoundation:ore:7>);
+mods.mekanism.enrichment.removeRecipe(<jaopca:item_dustdirtytungsten>);
+mods.mekanism.enrichment.addRecipe(<jaopca:item_dustdirtytungsten>, <magneticraft:dusts:5>);
 
 /*=========================
 Infuser

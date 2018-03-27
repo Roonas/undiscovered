@@ -2,6 +2,7 @@ var ironPlate = <ore:plateIron>;
 var starmetalIngot = <astralsorcery:itemcraftingcomponent:1>;
 var tungstenNug = <magneticraft:nuggets:5>;
 var rockyTungsten = <magneticraft:rocky_chunks:5>;
+var bloodBucket = <forge:bucketfilled>.withTag({FluidName: "evilcraftblood", Amount: 1000});
 
 <minecraft:wooden_pickaxe>.maxDamage = 15;
 <minecraft:wooden_axe>.maxDamage = 15;
@@ -101,9 +102,13 @@ recipes.addShaped("bucket2", <minecraft:bucket>, [
     ]);
     
 recipes.remove(<minecraft:flint_and_steel>);
-recipes.addShapeless(<minecraft:flint_and_steel>, [
+recipes.addShapeless("tech flint steel", <minecraft:flint_and_steel>, [
     <minecraft:flint>, <ore:ingotSteel>
     ]);
+recipes.addShapeless("magic flint steel", <minecraft:flint_and_steel>, [
+    <minecraft:flint>, <evilcraft:dark_power_gem>
+    ]);
+
 
 recipes.addShaped("bucket broken plates", <minecraft:bucket>, [
     [<ore:brokenPlate>, null, <ore:brokenPlate>], 
