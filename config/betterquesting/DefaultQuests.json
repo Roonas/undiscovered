@@ -6832,6 +6832,7 @@
           "lockedprogress": false,
           "tasklogic": "AND",
           "repeattime": -1,
+          "visibility": "CHAIN",
           "simultaneous": false,
           "icon": {
             "id": "thermalfoundation:material",
@@ -8683,7 +8684,7 @@
             "Damage": 5
           },
           "globalshare": false,
-          "questlogic": "AND",
+          "questlogic": "OR",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
@@ -8732,7 +8733,8 @@
         }
       ],
       "preRequisites": [
-        124
+        124,
+        375
       ],
       "questID": 125
     },
@@ -12390,7 +12392,7 @@
           "globalshare": false,
           "questlogic": "OR",
           "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
+          "snd_update": "minecraft:entity.player.attack.crit",
           "autoclaim": true,
           "ismain": false,
           "name": "T2 Hidden",
@@ -12610,7 +12612,7 @@
         }
       ],
       "preRequisites": [
-        243
+        70
       ],
       "questID": 186
     },
@@ -13784,7 +13786,7 @@
           "globalshare": false,
           "questlogic": "OR",
           "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
+          "snd_update": "minecraft:entity.player.attack.crit",
           "autoclaim": true,
           "ismain": false,
           "name": "T3 Hidden",
@@ -15264,7 +15266,7 @@
           "globalshare": false,
           "questlogic": "AND",
           "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
+          "snd_update": "minecraft:entity.player.attack.crit",
           "autoclaim": true,
           "ismain": false,
           "name": "Furnace Hidden",
@@ -16727,7 +16729,7 @@
       "tasks": [
         {
           "partialMatch": true,
-          "ignoreNBT": true,
+          "ignoreNBT": false,
           "consume": false,
           "groupDetect": false,
           "autoConsume": false,
@@ -21342,7 +21344,7 @@
           "globalshare": false,
           "questlogic": "AND",
           "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
+          "snd_update": "minecraft:entity.player.attack.crit",
           "autoclaim": true,
           "ismain": false,
           "name": "Found a Bucket Hidden",
@@ -23523,14 +23525,32 @@
           "globalshare": false,
           "questlogic": "AND",
           "partysinglereward": false,
-          "snd_update": "minecraft:entity.player.levelup",
+          "snd_update": "minecraft:entity.player.attack.crit",
           "autoclaim": false,
           "ismain": false,
           "name": "Hidden Mana Ingot",
           "desc": "Unlocks for players who used other methods to make mana infused ingots."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "thermalfoundation:material",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 136
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         184
@@ -23545,6 +23565,7 @@
           "lockedprogress": false,
           "tasklogic": "OR",
           "repeattime": -1,
+          "visibility": "CHAIN",
           "simultaneous": false,
           "icon": {
             "id": "immersiveengineering:mold",
@@ -24775,6 +24796,57 @@
         215
       ],
       "questID": 374
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": true,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": false,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "visibility": "HIDDEN",
+          "simultaneous": false,
+          "icon": {
+            "id": "rftoolsdim:dimlet_control_circuit",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.attack.crit",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Hidden Tungsten Ingot",
+          "desc": "Unlocks for players who used other methods to make tungsten ingots."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "magneticraft:ingots",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [],
+      "preRequisites": [
+        184
+      ],
+      "questID": 375
     }
   ],
   "questLines": [
@@ -25632,8 +25704,8 @@
         },
         {
           "size": 24,
-          "x": 156,
-          "y": 78,
+          "x": 132,
+          "y": 108,
           "id": 352
         },
         {
@@ -25800,7 +25872,13 @@
         },
         {
           "size": 24,
-          "x": 156,
+          "x": 150,
+          "y": 108,
+          "id": 375
+        },
+        {
+          "size": 24,
+          "x": 132,
           "y": 156,
           "id": 184
         },

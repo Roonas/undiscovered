@@ -119,6 +119,12 @@ recipes.addShaped(<minecraft:mycelium>, [
     [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]
     ]);
 
+recipes.remove(<forestry:smoker>);
+recipes.addShaped(<forestry:smoker>, [
+    [<minecraft:leather>, <minecraft:stick>, <ore:ingotTin>],
+    [<minecraft:leather>, <forestry:ash>, <ore:ingotTin>], 
+    [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]
+    ]);
     
 
 /*=========================

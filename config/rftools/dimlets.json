@@ -1,73 +1,30 @@
 [
   {
     "filter": {
-	  "mod": "appliedenergistics2",
+      "mod": "botania",
       "name": [
-        "quartz_block",
-        "fluix_block"
+        "quartztypeelf",
+        "livingrock",
+        "dreamwood",
+        "livingwood"
       ],
       "type": "material"
     },
     "settings": {
-      "rarity": 5,
-      "create": 1000,
-      "maintain": 1000,
-      "ticks": 500,
+      "rarity": 4,
+      "create": 20000,
+      "maintain": 3500,
+      "ticks": 400,
       "worldgen": true,
       "dimlet": true
     }
   },
   {
     "filter": {
-	  "mod": "silentgems",
-      "name": "gemblockdark",
-      "type": "material"
-    },
-    "settings": {
-      "rarity": 5,
-      "create": 1000,
-      "maintain": 1000,
-      "ticks": 500,
-      "worldgen": true,
-      "dimlet": true
-    }
-  },
-  {
-    "filter": {
-	  "mod": "evilcraft",
-      "name": "dark_block",
-      "type": "material"
-    },
-    "settings": {
-      "rarity": 5,
-      "create": 1000,
-      "maintain": 1000,
-      "ticks": 500,
-      "worldgen": true,
-      "dimlet": true
-    }
-  },
-  {
-    "filter": {
-	  "mod": "actuallyadditions",
-      "name": "block_testifi_bucks_green_wall",
-      "type": "material"
-    },
-    "settings": {
-      "rarity": 5,
-      "create": 1000,
-      "maintain": 1000,
-      "ticks": 500,
-      "worldgen": true,
-      "dimlet": true
-    }
-  },
-  {
-    "filter": {
-	  "mod": "mekanism",
+      "mod": "contenttweaker",
       "name": [
-        "plasticblock",
-        "saltblock"
+        "bundle_of_sticks",
+        "rotten_pot_block"
       ],
       "type": "material"
     },
@@ -82,7 +39,183 @@
   },
   {
     "filter": {
-	  "mod": "botania",
+      "mod": "chisel",
+      "name": "antiblock",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 3,
+      "create": 100,
+      "maintain": 100,
+      "ticks": 50,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "silentgems",
+      "name": "hardenedrock",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 3,
+      "create": 100,
+      "maintain": 100,
+      "ticks": 50,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "mob_grinding_utils",
+      "name": "dark_oak_stone",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 3,
+      "create": 100,
+      "maintain": 100,
+      "ticks": 50,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "extrautils2",
+      "name": "simpledecorative",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 6,
+      "create": 60000,
+      "maintain": 12000,
+      "ticks": 900,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "psi",
+      "name": "psi_decorative",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 1000,
+      "maintain": 1000,
+      "ticks": 500,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "contenttweaker",
+      "name": [
+        "charged_iridium",
+        "osmaticsteelore",
+        "irradiated_iridium"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 1000,
+      "maintain": 1000,
+      "ticks": 500,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "appliedenergistics2",
+      "name": [
+        "fluix_block",
+        "quartz_block"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 1000,
+      "maintain": 1000,
+      "ticks": 500,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "silentgems",
+      "name": "gemblockdark",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 1000,
+      "maintain": 1000,
+      "ticks": 500,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "evilcraft",
+      "name": "dark_block",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 1000,
+      "maintain": 1000,
+      "ticks": 500,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "actuallyadditions",
+      "name": "block_testifi_bucks_green_wall",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 1000,
+      "maintain": 1000,
+      "ticks": 500,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "mekanism",
+      "name": [
+        "saltblock",
+        "plasticblock",
+        "roadplasticblock"
+      ],
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 3,
+      "create": 100,
+      "maintain": 100,
+      "ticks": 50,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "botania",
       "name": [
         "pavement",
         "petalblock"
@@ -160,7 +293,7 @@
   },
   {
     "filter": {
-	  "mod": "silentgems",
+      "mod": "silentgems",
       "name": "gemorelight",
       "type": "material"
     },
@@ -175,7 +308,7 @@
   },
   {
     "filter": {
-	  "mod": "thermalfoundation",
+      "mod": "thermalfoundation",
       "name": "storage",
       "type": "material"
     },
@@ -190,7 +323,7 @@
   },
   {
     "filter": {
-	  "mod": "bigreactors",
+      "mod": "bigreactors",
       "name": "blockmetals",
       "type": "material"
     },
@@ -205,7 +338,7 @@
   },
   {
     "filter": {
-	  "mod": "botania",
+      "mod": "botania",
       "name": "storage",
       "type": "material"
     },
@@ -220,7 +353,7 @@
   },
   {
     "filter": {
-	  "mod": "actuallyadditions",
+      "mod": "actuallyadditions",
       "name": "block_crystal",
       "type": "material"
     },
@@ -235,14 +368,14 @@
   },
   {
     "filter": {
-	  "mod": "traverse",
+      "mod": "traverse",
       "name": [
-        "blue_rock_bricks_chiseled",
         "blue_rock_cobblestone",
-        "blue_rock",
-		"red_rock_bricks_chiseled",
-		"red_rock_cobblestone",
-		"red_rock"
+        "blue_rock_bricks_chiseled",
+        "red_rock",
+        "red_rock_cobblestone",
+        "red_rock_bricks_chiseled",
+        "blue_rock"
       ],
       "type": "material"
     },
@@ -259,8 +392,8 @@
     "filter": {
       "mod": "industrialforegoing",
       "name": [
-        "pink_slime",
-        "if.pink_slime"
+        "if.pink_slime",
+        "pink_slime"
       ],
       "type": "liquid"
     },

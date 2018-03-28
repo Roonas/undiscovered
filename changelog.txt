@@ -11,6 +11,12 @@ Botania starting quest now properly shows when either psi or blood magic prereq 
 Lowered mana cost of processing osmatic steel
 Added additional recipe for mitherial -> mana infused dust
 Fixed tungeston processing with mekanism
+Made smoker slightly cheaper
+Removed unused extreme reactor ores from worldgen
+Added looooots of mod blocks to dimlet list (dream wood, plastic roads, rotten potato blocks, hardened nether rack, block of expensive metals, aa crystal blocks, biome stone, and many more)
+Fixed pure daisy quest not checking flower nbt
+Quest book should now auto detect and advance if players find another method to make tungsten or mana infused ingot
+Added clay singularity for balance
 
 2.9.1
 ---------- 
