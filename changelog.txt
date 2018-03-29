@@ -17,6 +17,19 @@ Added looooots of mod blocks to dimlet list (dream wood, plastic roads, rotten p
 Fixed pure daisy quest not checking flower nbt
 Quest book should now auto detect and advance if players find another method to make tungsten or mana infused ingot
 Added clay singularity for balance
+Added recipe for turning tungsten grains from bees into tungsten dust
+Added uses for a few otherwise unused extra bee drops
+Added extra ingredients to a few combs that did not have any
+Shrink psi gauge size
+
+New Mods:
+~Bed Patch
+~Eriamoticons
+~Wireless crafting terminal
+Removed Mods:
+~Bed Bugs
+
+
 
 2.9.1
 ---------- 

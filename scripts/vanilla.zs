@@ -64,6 +64,7 @@ furnace.addRecipe(<jaopca:item_nuggetquartzblack>, <appliedenergistics2:material
 furnace.addRecipe(<contenttweaker:osmaticsteel>, <contenttweaker:osmaticsteeldust>);
 furnace.setFuel(<contenttweaker:bundle_of_sticks>, 1200);
 furnace.setFuel(<extrabees:propolis:7>, 1000);
+furnace.setFuel(<extrabees:honey_drop>, 6400);
 
 recipes.remove(<magneticraft:rocky_chunks:5>);
 recipes.remove(<jaopca:item_dustdirtytungsten>);

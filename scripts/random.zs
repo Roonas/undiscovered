@@ -319,11 +319,16 @@ recipes.addShaped(<contenttweaker:butterflyspray>, [
     [<immersiveengineering:metal:1>, <forestry:can>, <immersiveengineering:metal:1>], 
     [<immersiveengineering:metal:1>, <forge:bucketfilled>.withTag({FluidName: "evilcraftpoison", Amount: 1000}), <immersiveengineering:metal:1>]
     ]);
+recipes.addShaped(<contenttweaker:butterflyspray>, [
+    [null, <immersiveengineering:metal:1>, null],
+    [<immersiveengineering:metal:1>, <forestry:can>, <immersiveengineering:metal:1>], 
+    [<immersiveengineering:metal:1>, <extrabees:honey_drop:2>, <immersiveengineering:metal:1>]
+    ]);
 
 recipes.addShaped("empty injector", <contenttweaker:oreinjection>, [
     [null, <ore:rodStone>, <evilcraft:dark_spike>],
     [null, <minecraft:glass_bottle>, <ore:rodStone>], 
-    [<silentgems:craftingmaterial:7>, null, null]
+    [<ore:stickIron>, null, null]
     ]);
 
 recipes.addShaped("vodka injector", <contenttweaker:oreinjectionvodka>, [

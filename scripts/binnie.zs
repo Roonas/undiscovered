@@ -70,6 +70,14 @@ recipes.addShaped("yeast", <extratrees:misc:5> * 4, [
     [<ore:listAllmushroom>, <ore:bread>, <ore:listAllmushroom>]
     ]);
 
+recipes.addShaped(<magneticraft:dusts:5>, [
+    [<extrabees:misc:16>, <extrabees:misc:16>],
+    [<extrabees:misc:16>, <extrabees:misc:16>], 
+    ]);
+
+recipes.addShapeless(<randomthings:imbue:1>, [
+    <minecraft:potion>.withTag({Potion: "minecraft:water"}), <extrabees:honey_drop:2>
+    ]);
 
 
 

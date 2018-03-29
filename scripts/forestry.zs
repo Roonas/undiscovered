@@ -150,17 +150,28 @@ mods.forestry.Carpenter.addRecipe(basicCircuit, [
 /*=========================
 Squeezer
 =========================*/
-mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 250, [zombieHeart], 20);
+mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 250, [zombieHeart], 15);
 mods.forestry.Squeezer.addRecipe(<liquid:ice> * 500, [<minecraft:packed_ice>], 40);
+mods.forestry.Squeezer.addRecipe(<liquid:seed.oil> * 100, [<extrabees:honey_drop:7>], 10);
+mods.forestry.Squeezer.addRecipe(<liquid:cryotheum> * 100, [<extrabees:honey_drop:5>], 40);
+
 
 /*=========================
 Centrifuge
 (Array of Output + %, InputStack, Time in Ticks)
 =========================*/
+mods.forestry.Centrifuge.removeRecipe(<extrabees:honey_comb>);
+mods.forestry.Centrifuge.removeRecipe(<extrabees:honey_comb:23>);
+mods.forestry.Centrifuge.removeRecipe(<extrabees:honey_comb:11>);
+mods.forestry.Centrifuge.removeRecipe(<forestry:bee_combs:15>);
 mods.forestry.Centrifuge.addRecipe([scrapBag * 4 % 100, <minecraft:redstone> * 3 % 85, <extrabees:misc:22> % 20], <contenttweaker:scrapelec>, 80);
 mods.forestry.Centrifuge.addRecipe([<calculator:soil> % 90, <forestry:fertilizer_bio> % 20, <immersiveengineering:seed> % 10, <extrautils2:redorchid> % 2], <actuallyadditions:item_misc:21>, 50);
 mods.forestry.Centrifuge.addRecipe([<appliedenergistics2:material:5> % 50, <evilcraft:dull_dust> % 40, <appliedenergistics2:crystal_seed> % 5], <appliedenergistics2:material:2>, 100);
 mods.forestry.Centrifuge.addRecipe([<appliedenergistics2:material:5> % 35, <evilcraft:dull_dust> % 20, <appliedenergistics2:crystal_seed> % 2], <actuallyadditions:item_dust:5>, 100);
+mods.forestry.Centrifuge.addRecipe([<traverse:dead_grass> % 100, <calculator:soil> % 50, <forestry:beeswax> % 50, <forestry:honey_drop> % 30], <extrabees:honey_comb>, 80);
+mods.forestry.Centrifuge.addRecipe([<xreliquary:mob_ingredient> % 70, <xreliquary:mob_ingredient:1> % 30, <forestry:beeswax> % 30, <forestry:honey_drop> % 25], <extrabees:honey_comb:23>, 80);
+mods.forestry.Centrifuge.addRecipe([<minecraft:cobblestone> % 100, <minecraft:stone> % 75, <appliedenergistics2:sky_stone_block> % 40, <forestry:beeswax> % 40, <forestry:honey_drop> % 25], <extrabees:honey_comb:11>, 80);
+mods.forestry.Centrifuge.addRecipe([<minecraft:vine> % 80, <rustic:marsh_mallow> % 50, <forestry:beeswax> % 50, <forestry:honey_drop> % 40], <forestry:bee_combs:15>, 80);
 
 /*=========================
 Moistener
