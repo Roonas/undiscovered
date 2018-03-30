@@ -370,11 +370,20 @@ mods.thermalexpansion.Sawmill.addRecipe(<contenttweaker:screws> * 2, <jaopca:ite
 
 /*=========================
 Centrifuge
-=========================*/  
+=========================*/ 
+mods.thermalexpansion.Centrifuge.removeRecipe(<extrabees:honey_comb>);
+mods.thermalexpansion.Centrifuge.removeRecipe(<extrabees:honey_comb:23>);
+mods.thermalexpansion.Centrifuge.removeRecipe(<extrabees:honey_comb:11>);
+mods.thermalexpansion.Centrifuge.removeRecipe(<forestry:bee_combs:15>);
 mods.thermalexpansion.Centrifuge.addRecipe([<minecraft:gravel> % 50, (<thermalfoundation:material:198> * 2) % 70, <jaopca:item_rockychunkplatinum> % 20], <contenttweaker:platslurry>, <liquid:platinum> * 1000, 1000);
 mods.thermalexpansion.Centrifuge.addRecipe([enderEgg % 100], <minecraft:dragon_egg>, <liquid:dblood> * 1000, 20000);
 mods.thermalexpansion.Centrifuge.addRecipe([<appliedenergistics2:material:5> % 50, <evilcraft:dull_dust> % 40, <appliedenergistics2:crystal_seed> % 5], <appliedenergistics2:material:2>, null, 1000);
 mods.thermalexpansion.Centrifuge.addRecipe([<appliedenergistics2:material:5> % 35, <evilcraft:dull_dust> % 20, <appliedenergistics2:crystal_seed> % 2], <actuallyadditions:item_dust:5>, null, 1000);
+mods.thermalexpansion.Centrifuge.addRecipe([<traverse:dead_grass> % 100, <calculator:soil> % 50, <forestry:beeswax> % 50, <forestry:honey_drop> % 30], <extrabees:honey_comb>, null, 2000);
+mods.thermalexpansion.Centrifuge.addRecipe([<xreliquary:mob_ingredient> % 70, <xreliquary:mob_ingredient:1> % 30, <forestry:beeswax> % 30, <forestry:honey_drop> % 25], <extrabees:honey_comb:23>, null, 2000);
+mods.thermalexpansion.Centrifuge.addRecipe([<minecraft:cobblestone> % 100, <minecraft:stone> % 75, <appliedenergistics2:sky_stone_block> % 40, <forestry:beeswax> % 40, <forestry:honey_drop> % 25], <extrabees:honey_comb:11>, null, 2000);
+mods.thermalexpansion.Centrifuge.addRecipe([<minecraft:vine> % 80, <rustic:marsh_mallow> % 50, <forestry:beeswax> % 50, <forestry:honey_drop> % 40], <forestry:bee_combs:15>, null, 2000);
+
 
 /*=========================
 Energetic Infuser
