@@ -99,7 +99,7 @@ recipes.addShapeless("peace spider eyes", <minecraft:spider_eye> * 2, [
     ]);
 
 //terrasteel + netherstar + some other junk = gaia spirit
-recipes.addShaped(<botania:manaresource:5>, [
+recipes.addShaped(<botania:manaresource:5> * 2, [
     [<botania:rune:13>, <botania:manaresource:4>, <botania:rune:13>],
     [<botania:manaresource:7>, <minecraft:nether_star>, <botania:manaresource:7>], 
     [<evilcraft:vein_sword>, <botania:manaresource:4>, <evilcraft:vein_sword>]
@@ -141,4 +141,64 @@ recipes.addShaped(<draconicevolution:chaos_shard>, [
     [<extendedcrafting:material:24>, <extendedcrafting:storage:2>, <extendedcrafting:material:24>],
     [<extendedcrafting:material:24>, <draconicevolution:awakened_core>, <extendedcrafting:material:24>], 
     [<ore:spinnyBoi>, <extendedcrafting:material:32>, <ore:spinnyBoi>]
+    ]);
+
+//wither dust + honey drop = drop of evil
+recipes.addShapeless("peace drop of evil", <extrautils2:ingredients:10>, [
+    <forestry:honey_drop>, <darkutils:material>
+    ]);
+
+//dull dust + soulsand = wither dust
+recipes.addShaped(<darkutils:material>, [
+    [null, <minecraft:soul_sand>, null],
+    [<minecraft:soul_sand>, <evilcraft:dull_dust>, <minecraft:soul_sand>], 
+    [null, <minecraft:soul_sand>, null]
+    ]);
+
+//ghast tearp + chorus flower = ender tear
+recipes.addShaped(<evilcraft:ender_tear>, [
+    [<minecraft:chorus_flower>, <minecraft:chorus_flower>, <minecraft:chorus_flower>],
+    [<minecraft:chorus_flower>, <minecraft:ghast_tear>, <minecraft:chorus_flower>], 
+    [<minecraft:chorus_flower>, <minecraft:chorus_flower>, <minecraft:chorus_flower>]
+    ]);
+
+//RFTool Syringes, the useful ones anyway
+recipes.addShaped("zombie syringe", <rftools:syringe>.withTag({mobName: "Zombie", level: 10, mobId: "minecraft:zombie"}), [
+    [<xreliquary:mob_ingredient:6>, null],
+    [null, <rftools:syringe>]
+    ]);
+
+recipes.addShaped("ghast syringe", <rftools:syringe>.withTag({mobName: "Ghast", level: 10, mobId: "minecraft:ghast"}), [
+    [<minecraft:ghast_tear>, null],
+    [null, <rftools:syringe>]
+    ]);
+
+recipes.addShaped("cave spider syringe", <rftools:syringe>.withTag({mobName: "CaveSpider", level: 10, mobId: "minecraft:cave_spider"}), [
+    [<xreliquary:mob_ingredient:2>, null],
+    [null, <rftools:syringe>]
+    ]);
+
+recipes.addShaped("guardian syringe", <rftools:syringe>.withTag({mobName: "Guardian", level: 10, mobId: "minecraft:guardian"}), [
+    [<xreliquary:mob_ingredient:16>, null],
+    [null, <rftools:syringe>]
+    ]);
+
+recipes.addShaped("blaze syringe", <rftools:syringe>.withTag({mobName: "Blaze", level: 10, mobId: "minecraft:blaze"}), [
+    [<xreliquary:mob_ingredient:7>, null],
+    [null, <rftools:syringe>]
+    ]);
+
+recipes.addShaped("enderman syringe", <rftools:syringe>.withTag({mobName: "Enderman", level: 10, mobId: "minecraft:enderman"}), [
+    [<xreliquary:mob_ingredient:11>, null],
+    [null, <rftools:syringe>]
+    ]);
+
+recipes.addShaped("pigman syringe", <rftools:syringe>.withTag({mobName: "PigZombie", level: 10, mobId: "minecraft:zombie_pigman"}), [
+    [<xreliquary:mob_ingredient:6>, <minecraft:porkchop>],
+    [<minecraft:porkchop>, <rftools:syringe>]
+    ]);
+
+recipes.addShaped("shulker syringe", <rftools:syringe>.withTag({mobName: "Shulker", level: 10, mobId: "minecraft:shulker"}), [
+    [<darkutils:shulker_pearl>, null],
+    [null, <rftools:syringe>]
     ]);

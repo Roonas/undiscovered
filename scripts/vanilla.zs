@@ -62,6 +62,7 @@ furnace.addRecipe(<thermalfoundation:material:226>, <scrap:broken.plate:13>);
 furnace.addRecipe(<thermalfoundation:material:194>, <scrap:broken.plate:4>);
 furnace.addRecipe(<jaopca:item_nuggetquartzblack>, <appliedenergistics2:material:2>);
 furnace.addRecipe(<contenttweaker:osmaticsteel>, <contenttweaker:osmaticsteeldust>);
+furnace.addRecipe(<magneticraft:ingots:5>, <magneticraft:dusts:5>);
 furnace.setFuel(<contenttweaker:bundle_of_sticks>, 1200);
 furnace.setFuel(<extrabees:propolis:7>, 1000);
 furnace.setFuel(<extrabees:honey_drop>, 6400);
@@ -71,6 +72,9 @@ recipes.remove(<jaopca:item_dustdirtytungsten>);
 
 vanilla.seeds.removeSeed(<extrautils2:redorchid>);
 vanilla.seeds.addSeed(<extrautils2:redorchid> % 1);
+
+val floatyBoi = <minecraft:elytra>.definition;
+floatyBoi.setContainerItem(floatyBoi);
 
 /*=========================
 Recipe Changes - Vanilla

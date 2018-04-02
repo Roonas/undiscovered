@@ -118,7 +118,7 @@ recipes.remove(<magneticraft:combustion_chamber>);
 recipes.addShaped(<magneticraft:combustion_chamber>, [
     [<minecraft:brick>, <ore:plateIron>, <minecraft:brick>],
     [<minecraft:brick>, null, <minecraft:iron_ingot>], 
-    [<evilcraft:nether_monster_block:1>, <evilcraft:nether_monster_block:1>, <evilcraft:nether_monster_block:1>]
+    [<minecraft:nether_brick>, <minecraft:nether_brick>, <minecraft:nether_brick>]
     ]);
 
 recipes.remove(<magneticraft:wind_turbine>);

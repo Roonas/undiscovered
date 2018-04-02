@@ -27,7 +27,7 @@ recipes.addShaped("syringe", <rftools:syringe>, [
 recipes.remove(<rftools:machine_base>);
 recipes.addShaped("machine frame slab", <rftools:machine_base>, [
     [null, null, null], 
-    [<ore:nuggetQuartzBlack>, <ore:nuggetQuartzBlack>, <ore:nuggetQuartzBlack>], 
+    [<actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>], 
     [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]
     ]);
 

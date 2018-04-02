@@ -1,35 +1,50 @@
+2.10.1
+---------- 
+Fixed missing smelting recipe for tungsten dust
+Fixed combustion chamber to use proper nether brick
+Removed crafting table on a stick and random things colored crafting table recipes (does not play nice with RealBench)
+Fixed elytra being consumed in crafting recipes
+Enable bttv emotes and better kappa by default (Klappa)
+Remove spawn eggs from Pam's Market (they don't work)
+RFTools machine base now uses regular black quartz
+Fix missing recipe for breaking down Enriched Chaos Essence Block
+Added some missing peaceful mode recipes (syringes, wither dust, drop of evil, ender tear)
+
 2.10.0
 ---------- 
 Fixed osmatic steel on crushing table
 Removed osmatic steel from AS grindstone
 Added recipe for using bottled vodka to fill injector (can avoid cleaning tube with bottling machine)
 Allow metal pressure plates to be crafted with metals other than iron
-Replaced mana pick with specte pick in end chest
+Replaced mana pick with specter pick in end chest
 Replaced sword with AS crystal sword in end chest
 Added alt recipe for flint and steel that doesn't require tech
-Botania starting quest now properly shows when either psi or blood magic prereq is completed
+Botania starting quest now properly shows when either psi or evilcraft prereq is completed
 Lowered mana cost of processing osmatic steel
 Added additional recipe for mitherial -> mana infused dust
-Fixed tungeston processing with mekanism
+Fixed tungsten processing with mekanism
 Made smoker slightly cheaper
 Removed unused extreme reactor ores from worldgen
 Added looooots of mod blocks to dimlet list (dream wood, plastic roads, rotten potato blocks, hardened nether rack, block of expensive metals, aa crystal blocks, biome stone, and many more)
 Fixed pure daisy quest not checking flower nbt
 Quest book should now auto detect and advance if players find another method to make tungsten or mana infused ingot
 Added clay singularity for balance
-Added recipe for turning tungsten grains from bees into tungsten dust
+Added recipe for turning tungsten grains from bees into tungsten dust  (and forgot to add a furnace recipe for tungsten dust -_-)
 Added uses for a few otherwise unused extra bee drops
 Added extra ingredients to a few combs that did not have any
 Shrink psi gauge size
-
-New Mods:
-~Bed Patch
-~Eriamoticons
-~Wireless crafting terminal
 Removed Mods:
-~Bed Bugs
-
-
+* Bed Bugs
+Added Mods:
+* Bed Patch - Fixes bug rather than work around
+* Eiramoticons - For all your meme needs
+* RealBench - Items stay in vanilla crafting table
+* Wireless Crafting Terminal
+Mod Updates:
+* AE2
+* Cooking For Blockheads - Should fix mystery crash
+* FoamFix
+* Industrial Foregoing
 
 2.9.1
 ---------- 

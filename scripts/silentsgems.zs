@@ -8,7 +8,7 @@ recipes.remove(<silentgems:craftingmaterial:21>);
 Recipe Changes - Silents
 =========================*/
 
-recipes.remove(<silentgems:craftingmaterial:1>);
+recipes.removeByRecipeName("silentgems:chaos_essence_enriched");
 recipes.addShaped("enriched chaos", <silentgems:craftingmaterial:1>, [
     [<ore:glowstone>, <silentgems:craftingmaterial>, <ore:glowstone>], 
     [<silentgems:craftingmaterial>, <minecraft:gold_block>, <silentgems:craftingmaterial>], 

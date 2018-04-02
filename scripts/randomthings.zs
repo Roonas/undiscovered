@@ -1,6 +1,8 @@
 <ore:listAllmushroom>.add(<randomthings:glowingmushroom>);
 <ore:grassSeed>.add(<randomthings:grassseeds:*>);
 
+recipes.remove(<randomthings:customworkbench>);
+
 /*=========================
 Recipe Changes - Random Things
 =========================*/

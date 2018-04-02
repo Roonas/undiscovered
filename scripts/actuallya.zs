@@ -13,6 +13,8 @@ var empoweredBlock = <actuallyadditions:block_crystal_empowered>.definition;
 <actuallyadditions:item_pickaxe_crystal_green>.addTooltip("Cobalt Level");
 mods.jei.JEI.addDescription(<actuallyadditions:block_bio_reactor>, ["Produces rf from plant and food items. Generates more rf/t when provided with a number of different fuels (works well with pams crops & seeds):", "1 input - 4 rf/t", "2 inputs - 16 rf/t", "3 inputs - 36 rf/t", "4 inputs - 64 rf/t", "5 inputs - 100 rf/t", "6 inputs - 144 rf/t", "7 inputs - 196 rf/t", "8 inputs - 256 rf/t"]);
 
+recipes.remove(<actuallyadditions:item_crafter_on_a_stick>);
+
 
 /*=========================
 Recipe Changes - AA
