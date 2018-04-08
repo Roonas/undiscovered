@@ -54,7 +54,7 @@ recipes.addShaped(<rftools:storage_scanner>, [
 
 recipes.remove(<rftools:storage_control_module>);
 recipes.addShaped(<rftools:storage_control_module>, [
-    [<extendedcrafting:material:3>, <actuallyadditions:item_crafter_on_a_stick>, <extendedcrafting:material:3>],
+    [<extendedcrafting:material:3>, <extendedcrafting:handheld_table>, <extendedcrafting:material:3>],
     [<thermalfoundation:material:322>, <jaopca:item_geartungsten>, <thermalfoundation:material:322>], 
     [<extendedcrafting:material:3>, <thermalfoundation:material:322>, <extendedcrafting:material:3>]
     ]);

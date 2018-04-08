@@ -4203,7 +4203,8 @@
         }
       ],
       "preRequisites": [
-        58
+        58,
+        65
       ],
       "questID": 72
     },
@@ -4513,7 +4514,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        234
+        234,
+        48
       ],
       "questID": 76
     },
@@ -5411,7 +5413,7 @@
           "issilent": false,
           "snd_complete": "minecraft:entity.player.levelup",
           "lockedprogress": false,
-          "tasklogic": "AND",
+          "tasklogic": "OR",
           "repeattime": -1,
           "simultaneous": false,
           "icon": {
@@ -5585,7 +5587,8 @@
       ],
       "preRequisites": [
         234,
-        338
+        338,
+        65
       ],
       "questID": 89
     },
@@ -5741,7 +5744,8 @@
       ],
       "preRequisites": [
         234,
-        93
+        93,
+        49
       ],
       "questID": 90
     },
@@ -6344,7 +6348,8 @@
         }
       ],
       "preRequisites": [
-        92
+        92,
+        72
       ],
       "questID": 96
     },
@@ -6594,7 +6599,8 @@
         }
       ],
       "preRequisites": [
-        89
+        89,
+        72
       ],
       "questID": 99
     },
@@ -10805,7 +10811,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        234
+        234,
+        48
       ],
       "questID": 159
     },
@@ -20716,7 +20723,8 @@
       ],
       "rewards": [],
       "preRequisites": [
-        234
+        234,
+        48
       ],
       "questID": 312
     },
@@ -22429,7 +22437,8 @@
         }
       ],
       "preRequisites": [
-        89
+        89,
+        72
       ],
       "questID": 335
     },
@@ -23573,14 +23582,14 @@
             "OreDict": "",
             "Damage": 7
           },
-          "globalshare": false,
+          "globalshare": true,
           "questlogic": "AND",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
           "autoclaim": false,
           "ismain": true,
           "name": "Forming the Unusual Alloy",
-          "desc": "Mana infused ingots can be obtained by compressing the canned molten metal in an IE press or reduced in the TE fractioning still and collecting the nuggets as the molten metal reduces."
+          "desc": "Mana infused ingots can be obtained by drying the molten metal into clumps then pressing them into ingots or by condensing the fluid into nuggets with the fractioning still. "
         }
       },
       "tasks": [
@@ -23592,16 +23601,10 @@
           "autoConsume": false,
           "requiredItems": [
             {
-              "id": "forestry:can",
+              "id": "jaopca:item_clumpmithril",
               "Count": 1,
               "OreDict": "",
-              "Damage": 1,
-              "tag": {
-                "Fluid:10": {
-                  "FluidName:8": "mithril",
-                  "Amount:3": 1000
-                }
-              }
+              "Damage": 0
             },
             {
               "id": "immersiveengineering:mold",
@@ -24647,7 +24650,12 @@
           "desc": "   I think sometimes that the easiest door to open would be the one to death… surely I would not be alone there? But the afterlife of this world may be crowded with its own lost souls, all those who built this world before… dying? Leaving? Ascending?  I have performed some experiments to see where the souls of the local inhabitants go when they pass beyond this life.  The answers… do not encourage me to follow them there, tho I continue my experiments and have derived some good from the knowledge."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         275
@@ -24679,7 +24687,12 @@
           "desc": "   There is a more peaceful approach I attempted after becoming embittered by my experiments with the afterlife.  Tho gentler, it was no more successful.  I was ebullient when I first opened what appeared to be a gateway to a new dimension, and a powerful one at that… but all my attempts to pass through have failed.  If there is indeed a world through there, it is not for such life as us.  I have managed to obtain some transformed elements that may help me on my ongoing search for escape."
         }
       },
-      "tasks": [],
+      "tasks": [
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 0
+        }
+      ],
       "rewards": [],
       "preRequisites": [
         277

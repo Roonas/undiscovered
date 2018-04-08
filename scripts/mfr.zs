@@ -2,6 +2,8 @@
 recipes.remove(<mekanism:machineblock:8>);
 recipes.remove(<industrialforegoing:ore_processor>); //only process redstone/diamonds meh
 
+mods.jei.JEI.addDescription(<liquid:meat>, "Used in the Meat Feeder to automatically restore hunger");
+
 /*=========================
 Recipe Changes - MFR
 =========================*/

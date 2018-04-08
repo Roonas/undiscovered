@@ -62,6 +62,7 @@ furnace.addRecipe(<thermalfoundation:material:226>, <scrap:broken.plate:13>);
 furnace.addRecipe(<thermalfoundation:material:194>, <scrap:broken.plate:4>);
 furnace.addRecipe(<jaopca:item_nuggetquartzblack>, <appliedenergistics2:material:2>);
 furnace.addRecipe(<contenttweaker:osmaticsteel>, <contenttweaker:osmaticsteeldust>);
+furnace.addRecipe(<thermalfoundation:material:135>, <contenttweaker:irradiated_iridium>);
 furnace.addRecipe(<magneticraft:ingots:5>, <magneticraft:dusts:5>);
 furnace.setFuel(<contenttweaker:bundle_of_sticks>, 1200);
 furnace.setFuel(<extrabees:propolis:7>, 1000);
@@ -97,12 +98,6 @@ recipes.addShaped("furnace", <minecraft:furnace>, [
 recipes.remove(<minecraft:bucket>);
 recipes.addShaped("bucket", <minecraft:bucket>, [
     [ironPlate, null, ironPlate],
-    [null, ironPlate, null],
-    [null, null, null]
-    ]);
-recipes.addShaped("bucket2", <minecraft:bucket>, [
-    [null, null, null],
-    [ironPlate, null, ironPlate],
     [null, ironPlate, null]
     ]);
     
@@ -116,12 +111,6 @@ recipes.addShapeless("magic flint steel", <minecraft:flint_and_steel>, [
 
 
 recipes.addShaped("bucket broken plates", <minecraft:bucket>, [
-    [<ore:brokenPlate>, null, <ore:brokenPlate>], 
-    [null, <ore:brokenPlate>, null], 
-    [null, null, null]
-    ]);
-recipes.addShaped("bucket broken plates2", <minecraft:bucket>, [
-    [null, null, null],
     [<ore:brokenPlate>, null, <ore:brokenPlate>], 
     [null, <ore:brokenPlate>, null]
     ]);

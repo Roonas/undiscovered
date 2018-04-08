@@ -150,6 +150,7 @@ mods.forestry.Carpenter.addRecipe(basicCircuit, [
 /*=========================
 Squeezer
 =========================*/
+mods.forestry.Squeezer.removeRecipe(<liquid:juice>, [<rustic:grapes>]);
 mods.forestry.Squeezer.addRecipe(<liquid:evilcraftblood> * 250, [zombieHeart], 15);
 mods.forestry.Squeezer.addRecipe(<liquid:ice> * 500, [<minecraft:packed_ice>], 40);
 mods.forestry.Squeezer.addRecipe(<liquid:seed.oil> * 100, [<extrabees:honey_drop:7>], 10);

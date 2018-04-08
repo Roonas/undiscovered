@@ -21,3 +21,4 @@ astralsorcery:blockcelestialcrystals 2
 astralsorcery:blockcelestialcrystals 3
 astralsorcery:blockcelestialcrystals 4
 astralsorcery:blockmapdrawingtable 0
+evilcraft:environmental_accumulator 0

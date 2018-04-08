@@ -103,6 +103,8 @@ recipes.addShaped("Infinite water gen", <evilcraft:eternal_water_block>, [
     ]);
 
 
+
+
 /*=========================
 Blood Infuser
 (inputIngredient, inputFluid, tier, outputStack, duration, xp) 

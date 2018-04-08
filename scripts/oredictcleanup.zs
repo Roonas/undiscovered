@@ -160,6 +160,10 @@ metalRecipeFix(
     <ore:blockBronze>, <ore:ingotBronze>, <ore:nuggetBronze>,
     <thermalfoundation:storage_alloy:3>, <thermalfoundation:material:163>, <thermalfoundation:material:227>
     );
+metalRecipeFix(
+    <ore:blockMithril>, <ore:ingotMithril>, <ore:nuggetMithril>,
+    <thermalfoundation:storage:8>, <thermalfoundation:material:136>, <thermalfoundation:material:200>
+    );
 
 
 //All metal dusts/ore types should smelt into the thermal ingot, reducing redundant ingot types
@@ -341,6 +345,7 @@ game.setLocalization("en_us", "item.magneticraft.dusts_nickel.name", "Nickel Con
 <ore:dustWood>.add(<extratrees:misc:1>);
 <ore:dustWood>.add(<forestry:wood_pulp>);
 <ore:silentGem>.add(<silentgems:gem:*>);
+<ore:silentGem>.add(<astralsorcery:itemcraftingcomponent>);
 <ore:spinnyBoi>.add(<extendedcrafting:singularity:*>);
 <ore:homeCharm>.add(<silentgems:returnhomecharm:*>);
 <ore:astralCrystal>.add(<astralsorcery:itemrockcrystalsimple>);

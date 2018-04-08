@@ -112,6 +112,12 @@ recipes.addShaped(<mekanism:machineblock:1>, [
     [<mekanism:controlcircuit:1>, <mekanism:compressedcarbon>, <mekanism:controlcircuit:1>]
     ]);
 
+recipes.addShaped(<mekanism:basicblock:11>, [
+    [null, <mekanism:basicblock:9>, null],
+    [<mekanism:basicblock:9>, <immersiveengineering:material:27>, <mekanism:basicblock:9>], 
+    [null, <mekanism:basicblock:9>, null]
+    ]);
+
 
 /*=========================
 Crusher
@@ -127,7 +133,9 @@ Enrichment
 mods.mekanism.enrichment.removeRecipe(<magneticraft:ores:3>);
 mods.mekanism.enrichment.removeRecipe(<thermalfoundation:ore:7>);
 mods.mekanism.enrichment.removeRecipe(<jaopca:item_dustdirtytungsten>);
+mods.mekanism.enrichment.removeRecipe(<jaopca:item_dustdirtycobalt>);
 mods.mekanism.enrichment.addRecipe(<jaopca:item_dustdirtytungsten>, <magneticraft:dusts:5>);
+mods.mekanism.enrichment.addRecipe(<jaopca:item_dustdirtycobalt>, <magneticraft:dusts:4>);
 
 /*=========================
 Infuser

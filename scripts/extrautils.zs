@@ -46,7 +46,7 @@ recipes.addShaped("mech user", <extrautils2:user>, [
 recipes.remove(<extrautils2:crafter>);
 recipes.addShaped("mech crafter", <extrautils2:crafter>, [
     [<minecraft:dropper>, redstoneGear, null], 
-    [<actuallyadditions:item_crafter_on_a_stick>, null, null], 
+    [<extendedcrafting:handheld_table>, null, null], 
     [null, null, null]
     ]);
 

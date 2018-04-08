@@ -191,6 +191,19 @@ recipes.addShaped(<magneticraft:water_generator>, [
     [<ore:plateIron>, <ore:blockGlass>, <ore:plateIron>]
     ]);
 
+recipes.addShaped(<magneticraft:multiblock_parts:4>, [
+    [<minecraft:iron_ingot>, <magneticraft:copper_coil>, <minecraft:iron_ingot>],
+    [<ore:plateLead>, <magneticraft:copper_coil>, <ore:plateLead>], 
+    [<minecraft:iron_ingot>, <magneticraft:copper_coil>, <minecraft:iron_ingot>]
+    ]);
+
+recipes.remove(<magneticraft:electric_pole_transformer>);
+recipes.addShaped(<magneticraft:electric_pole_transformer>, [
+    [null, <magneticraft:connector>, null],
+    [<ore:plateLead>, <ore:ingotCopper>, <ore:plateLead>], 
+    [<ore:plateLead>, <ore:ingotCopper>, <ore:plateLead>]
+    ]);
+
 /*=========================
 Crushing Table
 =========================*/
