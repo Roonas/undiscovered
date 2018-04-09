@@ -13,6 +13,7 @@ Fixed magneticraft item not useing plate oredict
 Adjusted a few quest requirements so they unlock at the proper time
 Added environmental accumulator to cardboard box blacklist
 Irradiated iridium can be smelted directly in the furnace
+Made TE energy cell frame much cheaper
 Mod Updates:
 ~Applied Energistics
 ~Binnies

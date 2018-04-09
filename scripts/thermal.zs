@@ -254,9 +254,9 @@ recipes.addShaped(<thermaldynamics:duct_0> * 4, [
 
 recipes.remove(<thermalexpansion:frame:128>);
 recipes.addShaped(<thermalexpansion:frame:128>, [
-    [<thermalfoundation:material:135>, <ore:blockGlassHardened>, <thermalfoundation:material:135>],
-    [<ore:blockGlassHardened>, <thermalfoundation:material:264>, <ore:blockGlassHardened>], 
-    [<thermalfoundation:material:135>, <thermalfoundation:material:515>, <thermalfoundation:material:135>]
+    [<thermalfoundation:material:130>, <appliedenergistics2:quartz_glass>, <thermalfoundation:material:130>],
+    [<appliedenergistics2:quartz_glass>, <thermalfoundation:material:262>, <appliedenergistics2:quartz_glass>], 
+    [<thermalfoundation:material:130>, <thermalfoundation:material:515>, <thermalfoundation:material:130>]
     ]);
 
 recipes.addShaped("rich slag", <thermalfoundation:material:865>, [
@@ -383,6 +383,21 @@ mods.thermalexpansion.Centrifuge.addRecipe([<traverse:dead_grass> % 100, <calcul
 mods.thermalexpansion.Centrifuge.addRecipe([<xreliquary:mob_ingredient> % 70, <xreliquary:mob_ingredient:1> % 30, <forestry:beeswax> % 30, <forestry:honey_drop> % 25], <extrabees:honey_comb:23>, null, 2000);
 mods.thermalexpansion.Centrifuge.addRecipe([<minecraft:cobblestone> % 100, <minecraft:stone> % 75, <appliedenergistics2:sky_stone_block> % 40, <forestry:beeswax> % 40, <forestry:honey_drop> % 25], <extrabees:honey_comb:11>, null, 2000);
 mods.thermalexpansion.Centrifuge.addRecipe([<minecraft:vine> % 80, <rustic:marsh_mallow> % 50, <forestry:beeswax> % 50, <forestry:honey_drop> % 40], <forestry:bee_combs:15>, null, 2000);
+
+/* This doesnt actually works.... whyyyy
+mods.thermalexpansion.Centrifuge.addRecipe([<forestry:honey_drop> % 75, <extrabees:propolis:1> % 60], <extrabees:honey_comb:3>, null, 2000);
+mods.thermalexpansion.Centrifuge.addRecipe([<extrabees:honey_drop:5> % 80, <forestry:honey_drop> % 75], <extrabees:honey_comb:32>, null, 2000);
+mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax> % 50, <forestry:honey_drop> % 25, <extrabees:misc:14> % 100], <extrabees:honey_comb:40>, null, 2000);
+mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax> % 50, <forestry:honey_drop> % 25, <extrabees:misc:16> % 100], <extrabees:honey_comb:42>, null, 2000);
+mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax> % 50, <forestry:honey_drop> % 25, <extrabees:misc:3> % 100], <extrabees:honey_comb:53>, null, 2000);
+
+
+mods.thermalexpansion.Centrifuge.addRecipe([zzzzz % 50, zzzzz % 25, zzzzz % 40], zzzzzz, null, 2000);
+
+mods.thermalexpansion.Centrifuge.addRecipe([zzzzz % 50, <forestry:honey_drop> % 75], zzzzzz, null, 2000);
+
+mods.thermalexpansion.Centrifuge.addRecipe([<forestry:beeswax> % 50, <forestry:honey_drop> % 25, zzzzz % 100], zzzzzz, null, 2000);
+*/
 
 
 /*=========================
