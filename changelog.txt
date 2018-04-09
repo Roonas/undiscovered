@@ -14,6 +14,7 @@ Adjusted a few quest requirements so they unlock at the proper time
 Added environmental accumulator to cardboard box blacklist
 Irradiated iridium can be smelted directly in the furnace
 Made TE energy cell frame much cheaper
+Added recipes to recycle left over stained glass
 Mod Updates:
 ~Applied Energistics
 ~Binnies

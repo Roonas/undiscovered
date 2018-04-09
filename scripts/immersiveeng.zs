@@ -373,6 +373,8 @@ mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone>, <ore:damagedCi
 mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:osmaticsteeldust> * 2, <contenttweaker:osmaticsteelore>, 800);
 mods.immersiveengineering.Crusher.addRecipe(<forestry:honey_drop>, <rustic:honeycomb>, 1000, <forestry:honey_drop>, 0.1);
 mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:glassshards>, <minecraft:glass_bottle>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:glassshards> * 5, <minecraft:stained_glass:*>, 200);
+mods.immersiveengineering.Crusher.addRecipe(<contenttweaker:glassshards> * 2, <minecraft:stained_glass_pane:*>, 200);
 
 /*=========================
 Mixer
