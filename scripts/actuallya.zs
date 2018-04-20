@@ -152,8 +152,9 @@ mods.actuallyadditions.Crusher.addRecipe(<minecraft:sand>, <minecraft:sandstone>
 mods.actuallyadditions.Crusher.addRecipe(<minecraft:sand:1>, <minecraft:red_sandstone>, <immersiveengineering:material:24>, 50);
 mods.actuallyadditions.Crusher.addRecipe(<forestry:honey_drop>, <rustic:honeycomb>, <forestry:honey_drop>, 10);
 mods.actuallyadditions.Crusher.addRecipe(<contenttweaker:glassshards>, <minecraft:glass_bottle>);
-mods.actuallyadditions.Crusher.addRecipe(<minecraft:stained_glass:*>, <minecraft:glass_bottle> * 5);
-mods.actuallyadditions.Crusher.addRecipe(<minecraft:stained_glass_pane:*>, <minecraft:glass_bottle> * 2);
+mods.actuallyadditions.Crusher.addRecipe(<contenttweaker:glassshards> * 5, <minecraft:stained_glass:*>);
+mods.actuallyadditions.Crusher.addRecipe(<contenttweaker:glassshards> * 2, <minecraft:stained_glass_pane:*>);
+mods.actuallyadditions.Crusher.addRecipe(<appliedenergistics2:material:45>, <appliedenergistics2:sky_stone_block>);
 
 /*=========================
 Empowerer

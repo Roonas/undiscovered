@@ -362,7 +362,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<magneticraft:dusts:5>);
 mods.immersiveengineering.Crusher.removeRecipe(<thermalfoundation:material:71>);
 mods.immersiveengineering.Crusher.removeRecipe(<draconicevolution:draconium_dust>);
 mods.immersiveengineering.Crusher.addRecipe(<extrautils2:endershard> * 8, <minecraft:ender_pearl>, 2000);
-mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:45> * 2, <appliedenergistics2:sky_stone_block>, 4000);
+mods.immersiveengineering.Crusher.addRecipe(<appliedenergistics2:material:45>, <appliedenergistics2:sky_stone_block>, 4000);
 mods.immersiveengineering.Crusher.addRecipe(<magneticraft:crafting> * 2, <magneticraft:ores:4>, 2000);
 mods.immersiveengineering.Crusher.addRecipe(<evilcraft:dull_dust> * 2, <contenttweaker:scrapelec>, 2000, <minecraft:redstone> * 6, 0.95);
 mods.immersiveengineering.Crusher.addRecipe(<minecraft:redstone> * 3, <thermalfoundation:material:893>, 800);

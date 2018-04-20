@@ -65,7 +65,7 @@ var steelBlocks = [
 
 recipes.remove(<thermalexpansion:machine>); //redstone furnace
 recipes.remove(<thermalfoundation:material:71>);
-recipes.remove(<thermalfoundation:material:135>);
+//recipes.remove(<thermalfoundation:material:135>);
 recipes.remove(<thermalexpansion:device:8>); //xp collector
 mods.jei.JEI.removeAndHide(<thermalexpansion:augment:256>); //Redstone furnace augments
 mods.jei.JEI.removeAndHide(<thermalexpansion:augment:257>); 
@@ -191,6 +191,12 @@ recipes.addShapeless("iridium block to ingot", <thermalfoundation:material:135> 
     <ore:blockIridium>
     ]);
 
+recipes.addShapeless("iridium nug to ingot", <thermalfoundation:material:135>, [
+    <thermalfoundation:material:199>, <thermalfoundation:material:199>, <thermalfoundation:material:199>,
+    <thermalfoundation:material:199>, <thermalfoundation:material:199>, <thermalfoundation:material:199>,
+    <thermalfoundation:material:199>, <thermalfoundation:material:199>, <thermalfoundation:material:199>
+    ]);
+
 recipes.remove(<thermalexpansion:dynamo>);
 recipes.addShaped("steam dynamo", <thermalexpansion:dynamo>, [
     [null, <thermalfoundation:material:514>, null], 
@@ -300,6 +306,7 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium
 mods.thermalexpansion.InductionSmelter.removeRecipe(<draconicevolution:draconium_ore>, cinnabar);
 mods.thermalexpansion.InductionSmelter.removeRecipe(platinumOre, cinnabar);
 mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:osmaticsteel>, <mekanism:ingot:1>, <appliedenergistics2:material:45>, 1500);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:ironslag>, <rustic:dust_tiny_iron>, <rustic:dust_tiny_iron>, 1000);
 
 /*=========================
 Pulverizer 
@@ -307,7 +314,8 @@ Pulverizer
 mods.thermalexpansion.Pulverizer.removeRecipe(iridiumOre);
 mods.thermalexpansion.Pulverizer.removeRecipe(<draconicevolution:draconium_ore>);
 mods.thermalexpansion.Pulverizer.removeRecipe(platinumOre);
-//mods.thermalexpansion.Pulverizer.removeRecipe(wolframiteOre);
+mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:70> * 2, <thermalfoundation:ore:6>, 4000, <thermalfoundation:material:68>, 10);
+
 
 /*=========================
 Fluid Transposer

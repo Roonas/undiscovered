@@ -1,3 +1,14 @@
+2.12.0
+---------- 
+Added recipe for rustic iron dust in TE alloy smelter
+Fixed some glass crushing recipes in AA crusher
+Added skystone blocks to AA crusher
+Platinum ore can be crushed by TE again
+Fixed typo in AS config. Dark ore should spawn with mineralis/aevitas
+Increased frequency of modded liquids in AS neromantic prime and added new fluids
+Iridium nugget to ingot can be crafted normally again
+
+
 2.11.0
 ---------- 
 Mana nuggets now form into mana infused ingots properly
@@ -9,22 +20,25 @@ Added few items to end chest
 Fixed cobalt not processing properly with mekanism
 Adjusted molten mithril quest and fixed baby thief quest
 Fixed crash with villagers in spirit furnace
-Fixed magneticraft item not useing plate oredict
+Fixed magneticraft item not using plate oredict
 Adjusted a few quest requirements so they unlock at the proper time
 Added environmental accumulator to cardboard box blacklist
 Irradiated iridium can be smelted directly in the furnace
 Made TE energy cell frame much cheaper
 Added recipes to recycle left over stained glass
+Turned off worlds starting with peaceful recipes enabled... whoops
 Mod Updates:
-~Applied Energistics
-~Binnies
-~Cyclops Core
-~Evil Craft
-~Forestry
-~Immersive Engineering
-~Industrial Foregoing
+* Binnies
+* Cyclops Core
+* Evil Craft
+* FastWorkbench
+* Forestry
+* Immersive Engineering (Less lag from IE wire connectors)
+* Industrial Foregoing (Less lag from inactive fluid crafters)
+* The One Probe
+* TOP Addons
 New Mods:
-~Just Enough Petroleum
+* Just Enough Petroleum (Refinery now shows in JEI!)
 
 2.10.1
 ---------- 
