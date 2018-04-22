@@ -65,7 +65,7 @@ var steelBlocks = [
 
 recipes.remove(<thermalexpansion:machine>); //redstone furnace
 recipes.remove(<thermalfoundation:material:71>);
-//recipes.remove(<thermalfoundation:material:135>);
+recipes.remove(<thermalfoundation:material:135>);
 recipes.remove(<thermalexpansion:device:8>); //xp collector
 mods.jei.JEI.removeAndHide(<thermalexpansion:augment:256>); //Redstone furnace augments
 mods.jei.JEI.removeAndHide(<thermalexpansion:augment:257>); 
@@ -276,6 +276,13 @@ recipes.addShaped(<thermaldynamics:relay> * 2, [
     [null, null, null],
     [<ore:nuggetElectrum>, <minecraft:quartz>, <ore:nuggetElectrum>], 
     [<thermalfoundation:material:131>, <minecraft:redstone>, <thermalfoundation:material:131>]
+    ]);
+
+recipes.remove(<thermalexpansion:augment:720>);
+recipes.addShaped(<thermalexpansion:augment:720>, [
+    [null, <jaopca:item_geartungsten>, null],
+    [<ore:plateElectrum>, <thermalfoundation:material:515>, <ore:plateElectrum>], 
+    [null, <minecraft:emerald>, null]
     ]);
 
 

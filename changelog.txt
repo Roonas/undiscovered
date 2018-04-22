@@ -5,8 +5,11 @@ Fixed some glass crushing recipes in AA crusher
 Added skystone blocks to AA crusher
 Platinum ore can be crushed by TE again
 Fixed typo in AS config. Dark ore should spawn with mineralis/aevitas
-Increased frequency of modded liquids in AS neromantic prime and added new fluids
+Increased frequency of modded liquids in AS neromantic prime and added new fluids (only a few will work until AS updates)
 Iridium nugget to ingot can be crafted normally again
+Made lapidary augment slightly cheaper
+Added rewards to a couple quests missing them
+Fixed iridium quest auto claiming
 
 
 2.11.0

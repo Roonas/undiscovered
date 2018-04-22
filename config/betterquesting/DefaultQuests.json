@@ -6699,7 +6699,7 @@
           "questlogic": "OR",
           "partysinglereward": false,
           "snd_update": "minecraft:entity.player.levelup",
-          "autoclaim": true,
+          "autoclaim": false,
           "ismain": true,
           "name": "Charged Metal",
           "desc": "(Only one task needed to complete quest) This rather strange metal seems to difficult to process without a great deal of power used to first excite the metal."
@@ -7119,7 +7119,30 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "calculator:storagemodule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {}
+            },
+            {
+              "id": "calculator:jumpmodule",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "last:4": 251099
+              }
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         114
       ],
@@ -19182,7 +19205,26 @@
           "index": 0
         }
       ],
-      "rewards": [],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "botania:sparkupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "botania:sparkupgrade",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
       "preRequisites": [
         284
       ],
