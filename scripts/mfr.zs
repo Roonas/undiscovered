@@ -156,7 +156,7 @@ recipes.addShaped("mfr furnace gen", <industrialforegoing:petrified_fuel_generat
 /*=========================
 Laser Drill
 =========================*/
-mods.industrialforegoing.LaserDrill.remove(<magneticraft:ores:2>);
+//mods.industrialforegoing.LaserDrill.remove(<magneticraft:ores:2>);
 
 /*=========================
 Sludge Refiner
