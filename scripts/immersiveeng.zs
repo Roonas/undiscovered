@@ -310,7 +310,7 @@ mods.immersiveengineering.AlloySmelter.addRecipe(<contenttweaker:osmaticsteel>, 
 Squeezer
 =========================*/
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:evilcraftblood> * 125, <ore:listAllmeatraw>, 200);
-mods.immersiveengineering.Squeezer.addRecipe(<jaopca:item_platequartzblack> * 4, null, <jaopca:block_blockquartzblack>, 100);
+mods.immersiveengineering.Squeezer.addRecipe(<jaopca:item_platequartzblack> * 4, null, <actuallyadditions:block_misc:2>, 100);
 mods.immersiveengineering.Squeezer.addRecipe(tungstenIngot, null, tungstenNug * 9, 3500);
 mods.immersiveengineering.Squeezer.addRecipe(<advgenerators:iron_frame> * 4, null, <ore:plateIron>, 1500);
 mods.immersiveengineering.Squeezer.addRecipe(<harvestcraft:beeswaxitem>, <fluid:honey> * 1000, <rustic:honeycomb> * 8, 1500);

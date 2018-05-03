@@ -380,11 +380,20 @@ recipes.addShaped("alum pressure plate", <minecraft:heavy_weighted_pressure_plat
 recipes.addShaped("osmium pressure plate", <minecraft:heavy_weighted_pressure_plate>, [
     [<ore:ingotOsmium>, <ore:ingotOsmium>]
     ]);
-
+/*
 //clears fluids, only works with basic 16b tank
 recipes.addShapeless("empty tank evil", <evilcraft:dark_tank>.withTag({capacity: 16000}), [
     <evilcraft:dark_tank>.withTag({capacity: 16000})
     ]);
+*/
+recipes.addShapeless("empty tank evil", <evilcraft:dark_tank>, [
+    <evilcraft:dark_tank>.marked("tank")
+    ],
+    function (out, ins, cInfo) {
+        return out.withTag({capacity: ins.tank.tag.capacity});
+    },
+    function(out,cInfo,player){1;});
+
 
 recipes.addShapeless("empty tank certus", <mob_grinding_utils:tank>, [
     <mob_grinding_utils:tank>

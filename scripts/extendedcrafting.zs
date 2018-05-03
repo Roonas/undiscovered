@@ -88,6 +88,41 @@ mods.extendedcrafting.TableCrafting.addShaped(<output>, [
     [<>, <>, <>, <>, <>, <>, <>]
     ]);  
 =========================*/
+
+//5x5 recipes for 7x7 table
+mods.extendedcrafting.TableCrafting.addShaped(<bibliocraft:bookcasecreative>, [
+    [null, null, null, null, null, null, null], 
+    [null, <bibliocraft:bigbook>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <bibliocraft:slottedbook>, null], 
+    [null, <minecraft:bookshelf>, <bibliocraft:bookcase:*>, <minecraft:enchanted_book>, <bibliocraft:bookcase:*>, <minecraft:bookshelf>, null], 
+    [null, <minecraft:bookshelf>, <bibliocraft:typesettingtable>, <minecraft:enchanted_book>, <bibliocraft:printingpress>, <minecraft:bookshelf>, null], 
+    [null, <minecraft:bookshelf>, <bibliocraft:bookcase:*>, <minecraft:enchanted_book>, <bibliocraft:bookcase:*>, <minecraft:bookshelf>, null], 
+    [null, <bibliocraft:biblioredbook>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <bibliocraft:stockroomcatalog>, null],
+    [null, null, null, null, null, null, null]
+    ]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<waterstrainer:super_worm>, [
+    [null, null, null, null, null, null, null],
+    [null, <waterstrainer:worm>, <waterstrainer:worm>, <minecraft:dirt:2>, <actuallyadditions:item_worm>, <actuallyadditions:item_worm>, null], 
+    [null, <waterstrainer:worm>, <minecraft:diamond_hoe>, <minecraft:dirt:2>, <calculator:flawlessdiamondhoe>, <actuallyadditions:item_worm>, null], 
+    [null, <minecraft:mycelium>, <minecraft:mycelium>, <botany:trowel_diamond>, <sonarcore:reinforceddirtblock>, <sonarcore:reinforceddirtblock>, null], 
+    [null, <actuallyadditions:item_worm>, <silentgems:hoe>, <randomthings:fertilizeddirt>, <actuallyadditions:item_hoe_crystal_light_blue>, <waterstrainer:worm>, null], 
+    [null, <actuallyadditions:item_worm>, <actuallyadditions:item_worm>, <randomthings:fertilizeddirt>, <waterstrainer:worm>, <waterstrainer:worm>, null],
+    [null, null, null, null, null, null, null]
+    ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<thermalcultivation:watering_can:32000>.withTag({Water: 60000, Mode: 4}), [
+    [null, null, null, null, null, null, null],
+    [null, <thermalfoundation:fertilizer:2>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <xreliquary:mob_ingredient:9>, null], 
+    [null, <actuallyadditions:item_misc:23>, <magneticraft:water_generator>, crateSub, <magneticraft:water_generator>, <calculator:broccoliseeds>, null], 
+    [null, <actuallyadditions:item_misc:23>, crateSub, <xreliquary:emperor_chalice>, crateSub, <calculator:broccoliseeds>, null], 
+    [null, <actuallyadditions:item_misc:23>, <magneticraft:water_generator>, crateSub, <magneticraft:water_generator>, <calculator:broccoliseeds>, null], 
+    [null, <xreliquary:mob_ingredient:9>, <rustic:apple_seeds>, <rustic:apple_seeds>, <rustic:apple_seeds>, <thermalfoundation:fertilizer:2>, null],
+    [null, null, null, null, null, null, null]
+    ]);
+
+
+//7x7 recipes
 mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:passivegenerator:6>, [
     [<extrautils2:simpledecorative>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative:1>, <extrautils2:ineffableglass:3>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative>], 
     [<extrautils2:simpledecorative>, <extrautils2:simpledecorative:1>, <extrautils2:passivegenerator>, <extrautils2:passivegenerator>, <extrautils2:passivegenerator>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative>], 
@@ -162,7 +197,123 @@ mods.extendedcrafting.TableCrafting.addShaped(<output>, [
     [<>, <>, <>, <>, <>, <>, <>, <>, <>], 
     [<>, <>, <>, <>, <>, <>, <>, <>, <>]
     ]);  
-=========================*/    
+=========================*/
+
+//5x5 recipes for 9x9 table
+mods.extendedcrafting.TableCrafting.addShaped(<bibliocraft:bookcasecreative>, [
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, <bibliocraft:bigbook>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <bibliocraft:slottedbook>, null, null], 
+    [null, null, <minecraft:bookshelf>, <bibliocraft:bookcase:*>, <minecraft:enchanted_book>, <bibliocraft:bookcase:*>, <minecraft:bookshelf>, null, null], 
+    [null, null, <minecraft:bookshelf>, <bibliocraft:typesettingtable>, <minecraft:enchanted_book>, <bibliocraft:printingpress>, <minecraft:bookshelf>, null, null], 
+    [null, null, <minecraft:bookshelf>, <bibliocraft:bookcase:*>, <minecraft:enchanted_book>, <bibliocraft:bookcase:*>, <minecraft:bookshelf>, null, null], 
+    [null, null, <bibliocraft:biblioredbook>, <minecraft:bookshelf>, <minecraft:bookshelf>, <minecraft:bookshelf>, <bibliocraft:stockroomcatalog>, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null]
+    ]);
+
+
+mods.extendedcrafting.TableCrafting.addShaped(<waterstrainer:super_worm>, [
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, <waterstrainer:worm>, <waterstrainer:worm>, <minecraft:dirt:2>, <actuallyadditions:item_worm>, <actuallyadditions:item_worm>, null, null], 
+    [null, null, <waterstrainer:worm>, <minecraft:diamond_hoe>, <minecraft:dirt:2>, <calculator:flawlessdiamondhoe>, <actuallyadditions:item_worm>, null, null], 
+    [null, null, <minecraft:mycelium>, <minecraft:mycelium>, <botany:trowel_diamond>, <sonarcore:reinforceddirtblock>, <sonarcore:reinforceddirtblock>, null, null], 
+    [null, null, <actuallyadditions:item_worm>, <silentgems:hoe>, <randomthings:fertilizeddirt>, <actuallyadditions:item_hoe_crystal_light_blue>, <waterstrainer:worm>, null, null], 
+    [null, null, <actuallyadditions:item_worm>, <actuallyadditions:item_worm>, <randomthings:fertilizeddirt>, <waterstrainer:worm>, <waterstrainer:worm>, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null]
+    ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<thermalcultivation:watering_can:32000>.withTag({Water: 60000, Mode: 4}), [
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, <thermalfoundation:fertilizer:2>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <minecraft:wheat_seeds>, <xreliquary:mob_ingredient:9>, null, null], 
+    [null, null, <actuallyadditions:item_misc:23>, <magneticraft:water_generator>, crateSub, <magneticraft:water_generator>, <calculator:broccoliseeds>, null, null], 
+    [null, null, <actuallyadditions:item_misc:23>, crateSub, <xreliquary:emperor_chalice>, crateSub, <calculator:broccoliseeds>, null, null], 
+    [null, null, <actuallyadditions:item_misc:23>, <magneticraft:water_generator>, crateSub, <magneticraft:water_generator>, <calculator:broccoliseeds>, null, null], 
+    [null, null, <xreliquary:mob_ingredient:9>, <rustic:apple_seeds>, <rustic:apple_seeds>, <rustic:apple_seeds>, <thermalfoundation:fertilizer:2>, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null]
+    ]);
+
+
+//7x7 recipes for 9x9 table
+mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:passivegenerator:6>, [
+    [null, null, null, null, null, null, null, null, null],
+    [null, <extrautils2:simpledecorative>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative:1>, <extrautils2:ineffableglass:3>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative>, null], 
+    [null, <extrautils2:simpledecorative>, <extrautils2:simpledecorative:1>, <extrautils2:passivegenerator>, <extrautils2:passivegenerator>, <extrautils2:passivegenerator>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative>, null], 
+    [null, <extrautils2:simpledecorative>, <extrautils2:ineffableglass:3>, <extrautils2:passivegenerator:5>, <extrautils2:passivegenerator:7>, <extrautils2:passivegenerator:4>, <extrautils2:ineffableglass:3>, <extrautils2:simpledecorative>, null], 
+    [null, <extrautils2:simpledecorative>, <extrautils2:ineffableglass:3>, <extrautils2:suncrystal>, <minecraft:dragon_egg>, <extrautils2:suncrystal>, <extrautils2:ineffableglass:3>, <extrautils2:simpledecorative>, null], 
+    [null, <extrautils2:simpledecorative>, <extrautils2:ineffableglass:3>, <extrautils2:passivegenerator:3>, <extrautils2:passivegenerator:8>, <extrautils2:passivegenerator:2>, <extrautils2:ineffableglass:3>, <extrautils2:simpledecorative>, null], 
+    [null, <extrautils2:simpledecorative>, <extrautils2:simpledecorative:1>, <extrautils2:passivegenerator:1>, <extrautils2:passivegenerator:1>, <extrautils2:passivegenerator:1>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative>, null], 
+    [null, <extrautils2:simpledecorative>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative:1>, <extrautils2:ineffableglass:3>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative:1>, <extrautils2:simpledecorative>, null],
+    [null, null, null, null, null, null, null, null, null]
+    ]);  
+
+mods.extendedcrafting.TableCrafting.addShaped(<storagedrawers:upgrade_creative>, [
+    [null, null, null, null, null, null, null, null, null],
+    [null, <storagedrawers:upgrade_template>, <storagedrawers:upgrade_template>, <storagedrawers:basicdrawers>, <storagedrawers:basicdrawers>, <storagedrawers:basicdrawers>, <storagedrawers:upgrade_template>, <storagedrawers:upgrade_template>, null], 
+    [null, <storagedrawers:upgrade_template>, <storagedrawers:tape>, <actuallyadditions:block_giant_chest_large>, <actuallyadditions:block_giant_chest_large>, <actuallyadditions:block_giant_chest_large>, <storagedrawers:tape>, <storagedrawers:upgrade_template>, null], 
+    [null, <storagedrawers:basicdrawers>, <industrialforegoing:black_hole_unit>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:compdrawers>, <storagedrawers:basicdrawers>, null], 
+    [null, <storagedrawers:basicdrawers>, <industrialforegoing:black_hole_unit>, <storagedrawers:upgrade_storage:4>, <ironchest:iron_chest:5>, <storagedrawers:upgrade_storage:4>, <storagedrawers:compdrawers>, <storagedrawers:basicdrawers>, null], 
+    [null, <storagedrawers:basicdrawers>, <industrialforegoing:black_hole_unit>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:upgrade_storage:4>, <storagedrawers:compdrawers>, <storagedrawers:basicdrawers>, null], 
+    [null, <storagedrawers:upgrade_template>, <storagedrawers:tape>, <binniecore:storage:5>, <binniecore:storage:5>, <binniecore:storage:5>, <storagedrawers:tape>, <storagedrawers:upgrade_template>, null], 
+    [null, <storagedrawers:upgrade_template>, <storagedrawers:upgrade_template>, <storagedrawers:basicdrawers>, <storagedrawers:basicdrawers>, <storagedrawers:basicdrawers>, <storagedrawers:upgrade_template>, <storagedrawers:upgrade_template>, null],
+    [null, null, null, null, null, null, null, null, null]
+    ]); 
+
+mods.extendedcrafting.TableCrafting.addShaped(<extrautils2:angelring>, [
+    [null, null, null, null, null, null, null, null, null],
+    [null, <xreliquary:ender_staff>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <silentgems:craftingmaterial:17>, <xreliquary:angelic_feather>, null], 
+    [null, <silentgems:craftingmaterial:18>, <actuallyadditions:item_wings_of_the_bats>, <actuallyadditions:block_misc:6>, elytra, <actuallyadditions:block_misc:6>, <rftools:flight_module>, <silentgems:craftingmaterial:18>, null], 
+    [null, <silentgems:craftingmaterial:18>, <actuallyadditions:block_misc:6>, liquidGlowstoneCan, liquidGlowstoneCan, liquidGlowstoneCan, <actuallyadditions:block_misc:6>, <silentgems:craftingmaterial:18>, null], 
+    [null, <silentgems:craftingmaterial:18>, <openglider:hang_glider_basic>, liquidGlowstoneCan, <botania:flighttiara>, liquidGlowstoneCan, <grapplemod:hookshot>, <silentgems:craftingmaterial:18>, null], 
+    [null, <silentgems:craftingmaterial:18>, <actuallyadditions:block_misc:6>, liquidGlowstoneCan, liquidGlowstoneCan, liquidGlowstoneCan, <actuallyadditions:block_misc:6>, <silentgems:craftingmaterial:18>, null], 
+    [null, <silentgems:craftingmaterial:18>, flightRune, <actuallyadditions:block_misc:6>, <mekanism:jetpack>, <actuallyadditions:block_misc:6>, <evilcraft:broom>, <silentgems:craftingmaterial:18>, null], 
+    [null, <grapplemod:repeller>, <randomthings:plate_bouncy>, <randomthings:plate_bouncy>, <randomthings:plate_bouncy>, <randomthings:plate_bouncy>, <randomthings:plate_bouncy>, <grapplemod:launcheritem>, null],
+    [null, null, null, null, null, null, null, null, null]
+    ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<evilcraft:creative_blood_drop>, [
+    [null, null, null, null, null, null, null, null, null],
+    [null, <evilcraft:blood_orb:1>, <evilcraft:garmonbozia>, <evilcraft:garmonbozia>, ironDrumBlood, <evilcraft:garmonbozia>, <evilcraft:garmonbozia>, <evilcraft:blood_orb:1>, null], 
+    [null, <evilcraft:blood_infusion_core>, <evilcraft:vengeance_essence>, <evilcraft:vengeance_essence>, <evilcraft:inverted_potentia:1>, <evilcraft:vengeance_essence>, <evilcraft:vengeance_essence>, <evilcraft:blood_infusion_core>, null], 
+    [null, <evilcraft:bowl_of_promises:5>, <evilcraft:vengeance_essence>, <evilcraft:corrupted_tear>, <evilcraft:corrupted_tear>, <evilcraft:corrupted_tear>, <evilcraft:vengeance_essence>, <evilcraft:bowl_of_promises:5>, null], 
+    [null, <evilcraft:bowl_of_promises:5>, <evilcraft:promise_acceptor:2>, <evilcraft:promise:3>, <evilcraft:piercing_vengeance_focus>, <evilcraft:promise:4>, <evilcraft:promise_acceptor:2>, <evilcraft:bowl_of_promises:5>, null], 
+    [null, <evilcraft:bowl_of_promises:5>, <evilcraft:vengeance_essence>, <evilcraft:corrupted_tear>, <evilcraft:corrupted_tear>, <evilcraft:corrupted_tear>, <evilcraft:vengeance_essence>, <evilcraft:bowl_of_promises:5>, null], 
+    [null, <evilcraft:blood_infusion_core>, <evilcraft:vengeance_essence>, <evilcraft:vengeance_essence>, <evilcraft:inverted_potentia:1>, <evilcraft:vengeance_essence>, <evilcraft:vengeance_essence>, <evilcraft:blood_infusion_core>, null], 
+    [null, <evilcraft:blood_orb:1>, <evilcraft:garmonbozia>, <evilcraft:garmonbozia>, ironDrumBlood, <evilcraft:garmonbozia>, <evilcraft:garmonbozia>, <evilcraft:blood_orb:1>, null],
+    [null, null, null, null, null, null, null, null, null]
+    ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(<contenttweaker:solidheart>, [
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null, null], 
+    [null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null], 
+    [null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null], 
+    [null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <draconicevolution:dragon_heart>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null], 
+    [null, null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null, null], 
+    [null, null, null, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, null, null, null], 
+    [null, null, null, null, <immersiveengineering:stone_decoration:5>, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null]
+    ]);
+
+mods.extendedcrafting.TableCrafting.remove(<extendedcrafting:material:24>); 
+mods.extendedcrafting.TableCrafting.addShaped(<extendedcrafting:material:24>, [
+    [null, null, null, null, null, null, null, null, null],
+    [null, <jaopca:item_platediamond>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <jaopca:item_platediamond>, null], 
+    [null, <jaopca:item_platediamond>, <extendedcrafting:material:140>, <silentgems:craftingmaterial:30>, <astralsorcery:itemcraftingcomponent:1>, <silentgems:craftingmaterial:30>, <extendedcrafting:material:140>, <jaopca:item_platediamond>, null], 
+    [null, <jaopca:item_platediamond>, <extendedcrafting:material:140>, <randomthings:ingredient:3>, <astralsorcery:itemcraftingcomponent:1>, <randomthings:ingredient:3>, <extendedcrafting:material:140>, <jaopca:item_platediamond>, null], 
+    [null, <jaopca:item_platediamond>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <actuallyadditions:item_crystal_empowered:1>, <jaopca:item_platediamond>, null], 
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null],
+    [null, null, null, null, null, null, null, null, null]
+    ]);  
+
+
+//9x9 recipes    
 mods.extendedcrafting.TableCrafting.addShaped(<botania:pool:1>, [
     [<ore:runeWaterB>, <botania:storage:3>, <botania:storage:3>, <botania:storage:3>, <ore:runeSpringB>, <botania:storage:3>, <botania:storage:3>, <botania:storage:3>, <ore:runeFireB>], 
     [<botania:storage:4>, <botania:storage:1>, <botania:storage>, <botania:storage>, <ore:runeLustB>, <botania:storage>, <botania:storage>, <botania:storage:1>, <botania:storage:4>], 

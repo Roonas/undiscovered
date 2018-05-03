@@ -122,8 +122,8 @@ recipes.addShaped(<mekanism:basicblock:11>, [
 /*=========================
 Crusher
 =========================*/
-//mods.mekanism.crusher.removeRecipe(<thermalfoundation:ore:7>);
-//mods.mekanism.crusher.removeRecipe(<draconicevolution:draconium_ore>);
+mods.mekanism.crusher.removeRecipe(<mekanism:otherdust:6>);
+mods.mekanism.crusher.addRecipe(<mekanism:ingot>, <mekanism:otherdust:5>);
 mods.mekanism.crusher.addRecipe(<contenttweaker:osmaticsteelore>, <contenttweaker:osmaticsteeldust> * 2);
 
 

@@ -55,10 +55,6 @@ recipes.addShaped("aa drill", <actuallyadditions:item_drill:3>, [
     [<immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>]
     ]);
 
-recipes.addShapeless("b quartz from block", <actuallyadditions:item_misc:5> * 4, [
-    <actuallyadditions:block_misc:2>
-    ]);
-
 recipes.remove(<actuallyadditions:item_wings_of_the_bats>);
 recipes.addShaped("wing of bat", <actuallyadditions:item_wings_of_the_bats>, [
     [<thermalfoundation:material:895>, <actuallyadditions:item_misc:15>, <thermalfoundation:material:895>], 
@@ -134,7 +130,21 @@ recipes.addShaped(<actuallyadditions:item_laser_wrench>, [
     [null, null, <actuallyadditions:item_crystal:5>]
     ]);
 
+recipes.remove(<actuallyadditions:block_misc:2>);
+recipes.addShaped(<actuallyadditions:block_misc:2>, [
+    [<actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>],
+    [<actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>], 
+    [<actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>, <actuallyadditions:item_misc:5>]
+    ]);
 
+
+recipes.removeShapeless(<actuallyadditions:block_misc:2>, [
+    <actuallyadditions:item_misc:5>*4
+    ]);
+
+recipes.addShapeless(<actuallyadditions:item_misc:5>*9, [
+    <actuallyadditions:block_misc:2>
+    ]);
 
 /*=========================
 Crusher

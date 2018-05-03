@@ -14,7 +14,7 @@ mods.jei.JEI.removeAndHide(<calculator:storagechamber>);
 <calculator:electricpickaxe>.addTooltip("Cobalt Level");
 <calculator:handcrankedgenerator>.addTooltip("Generates: 4 rf/t");
 <calculator:powercube>.addTooltip(format.red("Does not output power"));
-mods.jei.JEI.addDescription(<calculator:starchextractor>, ["Produces rf when provided with caol and starch. Source of starch include:", "Saplings", "Leaves", "Vanilla & Calculator Crops", "Vanilla & Calculator Fruits", "Vanilla & Calculator Seeds"]);
+mods.jei.JEI.addDescription(<calculator:starchextractor>, ["Produces rf when provided with coal and starch. Source of starch include:", "Saplings", "Leaves", "Vanilla & Calculator Crops", "Vanilla & Calculator Fruits", "Vanilla & Calculator Seeds"]);
 
 
 /*=========================
