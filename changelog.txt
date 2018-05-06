@@ -6,11 +6,15 @@ Remove unused geode recipe
 Fix evilcraft clearing recipe (thanks Xavion)
 Mek crusher now turns refined obsidian to refined obsidian dust
 Make it so there is only one mod adding blocks of black quartz
+Removed unused liquid silver recipe
+Added recipe for clearing fluid from mek tank (including creative)
 
 Mod Updates:
- * Astral Sorcery (Bug fix bonanza) (But maybe not, new nbt adding bug)
- * Industrial Foregoing
- ~ruins mod? (check for debug stick config)
+* Astral Sorcery (Bug fix bonanza)
+* Evil Craft (fixes blood stain blocks crashing)
+* Industrial Foregoing
+* Magneticraft (new stuff and copper coil fixes)
+* Ruins
 
 2.12.0
 ---------- 

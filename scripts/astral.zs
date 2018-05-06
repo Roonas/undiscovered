@@ -31,7 +31,7 @@ recipes.addShapeless("starmetal ingot3", <astralsorcery:itemcraftingcomponent:1>
 Light Well
 =========================*/
 //mods.astralsorcery.Lightwell.addLiquefaction(<minecraft:iron_ingot>, <liquid:ironwine>, 1, 0.5, 0);
-mods.astralsorcery.Lightwell.addLiquefaction(silverIngot, <liquid:silver>, 0.7, 12, 0);
+//mods.astralsorcery.Lightwell.addLiquefaction(silverIngot, <liquid:silver>, 0.7, 12, 0);
 mods.astralsorcery.Lightwell.addLiquefaction(platinumIngot, <liquid:platinum>, 0.7, 12, 0);
 mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:irradiated_iridium>, <liquid:iridium>, 0.7, 12, 0);
 mods.astralsorcery.Lightwell.addLiquefaction(<contenttweaker:rotten_pot_block>, <liquid:binnie.vodka>, 0.50, 10, 599919);

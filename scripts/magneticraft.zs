@@ -171,7 +171,7 @@ recipes.addShaped(<magneticraft:copper_coil>, [
     ]);
 
 recipes.remove(<magneticraft:crafting:2>);
-recipes.addShaped(<magneticraft:crafting:2>, [
+recipes.addShaped(<magneticraft:crafting:2>*2, [
     [<ore:ingotLead>, <ore:plateIron>, <ore:nuggetCopper>],
     [<magneticraft:copper_coil>, <minecraft:redstone>, <ore:ingotIron>], 
     [<ore:ingotLead>, <ore:plateIron>, <ore:nuggetCopper>]
@@ -211,7 +211,7 @@ mods.magneticraft.CrushingTable.removeRecipe(<contenttweaker:osmaticsteelore>);
 mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:2>);
 mods.magneticraft.CrushingTable.removeRecipe(<magneticraft:ores:3>);
 mods.magneticraft.CrushingTable.removeRecipe(<mekanism:oreblock>);
-mods.magneticraft.CrushingTable.removeRecipe(<minecraft:sandstone>);
+//mods.magneticraft.CrushingTable.removeRecipe(<minecraft:sandstone>);
 mods.magneticraft.CrushingTable.addRecipe(<contenttweaker:osmaticsteelore>, <contenttweaker:osmaticsteeldust>, false);
 mods.magneticraft.CrushingTable.addRecipe(<minecraft:sandstone>, <minecraft:sand>, false); 
 mods.magneticraft.CrushingTable.addRecipe(<minecraft:red_sandstone>, <minecraft:sand:1>, false);

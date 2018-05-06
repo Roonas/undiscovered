@@ -380,12 +380,7 @@ recipes.addShaped("alum pressure plate", <minecraft:heavy_weighted_pressure_plat
 recipes.addShaped("osmium pressure plate", <minecraft:heavy_weighted_pressure_plate>, [
     [<ore:ingotOsmium>, <ore:ingotOsmium>]
     ]);
-/*
-//clears fluids, only works with basic 16b tank
-recipes.addShapeless("empty tank evil", <evilcraft:dark_tank>.withTag({capacity: 16000}), [
-    <evilcraft:dark_tank>.withTag({capacity: 16000})
-    ]);
-*/
+
 recipes.addShapeless("empty tank evil", <evilcraft:dark_tank>, [
     <evilcraft:dark_tank>.marked("tank")
     ],
@@ -393,16 +388,32 @@ recipes.addShapeless("empty tank evil", <evilcraft:dark_tank>, [
         return out.withTag({capacity: ins.tank.tag.capacity});
     },
     function(out,cInfo,player){1;});
+    
+recipes.addShapeless("empty mek tank", <mekanism:machineblock2:11>, [
+    <mekanism:machineblock2:11>.marked("tank")
+    ],
+    function (out, ins, cInfo) {
+        return out.withTag({tier: ins.tank.tag.tier});
+    },
+    function(out,cInfo,player){1;});
 
 
 recipes.addShapeless("empty tank certus", <mob_grinding_utils:tank>, [
     <mob_grinding_utils:tank>
     ]);
+/*
+recipes.addShapeless("empty te tank", <thermalexpansion:tank>, [
+    <thermalexpansion:tank>.marked("tank")
+    ],
+    function (out, ins, cInfo) {
+        return out.withTag({Level: ins.tank.tag.Level});
+    },
+    function(out,cInfo,player){1;});
 
 recipes.addShapeless("empty tank portable", <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 0 as byte}), [
     <thermalexpansion:tank>.withTag({RSControl: 0 as byte, Creative: 0 as byte, Level: 0 as byte})
     ]);
-/*seems broke, upper tiers worked here as well
+seems broke, upper tiers worked here as well
 recipes.addShapeless("empty tank mek", <mekanism:machineblock2:11>.withTag({tier: 0}), [
     <mekanism:machineblock2:11>.withTag({tier: 0})
     ]);
