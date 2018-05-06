@@ -334,7 +334,14 @@ game.setLocalization("en_us", "item.magneticraft.dusts_zinc.name", "Zinc Concent
 game.setLocalization("en_us", "item.magneticraft.dusts_osmium.name", "Osmium Concentrate");
 game.setLocalization("en_us", "item.magneticraft.dusts_nickel.name", "Nickel Concentrate");
 
+//Readd magneticraft plates to oredict
+<ore:plateIron>.add(<magneticraft:light_plates>);
+<ore:plateGold>.add(<magneticraft:light_plates:1>);
+<ore:plateCopper>.add(<magneticraft:light_plates:2>);
+<ore:plateLead>.add(<magneticraft:light_plates:3>);
+<ore:plateSteel>.add(<magneticraft:light_plates:6>);
 
+//Random ore dict additions
 <ore:oreFoolsGold>.add(<magneticraft:ores:4>);
 <ore:gemBrick>.add(<silentgems:gembrickcoated:*>);
 <ore:gemBrick>.add(<silentgems:gembrickcoateddark:*>);
