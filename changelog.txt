@@ -1,3 +1,11 @@
+2.14.0
+----------
+Fixed almond butter recipe conflict
+Tungsten plate can be made in IE press again
+Minor quest book typo fix
+
+
+
 2.13.1
 ---------- 
 Fixed magneticraft plates missing their oredict tags

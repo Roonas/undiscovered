@@ -418,3 +418,8 @@ recipes.addShapeless("empty tank mek", <mekanism:machineblock2:11>.withTag({tier
     <mekanism:machineblock2:11>.withTag({tier: 0})
     ]);
 */
+
+recipes.remove(<harvestcraft:almondbutteritem>);
+recipes.addShapeless(<harvestcraft:almondbutteritem>, [
+    <harvestcraft:potitem>, <extratrees:food:9>
+    ]);

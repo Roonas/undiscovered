@@ -22953,7 +22953,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Transforming Stone",
-          "desc": "Stone placed near the marimorphosis will transform into a random biome variation. The stone is 12 times more likely to transform into the biome variant where is it placed. "
+          "desc": "Stone placed near the marimorphosis will transform into a random biome variation. The stone is 12 times more likely to transform into the biome variant matching the biome where it is placed. "
         }
       },
       "tasks": [
