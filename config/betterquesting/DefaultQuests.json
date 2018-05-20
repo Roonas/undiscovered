@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 10,
       "home_anchor_x": 0.5,
-      "editmode": false,
+      "editmode": true,
       "hardcore": false,
       "home_image": "undiscovered:/textures/gui/un_title.png",
       "home_offset_x": -128,
@@ -23103,7 +23103,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "City Block",
-          "desc": "The lost city dimension is almost entirely filled with cities without damage. Great for looting or finding ores that don\u0027t generate in the overworld. Created by placing a bed on top of 2 empowered restonia blocks and surrounding the bed with 6 skulls. "
+          "desc": "   The lost city dimension is almost entirely filled with cities without damage. Great for looting or finding ores that don\u0027t generate in the overworld. Created by placing a bed on top of 2 empowered restonia blocks and surrounding the bed with 6 skulls. \n   Be sure to bring the materials to create a second portal with you, or another method of returning home. "
         }
       },
       "tasks": [

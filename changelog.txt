@@ -3,6 +3,27 @@
 Fixed almond butter recipe conflict
 Tungsten plate can be made in IE press again
 Minor quest book typo fix
+Added warning to lost city dim quest so players don't get stuck in the new dim
+Fixed LC profiles not using generator options (Thanks psion)
+Added TE oil to accecpted inputs to the Immersive Petroleum distilation tower
+
+Forge Updated to 2655 (should fix TE recipes not showing in JEI)
+Mod Updates:
+Actually Addition 34->35
+Botania 353->354
+Binnie's 160->165
+FastWorkbench 
+Foamfix 9.5->9.9.1
+Forestry 264->291
+Grappling Hook Mod
+Immersive Eng 80->82
+JEI 159->179
+Mekanism 330->345
+Mekanism Gens 330->345
+Xnet 1.6.7->1.6.9
+
+Mod Downgrade:
+Astral Sorcery 1.8.9->1.8.5 (Fixes AS breaking some CT recipes)
 
 
 
