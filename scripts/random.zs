@@ -22,8 +22,13 @@ mods.jei.JEI.addDescription(<liquid:diesel>, "Created by processing oil in an Im
 mods.jei.JEI.addDescription(<akashictome:tome>, "Can hold many different books and journals together when combined in a crafting grid. Right click to morph book, left click to revert held book back to tome.");
 mods.jei.JEI.addDescription(<harvestcraft:well>, "Infinite water, cannot be piped out.");
 mods.jei.JEI.addDescription(<contenttweaker:butterflyspray>, "Kills all butterflies in the world.");
-mods.jei.JEI.hide(<contenttweaker:mthand>);
 mods.jei.JEI.addDescription(<harvestcraft:waterfilter>, "Needs to be surrounded on 5 sides by water and filled with woven cloth");
+mods.jei.JEI.hide(<contenttweaker:mthand>);
+mods.jei.JEI.addItem(<psi:psi_decorative:1>);
+mods.jei.JEI.addItem(<psi:psi_decorative:2>);
+mods.jei.JEI.addItem(<psi:psi_decorative:7>);
+mods.jei.JEI.addItem(<psi:psi_decorative:8>);
+
 
 
 <ore:brokenPlate>.add(<scrap:broken.plate:*>);

@@ -46,9 +46,9 @@ recipes.addShaped("prc", <mekanism:machineblock2:10>, [
 
 recipes.remove(<mekanism:machineblock2:8>);
 recipes.addShaped("chemical crystallizer", <mekanism:machineblock2:8>, [
-    [<mekanism:controlcircuit:2>, <mekanism:gastank>.withTag({tier: 1}), <mekanism:controlcircuit:2>], 
+    [<mekanism:controlcircuit:2>, <mekanism:gastank>, <mekanism:controlcircuit:2>], 
     [<mekanism:atomicalloy>, <contenttweaker:obsidiancase>, <mekanism:atomicalloy>], 
-    [<mekanism:controlcircuit:2>, <mekanism:gastank>.withTag({tier: 1}), <mekanism:controlcircuit:2>]
+    [<mekanism:controlcircuit:2>, <mekanism:gastank>, <mekanism:controlcircuit:2>]
     ]);
 
 recipes.remove(<mekanism:machineblock3:3>);
